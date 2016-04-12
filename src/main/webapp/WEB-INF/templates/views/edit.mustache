@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Colloquial WordNet Editor - Editing</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1>Edit Entry</h1>
+            </div>
+            <div class="row">
+                <form>
+                    <div class="form-group">
+                        <label for="lemma">Lemma</label>
+                        <input type="text" class="form-control"
+                               id="lemma" name="lemma" value="{{lemma}}"/>
+                    </div>
+                    <div class="form-group">
+                        {{#examples}}
+                            <p>{{text}}</p>
+                        {{/examples}}
+                    </div>
+                    <div class="form-group">
+                        <label for="status">Status</label>
+                        <div class="radio"><label>
+                        <input type="radio" name="status"
+                            value="general"/>General</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="status"
+                            value="novel"/>Novel</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="status"
+                            value="vulgar"/>Vulgar</label></div>
+                    </div>
+                    {{#senses}}
+                    <h3>Sense {{id}}</h3>
+                    <div class="form-group">
+                        <label for="definition{{id}}">Definition</label>
+                        <input type="text" class="form-control"
+                               id="definition{{id}}" name="definition{{id}}" value="{{definition}}"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="synonym{{id}}">Synonym</label>
+                        <input type="text" class="form-control"
+                               id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}"/>
+                    </div>
+                    <div class="form-group">
+                    {{#relations}} 
+                        <table style="width:100%;" id="relTable{{id}}">
+                            <tr>
+                                <th style="margin-right:10px;">Relation</th>
+                                <th>Target</th>
+                            </tr>
+                            <tr>
+                                <td>                     
+                        <input type="text" class="form-control"
+                               id="relType{{id}}-{{relNo}}"
+                               name="relType{{id}}-{{relNo}}"
+                               value="{{type}}"/>
+                                </td>
+                                <td>
+                        <input type="text" class="form-control"
+                               id="relTarget{{id}}-{{relNo}}"
+                               name="relTarget{{id}}-{{relNo}}"
+                               value="{{target}}"/>
+                                </td>
+                            </tr>
+                        </table>
+                        <script>relNos[{{id}}] = {{relNo}};</script>
+                    {{/relations}}
+                    </div>
+                    <div>
+                        <button class="btn btn-success" type="button" onclick="addrel({{id}})">Add relation</button>
+                    </div>
+                    {{/senses}}
+                    <div>
+                        <button class="btn btn-success" type="button" onclick="alert('addsense')">Add sense</button>
+                        <input type="submit" class="btn btn-default" value="Submit"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

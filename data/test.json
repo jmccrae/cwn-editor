@@ -1,6 +1,6 @@
 {
     "lemma": "test",
-    "status": "",
+    "status": "novel",
     "examples": [{"text": "foo, bar"}],
     "senses": [{
         "definition": "Test definition",

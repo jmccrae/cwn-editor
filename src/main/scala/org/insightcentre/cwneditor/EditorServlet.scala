@@ -15,6 +15,24 @@ object CWNEditorJsonProtocol extends DefaultJsonProtocol {
 class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     import CWNEditorJsonProtocol._
 
+    def urldecode(s : String) = java.net.URLDecoder.decode(s, "UTF-8")
+
+    lazy val wordnet = new WordNet()
+
+    get("/wn/:key") {
+      val k = urldecode(params("key"))
+      if(k.length >= 3) {
+        val results = wordnet.data.find(k)
+        contentType = "application/javascript"
+        "[" + results.map({ result =>
+          s""""${result.word}: ${result.definition.replaceAll("\\\"","'")} <${result.ili}>""""
+        }).mkString(",") + "]"
+      } else {
+        ""
+      }
+
+    }
+
     get("/edit/:id") {
         val f = new File("data/%s.json" format params("id"))
         if(!f.exists) {

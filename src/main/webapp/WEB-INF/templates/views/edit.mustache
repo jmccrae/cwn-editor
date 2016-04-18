@@ -67,20 +67,48 @@
                             </tr>
                             <tr>
                                 <td>                     
-                        <input type="text" class="form-control"
+                        <select class="s2-basic"
                                id="relType{{id}}-{{relNo}}"
                                name="relType{{id}}-{{relNo}}"
-                               value="{{type}}"/>
+                               value="{{type}}">
+                            <option value="hypernym">Hypernym (broader)</option>
+                            <option value="hyponym">Hypernym (narrower)</option>
+                            <option value="instance_hypernym">Instance of (hypernym)</option>
+                            <option value="instance_hyponym">Has instance (hyponym)</option>
+                            <option value="antonym">Antonym (opposite)</option>
+                            <option value="emotion">Shows emotion</option>
+                            <option value="derivation">Derived from (linguistically)</option>
+                            <option value="loanword">Loanword from this language</option>
+                            <option value="involved">Involved in</option>
+                            <option value="also">See also</option>
+                            <option value="causes">Causes</option>
+                            <option value="domain_region">Region</option>
+                            <option value="domain_topic">Topic</option>
+                            <option value="domain_usage">Usage</option>
+                            <option value="similar">Similar to</option>
+                            <option value="mero_location">Meronym location (sub-location)</option>
+                            <option value="mero_member">Meronym member (is member of)</option>
+                            <option value="mero_part">Meronym part (is component of)</option>
+                            <option value="mero_portion">Meronym portion (is division of)</option>
+                            <option value="mero_substance">Meronym substance (is made of)</option>
+                            <option value="holo_location">Holonym location (containing location)</option>
+                            <option value="holo_member">Holonym member (is group of)</option>
+                            <option value="holo_part">Holonym part (is composed of)</option>
+                            <option value="holo_portion">Holonym portion (divides into)</option>
+                            <option value="holo_substance">Holonym substance (substance of)</option>
+                        </select>
                                 </td>
                                 <td>
+                        <div class="ui-widget">
                         <input type="text" class="form-control"
                                id="relTarget{{id}}-{{relNo}}"
                                name="relTarget{{id}}-{{relNo}}"
                                value="{{target}}"/>
+                        </div>
                                 </td>
                             </tr>
                         </table>
-                        <script>relNos[{{id}}] = {{relNo}};</script>
+                        <script>relNos[{{id}}] = {{relNo}};wncomplete('#relTarget{{id}}-{{relNo}}');</script>
                     {{/relations}}
                     </div>
                     <div>
@@ -89,14 +117,9 @@
                     {{/senses}}
 <script type="text/javascript">
 $(document).ready(function() {
-  $('.js-example-basic-single').select2();
+  $('.s2-basic').select2();
 });
 </script>
-
-<select class="js-example-basic-single">
-  <option value="AL">Alabama</option>
-  <option value="WY">Wyoming</option>
-</select>
                     <div>
                         <button class="btn btn-success" type="button" onclick="alert('addsense')">Add sense</button>
                         <input type="submit" class="btn btn-default" value="Submit"/>

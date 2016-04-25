@@ -8,7 +8,7 @@
                 <h1>Edit Entry</h1>
             </div>
             <div class="row">
-                <form>
+                <form action="/update/{{entry}}">
                     <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"
@@ -59,12 +59,12 @@
                                id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}"/>
                     </div>
                     <div class="form-group">
-                    {{#relations}} 
                         <table style="width:100%;" id="relTable{{id}}">
                             <tr>
                                 <th style="margin-right:10px;">Relation</th>
                                 <th>Target</th>
                             </tr>
+                    {{#relations}} 
                             <tr>
                                 <td>                     
                         <select class="s2-basic"
@@ -107,9 +107,9 @@
                         </div>
                                 </td>
                             </tr>
-                        </table>
                         <script>relNos[{{id}}] = {{relNo}};wncomplete('#relTarget{{id}}-{{relNo}}');</script>
                     {{/relations}}
+                        </table>
                     </div>
                     <div>
                         <button class="btn btn-success" type="button" onclick="addrel({{id}})">Add relation</button>
@@ -120,8 +120,8 @@ $(document).ready(function() {
   $('.s2-basic').select2();
 });
 </script>
-                    <div>
-                        <button class="btn btn-success" type="button" onclick="alert('addsense')">Add sense</button>
+                    <div id="submitDiv">
+                        <button class="btn btn-success" type="button" onclick="addsense()">Add sense</button>
                         <input type="submit" class="btn btn-default" value="Submit"/>
                     </div>
                 </form>

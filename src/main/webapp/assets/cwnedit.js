@@ -67,6 +67,23 @@ function addsense() {
     relNos[id] = 0;
     var cont = `<h3>Sense {{id}}</h3>
                     <div class="form-group">
+                        <label for="pos{{id}}">Part of Speech</label>
+                        <div class="radio"><label>
+                        <input type="radio" name="pos{{id}}"
+                            value="n"/>Noun</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="pos{{id}}"
+                            value="v"/>Verb</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="pos{{id}}"
+                            value="a"/>Adjective</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="pos{{id}}"
+                            value="r"/>Adverb</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="pos{{id}}"
+                            value="x"/>Other</label></div>
+                    </div><div class="form-group">
                         <label for="definition{{id}}">Definition</label>
                         <input type="text" class="form-control"
                                id="definition{{id}}" name="definition{{id}}" value=""/>

@@ -3,6 +3,7 @@
     "status": "novel",
     "examples": [{"text": "foo, bar"}],
     "senses": [{
+        "pos": "n",
         "definition": "Test definition",
         "synonym": "",
         "id": 1,

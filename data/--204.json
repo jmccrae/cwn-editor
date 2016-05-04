@@ -21,12 +21,20 @@
   }, {
     "text": "No no i'm ok , no need to overthink bcos overthink can kill me inside "
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "think: decide by pondering, reasoning, or reflecting; 'Can you think what to do next?' <i25397>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "think: decide by pondering, reasoning, or reflecting; 'Can you think what to do next?' <i25397>",
+      "relNo": 1
+    }],
+    "definition": "to spend to much time considering something and thus reach the wrong conclusion"
   }]
 }

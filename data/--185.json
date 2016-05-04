@@ -21,17 +21,17 @@
   }, {
     "text": "No it's not , & amp ; shouldn't be . But it's in sever"
   }],
-  "status": "",
+  "status": "error",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "13658855-n (the basic unit of electric current adopted under the Systeme International d'Unites; \\\"\"a typical household circuit carries 15 to 50 amps\\\"\"",
     "id": 1,
     "relations": [{
-      "type": "none",
+      "type": "hypernym",
       "target": "current=00669281-a (occurring in or belonging to the present time; \\\"\"current events\\\"\"; \\\"\"the current topic\\\"\"; \\\"\"current negotiations\\\"\"; \\\"\"current psychoanalytic theories\\\"\"; \\\"\"the ship's current position\\\"\");07421365-n (a steady flow of a fluid (usually from natural causes); \\\"\"the raft floated downstream on the current\\\"\"; \\\"\"he felt a stream of air\\\"\"; \\\"\"the hose ejected a stream of water\\\"\");08478606-n (dominant course (suggestive of running water) of successive events or ideas; \\\"\"two streams of development run through American history\\\"\"; \\\"\"stream of consciousness\\\"\"; \\\"\"the flow of thought\\\"\"; \\\"\"the current of history\\\"\");11463628-n (a flow of electricity through a conductor; \\\"\"the current was measured in amperes\\\"\"",
       "relNo": 0
     }, {
-      "type": "none",
+      "type": "hypernym",
       "target": "ampere=13658855-n (the basic unit of electric current adopted under the Systeme International d'Unites; \\\"\"a typical household circuit carries 15 to 50 amps\\\"\");13659320-n (a former unit of electric current (slightly smaller than the SI ampere)",
       "relNo": 1
     }],

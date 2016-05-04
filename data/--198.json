@@ -21,9 +21,9 @@
   }, {
     "text": "try init wayland 2 . if fail init x11 2 . if that fail try EGL +"
   }],
-  "status": "",
+  "status": "error",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

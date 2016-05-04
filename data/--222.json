@@ -21,12 +21,24 @@
   }, {
     "text": "BROMANCE"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "relationship: a relation between people; (`relationship' is often used where `relation' would serve, as in `the relationship between inflation and unemployment', but the preferred usage of `relationship' is for human relations or states of relatedness); 'the relationship between mothers and their children' <i109329>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "romance: a relationship between two lovers <i110153>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "brother: a close friend who accompanies his buddies in their activities <i88718>",
+      "relNo": 1
+    }],
+    "definition": "non-sexual but intense relationship between two men"
   }]
 }

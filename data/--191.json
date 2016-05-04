@@ -21,9 +21,9 @@
   }, {
     "text": "Bitcoin , litecoin , dogecoin , altcoin . No bitcoin ATM in Sout"
   }],
-  "status": "",
+  "status": "name",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

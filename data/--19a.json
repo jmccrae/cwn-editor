@@ -10,11 +10,11 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "subscribe=02214527-v",
+      "target": "subscribe: receive or obtain regularly; 'We take the Times every day' <i32797>",
       "relNo": 0
     }, {
-      "type": "domain_topic",
-      "target": "social media=43",
+      "type": "domain_usage",
+      "target": "social media <---43>",
       "relNo": 1
     }],
     "definition": "to subscribe to someone's updates on social media"

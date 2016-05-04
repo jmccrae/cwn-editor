@@ -21,12 +21,26 @@
   }, {
     "text": "the 55 : ) my audience ? .... mmmmm still new here"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "emotion",
+      "target": "uncertainty: the state of being unsure of something <i66857>",
+      "relNo": 1
+    }],
+    "definition": "expressing uncertainty and contemplation"
+  }, {
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "desire: an inclination to want things; 'a man of many desires' <i62965>",
+      "relNo": 0
+    }],
+    "definition": "expressing desire"
   }]
 }

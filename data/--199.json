@@ -21,12 +21,26 @@
   }, {
     "text": "One thing about the next nigga is , he's just the next nigga h"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "guy: an informal term for a youth or man; 'a nice guy'; 'the guy's only doing it for some doll'; 'the poor sod couldn't even buy a drink' <i93129>",
+    "id": 2,
+    "relations": [{
+      "type": "domain_usage",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "brother: a close friend who accompanies his buddies in their activities <i88718>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_usage",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 0
+    }],
     "definition": ""
   }]
 }

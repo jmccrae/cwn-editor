@@ -21,27 +21,19 @@
   }, {
     "text": "last night with a murder at a boxing weigh-in last week https : / / t.co /"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "restriction=00809843-n (an act of limiting or restricting (as by regulation));01151109-n (the act of keeping something within specified bounds (by force if necessary); \\\"\"the restriction of the infection to a focal area\\\"\");05854882-n (a principle that limits the extent of something; \\\"\"I am willing to accept certain restrictions on my movements\\\"\"",
+      "type": "hypernym",
+      "target": "measurement: the act or process of assigning numbers to phenomena according to a rule; 'the measurements were carefully done'; 'his mental measurings proved remarkably accurate' <i40622>",
       "relNo": 0
     }, {
-      "type": "none",
-      "target": "weight=00682404-v (present with a bias; \\\"\"He biased his presentation so as to please the share holders\\\"\");01489937-v (weight down with a load);04578374-n (an artifact that is heavy);04578578-n (sports equipment used in calisthenic exercises and weightlifting; it is not attached to anything and is raised and lowered by use of the hands and arms);05034009-n (the vertical force exerted by a mass as a result of gravity);05179849-n (the relative importance granted to something; \\\"\"his opinion carries great weight\\\"\"; \\\"\"the progression implied an increasing weightiness of the items listed\\\"\");07554200-n (an oppressive feeling of heavy force; \\\"\"bowed down by the weight of responsibility\\\"\");13610524-n ((statistics) a coefficient assigned to elements of a frequency distribution in order to represent their relative importance);13630031-n (a unit used to measure weight; \\\"\"he placed two weights in the scale pan\\\"\");13737860-n (a system of units used to express the weight of something",
+      "type": "derivation",
+      "target": "weigh: determine the weight of; 'The butcher weighed the chicken' <i35180>",
       "relNo": 1
-    }, {
-      "type": "none",
-      "target": "weight=00682404-v (present with a bias; \\\"\"He biased his presentation so as to please the share holders\\\"\");01489937-v (weight down with a load);04578374-n (an artifact that is heavy);04578578-n (sports equipment used in calisthenic exercises and weightlifting; it is not attached to anything and is raised and lowered by use of the hands and arms);05034009-n (the vertical force exerted by a mass as a result of gravity);05179849-n (the relative importance granted to something; \\\"\"his opinion carries great weight\\\"\"; \\\"\"the progression implied an increasing weightiness of the items listed\\\"\");07554200-n (an oppressive feeling of heavy force; \\\"\"bowed down by the weight of responsibility\\\"\");13610524-n ((statistics) a coefficient assigned to elements of a frequency distribution in order to represent their relative importance);13630031-n (a unit used to measure weight; \\\"\"he placed two weights in the scale pan\\\"\");13737860-n (a system of units used to express the weight of something",
-      "relNo": 2
-    }, {
-      "type": "none",
-      "target": "determine=00699355-v (reach, make, or come to a decision about something; \\\"\"We finally decided after lengthy deliberations\\\"\");00701581-v (fix conclusively or authoritatively; \\\"\"set the rules\\\"\");00702474-v (fix in scope; fix the boundaries of; \\\"\"the tree determines the border of the property\\\"\");00702806-v (shape or influence; give direction to; \\\"\"experience often determines ability\\\"\"; \\\"\"mold public opinion\\\"\");00765444-v (settle conclusively; come to terms; \\\"\"We finally settled the argument\\\"\");00920843-v (establish after a calculation, investigation, experiment, survey, or study; \\\"\"find the product of two numbers\\\"\"; \\\"\"The physicist who found the elusive particle won the Nobel Prize\\\"\");00922307-v (find out, learn, or determine with certainty, usually by making an inquiry or other effort; \\\"\"I want to see whether she speaks French\\\"\"; \\\"\"See whether it works\\\"\"; \\\"\"find out if he speaks Russian\\\"\"; \\\"\"Check whether the train leaves on time\\\"\");00949109-v (decide upon or fix definitely; \\\"\"fix the variables\\\"\"; \\\"\"specify the parameters\\\"\"",
-      "relNo": 3
     }],
     "definition": "The process of determining a competitor's body weight prior to an event, especially to ensure it is within the weight restrictions"
   }]

@@ -1,5 +1,5 @@
 {
-  "lemma": "*trending",
+  "lemma": "trend",
   "examples": [{
     "text": "Lets strt trending"
   }, {
@@ -21,12 +21,20 @@
   }, {
     "text": ". We coming up . Black excellence is trending ."
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "similar",
+      "target": "popular: regarded with great favor, approval, or affection especially by the general public; 'a popular tourist attraction'; 'a popular girl'; 'cabbage patch dolls are no longer popular' <i9977>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "trend: the popular taste at a given time; 'leather is the latest vogue'; 'he followed current trends'; 'the 1920s had a style of their own' <i67119>",
+      "relNo": 1
+    }],
+    "definition": "to be temporarily popular"
   }]
 }

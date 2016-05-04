@@ -21,12 +21,42 @@
   }, {
     "text": "paypig just tributed $$$ to the princess # findom , don't you want to join him "
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
+    "pos": "n",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "derivation",
+      "target": "domination: social control by dominating <i41316>",
+      "relNo": 1
+    }, {
+      "type": "hypernym",
+      "target": "giving: the act of giving <i41097>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "financial: involving financial matters; 'fiscal responsibility' <i16172>",
+      "relNo": 2
+    }],
+    "definition": "pejorative term for when a man gives money to a woman"
+  }, {
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "financial: involving financial matters; 'fiscal responsibility' <i16172>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "domination: social control by dominating <i41316>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "domination: social control by dominating <i41316>",
+      "relNo": 1
+    }],
+    "definition": "a fetish where the submissive is forced to give money to a dominant"
   }]
 }

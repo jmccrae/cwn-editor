@@ -21,12 +21,12 @@
   }, {
     "text": "# qanda we need to speak in facts not opinions"
   }],
-  "status": "",
+  "status": "abbrev",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
+    "definition": "question and answer"
   }]
 }

@@ -21,10 +21,10 @@
   }, {
     "text": "oh my god"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "x",
+    "synonym": "<---120>",
     "id": 1,
     "relations": [],
     "definition": ""

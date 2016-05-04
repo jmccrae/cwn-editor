@@ -21,9 +21,9 @@
   }, {
     "text": "A6 # chswff Have a plan , and mak"
   }],
-  "status": "",
+  "status": "error",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

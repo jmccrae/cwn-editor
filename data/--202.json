@@ -21,12 +21,20 @@
   }, {
     "text": "Icy BONGVAPE ! ? \\ Vaping Through A Bong \\\"\"\""
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "smoking: the act of smoking tobacco or other substances; 'he went outside for a smoke'; 'smoking stinks' <i39789>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "vapor: a visible suspension in the air of particles of some substance <i116294>",
+      "relNo": 1
+    }],
+    "definition": "consumption of a vaporized nicotine solution"
   }]
 }

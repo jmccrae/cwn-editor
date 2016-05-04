@@ -1,0 +1,40 @@
+{
+  "lemma": "on-ramp",
+  "examples": [{
+    "text": "north ramp from I-95 Mainline / I-395 , on-ramp closed "
+  }, {
+    "text": "OKC - Eastbound I-40 on-ramp from Shields will be closed from 6a Sat"
+  }, {
+    "text": "Kwinana Fwy southbound on-ramp from Anketell Rd , Anketell - CLOSED "
+  }, {
+    "text": "north ramp from Exit 56 Woolbright Rd , on-ramp right lane blocked "
+  }, {
+    "text": "north ramp from I-95 Mainline / I-395 , on-ramp closed "
+  }, {
+    "text": "north ramp from SW 8 St East , on-ramp closed "
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "freeway=03311555-n (a broad highway designed for high-speed traffic)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "traffic=02265577-v (trade or deal a commodity; \\\"\"They trafficked with us for gold\\\"\");02265930-v (deal illegally; \\\"\"traffic drugs\\\"\");00041542-n (social or verbal interchange (usually followed by `with'));01115977-n (buying and selling; especially illicit trade);07294158-n (the amount of activity over a communication system during a given period of time; \\\"\"heavy traffic overloaded the trunk lines\\\"\"; \\\"\"traffic on the internet is lightest during the night\\\"\");08442260-n (the aggregation of things (pedestrians or vehicles) coming and going in a particular locality during a specified period of time",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "vehicular=03139995-a (of or relating to or intended for (motor) vehicles; \\\"\"vehicular traffic\\\"\"",
+      "relNo": 2
+    }, {
+      "type": "none",
+      "target": "roadway=04104716-n (a road (especially that part of a road) over which vehicles travel)",
+      "relNo": 3
+    }],
+    "definition": "A segment of roadway that directs vehicular traffic from ordinary roads onto a freeway"
+  }]
+}

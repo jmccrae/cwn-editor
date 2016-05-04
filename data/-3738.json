@@ -1,0 +1,60 @@
+{
+  "lemma": "*happy hour",
+  "examples": [{
+    "text": "Happy Hour Monumental : 5 x 1 en Cerveza -"
+  }, {
+    "text": "Who's ready for another incredible networking and happy hour ? It's time ! # mnrec https :"
+  }, {
+    "text": "guac ??the mic tonight ? ? Taco Tuesday Happy Hour all night ! https : / / t.co"
+  }, {
+    "text": "Happy hour ?????? # happyhappy Lakers Gear https : /"
+  }, {
+    "text": "Promo Happy Hour , Beli 1 paket Fish Burger , FRE"
+  }, {
+    "text": "Ladies and gentlemen join me for a happy hour . Get some of your insurance & amp"
+  }, {
+    "text": "It`s close to Happy Hour and something Truthful is lurking in the rain"
+  }, {
+    "text": "Join us for Late Night Happy Hour # longislandcity # theplacetobeer # beerlylegalgroup # alewifenyc"
+  }, {
+    "text": "time , definitely . Apparently they are a happy hour item "
+  }, {
+    "text": "happy hour is waiting for u"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "15253815-n (the time of day when a bar sells alcoholic drinks at a reduced price)",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "discount=00362929-n (the act of reducing the selling price of merchandise);13295620-n (an amount or percentage deducted);13303298-n (a refund of some fraction of the amount paid);13340275-n (interest on an annual basis deducted in advance on a loan);00802592-v (bar from attention or consideration; \\\"\"She dismissed his advances\\\"\");02324408-v (give a reduction in price on; \\\"\"I never discount these books-they sell like hot cakes\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "drink=00749813-n (the act of drinking alcoholic beverages to excess; \\\"\"drink was his downfall\\\"\");00841439-n (the act of swallowing; \\\"\"one swallow of the liquid was enough\\\"\"; \\\"\"he took a drink of his beer and smacked his lips\\\"\");07897775-n (any liquid suitable for drinking; \\\"\"may I take your beverage order?\\\"\");07901198-n (a single serving of a beverage; \\\"\"I asked for a hot drink\\\"\"; \\\"\"likes a drink before dinner\\\"\");09293414-n (any large deep body of water; \\\"\"he jumped into the drink and had to be rescued\\\"\");00739010-v (be fascinated or spell-bound by; pay close attention to; \\\"\"The mother drinks in every word of her son on the stage\\\"\");01172332-v (take in liquids; \\\"\"The patient must drink several liters each day\\\"\"; \\\"\"The children like to drink soda\\\"\");01173463-v (consume alcohol; \\\"\"We were up drinking all night\\\"\");01174572-v (drink excessive amounts of alcohol; be an alcoholic; \\\"\"The husband drinks and beats his wife\\\"\");01177764-v (propose a toast to; \\\"\"Let us toast the birthday girl!\\\"\"; \\\"\"Let's drink to the New Year\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "pub=04024793-n (tavern consisting of a building with a bar and public rooms; often provides light meals)",
+      "relNo": 2
+    }, {
+      "type": "none",
+      "target": "bar=01079274-n (the act of preventing; \\\"\"there was no bar against leaving\\\"\"; \\\"\"money was allocated to study the cause and prevention of influenza\\\"\");02791712-n (a rigid piece of metal or wood; usually used as a fastening or obstruction or weapon; \\\"\"there were bars in the windows to prevent escape\\\"\");02792294-n (an obstruction (usually metal) placed at the top of a goal; \\\"\"it was an excellent kick but the ball hit the bar\\\"\");02792510-n (a counter where you can obtain food or drink; \\\"\"he bought a hot dog and a coke at the bar\\\"\");02792793-n ((law) a railing that encloses the part of the courtroom where the judges and lawyers sit and the case is tried; \\\"\"spectators were not allowed past the bar\\\"\");02793035-n (a heating element in an electric fire; \\\"\"an electric fire with three bars\\\"\");02793177-n (a horizontal rod that serves as a support for gymnasts as they perform exercises);02800154-n (a room or establishment where alcoholic drinks are served over a counter; \\\"\"he drowned his sorrows in whiskey at the bar\\\"\");02940853-n (a block of solid substance (such as soap or wax); \\\"\"a bar of chocolate\\\"\");04690493-n (a narrow marking of a different color or texture from the background; \\\"\"a green toad with small black stripes or bars\\\"\"; \\\"\"may the Stars and Stripes forever wave\\\"\");06877775-n (musical notation for a repeating pattern of musical beats; \\\"\"the orchestra omitted the last twelve bars of the song\\\"\");08129368-n (the body of individuals qualified to practice law in a particular jurisdiction; \\\"\"he was admitted to the bar in New Jersey\\\"\");09236967-n (a submerged (or partly submerged) ridge in a river or along a shore; \\\"\"the boat ran aground on a submerged bar in the river\\\"\");13733960-n ((meteorology) a unit of pressure equal to a million dynes per square centimeter; \\\"\"unfortunately some writers have used bar for one dyne per square centimeter\\\"\");00798250-v (prevent from entering; keep out; \\\"\"He was barred from membership in the club\\\"\");01345592-v (secure with, or as if with, bars; \\\"\"He barred the door\\\"\");01480632-v (render unsuitable for passage; \\\"\"block the way\\\"\"; \\\"\"barricade the streets\\\"\"; \\\"\"stop the busy road\\\"\");02509452-v (expel, as if by official decree; \\\"\"he was banished from his own country\\\"\"",
+      "relNo": 3
+    }, {
+      "type": "none",
+      "target": "evening=15191509-n (the latter part of the day (the period of decreasing daylight from late afternoon until nightfall); \\\"\"he enjoyed the evening light across the lake\\\"\");15192953-n (the early part of night (from dinner until bedtime) spent in a special way; \\\"\"an evening at the opera\\\"\");15292923-n (a later concluding time period; \\\"\"it was the evening of the Roman Empire\\\"\"",
+      "relNo": 4
+    }, {
+      "type": "none",
+      "target": "afternoon=06645314-n (a conventional expression of greeting or farewell);15191238-n (the part of the day between noon and evening; \\\"\"he spent a quiet afternoon in the park\\\"\"",
+      "relNo": 5
+    }, {
+      "type": "none",
+      "target": "time=00028468-n (the continuum of experience in which events pass from the future through the present to the past; \\\"\"he waited for along time\\\"\"; \\\"\"it took some time before he got an answer\\\"\"; \\\"\"time flies like an arrow\\\"\");04998860-n (rhythm as given by division into parts of equal duration);07302920-n (a person's experience on a particular occasion; \\\"\"he had a time holding back the tears\\\"\"; \\\"\"they had a good time together\\\"\");07324217-n (an instance or single occasion for some event; \\\"\"this time he succeeded\\\"\"; \\\"\"he called four times\\\"\"; \\\"\"he could do ten at a clip\\\"\");15147173-n (an indefinite period (usually marked by specific attributes or activities); \\\"\"the time of year for planting\\\"\"; \\\"\"he was a great actor in his time\\\"\");15154879-n (a reading of a point in time as given by a clock; \\\"\"do you know what time it is?\\\"\"; \\\"\"the time is 10 o'clock\\\"\");15160774-n (the fourth coordinate that is required (along with three spatial dimensions) to specify a physical event);15249488-n (the period of time a prisoner is imprisoned; \\\"\"he served a prison term of 15 months\\\"\"; \\\"\"his sentence was 5 to 10 years\\\"\"; \\\"\"he is doing time in the county jail\\\"\");15270326-n (a suitable moment; \\\"\"it is time to go\\\"\");15295388-n (a period of time considered as a resource under your control and sufficient to accomplish something; \\\"\"take time to smell the roses\\\"\"; \\\"\"I didn't have time to finish\\\"\"; \\\"\"it took more than half my time\\\"\"; \\\"\"he waited for a long time\\\"\");00297754-v (adjust so that a force is applied and an action occurs at the desired time; \\\"\"The good player times his swing so as to hit the ball squarely\\\"\");00298687-v (regulate or set the time of; \\\"\"time the clock\\\"\");00491904-v (measure the time or duration of an event or action or the person who performs an action in a certain period of time; \\\"\"he clocked the runners\\\"\");00680466-v (assign a time for an activity or event; \\\"\"The candidate carefully timed his appearance at the disaster scene\\\"\");00703992-v (set the speed, duration, or execution of; \\\"\"we time the process to manufacture our cars very precisely\\\"\"",
+      "relNo": 6
+    }],
+    "definition": "A time of day, usually in the afternoon or early evening, when a bar or pub offers its drinks at a discounted price"
+  }]
+}

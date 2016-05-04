@@ -1,0 +1,44 @@
+{
+  "lemma": "fiancée",
+  "examples": [{
+    "text": "https : / / t.co / NTYsnLXCDr Fiancée of Bills LB Tony Steward loses fight with"
+  }, {
+    "text": ", 20 / 20 . Surprise Gifts from fiancée https : / / t.co / EjVHqzUG3"
+  }, {
+    "text": "few weeks to wedding , Ne-yo and pregnant fiancée , Crystal Renay shares loving photos ~ Popula"
+  }, {
+    "text": "Buffalo Bills Linebacker and Fiancée Brittany Burns Were Planning Their Wedding Just Befor"
+  }, {
+    "text": "Buffalo Bills Linebacker and Fiancée Brittany Burns Were Planning Their Wedding Just Befor"
+  }, {
+    "text": "Items : Scandal for Desperate Husband , Grinder's Fiancée and More https : / / t.co "
+  }, {
+    "text": "Super Eagles Uche Kalu and fiancée Ada are expecting their first child ! https"
+  }, {
+    "text": "My buddy's fiancée just called off their wedding because him watching"
+  }, {
+    "text": "extension for ours . I yelled at my fiancée for speaking I was so frustrated lol"
+  }, {
+    "text": "Taylor Kinney Is 'So Proud' of Fiancée Lady Gaga's Super Bowl Performance : 'I Wanted"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "marry=02494483-v (take in marriage);02495105-v (perform a marriage ceremony; \\\"\"The minister married us on Saturday\\\"\"; \\\"\"We were wed the following week\\\"\"; \\\"\"The couple got spliced on Hawaii\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "engage=00220541-v (get caught; \\\"\"make sure the gear is engaged\\\"\");00601765-v (consume all of one's attention or time; \\\"\"Her interest in butterflies absorbs her completely\\\"\");00888123-v (give to in marriage);01513459-v (keep engaged; \\\"\"engaged the gears\\\"\");02213319-v (engage for service under a term of contract; \\\"\"We took an apartment on a quiet street\\\"\"; \\\"\"Let's rent a car\\\"\"; \\\"\"Shall we take a guide in Rome?\\\"\");02244933-v (hire for work or assistance; \\\"\"engage aid, help, services, or support\\\"\");02380222-v (carry out or participate in an activity; be involved in; \\\"\"She pursued many activities\\\"\"; \\\"\"They engaged in a discussion\\\"\");02381180-v (carry on (wars, battles, or campaigns); \\\"\"Napoleon and Hitler waged war against all of Europe\\\"\");02406541-v (ask to represent; of legal counsel; \\\"\"I'm retaining a lawyer\\\"\");02414542-v (engage or hire for work; \\\"\"They hired two new secretaries in the department\\\"\"; \\\"\"How many people has she employed?\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "woman=08494645-n (women as a class; \\\"\"it's an insult to American womanhood\\\"\"; \\\"\"woman is the glory of creation\\\"\"; \\\"\"the fair sex gathered on the veranda\\\"\");09930684-n (a human female employed to do housework; \\\"\"the char will clean the carpet\\\"\"; \\\"\"I have a woman who comes in four hours a day while I write\\\"\");10807146-n (an adult female person (as opposed to a man); \\\"\"the woman kept house while the man hunted\\\"\");10808492-n (a female person who plays a significant role (wife or mistress or girlfriend) in the life of a particular man; \\\"\"he was faithful to his woman\\\"\"",
+      "relNo": 2
+    }],
+    "definition": "A woman who is engaged to be married."
+  }]
+}

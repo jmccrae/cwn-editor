@@ -1,0 +1,44 @@
+{
+  "lemma": "*booing",
+  "examples": [{
+    "text": "Was it just me or were they booing tom Brady ?"
+  }, {
+    "text": "People are only booing Tom Brady cause they're jealous they can't be"
+  }, {
+    "text": "I find that \\ booing chant \\\"\" so disrespectful\""
+  }, {
+    "text": "Bowl # players . What wasn't cool-all the booing . Stay classy !"
+  }, {
+    "text": "DID YOU HEAR ALL OF THE PEOPLE BOOING HIM???"
+  }, {
+    "text": "Americans especially those at the Super Bowl . Booing an athlete is uneducated , a form o"
+  }, {
+    "text": "Americans especially those at the Super Bowl . Booing an athlete is uneducated , a form o"
+  }, {
+    "text": "BOOING IS RUDE AND YOU SHOULDN'T DO IT"
+  }, {
+    "text": "no shots on target v Preston , fans booing the players off the pitch . ?"
+  }, {
+    "text": "Booing when the teacher plays Justin Bieber really proves"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "audience=07158332-n (a conference (usually with someone important); \\\"\"he had a consultation with the judge\\\"\"; \\\"\"he requested an audience with the king\\\"\");08238818-n (a gathering of spectators or listeners at a (usually public) performance; \\\"\"the audience applauded\\\"\"; \\\"\"someone in the audience began to cough\\\"\");08239214-n (the part of the general public interested in a source of information or entertainment; \\\"\"every artist needs an audience\\\"\"; \\\"\"the broadcast reached an audience of millions\\\"\");14508362-n (an opportunity to state your case and be heard; \\\"\"they condemned him without a hearing\\\"\"; \\\"\"he saw that he had lost his audience\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "exclamation=07117468-n (an exclamatory rhetorical device; \\\"\"O tempore! O mores\\\"\");07140231-n (an abrupt excited utterance; \\\"\"she gave an exclamation of delight\\\"\"; \\\"\"there was much exclaiming over it\\\"\");07224528-n (a loud complaint or protest or reproach",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "disapproving=01000717-a (expressing or manifesting disapproval)",
+      "relNo": 2
+    }],
+    "definition": "A disapproving exclamation by a member of an audience."
+  }]
+}

@@ -1,0 +1,34 @@
+{
+  "lemma": "m'lady",
+  "examples": [{
+    "text": "it's like the fedora-wearing m'lady activists created Chu in a lab"
+  }, {
+    "text": "Happy Birthday m'lady ! Hope Ry takes you somewhere fancy "
+  }, {
+    "text": "Thank you so much M'Lady ! ! I hope you're having an amazing"
+  }, {
+    "text": "! What's important is defending the honor of m'lady \\ -Knight …\""
+  }, {
+    "text": "Their playdough usage would dispute that hypothesis , m'lady # Riffotroni"
+  }, {
+    "text": "goodbye m'lady"
+  }, {
+    "text": "Good Night ... sweet dreams M'Lady I gotta go to sleep .... Superbowl 2"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "lady=10008828-n (a woman of refinement; \\\"\"a chauffeur opened the door of the limousine for the grand lady\\\"\");10262834-n (a polite name for any woman; \\\"\"a nice lady at the library helped me\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "my=",
+      "relNo": 1
+    }],
+    "definition": "A contracted form of my lady."
+  }]
+}

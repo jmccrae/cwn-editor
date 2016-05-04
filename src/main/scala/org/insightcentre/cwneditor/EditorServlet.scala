@@ -34,6 +34,18 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     }
 
+    get("/summary/:page") {
+      val page = params("page").toInt
+      val files = (for(f <- new File("data/").listFiles.sortBy(_.getName()).drop(page * 100).take(100)
+        if f.getName().endsWith(".json")) yield {
+          Map("name" -> f.getName().dropRight(5),
+            "data" -> io.Source.fromFile(f).mkString.parseJson.convertTo[Entry])
+        }).toList
+      contentType = "text/html"
+      mustache("/summary",
+        "files" -> files)
+    }
+
     get("/edit/:id") {
         val f = new File("data/%s.json" format params("id"))
         if(!f.exists) {
@@ -52,7 +64,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     def findNext(id : String) = {
       val l1 = new File("data/").listFiles.sortBy(_.getName()).dropWhile({ f=>
-        f.getName() != ("data/%s.json" format id)
+        f.getName() != ("%s.json" format id)
       }).filter(_.getName().endsWith(".json"))
       if(l1.size >= 2) {
         Some(l1.tail.head.getName().dropRight(5))
@@ -90,7 +102,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
           Relation(params.getOrElse("relType" + id + "-" + rid, throw new RuntimeException()),
                    params.getOrElse("relTarget" + id + "-" + rid, throw new RuntimeException()),
                    rid)
-        }).toList, id)
+        }).filter(_.`type` != "none").toList, id)
       }).toList)
       val out = new java.io.PrintWriter(f)
       out.println(e.toJson.prettyPrint)

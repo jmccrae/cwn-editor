@@ -1,0 +1,32 @@
+{
+  "lemma": "b-day",
+  "examples": [{
+    "text": "https : / / t.co / yMqe7AbKxY HAPPY B-DAY ! ! !"
+  }, {
+    "text": "oh shit Happy B-day !"
+  }, {
+    "text": "Ur b-day has long passed but since I registered here"
+  }, {
+    "text": "Happy B-Day ! ! have a great day ! ❤️????"
+  }, {
+    "text": "my b-day is on the 12th of May . You"
+  }, {
+    "text": "happy b-day baby? we haven't hung in forever & amp"
+  }, {
+    "text": "Happy B-day , Sir Lord of misrule ???"
+  }, {
+    "text": "Happy B-Day ! ??"
+  }, {
+    "text": "I know what i'm asking for my B-Day . : 3 https : / / t.co"
+  }, {
+    "text": "HAPPY B-DAY brother?❤️ hope you have a good day "
+  }],
+  "status": "abbrev",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [],
+    "definition": "birthday"
+  }]
+}

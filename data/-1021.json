@@ -1,0 +1,40 @@
+{
+  "lemma": "jalapeño",
+  "examples": [{
+    "text": "First the jalapeño guy now this ? ? ? UCONN.. Who's"
+  }, {
+    "text": "Oh , the jalapeño cream cheese spread was so much better goin"
+  }, {
+    "text": "Jalapeño Chips and Turkey legs . ????"
+  }, {
+    "text": "Even though they don't serve the cheesy jalapeño sticks here anymore . Still gonna make the"
+  }, {
+    "text": "Avery got jalapeño in her eye then she kicked Corbin in"
+  }, {
+    "text": "Cold evenings cal for # comfortfood Roasted jalapeño popper # toastedcheese and homemade … https :"
+  }, {
+    "text": "lol she do ? I don't like jalapeño that's why i said ew"
+  }, {
+    "text": "On a scale of one to jalapeño how hot am I ."
+  }, {
+    "text": "Jalapeño cheese tater tots . That is all ."
+  }, {
+    "text": "SB50 menu : crab stuffed jalapeño poppers , shrimp po-boys , andouille & am"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "Capsicum annuum=",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "chili=07737201-n (very hot and finely tapering pepper of special pungency);07880910-n (ground beef and chili peppers or chili powder often with tomatoes and kidney beans)",
+      "relNo": 1
+    }],
+    "definition": "A cultivar of hot chili pepper, ''Capsicum annuum'"
+  }]
+}

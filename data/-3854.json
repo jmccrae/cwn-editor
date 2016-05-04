@@ -1,0 +1,40 @@
+{
+  "lemma": "*little brother",
+  "examples": [{
+    "text": ", but he only saw her as a little brothe"
+  }, {
+    "text": "Eli Manning was in QB mode , not little brother mode , when Broncos scored TD to sea"
+  }, {
+    "text": "Eli Manning was in QB mode , not little brother mode , when Broncos scored TD to sea"
+  }, {
+    "text": "My beautiful daughter and her precious little brother from a very lovely other mother . This"
+  }, {
+    "text": "how they making my little brother dress up like a \\ african america \\\"\"\""
+  }, {
+    "text": "saw one of my kindergarten students and his little brother riding to … https : / / t.co"
+  }, {
+    "text": "a gift . That's what dad tells my little brother ?"
+  }, {
+    "text": "only wish for this year is that my little brother stops getting sick ” Esraa UNICEFmena # childrenofsyria"
+  }, {
+    "text": "This Zaim's little brother cute ah . ? what the shit is"
+  }, {
+    "text": "Happy 16th birthday to the best little brother a guy could ask for . Love ya"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "10287008-n (a younger brother; \\\"\"my little brother just had his 50th birthday\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "brother=09895920-n (a male with the same parents as someone else; \\\"\"my brother still lives with our parents\\\"\");09896358-n (a male person who is a fellow member (of a fraternity or religion or other group); \\\"\"none of his brothers would betray him\\\"\");09896590-n (used as a term of address for those male persons engaged in the same movement; \\\"\"Greetings, comrade!\\\"\");09897417-n (a close friend who accompanies his buddies in their activities",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "sibling=10614572-n (a person's brother or sister)",
+      "relNo": 1
+    }],
+    "definition": "A sibling's younger brother (''used especially by children, or by parents in speaking to their children'')"
+  }]
+}

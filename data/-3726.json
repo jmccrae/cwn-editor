@@ -1,0 +1,28 @@
+{
+  "lemma": "zene",
+  "examples": [{
+    "text": "# milfanal # nicely # zene # adultoys"
+  }, {
+    "text": "# zene # bush # milfanal # nicely"
+  }, {
+    "text": "# bush # zene # adultoys # nicely"
+  }, {
+    "text": "# bush # milfanal # zene # adultoys # nicely"
+  }, {
+    "text": "# nicely # zene # adultoys # milfanal # bush"
+  }, {
+    "text": "# adultoys # milfanal # nicely # zene # bush"
+  }, {
+    "text": "# zene # nicely # bush # adultoys"
+  }, {
+    "text": "# bush # adultoys # milfanal # zene"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

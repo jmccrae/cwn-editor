@@ -1,0 +1,40 @@
+{
+  "lemma": "unfollow",
+  "examples": [{
+    "text": "Looking for who unfollow me ."
+  }, {
+    "text": "I done had niggas unfollow me block me blow up my phone lol"
+  }, {
+    "text": "again.. and at the of the story : unfollow again # lol_story"
+  }, {
+    "text": "please don't unfollow me : ( i love you , remembe"
+  }, {
+    "text": "unfollow me , acc in bio "
+  }, {
+    "text": "Need to mass unfollow ? Go to https : / / t.co"
+  }, {
+    "text": "i should say sorry or to ask u unfollow me coz im me ? HAHAHAHHA STILL LOVE"
+  }, {
+    "text": "dear gawd . Have to unfollow u . Ur just not listening to ur"
+  }, {
+    "text": "I guess an unfollow supposed to hurt someone lol"
+  }, {
+    "text": "do the same and delete some tweets / unfollow some accounts later too"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "antonym",
+      "target": "follow <---23>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "follow: follow in or as if in pursuit; 'The police car pursued the suspected attacker'; 'Her bad deed followed her and haunted her dreams all her life' <i31743>",
+      "relNo": 1
+    }],
+    "definition": "to stop following a user on social media"
+  }]
+}

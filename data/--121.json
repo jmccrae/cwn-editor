@@ -1,0 +1,40 @@
+{
+  "lemma": "pre-valentines day",
+  "examples": [{
+    "text": "This that pre-valentines day anger ? https : / / t.co"
+  }, {
+    "text": "Pre-Valentines Day Party"
+  }, {
+    "text": "Pre-Valentines Day Party"
+  }, {
+    "text": "Pre-Valentines Day Party"
+  }, {
+    "text": "Pre-Valentines Day Party"
+  }, {
+    "text": "Pre-Valentines Day Party"
+  }, {
+    "text": "Pre-Valentines Day Party"
+  }, {
+    "text": "Pre-Valentines Day Party"
+  }, {
+    "text": "Pre-Valentines Day Party # AmeATL"
+  }, {
+    "text": "Pre-Valentines Day Party # AmeATL"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "derivation",
+      "target": "Valentine's Day: a day for the exchange of tokens of affection <i117020>",
+      "relNo": 0
+    }, {
+      "type": "hypernym",
+      "target": "day: a day assigned to a particular purpose or observance; 'Mother's Day' <i116868>",
+      "relNo": 1
+    }],
+    "definition": "The day before Valentine's Day, e.g., February 1"
+  }]
+}

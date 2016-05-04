@@ -1,0 +1,56 @@
+{
+  "lemma": "poutine",
+  "examples": [{
+    "text": "A little poutine would hit the spot about now"
+  }, {
+    "text": "have the same cold so we shared a poutine tonight . # SicknessForDays ??????"
+  }, {
+    "text": "have you ever had poutine ? ? ? this is the last time"
+  }, {
+    "text": "It ’ s Hot ! Cajun Poutine https : / / t.co / UQNcH0InYu"
+  }, {
+    "text": "Okay , get ready for a Poutine filled weekend ! Details for each event belo"
+  }, {
+    "text": "drinking a root beer float and eating a poutine"
+  }, {
+    "text": "/ / t.co / qi9ksgXyI1 MGF - # POUTINE ( Clip Officiel ) Dir.by"
+  }, {
+    "text": "We gave you poutine and Ryan Gosling ... Be thankful ."
+  }, {
+    "text": "Where's the poutine . This is me . https : /"
+  }, {
+    "text": "need your follow I love you more than poutine ! Je t'aime?? follow me ? # followmecaniff"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "Canada=08837973-n (a nation in northern North America; the French were the first Europeans to settle in mainland Canada; \\\"\"the border between the United States and Canada is the longest unguarded border in the world\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "gravy=07492727-n (a sudden happening that brings good fortune (as a sudden opportunity to make money); \\\"\"the demand for testing has created a boom for those unregulated laboratories where boxes of specimen jars are processed like an assembly line\\\"\");07853888-n (the seasoned but not thickened juices that drip from cooking meats; often a little water is added);07854049-n (a sauce made by adding stock, flour, or other ingredients to the juice and fat that drips from cooking meats",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "curd=07865888-n (coagulated milk; used to make cheese; \\\"\"Little Miss Muffet sat on a tuffet eating some curds and whey\\\"\");07866059-n (a coagulated liquid resembling milk curd; \\\"\"bean curd\\\"\"; \\\"\"lemon curd\\\"\"",
+      "relNo": 2
+    }, {
+      "type": "none",
+      "target": "cheese=01525792-v (wind onto a cheese; \\\"\"cheese the yarn\\\"\");02686501-v (used in the imperative (get away, or stop it); \\\"\"Cheese it!\\\"\");07866305-n (a solid food prepared from the pressed curd of milk);12192020-n (erect or decumbent Old World perennial with axillary clusters of rosy-purple flowers; introduced in United States",
+      "relNo": 3
+    }, {
+      "type": "none",
+      "target": "french fries=07726825-n (strips of potato fried in deep fat)",
+      "relNo": 4
+    }, {
+      "type": "none",
+      "target": "dish=00433821-n (an activity that you like or at which you are superior; \\\"\"chemistry is not my cup of tea\\\"\"; \\\"\"his bag now is learning to play golf\\\"\"; \\\"\"marriage was scarcely his dish\\\"\");03211629-n (a piece of dishware normally used as a container for holding or serving food; \\\"\"we gave them a set of dishes for a wedding present\\\"\");03212026-n (directional antenna consisting of a parabolic reflector for microwave or radio frequency radiation);07572999-n (a particular item of prepared food; \\\"\"she prepared a special dish for dinner\\\"\");10633512-n (a very attractive or seductive looking woman);13789036-n (the quantity that a dish will hold; \\\"\"they served me a dish of rice\\\"\");00264357-v (make concave; shape like a dish);01182648-v (provide (usually but not necessarily food); \\\"\"We serve meals for the homeless\\\"\"; \\\"\"She dished out the soup at 8 P.M.\\\"\"; \\\"\"The entertainers served up a lively show\\\"\"",
+      "relNo": 5
+    }],
+    "definition": " A dish consisting of french fries topped with cheese curds and gravy, eaten primarily in Canad"
+  }]
+}

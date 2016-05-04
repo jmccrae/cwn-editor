@@ -1,0 +1,40 @@
+{
+  "lemma": "low key",
+  "examples": [{
+    "text": "I miss my low key bitch ?"
+  }, {
+    "text": "Trying to keep these emotions low key from now on"
+  }, {
+    "text": "u low key have no friends?? really u suck?"
+  }, {
+    "text": "low key just called in on a radio show and"
+  }, {
+    "text": "I'm jus gonna go low key"
+  }, {
+    "text": "& amp ; low key dropped this and now I feel like my"
+  }, {
+    "text": "Its low key snowing"
+  }, {
+    "text": "I was trying to keep it low key"
+  }, {
+    "text": "I feel like our school is just a low key episode of the Bachelor"
+  }, {
+    "text": "these people saying they are sober now are low key in their bedroom at night fucked off xans"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "subdue=00202809-v (correct by punishment or discipline);00463047-v (bring under control by force or authority; \\\"\"suppress a nascent uprising\\\"\"; \\\"\"stamp down on littering\\\"\"; \\\"\"conquer one's desires\\\"\");00580789-v (make subordinate, dependent, or subservient; \\\"\"Our wishes have to be subordinated to that of our ruler\\\"\");01111038-v (get on top of; deal with successfully; \\\"\"He overcame his shyness\\\"\");01805829-v (hold within limits and control; \\\"\"subdue one's appetites\\\"\"; \\\"\"mortify the flesh\\\"\");02428975-v (put down by force or intimidation; \\\"\"The government quashes any attempt of an uprising\\\"\"; \\\"\"China keeps down her dissidents very efficiently\\\"\"; \\\"\"The rich landowners subjugated the peasants working the land\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "restrain=00233707-v (prevent the action or expression of; \\\"\"hold back your anger\\\"\"; \\\"\"keep your cool\\\"\"; \\\"\"she struggled to restrain her impatience at the delays\\\"\");01303637-v (restrict (someone or something) so as to make free movement difficult);01304044-v (to close within bounds, or otherwise limit or deprive of free movement; \\\"\"This holds the local until the express passengers change trains\\\"\"; \\\"\"About a dozen animals were held inside the stockade\\\"\"; \\\"\"The illegal immigrants were held at a detention center\\\"\"; \\\"\"The terrorists held the journalists for ransom\\\"\");02456292-v (prevent (someone or something) from doing something; \\\"\"security guards restrained the reporter from throwing another shoe\\\"\"",
+      "relNo": 1
+    }],
+    "definition": "A restrained or subdued situation"
+  }]
+}

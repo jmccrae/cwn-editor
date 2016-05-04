@@ -1,0 +1,40 @@
+{
+  "lemma": "pre-game",
+  "examples": [{
+    "text": "This kid's pre-game is on point ! ! # superbowl50 #"
+  }, {
+    "text": ": Cam Newton's gold 'MVP' cleats win the pre-game : Cam Newton is the reigning NFL MVP"
+  }, {
+    "text": ": Cam Newton's gold 'MVP' cleats win the pre-game : Cam Newton is the reigning NFL MVP"
+  }, {
+    "text": ": Cam Newton's gold 'MVP' cleats win the pre-game https : / / t.co / t6nksBPWw7"
+  }, {
+    "text": ": Cam Newton's gold 'MVP' cleats win the pre-game https : / / t.co / 9Vb6EgjrQq #"
+  }, {
+    "text": ": Cam Newton's gold 'MVP' cleats win the pre-game https : / / t.co / 9WMANRz5Ws https"
+  }, {
+    "text": "now we know why Seal sang that during pre-game . # SB50Ads"
+  }, {
+    "text": "( CUB ) v Capitanes ( PUR ) Pre-Game - Group D - 2016 DIRECTV"
+  }, {
+    "text": "Yea I saw it pre-game yesterday . Wasn't best pleased at the timing"
+  }, {
+    "text": "things off at Super Bowl Sunday with a pre-game ... https : / / t.co / SHOMczNOV3"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "game=00264860-a (willing to face danger);01022380-a (disabled in the feet or legs; \\\"\"a crippled soldier\\\"\"; \\\"\"a game leg\\\"\");00431591-n (an amusement or pastime; \\\"\"they played word games\\\"\"; \\\"\"he thought of his painting as a game that filled his empty time\\\"\"; \\\"\"his life was all fun and games\\\"\");00456623-n (a contest with rules to determine a winner; \\\"\"you need four people to play this game\\\"\");00457223-n (a single play of a sport or other contest; \\\"\"the game lasted two hours\\\"\");00514100-n (frivolous or trifling behavior; \\\"\"for actors, memorizing lines is no game\\\"\"; \\\"\"for him, life is all fun and games\\\"\");00584126-n (your occupation or line of work; \\\"\"he's in the plumbing game\\\"\"; \\\"\"she's in show biz\\\"\");02155643-n (animal hunted for food or sport);03418738-n (the game equipment needed in order to play a particular game; \\\"\"the child received several games for his birthday\\\"\");05916276-n (a secret scheme to do something (especially something underhand or illegal); \\\"\"they concocted a plot to discredit the governor\\\"\"; \\\"\"I saw through his little game from the start\\\"\");07666058-n (the flesh of wild animals that is used for food);13617478-n ((games) the score at a particular point or the score needed to win; \\\"\"the game is 6 all\\\"\"; \\\"\"he is serving for the game\\\"\");15281378-n ((tennis) a division of play during which one player serves);01141530-v (place a bet on; \\\"\"Which horse are you backing?\\\"\"; \\\"\"I'm betting on the new horse\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "party=07462241-n (an occasion on which people can assemble for social interaction and entertainment; \\\"\"he planned a party to celebrate Bastille Day\\\"\");08269523-n (a group of people gathered together for pleasure; \\\"\"she joined the party after dinner\\\"\");08273889-n (an organization to gain political power; \\\"\"in 1992 Perot tried to organize a third party at the national level\\\"\");08281818-n (a band of people associated temporarily in some activity; \\\"\"they organized a party to search for food\\\"\"; \\\"\"the company of cooks walked into the kitchen\\\"\");10422569-n (a person involved in legal proceedings; \\\"\"the party of the first part\\\"\");02497500-v (have or participate in a party; \\\"\"The students were partying all night before the exam\\\"\"",
+      "relNo": 1
+    }],
+    "definition": " A social gathering before a party or a sports game."
+  }]
+}

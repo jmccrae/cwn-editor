@@ -1,0 +1,44 @@
+{
+  "lemma": "big up",
+  "examples": [{
+    "text": "all good here brother and you ? Big up from Ibiza !"
+  }, {
+    "text": "Big up my night"
+  }, {
+    "text": "went with my heart on this one . Big up to my home Bois ✌️ https : /"
+  }, {
+    "text": "big up # manlikeakash"
+  }, {
+    "text": "I am a HUGE Uncle fan . A big up to the marvellous , recently reprinted collection b"
+  }, {
+    "text": "Bruddah we on tht straight up ? . Big up # Connectd"
+  }, {
+    "text": "# intsizwa big up ? bro , dope tr"
+  }, {
+    "text": "D.j Bling big up"
+  }, {
+    "text": "Big up to you Bill Cosby . I believe these"
+  }, {
+    "text": "Big up you American immigrant ?? https : / /"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "acclaim=00863389-v (praise vociferously; \\\"\"The critics hailed the young pianist as a new Rubinstein\\\"\");00863593-v (clap one's hands or shout after performances to indicate approval);06704429-n (enthusiastic approval; \\\"\"the book met with modest acclaim\\\"\"; \\\"\"he acknowledged the plaudits of the crowd\\\"\"; \\\"\"they gave him more eclat than he really deserved\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "respect=01135185-n (behavior intended to please your parents; \\\"\"their children were never very strong on obedience\\\"\"; \\\"\"he went to law school out of respect for his father's wishes\\\"\");01231366-n (a courteous expression (by word or deed) of esteem or regard; \\\"\"his deference to her wishes was very flattering\\\"\"; \\\"\"be sure to give my respects to the dean\\\"\");04921016-n (courteous regard for people's feelings; \\\"\"in deference to your wishes\\\"\"; \\\"\"out of respect for his privacy\\\"\");05828314-n ((usually preceded by `in') a detail or point; \\\"\"it differs in that respect\\\"\");06216535-n (an attitude of admiration or esteem; \\\"\"she lost all respect for him\\\"\");07560785-n (a feeling of friendship and esteem; \\\"\"she mistook his manly regard for love\\\"\"; \\\"\"he inspires respect\\\"\");14461018-n (the condition of being honored (esteemed or respected or well regarded); \\\"\"it is held in esteem\\\"\"; \\\"\"a man who has earned high regard\\\"\");00695834-v (regard highly; think much of; \\\"\"I respect his judgement\\\"\"; \\\"\"We prize his creativity\\\"\");02462665-v (show respect towards; \\\"\"honor your parents!\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "big ups=",
+      "relNo": 2
+    }],
+    "definition": " Significant respect or acclaim."
+  }]
+}

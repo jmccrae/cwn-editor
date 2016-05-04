@@ -1,0 +1,36 @@
+{
+  "lemma": "*plug-in",
+  "examples": [{
+    "text": "The second-generation Chevy Volt , a plug-in hybrid available this spring , is more efficien"
+  }, {
+    "text": "t.co / MymHcA58jx Torrents Time , un nouveau plug-in pirate "
+  }, {
+    "text": "/ Cables To Go 16297 6 Wiremold 6-Outlet Plug-In Center Unit 120v / 15a Lighte … https"
+  }, {
+    "text": "AutoTweetNG for EasySocial - AutoTweet-EasySocial plug-in allows to directly auto-post activity from ... https"
+  }, {
+    "text": "Hello , do you want our plug-in for free only use our plug-in in on"
+  }, {
+    "text": "amp ; COMPATIBLE w / Scentsy PartyLite , Plug-in warmer , tart https : / / t.c"
+  }, {
+    "text": "I need more plug-in presets with the word \\ greasy \\\"\" in\""
+  }, {
+    "text": "I see # Beyonce got her plug-in at the end of the # HalftimeShow w"
+  }, {
+    "text": "an attack vector by deprecating the Java browser plug-in # java # oracle https : / /"
+  }, {
+    "text": "# Car Review : 2016 Hyundai Sonata Plug-in Hybrid - https : / / t.co /"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "03037971-n (a printed circuit that can be inserted into expansion slots in a computer to increase the computer's capabilities);06578832-n (a software module that extends or enhances the capabilities of an existing application)",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "plug in=01423776-v (plug into an outlet; \\\"\"Please plug in the toaster!\\\"\"; \\\"\"Connect the TV so we can watch the football game tonight\\\"\"",
+      "relNo": 0
+    }],
+    "definition": "Anything that plugs into something."
+  }]
+}

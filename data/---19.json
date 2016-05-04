@@ -1,0 +1,44 @@
+{
+  "lemma": "follback",
+  "examples": [{
+    "text": "would u mind to follback me ? ✌"
+  }, {
+    "text": "and keep love til I can't breath?? please follback me dear♥"
+  }, {
+    "text": "Sore ! follback V yo ?"
+  }, {
+    "text": "follback ?"
+  }, {
+    "text": "follback : )"
+  }, {
+    "text": "follback"
+  }, {
+    "text": "follback"
+  }, {
+    "text": "@ SQFAV0RS follback bias"
+  }, {
+    "text": "and keep love til I can't breath?? please follback me dear♥"
+  }, {
+    "text": "follback ?"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "follow <---23>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "back: in reply; 'he wrote back three days later' <i18590>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "follow: follow in or as if in pursuit; 'The police car pursued the suspected attacker'; 'Her bad deed followed her and haunted her dreams all her life' <i31743>",
+      "relNo": 1
+    }],
+    "definition": "to return someone's following of you on a social media platform"
+  }]
+}

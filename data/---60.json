@@ -1,0 +1,44 @@
+{
+  "lemma": "favorite",
+  "examples": [{
+    "text": "Favorited Adam Lambert – Ghost Town ( Apreggiator &"
+  }, {
+    "text": "3 Mentions , 8.93K Mention Reach , 7 Favorited . How's your audience growing ? via http"
+  }, {
+    "text": "19 Retweets , 26.8K Retweet Reach , 32 Favorited . How's your audience growing ? via http"
+  }, {
+    "text": "on Twitter : 7 New Followers , 2 Favorited . How's your audience growing ? via http"
+  }, {
+    "text": "I favorited on wanted to offer you a coupon code"
+  }, {
+    "text": "ready to be favorited at 10.02.2016 12 : 52 : 33"
+  }, {
+    "text": "6 Retweets , 8.61K Retweet Reach , 2 Favorited . How's your audience growing ? via http"
+  }, {
+    "text": "My week on Twitter : 1 Favorited . How's your audience growing ? via https"
+  }, {
+    "text": "1 Retweets , 221 Retweet Reach , 2 Favorited . How's your audience growing ? via http"
+  }, {
+    "text": "I favorited on wanted to offer you a coupon code"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "tag: attach a tag or label to; 'label these bottles' <i29672>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "favorite: something regarded with special favor or liking; 'that book is one of my favorites' <i67316>",
+      "relNo": 2
+    }, {
+      "type": "domain_topic",
+      "target": "social media <---43>",
+      "relNo": 1
+    }],
+    "definition": "To mark an item as a personal favorite on social media"
+  }]
+}

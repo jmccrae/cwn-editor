@@ -1,0 +1,14 @@
+{
+  "lemma": "*slay",
+  "examples": [{
+    "text": "Today slayed me ?"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "tire out=00074774-v",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

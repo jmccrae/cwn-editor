@@ -1,0 +1,44 @@
+{
+  "lemma": "smol",
+  "examples": [{
+    "text": "really proud of u smol bean ?? https : / / t.co /"
+  }, {
+    "text": "smol baby https : / / t.co / L3wZzGFqWq"
+  }, {
+    "text": "SMOL WINN next to MM ! kara ."
+  }, {
+    "text": "jimin's voice is so Smol"
+  }, {
+    "text": "troye cute but likely sexy but like a smol baby but then a daddy um"
+  }, {
+    "text": "\\ Shhhh . It's because I'm Smol . I want to hug all the tall\""
+  }, {
+    "text": "LOOK @ SMOL REIGISA"
+  }, {
+    "text": "Our smol maknae is bored https : / / t.co"
+  }, {
+    "text": "Ok whatever anyways my smol sons pancakes are the BESTEST anyways .... proud"
+  }, {
+    "text": "if u think hes always a smol bean and cute thINK AGAIN BC LOOK https"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "small: limited or below average in number or quantity or magnitude or extent; 'a little dining room'; 'a little house'; 'a small car'; 'a little (or small) group' <i7579>",
+      "relNo": 0
+    }, {
+      "type": "domain_usage",
+      "target": "infantile: indicating a lack of maturity; 'childish tantrums'; 'infantile behavior' <i8188>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "small: limited or below average in number or quantity or magnitude or extent; 'a little dining room'; 'a little house'; 'a small car'; 'a little (or small) group' <i7579>",
+      "relNo": 1
+    }],
+    "definition": "Very small and cute"
+  }]
+}

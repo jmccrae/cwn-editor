@@ -1,0 +1,36 @@
+{
+  "lemma": "*day off",
+  "examples": [{
+    "text": ") oh boo : ( I booked the day off : P"
+  }, {
+    "text": "reading over 15 posts looks like took a day off & amp ; didn't tell his fans ...."
+  }, {
+    "text": "problem if Edgewood would've just gave us the day off ?"
+  }, {
+    "text": "I had a good 4 day off weekend"
+  }, {
+    "text": "pretty sure me and spent a rather lovely day off here https : / / t.co / 0Tx5IrQ9Ef"
+  }, {
+    "text": "Bill has the day off and we're both sick . Good times …"
+  }, {
+    "text": "5 stream . Best way to spend my day off with my favorite youtuber ever !"
+  }, {
+    "text": "Ummm , taking the day off , listening to some music and being mello"
+  }, {
+    "text": "pnSoeDqmqY Good Mighty Wash morning ! Start your day off right with a clean"
+  }, {
+    "text": "My trainer thinks it's his day off too !"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "15162508-n (a day when you are not required to work; \\\"\"Thursday is his day off\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "vacation=01256252-n (the act of making something legally void);15162842-n (leisure time away from work devoted to rest or pleasure; \\\"\"we get two weeks of vacation every summer\\\"\"; \\\"\"we took a short holiday in Puerto Rico\\\"\");02714581-v (spend or take a vacation",
+      "relNo": 0
+    }],
+    "definition": "a day of vacation; a day when one does not attend work, school et"
+  }]
+}

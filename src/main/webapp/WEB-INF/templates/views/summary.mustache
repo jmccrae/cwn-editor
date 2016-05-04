@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Summary</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1>Summary</h1>
+
+                {{#files}}
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            {{name}} - {{#data}}{{lemma}}{{/data}}
+                        </div>
+                        <div class="panel-body">
+                            {{#data}}
+                            <p>Status: {{status}}</p>
+                            {{#senses}}
+                            <p><b>Sense {{id}}</b></p>
+                            <p>Part of Speech: {{pos}}</p>
+                            <p>Definition: {{definition}}</p>
+                            <p>Synonym: {{synonym}}</p>
+                            {{/senses}}
+                            {{/data}}
+                        </div>
+                    </div>
+                {{/files}}
+            </div>
+        </div>
+    </body>
+</html>

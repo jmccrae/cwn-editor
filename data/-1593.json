@@ -1,0 +1,30 @@
+{
+  "lemma": "*heads-up",
+  "examples": [{
+    "text": ", I just wanted to give you a heads-up that we have 7 new people starting i"
+  }, {
+    "text": "Just a lil' heads-up in regarding sending Alycia hate tonight ! Here's"
+  }, {
+    "text": "Just a heads-up to all my followers - I'll be reformatting"
+  }, {
+    "text": "Mega Man OSTs for free , just a heads-up "
+  }, {
+    "text": "/ USA Formatted Version of Byron Jacob's \\ Heads-Up Hold Em \\\"\" 3 Disc Set of DVDs\""
+  }, {
+    "text": "Cool ! Thanks for the heads-up !"
+  }, {
+    "text": "PokerStars removing regular heads-up cash games : In a bid to reduce"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "00093129-a (fully alert and watchful; \\\"\"played heads-up ball\\\"\");07240237-n (a warning message; \\\"\"he sent a heads-up to the District Attorney\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "advisory=01307737-a (giving advice; \\\"\"an advisory memorandum\\\"\"; \\\"\"his function was purely consultative\\\"\");06759721-n (an announcement that usually advises or warns the public of some threat; \\\"\"a frost advisory\\\"\"",
+      "relNo": 0
+    }],
+    "definition": " A warning or call to pay attention; an advisory notice."
+  }]
+}

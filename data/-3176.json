@@ -1,0 +1,68 @@
+{
+  "lemma": "*burrito",
+  "examples": [{
+    "text": "RAINCHECK to 888222 to get a Free Chipotle Burrito . Thank me later?"
+  }, {
+    "text": "is this bullshit I never got my free burrito https : / / t.co / kZPNNHbb4X"
+  }, {
+    "text": "practice I decided to get my free chipotle burrito and I came home to a cooked meal"
+  }, {
+    "text": "I ate the burrito"
+  }, {
+    "text": "you've had a chimi tho wtf is a burrito ?"
+  }, {
+    "text": "to text and they all received their free burrito and I haven't : /"
+  }, {
+    "text": "Lol , after hurling up that burrito I lost a poun"
+  }, {
+    "text": "bitch u LOOK like a free chipotle burrito"
+  }, {
+    "text": "Getting my free burrito at # Chipotle . S / o to"
+  }, {
+    "text": "tired of life . I wanna be a burrito in my bed and never come out"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "07896943-n (a flour tortilla folded around a filling)",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "cheese=01525792-v (wind onto a cheese; \\\"\"cheese the yarn\\\"\");02686501-v (used in the imperative (get away, or stop it); \\\"\"Cheese it!\\\"\");07866305-n (a solid food prepared from the pressed curd of milk);12192020-n (erect or decumbent Old World perennial with axillary clusters of rosy-purple flowers; introduced in United States",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "bean=01403510-v (hit on the head, especially with a pitched baseball);05547087-n (informal terms for a human head);07740688-n (any of various edible seeds of plants of the family Leguminosae used for food);12576812-n (any of various leguminous plants grown for their edible seeds and pods);13157075-n (any of various seeds or fruits that are beans or resemble beans",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "meat=05929717-n (the choicest or most essential or most vital part of some idea or experience; \\\"\"the gist of the prosecutor's argument\\\"\"; \\\"\"the heart and soul of the Republican Party\\\"\"; \\\"\"the nub of the story\\\"\");07665463-n (the flesh of animals (including fishes and birds and snails) used as food);13157787-n (the inner and usually edible part of a seed or grain or nut or fruit stone; \\\"\"black walnut kernels are difficult to get out of the shell\\\"\"",
+      "relNo": 2
+    }, {
+      "type": "none",
+      "target": "filling=00403343-n (the act of filling something);03343232-n ((dentistry) a dental appliance consisting of any of various substances (as metal or plastic) inserted into a prepared cavity in a tooth; \\\"\"when he yawned I could see the gold fillings in his teeth\\\"\"; \\\"\"an informal British term for `filling' is `stopping'\\\"\");04606292-n (the yarn woven across the warp yarn in weaving);07899006-n (a food mixture used to fill pastry or sandwiches etc.);13501744-n (flow into something (as a container));14892394-n (any material that fills a space or container; \\\"\"there was not enough fill for the trench\\\"\"",
+      "relNo": 3
+    }, {
+      "type": "none",
+      "target": "wrapped=00165213-a (giving or marked by complete attention to; \\\"\"that engrossed look or rapt delight\\\"\"; \\\"\"enwrapped in dreams\\\"\"; \\\"\"so intent on this fantastic...narrative that she hardly stirred\\\"\"- Walter de la Mare; \\\"\"rapt with wonder\\\"\"; \\\"\"wrapped in thought\\\"\");01699958-a (covered with or as if with clothes or a wrap or cloak; \\\"\"leaf-clothed trees\\\"\"; \\\"\"fog-cloaked meadows\\\"\"; \\\"\"a beam draped with cobwebs\\\"\"; \\\"\"cloud-wrapped peaks\\\"\");02094739-a (enclosed securely in a covering of paper or the like; \\\"\"gaily wrapped gifts\\\"\"",
+      "relNo": 4
+    }, {
+      "type": "none",
+      "target": "tortilla=07896558-n (thin unleavened pancake made from cornmeal or wheat flour)",
+      "relNo": 5
+    }, {
+      "type": "none",
+      "target": "flour=07584671-n (fine powdery foodstuff obtained by grinding and sifting the meal of a cereal grain);00382167-v (convert grain into flour);01264514-v (cover with flour; \\\"\"flour fish or meat before frying it\\\"\"",
+      "relNo": 6
+    }, {
+      "type": "none",
+      "target": "dish=00433821-n (an activity that you like or at which you are superior; \\\"\"chemistry is not my cup of tea\\\"\"; \\\"\"his bag now is learning to play golf\\\"\"; \\\"\"marriage was scarcely his dish\\\"\");03211629-n (a piece of dishware normally used as a container for holding or serving food; \\\"\"we gave them a set of dishes for a wedding present\\\"\");03212026-n (directional antenna consisting of a parabolic reflector for microwave or radio frequency radiation);07572999-n (a particular item of prepared food; \\\"\"she prepared a special dish for dinner\\\"\");10633512-n (a very attractive or seductive looking woman);13789036-n (the quantity that a dish will hold; \\\"\"they served me a dish of rice\\\"\");00264357-v (make concave; shape like a dish);01182648-v (provide (usually but not necessarily food); \\\"\"We serve meals for the homeless\\\"\"; \\\"\"She dished out the soup at 8 P.M.\\\"\"; \\\"\"The entertainers served up a lively show\\\"\"",
+      "relNo": 7
+    }, {
+      "type": "none",
+      "target": "Mexican=09742054-n (a native or inhabitant of Mexico);03038416-a (of or relating to Mexico or its inhabitants; \\\"\"Mexican food is hot\\\"\"",
+      "relNo": 8
+    }],
+    "definition": "a Mexican dish consisting of a flour tortilla wrapped around a filling of meat and/or beans, cheese etc"
+  }]
+}

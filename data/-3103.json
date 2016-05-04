@@ -1,0 +1,40 @@
+{
+  "lemma": "*beaut",
+  "examples": [{
+    "text": "❤️? I love you so so much you beaut ! Miss you more ☺️ https : /"
+  }, {
+    "text": "Dental work or a beaut zombie gal alive ! ?"
+  }, {
+    "text": "dudewhatsup # dewdneytrail # manningpark # beautifulbc # beaut … https : / …"
+  }, {
+    "text": "And also sending love to all the beaut females in my contact list"
+  }, {
+    "text": "Big congrats to my beaut for passing her test ! ???❤️"
+  }, {
+    "text": "a pic of one on Feb , looked beaut ! I'm great thanks ! I'm in th"
+  }, {
+    "text": "you tell me where your jackets from its beaut ? ! ?"
+  }, {
+    "text": "refret on his AMAZING 70s Strat . A beaut ! ( the guitar ! ) I #"
+  }, {
+    "text": "Yes Jordan you beaut ! ! ! ! ! ! ! !"
+  }, {
+    "text": "Happy birthday you little beaut , miss you massive amounts ?xxx"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "05934334-n (an outstanding example of its kind; \\\"\"his roses were beauties\\\"\"; \\\"\"when I make a mistake it's a beaut\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "attractive=00167408-a (pleasing to the eye or mind especially through beauty or charm; \\\"\"a remarkably attractive young man\\\"\"; \\\"\"an attractive personality\\\"\"; \\\"\"attractive clothes\\\"\"; \\\"\"a book with attractive illustrations\\\"\");00172108-a (having power to arouse interest; \\\"\"an attractive opportunity\\\"\"; \\\"\"the job is attractive because of the pay\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "physically=00116161-r (in accord with physical laws; \\\"\"it is physically impossible\\\"\"",
+      "relNo": 1
+    }],
+    "definition": " Something or someone that is physically attractive."
+  }]
+}

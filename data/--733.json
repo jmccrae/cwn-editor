@@ -1,0 +1,44 @@
+{
+  "lemma": "*shits",
+  "examples": [{
+    "text": "them shits each like 2 hours long"
+  }, {
+    "text": "if u ain't with the shits im not gunna fw u?"
+  }, {
+    "text": "that shits about to be ?"
+  }, {
+    "text": "Shits unreal man"
+  }, {
+    "text": "shits bout to be lit real soon ! thank"
+  }, {
+    "text": "had a teacher who did not give any shits and for our warm ups we would write"
+  }, {
+    "text": "Don't Come To Twitter / w The Shits , You Knew What Was Up And Obviousl"
+  }, {
+    "text": "was NOT playing . That was my morning shits ??"
+  }, {
+    "text": "Kanye off the shits but I'm glad he's back on Twitter ."
+  }, {
+    "text": "one of those shitty horror films that just shits out sequels like saw ? https : /"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "diarrhoea=14395318-n (frequent and watery bowel movements; can be a symptom of infection or food poisoning or colitis or a gastrointestinal tumor)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "diarrhea=14395318-n (frequent and watery bowel movements; can be a symptom of infection or food poisoning or colitis or a gastrointestinal tumor)",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "the shits=14395691-n (obscene terms for diarrhea)",
+      "relNo": 2
+    }],
+    "definition": " (&quot;'''the shits'''&quot;) diarrhea (diarrhoea)."
+  }]
+}

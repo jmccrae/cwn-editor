@@ -1,0 +1,14 @@
+{
+  "lemma": "vape",
+  "examples": [{
+    "text": "My new vape shipped today"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

@@ -4,6 +4,7 @@ var senseId = -1;
 function addrel(id) {
     relNos[id]++;
     var rn = relNos[id];
+    if(isNaN(rn)) { rn = 0; }
     var cont = `<tr>
                                 <td>                     
                         <select class="s2-basic-{{id}}-{{relNo}}"
@@ -35,6 +36,7 @@ function addrel(id) {
                             <option value="holo_part">Holonym part (is composed of)</option>
                             <option value="holo_portion">Holonym portion (divides into)</option>
                             <option value="holo_substance">Holonym substance (substance of)</option>
+                                                        <option value="none">Delete</option>
                         </select>
                                 </td>
                                 <td>
@@ -67,7 +69,7 @@ function addsense() {
     relNos[id] = 0;
     var cont = `<h3>Sense {{id}}</h3>
                     <div class="form-group">
-                        <label for="pos{{id}}">Part of Speech</label>
+                        <label for="pos{{id}}">Part of Speech</label><br/>
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
                             value="n"/>Noun</label></div>
@@ -110,6 +112,7 @@ function addsense() {
         cont = cont.replace("{{id}}", id);
     }
     $(cont).insertBefore('#submitDiv');
+    wncomplete('#synonym' + id);
 }
  
 

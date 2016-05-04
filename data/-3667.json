@@ -1,0 +1,36 @@
+{
+  "lemma": "*turn up",
+  "examples": [{
+    "text": "All you have to do is turn up and # VoteTrumpNH"
+  }, {
+    "text": "Fort Worth Razzoos Turnt ! ... Who Wanna Turn Up Wit Me ? @ Razzoo's Cajun Cafe -"
+  }, {
+    "text": "turn up is gone be real"
+  }, {
+    "text": "ordered 5 CDs , the first 3 to turn up were luckily my favourites ! This does mak"
+  }, {
+    "text": "Not the turn up to my doorstep unannounced ones ? https :"
+  }, {
+    "text": "Aye turn up ! https : / / t.co / KtBAfYw2Ei"
+  }, {
+    "text": "Awkward moment when you turn up to an audition for uni but applied for"
+  }, {
+    "text": "Turn up yung God ! And be careful out here"
+  }, {
+    "text": "Turn up was so T.R.I.L.L i can't even walk straight"
+  }, {
+    "text": "Hip me up for your next trap turn up ???? https : / / t.co / 85YopArzO7"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "00424655-v (appear or become visible; make a showing; \\\"\"She turned up at the funeral\\\"\"; \\\"\"I hope the list key is going to surface again\\\"\");01280538-v (bend or lay so that one part covers the other; \\\"\"fold up the newspaper\\\"\"; \\\"\"turn up your collar\\\"\");01316583-v (find by digging in the ground; \\\"\"I dug up an old box in the garden\\\"\");02291049-v (discover the location of; determine the place of; find by searching or examining; \\\"\"Can you locate your cousins in the Midwest?\\\"\"; \\\"\"My search turned up nothing\\\"\");02639962-v (be shown or be found to be; \\\"\"She proved to be right\\\"\"; \\\"\"The medicine turned out to save her life\\\"\"; \\\"\"She turned up HIV positive\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "luck=11438252-n (an unknown and unpredictable phenomenon that causes an event to result one way rather than another; \\\"\"bad luck caused his downfall\\\"\"; \\\"\"we ran into each other by pure chance\\\"\");11438574-n (an unknown and unpredictable phenomenon that leads to a favorable outcome; \\\"\"it was my good luck to be there\\\"\"; \\\"\"they say luck is a lady\\\"\"; \\\"\"it was as if fortune guided his hand\\\"\");14496806-n (your overall circumstances or condition in life (including everything that happens to you); \\\"\"whatever my fortune may be\\\"\"; \\\"\"deserved a better fate\\\"\"; \\\"\"has a happy lot\\\"\"; \\\"\"the luck of the Irish\\\"\"; \\\"\"a victim of circumstances\\\"\"; \\\"\"success that was her portion\\\"\"",
+      "relNo": 0
+    }],
+    "definition": "A stroke of good luck. "
+  }]
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "*stand-up",
+  "examples": [{
+    "text": "snowed in tomorrow , watch Tom Segura's Netflix stand-up special : \\ Mostly Stories \\\"\" . You\""
+  }, {
+    "text": "proper debate , rather than another insult comic stand-up audition "
+  }, {
+    "text": "How was my latest Stand-up Comedy special ?"
+  }, {
+    "text": "Stand-up # pouches are coming to the forefront of"
+  }, {
+    "text": "Tour : The Movie , Is the Hit Stand-Up https : / / t.co / 4BuP7N50q"
+  }, {
+    "text": "Stand-up blinds qualify the stir chip so that keep"
+  }, {
+    "text": "Helen Mirren should've changed careers to stand-up comedy ."
+  }, {
+    "text": "to fuck the Democrats . Seems like a stand-up guy https : / / t.co / zNcNZaLJZO"
+  }, {
+    "text": "Hell , even Nigerian stand-up comedy . Now , our comics take thei"
+  }, {
+    "text": "Actor and stand-up comedian Gurpreet Ghuggi joins AAP | Daily News"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "01240407-a (requiring a standing position; \\\"\"a stand-up bar\\\"\"; \\\"\"a stand-up comic\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "stage=01651668-v (plan, organize, and carry out (an event); \\\"\"the neighboring tribe staged an invasion\\\"\");01715304-v (perform (a play), especially on a stage; \\\"\"we are going to stage `Othello'\\\"\");00307726-n (a section or portion of a journey or course; \\\"\"then we embarked on the second stage of our Caribbean cruise\\\"\");04303700-n (a large platform on which people can stand and can be seen by an audience; \\\"\"he clambered up onto the stage and got the actors to help him into the box\\\"\");04304087-n (a small platform on a microscope where the specimen is mounted for examination);04304236-n (a large coach-and-four formerly used to carry passengers and mail on regular routes between towns; \\\"\"we went out of town together by stage about ten or twelve miles\\\"\");07019828-n (the theater as a profession (usually `the stage'); \\\"\"an early movie simply showed a long kiss by two actors of the contemporary stage\\\"\");08664141-n (any scene regarded as a setting for exhibiting or doing something; \\\"\"All the world's a stage\\\"\"--Shakespeare; \\\"\"it set the stage for peaceful negotiations\\\"\");13962925-n (a specific identifiable position in a continuum or series or especially in a process; \\\"\"a remarkable degree of frankness\\\"\"; \\\"\"at what stage are the social sciences?\\\"\");15315573-n (any distinct time period in a sequence of events; \\\"\"we are in a transitional stage in which many former ideas must be revised or rejected\\\"\"",
+      "relNo": 0
+    }],
+    "definition": " A performance of stand-up comedy; jokes delivered standing on a stage"
+  }]
+}

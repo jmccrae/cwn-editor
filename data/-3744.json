@@ -1,0 +1,52 @@
+{
+  "lemma": "thumbs up",
+  "examples": [{
+    "text": "Give it a thumbs up & amp ; subs ✅"
+  }, {
+    "text": "Give it a thumbs up ! ? and suscribe https : / /"
+  }, {
+    "text": "Thumbs up if you liked it ! ! ?????"
+  }, {
+    "text": "Thumbs up if you liked it ! ! ?????"
+  }, {
+    "text": "thumbs up ?????"
+  }, {
+    "text": "Thumbs up if you liked it ! ! ?????"
+  }, {
+    "text": "/ egMDiYgcjm don't forget to give it a thumbs up . ily bby boys ❤️48"
+  }, {
+    "text": "thumbs up"
+  }, {
+    "text": "[ thumbs up emoji ]"
+  }, {
+    "text": "Thumbs up if you liked it ! ! ?????"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "fist=05572697-n (a hand with the fingers clenched in the palm (as for hitting))",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "thumb=03872399-n (a convex molding having a cross section in the form of a quarter of a circle or of an ellipse);04438030-n (the part of a glove that provides a covering for the thumb);05574850-n (the thick short innermost digit of the forelimb);01212517-v (feel or handle with the fingers; \\\"\"finger the binding of the book\\\"\");01960814-v (travel by getting free rides from motorists);02157453-v (look through a book or other written material; \\\"\"He thumbed through the report\\\"\"; \\\"\"She leafed through the volume\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "okay=06700446-n (an endorsement; \\\"\"they gave us the O.K. to go ahead\\\"\");02088253-a (being satisfactory or in satisfactory condition; \\\"\"an all-right movie\\\"\"; \\\"\"the passengers were shaken up but are all right\\\"\"; \\\"\"is everything all right?\\\"\"; \\\"\"everything's fine\\\"\"; \\\"\"things are okay\\\"\"; \\\"\"dinner and the movies had been fine\\\"\"; \\\"\"another minute I'd have been fine\\\"\");00808164-v (give sanction to; \\\"\"I approve of his educational policies\\\"\");00015933-r (in a satisfactory or adequate manner; \\\"\"she'll do okay on her own\\\"\"; \\\"\"held up all right under pressure\\\"\"; (`alright' is a nonstandard variant of `all right')",
+      "relNo": 2
+    }, {
+      "type": "none",
+      "target": "approve=00675902-v (judge to be right or commendable; think well of);00808164-v (give sanction to; \\\"\"I approve of his educational policies\\\"\"",
+      "relNo": 3
+    }, {
+      "type": "none",
+      "target": "gesture=00335335-n (motion of hands or body to emphasize or help to express a thought or feeling);01230869-n (something done as an indication of intention; \\\"\"a political gesture\\\"\"; \\\"\"a gesture of defiance\\\"\");06889359-n (the use of movements (especially of the hands) to communicate familiar or prearranged signals);00994073-v (show, express or direct through movement; \\\"\"He gestured his desire to leave\\\"\"",
+      "relNo": 4
+    }],
+    "definition": "A gesture signifying approval or okay; a thumb pointing up out of a fist."
+  }]
+}

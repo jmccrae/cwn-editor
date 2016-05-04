@@ -1,0 +1,44 @@
+{
+  "lemma": "*halftime",
+  "examples": [{
+    "text": "Popped half the perky yeah that's halftime lil shawty pussy soakin yeah it's bath time"
+  }, {
+    "text": "Points Out 1 HUGE Problem With Beyonce's Anti-Cop Halftime Show https : / / t.co / 33Z1YgfFSc"
+  }, {
+    "text": "New York against singer ’ s Super Bowl halftime performance https : / / t.co / fyfFgfG6py"
+  }, {
+    "text": "# Beyoncé and Bruno Mars upstage Coldplay's halftime show - https : / / t.co /"
+  }, {
+    "text": "Katie Holmes Try to Copy Beyoncé ’ s Halftime Show Dance Moves { time } https :"
+  }, {
+    "text": "He Seen That Keith Only Have 7 At Halftime ??? https : / / t.co / xfAAP2Mzir"
+  }, {
+    "text": "Katie Holmes Danced Along to the Super Bowl Halftime Show - Watch Her Best Beyoncé Moves !"
+  }, {
+    "text": "NSN 2016 Kosher Halftime Show https : / / t.co / L0zHgcO3sC"
+  }, {
+    "text": "Out That the NFL Botched the Super Bowl Halftime Show [ https : / / t.co /"
+  }, {
+    "text": "NYStateofMind WCW : Beyonce stole the halftime show @ Super Bowl 50 https : /"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "15297557-n (an intermission between the first and second half of a game)",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "pep talk=07260875-n (a speech of exhortation attempting to instill enthusiasm and determination in a team or staff)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "second quarter=",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "halftime show=",
+      "relNo": 2
+    }],
+    "definition": " The halftime show, the primary &quot;light&quot; entertainment of a game, after the second quarter when players can physically recover, coaches can berate players with a pep talk, bets can be doubled, etc"
+  }]
+}

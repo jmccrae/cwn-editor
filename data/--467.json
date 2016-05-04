@@ -1,0 +1,44 @@
+{
+  "lemma": "*check-in",
+  "examples": [{
+    "text": "NP : Big Smooth RPENT . Radio Check-In # nowplaying computers : https : / /"
+  }, {
+    "text": "will let you use your Apple Watch to check-in to New York Fashion Week https : /"
+  }, {
+    "text": "Check out this epic check-in"
+  }, {
+    "text": "16 hours before i can check-in for my flight ."
+  }, {
+    "text": "Check out this epic check-in"
+  }, {
+    "text": "Check out this epic check-in"
+  }, {
+    "text": "NP : YK RPEnt Radio Check-In # 2 # nowplaying computers : https :"
+  }, {
+    "text": "Check out this epic check-in"
+  }, {
+    "text": ".Huiixx_ Nice check-in : I'm at Bedok Mall in Singapore https"
+  }, {
+    "text": "Check out this epic check-in"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "00142489-n (the act of reporting your presence (as at an airport or a hotel))",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "airport=02695091-n (an airfield equipped with control tower and hangars as well as accommodations for passengers and cargo)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "hotel=03547513-n (a building where travelers can pay for lodging and meals and other services)",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "check in=00968184-v (announce one's arrival, e.g. at hotels or airports",
+      "relNo": 2
+    }],
+    "definition": "The act of checking in at a hotel, airport et"
+  }]
+}

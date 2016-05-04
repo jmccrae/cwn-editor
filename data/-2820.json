@@ -1,0 +1,52 @@
+{
+  "lemma": "ked",
+  "examples": [{
+    "text": ". Celebreties n * ked pictures https : / / t.co / dh4r0BjQhs"
+  }, {
+    "text": "Celebreties n * ked pictures https : / / t.co / 3dXB3Y0u9e"
+  }, {
+    "text": "Celebreties n * ked pictures https : / / t.co / pPYQwJEjFv"
+  }, {
+    "text": "was circa ' 97 in the garys I'm ked to believe . Thay photo only resurfaced yesterday"
+  }, {
+    "text": "Celebreties n * ked pictures https : / / t.co / jcMVGj0QyT"
+  }, {
+    "text": "Celebreties n * ked pictures https : / / t.co / PyDyqYNIvb"
+  }, {
+    "text": "Celebreties n * ked pictures https : / / t.co / 0OSv6UoSH3"
+  }, {
+    "text": "Celebreties n * ked pictures https : / / t.co / KiMzqzma2q"
+  }, {
+    "text": "Celebreties n * ked pictures https : / / t.co / WkpuqkFAoY"
+  }, {
+    "text": "Celebreties n * ked pictures https : / / t.co / BWBNcqc9vd"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "Melophagus ovinus=",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "sheep ked=02201822-n (wingless fly that is an external parasite on sheep and cattle)",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "parasite=01387328-n (an animal or plant that lives in or on a host (another animal or plant); it obtains nourishment from the host without benefiting or killing the host);10272371-n (a follower who hangs around a host (without benefit to the host) in hope of gain or advantage)",
+      "relNo": 2
+    }, {
+      "type": "none",
+      "target": "obligate=00886738-v (bind by an obligation; cause to be indebted; \\\"\"He's held by a contract\\\"\"; \\\"\"I'll hold you by your promise\\\"\");02353178-v (commit in order to fulfill an obligation; \\\"\"obligate money\\\"\");02512195-v (force somebody to do something; \\\"\"We compel all students to fill out this form\\\"\");01621827-a (restricted to a particular condition of life; \\\"\"an obligate anaerobe can survive only in the absence of oxygen\\\"\"",
+      "relNo": 3
+    }, {
+      "type": "none",
+      "target": "Hippoboscidae=02200984-n (winged or wingless dipterans: louse flies)",
+      "relNo": 4
+    }],
+    "definition": "Any of the family Hippoboscidae of obligate parasites, especially the sheep ked, ''Melophagus ovinus''"
+  }]
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "*birthday",
+  "examples": [{
+    "text": "HAPPY BIRTHDAY Love you booboo !"
+  }, {
+    "text": "Looking forward to the Big Birthday Celebration https : / / t.co / Ka1iEqrP3R"
+  }, {
+    "text": "# 황찬성생일축하해 ? \\ HAPPY BIRTHDAY Chansung https : / / t.co / L9vuIodzWa\""
+  }, {
+    "text": "my BEST FRIEND . And today is her birthday ! She is 12 ! And I honestly"
+  }, {
+    "text": "Happy Birthday ."
+  }, {
+    "text": "Happy Birthday ."
+  }, {
+    "text": "belated happy birthday bhai ....."
+  }, {
+    "text": "Happy Birthday ."
+  }, {
+    "text": "time , are you coming home for your birthday ? "
+  }, {
+    "text": "Happy birthday hope you're having a lovely day ??"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "15274989-n (an anniversary of the day on which a person was born (or the celebration of it));15277233-n (the date on which a person was born)",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "anniversary=15274610-n (the date on which an event occurred in some previous year (or the celebration of it))",
+      "relNo": 0
+    }],
+    "definition": "The anniversary of the day on which someone is born. "
+  }]
+}

@@ -1,0 +1,40 @@
+{
+  "lemma": "dumb ass",
+  "examples": [{
+    "text": ", these fake ass friends , and this dumb ass drama? . JUST LEAVE ME TF ALONE "
+  }, {
+    "text": "but I still have to go shovel the dumb ass driveway"
+  }, {
+    "text": "hope her dumb ass never come back"
+  }, {
+    "text": "I seriously have some dumb ass friends ?"
+  }, {
+    "text": "to be reinstated . Smh . For a dumb ass ticket ."
+  }, {
+    "text": "i was sleep for dumb ass long ...."
+  }, {
+    "text": "I know my inbox came to the lil dumb ass 5c fwwy !"
+  }, {
+    "text": "Hydiah dumb ass shit ?"
+  }, {
+    "text": "She believe anything her dumb ass friend tell her . ????"
+  }, {
+    "text": "Catch me on Arthur's story looking like a dumb ass ??? https : / / t.co / ytEJ0BlDIc"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "person=00007846-n (a human being; \\\"\"there was too much for one person to do\\\"\");05224944-n (a human body (usually including the clothing); \\\"\"a weapon was hidden on his person\\\"\");06337790-n (a grammatical category used in the classification of pronouns, possessive determiners, and verb forms according to whether they indicate the speaker, the addressee, or a third party; \\\"\"stop talking about yourself in the third person\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "stupid=00441328-a (lacking or marked by lack of intellectual acuity);01339540-a (lacking intelligence; \\\"\"a dull job with lazy and unintelligent co-workers\\\"\");10686626-n (a person who is not very bright; \\\"\"The economy, stupid!\\\"\"",
+      "relNo": 1
+    }],
+    "definition": " stupid person"
+  }]
+}

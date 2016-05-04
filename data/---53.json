@@ -1,0 +1,32 @@
+{
+  "lemma": "happy birthday",
+  "examples": [{
+    "text": "happy birthday brother come back sometime soon"
+  }, {
+    "text": "Happy Birthday ? https : / / t.co / khvEdzYWnT"
+  }, {
+    "text": "Happy birthday ?"
+  }, {
+    "text": "HAPPY BIRTHDAY Love you booboo !"
+  }, {
+    "text": "# 황찬성생일축하해 ? \\ HAPPY BIRTHDAY Chansung https : / / t.co / L9vuIodzWa\""
+  }, {
+    "text": "Happy Birthday ."
+  }, {
+    "text": "Happy Birthday ."
+  }, {
+    "text": "belated happy birthday bhai ....."
+  }, {
+    "text": "Happy Birthday ."
+  }, {
+    "text": "Happy birthday hope you're having a lovely day ??"
+  }],
+  "status": "nonlex",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

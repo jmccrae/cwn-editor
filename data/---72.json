@@ -1,0 +1,32 @@
+{
+  "lemma": "wya",
+  "examples": [{
+    "text": "Friday wya ?"
+  }, {
+    "text": "friends wya"
+  }, {
+    "text": "watching teen wolf doesn't feel right without wya : ("
+  }, {
+    "text": "Senior ditch day wya ? ?"
+  }, {
+    "text": "we can Wya"
+  }, {
+    "text": "Spring Break WYA"
+  }, {
+    "text": "Wya I'm almost at ur locker"
+  }, {
+    "text": "tomorrow wya ???"
+  }, {
+    "text": "Summer , Wya "
+  }, {
+    "text": "graduation wya"
+  }],
+  "status": "abbrev",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [],
+    "definition": "where you at"
+  }]
+}

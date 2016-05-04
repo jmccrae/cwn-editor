@@ -1,0 +1,18 @@
+{
+  "lemma": "fix",
+  "examples": [{
+    "text": ""
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "prepare=00407168-v",
+      "relNo": 0
+    }],
+    "definition": "to be about to do something (AAVE)"
+  }]
+}

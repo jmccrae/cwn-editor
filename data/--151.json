@@ -1,0 +1,36 @@
+{
+  "lemma": "huhu",
+  "examples": [{
+    "text": "Huhu lovestream pls cooperate ????"
+  }, {
+    "text": "i missed my classmates and friends huhu"
+  }, {
+    "text": "same ! im going crazy huhu"
+  }, {
+    "text": "goodness I miss areum huhu"
+  }, {
+    "text": "Just tell me how u really feel huhu stop giving me mixed signals : ( ("
+  }, {
+    "text": "SAVED IT AND I STILL CSNT GET OVER HUHU"
+  }, {
+    "text": "am in love with the new dustane video huhu can we have more of them"
+  }, {
+    "text": "we the same u and i huhu"
+  }, {
+    "text": "wish there were more skill slots in RB huhu ; _ ;"
+  }, {
+    "text": "Kahit isang intense hate-filled kiss wala huhu ."
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "crying: the process of shedding tears (usually accompanied by sobs or other inarticulate sounds); 'I hate to hear the crying of a child'; 'she was in tears' <i39959>",
+      "relNo": 0
+    }],
+    "definition": "Expressing crying"
+  }]
+}

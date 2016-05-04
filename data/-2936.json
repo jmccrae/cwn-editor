@@ -1,0 +1,36 @@
+{
+  "lemma": "*hater",
+  "examples": [{
+    "text": "That black nigga a hater"
+  }, {
+    "text": "If you ain't a fan you a hater ?"
+  }, {
+    "text": "Jordan Baird is a hater"
+  }, {
+    "text": "Obama hater asking if someone's racist , with God i"
+  }, {
+    "text": "dude i mean we get it hater be hating its sad a 13 year is"
+  }, {
+    "text": "Have you ever met a Hater doing better than you ? Me neither ."
+  }, {
+    "text": "Don't be a player hater because of his opinion take a look in"
+  }, {
+    "text": "There's always a hater somewhere around JHS . I couldn't find the"
+  }, {
+    "text": "F a hater # The_Devil_is_a_Lie"
+  }, {
+    "text": "someone to tell me how she's a cop hater ?"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "10181787-n (a person who hates)",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "hate=07561835-n (the emotion of intense dislike; a feeling of dislike so strong that it demands action);01778057-v (dislike intensely; feel antipathy or aversion towards; \\\"\"I hate Mexican food\\\"\"; \\\"\"She detests politicians\\\"\"",
+      "relNo": 0
+    }],
+    "definition": "One who hates."
+  }]
+}

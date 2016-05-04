@@ -1,0 +1,44 @@
+{
+  "lemma": "*hug",
+  "examples": [{
+    "text": "can't wait to hug u ??"
+  }, {
+    "text": "hug you tight in his arm and kiss your"
+  }, {
+    "text": "bless your heart ! * gives hug * lol"
+  }, {
+    "text": "\\ she smiled and gave him a tight hug\""
+  }, {
+    "text": "Best dog friends know how to hug it out https : / / t.co /"
+  }, {
+    "text": "would like to send you one of our Hug Rugs while you are in the UK please"
+  }, {
+    "text": "broke my heart that Izzy neevr got a hug https : / / t.co / 4H6om9Lde3"
+  }, {
+    "text": "I feel ya ? here is a hug ? * hug * ?"
+  }, {
+    "text": "the Lilo hug makes me crY"
+  }, {
+    "text": "can meet you and give you a big hug ! ?"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "01399178-v (fit closely or tightly; \\\"\"The dress hugged her hips\\\"\");01427110-v (hold (someone) tightly in your arms, usually with fondness; \\\"\"Hug me, please\\\"\"; \\\"\"They embraced\\\"\"; \\\"\"He hugged her close to him\\\"\");00418872-n (a tight or amorous embrace; \\\"\"come here and give me a big hug\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "embrace=00181619-n (a close affectionate and protective acceptance; \\\"\"his willing embrace of new ideas\\\"\"; \\\"\"in the bosom of the family\\\"\");00418410-n (the act of clasping another person in the arms (as in greeting or affection));14450812-n (the state of taking in or encircling; \\\"\"an island in the embrace of the sea\\\"\");00603217-v (take up the cause, ideology, practice, method, of someone and use it as one's own; \\\"\"She embraced Catholicism\\\"\"; \\\"\"They adopted the Jewish faith\\\"\");01427110-v (hold (someone) tightly in your arms, usually with fondness; \\\"\"Hug me, please\\\"\"; \\\"\"They embraced\\\"\"; \\\"\"He hugged her close to him\\\"\");02635874-v (include in scope; include as part of something broader; have as one's sphere or territory; \\\"\"This group encompasses a wide range of people from different backgrounds\\\"\"; \\\"\"this should cover everyone in the group\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "close=00352791-v (finish a game in baseball by protecting a lead; \\\"\"The relief pitcher closed with two runs in the second inning\\\"\");00765876-v (complete a business deal, negotiation, or an agreement; \\\"\"We closed on the house on Friday\\\"\"; \\\"\"They closed the deal on the building\\\"\");01294544-v (unite or bring into contact or bring together the edges of; \\\"\"close the circuit\\\"\"; \\\"\"close a wound\\\"\"; \\\"\"close a book\\\"\"; \\\"\"close up an umbrella\\\"\");01347791-v (move so that an opening or passage is obstructed; make shut; \\\"\"Close the door\\\"\"; \\\"\"shut the window\\\"\");01349660-v (become closed; \\\"\"The windows closed with a loud bang\\\"\");01425939-v (fill or stop up; \\\"\"Can you close the cracks with caulking?\\\"\");01481053-v (bar access to; \\\"\"Due to the accident, the road had to be closed for several hours\\\"\");01610192-v (bring together all the elements or parts of; \\\"\"Management closed ranks\\\"\");02058306-v (draw near; \\\"\"The probe closed with the space station\\\"\");02058465-v (come together, as if in an embrace; \\\"\"Her arms closed around her long lost relative\\\"\");02108781-v (change one's body stance so that the forward shoulder and foot are closer to the intended point of impact);02145254-v (cause a window or an application to disappear on a computer desktop);02380710-v (engage at close quarters; \\\"\"close with the enemy\\\"\");02430760-v (finish or terminate (meetings, speeches, etc.); \\\"\"The meeting was closed with a charge by the chairman of the board\\\"\");02431242-v (cease to operate or cause to cease operating; \\\"\"The owners decided to move and to close the factory\\\"\"; \\\"\"My business closes every night at 8 P.M.\\\"\"; \\\"\"close up the shop\\\"\");02616663-v (come to a close; \\\"\"The concert closed with a nocturne by Chopin\\\"\");02760151-v (be priced or listed when trading stops; \\\"\"The stock market closed high this Friday\\\"\"; \\\"\"My new stocks closed at $59 last night\\\"\");00411619-r (near in time or place or relationship; \\\"\"as the wedding day drew near\\\"\"; \\\"\"stood near the door\\\"\"; \\\"\"don't shoot until they come near\\\"\"; \\\"\"getting near to the true explanation\\\"\"; \\\"\"her mother is always near\\\"\"; \\\"\"The end draws nigh\\\"\"; \\\"\"the bullet didn't come close\\\"\"; \\\"\"don't get too close to the fire\\\"\");00507682-r (in an attentive manner; \\\"\"he remained close on his guard\\\"\");00211646-n (the concluding part of any performance);06410044-n (the last section of a communication; \\\"\"in conclusion I want to say...\\\"\");15292365-n (the temporal end; the concluding time; \\\"\"the stopping point of each round was signaled by a bell\\\"\"; \\\"\"the market was up at the finish\\\"\"; \\\"\"they were playing better at the close of the season\\\"\");00022256-a (marked by fidelity to an original; \\\"\"a close translation\\\"\"; \\\"\"a faithful copy of the portrait\\\"\"; \\\"\"a faithful rendering of the observed facts\\\"\");00310743-a (rigorously attentive; strict and thorough; \\\"\"close supervision\\\"\"; \\\"\"paid close attention\\\"\"; \\\"\"a close study\\\"\"; \\\"\"kept a close watch on expenditures\\\"\");00446553-a (not far distant in time or space or degree or circumstances; \\\"\"near neighbors\\\"\"; \\\"\"in the near future\\\"\"; \\\"\"they are near equals\\\"\"; \\\"\"his nearest approach to success\\\"\"; \\\"\"a very near thing\\\"\"; \\\"\"a near hit by the bomb\\\"\"; \\\"\"she was near tears\\\"\"; \\\"\"she was close to tears\\\"\"; \\\"\"had a close call\\\"\");00448955-a (at or within a short distance in space or time or having elements near each other; \\\"\"close to noon\\\"\"; \\\"\"how close are we to town?\\\"\"; \\\"\"a close formation of ships\\\"\");00453543-a (close in relevance or relationship; \\\"\"a close family\\\"\"; \\\"\"we are all...in close sympathy with...\\\"\"; \\\"\"close kin\\\"\"; \\\"\"a close resemblance\\\"\");00502916-a (inclined to secrecy or reticence about divulging information; \\\"\"although they knew her whereabouts her friends kept close about it\\\"\");00560964-a (crowded; \\\"\"close quarters\\\"\");00893915-a ((of a contest or contestants) evenly matched; \\\"\"a close contest\\\"\"; \\\"\"a close election\\\"\"; \\\"\"a tight game\\\"\");01116967-a (giving or spending with reluctance; \\\"\"our cheeseparing administration\\\"\"; \\\"\"very close (or near) with his money\\\"\"; \\\"\"a penny-pinching miserly old man\\\"\");01439442-a (used of hair or haircuts; \\\"\"a close military haircut\\\"\");01450828-a (fitting closely but comfortably; \\\"\"a close fit\\\"\");01865308-a (confined to specific persons; \\\"\"a close secret\\\"\");02007394-a (strictly confined or guarded; \\\"\"kept under close custody\\\"\");02240484-a (of textiles; \\\"\"a close weave\\\"\"; \\\"\"smooth percale with a very tight weave\\\"\");02519542-a (lacking fresh air; \\\"\"a dusty airless attic\\\"\"; \\\"\"the dreadfully close atmosphere\\\"\"; \\\"\"hot and stuffy and the air was blue with smoke\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "affectionate=01467633-a (having or displaying warmth or affection; \\\"\"affectionate children\\\"\"; \\\"\"a fond embrace\\\"\"; \\\"\"fond of his nephew\\\"\"; \\\"\"a tender glance\\\"\"",
+      "relNo": 2
+    }],
+    "definition": "An affectionate close embrace."
+  }]
+}

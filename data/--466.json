@@ -1,0 +1,40 @@
+{
+  "lemma": "paczki",
+  "examples": [{
+    "text": "celebrate Fat Tuesday with one of these delicious paczki from # hanasdonuts ? : https : /"
+  }, {
+    "text": "Paczki Day in Detroit is a big deal !"
+  }, {
+    "text": "Upset because it's Paczki day and it's way too cold to go"
+  }, {
+    "text": ": people outside National Bakery at 6AM for paczki ; -2 wind chill . PeteZ … https"
+  }, {
+    "text": "tuesday and I have yet to get my paczki"
+  }, {
+    "text": "i've never in my life had a paczki"
+  }, {
+    "text": "first Fat Tuesday without a paczki : /"
+  }, {
+    "text": "It's Fat Tuesday , which means paczki by the thousands in Kalamazoo # FatTuesday2016 "
+  }, {
+    "text": "Paczki Day was a success — feeling full at"
+  }, {
+    "text": "to me it's not Mardi Gras , it's Paczki da"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "doughnut=07654678-n (a small ring-shaped friedcake);13898031-n (a toroidal shape; \\\"\"a ring of ships in the harbor\\\"\"; \\\"\"a halo of smoke\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "Polish=06957482-n (the Slavic language of Poland);02972803-a (of or relating to Poland or its people or culture; \\\"\"Polish sausage\\\"\"",
+      "relNo": 1
+    }],
+    "definition": "A traditional Polish doughnut."
+  }]
+}

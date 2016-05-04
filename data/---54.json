@@ -1,0 +1,40 @@
+{
+  "lemma": "turnt",
+  "examples": [{
+    "text": "\\ When I turnt like 14 I swear Bianca use to tell\""
+  }, {
+    "text": "By Myself At Fort Worth Razzoos Turnt ! ... Who Wanna Turn Up Wit Me"
+  }, {
+    "text": "Hillary was turnt tonight damn doesn't she know Bernie won ?"
+  }, {
+    "text": "Naw Ima be too turnt can't fade https : / / t.co /"
+  }, {
+    "text": "wanna get turnt w me https : / / t.co /"
+  }, {
+    "text": "asked for advil Cus he wasn't tryna get turnt alone nd I napped 2 chill out but"
+  }, {
+    "text": "This turnt save the date Feb 20th https : /"
+  }, {
+    "text": "if you're not turnt af for fuller house in 17 days then"
+  }, {
+    "text": "[ Mixtape ] Trap Turnt Up 6 : : # GetItLIVE ! https"
+  }, {
+    "text": "turnt tf up ?"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "excited: (of persons) excessively affected by emotion; 'he would become emotional over nothing at all'; 'she was worked up about all the noise' <i451>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "turn: change to the contrary; 'The trend was reversed'; 'the tides turned against him'; 'public opinion turned when it was revealed that the president had an affair with a White House intern' <i22413>",
+      "relNo": 1
+    }],
+    "definition": "extermely excited, especially about or at a part"
+  }]
+}

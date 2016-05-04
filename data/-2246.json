@@ -1,0 +1,32 @@
+{
+  "lemma": "direk",
+  "examples": [{
+    "text": "Direk Rhian and Glaiza plsssss https : / /"
+  }, {
+    "text": "a BTS like this ! ??? salamat direk ?? ."
+  }, {
+    "text": "gonna be the BUBBLEgang's director , now that direk Uro is Gone ? Is BG would b"
+  }, {
+    "text": "Ready Direk ! ?? # OTWOLTheHardestDecision https : / /"
+  }, {
+    "text": "Thanks direk I'm alive ?"
+  }, {
+    "text": "This is way better than any teleserye Direk .. Thankie po !"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "column=03077981-n ((architecture) a tall vertical cylindrical structure standing upright and used to support a structure);03078384-n (a vertical cylindrical structure standing alone and not supporting anything (such as a monument));03078578-n (a vertical glass tube used in column chromatography; a mixture is poured in the top and washed through a stationary substance where components of the mixture are adsorbed selectively to form colored bands);05593649-n (any tubular or pillar-like supporting structure in the body);06279010-n (a page or text that is vertically divided; \\\"\"the newspaper devoted several columns to the subject\\\"\"; \\\"\"the bookkeeper used pages that were divided into columns\\\"\");06279220-n (an article giving opinions or perspectives);08446009-n (a line of units following one after another);08450585-n (a vertical array of numbers or other information; \\\"\"he added a column of numbers\\\"\");13923115-n (anything that approximates the shape of a column or tower; \\\"\"the test tube held a column of white powder\\\"\"; \\\"\"a tower of dust rose above the horizon\\\"\"; \\\"\"a thin pillar of smoke betrayed their campsite\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "pillar=03077981-n ((architecture) a tall vertical cylindrical structure standing upright and used to support a structure);03078384-n (a vertical cylindrical structure standing alone and not supporting anything (such as a monument));05922436-n (a fundamental principle or practice; \\\"\"science eroded the pillars of superstition\\\"\");10452721-n (a prominent supporter; \\\"\"he is a pillar of the community\\\"\");13923115-n (anything that approximates the shape of a column or tower; \\\"\"the test tube held a column of white powder\\\"\"; \\\"\"a tower of dust rose above the horizon\\\"\"; \\\"\"a thin pillar of smoke betrayed their campsite\\\"\"",
+      "relNo": 1
+    }],
+    "definition": "pillar, colum"
+  }]
+}

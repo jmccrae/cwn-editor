@@ -1,0 +1,44 @@
+{
+  "lemma": "fangirl",
+  "examples": [{
+    "text": "the fangirl life chose me"
+  }, {
+    "text": "follow you back , probably thinks your another fangirl : ' ) "
+  }, {
+    "text": "I still love Choroko being a super fangirl"
+  }, {
+    "text": "ur style dude ! u got a new fangirl !"
+  }, {
+    "text": "the fangirl life chose me"
+  }, {
+    "text": "Hey ! Just a fangirl of you should check him out !"
+  }, {
+    "text": "fandom : karamatsu is best matsu / fangirl screeching /"
+  }, {
+    "text": "THE THREAD THAT KILLS OUR FANGIRL HEARTS * warning * https : / /"
+  }, {
+    "text": "No one can stop me from being a fangirl ."
+  }, {
+    "text": "the fangirl life chose me"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "obsessive=10368720-n (a person who has obsessions);01589430-a (characterized by or constituting an obsession; \\\"\"the obsessional character of his response\\\"\"; \\\"\"obsessive gambling\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "fan=00177994-v (blow away or off with a current of air; \\\"\"winnow chaff\\\"\"; \\\"\"The speaker ceased to be an amusing little gnat to be fanned away and was kicked off the forum\\\"\");00228231-v (make (an emotion) fiercer; \\\"\"fan hatred\\\"\");01412417-v (strike out (a batter), (of a pitcher));01889573-v (agitate the air);03324991-n (a device for creating a current of air by movement of a surface or surfaces);10097373-n (an ardent follower and admirer);10659323-n (an enthusiastic devotee of sports",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "female=01481113-a (being the sex (of plant or animal) that produces fertilizable gametes (ova) from which offspring develop; \\\"\"a female heir\\\"\"; \\\"\"female holly trees bear the berries\\\"\");01481489-a (for or pertaining to or composed of women or girls; \\\"\"the female lead in the play\\\"\"; \\\"\"a female chorus\\\"\");01487758-a (characteristic of or peculiar to a woman; \\\"\"female sensitiveness\\\"\"; \\\"\"female suffrage\\\"\");01323363-n (an animal that produces gametes (ova) that can be fertilized by male gametes (spermatozoa));09642198-n (a person who belongs to the sex that can have babies",
+      "relNo": 2
+    }],
+    "definition": " A female fan who is obsessive about a particular subject (especially, someone or something in popular entertainment media)"
+  }]
+}

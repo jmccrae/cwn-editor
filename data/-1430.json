@@ -1,0 +1,42 @@
+{
+  "lemma": "*all-rounder",
+  "examples": [{
+    "text": "oil batting all-rounder"
+  }, {
+    "text": "and Ponting for helping him become a batting all-rounder https : / / t.co / 34ZmLakQTH via"
+  }, {
+    "text": "# Indian all-rounder gets engaged to # Rajkot girl"
+  }, {
+    "text": "Role Bowling All-Rounder"
+  }, {
+    "text": "# Jobs Office All-Rounder : Hays Office Support - Sunshine Coast "
+  }, {
+    "text": "42 times the base price.. all-rounder Deepak Hooda goes to SunRisers for Rs ."
+  }, {
+    "text": "now was known as the brother of India all-rounder Hardik Pandya . However all that changed on"
+  }, {
+    "text": "New Zealand all-rounder"
+  }, {
+    "text": "with NZ all-rounder Grant Elliot"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "09804311-n (a versatile person who is expert at many things; \\\"\"she's the best all-rounder they've seen in years\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "various=02073069-a (of many different kinds purposefully arranged but lacking any uniformity; \\\"\"assorted sizes\\\"\"; \\\"\"his disguises are many and various\\\"\"; \\\"\"various experiments have failed to disprove the theory\\\"\"; \\\"\"cited various reasons for his behavior\\\"\");02074895-a (distinctly dissimilar or unlike; \\\"\"celebrities as diverse as Bob Hope and Bob Dylan\\\"\"; \\\"\"animals as various as the jaguar and the cavy and the sloth\\\"\");02517830-a (having great diversity or variety; \\\"\"his various achievements are impressive\\\"\"; \\\"\"his vast and versatile erudition\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "reference=01266543-n (the act of referring or consulting; \\\"\"reference to an encyclopedia produced the answer\\\"\");05931581-n (the most direct or specific meaning of a word or expression; the class of objects that an expression refers to; \\\"\"the extension of `satellite of Mars' is the set containing only Demos and Phobos\\\"\");05931946-n (the relation between a word or phrase and the object or idea it refers to; \\\"\"he argued that reference is a consequence of conditioned reflexes\\\"\");06367922-n ((computer science) the code that identifies where a piece of information is stored);06429241-n (a book to which you can refer for authoritative facts; \\\"\"he contributed articles to the basic reference work on that topic\\\"\");06707541-n (a formal recommendation by a former employer to a potential future employer describing the person's qualifications and dependability; \\\"\"requests for character references are all too often answered evasively\\\"\");06776392-n (a short note recognizing a source of information or of a quoted passage; \\\"\"the student's essay failed to list several important citations\\\"\"; \\\"\"the acknowledgments are usually printed at the front of a book\\\"\"; \\\"\"the article includes mention of similar clinical cases\\\"\");06778981-n (a remark that calls attention to something or someone; \\\"\"she made frequent mention of her promotion\\\"\"; \\\"\"there was no mention of it\\\"\"; \\\"\"the speaker made several references to his wife\\\"\");07273000-n (an indicator that orients you generally; \\\"\"it is used as a reference for comparing the heating and the electrical energy involved\\\"\");07273332-n (a publication (or a passage from a publication) that is referred to; \\\"\"he carried an armful of references back to his desk\\\"\"; \\\"\"he spent hours looking for the source of that quotation\\\"\");01709116-v (refer to; \\\"\"he referenced his colleagues' work\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "versatile=01528841-a (able to move freely in all directions; \\\"\"an owl's versatile toe can move backward and forward\\\"\"; \\\"\"an insect's versatile antennae can move up and down or laterally\\\"\"; \\\"\"a versatile anther of a flower moves freely in the wind\\\"\");02235908-a (competent in many areas and able to turn with ease from one thing to another; \\\"\"a versatile writer\\\"\");02515662-a (changeable or inconstant; \\\"\"versatile moods\\\"\");02517830-a (having great diversity or variety; \\\"\"his various achievements are impressive\\\"\"; \\\"\"his vast and versatile erudition\\\"\"",
+      "relNo": 2
+    }],
+    "definition": " A versatile person, able to do many things well; used especially in reference to being good at various sports"
+  }]
+}

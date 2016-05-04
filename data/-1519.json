@@ -1,0 +1,52 @@
+{
+  "lemma": "*dope",
+  "examples": [{
+    "text": "thereanyway i can join your team yall are dope"
+  }, {
+    "text": "dope . I like what u said about salute"
+  }, {
+    "text": "the gym lol S / O # Triller Dope App # Flip # LaFitness # FitLifeIsPriceLess …"
+  }, {
+    "text": "Gone put in some dope interior lights in my new car ??"
+  }, {
+    "text": "that's dope ! congrats ... you deserve it . Lemme"
+  }, {
+    "text": "that shit dope but yeah Lil Yachty on the come up"
+  }, {
+    "text": "LIVE on # Periscope : Dope https : / / t.co / ob83jKMkZC"
+  }, {
+    "text": "The vibes were dope yesterday ☀️?? https : / / t.co /"
+  }, {
+    "text": "Dope man dope man"
+  }, {
+    "text": "my classes are so dope .really impressed so far"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "03997192-n (street names for marijuana);06648638-n (slang terms for inside information; \\\"\"is that the straight dope?\\\"\");07944171-n (carbonated drink flavored with extract from kola nuts (`dope' is a southernism in the United States));10059116-n (an ignorant or foolish person);00084799-v (give a narcotic to; \\\"\"The athletes were dope by the coach before the race\\\"\");00558099-v (add impurities to (a semiconductor) in order to produce or modify its properties; \\\"\"The resistors have been doped\\\"\");01203444-v (take drugs to improve one's athletic performance",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "surface=02691302-n (a device that provides reactive force when in motion relative to the surrounding air; can lift or control a plane in flight);04369112-n (the outer boundary of an artifact or a material layer constituting or resembling such a boundary; \\\"\"there is a special cleaner for these surfaces\\\"\"; \\\"\"the cloth had a pattern of red dots on a white surface\\\"\");05620592-n (information that has become public; \\\"\"all the reports were out in the open\\\"\"; \\\"\"the facts had been brought to the surface\\\"\");05862014-n (a superficial aspect as opposed to the real nature of something; \\\"\"it was not what it appeared to be on the surface\\\"\");08677970-n (the extended two-dimensional outer boundary of a three-dimensional object; \\\"\"they skimmed over the surface of the water\\\"\"; \\\"\"a brush small enough to clean every dental surface\\\"\"; \\\"\"the sun has no distinct surface\\\"\");09474647-n (the outermost level of the land or sea; \\\"\"earthquakes originate far below the surface\\\"\"; \\\"\"three quarters of the Earth's surface is covered by water\\\"\");00424655-v (appear or become visible; make a showing; \\\"\"She turned up at the funeral\\\"\"; \\\"\"I hope the list key is going to surface again\\\"\");01266847-v (put a coat on; cover the surface of; furnish with a surface; \\\"\"coat the cake with chocolate\\\"\");01994295-v (come to the surface);02480566-a (on the surface; \\\"\"surface materials of the moon\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "lubricant=14914810-n (a substance capable of reducing friction by making surfaces smooth or slippery)",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "paste=07872246-n (a tasty mixture to be spread on bread or crackers or used in preparing other dishes);14729127-n (an adhesive made from water and flour or starch; used on paper and paperboard);14729448-n (any mixture of a soft and malleable consistency);14906399-n (a hard, brilliant lead glass that is used in making artificial jewelry);01334887-v (join or attach with or as if with glue; \\\"\"paste the sign on the wall\\\"\"; \\\"\"cut and paste the sentence in the text\\\"\");01335281-v (cover the surface of; \\\"\"paste the wall with burlap\\\"\");01415298-v (hit with the fists; \\\"\"He pasted his opponent\\\"\"",
+      "relNo": 2
+    }, {
+      "type": "none",
+      "target": "liquid=07134351-n (a frictionless continuant that is not a nasal consonant (especially `l' and `r'));14504004-n (the state in which a substance exhibits a characteristic readiness to flow with little or no tendency to disperse and relatively high incompressibility);14964238-n (fluid matter having no fixed shape but a fixed volume);14964524-n (a substance that is liquid at room temperature and pressure);00434168-a (clear and bright; \\\"\"the liquid air of a spring morning\\\"\"; \\\"\"eyes shining with a liquid luster\\\"\"; \\\"\"limpid blue eyes\\\"\");00781576-a (in cash or easily convertible to cash; \\\"\"liquid (or fluid) assets\\\"\");01143332-a (smooth and unconstrained in movement; \\\"\"a long, smooth stride\\\"\"; \\\"\"the fluid motion of a cat\\\"\"; \\\"\"the liquid grace of a ballerina\\\"\");01508720-a (smooth and flowing in quality; entirely free of harshness; \\\"\"the liquid song of a robin\\\"\");01509670-a (changed from a solid to a liquid state; \\\"\"rivers filled to overflowing by melted snow\\\"\");02269142-a (existing as or having characteristics of a liquid; especially tending to flow; \\\"\"water and milk and blood are liquid substances\\\"\");02482846-a (filled or brimming with tears; \\\"\"swimming eyes\\\"\"; \\\"\"sorrow made the eyes of many grow liquid\\\"\"",
+      "relNo": 3
+    }, {
+      "type": "none",
+      "target": "viscous=00053931-a (having the sticky properties of an adhesive);02425824-a (having a relatively high resistance to flow)",
+      "relNo": 4
+    }],
+    "definition": " Any viscous liquid or paste, such as a lubricant, used in preparing a surface"
+  }]
+}

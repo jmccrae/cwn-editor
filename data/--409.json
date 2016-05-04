@@ -1,0 +1,36 @@
+{
+  "lemma": "gt",
+  "examples": [{
+    "text": "#ERROR!"
+  }, {
+    "text": "meds are making me sleepy noooooooo & gt ; & lt ;"
+  }, {
+    "text": "see & gt ; & gt ; & gt ; https"
+  }, {
+    "text": "Twitter Value Free - Click Here == & gt ; https : / / t.co / 4JvnDhMfbK"
+  }, {
+    "text": "Twitter Value Free - Click Here == & gt ; https : / / t.co / FdOsFgnYHl"
+  }, {
+    "text": "https : / / t.co / CKkACCsego & gt ; Green Energy Jobs : How Solar Energy"
+  }, {
+    "text": "see click & gt ; & gt ; https : / /"
+  }, {
+    "text": "& gt ; working ( designing ) from home on"
+  }, {
+    "text": "& gt ; 5hr left on file recovery program running"
+  }, {
+    "text": "& gt ; slack / todoist pulled up on laptop"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "drop=00057478-v (give birth; used for animals; \\\"\"The cow dropped her calf this morning\\\"\");00092045-v (grow worse; \\\"\"Her condition deteriorated\\\"\"; \\\"\"Conditions in the slums degenerated\\\"\"; \\\"\"The discussion devolved into a shouting match\\\"\");00148161-v (fall or sink into a state of exhaustion or death; \\\"\"shop til you drop\\\"\");00363763-v (stop pursuing or acting; \\\"\"drop a lawsuit\\\"\"; \\\"\"knock it off!\\\"\");00394236-v (lower the pitch of (musical notes));00433636-v (go down in value; \\\"\"Stock prices dropped\\\"\");00549696-v (change from one level to another; \\\"\"She dropped into army jargon\\\"\");00616690-v (leave undone or leave out; \\\"\"How could I miss that typo?\\\"\"; \\\"\"The workers on the conveyor belt miss one out of ten\\\"\");00617306-v (omit (a letter or syllable) in speaking or writing; \\\"\"New Englanders drop their post-vocalic r's\\\"\");00943477-v (utter with seeming casualness; \\\"\"drop a hint\\\"\"; \\\"\"drop names\\\"\");01102419-v (lose (a game); \\\"\"The Giants dropped 11 of their first 13\\\"\");01203299-v (take (a drug, especially LSD), by mouth; \\\"\"She dropped acid when she was a teenager\\\"\");01260866-v (cause to fall by or as if by delivering a blow; \\\"\"strike down a tree\\\"\"; \\\"\"Lightning struck down the hikers\\\"\");01492094-v (remove (cargo, people, etc.) from and leave; \\\"\"unload the cargo\\\"\"; \\\"\"drop off the passengers at the hotel\\\"\");01516062-v (get rid of; \\\"\"he shed his image as a pushy boss\\\"\"; \\\"\"shed your clothes\\\"\");01614420-v (let or cause to fall in drops; \\\"\"dribble oil into the mixture\\\"\");01980855-v (to fall vertically; \\\"\"the bombs are dropping on enemy targets\\\"\");01981715-v (let fall to the ground; \\\"\"Don't drop the dishes\\\"\");01989937-v (fall or descend to a lower place or level; \\\"\"He sank to his knees\\\"\");02271905-v (pay out; \\\"\"spend money\\\"\");02409062-v (terminate an association with; \\\"\"drop him from the Republican ticket\\\"\");02471362-v (stop associating with; \\\"\"They dropped her after she had a child out of wedlock\\\"\");02723347-v (hang freely; \\\"\"the ornaments dangled from the tree\\\"\"; \\\"\"The light dropped from the ceiling\\\"\");00328192-n (the act of dropping something; \\\"\"they expected the drop would be successful\\\"\");03250755-n (a central depository where things can be left or picked up);03251157-n (a curtain that can be lowered and raised onto a stage from the flies; often used as background scenery);05119135-n (a sudden sharp decrease in some quantity; \\\"\"a drop of 57 points on the Dow Jones index\\\"\"; \\\"\"there was a drop in pressure in the pulmonary artery\\\"\"; \\\"\"a dip in prices\\\"\"; \\\"\"when that became known the price of their stock went into free fall\\\"\");07376986-n (a free and rapid descent by the force of gravity; \\\"\"it was a miracle that he survived the drop from that height\\\"\");08601320-n (a predetermined hiding place for the deposit and distribution of illicit goods (such as drugs or stolen property));09269370-n (a steep high face of rock; \\\"\"he stood on a high cliff overlooking the town\\\"\"; \\\"\"a steep drop\\\"\");13793544-n (a small indefinite quantity (especially of a liquid); \\\"\"he had a drop too much to drink\\\"\"; \\\"\"a drop of each sample was analyzed\\\"\"; \\\"\"there is not a drop of pity in that man\\\"\"; \\\"\"years afterward, they would pay the blood-money, driblet by driblet\\\"\"--Kipling);13924278-n (a shape that is spherical and small; \\\"\"he studied the shapes of low-viscosity drops\\\"\"; \\\"\"beads of sweat on his forehead\\\"\"",
+      "relNo": 0
+    }],
+    "definition": " drop (as a measurement in medical prescriptions)"
+  }]
+}

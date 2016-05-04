@@ -1,0 +1,44 @@
+{
+  "lemma": "*chill",
+  "examples": [{
+    "text": "wind chill to it being 70 tomorrow . I wish"
+  }, {
+    "text": "be tripping on my baby I need to chill ???"
+  }, {
+    "text": "i am a girl . haha . chill man . nope i wont . i know"
+  }, {
+    "text": "Chill ... https : / / t.co / KPLbGTYLuD"
+  }, {
+    "text": "/ h . High minus 16 . Wind chill minus 28 ."
+  }, {
+    "text": "so me n Faye can get McDonald's n chill in Leeds"
+  }, {
+    "text": "chill ... Send a hit lol jk"
+  }, {
+    "text": "come chill with me ! ☺️☺️☺️"
+  }, {
+    "text": "After the long weekend # chill ?? https : / / t.co / wvYoCDry8d"
+  }, {
+    "text": "Someone slide through and chill with me"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "05022647-n (coldness due to a cold environment);07535351-n (an almost pleasurable sensation of fright; \\\"\"a frisson of surprise shot through him\\\"\");07552647-n (a sudden numbing dread);14363692-n (a sensation of cold that often marks the start of an infection and the development of a fever);00370517-v (loose heat; \\\"\"The air cooled considerably after the thunderstorm\\\"\");00371065-v (make cool or cooler; \\\"\"Chill the food\\\"\");01822939-v (depress or discourage; \\\"\"The news of the city's surrender chilled the soldiers\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "coldness=04636961-n (a lack of affection or enthusiasm; \\\"\"a distressing coldness of tone and manner\\\"\");05022301-n (the absence of heat; \\\"\"the coldness made our breath visible\\\"\"; \\\"\"come in out of the cold\\\"\"; \\\"\"cold is a vasoconstrictor\\\"\");05733621-n (the sensation produced by low temperatures; \\\"\"he shivered from the cold\\\"\"; \\\"\"the cold helped clear his head\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "penetrating=00806085-a (tending to penetrate; having the power of entering or piercing; \\\"\"a toxic penetrative spray applied to the surface\\\"\"; \\\"\"a cold penetrating wind\\\"\"; \\\"\"a penetrating odor\\\"\");01748764-a (having or demonstrating ability to recognize or draw fine distinctions; \\\"\"an acute observer of politics and politicians\\\"\"; \\\"\"incisive comments\\\"\"; \\\"\"icy knifelike reasoning\\\"\"; \\\"\"as sharp and incisive as the stroke of a fang\\\"\"; \\\"\"penetrating insight\\\"\"; \\\"\"frequent penetrative observations\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "uncomfortable=00480005-a (providing or experiencing physical discomfort; \\\"\"an uncomfortable chair\\\"\"; \\\"\"an uncomfortable day in the hot sun\\\"\");00481923-a (conducive to or feeling mental discomfort; \\\"\"this kind of life can prove disruptive and uncomfortable\\\"\"; \\\"\"the uncomfortable truth\\\"\"; \\\"\"grew uncomfortable beneath his appraising eye\\\"\"; \\\"\"an uncomfortable way of surprising me just when I felt surest\\\"\"; \\\"\"the teacher's presence at the conference made the child very uncomfortable\\\"\"",
+      "relNo": 2
+    }],
+    "definition": "A moderate, but uncomfortable and penetrating coldness"
+  }]
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "holy shit",
+  "examples": [{
+    "text": "holy shit this is crazy lifelike ! https : /"
+  }, {
+    "text": "LIV TYLER , HOLY SHIT . # TheLeftover"
+  }, {
+    "text": "HOLY SHIT YESSSSSSSSSS https : / / t.co / 0CMpSPRt47"
+  }, {
+    "text": "HOLY SHIT PARRISH"
+  }, {
+    "text": "holy shit daddy https : / / t.co / i0HtAJAtmj"
+  }, {
+    "text": "holy shit if I don't go to all time low"
+  }, {
+    "text": "flip at 5 mins with the synth chords holy shit"
+  }, {
+    "text": "Passer-by : \\ HOLY SHIT ARE YOU OKAY ? \\\"\"\""
+  }, {
+    "text": "Holy shit https : / / t.co / JCLYgykzT8"
+  }, {
+    "text": "“ holy shit where have u been …"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 0
+    }],
+    "definition": "An expression of extreme surprise"
+  }]
+}

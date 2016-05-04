@@ -1,0 +1,40 @@
+{
+  "lemma": "text",
+  "examples": [{
+    "text": "also me : ok so why haven't you texted me back ? when do I get to"
+  }, {
+    "text": ". This is the first time one actually texted me though"
+  }, {
+    "text": "my new phone last year so you already texted me so I had your number : p"
+  }, {
+    "text": "Aww Emma texted me goodnight ?"
+  }, {
+    "text": "also me : ok so why haven't you texted me back ? when do I get to"
+  }, {
+    "text": "Ralphy texted me asking me what am I doing ??"
+  }, {
+    "text": "I texted you but you liken my pictures ?? get"
+  }, {
+    "text": "to everyone who texted me past 10 I fell asleep so if"
+  }, {
+    "text": "are ! ! My hostmom saw them and texted me ! ! She was like your boys"
+  }, {
+    "text": "heart attack you get when you think someone texted you . ☺️ calm down Amna . My"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "message: send a message to; 'She messaged the committee' <i26947>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "text: the words of something written; 'there were more than a thousand words of text'; 'they handed out the printed text of the mayor's speech'; 'he wants to reconstruct the original text' <i70058>",
+      "relNo": 1
+    }],
+    "definition": "to send a message by SMS or similar text-based messaging service"
+  }]
+}

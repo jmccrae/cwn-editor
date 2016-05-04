@@ -1,0 +1,40 @@
+{
+  "lemma": "exoplanet",
+  "examples": [{
+    "text": "Hlp rt ready lightstick exoplanet # 2 85rb lightstick 1st official dome exo"
+  }, {
+    "text": "@ Hlp rt ready lightstick exoplanet # 2 85rb lightstick 1st official dome exo"
+  }, {
+    "text": "Sehun - 150912 Exoplanet # 2 - The EXO ’ luXion in"
+  }, {
+    "text": "How do we know the exoplanet around 391 Pegasi didn't form from from previous"
+  }, {
+    "text": "RT -PO ] EXO : A DAY IN EXOPLANET - COLORING BOOK"
+  }, {
+    "text": "EXOPLANET # 3"
+  }, {
+    "text": "Chen - 160109 Exoplanet # 2 - The EXO ’ luXion in"
+  }, {
+    "text": "https : / / t.co / Rp9yTTMeeV EXOPLANET # 2-The EXO'luXion- IN LOS ANGELES LA ("
+  }, {
+    "text": "TESS : transiting exoplanet survey satellite will search for planets around nearby"
+  }, {
+    "text": "How Do You Find an Exoplanet ? An insider account gives top tips https"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "solar system=09462337-n (the sun with the celestial bodies that revolve around it in its gravitational field)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "planet=09416900-n ((astronomy) any of the nine large celestial bodies in the solar system that revolve around the sun and shine by reflected light; Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto in order of their proximity to the sun; viewed from the constellation Hercules, all the planets rotate around the sun in a counterclockwise direction);09417539-n (any celestial body (other than comets or satellites) that revolves around a star);10572067-n (a person who follows or serves another",
+      "relNo": 1
+    }],
+    "definition": " A planet which exists outside Earth's solar system."
+  }]
+}

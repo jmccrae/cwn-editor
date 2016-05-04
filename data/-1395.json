@@ -1,0 +1,38 @@
+{
+  "lemma": "*daughter-in-law",
+  "examples": [{
+    "text": "Ex-Congress Lawmaker , Kin Get Bail In Daughter-In-Law , 3 Kids Death Cas"
+  }, {
+    "text": "Ex-Congress Lawmaker , Kin Get Bail In Daughter-In-Law , 3 Kids Death Case : A loca"
+  }, {
+    "text": "Ex-Congress Lawmaker , Kin Get Bail In Daughter-In-Law , 3 Kids Death Case : A loca"
+  }, {
+    "text": "Bernie Madoff's Daughter-in-Law Blames Him For Husband's Suicide # BernieMadoff #"
+  }, {
+    "text": "Happy Birthday to my favorite daughter-in-law ! ! ! It was a rocky start"
+  }, {
+    "text": "by EU ruling is Abu Hamza ’ s daughter-in-law says Yorkshire MP"
+  }, {
+    "text": "They want their daughter-in-law to work"
+  }, {
+    "text": "daughter rises up against her mother , a daughter-in-law against her mother-in-law — \\ Micah 7 :\""
+  }, {
+    "text": "Abu Hamza's daughter-in-law who can't be deported 'lives ... https :"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "10012578-n (the wife of your son)",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "son=10643436-n (a male human offspring; \\\"\"their son became a famous judge\\\"\"; \\\"\"his boy is taller than he is\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "wife=10800308-n (a married woman; a man's partner in marriage)",
+      "relNo": 1
+    }],
+    "definition": "The wife of one's son."
+  }]
+}

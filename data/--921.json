@@ -1,0 +1,40 @@
+{
+  "lemma": "carry-on",
+  "examples": [{
+    "text": "Tumi 22051DH Wheeled Rolling Briefcase Small Carry-On Suitcases - Bid Now ! Only $32.0 https"
+  }, {
+    "text": "Tumi 22051DH Wheeled Rolling Briefcase Small Carry-On Suitcases - Bid Now ! Only $45.88 https"
+  }, {
+    "text": "I take a small VHF radio on my carry-on or luggage ? It has a NiCad battery"
+  }, {
+    "text": "11 top carry-on bags for tech-savvy travelers https : / /"
+  }, {
+    "text": "11 top carry-on bags for tech-savvy travelers https : / /"
+  }, {
+    "text": "Apple news : 11 top carry-on bags for tech-savvy travelers https : / /"
+  }, {
+    "text": "NEW - Bluesmart Smart Carry-On Luggage Suitcase - Bid Now ! Only $212.5"
+  }, {
+    "text": "G-RO : Revolutionary Carry-on Luggage https : / / t.co / fKmieumqHp"
+  }, {
+    "text": "is this what you brought as your one carry-on ?"
+  }, {
+    "text": ". But can't fit anything more in my carry-on to fly home ."
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "baggage=02777635-n (cases used to carry belongings when traveling);02777926-n (the portable equipment and supplies of an army);09851816-n (a worthless or immoral woman)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "luggage=02777635-n (cases used to carry belongings when traveling)",
+      "relNo": 1
+    }],
+    "definition": "That luggage or baggage which is taken onto an airplane with a passenger, rather than checked"
+  }]
+}

@@ -1,0 +1,40 @@
+{
+  "lemma": "fracking",
+  "examples": [{
+    "text": "starts : NEWS : Campaign group installs mock fracking rig and … https : / / t.co"
+  }, {
+    "text": "starts : NEWS : Campaign group installs mock fracking rig and … https : / / t.co"
+  }, {
+    "text": "I'm watching LIVE : Greenpeace are fracking outside Westminster now ! https : / /"
+  }, {
+    "text": "with # FrackFreeChorleySouthRibble SD 61 SD 62 # Fracking Licence # Communities Thanks https : / /"
+  }, {
+    "text": "or Saudi Arabia , or GE , or Fracking "
+  }, {
+    "text": "give # Florida Senate objective information on # fracking dangers to # water # publichealth https :"
+  }, {
+    "text": "give # Florida Senate objective information on # fracking dangers to # water # publichealth https :"
+  }, {
+    "text": "https : / / t.co / AnwTmosfYV # fracking 1 / 2 https : / / t.co"
+  }, {
+    "text": "Lancashire council's fracking refusal was 'democracy in action' - https :"
+  }, {
+    "text": "Tell the FDEP to speak out against fracking !"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "mining: the act of extracting ores or coal etc from the earth <i40257>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "fracture: the act of cracking something <i37389>",
+      "relNo": 1
+    }],
+    "definition": "a well-stimulation technique in which rock is fractured by a pressurized liquid [Wikipedia]"
+  }]
+}

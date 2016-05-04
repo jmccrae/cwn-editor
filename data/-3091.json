@@ -1,0 +1,32 @@
+{
+  "lemma": "atti",
+  "examples": [{
+    "text": "ATTI : # MLMallPM Bus 141 on the Mall"
+  }, {
+    "text": "ATTI : # MLMallPM Bus 141 is at the"
+  }, {
+    "text": "ATTI : # MLMallPM Bus 296 on the Mall"
+  }, {
+    "text": "ATTI : # ML03Green Bus 292 is at Aldi"
+  }, {
+    "text": "ATTI : # ML30WR Bus 294 on the West"
+  }, {
+    "text": "and Moroccan minority students in Flanders ? The atti … https : / / t.co / jsFIc1p6pC"
+  }, {
+    "text": "ATTI : # MLBG toTowers & amp ; Life"
+  }, {
+    "text": "ATTI : # ML44VV Valley View Bus 141 has"
+  }, {
+    "text": "ATTI : # ML03Green Bus 296 on the Green"
+  }, {
+    "text": "ATTI : # MLPurplePink Bus 293 running Purple Line"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

@@ -1,0 +1,44 @@
+{
+  "lemma": "goodnight",
+  "examples": [{
+    "text": "Goodnight for me as I am a MAICHARD fan.?❤️❤️❤️"
+  }, {
+    "text": "Goodnight ?"
+  }, {
+    "text": "Goodnight ?"
+  }, {
+    "text": "goodnight ❤❤???"
+  }, {
+    "text": "Goodnight Aikka ! ! : * https : /"
+  }, {
+    "text": "love you , goodnigh"
+  }, {
+    "text": "\\ night \\\"\" vs \\\"\" goodnight \\\"\"\""
+  }, {
+    "text": "Goodnight for me as I am a MAICHARD fan.?❤️❤️❤️"
+  }, {
+    "text": "ok dah srs srs goodnight !"
+  }, {
+    "text": "Goodnight ! ! !"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "sleep=00014735-v (be asleep);02707305-v (be able to accommodate for sleeping; \\\"\"This tent sleeps six people\\\"\");13986101-n (euphemisms for death (based on an analogy between lying in a bed and in a tomb); \\\"\"she was laid to rest beside her husband\\\"\"; \\\"\"they had to put their family pet to sleep\\\"\");14048353-n (a natural and periodic state of rest during which consciousness of the world is suspended; \\\"\"he didn't get enough sleep last night\\\"\"; \\\"\"calm as a child in dreamless slumber\\\"\");14049464-n (a torpid state resembling deep sleep);15298612-n (a period of time spent sleeping; \\\"\"he felt better after a little sleep\\\"\"; \\\"\"there wasn't time for a nap\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "evening=15191509-n (the latter part of the day (the period of decreasing daylight from late afternoon until nightfall); \\\"\"he enjoyed the evening light across the lake\\\"\");15192953-n (the early part of night (from dinner until bedtime) spent in a special way; \\\"\"an evening at the opera\\\"\");15292923-n (a later concluding time period; \\\"\"it was the evening of the Roman Empire\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "farewell=00053917-n (the act of departing politely; \\\"\"he disliked long farewells\\\"\"; \\\"\"he took his leave\\\"\"; \\\"\"parting is such sweet sorrow\\\"\");06641899-n (an acknowledgment or expression of goodwill at parting",
+      "relNo": 2
+    }],
+    "definition": "A farewell said in the evening or before going to sleep."
+  }]
+}

@@ -1,0 +1,22 @@
+{
+  "lemma": "off fleek",
+  "examples": [{
+    "text": "u should fix ya brows .... off fleek"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "r",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "bad=01129296-n",
+      "relNo": 0
+    }, {
+      "type": "antonym",
+      "target": "on fleek=97",
+      "relNo": 1
+    }],
+    "definition": "not having a good appearance"
+  }]
+}

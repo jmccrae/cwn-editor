@@ -1,0 +1,22 @@
+{
+  "lemma": "follow",
+  "examples": [{
+    "text": ""
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "subscribe=02214527-v",
+      "relNo": 0
+    }, {
+      "type": "domain_topic",
+      "target": "social media=43",
+      "relNo": 1
+    }],
+    "definition": "to subscribe to someone's updates on social media"
+  }]
+}

@@ -1,0 +1,40 @@
+{
+  "lemma": "*follow-up",
+  "examples": [{
+    "text": "a thoughtful and strong answer to the immigration follow-up by President must faithfully execute the laws ."
+  }, {
+    "text": "a patient with CARD11 mutation : A 20-year follow-up https : / / t.co / xkxF01sRKk"
+  }, {
+    "text": "a patient with CARD11 mutation : A 20-year follow-up https : / / t.co / 02CnNnk32y"
+  }, {
+    "text": "Will there be a follow-up volume 'The Emma Press Anthology of Sickeningly Hard"
+  }, {
+    "text": "LRT feels like a much better follow-up to Alien than Prometheus was ."
+  }, {
+    "text": "Thank you for the additional information . We'll follow-up with our team and address this . -Myra"
+  }, {
+    "text": "Bochy follow-up on his weight : \\ I'm kind of\""
+  }, {
+    "text": "he'll have a humble & amp ; humorous follow-up very soon.Its his character & amp ; personality"
+  }, {
+    "text": "[ b0t ] FOLLOW-UP \\ Let's get this one around the world\""
+  }, {
+    "text": "al. , Variation in Screening Abnormality Rates and Follow-Up of … https : / / t.co "
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "00144071-n (a subsequent examination of a patient for the purpose of monitoring earlier treatment);00456372-n (an activity that continues something that has already begun or that repeats something that has already been done);03382428-n (a piece of work that exploits or builds on earlier work; \\\"\"his new software is a follow-up to the programs they started with\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "event=00029677-n (something that happens at a given place and time);11430739-n (a phenomenon that follows and is caused by some previous phenomenon; \\\"\"the magnetic effect was greater when the rod was lengthwise\\\"\"; \\\"\"his decision had depressing consequences for business\\\"\"; \\\"\"he acted very wise after the event\\\"\");11474277-n (a phenomenon located at a single point in space-time; the fundamental observational entity in relativity theory);13966452-n (a special set of circumstances; \\\"\"in that event, the first possibility is excluded\\\"\"; \\\"\"it may rain in which case the picnic will be canceled\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "action=00038116-n (something done (usually as opposed to something said); \\\"\"there were stories of murders and other unnatural actions\\\"\");00577488-n (the most important or interesting work or activity in a specific area or field; \\\"\"the action is no longer in technology stocks but in municipal bonds\\\"\"; \\\"\"gawkers always try to get as close to the action as possible\\\"\");00955074-n (a military engagement; \\\"\"he saw action in Korea\\\"\");01184392-n (a judicial proceeding brought by one party against another; one party prosecutes another for a wrong done or for protection of a right or for prevention of a wrong);01184802-n (an act by a government body or supranational organization; \\\"\"recent federal action undermined the segregationist position\\\"\"; \\\"\"the United Nations must have the power to propose and organize action without being hobbled by irrelevant issues\\\"\"; \\\"\"the Union action of emancipating Southern slaves\\\"\");02680572-n (the operating part that transmits power to a mechanism; \\\"\"the piano had a very stiff action\\\"\");04843181-n (the trait of being active and energetic and forceful; \\\"\"a man of action\\\"\");06385136-n (the series of events that form a plot; \\\"\"his novels always have a lot of action\\\"\");13540166-n (a process existing in or produced by nature (rather than by the intent of human beings); \\\"\"the action of natural forces\\\"\"; \\\"\"volcanic activity\\\"\");14030430-n (the state of being active; \\\"\"his sphere of activity\\\"\"; \\\"\"he is out of action\\\"\");01644397-v (put in effect; \\\"\"carry out a task\\\"\"; \\\"\"execute the decision of the people\\\"\"; \\\"\"He actioned the operation\\\"\");02588127-v (institute legal proceedings against; file a suit against; \\\"\"He was warned that the district attorney would process him\\\"\"; \\\"\"She actioned the company for discrimination\\\"\"",
+      "relNo": 1
+    }],
+    "definition": "A subsidiary action taken as the result of an event."
+  }]
+}

@@ -1,0 +1,28 @@
+{
+  "lemma": "birther",
+  "examples": [{
+    "text": "I'd be hiring undercover lawyers to take this birther thing to the next level ."
+  }, {
+    "text": "And the birther hivemind continues . Haven't heard that one a"
+  }, {
+    "text": "can you think of anything today besides bogus birther and cheating issues ?"
+  }, {
+    "text": "bucket of kittens . ur okay with cruz birther ?"
+  }, {
+    "text": "are also the ones that initiated the obama birther conspiracy theory back in 2008 ."
+  }, {
+    "text": "and I am not ! And good try birther"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "give birth=00056644-v (cause to be born; \\\"\"My wife had twins yesterday!\\\"\");01635501-v (create or produce an idea; \\\"\"Marx and Engels gave birth to communism\\\"\"",
+      "relNo": 0
+    }],
+    "definition": "One who gives birth."
+  }]
+}

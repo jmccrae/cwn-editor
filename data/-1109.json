@@ -1,0 +1,48 @@
+{
+  "lemma": "*go-ahead",
+  "examples": [{
+    "text": "/ t.co / NylyD7YekN UK scientists given the go-ahead to begin genetically modifying human embryos # GreenClean"
+  }, {
+    "text": "UK regulators give go-ahead for ‘ embryo editing ’ - https :"
+  }, {
+    "text": "U.K. Regulator Gives Go-Ahead For Scientists To Edit Genes In Human Embryos"
+  }, {
+    "text": "The Trimble County Board of Education gave the go-ahead Wednesday to get a Local Planning Committee under"
+  }, {
+    "text": "PropeRRtyMgmt : Essential Living gets go-ahead for £200m Acton scheme https : / /"
+  }, {
+    "text": "Construction Sector Daily : Go-ahead for £130m Oxford Brookes University revamp https :"
+  }, {
+    "text": "Lynwood steals inbounds . Jamal Boggin makes go-ahead layup 64-63 Lynwood with 7.5 sec left !"
+  }, {
+    "text": "six days as Altidore heads in the late go-ahead goa … https : / / t.co /"
+  }, {
+    "text": "Town game is postponed but Berkhamsted get the go-ahead for FA Vase clash : Hemel Hempstead Town"
+  }, {
+    "text": "Drew Stafford had two goals , including the go-ahead score , a ... https : / "
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "04843305-n (readiness to embark on bold new ventures);06887441-n (a signal to proceed)",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "proceed=00342215-v (follow a certain course; \\\"\"The inauguration went well\\\"\"; \\\"\"how did your interview go?\\\"\");00783045-v (continue talking; \\\"\"`I know it's hard', he continued, `but there is no choice'\\\"\"; \\\"\"carry on--pretend we are not in the room\\\"\");01999581-v (move ahead; travel onward in time or space; \\\"\"We proceeded towards Washington\\\"\"; \\\"\"She continued in the direction of the hills\\\"\"; \\\"\"We are moving ahead in time now\\\"\");02377696-v (follow a procedure or take a course; \\\"\"We should go farther in this matter\\\"\"; \\\"\"She went through a lot of trouble\\\"\"; \\\"\"go about the world in a certain manner\\\"\"; \\\"\"Messages must go through diplomatic channels\\\"\");02690747-v (continue a certain state, condition, or activity; \\\"\"Keep on working!\\\"\"; \\\"\"We continued to work into the night\\\"\"; \\\"\"Keep smiling\\\"\"; \\\"\"We went on working until well past midnight\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "instruction=00884975-n (the activities of educating or instructing; activities that impart knowledge or skill; \\\"\"he received no formal education\\\"\"; \\\"\"our instruction was carefully programmed\\\"\"; \\\"\"good classroom teaching is seldom rewarded\\\"\");00888759-n (the profession of a teacher; \\\"\"he prepared for teaching while still in college\\\"\"; \\\"\"pedagogy is recognized as an important profession\\\"\");06597067-n ((computer science) a line of code written as part of a computer program);06799486-n (a message describing how something is to be done; \\\"\"he gave directions faster than she could follow them\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "agreement=04720704-n (compatibility of observations; \\\"\"there was no agreement between theory and measurement\\\"\"; \\\"\"the results of two tests were in correspondence\\\"\");05803052-n (the thing arranged or agreed to; \\\"\"they made arrangements to meet in Chicago\\\"\");06783066-n (the statement (oral or written) of an exchange of promises; \\\"\"they had an agreement that they would not interfere in each other's business\\\"\"; \\\"\"there was an understanding between management and the workers\\\"\");07189892-n (the verbal act of agreeing);13819525-n (the determination of grammatical inflection on the basis of word relations);13994512-n (harmony of people's opinions or actions or characters; \\\"\"the two parties were in agreement\\\"\"",
+      "relNo": 2
+    }, {
+      "type": "none",
+      "target": "approval=01217882-n (the formal act of approving; \\\"\"he gave the project his blessing\\\"\"; \\\"\"his decision merited the approval of any sensible person\\\"\");06699481-n (a message expressing a favorable opinion; \\\"\"words of approval seldom passed his lips\\\"\");07515398-n (a feeling of liking something or someone good; \\\"\"although she fussed at them, she secretly viewed all her children with approval\\\"\");14435778-n (acceptance as satisfactory; \\\"\"he bought it on approval\\\"\"",
+      "relNo": 3
+    }],
+    "definition": "Approval, agreement, or instruction to begin or proceed"
+  }]
+}

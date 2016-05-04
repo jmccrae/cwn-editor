@@ -1,0 +1,40 @@
+{
+  "lemma": "*walk-in",
+  "examples": [{
+    "text": "TCS Mega Walk-in Drive for Freshers - Entry Level On 6th"
+  }, {
+    "text": "Vernon mom dropped by family doctor over walk-in clinic visits https : / / t.co /"
+  }, {
+    "text": "had an unexpected , and super cute , walk-in https : / / t.co / QGM1HKASF"
+  }, {
+    "text": "family physician to work full time , .Norwood Walk-In & amp ; Family Medical Centr … http"
+  }, {
+    "text": ", our reading room will be open for walk-in hours from 11am-2pm every weekday . No appointmen"
+  }, {
+    "text": "Owl walk-in today # highnoontattoo # phoenixaz # downtownphx #"
+  }, {
+    "text": "Primary Care with Walk-In Access https : / / t.co / rfveXlMkYN"
+  }, {
+    "text": "This walk-in shower is amazing . Instead of having a"
+  }, {
+    "text": "50 rts and he's gonna walk-in and make his own burrito https : /"
+  }, {
+    "text": "MY EARS . TOO SCARED TO GO THE WALK-IN IN CASE THEY SAY THEY'RE * NOT *"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "04553270-n (a small room large enough to admit entrance);07490902-n (an assured victory (especially in an election));10783796-n (an operative who initiates his own defection (usually to a hostile country) for political asylum);10783964-n (person who walks in without having an appointment; \\\"\"the emergency room was overrun with walk-ins\\\"\"",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "closet=03053442-n (a small private room for study or prayer);03152990-n (a small room (or recess) or cabinet used for storage space);04557470-n (a tall piece of furniture that provides storage space for clothes; has a door and rails or hooks for hanging clothes);04565764-n (a toilet in Britain);01305377-v (confine to a small space, as for intensive work",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "room=04112987-n (an area within a building enclosed by walls and floor and ceiling; \\\"\"the rooms were very small but they had a nice view\\\"\");08002390-n (the people who are present in a room; \\\"\"the whole room was cheering\\\"\");13799976-n (space for movement; \\\"\"room to pass\\\"\"; \\\"\"make way for\\\"\"; \\\"\"hardly enough elbow room to turn around\\\"\");14509020-n (opportunity for; \\\"\"room for improvement\\\"\");02662859-v (live and take one's meals at or in; \\\"\"she rooms in an old boarding house\\\"\"",
+      "relNo": 1
+    }],
+    "definition": "a walk-in room or closet"
+  }]
+}

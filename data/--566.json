@@ -1,0 +1,40 @@
+{
+  "lemma": "lightstick",
+  "examples": [{
+    "text": "[ Help RT ] Ready Lightstick EXOluxion 110k & amp ; EXO Dome Lightstick"
+  }, {
+    "text": "@ Hlp rt ready lightstick exoplanet # 2 85rb lightstick 1st official dome"
+  }, {
+    "text": "if cassies never actually take photos of the lightstick they own ( aside toho ones ) bec"
+  }, {
+    "text": "Hlp rt ready lightstick exo planet # 2 85rb lightstick 1st official"
+  }, {
+    "text": "[ LIMITED PO ] Army Bomb Official Lightstick . Rp . 390.000 . Order & amp"
+  }, {
+    "text": "READY STOCK ] SEVENTEEN - LIKE 2015 Concert LIGHTSTICK ( No Box ) @ Rp 100.000 https"
+  }, {
+    "text": "when your lightstick breaks and it's 8 days until the concert"
+  }, {
+    "text": "@ HlpRT ready lightstick exo planet # 2 85rb lightstick 1st official"
+  }, {
+    "text": "My lovely lightstick has arrived safely in my hands?"
+  }, {
+    "text": "UNOFFICIAL BTS ARMY BOMB LIGHTSTICK"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "illumination=03774932-n (painting or drawing included in a book (especially in illuminated medieval manuscripts));05025708-n (the luminous flux incident on a unit area);07185857-n (an interpretation that removes obstacles to understanding; \\\"\"the professor's clarification helped her to understand the textbook\\\"\");14006632-n (the degree of visibility of your environment);14587365-n (a condition of spiritual awareness; divine illumination; \\\"\"follow God's light\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "rod=01380243-n (any rod-shaped bacterium);03432112-n (a gangster's pistol);04107268-n (a long thin implement made of metal or wood);05464032-n (a visual receptor cell that is sensitive to dim light);13635960-n (a square rod of land);13672539-n (a linear measure of 16.5 feet)",
+      "relNo": 1
+    }],
+    "definition": "A portable rod used for illumination."
+  }]
+}

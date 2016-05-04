@@ -1,0 +1,22 @@
+{
+  "lemma": "tweet",
+  "examples": [{
+    "text": ""
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "post <---03>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "tweet: a weak chirping sound as of a small bird <i75584>",
+      "relNo": 1
+    }],
+    "definition": "A post on the social media site Twitter"
+  }]
+}

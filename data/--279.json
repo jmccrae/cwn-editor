@@ -1,0 +1,44 @@
+{
+  "lemma": "retrogaming",
+  "examples": [{
+    "text": "# RetroGaming PUZZLE MASTER - DS Game - Nintendo -"
+  }, {
+    "text": "# retrogaming # gaming # classicgaming # Zelda # Nintendo"
+  }, {
+    "text": "# retrogaming # pixelart ? https : / / t.co"
+  }, {
+    "text": "# gamersunite ? # retrogaming https : / / t.co / JQD7xxcTvR"
+  }, {
+    "text": "# retrogaming htt …"
+  }, {
+    "text": "# retrogaming https : / / t.co / ipoG0ZdWGe"
+  }, {
+    "text": "# zelda # nintendo # retrogaming"
+  }, {
+    "text": "# retrogaming # nes # discussion # gaming"
+  }, {
+    "text": "out some chip tune with pulseboy for a retrogaming streaming show's opening ; )"
+  }, {
+    "text": "# retrogaming # arcade # 80scartoons https : / /"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "computer game=00459914-n (a game played against a computer)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "video game=00459914-n (a game played against a computer)",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "hobby=00433629-n (an auxiliary activity);01615117-n (small Old World falcon formerly trained and flown at small birds);03528796-n (a child's plaything consisting of an imitation horse mounted on rockers; the child straddles it and pretends to ride)",
+      "relNo": 2
+    }],
+    "definition": " The hobby of playing or collecting older video games and computer games."
+  }]
+}

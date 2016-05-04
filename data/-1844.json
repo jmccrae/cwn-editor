@@ -1,0 +1,30 @@
+{
+  "lemma": "tulog",
+  "examples": [{
+    "text": "tulog naaaa ! Pahinga ka na ? Lamyuuuuu !"
+  }, {
+    "text": "your prof at 7 : 30 , \\ tulog ulit \\\"\"\""
+  }, {
+    "text": "Reality : Tulog , Kain , Fb , Ig , Twitte"
+  }, {
+    "text": "Anyways , tulog na ako . Goodnight people ! "
+  }, {
+    "text": "Tulog ka teh pag may time . We love"
+  }, {
+    "text": "Tulog ka teh pag may time . We love"
+  }, {
+    "text": "Tulog all day"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "sleep=00014735-v (be asleep);02707305-v (be able to accommodate for sleeping; \\\"\"This tent sleeps six people\\\"\");13986101-n (euphemisms for death (based on an analogy between lying in a bed and in a tomb); \\\"\"she was laid to rest beside her husband\\\"\"; \\\"\"they had to put their family pet to sleep\\\"\");14048353-n (a natural and periodic state of rest during which consciousness of the world is suspended; \\\"\"he didn't get enough sleep last night\\\"\"; \\\"\"calm as a child in dreamless slumber\\\"\");14049464-n (a torpid state resembling deep sleep);15298612-n (a period of time spent sleeping; \\\"\"he felt better after a little sleep\\\"\"; \\\"\"there wasn't time for a nap\\\"\"",
+      "relNo": 0
+    }],
+    "definition": "sleep"
+  }]
+}

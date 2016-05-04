@@ -1,0 +1,32 @@
+{
+  "lemma": "hello world",
+  "examples": [{
+    "text": "Hello World ! Check this out ! https : /"
+  }, {
+    "text": "That ’ s Me , Hanging Out , Hello World , Music , , Hi ! , Lif"
+  }, {
+    "text": "LIVE on # Periscope : hello world https : / / t.co / G0k4jNpdLe"
+  }, {
+    "text": "hello world , love you all ??"
+  }, {
+    "text": "hello world"
+  }, {
+    "text": "cout 《 \\ Hello World \\\"\" ;\""
+  }, {
+    "text": "Hello World , this is my first # IoT twee"
+  }, {
+    "text": "Hello World https : / / t.co / Is3XfQUBSm"
+  }, {
+    "text": "Hello world I'm celery https : / / t.co /"
+  }, {
+    "text": "Tweet from my brand new Macbook Pro . Hello world , productivity is baaaack "
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

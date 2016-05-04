@@ -17,15 +17,17 @@
                     <div class="form-group">
                         <button class="pull-right">Split</button>
                         <label>Example</label>
+<blockquote>
                         {{#examples}}
                             <p>{{text}}</p>
                         {{/examples}}
+</blockquote>
                     </div>
                     <div class="form-group">
-                        <label for="status">Status</label>
+                        <label for="status">Status</label><br/>
                         <div class="radio"><label>
                         <input type="radio" name="status"
-                            value="general"/>General</label></div>
+                            value="general" checked="checked"/>General</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status"
                             value="novel"/>Novel</label></div>
@@ -40,6 +42,9 @@
                             value="misspell"/>Misspelling</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status"
+                            value="name"/>Name</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="status"
                             value="nonlex"/>Not Lexical</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status"
@@ -49,10 +54,10 @@
                     {{#senses}}
                     <h3>Sense {{id}}</h3>
                     <div class="form-group">
-                        <label for="pos{{id}}">Part of Speech</label>
+                        <label for="pos{{id}}">Part of Speech</label><br/>
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
-                            value="n"/>Noun</label></div>
+                            value="n" checked="checked"/>Noun</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
                             value="v"/>Verb</label></div>
@@ -77,6 +82,7 @@
                         <input type="text" class="form-control"
                                id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}"/>
                     </div>
+                    <script>wncomplete('#synonym{{id}}');</script>
                     <div class="form-group">
                         <table style="width:100%;" id="relTable{{id}}">
                             <tr>
@@ -115,6 +121,7 @@
                             <option value="holo_part">Holonym part (is composed of)</option>
                             <option value="holo_portion">Holonym portion (divides into)</option>
                             <option value="holo_substance">Holonym substance (substance of)</option>
+                            <option value="none">Delete</option>
                         </select>
                                 </td>
                                 <td>

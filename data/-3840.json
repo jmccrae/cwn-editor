@@ -1,0 +1,40 @@
+{
+  "lemma": "fucktard",
+  "examples": [{
+    "text": "accept on Facebook ?? serves you right you fucktard . Stranger danger and all that.."
+  }, {
+    "text": "bitterass fucktard"
+  }, {
+    "text": "Manziel is a fucktard"
+  }, {
+    "text": "UR donski u FuckTARD ! https : / / t.co / KT0aJ8IpSU"
+  }, {
+    "text": "Hey Chris Mathews you FUCKTARD its Democratic Socialism ... Go work for Fox"
+  }, {
+    "text": "Fucktard"
+  }, {
+    "text": "an anime thats popular in the west you fucktard . There is literally no hate behind it"
+  }, {
+    "text": "Well well , if it isn't my favorite fucktard "
+  }, {
+    "text": "Hello , Fucktard "
+  }, {
+    "text": "I just know some SuperheroFeed Fucktard fanboy is going to see that rant and"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "harm=00403900-n (the act of damaging something or someone);07435370-n (the occurrence of a change for the worse);14309164-n (any physical damage to the body caused by violence or accident or fracture etc.);00102340-v (cause or do harm to; \\\"\"These pills won't harm your system\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "stupid=00441328-a (lacking or marked by lack of intellectual acuity);01339540-a (lacking intelligence; \\\"\"a dull job with lazy and unintelligent co-workers\\\"\");10686626-n (a person who is not very bright; \\\"\"The economy, stupid!\\\"\"",
+      "relNo": 1
+    }],
+    "definition": " An extraordinarily stupid person, especially one that causes harm"
+  }]
+}

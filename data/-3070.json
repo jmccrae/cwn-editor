@@ -1,0 +1,32 @@
+{
+  "lemma": "rank 10",
+  "examples": [{
+    "text": "shows up as trending topic in Indonesia at rank 10 ."
+  }, {
+    "text": "\\ was a trending topic in Indonesia at rank 10 for duration 20m .\""
+  }, {
+    "text": "\\ was a trending topic in Germany at rank 10 for duration 10m .\""
+  }, {
+    "text": "shows up as trending topic in Philippines at rank 10 ."
+  }, {
+    "text": "\\ was a trending topic in Brazil at rank 10 for duration 3h : 10m .\""
+  }, {
+    "text": "shows up as trending topic in France at rank 10 ."
+  }, {
+    "text": "shows up as trending topic in Indonesia at rank 10 ."
+  }, {
+    "text": "\\ was a trending topic in Canada at rank 10 for duration 20m .\""
+  }, {
+    "text": "was a trending topic in United Kingdom at rank 10 for duration 1h : 20m ."
+  }, {
+    "text": "\\ was a trending topic in Indonesia at rank 10 for duration 3h : 0m .\""
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

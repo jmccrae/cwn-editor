@@ -1,0 +1,40 @@
+{
+  "lemma": "kick-off",
+  "examples": [{
+    "text": "Chelsea vs Manchester United : Team news , kick-off time , probable line-ups , odds and stat"
+  }, {
+    "text": "⌚️ 3pm GMT kick-off"
+  }, {
+    "text": "Scotland 9 – England 15 : England kick-off Eddie Jones era with Calcutta Cup win https"
+  }, {
+    "text": "Everything you need ahead of kick-off : https : / / t.co / q7GSAMlpMu"
+  }, {
+    "text": "up at Chelsea . Just 30 minutes until kick-off . # mufc https : / / t.co"
+  }, {
+    "text": "? # TheWetterTheBetter Is The Official # OrangeCrush2k16 Kick-Off Party ?"
+  }, {
+    "text": "Kick-off is next ! ! ! !"
+  }, {
+    "text": "⌚️ 7.45pm GMT kick-off"
+  }, {
+    "text": "⌚️ 7.45pm GMT kick-off"
+  }, {
+    "text": "⌚️ 7.45pm GMT kick-off"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "football=00469555-n (any of various games played with a ball (round or oval) in which two teams try to kick or carry or propel the ball into each other's goal);03383611-n (the inflated oblong ball used in playing American football)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "kick=00137149-n (the act of delivering a blow with the foot; \\\"\"he gave the ball a powerful kick\\\"\"; \\\"\"the team's kicking was excellent\\\"\");00337631-n (a rhythmic thrusting movement of the legs as in swimming or calisthenics; \\\"\"the kick must be synchronized with the arm movements\\\"\"; \\\"\"the swimmer's kicking left a wake behind him\\\"\");05835833-n (the sudden stimulation provided by strong drink (or certain drugs); \\\"\"a sidecar is a smooth drink but it has a powerful kick\\\"\");07224625-n (informal terms for objecting; \\\"\"I have a gripe about the service here\\\"\");07365354-n (the backward jerk of a gun when it is fired);07543858-n (the swift release of a store of affective force; \\\"\"they got a great bang out of it\\\"\"; \\\"\"what a boot!\\\"\"; \\\"\"he got a quick rush from injecting heroin\\\"\"; \\\"\"he does it for kicks\\\"\");00909100-v (express complaints, discontent, displeasure, or unhappiness; \\\"\"My mother complains all day\\\"\"; \\\"\"She has a lot to kick about\\\"\");01115404-v (make a goal; \\\"\"He kicked the extra point after touchdown\\\"\");01199057-v (stop consuming; \\\"\"kick a habit\\\"\"; \\\"\"give up alcohol\\\"\");01373226-v (strike with the foot; \\\"\"The boy kicked the dog\\\"\"; \\\"\"Kick the door down\\\"\");01374119-v (spring back, as from a forceful thrust; \\\"\"The gun kicked back into my shoulder\\\"\");01374421-v (drive or propel with the foot);01940092-v (thrash about or strike out with the feet);02052460-v (kick a leg up",
+      "relNo": 1
+    }],
+    "definition": " the opening kick of each half of a game of football."
+  }]
+}

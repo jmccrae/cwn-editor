@@ -1,0 +1,44 @@
+{
+  "lemma": "*wiz",
+  "examples": [{
+    "text": "terms with how his wife got famous ! Wiz knows & amp ; it's cool !"
+  }, {
+    "text": "Wiz Khalifa- California"
+  }, {
+    "text": "Old wiz is the best wiz I sweatergod"
+  }, {
+    "text": "Timi : \\ yeah I really like wiz khalifa \\\"\"\""
+  }, {
+    "text": "start somewhere .... I wanna sip champagne with wiz n juicy , fuck cans y"
+  }, {
+    "text": "slow , come up short at buzzer to Wiz in Rambis' debut https : / / t.c"
+  }, {
+    "text": "January 15 , 1979 Issue Diana Ross The Wiz Bob Hope Vintage ↺Please Favorite & amp "
+  }, {
+    "text": "lol @ wiz sampling the same beat as g eazy in"
+  }, {
+    "text": "Wiz quote of the day : A mouse divided"
+  }, {
+    "text": "Dolla $ign / Sitting Pretty ( feat . Wiz Khalifa ) https : / / t.co /"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "09781932-n (someone who is dazzlingly skilled in any field)",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "skilled=02233368-a (having or showing or requiring special skill; \\\"\"only the most skilled gymnasts make an Olympic team\\\"\"; \\\"\"a skilled surgeon has many years of training and experience\\\"\"; \\\"\"a skilled reconstruction of her damaged elbow\\\"\"; \\\"\"a skilled trade\\\"\"",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "gifted=01122955-a (endowed with talent or talents; \\\"\"a gifted writer\\\"\"",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "exceptionally=00180279-r (to an exceptional degree; \\\"\"it worked exceptionally well\\\"\"",
+      "relNo": 2
+    }],
+    "definition": "a person who is exceptionally gifted or skilled in a particular area"
+  }]
+}

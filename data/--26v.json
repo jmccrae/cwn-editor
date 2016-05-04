@@ -1,0 +1,30 @@
+{
+  "lemma": "vape",
+  "examples": [{
+    "text": "sending bae vape tricks cuz it's real ?"
+  }, {
+    "text": "# V2Cigs # V2cigscoupon # ecig # vape # vaporizer"
+  }, {
+    "text": "# V2Cigs # V2cigscoupon # ecig # vape # vaporizer"
+  }, {
+    "text": "... they literally wrote vape instead of vapor why do I like them"
+  }, {
+    "text": "me why the bus driver got off to vape ..... like you froze me fOR A HIT"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "smoke=01200739-v",
+      "relNo": 0
+    }, {
+      "type": "instrument",
+      "target": "26n",
+      "relNo": 1
+    }],
+    "definition": "to use an electronic cigarette"
+  }]
+}

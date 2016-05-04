@@ -1,0 +1,40 @@
+{
+  "lemma": "boto",
+  "examples": [{
+    "text": "BOTO , WHO "
+  }, {
+    "text": "BOTO NYO SI MAINE ! ! !"
+  }, {
+    "text": "BOTO , WHO "
+  }, {
+    "text": "BOTO NYO SI MAINE ! ! !"
+  }, {
+    "text": "Guys boto boto boto"
+  }, {
+    "text": "tayo RT guys sa gising na gising . Boto pa more !"
+  }, {
+    "text": "Boto pa friends # KCA # VoteMaineFPP"
+  }, {
+    "text": "boto po tayo sa site and and dont forget"
+  }, {
+    "text": "ONLINE VOTING TAYO ! DON SURE ANG BOTO MO !"
+  }, {
+    "text": "ONLINE VOTING TAYO ! DON SURE ANG BOTO MO !"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "Amazon=09218250-n (a major South American river; arises in the Andes and flows eastward into the South Atlantic; the world's 2nd longest river (4000 miles));09806517-n ((Greek mythology) one of a nation of women warriors of Scythia (who burned off the right breast in order to use a bow and arrow more effectively))",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "dolphin=02071627-n (any of various small toothed whales with a beaklike snout; larger than porpoises);02584588-n (large slender food and game fish widely distributed in warm seas (especially around Hawaii))",
+      "relNo": 1
+    }],
+    "definition": ", a species of freshwater dolphin endemic to the Amazon river syste"
+  }]
+}

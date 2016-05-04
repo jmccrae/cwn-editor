@@ -1,0 +1,40 @@
+{
+  "lemma": "emoji",
+  "examples": [{
+    "text": "on Saturday ? ( there is no rum emoji ! )"
+  }, {
+    "text": "Loving the emoji # JustinBieberBRITs"
+  }, {
+    "text": "the time to message me with a banana emoji and get a positive response . Honestly unless"
+  }, {
+    "text": "[ thumbs up emoji ]"
+  }, {
+    "text": "very own # BRITs emoji is now live - # JustinBieberBRITs https :"
+  }, {
+    "text": "# JustinBieberBRITs emoji PERFECT?"
+  }, {
+    "text": "somewhere around JHS . I couldn't find the emoji that describes you but you know what you"
+  }, {
+    "text": "Funniest emoji I have seen & amp ; cute ?"
+  }, {
+    "text": "it ? ; - ) * inserts laughing emoji *"
+  }, {
+    "text": "but seeing 1 of my clients with an emoji tattoo above their bum cringe"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "ideogram: a graphic character that indicates the meaning of a thing without indicating the sounds used to say it; 'Chinese characters are ideograms' <i72468>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "emotion: any strong feeling <i76043>",
+      "relNo": 1
+    }],
+    "definition": "ideograms and smileys used in electronic messages and Web pages [Wikipedia]"
+  }]
+}

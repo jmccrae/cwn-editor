@@ -1,0 +1,44 @@
+{
+  "lemma": "gayer",
+  "examples": [{
+    "text": "nsync and the backstreet boys combined honey . Gayer than Elton John ."
+  }, {
+    "text": "ive never felt gayer than when i see anas face"
+  }, {
+    "text": "shorts and a tank can I get any gayer"
+  }, {
+    "text": "Could you possibly be gayer"
+  }, {
+    "text": "whats gayer than gays getting gay married ? ? ?"
+  }, {
+    "text": "Let's be real though , Mini Coopers are gayer than a kookaburra's life "
+  }, {
+    "text": "me : becomes GAYER and PROUDER"
+  }, {
+    "text": "pala huhu i should have made my piece gayer"
+  }, {
+    "text": "exist but its going to be a lot gayer"
+  }, {
+    "text": "said \\ great , but can it be gayer \\\"\"\""
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "uncool=01133212-a ((spoken slang) unfashionable and boring)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "homosexual=01204965-a (sexually attracted to members of your own sex);10202544-n (someone who is sexually attracted to persons of the same sex)",
+      "relNo": 1
+    }, {
+      "type": "none",
+      "target": "gay=10202544-n (someone who is sexually attracted to persons of the same sex);00365018-a (bright and pleasant; promoting a feeling of cheer; \\\"\"a cheery hello\\\"\"; \\\"\"a gay sunny room\\\"\"; \\\"\"a sunny smile\\\"\");00408228-a (brightly colored and showy; \\\"\"girls decked out in brave new dresses\\\"\"; \\\"\"brave banners flying\\\"\"; \\\"\"`braw' is a Scottish word\\\"\"; \\\"\"a dress a bit too gay for her years\\\"\"; \\\"\"birds with gay plumage\\\"\");01205390-a (homosexual or arousing homosexual desires);01301656-a (given to social pleasures often including dissipation; \\\"\"led a gay Bohemian life\\\"\"; \\\"\"a gay old rogue with an eye for the ladies\\\"\");01370347-a (offering fun and gaiety; \\\"\"a festive (or festal) occasion\\\"\"; \\\"\"gay and exciting night life\\\"\"; \\\"\"a merry evening\\\"\");01370567-a (full of or showing high-spirited merriment; \\\"\"when hearts were young and gay\\\"\"; \\\"\"a poet could not but be gay, in such a jocund company\\\"\"- Wordsworth; \\\"\"the jolly crowd at the reunion\\\"\"; \\\"\"jolly old Saint Nick\\\"\"; \\\"\"a jovial old gentleman\\\"\"; \\\"\"have a merry Christmas\\\"\"; \\\"\"peals of merry laughter\\\"\"; \\\"\"a mirthful laugh\\\"\"",
+      "relNo": 2
+    }],
+    "definition": " Somebody who is gay (in the sense of either homosexual or uncool)."
+  }]
+}

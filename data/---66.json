@@ -1,0 +1,36 @@
+{
+  "lemma": "bestie",
+  "examples": [{
+    "text": "have the same humor , definitely my new bestie https : / / t.co / 4KhYT0Z56"
+  }, {
+    "text": "way to long since I have seen my bestie ! ??? https : / / t.co /"
+  }, {
+    "text": "make sure you have enough to take your bestie on a best friend date to eat wings"
+  }, {
+    "text": "yes bestie watch excuse me"
+  }, {
+    "text": "its hard not going to school with my bestie"
+  }, {
+    "text": "Hacked By Your Bestie ! -RDawg"
+  }, {
+    "text": "think Raz and I can have our own bestie reality show and not only slay the television"
+  }, {
+    "text": "# Homemade # ShrimpAlfredo since my bestie didn't wanna come cook for me ???????? #"
+  }, {
+    "text": "Talked to my bestie cleared everything up . Bitches will be bitches"
+  }, {
+    "text": "# FF for My Bestie ?????"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "best friend=09870779-n",
+    "id": 1,
+    "relations": [{
+      "type": "derivation",
+      "target": "best friend: the one friend who is closest to you <i88544>",
+      "relNo": 0
+    }],
+    "definition": " One's best friend."
+  }]
+}

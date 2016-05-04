@@ -1,0 +1,40 @@
+{
+  "lemma": "brazy",
+  "examples": [{
+    "text": "Tonight was Brazy"
+  }, {
+    "text": "Ball Me Brazy , But Sometimes I Wish You Were Th"
+  }, {
+    "text": "brazy https : / / t.co / 6VtcX0Ju6l"
+  }, {
+    "text": "Why did my teacher just say \\ that's brazy \\\"\" ?\""
+  }, {
+    "text": "This bitch brazy"
+  }, {
+    "text": "Snake ass Mfs man . Shit too brazy ."
+  }, {
+    "text": "that shit brazy . But all bullshit aside can you do"
+  }, {
+    "text": "* Brazy https : / / t.co / 2uqlEphokz"
+  }, {
+    "text": "Brazy https : / / t.co / 96DpiAfytk"
+  }, {
+    "text": "brazy ngempela .... its like they knew all along"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "crazy: foolish; totally unsound; 'a crazy scheme'; 'half-baked ideas'; 'a screwball proposal without a prayer of working' <i10092>",
+    "id": 1,
+    "relations": [{
+      "type": "domain_usage",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "crazy: foolish; totally unsound; 'a crazy scheme'; 'half-baked ideas'; 'a screwball proposal without a prayer of working' <i10092>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }]
+}

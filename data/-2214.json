@@ -1,0 +1,32 @@
+{
+  "lemma": "résumé",
+  "examples": [{
+    "text": "8 things you should always include on your résumé : https : / / t.co / vAsT84zvww"
+  }, {
+    "text": "to get you hired . Send me your résumé and I'll send it to people for ya"
+  }, {
+    "text": "... Can I put that language on my résumé"
+  }, {
+    "text": "* adds \\ Thrill seeker \\\"\" to résumé\""
+  }, {
+    "text": "career greater by adding more rings to his résumé"
+  }, {
+    "text": "to sleep cause I was working on my résumé all night ??"
+  }],
+  "status": "",
+  "senses": [{
+    "pos": "",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "none",
+      "target": "synopsis=06480622-n (a sketchy summary of the main points of an argument or theory)",
+      "relNo": 0
+    }, {
+      "type": "none",
+      "target": "summary=00549537-a (briefly giving the gist of something; \\\"\"a short and compendious book\\\"\"; \\\"\"a compact style is brief and pithy\\\"\"; \\\"\"succinct comparisons\\\"\"; \\\"\"a summary formulation of a wide-ranging subject\\\"\");01637923-a (performed speedily and without formality; \\\"\"a summary execution\\\"\"; \\\"\"summary justice\\\"\");06478678-n (a brief statement that presents the main points in a concise form; \\\"\"he gave a summary of the conclusions\\\"\"",
+      "relNo": 1
+    }],
+    "definition": "A summary or synopsis. "
+  }]
+}

@@ -62,6 +62,7 @@ function addrel(id) {
     relNos[id] = rn;
     wncomplete('#relTarget' + id + "-" + rn);
     $('.s2-basic-' + id + "-" + rn).select2();
+    $('#relType' + id + "-" + rn).focus();
 }
 
 function addsense() {

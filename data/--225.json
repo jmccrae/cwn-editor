@@ -21,12 +21,16 @@
   }, {
     "text": "Belieber # JFCJustinBieber https : / / t.co /"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "fan: an ardent follower and admirer <i89881>",
+      "relNo": 0
+    }],
+    "definition": "A fan of Justin Bieber"
   }]
 }

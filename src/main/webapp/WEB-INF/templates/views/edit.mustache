@@ -89,6 +89,7 @@
                                 <th style="margin-right:10px;">Relation</th>
                                 <th>Target</th>
                             </tr>
+                    <script>relNos[{{id}}] = 0;</script>
                     {{#relations}} 
                             <tr>
                                 <td>                     
@@ -123,6 +124,7 @@
                             <option value="holo_substance">Holonym substance (substance of)</option>
                             <option value="none">Delete</option>
                         </select>
+                        <script>$('#relType{{id}}-{{relNo}}').val('{{type}}');</script>
                                 </td>
                                 <td>
                         <div class="ui-widget">

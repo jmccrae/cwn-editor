@@ -21,12 +21,18 @@
   }, {
     "text": "It's 2016 and the fuckery is still fresh in the air"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "bullshit: speak insincerely or without regard for facts or truths; 'The politician was not well prepared for the debate and faked it' <i25842>",
     "id": 1,
     "relations": [],
     "definition": ""
+  },{
+      "pos": "n",
+      "synonym": "nonsense: a message that seems to convey no meaning <i71183>",
+      "id": 2,
+      "relations": [],
+      "definition": ""
   }]
 }

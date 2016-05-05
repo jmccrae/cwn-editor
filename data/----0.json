@@ -6,11 +6,11 @@
   "status": "general",
   "senses": [{
     "pos": "v",
-    "synonym": "test",
+    "synonym": "",
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "message=01073350-v",
+      "target": "message: send a message to; 'She messaged the committee' <i26947>",
       "relNo": 0
     }],
     "definition": "To post a message on Twitter"

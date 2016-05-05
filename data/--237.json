@@ -21,12 +21,24 @@
   }, {
     "text": "Trump softens tone on McCain , stands by waterboarding support - https : / / t.co "
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "torture: the deliberate, systematic, or wanton infliction of physical or mental suffering by one or more persons in an attempt to force another person to yield information or to make a confession or for any other reason; 'it required unnatural torturing to extract a confession' <i37620>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "board: a flat piece of material designed for a special purpose; 'he nailed boards across the windows' <i50876>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "water: a liquid necessary for the life of most animals and plants; 'he asked for a drink of water' <i79021>",
+      "relNo": 1
+    }],
+    "definition": "torture where water is poured over the face of a captive simulating drowning"
   }]
 }

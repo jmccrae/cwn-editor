@@ -43,7 +43,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         }).toList
       contentType = "text/html"
       mustache("/summary",
-        "files" -> files)
+        "files" -> files,
+        "next" -> (page + 1))
     }
 
     get("/edit/:id") {
@@ -119,8 +120,6 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
 
     get("/") {
-      val id = new File("data/").listFiles.sortBy(_.getName()).
-        filter(_.getName().endsWith(".json")).head.getName().dropRight(5)
-      TemporaryRedirect("/edit/" + id)
+      TemporaryRedirect("/summary/0")
     }
 }

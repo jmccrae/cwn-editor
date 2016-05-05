@@ -1,5 +1,5 @@
 {
-  "lemma": "wildin",
+  "lemma": "wildin'",
   "examples": [{
     "text": "I'm sorry man they wildin"
   }, {
@@ -21,12 +21,20 @@
   }, {
     "text": "white boys wildin"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "behave: behave in a certain manner; show a certain behavior; conduct or comport oneself; 'You should act like an adult'; 'Don't behave like a fool'; 'What makes her do this way?'; 'The dog acts ferocious, but he is really afraid of people' <i21819>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "wild: in an uncontrolled and rampant manner; 'weeds grew rampantly around here' <i21163>",
+      "relNo": 1
+    }],
+    "definition": "to act crazily"
   }]
 }

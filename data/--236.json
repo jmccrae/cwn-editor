@@ -21,12 +21,16 @@
   }, {
     "text": "Playing : Butterclock - \\ Hustling ( feat oOoOO ) \\\"\" on\""
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "interest: a sense of concern with and curiosity about someone or something; 'an interest in music' <i66782>",
+      "relNo": 0
+    }],
+    "definition": "expressing interest"
   }]
 }

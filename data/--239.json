@@ -21,12 +21,28 @@
   }, {
     "text": "nigga oppai 2d fuckbOI anime girls are PERFECT waifu sexually attracted to anime girls"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "similar",
+      "target": "lover: a person who loves someone or is loved by someone <i87222>",
+      "relNo": 0
+    }, {
+      "type": "loanword",
+      "target": "Japanese: the language (usually considered to be Altaic) spoken by the Japanese <i72985>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "wife: a married woman; a man's partner in marriage <i94123>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "character: an imaginary person represented in a work of fiction (play or film or story); 'she is the main character in the novel' <i87055>",
+      "relNo": 1
+    }],
+    "definition": "a character in an anime or manga who one has romantic feelings for"
   }]
 }

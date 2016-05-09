@@ -1,0 +1,16 @@
+{
+  "lemma": "LPT",
+  "examples": [{
+    "text": "most recently closed tab \\ shortcut . the lpt is that it reopens all the tabs you\""
+  }, {
+    "text": "new lpt to hit the front page in the next"
+  }],
+  "status": "abbrev",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [],
+    "definition": "Life pro tip"
+  }]
+}

@@ -1,0 +1,20 @@
+{
+  "lemma": "fuck up",
+  "examples": [{
+    "text": "doesn't sound like a fuck up to me ..."
+  }, {
+    "text": "hence why it's a fuck up"
+  }, {
+    "text": "how is this a fuck up ? you owned that joke ."
+  }, {
+    "text": "technically it wasn't a fuck up , since she * did * kindd"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "n",
+    "synonym": "fuckup: an embarrassing mistake <i35801>",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

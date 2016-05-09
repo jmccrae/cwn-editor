@@ -1,0 +1,32 @@
+{
+  "lemma": "tighty whitey",
+  "examples": [{
+    "text": "and saw that it was a pair of tighty whities that were absolutely covered in shit ."
+  }, {
+    "text": "any ladies prefer guys with tighty whities ? [ m ]"
+  }, {
+    "text": "did you do it in your tighty whiteys too ? ! ? !"
+  }, {
+    "text": "was left with was dewey , and his tighty whiteys "
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "underwear: undergarment worn next to the skin and under the outer garments <i60708>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "white: the quality or state of the achromatic color of greatest lightness (bearing the least resemblance to black) <i63042>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "tight: closely constrained or constricted or constricting; 'tight skirts'; 'he hated tight starched collars'; 'fingers closed in a tight fist'; 'a tight feeling in his chest' <i7911>",
+      "relNo": 1
+    }],
+    "definition": "Tight, white underwear worn by men"
+  }]
+}

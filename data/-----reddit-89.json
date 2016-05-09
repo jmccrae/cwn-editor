@@ -1,0 +1,20 @@
+{
+  "lemma": "dank",
+  "examples": [{
+    "text": "i grow some amazingly dank weed ."
+  }, {
+    "text": "interesting being watching youtube videos of dudes doing dank stunts and wiping out on hoverboards ."
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "superb: surpassingly good; 'a superb meal' <i6171>",
+      "relNo": 0
+    }],
+    "definition": "of high quality especially of marijuana"
+  }]
+}

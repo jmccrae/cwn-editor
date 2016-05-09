@@ -1,0 +1,20 @@
+{
+  "lemma": "hoopy",
+  "examples": [{
+    "text": "hoopy froods \\"
+  }, {
+    "text": "i settled on the conclusion that they're really hoopy froods who always know where their towel is"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "orderly: clean or organized; 'her neat dress'; 'a neat room' <i13411>",
+      "relNo": 0
+    }],
+    "definition": "Neat, really together, knowing where one's towel is [Douglas Adam - Hitchhiker's Guide to the Galaxy]"
+  }]
+}

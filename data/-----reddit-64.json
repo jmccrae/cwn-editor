@@ -1,0 +1,28 @@
+{
+  "lemma": "dayum",
+  "examples": [{
+    "text": "dayum .... \\"
+  }, {
+    "text": "dayum girl thats a nice pocket you got there"
+  }, {
+    "text": "dayum ! how i miss it ! now the"
+  }, {
+    "text": "[ dayum ] ( https : / / s-media-cache-ak0.pinimg.com /"
+  }, {
+    "text": "it's going to be the toe but eew dayum that's a shitty two choices \\"
+  }, {
+    "text": "to be fair ... dayum"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 0
+    }],
+    "definition": "An interjection expressing minor surprise, especially in response to seeing an attractive member of the opposite sex"
+  }]
+}

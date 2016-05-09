@@ -1,0 +1,30 @@
+{
+  "lemma": "bloop",
+  "examples": [{
+    "text": "a bot , * bleep * , * bloop * . someone has linked to this threa"
+  }, {
+    "text": "a bot , * bleep * , * bloop * . someone has linked to this threa"
+  }, {
+    "text": "a bot , * bleep * , * bloop * . someone has linked to this threa"
+  }, {
+    "text": "a bot , * bleep * , * bloop * . someone has linked to this threa"
+  }, {
+    "text": "a bot , * bleep * , * bloop * . someone has linked to this threa"
+  }, {
+    "text": "a bot , * bleep * , * bloop * . someone has linked to this threa"
+  }, {
+    "text": "a bot , * bleep * , * bloop * . someone has linked to this threa"
+  }, {
+    "text": "a bot , * bleep * , * bloop * . someone has linked to this threa"
+  }, {
+    "text": "? so you'd first hear a mass bleep bloop bleeep as all the phones turned on ."
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "bleep: a short high tone produced as a signal or warning <i75458>",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

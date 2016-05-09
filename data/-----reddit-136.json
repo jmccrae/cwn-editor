@@ -1,0 +1,30 @@
+{
+  "lemma": "punny",
+  "examples": [{
+    "text": "cooked pie , you could ask about helping punny bones . to lift the curse , sh"
+  }, {
+    "text": "of darkness . there was a gnome name punny bones who had been cursed by an evil"
+  }, {
+    "text": "take your gold , you punny bitch "
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "funny: arousing or provoking laughter; 'an amusing film with a steady stream of pranks and pratfalls'; 'an amusing fellow'; 'a comic hat'; 'a comical look of surprise'; 'funny stories that made everybody laugh'; 'a very funny writer'; 'it would have been laughable if it hadn't hurt so much'; 'a mirthful experience'; 'risible courtroom antics' <i6914>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "pun: a humorous play on words; 'I do it for the pun of it'; 'his constant punning irritated her' <i72126>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "funny: arousing or provoking laughter; 'an amusing film with a steady stream of pranks and pratfalls'; 'an amusing fellow'; 'a comic hat'; 'a comical look of surprise'; 'funny stories that made everybody laugh'; 'a very funny writer'; 'it would have been laughable if it hadn't hurt so much'; 'a mirthful experience'; 'risible courtroom antics' <i6914>",
+      "relNo": 1
+    }],
+    "definition": "provoking laughter by means of word play"
+  }]
+}

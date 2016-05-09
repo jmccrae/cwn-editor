@@ -1,0 +1,40 @@
+{
+  "lemma": "photoshop",
+  "examples": [{
+    "text": "def not photoshopped"
+  }, {
+    "text": "[ is this photoshopped ? how can her face change so much"
+  }, {
+    "text": "i the only one who thinks this is photoshopped to begin with ?"
+  }, {
+    "text": "i think this is photoshopped . the ear looks like it was pulled"
+  }, {
+    "text": "just looks ... off somehow . like they photoshopped a cow head onto a sheep body "
+  }, {
+    "text": "looks like chris was photoshopped over something else"
+  }, {
+    "text": "not photoshopped : http : / / www.cafepress.ca / mf"
+  }, {
+    "text": "outline makes him seem like he is badly photoshopped into the picture for some reason ."
+  }, {
+    "text": "that one that always gets reposted with the photoshopped eyebrows . i always wondered what he really"
+  }, {
+    "text": "why is that photoshopped on a mug ?"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "alter: make an alteration to; 'This dress needs to be altered' <i30070>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "photograph: a representation of a person or scene in the form of a print or transparent slide or in digital format <i57211>",
+      "relNo": 1
+    }],
+    "definition": "To digitally alter a photo"
+  }]
+}

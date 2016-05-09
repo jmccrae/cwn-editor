@@ -1,0 +1,36 @@
+{
+  "lemma": "wut",
+  "examples": [{
+    "text": "lmfao . wut ."
+  }, {
+    "text": "lol .... wut ?"
+  }, {
+    "text": "lol wut ? \\"
+  }, {
+    "text": "lol wut ."
+  }, {
+    "text": "wut ?"
+  }, {
+    "text": "wut ?"
+  }, {
+    "text": "wut"
+  }, {
+    "text": "wut"
+  }, {
+    "text": "wut m8"
+  }, {
+    "text": "wut ? youre not going to \\ feel \\\"\"\""
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "disbelief: a rejection of belief <i68248>",
+      "relNo": 0
+    }],
+    "definition": "expession of comical disbelief "
+  }]
+}

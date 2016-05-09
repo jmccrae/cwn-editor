@@ -1,0 +1,28 @@
+{
+  "lemma": "cosplay",
+  "examples": [{
+    "text": "cosplay to your body type . i ain't cosplaying duke nukem that's for sure ."
+  }, {
+    "text": "to me it looks like obama cosplaying as storm from x-men ."
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "dress up: dress in a costume; 'We dressed up for Halloween as pumpkins' <i22030>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "play: engage in recreational activities rather than work; occupy oneself in a diversion; 'On weekends I play'; 'The students all recreate alike' <i33828>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "costume: the attire worn in a play or at a fancy dress ball; 'he won the prize for best costume' <i52396>",
+      "relNo": 1
+    }],
+    "definition": "wear a costume to resemble a character from some media especially anime"
+  }]
+}

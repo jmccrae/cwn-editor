@@ -1,0 +1,46 @@
+{
+  "lemma": "overhead press",
+  "examples": [{
+    "text": "/ 3 / 1 works very well for ohp ."
+  }, {
+    "text": "also swapped the order of the deadlift and ohp . fine ? \\"
+  }, {
+    "text": "and i'm assuming you're beginner / intermediate for ohp if that's where your squat is at ."
+  }, {
+    "text": "a program that focuses on barbell squats , ohp , deadlift , bench , rows , et"
+  }, {
+    "text": "* assistance for ohp day is higher rep face pulls , barbel"
+  }, {
+    "text": "bench press , ohp , rows , upright rows , hammer curl"
+  }, {
+    "text": "just do an awkwardly executed power clean into ohp into back-squat on leg day . as you"
+  }, {
+    "text": "sure you warm up your shoulders before doing ohp . i usually did the shoulder warmup during"
+  }, {
+    "text": ". the last 3x5 weight i did for ohp was at 160 with 172 bw at 6"
+  }, {
+    "text": "what are your working sets for ohp / bench / squat / dead ?"
+  }, {
+    "text": ""
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "weightlift: lift weights; 'This guy can press 300 pounds' <i27376>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "press: a weightlift in which the barbell is lifted to shoulder height and then smoothly lifted overhead <i38718>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "overhead: above your head; in the sky; 'planes were flying overhead' <i19863>",
+      "relNo": 1
+    }],
+    "definition": "a weight training exercise, typically performed while standing, in which a weight is pressed straight upwards from the shoulders until the arms are locked out overhead [Wikipedia]"
+  }]
+}

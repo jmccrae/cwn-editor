@@ -1,0 +1,24 @@
+{
+  "lemma": "panspermia",
+  "examples": [{
+    "text": "another interesting one is panspermia . the idea the life we have on"
+  }, {
+    "text": "existed for life to emerge on earth : panspermia ( life came here aboard an asteroid )"
+  }, {
+    "text": "panspermia brings up some questions that are really interesting"
+  }, {
+    "text": "thing i find a tiny bit troubling about panspermia is that it kind of dodges the question"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "conjecture: a hypothesis that has been formed by speculating or conjecturing (usually with little hard evidence); 'speculations about the outcome of the election'; 'he dismissed it as mere conjecture' <i67807>",
+      "relNo": 0
+    }],
+    "definition": "The hypothesis that microorganisms may transmit life from outer space to habitable bodies; or the process of such transmission. [Wiktionary]"
+  }]
+}

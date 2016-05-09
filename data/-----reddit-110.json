@@ -1,0 +1,22 @@
+{
+  "lemma": "squat",
+  "examples": [{
+    "text": "you have access to ? if you can squat , excellent , if no rack , the"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "weightlift: bodybuilding by exercise that involves lifting weights <i38713>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "squat: exercising by repeatedly assuming a crouching position with the knees bent; strengthens the leg muscles <i38736>",
+      "relNo": 1
+    }],
+    "definition": "to perform the squat weightlifting exercise"
+  }]
+}

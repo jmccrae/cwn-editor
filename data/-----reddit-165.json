@@ -1,0 +1,22 @@
+{
+  "lemma": "overclock",
+  "examples": [{
+    "text": "is my card just not right for ocing ? i keep seeing artifacting ."
+  }, {
+    "text": "ocing q6600 in optiplex 745"
+  }, {
+    "text": ""
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "enhance: increase; 'This will enhance your enjoyment'; 'heighten the tension' <i22869>",
+      "relNo": 0
+    }],
+    "definition": "To run a processor (CPU), or any electronic logic device, at a speed higher than is recommended by the manufacturer. [Wiktionary]"
+  }]
+}

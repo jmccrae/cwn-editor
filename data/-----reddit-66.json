@@ -1,0 +1,36 @@
+{
+  "lemma": "nanomachine",
+  "examples": [{
+    "text": "i had nanomachines in the 80s . they were the micromachines"
+  }, {
+    "text": "nanomachines"
+  }, {
+    "text": "nanomachines"
+  }, {
+    "text": "nanomachines , son "
+  }, {
+    "text": "[ nanomachines son ] ( https : / / youtu.be"
+  }, {
+    "text": "what do they use to see the nanomachines that have replaced computer monitors ?"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "machine: any mechanical or electrical device that transmits or modifies energy to perform or assist in the performance of human tasks <i55888>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "machine: any mechanical or electrical device that transmits or modifies energy to perform or assist in the performance of human tasks <i55888>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "nanometer: a metric unit of length equal to one billionth of a meter <i108489>",
+      "relNo": 1
+    }],
+    "definition": "a machine of the size of close to one nanometre"
+  }]
+}

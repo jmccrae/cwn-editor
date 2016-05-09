@@ -1,0 +1,24 @@
+{
+  "lemma": "hooman",
+  "examples": [{
+    "text": "hooman , your application to enter my bed i"
+  }, {
+    "text": "[ you'll pay for this , hooman . ] ( http : / / www.reddit.co"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "human: any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage <i48657>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "human: any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage <i48657>",
+      "relNo": 1
+    }],
+    "definition": "human, mispronounced for comic effect"
+  }]
+}

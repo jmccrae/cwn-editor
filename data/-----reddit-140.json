@@ -1,0 +1,22 @@
+{
+  "lemma": "flat earther",
+  "examples": [{
+    "text": "flat earthers preaching science ."
+  }, {
+    "text": "space conspiracy people would be flat earthers or arguing that we never went to america."
+  }, {
+    "text": "that doesn't make sense , flat earthers believe that too "
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "believer: a supporter who accepts something as true <i88524>",
+      "relNo": 0
+    }],
+    "definition": "a believer in a conspiracy theory, especially that the earth is flat"
+  }]
+}

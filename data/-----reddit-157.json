@@ -1,0 +1,26 @@
+{
+  "lemma": "turd polishing",
+  "examples": [{
+    "text": ". even your response to my claim of turd polishing is specious at best . we just"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "improvement: the act of improving something; 'their improvements increased the value of the property' <i36702>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "<-----reddit-156>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "polish: improve or perfect by pruning or polishing; 'refine one's style of writing' <i24084>",
+      "relNo": 1
+    }],
+    "definition": "The act of trying to make something hopelessly weak and unattractive appear strong and appealing [Urban Dictionary]"
+  }]
+}

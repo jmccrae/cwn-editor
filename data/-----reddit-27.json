@@ -1,0 +1,26 @@
+{
+  "lemma": "flappy",
+  "examples": [{
+    "text": "flappy fedora . it consumed my life worst than"
+  }, {
+    "text": "oh my god the flappy ears !"
+  }, {
+    "text": "psbattle : a dog with flappy ears"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "derivation",
+      "target": "flap: move with a flapping motion; 'The bird's wings were flapping' <i32220>",
+      "relNo": 2
+    }, {
+      "type": "similar",
+      "target": "floppy: hanging limply; 'a spaniel with floppy ears' <i13309>",
+      "relNo": 1
+    }],
+    "definition": "having a tendency to flap"
+  }]
+}

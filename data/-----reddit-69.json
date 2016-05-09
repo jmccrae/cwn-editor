@@ -1,0 +1,36 @@
+{
+  "lemma": "repost",
+  "examples": [{
+    "text": "ah the morning tea repost . see you after lunch same time as"
+  }, {
+    "text": "are so many complaints about this being a repost yet , here we are , front page"
+  }, {
+    "text": "guess that comment was a sarcastic jab at repost commenters . that particular joke was probably fairly"
+  }, {
+    "text": "i don't care if it's a repost . i missed it the first couple times"
+  }, {
+    "text": "! i know someone said this is a repost , but i'd honestly never heard this on"
+  }, {
+    "text": "known it existed . imagine where a simple repost could take someone ."
+  }, {
+    "text": "repost and they broke it up in the wrong"
+  }, {
+    "text": "this comment is a repost"
+  }, {
+    "text": "told me this yesterday . not gonna cry repost , but i wonder where he got i"
+  }, {
+    "text": "who really gives a fuck if it's a repost or not ? if you've seen it many"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "<-----reddit-69>",
+      "relNo": 0
+    }],
+    "definition": "A post that has already been made before"
+  }]
+}

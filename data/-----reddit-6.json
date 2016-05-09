@@ -1,0 +1,40 @@
+{
+  "lemma": "dabbing",
+  "examples": [{
+    "text": "a dance based on vaporizing cannabis oil ( dabbing ) . the whole thing where you stick"
+  }, {
+    "text": "dabbing"
+  }, {
+    "text": "from coughing into your arm when you're \\ dabbing \\\"\" which is a method of smoking weed\""
+  }, {
+    "text": "... i think dabbing is already a pretty big thing"
+  }, {
+    "text": "mad cause they bad . but i guess dabbing is sportsmanship as fuck"
+  }, {
+    "text": "organizing a team selfie of his teammates dabbing with the game still going on"
+  }, {
+    "text": "people can just as quickly forget all the dabbing and shit he did all year . if"
+  }, {
+    "text": "see you sweat. \\ which puts all that dabbing in perspective .\""
+  }, {
+    "text": "? ? what is this dabbing ? ( non sports fan )"
+  }, {
+    "text": "why is this called dabbing . i thought that was a weed smoking"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "smoking: the act of smoking tobacco or other substances; 'he went outside for a smoke'; 'smoking stinks' <i39789>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "dab: a small quantity of something moist or liquid; 'a dab of paint'; 'a splatter of mud'; 'just a splash of whiskey' <i109191>",
+      "relNo": 1
+    }],
+    "definition": "pressing a marijuana concentrate to a hot surface in order to vaporize it and inhale the concentrate"
+  }]
+}

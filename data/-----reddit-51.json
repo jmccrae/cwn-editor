@@ -1,0 +1,28 @@
+{
+  "lemma": "smol",
+  "examples": [{
+    "text": "a smol snek !"
+  }, {
+    "text": "his whole face is smol ."
+  }, {
+    "text": "reminds me of when i was a smol snek in highschool"
+  }, {
+    "text": "wat kidn of smol snek is dat ?"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "small: limited or below average in number or quantity or magnitude or extent; 'a little dining room'; 'a little house'; 'a small car'; 'a little (or small) group' <i7579>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "small: limited or below average in number or quantity or magnitude or extent; 'a little dining room'; 'a little house'; 'a small car'; 'a little (or small) group' <i7579>",
+      "relNo": 1
+    }],
+    "definition": "Very small and cute"
+  }]
+}

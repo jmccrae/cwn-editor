@@ -1,0 +1,22 @@
+{
+  "lemma": "unbox",
+  "examples": [{
+    "text": "long outro of \\ well , there's my unboxing . i'm going to stop talking now .\""
+  }, {
+    "text": "[ sa carbon keycap unboxing ] ( https : / / youtube.com /"
+  }, {
+    "text": "the only thing i hate more is unboxing videos . i bought something awhile ago "
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "unbox: remove from a box; 'unbox the presents' <i29145>",
+      "relNo": 0
+    }],
+    "definition": "to open a new product on a video stream"
+  }]
+}

@@ -1,0 +1,14 @@
+{
+  "lemma": "some random",
+  "examples": [{
+    "text": "to form my own opinions , not trust some random on the interne"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "stranger: an individual that one is not acquainted with <i93353>",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

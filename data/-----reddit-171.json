@@ -1,0 +1,28 @@
+{
+  "lemma": "greenlight",
+  "examples": [{
+    "text": "atlantis was labeled for cancellation before universe was greenlit . sga was simply canned for dropping viewership"
+  }, {
+    "text": "we google and a & amp ; e greenlit a show less than a year earlier ."
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "approve: give sanction to; 'I approve of his educational policies' <i25700>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "light: a visual warning signal; 'they saw the light of the beacon'; 'there was a light at every corner' <i72616>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "green: of the color between blue and yellow in the color spectrum; similar to the color of fresh grass; 'a green tree'; 'green fields'; 'green paint' <i2084>",
+      "relNo": 1
+    }],
+    "definition": "to allow a project (especially a TV show) to go ahead"
+  }]
+}

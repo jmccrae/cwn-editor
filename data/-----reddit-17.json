@@ -1,0 +1,16 @@
+{
+  "lemma": "shit",
+  "examples": [{
+    "text": "this feels like a shit solo version of hangover ."
+  }, {
+    "text": "this isnt a joke ... this is a shit post"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "a",
+    "synonym": "dreadful: exceptionally bad or displeasing; 'atrocious taste'; 'abominable workmanship'; 'an awful voice'; 'dreadful manners'; 'a painful performance'; 'terrible handwriting'; 'an unspeakable odor came sweeping into the room' <i6174>",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

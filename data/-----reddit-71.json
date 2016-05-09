@@ -1,0 +1,22 @@
+{
+  "lemma": "Ammonium Nitrate/Fuel Oil",
+  "examples": [{
+    "text": "anfo vs dynamite / tnt is different . anfo"
+  }, {
+    "text": "wiki / sterling_hall_bombing ) . 2000 lbs of anfo vs 1000 lbs of dynamite . although sterling"
+  }, {
+    "text": ""
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "explosive: a chemical substance that undergoes a rapid chemical change (with the production of gas) on being heated or struck <i53521>",
+      "relNo": 1
+    }],
+    "definition": "An industrial explosive made of the mix of ammonium nitrate and fuel oil"
+  }]
+}

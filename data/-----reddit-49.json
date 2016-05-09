@@ -1,0 +1,40 @@
+{
+  "lemma": "goddammit",
+  "examples": [{
+    "text": "goddamn ! i got a lot of care at"
+  }, {
+    "text": "miss . it's * my * death , goddamn it "
+  }, {
+    "text": ", but khaleesi is not her name , goddammit : p "
+  }, {
+    "text": "code for \\ ah goddammit donald ! \\\"\"\""
+  }, {
+    "text": "? ! ? ! \\ down to \\\"\" goddammit again ? ! ? ! \\\"\" \\\""
+  }, {
+    "text": "fffffffff * sigh * goddammit"
+  }, {
+    "text": "goddammit , got my hopes up "
+  }, {
+    "text": "goddammit it's the principle !"
+  }, {
+    "text": "goddammit tim ."
+  }, {
+    "text": "i totally forgot about vice city ! goddammit that would be awesome ! is it possible"
+  }, {
+    "text": "it's purulent , goddammit . you have id doctors that can't d"
+  }, {
+    "text": "when that reveal again happened i thought \\ goddammit i forgot to look for him ! \\\"\"\""
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "annoyance: the psychological state of being irritated or annoyed <i112715>",
+      "relNo": 0
+    }],
+    "definition": "An expletive expressing annoyance"
+  }]
+}

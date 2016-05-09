@@ -1,0 +1,26 @@
+{
+  "lemma": "badass",
+  "examples": [{
+    "text": "company . i know , i'm such a badass sticking them with that penny charge then patronizin"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "meany: a person of mean disposition <i91281>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "ass: the fleshy part of the human body that you sit on; 'he deserves a good kick in the butt'; 'are you going to sit on your fanny and do nothing?' <i66132>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "bad: characterized by wickedness or immorality; 'led a very bad life' <i6202>",
+      "relNo": 1
+    }],
+    "definition": "A mean or belligerent person [Wiktionary]"
+  }]
+}

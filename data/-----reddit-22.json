@@ -1,0 +1,26 @@
+{
+  "lemma": "oh man",
+  "examples": [{
+    "text": "oh man ... i know its pretty obvious you're at"
+  }, {
+    "text": "oh man , or every single person he spoke t"
+  }, {
+    "text": "oh man , that really sucks . and it hit"
+  }, {
+    "text": "oh man - that's perfect !"
+  }, {
+    "text": "oh man , you have to be careful from no"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "sympathy: sharing the feelings of others (especially feelings of sorrow or anguish) <i76455>",
+      "relNo": 0
+    }],
+    "definition": "an expression of sympathy and understanding"
+  }]
+}

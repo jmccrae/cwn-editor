@@ -1,0 +1,44 @@
+{
+  "lemma": "fanbase",
+  "examples": [{
+    "text": "6 . fanbase becomes trash \\"
+  }, {
+    "text": "and embiggen people . reddit has a standing fanbase ( possibly sssh / kenm ) . the"
+  }, {
+    "text": "but i'm not bashing wow , or it's fanbase . it's rare that a translation to fil"
+  }, {
+    "text": ". i hate when people say the seahawks fanbase is all bandwagon . we had an absolutely"
+  }, {
+    "text": "i mean the entire football fanbase . seahawk fans are annoying and i've stomped"
+  }, {
+    "text": "last three years , like half of the fanbase . who the fuck else would you b"
+  }, {
+    "text": "much importance to the movie other than it's fanbase of gamers ."
+  }, {
+    "text": "the past 3 years like half of the fanbase it seems like ."
+  }, {
+    "text": "; they all decided to fuck over their fanbase for ratings about a decade ago \\"
+  }, {
+    "text": ", they all decided to fuck over their fanbase for ratings about a decade ago . al"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "social group: people sharing some social relation <i79103>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "base: a support or foundation; 'the base of the lamp' <i50499>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "fan: an ardent follower and admirer <i89881>",
+      "relNo": 1
+    }],
+    "definition": "All of the fans or devotees of something"
+  }]
+}

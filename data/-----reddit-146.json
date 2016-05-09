@@ -1,0 +1,20 @@
+{
+  "lemma": "gank",
+  "examples": [{
+    "text": "getting ganked by high lvls instantly . fucking stranglemore ."
+  }, {
+    "text": "while playing eve . and obviously i got ganked , hence i am in a pod "
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "kill: cause to die; put to death, usually intentionally or knowingly; 'This man killed several people when he tried to rob a bank'; 'The farmer killed a pig for the holidays' <i28306>",
+      "relNo": 0
+    }],
+    "definition": "to kill with little effort in a video game"
+  }]
+}

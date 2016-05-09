@@ -1,0 +1,22 @@
+{
+  "lemma": "mwahahaha",
+  "examples": [{
+    "text": "be free of ancient cruft . never ! mwahahaha etc ."
+  }, {
+    "text": "mwahahaha"
+  }, {
+    "text": ", so technically funded by da guvment . mwahahaha eat a banana "
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "malice: feeling a need to see others suffer <i76441>",
+      "relNo": 0
+    }],
+    "definition": "A expression of evil or malicious intent"
+  }]
+}

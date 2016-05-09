@@ -1,0 +1,18 @@
+{
+  "lemma": "aww",
+  "examples": [{
+    "text": "aww babe"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "sympathy: sharing the feelings of others (especially feelings of sorrow or anguish) <i76455>",
+      "relNo": 0
+    }],
+    "definition": "expression of sympathy"
+  }]
+}

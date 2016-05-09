@@ -1,0 +1,24 @@
+{
+  "lemma": "binge",
+  "examples": [{
+    "text": "binging on it's always sunny and dave foley played"
+  }, {
+    "text": "indeed ! we're going to be binging breaking bad again here soon !"
+  }, {
+    "text": "two causes - genetic predisposition and years of binging ."
+  }, {
+    "text": ". yeah ... thanks , looks like i'm binging this show "
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "watch: see or watch; 'view a show on television'; 'This program will be seen all over the world'; 'view an exhibition'; 'Catch a show on Broadway'; 'see a movie' <i32509>",
+      "relNo": 0
+    }],
+    "definition": "to watch a large amount of media in a single seating"
+  }]
+}

@@ -1,0 +1,20 @@
+{
+  "lemma": "whelm",
+  "examples": [{
+    "text": "but can you just be , like , whelmed "
+  }, {
+    "text": "underwhelmed , but can you ever just be whelmed ? \\ \\\""
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "arouse: call forth (emotions, feelings, and responses); 'arouse pity'; 'raise a smile'; 'evoke sympathy' <i30543>",
+      "relNo": 0
+    }],
+    "definition": "to neither fail to meet nor exceed expectation"
+  }]
+}

@@ -1,0 +1,20 @@
+{
+  "lemma": "mcmansion",
+  "examples": [{
+    "text": "in nyc costs as much as a decent mcmansion in midwest suburbs . because people would rather"
+  }, {
+    "text": "jet skies , nor do we have a mcmansion . "
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "mansion: a large and imposing house <i55999>",
+      "relNo": 0
+    }],
+    "definition": "a generic, mass-produced luxury home"
+  }]
+}

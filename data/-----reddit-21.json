@@ -1,0 +1,24 @@
+{
+  "lemma": "bench",
+  "examples": [{
+    "text": ". so if you can do 3x8 when benching 135 lbs , but you have to be"
+  }, {
+    "text": "something more in the strength range , try benching at 5x5 for a month and see wher"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "weightlift: bodybuilding by exercise that involves lifting weights <i38713>",
+      "relNo": 0
+    }, {
+      "type": "similar",
+      "target": "bench press: a weightlift in which you lie on your back on a bench and press weights upward <i38715>",
+      "relNo": 1
+    }],
+    "definition": "To lift a weight using a bench press"
+  }]
+}

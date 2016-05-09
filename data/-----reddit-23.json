@@ -1,0 +1,40 @@
+{
+  "lemma": "oh man",
+  "examples": [{
+    "text": "boy oh boy , those are some short shorts "
+  }, {
+    "text": "half and stuck my willie in her . oh boy did it feel good . it was tight"
+  }, {
+    "text": "oh boy . i think batman vs superman will do"
+  }, {
+    "text": "oh boy , its a fucking classic ! lucky yo"
+  }, {
+    "text": "so finally i got to it and boy oh boy what a great film , i mean it'"
+  }, {
+    "text": "some wishes out of airplanes after all ! oh boy ! \\"
+  }, {
+    "text": "third time i decided to watch sherlock . oh boy ! why did i wait so long ?"
+  }, {
+    "text": "man oh man , making me crave cake at 7 "
+  }, {
+    "text": "oh man , i miss summerall and madden "
+  }, {
+    "text": "oh man , james corden never disappoints . i enjo"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "excitement: the feeling of lively and cheerful joy; 'he could hardly conceal his excitement when she agreed' <i76314>",
+      "relNo": 0
+    }, {
+      "type": "emotion",
+      "target": "anticipation: anticipating with confidence of fulfillment <i113127>",
+      "relNo": 1
+    }],
+    "definition": "an expression of excitement and anticipation"
+  }]
+}

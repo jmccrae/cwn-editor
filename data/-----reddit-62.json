@@ -1,0 +1,18 @@
+{
+  "lemma": "fuck",
+  "examples": [{
+    "text": ". almost john mcclane-ish . didn't want to be fucked with , was fucked with , ended u"
+  }, {
+    "text": "tails flying everywhere . dolphins are not to be fucked with ."
+  }, {
+    "text": "wild animals are not to be fucked with . even more so ; wild animals"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "v",
+    "synonym": "toy: engage in an activity as if it were a game rather than take it seriously; 'They played games on their opponents'; 'play the stock market'; 'play with her feelings'; 'toy with an idea' <i21833>",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

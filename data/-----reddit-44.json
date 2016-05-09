@@ -1,0 +1,40 @@
+{
+  "lemma": "bulk",
+  "examples": [{
+    "text": "and switching back and forth between cutting and bulking far more often than i should because i"
+  }, {
+    "text": "be related to working out / cutting / bulking ."
+  }, {
+    "text": "bulk . if you're switching between cutting and bulking that doesn't really matter . what matters is"
+  }, {
+    "text": "currently bulking w / 1 , 800 calories left t"
+  }, {
+    "text": "down to ~10 % around xmas , then bulking . overwhelming majority of those are flexed "
+  }, {
+    "text": "half being muscle and half being fat for bulking . and then somethin like a pound lost"
+  }, {
+    "text": "it's always bulking season"
+  }, {
+    "text": "of them . on my current gameplan i'm bulking for 1 / 4 of this year "
+  }, {
+    "text": "thank you . when bulking i'd be getting 2400 to 2600 calories a"
+  }, {
+    "text": "unleash your inner jabba the hut . it's bulking season ."
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "grow: become larger, greater, or bigger; expand or gain; 'The problem grew too large for me'; 'Her business grew fast' <i22874>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "bulk: the property possessed by a large mass <i63409>",
+      "relNo": 1
+    }],
+    "definition": "to gain size and weight by means of exercise and diet"
+  }]
+}

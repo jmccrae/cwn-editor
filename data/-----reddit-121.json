@@ -1,0 +1,18 @@
+{
+  "lemma": "cringe",
+  "examples": [{
+    "text": "he does not so much as illicit a cringe from me as he digs this thing in"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "gesture: something done as an indication of intention; 'a political gesture'; 'a gesture of defiance' <i41826>",
+      "relNo": 0
+    }],
+    "definition": "A posture or gesture of shrinking or recoiling. [Wiktionary]"
+  }]
+}

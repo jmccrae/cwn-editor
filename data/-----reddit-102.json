@@ -1,0 +1,22 @@
+{
+  "lemma": "legit",
+  "examples": [{
+    "text": "look up . like just legit look up right at the ceiling infront of"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "r",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "actually: in actual fact; 'to be nominally but not actually independent'; 'no one actually saw the shark'; 'large meteorites actually come from the asteroid belt' <i19142>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "legitimate: based on known statements or events or conditions; 'rain was a logical expectation, given the time of year' <i13861>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }]
+}

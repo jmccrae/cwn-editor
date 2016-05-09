@@ -1,0 +1,24 @@
+{
+  "lemma": "kill",
+  "examples": [{
+    "text": "because they killed it ."
+  }, {
+    "text": "come up and play two songs and they killed it . it's true , nashville is full o"
+  }, {
+    "text": "had ever heard of her . she absolutely killed it and at the very end of her set"
+  }, {
+    "text": ". his was during the day and he killed it ."
+  }, {
+    "text": "safe , just like coldplay . bruno mars killed it though "
+  }, {
+    "text": "she killed it ."
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "v",
+    "synonym": "succeed: attain success or reach a desired goal; 'The enterprise succeeded'; 'We succeeded in getting tickets to the show'; 'she struggled to overcome her handicap and won' <i34330>",
+    "id": 1,
+    "relations": [],
+    "definition": ""
+  }]
+}

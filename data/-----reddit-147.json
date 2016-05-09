@@ -1,0 +1,28 @@
+{
+  "lemma": "normie",
+  "examples": [{
+    "text": "a bunch of meme based music , before normies caught up "
+  }, {
+    "text": "anon tries to use memes on normies ."
+  }, {
+    "text": "[ speaking of normies ] ( http : / / youtu.be /"
+  }, {
+    "text": "we call you people \\ normies \\\"\" .\""
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "person: a human being; 'there was too much for one person to do' <i35562>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "normal: being approximately average or within certain limits in e.g. intelligence and development; 'a perfectly normal child'; 'of normal intelligence'; 'the most normal person I've ever met' <i8744>",
+      "relNo": 1
+    }],
+    "definition": "a normal person"
+  }]
+}

@@ -1,0 +1,24 @@
+{
+  "lemma": "kief",
+  "examples": [{
+    "text": "i got kief for days but no nugs . how can"
+  }, {
+    "text": "purple kief ?"
+  }, {
+    "text": "question-would putting kief in a pax make it more effective ?"
+  }, {
+    "text": "with a bang . there goes all my kief ! [ 8 ]"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "marijuana: the most commonly used illicit drug; considered a soft drug, it consists of the dried leaves of the hemp plant; smoked or chewed for euphoric effect <i51442>",
+      "relNo": 0
+    }],
+    "definition": "A form of cannabis from Morocco and Algeria"
+  }]
+}

@@ -1,0 +1,28 @@
+{
+  "lemma": "upvote",
+  "examples": [{
+    "text": ". ah what the hell , have an upvote "
+  }, {
+    "text": "first chuckle on this thread , take my upvote good si"
+  }, {
+    "text": "got my upvote by the time i got to the first"
+  }, {
+    "text": "have an upvote , i wish i could give two "
+  }, {
+    "text": "looks gross , but you get my upvote for not spelling it \\ lobsta \\\"\" .\""
+  }, {
+    "text": "they have that . it's called an upvote ."
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "vote: a choice that is made by counting the number of people in favor of each alternative; 'there were only 17 votes in favor of the motion'; 'they allowed just one vote per person' <i36377>",
+      "relNo": 0
+    }],
+    "definition": "A positive vote on a social media website"
+  }]
+}

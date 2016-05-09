@@ -1,0 +1,40 @@
+{
+  "lemma": "hungover",
+  "examples": [{
+    "text": "assumed it was because we would all be hungover . \\"
+  }, {
+    "text": "between everyone ( myself included ) being hungover and this post it appears i won't be"
+  }, {
+    "text": ", but eating oily food once you're already hungover ( i.e. the next morning ) doesn't actuall"
+  }, {
+    "text": "but i do look more pissed off and hungover"
+  }, {
+    "text": "dominos . every time i'm hungover i think it will make things better ."
+  }, {
+    "text": ": edit : i wrote this hungover and before my first coffee this morning ."
+  }, {
+    "text": "i was going to die . i was hungover for 2 days . never again . i"
+  }, {
+    "text": "over and said \\ look , i'm really hungover here and just trying to sleep . you've\""
+  }, {
+    "text": "right now i will almost definitely watch this hungover when i want to watch something really good"
+  }, {
+    "text": "the next day on time , a little hungover albeit . i did well , but realize"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "uncomfortable: providing or experiencing physical discomfort; 'an uncomfortable chair'; 'an uncomfortable day in the hot sun' <i2698>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "hangover: disagreeable aftereffects from the use of drugs (especially alcohol) <i112929>",
+      "relNo": 1
+    }],
+    "definition": "suffering the aftereffects of the use of drugs (especially alcohol)"
+  }]
+}

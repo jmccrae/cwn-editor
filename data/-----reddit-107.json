@@ -1,0 +1,18 @@
+{
+  "lemma": "woosh",
+  "examples": [{
+    "text": "kinda woosh , [ but not the easiest of reference"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "confusing: causing confusion or disorientation; 'a confusing jumble of road signs'; 'being hospitalized can be confusing and distressing for a small child' <i9232>",
+      "relNo": 0
+    }],
+    "definition": ""
+  }]
+}

@@ -1,0 +1,30 @@
+{
+  "lemma": "fuck you",
+  "examples": [{
+    "text": "as someone turning 29 shortly , fuck you good sir "
+  }, {
+    "text": "fuck you ... \\"
+  }, {
+    "text": "fuck you eli ! \\"
+  }, {
+    "text": "fuck you in particular . now i'm going to hear"
+  }, {
+    "text": "he immediately stands up and starts screaming \\ fuck you ! fuck you ! \\\"\" over and over\""
+  }, {
+    "text": "is a vast amount of people \\ so fuck you\""
+  }, {
+    "text": "seriously fuck you al , i hope you get bette"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "hatred: the emotion of intense dislike; a feeling of dislike so strong that it demands action <i76414>",
+      "relNo": 1
+    }],
+    "definition": "An expletive showing strong hatred for the target"
+  }]
+}

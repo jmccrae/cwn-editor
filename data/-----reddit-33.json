@@ -1,0 +1,32 @@
+{
+  "lemma": "so yeah",
+  "examples": [{
+    "text": "always get great foundational results from that . so yeah id say to go for it"
+  }, {
+    "text": "balance-related work ) outta equation doing smith . so yeah , if you can , do free thrust"
+  }, {
+    "text": "is having trouble keeping the bar up . so yeah , any thoughts on that or my for"
+  }, {
+    "text": ", never even hit my maintenance calories , so yeah i think it'll mostly help psychologically "
+  }, {
+    "text": "probably the uk equivalent of planet fitness , so yeah , most people only rest 30seconds , ye"
+  }, {
+    "text": "so yeah , mongols wearing shoes rode on barefoot horse"
+  }, {
+    "text": "so yeah , you fucked up , but in "
+  }, {
+    "text": "when the prophet mohammad fled to medinah . so yeah , gregorian isn't the default calendar for "
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "r",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "i.e.: that is to say; in other words <i19457>",
+      "relNo": 0
+    }],
+    "definition": "In other words, as a result"
+  }]
+}

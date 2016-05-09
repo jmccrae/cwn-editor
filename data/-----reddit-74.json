@@ -1,0 +1,36 @@
+{
+  "lemma": "badass",
+  "examples": [{
+    "text": "badass man . i'm turning 21 this year "
+  }, {
+    "text": ". bonus : my pain tolerance is pretty badass now . \\"
+  }, {
+    "text": "i have never seen such a badass , action-filled handicap logo before .."
+  }, {
+    "text": ". the spawn animated series on hbo was badass , and there'd be no ratings to worr"
+  }, {
+    "text": "title sounded intriguing , and the cover is badass "
+  }, {
+    "text": "tree bulba seems like it would be a badass legendary ."
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "cool: fashionable and attractive at the time; often skilled or socially adept; 'he's a cool dude'; 'that's cool'; 'Mary's dress is really cool'; 'it's not cool to arrive at a party too early' <i5317>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "ass: the fleshy part of the human body that you sit on; 'he deserves a good kick in the butt'; 'are you going to sit on your fanny and do nothing?' <i66132>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "bad: characterized by wickedness or immorality; 'led a very bad life' <i6202>",
+      "relNo": 1
+    }],
+    "definition": "being impressive due to extreme attitude or style"
+  }]
+}

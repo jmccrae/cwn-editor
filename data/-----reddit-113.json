@@ -1,0 +1,26 @@
+{
+  "lemma": "aww",
+  "examples": [{
+    "text": "aww , he's so adorabl"
+  }, {
+    "text": "\\ aww , look at this adorable goat . also\""
+  }, {
+    "text": "aww , someone didn't know the secret ..i'll cr"
+  }, {
+    "text": "aww what a cute kid"
+  }, {
+    "text": "back ? they were going for a \\ aww , look , she will fall in love\""
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "joy: the emotion of great happiness <i76310>",
+      "relNo": 0
+    }],
+    "definition": "An expression of joy in response to seeing something cute"
+  }]
+}

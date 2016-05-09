@@ -1,0 +1,62 @@
+{
+  "lemma": "woooo",
+  "examples": [{
+    "text": "ama request : the wooo guy . how did you get away with"
+  }, {
+    "text": "due monday ) . the baby kicked for wooo guy , it was hilarious . at firs"
+  }, {
+    "text": "hell yeah we did ! wooo , ~~'murica~~ homosapiens "
+  }, {
+    "text": "i can't unhear this wooo"
+  }, {
+    "text": "independence day wooo ! ! !"
+  }, {
+    "text": ". nope , i'm building a fucking train wooo wooo bitch "
+  }, {
+    "text": "so very drunk of me you get a wooo you get a wooo and gold all around"
+  }, {
+    "text": "wooo endorsements !"
+  }, {
+    "text": "yes wooo my husband does not reddit but he loved"
+  }, {
+    "text": "best yet ! thank you from the goldgiving woooo wife !"
+  }, {
+    "text": "i've heard that woooo during every single cbs game when i watch"
+  }, {
+    "text": "i wish ... at least ric flair's woooo ! is entertaining . this guy is cancer"
+  }, {
+    "text": "legal to straight up murder people that \\ woooo \\\"\" and whistle more than once every 15\""
+  }, {
+    "text": "make em go woooo woooooo , you know "
+  }, {
+    "text": "there's this high pitched guy going \\ woooo \\\"\" all the time i can't not hear\""
+  }, {
+    "text": "the whistles go woooo !"
+  }, {
+    "text": "\\ the woooo is coming from * inside * the house\""
+  }, {
+    "text": "we talking ric flair woooo ! or just a woooo. \\"
+  }, {
+    "text": "woooo ! !"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "<-----reddit-21>",
+      "relNo": 0
+    }, {
+      "type": "emotion",
+      "target": "joy: the emotion of great happiness <i76310>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "excitement: the feeling of lively and cheerful joy; 'he could hardly conceal his excitement when she agreed' <i76314>",
+      "relNo": 1
+    }],
+    "definition": "an expression of extreme excitement and joy"
+  }]
+}

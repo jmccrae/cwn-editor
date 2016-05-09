@@ -1,0 +1,32 @@
+{
+  "lemma": "Spetsnaz",
+  "examples": [{
+    "text": "also happen in a country like russia . spetsnaz does not fuck around . if you get"
+  }, {
+    "text": "assume they put into precaution before the call spetsnaz in to level a house . that's a"
+  }, {
+    "text": "[ how do russian spetsnaz deal with terrorists barricaded in a house ?"
+  }, {
+    "text": "in russia , spetsnaz is a blanket term for \\ special forces.\""
+  }, {
+    "text": "that isn't spetsnaz ."
+  }, {
+    "text": "wow those spetsnaz do not fuck around ."
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "division: an army unit large enough to sustain combat; 'two infantry divisions were held in reserve' <i80260>",
+      "relNo": 0
+    }, {
+      "type": "similar",
+      "target": "Special Forces: a division of the United States Army that is specially trained for guerilla fighting <i80261>",
+      "relNo": 1
+    }],
+    "definition": "Russian Special Forces"
+  }]
+}

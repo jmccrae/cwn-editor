@@ -1,0 +1,26 @@
+{
+  "lemma": "shitstorm",
+  "examples": [{
+    "text": "into metal music . so there's a massive shitstorm when your favourite band calls you out on"
+  }, {
+    "text": "subs to random people and watch the ensuing shitstorm"
+  }, {
+    "text": "this because there'd be too much of a shitstorm . i love his music but he's incredibly"
+  }, {
+    "text": "ton of music . so there's probably a shitstorm from the fans of taylor who pirate but"
+  }, {
+    "text": "use corporate talk unless you want a media shitstorm to happen and lose your job ."
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "backlash: an adverse reaction to some political or social occurrence; 'there was a backlash of intolerance' <i36472>",
+      "relNo": 0
+    }],
+    "definition": "A considerable backlash or controversy"
+  }]
+}

@@ -1,0 +1,20 @@
+{
+  "lemma": "cringe worthy",
+  "examples": [{
+    "text": "roll their actual spine ... that's horrible and cringe worthy . exactly like rolling a lacrosse ball"
+  }, {
+    "text": "yea those are super cringe worthy . i have no idea who thought"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "awkward: hard to deal with; especially causing pain or embarrassment; 'awkward (or embarrassing or difficult) moments in the discussion'; 'an awkward pause followed his remark'; 'a sticky question'; 'in the unenviable position of resorting to an act he had planned to save for the climax of the campaign' <i4131>",
+      "relNo": 0
+    }],
+    "definition": "of things that should cause embarrassment and shame"
+  }]
+}

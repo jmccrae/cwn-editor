@@ -1,0 +1,28 @@
+{
+  "lemma": "steampunk",
+  "examples": [{
+    "text": "a feel for the mundane parts of the steampunk fantasy setting i write in from them "
+  }, {
+    "text": "all the complexity of a steampunk invention but without the random dials and copper"
+  }, {
+    "text": "honeybee - steam powered giraffe [ steampunk rock a cappella cover ]"
+  }, {
+    "text": "then were just a bunch of hipsters into steampunk stuff ."
+  }, {
+    "text": "thing out of brass and you've got a steampunk masterpiece ."
+  }, {
+    "text": "trilogy by scott westerfeld . basically ww1 but steampunk / biopunk . the prince of the austro-hungarian"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "literary genre: a style of expressing yourself in writing <i73922>",
+      "relNo": 0
+    }],
+    "definition": "A subgenre of speculative science fiction set in an anachronistic 19th century society. [Wiktionary]"
+  }]
+}

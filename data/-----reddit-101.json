@@ -1,0 +1,32 @@
+{
+  "lemma": "legit",
+  "examples": [{
+    "text": "i have no legit argument against him so i'm going to make"
+  }, {
+    "text": "know people who have heavy lifting and incorporate legit cardio as well as hiit into their routines"
+  }, {
+    "text": "some crossfit guys are legit . some crossfit guys will encourage you to"
+  }, {
+    "text": "story for the ages . legit night though crazy shit ."
+  }, {
+    "text": "super markets and you can get a pretty legit head cheese torta from their delis ."
+  }, {
+    "text": "the gym i am at is legit . the instructors are good and moderate you"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "similar",
+      "target": "legitimate: based on known statements or events or conditions; 'rain was a logical expectation, given the time of year' <i13861>",
+      "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "legitimate: based on known statements or events or conditions; 'rain was a logical expectation, given the time of year' <i13861>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }]
+}

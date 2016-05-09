@@ -1,0 +1,40 @@
+{
+  "lemma": "relatable",
+  "examples": [{
+    "text": "but temp is one of the most relatable . if this was for the public temp"
+  }, {
+    "text": "colbert entirely and i love corden . he's relatable as fuck : )"
+  }, {
+    "text": "definitely relatable to the monarch from the venture bros ."
+  }, {
+    "text": "kid books in middle school because it was relatable . now it's comic gold because of all"
+  }, {
+    "text": "pop , that's so down to earth and relatable "
+  }, {
+    "text": "positions . she's an extreme , but very relatable villain "
+  }, {
+    "text": "the how steinbeck makes such a deep and relatable connection to his characters . i haven't finished"
+  }, {
+    "text": "the nfl . so he wanted to be relatable and say he wants to drink and celebrate"
+  }, {
+    "text": "ya know , to make it more relatable to the current times "
+  }, {
+    "text": "yours strikes me as the most realistic and relatable ."
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "a",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "derivation",
+      "target": "relate: have or establish a relationship to; 'She relates well to her peers' <i34010>",
+      "relNo": 0
+    }, {
+      "type": "similar",
+      "target": "pleasant: (of persons) having pleasing manners or behavior; 'I didn't enjoy it and probably wasn't a pleasant person to be around' <i8697>",
+      "relNo": 1
+    }],
+    "definition": "having a manner or nature that is easy to relate to"
+  }]
+}

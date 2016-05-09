@@ -1,0 +1,28 @@
+{
+  "lemma": "fuck",
+  "examples": [{
+    "text": "and then deadlift because that shit taxes the fuck out of me ."
+  }, {
+    "text": "holy cow we're getting memed the fuck out"
+  }, {
+    "text": "imagine your tits as headlights . shine the fuck out of whats in front of you , yo"
+  }, {
+    "text": "invented this stupid game just to confuse the fuck out of you stinkin' red coats ."
+  }, {
+    "text": "oh shit ! i'm ordering the fuck out of the pokéball one . can't believe i've"
+  }, {
+    "text": "on his pants despite him shaking the living fuck out of it , and dean ( the othe"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "works: everything available; usually preceded by `the'; 'we saw the whole shebang'; 'a hotdog with the works'; 'we took on the whole caboodle'; 'for $10 you get the full treatment' <i113008>",
+      "relNo": 0
+    }],
+    "definition": "Strongly and emphatically all of something "
+  }]
+}

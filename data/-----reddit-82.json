@@ -1,0 +1,18 @@
+{
+  "lemma": "stank",
+  "examples": [{
+    "text": "puttin some stank on it"
+  }],
+  "status": "vulgar",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "odor: the sensation that results when olfactory receptors in the nose are stimulated by particular chemicals in gaseous form; 'she loved the smell of roses' <i66940>",
+      "relNo": 0
+    }],
+    "definition": "A smell of genitals or sex"
+  }]
+}

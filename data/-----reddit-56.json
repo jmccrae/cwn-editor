@@ -1,0 +1,30 @@
+{
+  "lemma": "fair enough",
+  "examples": [{
+    "text": "fair enough"
+  }, {
+    "text": "fair enough , but hey , never say neve"
+  }, {
+    "text": "fair enough . glad we can agree on that lol"
+  }, {
+    "text": "fair enough , i downvoted it "
+  }, {
+    "text": "fair enough , i edited my op. "
+  }, {
+    "text": "fair enough . i hadn't considered what would be happening"
+  }, {
+    "text": "fair enough . physios will know whether it's good or"
+  }],
+  "status": "general",
+  "senses": [{
+    "pos": "x",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "emotion",
+      "target": "accord: harmony of people's opinions or actions or characters; 'the two parties were in agreement' <i110356>",
+      "relNo": 0
+    }],
+    "definition": "interjection confirming an acceptance of the other party's reasoning"
+  }]
+}

@@ -1,0 +1,22 @@
+{
+  "lemma": "slackline",
+  "examples": [{
+    "text": "500m slackline walk in castle valley , uta"
+  }, {
+    "text": "500m slackline walk in castle valley , uta"
+  }, {
+    "text": "théo sanson walked nearly 500 meters on a slackline rigged from the rectory to castleton tower in"
+  }],
+  "status": "novel",
+  "senses": [{
+    "pos": "n",
+    "synonym": "",
+    "id": 1,
+    "relations": [{
+      "type": "hypernym",
+      "target": "rope: a strong line <i58271>",
+      "relNo": 0
+    }],
+    "definition": "a partially tensioned line for balance or walking"
+  }]
+}

@@ -21,12 +21,20 @@
   }, {
     "text": "followback , noona ? : "
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "loanword",
+      "target": "Korean: the Altaic language spoken by Koreans <i72984>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "woman: an adult female person (as opposed to a man); 'the woman kept house while the man hunted' <i94168>",
+      "relNo": 1
+    }],
+    "definition": "a girl who is older than you especially a sister"
   }]
 }

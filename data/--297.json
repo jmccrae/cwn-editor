@@ -21,12 +21,16 @@
   }, {
     "text": "crush be like * odus fell down * abeg wetin dey fall am ? Mtchewwww https :"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "r",
+    "synonym": "please: used in polite request; 'please pay attention' <i18204>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "West Africa: an area of western Africa between the Sahara Desert and the Gulf of Guinea <i84873>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

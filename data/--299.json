@@ -21,12 +21,24 @@
   }, {
     "text": "float for the sixth time # crypto # cryptocurrency https : / / t.co / KXHGR2mT9w https"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "currency: the metal or paper medium of exchange that is presently used <i107064>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "cryptography: act of writing in code or cipher <i38650>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "currency: the metal or paper medium of exchange that is presently used <i107064>",
+      "relNo": 1
+    }],
+    "definition": "a currency based on the usage of cryptography to secure transactions"
   }]
 }

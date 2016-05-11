@@ -10,9 +10,13 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "prepare=00407168-v",
+      "target": "prepare: arrange by systematic planning and united effort; 'machinate a plot'; 'organize a strike'; 'devise a plan to take over the director's office' <i29995>",
       "relNo": 0
+    }, {
+      "type": "domain_usage",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
     }],
-    "definition": "to be about to do something (AAVE)"
+    "definition": "to be about to do something"
   }]
 }

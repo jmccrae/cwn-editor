@@ -1,5 +1,5 @@
 {
-  "lemma": "*1960s",
+  "lemma": "1960s",
   "examples": [{
     "text": "I ain't made yet . # thevogues # 1960s # havefunatworktoday"
   }, {
@@ -21,16 +21,12 @@
   }, {
     "text": "VINTAGE 1960S TONKA TOYS ARMY JEEP GR 2-2431-EXCELLENT WITH STEERING"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "15175094-n (the decade from 1960 to 1969)",
+    "pos": "n",
+    "synonym": "1960s: the decade from 1960 to 1969 <i116824>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "decade=13768652-n (the cardinal number that is the sum of nine and one; the base of the decimal system);15229779-n (a period of 10 years)",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": "The decade beginning in 1960 and ending in 1969."
   }]
 }

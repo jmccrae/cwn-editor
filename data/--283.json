@@ -21,12 +21,24 @@
   }, {
     "text": "# Fitbit # Fitspo How to Make Some Healthy Smoothies for Weight"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "inspiration: arousal of the mind to special unusual activity or creativity <i67536>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "fit: physically and mentally sound or healthy; 'felt relaxed and fit after their holiday'; 'keeps fit with diet and exercise' <i5565>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "image: a visual representation (of an object or scene or person or abstraction) produced on a surface; 'they showed us the pictures of their wedding'; 'a movie is a series of images projected so rapidly that the eye integrates them' <i57243>",
+      "relNo": 1
+    }],
+    "definition": "an image of promoting proper exercise and diet"
   }]
 }

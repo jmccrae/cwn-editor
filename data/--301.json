@@ -21,12 +21,24 @@
   }, {
     "text": "⬅? # anal # busty # perv # sexting https : / / t.co / aqlyuDuECJ"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "<-----reddit-14>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "sex: activities associated with sexual intercourse; 'they had sex in the back seat' <i39841>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "messaging: the sending and processing of e-mail by computer <i69514>",
+      "relNo": 1
+    }],
+    "definition": "sending sexual messages using a mobile phone or computer"
   }]
 }

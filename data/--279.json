@@ -21,24 +21,20 @@
   }, {
     "text": "# retrogaming # arcade # 80scartoons https : / /"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "computer game=00459914-n (a game played against a computer)",
+      "type": "hypernym",
+      "target": "gaming: the act of playing for stakes in the hope of winning (including the payment of a price for a chance to win a prize); 'his gambling cost him a fortune'; 'there was heavy play at the blackjack table' <i37660>",
       "relNo": 0
     }, {
-      "type": "none",
-      "target": "video game=00459914-n (a game played against a computer)",
+      "type": "domain_usage",
+      "target": "video game: a game played against a computer <i37827>",
       "relNo": 1
-    }, {
-      "type": "none",
-      "target": "hobby=00433629-n (an auxiliary activity);01615117-n (small Old World falcon formerly trained and flown at small birds);03528796-n (a child's plaything consisting of an imitation horse mounted on rockers; the child straddles it and pretends to ride)",
-      "relNo": 2
     }],
-    "definition": " The hobby of playing or collecting older video games and computer games."
+    "definition": " The hobby of playing or collecting older video games and computer games. [Wiktionary]"
   }]
 }

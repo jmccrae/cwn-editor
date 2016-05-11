@@ -21,12 +21,16 @@
   }, {
     "text": "oh shit I read that wrong omf I'm retarded ?"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "regret: feel sad about the loss or absence of <i30715>",
+      "relNo": 1
+    }],
+    "definition": "expression in response to a bad thing happening"
   }]
 }

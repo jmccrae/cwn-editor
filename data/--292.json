@@ -21,12 +21,24 @@
   }, {
     "text": "OF BIRTHDAYS SYDRA . I GOT YOU A SNOW DAY FOR YOUR BIRTHDAY SO YOU'RE WELCOME ??"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "day: time for Earth to make a complete rotation on its axis; 'two days later they left'; 'they put on two performances every day'; 'there are 30,000 passengers per day' <i116858>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "snow: precipitation falling from clouds in the form of ice crystals <i98073>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "day: time for Earth to make a complete rotation on its axis; 'two days later they left'; 'they put on two performances every day'; 'there are 30,000 passengers per day' <i116858>",
+      "relNo": 1
+    }],
+    "definition": "a day on which school or other events are cancelled due to snow"
   }]
 }

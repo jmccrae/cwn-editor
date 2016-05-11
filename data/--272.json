@@ -21,12 +21,20 @@
   }, {
     "text": "Welcome to # whootywednesday see 1000s of # whooty pics in the members section at https :"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "white: of or belonging to a racial group having light skin coloration; 'voting patterns within the white population' <i1354>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "white woman: a woman who is White <i87290>",
+      "relNo": 1
+    }],
+    "definition": "a white woman with a large butt"
   }]
 }

@@ -21,10 +21,10 @@
   }, {
     "text": "Fking hurts ! Stupid shit ughh when can you heal ?"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "<--302>",
     "id": 1,
     "relations": [],
     "definition": ""

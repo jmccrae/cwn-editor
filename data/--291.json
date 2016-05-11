@@ -21,10 +21,10 @@
   }, {
     "text": "e.g. ' It's finally here ! A brand new"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "00160239-r (as an example; \\\"\"take ribbon snakes, for example\\\"\"",
+    "pos": "n",
+    "synonym": "e.g.: as an example; 'take ribbon snakes, for example' <i19216>",
     "id": 1,
     "relations": [],
     "definition": " misuse of the abbreviation &quot;e.g.&quot; (exampli gratia, for example), pseudo-abbreviation of &quot;example&quot"

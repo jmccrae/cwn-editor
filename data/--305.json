@@ -21,12 +21,24 @@
   }, {
     "text": "a \\ climb the pole \\\"\" animation # gamedev # retargeting # maya https : / /\""
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "develop: make something new, such as a product or a mental or artistic creation; 'Her company developed a new kind of building material that withstands all kinds of weather'; 'They developed a new technique' <i30431>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "game: a contest with rules to determine a winner; 'you need four people to play this game' <i37810>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "software engineer: a person who designs and writes and tests computer programs <i92286>",
+      "relNo": 1
+    }],
+    "definition": "someone who develops a game"
   }]
 }

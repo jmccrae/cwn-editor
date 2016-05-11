@@ -21,12 +21,16 @@
   }, {
     "text": "The vamps in Dubai ! ! ! XD ayeee ayeee ayeee it's valentines day and I have"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "excitement: the feeling of lively and cheerful joy; 'he could hardly conceal his excitement when she agreed' <i76314>",
+      "relNo": 1
+    }],
+    "definition": "expression of excitement"
   }]
 }

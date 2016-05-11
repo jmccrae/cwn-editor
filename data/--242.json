@@ -21,9 +21,9 @@
   }, {
     "text": "Did you know that Chick-fil-A at Citrus Park Mall has an Instagram page"
   }],
-  "status": "",
+  "status": "name",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

@@ -21,12 +21,16 @@
   }, {
     "text": "# BestFanArmy # Directioner …"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "fan: an ardent follower and admirer <i89881>",
+      "relNo": 1
+    }],
+    "definition": "a fan on the band One Direction"
   }]
 }

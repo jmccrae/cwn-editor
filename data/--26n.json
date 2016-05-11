@@ -5,10 +5,18 @@
   }],
   "status": "novel",
   "senses": [{
-    "pos": "n",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "vapor: a visible suspension in the air of particles of some substance <i116294>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "cigarette: finely ground tobacco wrapped in paper; for smoking <i51930>",
+      "relNo": 1
+    }],
+    "definition": "an electronic cigarette, that produces a nicotine containing vapor"
   }]
 }

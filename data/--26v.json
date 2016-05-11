@@ -18,11 +18,11 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "smoke=01200739-v",
+      "target": "smoke: inhale and exhale smoke from cigarettes, cigars, pipes; 'We never smoked marijuana'; 'Do you smoke?' <i27612>",
       "relNo": 0
     }, {
-      "type": "instrument",
-      "target": "26n",
+      "type": "derivation",
+      "target": "vapor: a visible suspension in the air of particles of some substance <i116294>",
       "relNo": 1
     }],
     "definition": "to use an electronic cigarette"

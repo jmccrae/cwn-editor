@@ -1,5 +1,5 @@
 {
-  "lemma": "*pop-up",
+  "lemma": "pop-up",
   "examples": [{
     "text": "account I will be featuring videos of incredible pop-up cards from my … https : / /"
   }, {
@@ -21,16 +21,20 @@
   }, {
     "text": "teams up with to open pop-up space at London flagship https : / /"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "00129796-n (a short high fly ball);06424903-n (a book (usually for children) that contains one or more pages such that a three-dimensional structure rises up when a page is opened)",
+    "pos": "n",
+    "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "pop up=02161949-v (appear suddenly or unexpectedly; \\\"\"The farm popped into view as we turned the corner\\\"\"; \\\"\"He suddenly popped up out of nowhere\\\"\"",
+      "type": "hypernym",
+      "target": "store: a mercantile establishment for the retail sale of goods or services; 'he bought it at a shop on Cape Cod' <i58835>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "pop up: appear suddenly or unexpectedly; 'The farm popped into view as we turned the corner'; 'He suddenly popped up out of nowhere' <i32538>",
+      "relNo": 1
     }],
-    "definition": "Anything that pops up."
+    "definition": "a store that is open for a limited period of time on temporary premises"
   }]
 }

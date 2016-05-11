@@ -21,12 +21,16 @@
   }, {
     "text": "- ) ) ) ) noona loves you huhuhu https : / / t.co / qnOcwVvPVK"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "crying: the process of shedding tears (usually accompanied by sobs or other inarticulate sounds); 'I hate to hear the crying of a child'; 'she was in tears' <i39959>",
+      "relNo": 1
+    }],
+    "definition": "sound imitating crying"
   }]
 }

@@ -21,12 +21,24 @@
   }, {
     "text": "# WhatsAppGoneMad # Facepalm"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "palm: the inner surface of the hand from the wrist to the base of the fingers <i66158>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "face: the front of the human head from the forehead to the chin and ear to ear; 'he washed his face'; 'I wish I had seen the look on his face when he got the news' <i66344>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "gesture: motion of hands or body to emphasize or help to express a thought or feeling <i37168>",
+      "relNo": 1
+    }],
+    "definition": "the act of putting your hand to cover your face to show disappointment or despair"
   }]
 }

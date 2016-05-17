@@ -21,10 +21,10 @@
   }, {
     "text": "\\ Pancake day yesterday , I had 12 \\\"\"\""
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "15266695-n (the last day before Lent)",
+    "pos": "n",
+    "synonym": "pancake day: the last day before Lent <i117340>",
     "id": 1,
     "relations": [],
     "definition": ""

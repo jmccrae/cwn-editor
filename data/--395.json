@@ -21,16 +21,12 @@
   }, {
     "text": "FIERCE TALES : THE DOG'S HEART - HIDDEN OBJECT PC GAME No 50"
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "dog's bollocks=",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": " shortened form of dog's bollocks."
   }]
 }

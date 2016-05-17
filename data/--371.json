@@ -21,12 +21,20 @@
   }, {
     "text": "! ! ! Don't do that ! Mmm Eish it's tough but it's fine next time"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "domain_region",
+      "target": "South Africa: a republic at the southernmost part of Africa; achieved independence from the United Kingdom in 1910; first European settlers were Dutch (known as Boers) <i83973>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "exasperation: an exasperated feeling of annoyance <i76267>",
+      "relNo": 1
+    }],
+    "definition": "expression of exasperation"
   }]
 }

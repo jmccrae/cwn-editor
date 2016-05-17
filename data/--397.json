@@ -21,12 +21,28 @@
   }, {
     "text": "https : / / t.co / tD8SJQ1aeV # brony # pegasister # MLP"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "pony: any of various breeds of small gentle horses usually less than five feet high at the shoulder <i48108>",
+      "relNo": 4
+    }, {
+      "type": "derivation",
+      "target": "brother: a close friend who accompanies his buddies in their activities <i88718>",
+      "relNo": 3
+    }, {
+      "type": "hypernym",
+      "target": "man: an adult person who is male (as opposed to a woman); 'there were two women and six men on the bus' <i91182>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "fan: an ardent follower and admirer <i89881>",
+      "relNo": 1
+    }],
+    "definition": "an adult, male fan of the show My Little Pony: Friendship is Magic"
   }]
 }

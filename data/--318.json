@@ -21,12 +21,48 @@
   }, {
     "text": "lol i love derp pics : v"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "fool: a person who lacks good judgment <i90022>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "dope: an ignorant or foolish person <i89657>",
+      "relNo": 2
+    }],
+    "definition": "someone who is silly or stupid especially when seeming cute"
+  }, {
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "dope: an ignorant or foolish person <i89657>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "foolish: having or revealing stupidity; 'ridiculous anserine behavior'; 'a dopey answer'; 'a dopey kid'; 'some fool idea about rewriting authors' books' <i2479>",
+      "relNo": 1
+    }],
+    "definition": "appearing silly or stupid especially in a cute manner"
+  }, {
+    "pos": "r",
+    "synonym": "",
+    "id": 3,
+    "relations": [{
+      "type": "derivation",
+      "target": "dope: an ignorant or foolish person <i89657>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 1
+    }],
+    "definition": "reacting to a stupid but cute action"
   }]
 }

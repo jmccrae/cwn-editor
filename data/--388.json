@@ -21,9 +21,9 @@
   }, {
     "text": "Yes please ."
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

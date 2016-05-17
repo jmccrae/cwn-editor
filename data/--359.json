@@ -21,12 +21,20 @@
   }, {
     "text": "Thanks for the shout-out "
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "shout out: utter in a very loud voice; 'They vociferated their demands' <i26188>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "act: something that people do or cause to happen <i35588>",
+      "relNo": 1
+    }],
+    "definition": "an act of recognition"
   }]
 }

@@ -22,7 +22,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/wn/:key") {
       val k = urldecode(params("key"))
-      if(k.length >= 3) {
+      if(k.length >= 2) {
         val results = wordnet.data.find(k)
         contentType = "application/javascript"
         "[" + results.map({ result =>

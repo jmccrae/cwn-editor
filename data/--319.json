@@ -21,12 +21,20 @@
   }, {
     "text": "style is sun and sand . What's your go-to ? # BeachEscape # spgamex https : /"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "go <i30898>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "thing: an entity that is not named specifically; 'I couldn't tell what the thing was' <i60192>",
+      "relNo": 1
+    }],
+    "definition": "an action or object one always chooses first"
   }]
 }

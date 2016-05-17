@@ -8,7 +8,7 @@
                 <h1>Summary</h1>
 
                 {{#files}}
-                    <div class="panel panel-primary">
+                    <div class="panel panel-primary panel-{{#data}}{{status}}{{/data}}">
                         <div class="panel-heading">
                             <h3>{{#data}}{{lemma}}{{/data}} &#160;&#160;&lt;{{name}}&gt;
                             <a class="pull-right" style="color:#eee;" href="/edit/{{name}}">Edit</a></h3>

@@ -1,5 +1,5 @@
 {
-  "lemma": "dabbed",
+  "lemma": "dab",
   "examples": [{
     "text": "just dabbed their way out of the # SuperBowl"
   }, {
@@ -21,12 +21,24 @@
   }, {
     "text": "So after Mino dabbed on Winner live performance , now Youngbae di"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "dabbing  <--101>",
+      "relNo": 3
+    }, {
+      "type": "domain_topic",
+      "target": "marijuana: the most commonly used illicit drug; considered a soft drug, it consists of the dried leaves of the hemp plant; smoked or chewed for euphoric effect <i51442>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "smoke: inhale and exhale smoke from cigarettes, cigars, pipes; 'We never smoked marijuana'; 'Do you smoke?' <i27612>",
+      "relNo": 1
+    }],
+    "definition": "to smoke marijuana using butane hash oil"
   }]
 }

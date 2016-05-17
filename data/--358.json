@@ -21,10 +21,24 @@
   }, {
     "text": "Requirements Revealed : PC owners eager to get hands-on with Square Enix's and IO Interac ... https"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "00039372-a (involving active participation; \\\"\"he's a hands-on manager\\\"\"; \\\"\"hands-on operations\\\"\"",
+    "pos": "n",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "event: something that happens at a given place and time <i35586>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "hands-on: involving active participation; 'he's a hands-on manager'; 'hands-on operations' <i198>",
+      "relNo": 2
+    }],
+    "definition": "an event where all participants are actively involved"
+  }, {
+    "pos": "a",
+    "synonym": "hands-on: involving active participation; 'he's a hands-on manager'; 'hands-on operations' <i198>",
     "id": 1,
     "relations": [],
     "definition": ""

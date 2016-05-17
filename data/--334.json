@@ -21,9 +21,9 @@
   }, {
     "text": "Can I get a tweet or a like because I'm in"
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

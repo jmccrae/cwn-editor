@@ -21,9 +21,9 @@
   }, {
     "text": "I love you so much ."
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

@@ -21,12 +21,24 @@
   }, {
     "text": "Bitcoin , litecoin , dogecoin , altcoin . No bitcoin ATM in South London "
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "coin: a flat metal piece (usually a disc) used as money <i107076>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "alternative: serving or used in place of another; 'an alternative plan' <i10183>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "<--299>",
+      "relNo": 1
+    }],
+    "definition": "an alternative cryptocurrency"
   }]
 }

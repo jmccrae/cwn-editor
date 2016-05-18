@@ -21,12 +21,20 @@
   }, {
     "text": "Man accused of tossing gator into Wendy's drive-thru window https : / / t.co / gq26YDRv2Z"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "drive: proceed along in a vehicle; 'We drive the turnpike to work' <i31372>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "restaurant: a building where people go to eat <i58115>",
+      "relNo": 1
+    }],
+    "definition": "a restaurant where food can be picked up without leaving the car"
   }]
 }

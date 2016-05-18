@@ -20,6 +20,30 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     lazy val wordnet = new WordNet()
 
+    def file2entry(f : File) = {
+      val s = io.Source.fromFile(f)
+      val e = s.mkString.parseJson.convertTo[Entry]
+      s.close
+      e
+    }
+
+    get("/search/:lemma") {
+      val k = urldecode(params("lemma"))
+      val files = (for(f <- new File("data/").listFiles
+           if f.getName().endsWith(".json")) yield {
+             val e = file2entry(f)
+             if(e.lemma.matches(k)) {
+               Some(Map("name" -> f.getName().dropRight(5), "data" -> e))
+             } else {
+               None
+             }
+           }).flatten.toSeq
+      contentType = "text/html"
+      mustache("/summary",
+        "files" -> files)
+    }
+
+
     get("/wn/:key") {
       val k = urldecode(params("key"))
       if(k.length >= 2) {
@@ -39,7 +63,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       val files = (for(f <- new File("data/").listFiles.sortBy(_.getName()).drop(page * 100).take(100)
         if f.getName().endsWith(".json")) yield {
           Map("name" -> f.getName().dropRight(5),
-            "data" -> io.Source.fromFile(f).mkString.parseJson.convertTo[Entry])
+            "data" -> file2entry(f))
         }).toList
       contentType = "text/html"
       mustache("/summary",
@@ -52,7 +76,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         if(!f.exists) {
             pass()
         } else {
-            val data = io.Source.fromFile(f).mkString.parseJson.convertTo[Entry]
+            val data = file2entry(f)
             contentType = "text/html"
             mustache("/edit", 
                 "entry" -> params("id"),
@@ -86,7 +110,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/update/:id") {
       val f = new File("data/%s.json" format params("id"))
-      val data = io.Source.fromFile(f).mkString.parseJson.convertTo[Entry]
+      val data = file2entry(f)
       val lemma = params.getOrElse("lemma", throw new RuntimeException())
       val status = params.getOrElse("status", throw new RuntimeException())
       val senseIds = params.keys.filter(_.matches("definition\\d+")).map({

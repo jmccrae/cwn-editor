@@ -21,12 +21,24 @@
   }, {
     "text": "⬅? # naked # cam # local # japorn https : / / t.co / nEBLZVnY8S"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "porn: creative activity (writing or pictures or films etc.) of no literary or artistic value other than to stimulate sexual desire <i39363>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "Japanese: of or relating to or characteristic of Japan or its people or their culture or language; 'the Japanese Emperor'; 'Japanese cars' <i16912>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "pornography: creative activity (writing or pictures or films etc.) of no literary or artistic value other than to stimulate sexual desire <i39363>",
+      "relNo": 1
+    }],
+    "definition": "Japanese pornography"
   }]
 }

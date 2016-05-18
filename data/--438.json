@@ -21,12 +21,24 @@
   }, {
     "text": "[ HQ ] 151022 SinChon fansign"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "fan: an ardent follower and admirer <i89881>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "sign: a public display of a message; 'he posted signs in all the shop windows' <i72182>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "sign: a public display of a message; 'he posted signs in all the shop windows' <i72182>",
+      "relNo": 1
+    }],
+    "definition": "a sign made by a fan, usually with the target's name on it"
   }]
 }

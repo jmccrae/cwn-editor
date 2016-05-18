@@ -21,12 +21,12 @@
   }, {
     "text": "lovee you???"
   }],
-  "status": "",
+  "status": "misspell",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
+    "definition": "love"
   }]
 }

@@ -21,9 +21,9 @@
   }, {
     "text": "This is so weird"
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

@@ -21,12 +21,16 @@
   }, {
     "text": "no ahaha , you'll recognise her as soon as yo"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "laughter: the sound of laughing <i74112>",
+      "relNo": 1
+    }],
+    "definition": "imitation of the sound of laughter"
   }]
 }

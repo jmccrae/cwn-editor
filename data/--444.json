@@ -21,16 +21,18 @@
   }, {
     "text": "bae : i just think it's funny how"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "lover: a person who loves someone or is loved by someone <i87222>",
+    "id": 2,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "darling: dearly loved <i8002>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "darling=10011405-n (a special loved one);01465246-a (dearly loved)",
-      "relNo": 0
-    }],
-    "definition": " Darling ."
+    "relations": [],
+    "definition": ""
   }]
 }

@@ -21,9 +21,9 @@
   }, {
     "text": "Absent first class asdfghjkl"
   }],
-  "status": "",
+  "status": "error",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

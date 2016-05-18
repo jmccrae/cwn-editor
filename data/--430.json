@@ -21,12 +21,16 @@
   }, {
     "text": "Anonymous doxxes ‘ pro-rape ’ blogger , reveals that he lives a"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "rape: the crime of forcing a person to submit to sexual intercourse against his or her will <i39472>",
+      "relNo": 1
+    }],
+    "definition": "in favour of rape, used derogatively"
   }]
 }

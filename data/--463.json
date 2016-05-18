@@ -21,12 +21,18 @@
   }, {
     "text": "Morris talks about remit for Darren Wassall # dcfc # dcfcfans https : / / t.co /"
   }],
-  "status": "",
+  "status": "abbrev",
   "senses": [{
-    "pos": "",
+    "pos": "n",
+    "synonym": "",
+    "id": 2,
+    "relations": [],
+    "definition": "Derby Country Football Club"
+  }, {
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
+    "definition": "Death Cab For Cutie"
   }]
 }

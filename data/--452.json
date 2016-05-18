@@ -21,12 +21,16 @@
   }, {
     "text": "eyes rolling to me lol I fw this jawn"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "thing: an entity that is not named specifically; 'I couldn't tell what the thing was' <i60192>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "Philadelphia: the largest city in Pennsylvania; located in the southeastern part of the state on the Delaware river; site of Independence Hall where the Declaration of Independence and the Constitution were signed; site of the University of Pennsylvania <i84648>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

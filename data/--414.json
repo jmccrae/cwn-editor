@@ -21,12 +21,24 @@
   }, {
     "text": "Excellent New Must-See Putin Documentary . Two Thumbs Way Up !"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "see: go to see a place, as for entertainment; 'We went to see the Eiffel Tower in the morning' <i34186>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "must: a necessary or essential thing; 'seat belts are an absolute must' <i85832>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "thing: an entity that is not named specifically; 'I couldn't tell what the thing was' <i60192>",
+      "relNo": 1
+    }],
+    "definition": "something which is considered required to see"
   }]
 }

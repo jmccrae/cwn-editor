@@ -1,5 +1,5 @@
 {
-  "lemma": "*texting",
+  "lemma": "texting",
   "examples": [{
     "text": "... LOL \\ As long as people are texting , there will be LOLs . https :\""
   }, {
@@ -21,12 +21,20 @@
   }, {
     "text": "so glad my momma texting me to keep me up"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "<--125>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "electronic communication: communication by computer <i69505>",
+      "relNo": 1
+    }],
+    "definition": "the act of sending messages via SMS"
   }]
 }

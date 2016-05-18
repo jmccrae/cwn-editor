@@ -1,6 +1,6 @@
 package org.insightcentre.cwneditor
 
-case class Entry(lemma : String, val examples : List[Example],
+case class Entry(val lemma : String, val examples : List[Example],
     status : String, senses : List[Sense]) {
   def addExample(example : String) = Entry(lemma, Example(example) :: examples, status, senses)
 

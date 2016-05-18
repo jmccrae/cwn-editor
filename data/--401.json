@@ -21,12 +21,20 @@
   }, {
     "text": "Alva for the summer . ? I hate adulting already ."
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "adult: a fully developed person from maturity onward <i87152>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "behavior: manner of acting or controlling yourself <i41782>",
+      "relNo": 1
+    }],
+    "definition": "acting like an adult"
   }]
 }

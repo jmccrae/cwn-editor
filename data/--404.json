@@ -21,12 +21,24 @@
   }, {
     "text": "# dubstep # radio Lisa Rowe - Black Light ("
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "step: a sequence of foot movements that make up a particular dance; 'he taught them the waltz step' <i38188>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "dub: the new sounds added by dubbing <i66971>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "musical genre: an expressive style of music <i73844>",
+      "relNo": 1
+    }],
+    "definition": "A genre of electronic music descended from 2-step garage, characterised by its dark mood, sparse, half-step and two-step rhythms, an average bpm of 140 and an emphasis on sub-bass. [Wiktionary]"
   }]
 }

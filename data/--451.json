@@ -21,12 +21,12 @@
   }, {
     "text": "Keep all that shit to yaself"
   }],
-  "status": "",
+  "status": "misspell",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
+    "definition": "yourself"
   }]
 }

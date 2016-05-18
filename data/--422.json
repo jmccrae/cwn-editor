@@ -21,12 +21,16 @@
   }, {
     "text": "awh thanks gabby☺️☺️"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "appreciation: an expression of gratitude; 'he expressed his appreciation in a short note' <i74653>",
+      "relNo": 1
+    }],
+    "definition": "expression of appreciation"
   }]
 }

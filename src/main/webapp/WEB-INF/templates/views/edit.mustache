@@ -8,7 +8,7 @@
                 <h1>Edit Entry</h1>
             </div>
             <div class="row">
-                <form action="/update/{{entry}}">
+                <form action="{{context.getContextPath()}}/update/{{entry}}">
                     <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"

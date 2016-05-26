@@ -21,20 +21,12 @@
   }, {
     "text": "Also salute u papaji ..."
   }],
-  "status": "",
+  "status": "name",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "father=10045020-n (the head of an organized crime family);10100638-n (a male parent (also used as a term of address to your father); \\\"\"his father was born in Atlanta\\\"\");10101225-n (a person who holds an important or distinguished position in some organization; \\\"\"the tennis fathers ruled in her favor\\\"\"; \\\"\"the city fathers endorsed the proposal\\\"\");10122569-n (the founder of a family; \\\"\"keep the faith of our forefathers\\\"\");10127072-n (a person who founds or establishes some institution; \\\"\"George Washington is the father of his country\\\"\");00054345-v (make (offspring) by reproduction; \\\"\"Abraham begot Isaac\\\"\"; \\\"\"John fathered four daughters\\\"\"",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "papa=10007601-n (an informal term for a father; probably derived from baby talk)",
-      "relNo": 1
-    }],
+    "relations": [],
     "definition": " papa, father </text"
   }]
 }

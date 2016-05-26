@@ -21,12 +21,16 @@
   }, {
     "text": "They thought people won't query , mehn were they wron"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "man: the generic use of the word to refer to any human being; 'it was every man for himself' <i91186>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "Mexico: a republic in southern North America; became independent from Spain in 1810 <i82822>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

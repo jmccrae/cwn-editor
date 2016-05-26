@@ -21,18 +21,26 @@
   }, {
     "text": "UNOFFICIAL BTS ARMY BOMB LIGHTSTICK"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "illumination=03774932-n (painting or drawing included in a book (especially in illuminated medieval manuscripts));05025708-n (the luminous flux incident on a unit area);07185857-n (an interpretation that removes obstacles to understanding; \\\"\"the professor's clarification helped her to understand the textbook\\\"\");14006632-n (the degree of visibility of your environment);14587365-n (a condition of spiritual awareness; divine illumination; \\\"\"follow God's light\\\"\"",
+      "type": "hypernym",
+      "target": "light source: any device serving as a source of illumination; 'he stopped the car and turned off the lights' <i55679>",
       "relNo": 0
     }, {
-      "type": "none",
-      "target": "rod=01380243-n (any rod-shaped bacterium);03432112-n (a gangster's pistol);04107268-n (a long thin implement made of metal or wood);05464032-n (a visual receptor cell that is sensitive to dim light);13635960-n (a square rod of land);13672539-n (a linear measure of 16.5 feet)",
+      "type": "derivation",
+      "target": "stick: a long thin implement resembling a length of wood; 'cinnamon sticks'; 'a stick of dynamite' <i59572>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "light: any device serving as a source of illumination; 'he stopped the car and turned off the lights' <i55679>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "stick: a long thin implement resembling a length of wood; 'cinnamon sticks'; 'a stick of dynamite' <i59572>",
       "relNo": 1
     }],
     "definition": "A portable rod used for illumination."

@@ -21,12 +21,24 @@
   }, {
     "text": "but I'm dreaming of Tuesday's # KingCake # latergram @ Bosley on brady https : / /"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "later: happening at a time subsequent to a reference time; 'he apologized subsequently'; 'he's going to the store but he'll be back here later'; 'it didn't happen until afterward'; 'two hours after that' <i18505>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "<---06>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "photo: a representation of a person or scene in the form of a print or transparent slide or in digital format <i57211>",
+      "relNo": 1
+    }],
+    "definition": "a photo to be posted to Instagram at a later date"
   }]
 }

@@ -21,12 +21,20 @@
   }, {
     "text": "that did it I'm stanning imfact"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "stalk: follow stealthily or recur constantly and spontaneously to; 'her ex-boyfriend stalked her'; 'the ghost of her mother haunted her' <i31756>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "fan: an ardent follower and admirer <i89881>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "stalk: follow stealthily or recur constantly and spontaneously to; 'her ex-boyfriend stalked her'; 'the ghost of her mother haunted her' <i31756>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

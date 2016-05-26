@@ -21,16 +21,12 @@
   }, {
     "text": "but her BFF is currently pregnant by the boyf …"
   }],
-  "status": "",
+  "status": "abbrev",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "boyfriend=09890770-n (a man who is the lover of a man or woman; \\\"\"if I'd known he was her boyfriend I wouldn't have asked\\\"\"; \\\"\"When the law changed, Pet could finally married his long-time boyfriend Jim\\\"\"",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": " boyfriend"
   }]
 }

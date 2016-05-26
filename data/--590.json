@@ -21,12 +21,26 @@
   }, {
     "text": "Listen to your mum you bellend ! ! https : / / t.co /"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "bastard: insulting terms of address for people who are stupid or irritating or ridiculous <i88330>",
+    "id": 2,
+    "relations": [{
+      "type": "domain_region",
+      "target": "Britain: a monarchy in northwestern Europe occupying most of the British Isles; divided into England and Scotland and Wales and Northern Ireland; `Great Britain' is often used loosely to refer to the United Kingdom <i83373>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "glans penis: the conical mass of erectile tissue that forms the head of the penis <i65174>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "Britain: a monarchy in northwestern Europe occupying most of the British Isles; divided into England and Scotland and Wales and Northern Ireland; `Great Britain' is often used loosely to refer to the United Kingdom <i83373>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

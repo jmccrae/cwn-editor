@@ -1,5 +1,5 @@
 {
-  "lemma": "dopest",
+  "lemma": "dope",
   "examples": [{
     "text": "amp ; I must say you were the dopest cook on there . . You got robbed"
   }, {
@@ -21,10 +21,10 @@
   }, {
     "text": "Dope artist only submit you dopest singles ... this week ill be making a"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "great: very good; 'he did a bully job'; 'a neat sports car'; 'had a great time at the party'; 'you look simply smashing'; 'we had a grand old time' <i6164>",
     "id": 1,
     "relations": [],
     "definition": ""

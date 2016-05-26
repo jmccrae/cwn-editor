@@ -15,6 +15,8 @@ object CWNEditorJsonProtocol extends DefaultJsonProtocol {
 
 class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     import CWNEditorJsonProtocol._
+    
+    lazy val context = io.Source.fromFile("context").mkString.trim
 
     def urldecode(s : String) = java.net.URLDecoder.decode(s, "UTF-8")
 
@@ -40,7 +42,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
            }).flatten.toSeq
       contentType = "text/html"
       mustache("/summary",
-        "files" -> files)
+        "files" -> files,
+        "contextUrl" -> context)
     }
 
 
@@ -51,7 +54,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         contentType = "application/javascript"
         "[" + results.map({ result =>
           s""""${result.word}: ${result.definition.replaceAll("\\\"","'")} <${result.ili}>""""
-        }).mkString(",") + "]"
+        }).reverse.mkString(",") + "]"
       } else {
         ""
       }
@@ -68,7 +71,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       contentType = "text/html"
       mustache("/summary",
         "files" -> files,
-        "next" -> (page + 1))
+        "next" -> (page + 1),
+        "contextUrl" -> context)
     }
 
     get("/edit/:id") {
@@ -83,7 +87,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                 "lemma" -> data.lemma,
                 "status" -> data.status,
                 "examples" -> data.examples,
-                "senses" -> data.senses)
+                "senses" -> data.senses,
+                "contextUrl" -> context)
         }
     }
 
@@ -100,7 +105,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/next/:id") {
       findNext(params("id")) match {
-        case Some(id) => TemporaryRedirect("/edit/" + id)
+        case Some(id) => TemporaryRedirect(context + "/edit/" + id)
         case None => {
           contentType = "text/plain"
           "No more results"
@@ -134,7 +139,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       out.flush
       out.close
       findNext(params("id")) match {
-        case Some(id) => TemporaryRedirect("/edit/" + id)
+        case Some(id) => TemporaryRedirect(context + "/edit/" + id)
         case None => {
           contentType = "text/plain"
           "No more results"
@@ -144,6 +149,6 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
 
     get("/") {
-      TemporaryRedirect("/summary/0")
+      TemporaryRedirect(context + "/summary/0")
     }
 }

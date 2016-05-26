@@ -21,24 +21,12 @@
   }, {
     "text": "Check out this epic check-in"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "00142489-n (the act of reporting your presence (as at an airport or a hotel))",
+    "pos": "n",
+    "synonym": "check-in: the act of reporting your presence (as at an airport or a hotel) <i36159>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "airport=02695091-n (an airfield equipped with control tower and hangars as well as accommodations for passengers and cargo)",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "hotel=03547513-n (a building where travelers can pay for lodging and meals and other services)",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "check in=00968184-v (announce one's arrival, e.g. at hotels or airports",
-      "relNo": 2
-    }],
-    "definition": "The act of checking in at a hotel, airport et"
+    "relations": [],
+    "definition": ""
   }]
 }

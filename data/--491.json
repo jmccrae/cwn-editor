@@ -21,12 +21,20 @@
   }, {
     "text": "I just untag him ; )"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "tag: a label associated with something for the purpose of identification; 'semantic tags were attached in order to identify different meanings of the word' <i74910>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "remove: get rid of something abstract; 'The death of her mother removed the last obstacle to their marriage'; 'God takes away your sins' <i24603>",
+      "relNo": 1
+    }],
+    "definition": "to remove a metadata tag from an internet post"
   }]
 }

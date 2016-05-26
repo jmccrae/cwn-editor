@@ -21,12 +21,20 @@
   }, {
     "text": "for iPhone Belt Clip Retail Packaging - # prepper https : / / t.co / MrPlFYJOmh"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "prepare: make ready or suitable or equip in advance for a particular purpose or for some use, event, etc; 'Get the children ready for school!'; 'prepare for war'; 'I was fixing to leave town after I paid the hotel bill' <i23758>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "person: a human being; 'there was too much for one person to do' <i35562>",
+      "relNo": 1
+    }],
+    "definition": "someone who prepares for a disaster"
   }]
 }

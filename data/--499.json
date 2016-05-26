@@ -21,12 +21,16 @@
   }, {
     "text": "! ?? More birthdays to come ! Stay gorg . ?"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "gorgeous: dazzlingly beautiful; 'a gorgeous Victorian gown' <i1203>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "gorgeous: dazzlingly beautiful; 'a gorgeous Victorian gown' <i1203>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

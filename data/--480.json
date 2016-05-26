@@ -1,5 +1,5 @@
 {
-  "lemma": "my everything",
+  "lemma": "everything",
   "examples": [{
     "text": "u're my everything"
   }, {
@@ -21,12 +21,16 @@
   }, {
     "text": "Once upon a time you were my everything"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "thing: an entity that is not named specifically; 'I couldn't tell what the thing was' <i60192>",
+      "relNo": 1
+    }],
+    "definition": "all things that are of importance to a person"
   }]
 }

@@ -21,12 +21,20 @@
   }, {
     "text": "activate this petty in the new year but hunty ??"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "honey: a beloved person; used as terms of endearment <i88532>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "cunt: a person (usually but not necessarily a woman) who is thoroughly disliked; 'she said her son thought Hillary was a bitch' <i89339>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "honey: a beloved person; used as terms of endearment <i88532>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

@@ -21,9 +21,9 @@
   }, {
     "text": "# starwars # r2d2 LEGO Star Wars Minifigure FIRST ORDER Flame Trooper"
   }],
-  "status": "",
+  "status": "name",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

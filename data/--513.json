@@ -17,9 +17,9 @@
   }, {
     "text": "Ed looks guiltily at Princess . He's been a-"
   }],
-  "status": "",
+  "status": "error",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

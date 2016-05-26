@@ -21,12 +21,16 @@
   }, {
     "text": "I Need Somebody To Talm To"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "talk: idle gossip or rumor; 'there has been talk about you lately' <i74623>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_usage",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

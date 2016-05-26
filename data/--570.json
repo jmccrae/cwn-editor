@@ -21,12 +21,20 @@
   }, {
     "text": "thanks u.u # VoteBeliebersUK # KCA"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "sympathy: sharing the feelings of others (especially feelings of sorrow or anguish) <i76455>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "sorrow: the state of being sad; 'she tired of his perpetual sadness' <i110448>",
+      "relNo": 1
+    }],
+    "definition": "anime-style emoji showing sorrow or sympathy"
   }]
 }

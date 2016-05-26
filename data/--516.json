@@ -21,12 +21,24 @@
   }, {
     "text": "Vlogger Shamed In Walmart Fitting Room Because She Might"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "blogger: a person who keeps and updates a blog <i88597>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "video: broadcasting visual images of stationary or moving objects; 'she is a star of screen and video'; 'Television is a medium because it is neither rare nor well done' - Ernie Kovacs <i69499>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "blogger: a person who keeps and updates a blog <i88597>",
+      "relNo": 1
+    }],
+    "definition": "a video blogger"
   }]
 }

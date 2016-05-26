@@ -1,5 +1,5 @@
 {
-  "lemma": "tweakin",
+  "lemma": "tweak",
   "examples": [{
     "text": "Idek ! You was tweakin ! ? https : / / t.co /"
   }, {
@@ -21,12 +21,20 @@
   }, {
     "text": "other my nigga we building . Niggas be tweakin get money lil niggas chill out on that"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "tweak: pull or pull out sharply; 'pluck the flowers off the bush' <i29696>",
+      "relNo": 2
+    }, {
+      "type": "similar",
+      "target": "inebriate: become drunk or drink excessively <i27569>",
+      "relNo": 1
+    }],
+    "definition": "to be under the influence of methamphetamine [Create new top concept, be high?]"
   }]
 }

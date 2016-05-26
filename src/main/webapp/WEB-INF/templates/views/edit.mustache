@@ -8,7 +8,7 @@
                 <h1>Edit Entry</h1>
             </div>
             <div class="row">
-                <form action="{{context.getContextPath()}}/update/{{entry}}">
+                <form action="{{contextUrl}}/update/{{entry}}">
                     <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"
@@ -26,7 +26,7 @@
                     <div class="form-group">
                         <label for="status">Status</label><br/>
                         <div class="radio"><label>
-                        <input type="radio" name="status"
+                        <input type="radio" name="status" id="status-general"
                             value="general" checked="checked"/>General</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status"
@@ -148,6 +148,7 @@
 $(document).ready(function() {
   $('.s2-basic').select2();
 });
+$('#status-general').focus();
 </script>
                     <div id="submitDiv">
                         <button class="btn btn-success" type="button" onclick="addsense()">Add sense</button>

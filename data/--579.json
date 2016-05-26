@@ -21,9 +21,9 @@
   }, {
     "text": "the most kills in UL that isn't on Nuketown ?"
   }],
-  "status": "",
+  "status": "name",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

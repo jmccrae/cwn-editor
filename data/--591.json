@@ -21,12 +21,20 @@
   }, {
     "text": "i found . I forgot i was that cringey person and bought this for"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "cringe: <-----reddit-118>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "embarrassing: causing to feel shame or chagrin or vexation; 'the embarrassing moment when she found her petticoat down around her ankles'; 'it was mortifying to know he had heard every word' <i9903>",
+      "relNo": 1
+    }],
+    "definition": "embarrassing such that it would cause cringing"
   }]
 }

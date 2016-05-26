@@ -21,9 +21,9 @@
   }, {
     "text": "Top story : Twitter wants you to see the 'best'"
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

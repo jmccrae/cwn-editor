@@ -21,12 +21,16 @@
   }, {
     "text": "one ill give that but two on one hell no they killing him ! !"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "aversion: a feeling of intense dislike <i76173>",
+      "relNo": 1
+    }],
+    "definition": "expression of extreme aversion"
   }]
 }

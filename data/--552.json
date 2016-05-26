@@ -21,16 +21,38 @@
   }, {
     "text": "SelfLove"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "love: a strong positive emotion of regard and affection; 'his love for his work'; 'children need a lot of love' <i76395>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "love: a strong positive emotion of regard and affection; 'his love for his work'; 'children need a lot of love' <i76395>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "self: your consciousness of your own identity <i66742>",
+      "relNo": 2
+    }],
+    "definition": "the feeling of love for one's self"
+  }, {
+    "pos": "n",
+    "synonym": "masturbation: manual stimulation of the genital organs (of yourself or another) for sexual pleasure <i39894>",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "masturbation=00857303-n (manual stimulation of the genital organs (of yourself or another) for sexual pleasure)",
-      "relNo": 0
+      "type": "derivation",
+      "target": "self: your consciousness of your own identity <i66742>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "love: a strong positive emotion of regard and affection; 'his love for his work'; 'children need a lot of love' <i76395>",
+      "relNo": 1
     }],
-    "definition": " Masturbation.</text>"
+    "definition": ""
   }]
 }

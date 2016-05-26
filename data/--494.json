@@ -21,12 +21,20 @@
   }, {
     "text": "and hashtag every picture # girlswithtattoos and # tatted # pleasestop"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "similar",
+      "target": "painted: having makeup applied; 'brazen painted faces' <i9403>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "tattoo: the practice of making a design on the skin by pricking and staining <i36779>",
+      "relNo": 1
+    }],
+    "definition": "having many tattooes"
   }]
 }

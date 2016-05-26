@@ -21,12 +21,20 @@
   }, {
     "text": "Likers get tbh ? — Scroll down brads https"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": "</text>"
+    "relations": [{
+      "type": "hypernym",
+      "target": "like: find enjoyable or agreeable; 'I like jogging'; 'She likes to read Russian novels' <i30622>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "person: a human being; 'there was too much for one person to do' <i35562>",
+      "relNo": 1
+    }],
+    "definition": "people who make a positive response (like) to an internet post"
   }]
 }

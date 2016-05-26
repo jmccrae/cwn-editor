@@ -1,5 +1,5 @@
 {
-  "lemma": "*follower",
+  "lemma": "follower",
   "examples": [{
     "text": "crunching for the past day - 1 new follower and NO unfollowers . Stats via https :"
   }, {
@@ -21,12 +21,16 @@
   }, {
     "text": "1 weekly follower . 1 unfollower . Crowdfire doesn't miss a"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "10119144-n (a person who accepts the leadership of another);10119893-n (someone who travels behind or pursues another)",
+    "pos": "n",
+    "synonym": "subscriber: someone who contracts to receive and pay for a service or a certain number of issues of a publication <i93408>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_topic",
+      "target": "<---43>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

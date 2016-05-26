@@ -21,16 +21,12 @@
   }, {
     "text": "# teen # sexdating Find a SEX partner at Swipe Hookup sex dating network - Webpage"
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "has sex=",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": "Someone that one has sex with, especially on an informal or casual basis"
   }]
 }

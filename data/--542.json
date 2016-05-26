@@ -1,5 +1,5 @@
 {
-  "lemma": "stressin",
+  "lemma": "stress",
   "examples": [{
     "text": "Ain't even stressin"
   }, {
@@ -21,12 +21,20 @@
   }, {
     "text": "Do it look like I'm stressin ? https : / / t.co / PGlIjdd72O"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "stress: difficulty that causes worry or emotional tension; 'she endured the stresses and strains of life'; 'he presided over the economy during the period of the greatest stress and danger'- R.J.Samuelson <i112734>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "suffer: undergo (as of injuries and illnesses); 'She suffered a fracture in the accident'; 'He had an insulin shock after eating three candy bars'; 'She got a bruise on her leg'; 'He got his arm broken in the scuffle' <i22105>",
+      "relNo": 1
+    }],
+    "definition": "to suffer from stress"
   }]
 }

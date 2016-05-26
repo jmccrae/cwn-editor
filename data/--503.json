@@ -21,9 +21,9 @@
   }, {
     "text": "WARAY WARY ! WATCH ME NEI NEI !"
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

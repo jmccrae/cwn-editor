@@ -21,10 +21,10 @@
   }, {
     "text": "window has been extensively modified to bring it up-to-date with the current system changes"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "00671431-a (reflecting the latest information or changes; \\\"\"an up-to-date issue of the magazine\\\"\");00975821-a (in accord with the most fashionable ideas or style; \\\"\"wears only the latest style\\\"\"; \\\"\"the last thing in swimwear\\\"\"; \\\"\"cutting-edge technology\\\"\"; \\\"\"a with-it boutique\\\"\"",
+    "pos": "n",
+    "synonym": "up-to-date: reflecting the latest information or changes; 'an up-to-date issue of the magazine' <i3714>",
     "id": 1,
     "relations": [],
     "definition": ""

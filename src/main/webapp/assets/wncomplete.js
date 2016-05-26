@@ -33,7 +33,8 @@ function wncomplete(id) {
         select: function( event, ui ) {
           this.value = ui.item.value;
           return false;
-        }
+        },
+        position: { my: "left bottom", at: "left top", collision: "none" }
       });
   });
 } 

@@ -21,12 +21,20 @@
   }, {
     "text": "baiting , hate , and even violence ( punchable ) , that respect : gone "
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "punch: deliver a quick blow to; 'he punched me in the stomach' <i28803>",
+      "relNo": 2
+    }, {
+      "type": "similar",
+      "target": "detested: treated with dislike or contempt <i8009>",
+      "relNo": 1
+    }],
+    "definition": "deserving of being punched"
   }]
 }

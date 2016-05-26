@@ -21,12 +21,24 @@
   }, {
     "text": "A robot just sunk a hole-in-one on the PGA Tour https : / /"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "one: used of a single unit or thing; not two or more; '`ane' is Scottish' <i12006>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "hole: one playing period (from tee to green) on a golf course; 'he played 18 holes' <i54851>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "play: (game) the activity of doing something in an agreed succession; 'it is my turn'; 'it is still my play' <i37819>",
+      "relNo": 1
+    }],
+    "definition": "a play in golf where the hole is completed in a single stroke"
   }]
 }

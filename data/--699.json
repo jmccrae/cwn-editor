@@ -21,10 +21,16 @@
   }, {
     "text": "Still wide awake"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "wide-awake: fully awake; 'the unsleeping city'; 'so excited she was wide-awake all night' <i1013>",
+    "id": 2,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "wide-awake: fully alert and watchful; 'played heads-up ball' <i482>",
     "id": 1,
     "relations": [],
     "definition": ""

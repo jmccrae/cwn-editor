@@ -21,12 +21,12 @@
   }, {
     "text": "bc the food they eat always looks so gooood"
   }],
-  "status": "",
+  "status": "misspell",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
+    "definition": "good"
   }]
 }

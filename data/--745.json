@@ -21,10 +21,16 @@
   }, {
     "text": "Awwww ! Now I wanna re-watch too ! Never"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "x",
+    "synonym": "<-----reddit-114>",
+    "id": 2,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "x",
+    "synonym": "<-----reddit-113>",
     "id": 1,
     "relations": [],
     "definition": ""

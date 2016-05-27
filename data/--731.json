@@ -1,5 +1,5 @@
 {
-  "lemma": "shit together",
+  "lemma": "get your shit together",
   "examples": [{
     "text": "DAPHNE GET YOUR SHIT TOGETHER ."
   }, {
@@ -21,12 +21,16 @@
   }, {
     "text": "I need to get my shit together in math class"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "organize: bring order and organization to; 'Can you help me organize my files?' <i23752>",
+      "relNo": 1
+    }],
+    "definition": "to organize one's personal things"
   }]
 }

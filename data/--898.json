@@ -21,10 +21,10 @@
   }, {
     "text": "Haha !"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "<--324>",
     "id": 1,
     "relations": [],
     "definition": ""

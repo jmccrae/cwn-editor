@@ -21,12 +21,24 @@
   }, {
     "text": "Obama ’ s Big Moonshot : Save Humanity : President Obama delivered a"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "shot: the launching of a missile or spacecraft to a specified destination <i35949>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "moon: the natural satellite of the Earth; 'the average distance to the Moon is 384,400 kilometers'; 'men first stepped on the moon in 1969' <i85806>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "project: a planned undertaking <i67899>",
+      "relNo": 1
+    }],
+    "definition": "an ambitious project with a high chance of failure"
   }]
 }

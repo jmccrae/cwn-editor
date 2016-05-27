@@ -21,24 +21,12 @@
   }, {
     "text": "NYStateofMind WCW : Beyonce stole the halftime show @ Super Bowl 50 https : /"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "15297557-n (an intermission between the first and second half of a game)",
+    "pos": "n",
+    "synonym": "halftime: an intermission between the first and second half of a game <i117503>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "pep talk=07260875-n (a speech of exhortation attempting to instill enthusiasm and determination in a team or staff)",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "second quarter=",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "halftime show=",
-      "relNo": 2
-    }],
-    "definition": " The halftime show, the primary &quot;light&quot; entertainment of a game, after the second quarter when players can physically recover, coaches can berate players with a pep talk, bets can be doubled, etc"
+    "relations": [],
+    "definition": ""
   }]
 }

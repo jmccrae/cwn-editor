@@ -21,16 +21,26 @@
   }, {
     "text": "# Car Review : 2016 Hyundai Sonata Plug-in Hybrid - https : / / t.co /"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "03037971-n (a printed circuit that can be inserted into expansion slots in a computer to increase the computer's capabilities);06578832-n (a software module that extends or enhances the capabilities of an existing application)",
-    "id": 1,
+    "pos": "a",
+    "synonym": "",
+    "id": 2,
     "relations": [{
-      "type": "none",
-      "target": "plug in=01423776-v (plug into an outlet; \\\"\"Please plug in the toaster!\\\"\"; \\\"\"Connect the TV so we can watch the football game tonight\\\"\"",
-      "relNo": 0
+      "type": "derivation",
+      "target": "plug in: plug into an outlet; 'Please plug in the toaster!'; 'Connect the TV so we can watch the football game tonight' <i28837>",
+      "relNo": 1
+    }, {
+      "type": "hypernym",
+      "target": "<--779a>",
+      "relNo": 2
     }],
-    "definition": "Anything that plugs into something."
+    "definition": "possible of being charged by being plugged in"
+  }, {
+    "pos": "n",
+    "synonym": "plug-in: a software module that extends or enhances the capabilities of an existing application <in>",
+    "id": 1,
+    "relations": [],
+    "definition": ""
   }]
 }

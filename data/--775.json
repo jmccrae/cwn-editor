@@ -21,12 +21,34 @@
   }, {
     "text": "My egg is so peng mashallah"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "emotion",
+      "target": "praise: express approval of; 'The parents praised their children for their academic performance' <i25913>",
+      "relNo": 1
+    }, {
+      "type": "loanword",
+      "target": "Arabic: the Semitic language of the Arabs; spoken in a variety of dialects <i73365>",
+      "relNo": 2
+    }],
+    "definition": "expression of praise"
+  }, {
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "loanword",
+      "target": "Arabic: the Semitic language of the Arabs; spoken in a variety of dialects <i73365>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "joy: something or someone that provides a source of happiness; 'a joy to behold'; 'the pleasure of his company'; 'the new car is a delight' <i67515>",
+      "relNo": 1
+    }],
+    "definition": "expression of joy"
   }]
 }

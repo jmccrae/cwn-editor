@@ -21,20 +21,12 @@
   }, {
     "text": "Catch me on Arthur's story looking like a dumb ass ??? https : / / t.co / ytEJ0BlDIc"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "moron: a person of subnormal intelligence <i90651>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "person=00007846-n (a human being; \\\"\"there was too much for one person to do\\\"\");05224944-n (a human body (usually including the clothing); \\\"\"a weapon was hidden on his person\\\"\");06337790-n (a grammatical category used in the classification of pronouns, possessive determiners, and verb forms according to whether they indicate the speaker, the addressee, or a third party; \\\"\"stop talking about yourself in the third person\\\"\"",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "stupid=00441328-a (lacking or marked by lack of intellectual acuity);01339540-a (lacking intelligence; \\\"\"a dull job with lazy and unintelligent co-workers\\\"\");10686626-n (a person who is not very bright; \\\"\"The economy, stupid!\\\"\"",
-      "relNo": 1
-    }],
-    "definition": " stupid person"
+    "relations": [],
+    "definition": ""
   }]
 }

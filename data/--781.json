@@ -21,12 +21,24 @@
   }, {
     "text": "to do what they got to do # flipagram https : / / t.co / 0vBnClLvN1"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "<---06>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "flip chart: a chart with several sheets hinged at the top; sheets can be flipped over to present information sequentially <i73455>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "video: a recording of both the visual and audible components (especially one containing a recording of a movie or television program) <i60850>",
+      "relNo": 1
+    }],
+    "definition": "a sequence of photos composed into a video"
   }]
 }

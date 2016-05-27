@@ -21,12 +21,12 @@
   }, {
     "text": "He should be here on Twitter ... # amiright ?"
   }],
-  "status": "",
+  "status": "abbrev",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
+    "definition": "am I right"
   }]
 }

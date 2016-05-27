@@ -21,10 +21,16 @@
   }, {
     "text": "i aspire to reach this level of self-love https : / / t.co / hOBMCLQYjA"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "04842491-n (an exceptional interest in and admiration for yourself; \\\"\"self-love that shut out everyone else\\\"\");07524235-n (feelings of excessive pride",
+    "pos": "n",
+    "synonym": "<--552>",
+    "id": 2,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "self-love: an exceptional interest in and admiration for yourself; 'self-love that shut out everyone else' <i62401>",
     "id": 1,
     "relations": [],
     "definition": ""

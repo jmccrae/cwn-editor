@@ -21,12 +21,16 @@
   }, {
     "text": "good morning little ! hope you had sweet dreams ? i did too , except mine wer"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "sleep: a period of time spent sleeping; 'he felt better after a little sleep'; 'there wasn't time for a nap' <i117511>",
+      "relNo": 1
+    }],
+    "definition": "expression wishing a pleasant sleep"
   }]
 }

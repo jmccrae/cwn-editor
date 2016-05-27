@@ -17,12 +17,20 @@
   }, {
     "text": "She Talmbout Bout Bring Her Some Candy You Better Suck"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "domain_usage",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "talk: an exchange of ideas via conversation; 'let's have more work and less talk around here' <i74161>",
+      "relNo": 1
+    }],
+    "definition": "to talk about"
   }]
 }

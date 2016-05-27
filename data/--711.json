@@ -1,5 +1,5 @@
 {
-  "lemma": "lurkin",
+  "lemma": "lurk",
   "examples": [{
     "text": "They're lurkin"
   }, {
@@ -21,12 +21,20 @@
   }, {
     "text": "because Pam's lurkin ? https : / / t.co / KNJ8F9Df5T"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "lurk: lie in wait, lie in ambush, behave in a sneaky and secretive manner <i34870>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "monitor: keep tabs on; keep an eye on; keep under surveillance; 'we are monitoring the air quality'; 'the police monitor the suspect's moves' <i32568>",
+      "relNo": 1
+    }],
+    "definition": "to monitor a web forum or similar without making your presence pubilc"
   }]
 }

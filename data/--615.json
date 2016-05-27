@@ -21,12 +21,36 @@
   }, {
     "text": "Campaign period naaaaa zzzzz # VoteMaineFPP # KCA"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "emotion",
+      "target": "tiredness: temporary loss of strength and energy resulting from hard physical or mental work; 'he was hospitalized for extreme fatigue'; 'growing fatigue was apparent from the decline in the execution of their athletic skills'; 'weariness overcame her after twelve hours and she fell asleep' <i110590>",
+      "relNo": 1
+    }],
+    "definition": "expression of tiredness"
+  }, {
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "snoring: the act of snoring or producing a snoring sound <i39795>",
+      "relNo": 1
+    }],
+    "definition": "imitation of the sound of snoring"
+  }, {
+    "pos": "x",
+    "synonym": "",
+    "id": 3,
+    "relations": [{
+      "type": "emotion",
+      "target": "boredom: the feeling of being bored by something tedious <i76376>",
+      "relNo": 1
+    }],
+    "definition": "expression of boredom"
   }]
 }

@@ -21,12 +21,12 @@
   }, {
     "text": "my day was good , hbu chaelin "
   }],
-  "status": "",
+  "status": "abbrev",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
+    "definition": "how about you"
   }]
 }

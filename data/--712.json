@@ -21,12 +21,12 @@
   }, {
     "text": "I could go all the way till the mornin'"
   }],
-  "status": "",
+  "status": "misspell",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": "</text>"
+    "definition": "morning"
   }]
 }

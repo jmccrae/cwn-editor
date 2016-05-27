@@ -21,9 +21,9 @@
   }, {
     "text": "Im congested and sound like squidward ?"
   }],
-  "status": "",
+  "status": "name",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

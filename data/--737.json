@@ -21,16 +21,12 @@
   }, {
     "text": "DeRay Mckesson begins run for mayor , with experienc"
   }],
-  "status": "",
+  "status": "name",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "disorder=13996244-n (a disturbance of the peace or of public order);14075885-n (a physical condition in which there is a disturbance of normal functioning; \\\"\"the doctor prescribed some medicine for the disorder\\\"\"; \\\"\"everyone gets stomach upsets from time to time\\\"\");14522846-n (a condition in which things are not in their expected places; \\\"\"the files are in complete disorder\\\"\");00277172-v (bring disorder to);01768023-v (disturb in mind or make uneasy or cause to be worried or alarmed; \\\"\"She was rather perturbed by the news that her father was seriously ill\\\"\"",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": " disorder"
   }]
 }

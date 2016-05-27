@@ -21,12 +21,16 @@
   }, {
     "text": "# kernel Re : [ PATCH v2 ] x86 / setup : Merge { early_ , "
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "architecture: (computer science) the structure and organization of a computer's hardware or system software; 'the architecture of a computer's system software' <i62903>",
+      "relNo": 1
+    }],
+    "definition": "a computer architecture based on the Intel 8086 chip"
   }]
 }

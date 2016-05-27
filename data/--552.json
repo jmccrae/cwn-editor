@@ -24,22 +24,10 @@
   "status": "vulgar",
   "senses": [{
     "pos": "n",
-    "synonym": "",
+    "synonym": "self-love: an exceptional interest in and admiration for yourself; 'self-love that shut out everyone else' <i62401>",
     "id": 2,
-    "relations": [{
-      "type": "hypernym",
-      "target": "love: a strong positive emotion of regard and affection; 'his love for his work'; 'children need a lot of love' <i76395>",
-      "relNo": 1
-    }, {
-      "type": "derivation",
-      "target": "love: a strong positive emotion of regard and affection; 'his love for his work'; 'children need a lot of love' <i76395>",
-      "relNo": 3
-    }, {
-      "type": "derivation",
-      "target": "self: your consciousness of your own identity <i66742>",
-      "relNo": 2
-    }],
-    "definition": "the feeling of love for one's self"
+    "relations": [],
+    "definition": ""
   }, {
     "pos": "n",
     "synonym": "masturbation: manual stimulation of the genital organs (of yourself or another) for sexual pleasure <i39894>",

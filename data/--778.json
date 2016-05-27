@@ -1,5 +1,5 @@
 {
-  "lemma": "pranked",
+  "lemma": "prank",
   "examples": [{
     "text": "Yuri ever pranked Sunny with a call to Chunji radio just"
   }, {
@@ -21,10 +21,10 @@
   }, {
     "text": "I was like I hope I ain't get pranked"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "trick: deceive somebody; 'We tricked the teacher into thinking that class would be cancelled next week' <i34565>",
     "id": 1,
     "relations": [],
     "definition": ""

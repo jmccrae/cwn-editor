@@ -21,12 +21,16 @@
   }, {
     "text": "Deep inside , masaket grabe "
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "great: very good; 'he did a bully job'; 'a neat sports car'; 'had a great time at the party'; 'you look simply smashing'; 'we had a grand old time' <i6164>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "loanword",
+      "target": "Tagalog: the language of the Tagalog on which Filipino is based <i73062>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

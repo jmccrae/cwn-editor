@@ -21,28 +21,12 @@
   }, {
     "text": "So , inner SE pdx metals toxicity cover-up was benefitting the US Capitol stained glass "
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "01052111-n (concealment that attempts to prevent something scandalous from becoming public)",
+    "pos": "n",
+    "synonym": "cover-up: concealment that attempts to prevent something scandalous from becoming public <i40912>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "mistake=00071785-n (a wrong action attributable to bad judgment or ignorance or inattention; \\\"\"he made a bad mistake\\\"\"; \\\"\"she was quick to point out my errors\\\"\"; \\\"\"I could understand his English in spite of his grammatical faults\\\"\");05904330-n (an understanding of something that is not correct; \\\"\"he wasn't going to admit his mistake\\\"\"; \\\"\"make no mistake about his intentions\\\"\"; \\\"\"there must be some misunderstanding--I don't have a sister\\\"\");06782183-n (part of a statement that is not correct; \\\"\"the book was full of errors\\\"\");00619438-v (to make a mistake or be incorrect);00619957-v (identify incorrectly; \\\"\"Don't mistake her for her twin sister\\\"\"",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "wrongdoing=00734044-n (activity that transgresses moral or civil law; \\\"\"he denied any wrongdoing\\\"\");04860996-n (departure from what is ethically acceptable",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "disguise=02163017-v (make unrecognizable; \\\"\"The herb masks the garlic taste\\\"\"; \\\"\"We disguised our faces before robbing the bank\\\"\");01051190-n (the act of concealing the identity of something by modifying its appearance; \\\"\"he is a master of disguise\\\"\");03211439-n (any attire that modifies the appearance in order to conceal the wearer's identity);04686431-n (an outward semblance that misrepresents the true nature of something; \\\"\"the theatrical notion of disguise is always associated with catastrophe in his stories\\\"\"",
-      "relNo": 2
-    }, {
-      "type": "none",
-      "target": "conceal=02149298-v (prevent from being seen or discovered; \\\"\"hide the money\\\"\");02151220-v (hold back; keep from being perceived by others; \\\"\"She conceals her anger well\\\"\"",
-      "relNo": 3
-    }],
-    "definition": "An attempt to conceal or disguise a wrongdoing or a mistake."
+    "relations": [],
+    "definition": ""
   }]
 }

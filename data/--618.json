@@ -1,5 +1,5 @@
 {
-  "lemma": "stuntin",
+  "lemma": "stunt",
   "examples": [{
     "text": "blue ivy stuntin ."
   }, {
@@ -21,12 +21,24 @@
   }, {
     "text": "New music ! Stuntin ft AD https : / / t.co /"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "domain_usage",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "stunt: a difficult or unusual or dangerous feat; usually done to gain attention <i35648>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "look: give a certain impression or have a certain outward aspect; 'She seems to be sleeping'; 'This appears to be a very difficult problem'; 'This project looks fishy'; 'They appeared like people who had not eaten or slept for a long time' <i32420>",
+      "relNo": 1
+    }],
+    "definition": "to look good"
   }]
 }

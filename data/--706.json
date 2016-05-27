@@ -21,12 +21,12 @@
   }, {
     "text": "kbye ?"
   }],
-  "status": "",
+  "status": "abbrev",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
+    "definition": "OK bye"
   }]
 }

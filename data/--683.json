@@ -21,11 +21,23 @@
   }, {
     "text": "his weight . Dislike him cause of his fucked up politics , the fat thing is too eas"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "disturbed: affected with madness or insanity; 'a man who had gone mad' <i11367>",
+    "id": 2,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "a",
+    "synonym": "destroyed: spoiled or ruined or demolished; 'war left many cities destroyed'; 'Alzheimer's is responsible for her destroyed mind' <i4066>",
     "id": 1,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "a",
+    "synonym": "drunk: stupefied or excited by a chemical substance (especially alcohol); 'a noisy crowd of intoxicated sailors'; 'helplessly inebriated' <i4390>",
+    "id": 3,
     "relations": [],
     "definition": ""
   }]

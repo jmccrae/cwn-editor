@@ -21,16 +21,12 @@
   }, {
     "text": "House reboot , but a loose Home Alone spin-off with VERY heavy product placement "
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "02933876-n (a product made during the manufacture of something else)",
+    "pos": "n",
+    "synonym": "spin-off: a product made during the manufacture of something else <i51327>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "offshoot=11435835-n (a natural consequence of development)",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": "Offshoot."
   }]
 }

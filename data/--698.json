@@ -21,12 +21,20 @@
   }, {
     "text": "ingat paps ."
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "loanword",
+      "target": "Filipino: official language of the Philippines; based on Tagalog; draws its lexicon from other Philippine languages <i73061>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "care: feel concern or interest; 'I really care about my work'; 'I don't care' <i30840>",
+      "relNo": 1
+    }],
+    "definition": "take care"
   }]
 }

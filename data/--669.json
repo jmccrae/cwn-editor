@@ -21,10 +21,16 @@
   }, {
     "text": "So your a total cuck ? enjoy your shit NA ver faggot !"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "pansy: a timid man or boy considered childish or unassertive <i93020>",
+    "id": 2,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "cuckold: a man whose wife committed adultery <i89334>",
     "id": 1,
     "relations": [],
     "definition": ""

@@ -21,12 +21,24 @@
   }, {
     "text": "Hair # selfie with double photobomb ! Thank you lorealhair # elviveclay https :"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "bomb: an explosive device fused to explode under specific conditions <i50934>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "photo: a representation of a person or scene in the form of a print or transparent slide or in digital format <i57211>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "interrupt: destroy the peace or tranquility of; 'Don't interrupt me when I'm reading' <i24316>",
+      "relNo": 1
+    }],
+    "definition": "to jump into someone's photo"
   }]
 }

@@ -21,12 +21,20 @@
   }, {
     "text": "XxJerkmeSlowly is currently Live Free Chat # pinay # filipina # philippines # asian # asia"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "chick: informal terms for a (young) woman <i89378>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "Filipino: official language of the Philippines; based on Tagalog; draws its lexicon from other Philippine languages <i73061>",
+      "relNo": 2
+    }, {
+      "type": "domain_usage",
+      "target": "Philippines: a republic on the Philippine Islands; achieved independence from the United States in 1946 <i83887>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

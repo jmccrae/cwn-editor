@@ -21,24 +21,12 @@
   }, {
     "text": "one of those shitty horror films that just shits out sequels like saw ? https : /"
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "diarrhoea=14395318-n (frequent and watery bowel movements; can be a symptom of infection or food poisoning or colitis or a gastrointestinal tumor)",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "diarrhea=14395318-n (frequent and watery bowel movements; can be a symptom of infection or food poisoning or colitis or a gastrointestinal tumor)",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "the shits=14395691-n (obscene terms for diarrhea)",
-      "relNo": 2
-    }],
+    "relations": [],
     "definition": " (&quot;'''the shits'''&quot;) diarrhea (diarrhoea)."
   }]
 }

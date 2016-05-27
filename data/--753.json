@@ -21,9 +21,9 @@
   }, {
     "text": "\\ Thank you for being our massage therapist today and ...\""
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "07243905-n (a conversational expression of gratitude)",
     "id": 1,
     "relations": [],

@@ -1,5 +1,5 @@
 {
-  "lemma": "slayin",
+  "lemma": "slay",
   "examples": [{
     "text": "hangie & amp ; heyzoos out here slayin these hoes https : / / t.co /"
   }, {
@@ -21,10 +21,10 @@
   }, {
     "text": "you slay girl , you just keep on slayin ??"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "<-----reddit-52>",
     "id": 1,
     "relations": [],
     "definition": ""

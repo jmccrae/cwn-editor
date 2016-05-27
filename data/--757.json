@@ -1,5 +1,5 @@
 {
-  "lemma": "shit you",
+  "lemma": "shit",
   "examples": [{
     "text": "friend to me I can only imagine the shit you say about me ?"
   }, {
@@ -21,10 +21,10 @@
   }, {
     "text": "Can't trust every Face , Shit you gotta Watch E"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "fool: fool or hoax; 'The immigrant was duped because he trusted everyone'; 'You can't fool me!' <i25905>",
     "id": 1,
     "relations": [],
     "definition": ""

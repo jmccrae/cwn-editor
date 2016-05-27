@@ -21,12 +21,16 @@
   }, {
     "text": "your mouth about somebody else business ask yourself what the fuck it got to do with you ?"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 1
+    }],
+    "definition": "expression of extreme suprise"
   }]
 }

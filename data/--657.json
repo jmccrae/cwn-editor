@@ -21,16 +21,12 @@
   }, {
     "text": "# Cart pusher steals 83 pairs of ladies' shoes - https : / / t.co /"
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "toilet=00830365-n (the act of dressing and preparing yourself; \\\"\"he made his morning toilet and went to breakfast\\\"\");04453410-n (a room or building equipped with one or more toilets);04453655-n (a plumbing fixture for defecation and urination);14499576-n (misfortune resulting in lost effort or money; \\\"\"his career was in the gutter\\\"\"; \\\"\"all that work went down the sewer\\\"\"; \\\"\"pensions are in the toilet\\\"\"",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": "Toilets for women."
   }]
 }

@@ -1,5 +1,5 @@
 {
-  "lemma": "talking shit",
+  "lemma": "talk shit",
   "examples": [{
     "text": "use to be your bitch now the hoe talking shit"
   }, {
@@ -21,10 +21,10 @@
   }, {
     "text": "Lil short ass wasn't talking shit til her boyfriend came along"
   }],
-  "status": "",
+  "status": "vulgar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "<--445>",
     "id": 1,
     "relations": [],
     "definition": ""

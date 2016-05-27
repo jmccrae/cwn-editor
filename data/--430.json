@@ -27,7 +27,7 @@
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "hypernym",
+      "type": "derivation",
       "target": "rape: the crime of forcing a person to submit to sexual intercourse against his or her will <i39472>",
       "relNo": 1
     }],

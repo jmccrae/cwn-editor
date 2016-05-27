@@ -21,12 +21,16 @@
   }, {
     "text": "* chus * OUO"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "joy: the emotion of great happiness <i76310>",
+      "relNo": 1
+    }],
+    "definition": "anime-style emoji showing extreme happiness"
   }]
 }

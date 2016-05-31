@@ -21,12 +21,24 @@
   }, {
     "text": "nko2016 # loblaws # ottawa # barenakedladies # funday # concert # greatplacetowork https : / /"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "fun: activities that are enjoyable or amusing; 'I do it for the fun of it'; 'he is fun to have around' <i37659>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "Sunday: first day of the week; observed as a day of rest and worship by most Christians <i116899>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "Sunday: first day of the week; observed as a day of rest and worship by most Christians <i116899>",
+      "relNo": 1
+    }],
+    "definition": "Sunday as a day for relaxing and having fun"
   }]
 }

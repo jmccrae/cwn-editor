@@ -21,12 +21,16 @@
   }, {
     "text": "Hurray ! I have finished \\ Road to success\""
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "celebration: any joyous diversion <i37653>",
+      "relNo": 1
+    }],
+    "definition": "expression of celebration"
   }]
 }

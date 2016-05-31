@@ -21,12 +21,66 @@
   }, {
     "text": "Ohhhh Well I think Zana wasn't so bad anymore"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "emotion",
+      "target": "amazement: the feeling that accompanies something extremely surprising; 'he looked at me in astonishment' <i76213>",
+      "relNo": 1
+    }],
+    "definition": "expression of amazement"
+  }, {
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 1
+    }],
+    "definition": "expression of surprise"
+  }, {
+    "pos": "x",
+    "synonym": "",
+    "id": 4,
+    "relations": [{
+      "type": "emotion",
+      "target": "afterthought: an addition that was not included in the original plan; 'the garage was an afterthought' <i49858>",
+      "relNo": 1
+    }],
+    "definition": "a word to introduce an afterthought"
+  }, {
+    "pos": "x",
+    "synonym": "",
+    "id": 5,
+    "relations": [{
+      "type": "emotion",
+      "target": "pain: a symptom of some physical hurt or disorder; 'the patient developed severe pain and distension' <i112218>",
+      "relNo": 1
+    }],
+    "definition": "expression of pain"
+  }, {
+    "pos": "x",
+    "synonym": "",
+    "id": 6,
+    "relations": [{
+      "type": "emotion",
+      "target": "scepticism: the disbelief in any claims of ultimate knowledge <i68249>",
+      "relNo": 1
+    }],
+    "definition": "expression of scepticism"
+  }, {
+    "pos": "x",
+    "synonym": "",
+    "id": 3,
+    "relations": [{
+      "type": "emotion",
+      "target": "understanding: the cognitive condition of someone who understands; 'he has virtually no understanding of social cause and effect' <i67391>",
+      "relNo": 1
+    }],
+    "definition": "expression of understanding"
   }]
 }

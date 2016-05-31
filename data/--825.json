@@ -1,5 +1,5 @@
 {
-  "lemma": "the feels",
+  "lemma": "feels",
   "examples": [{
     "text": "The feels when you take your first bite of the"
   }, {
@@ -21,12 +21,30 @@
   }, {
     "text": "The feels https : / / t.co / oMT66dueDF"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "emotion: any strong feeling <i76043>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "feelings: emotional or moral sensitivity (especially in relation to personal principles or dignity); 'the remark hurt his feelings' <i76234>",
+      "relNo": 2
+    }],
+    "definition": "an intense wave of emotions"
+  }, {
+    "pos": "n",
+    "synonym": "feelings: emotional or moral sensitivity (especially in relation to personal principles or dignity); 'the remark hurt his feelings' <i76234>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "feelings: emotional or moral sensitivity (especially in relation to personal principles or dignity); 'the remark hurt his feelings' <i76234>",
+      "relNo": 1
+    }],
     "definition": ""
   }]
 }

@@ -21,9 +21,9 @@
   }, {
     "text": "you're going to miss me when I am gone . ?"
   }],
-  "status": "",
+  "status": "nonlex",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],

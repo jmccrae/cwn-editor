@@ -21,12 +21,12 @@
   }, {
     "text": "Aight , off to bed , More then happ"
   }],
-  "status": "",
+  "status": "misspell",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
+    "definition": "alright"
   }]
 }

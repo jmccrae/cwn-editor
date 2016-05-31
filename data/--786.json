@@ -21,12 +21,20 @@
   }, {
     "text": "Happy 22nd Monthsary JeRace followback please # BraceLeiSaPanagbengaFPJAP Twenty"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "anniversary: the date on which an event occurred in some previous year (or the celebration of it) <i117383>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "anniversary: the date on which an event occurred in some previous year (or the celebration of it) <i117383>",
+      "relNo": 1
+    }],
+    "definition": "the one month anniversary of something"
   }]
 }

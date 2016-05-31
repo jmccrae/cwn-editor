@@ -21,12 +21,20 @@
   }, {
     "text": "you're most welcome , nuna "
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "loanword",
+      "target": "Korean: the Altaic language spoken by Koreans <i72984>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "female: a person who belongs to the sex that can have babies <i87211>",
+      "relNo": 1
+    }],
+    "definition": "used by males to address an older female"
   }]
 }

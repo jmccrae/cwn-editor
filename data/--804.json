@@ -21,12 +21,16 @@
   }, {
     "text": "was supposed to be a piss take of weeb Japanese names but now it just bothers me"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "westerner: an inhabitant of a western area; especially of the U.S. <i94082>",
+      "relNo": 1
+    }],
+    "definition": "a westerner obsessed with Japanese culture"
   }]
 }

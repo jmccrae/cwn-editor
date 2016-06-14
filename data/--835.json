@@ -21,12 +21,16 @@
   }, {
     "text": "Mhmm yeah , okay "
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "agreement: the verbal act of agreeing <i74359>",
+      "relNo": 1
+    }],
+    "definition": "expresssion of agreement"
   }]
 }

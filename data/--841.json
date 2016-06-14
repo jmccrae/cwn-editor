@@ -21,12 +21,16 @@
   }, {
     "text": "t.co / rsRzqDxGKC # smile # android # tweegram # followme # metallica # australia # thirstythursday"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "hypernym",
+      "target": "<---03>",
+      "relNo": 1
+    }],
+    "definition": "an Instagram post that is all words"
   }]
 }

@@ -1,5 +1,5 @@
 {
-  "lemma": "favoriting",
+  "lemma": "favorite",
   "examples": [{
     "text": "Lol well just stick to favoriting all the ass & amp ; tits you"
   }, {
@@ -21,10 +21,10 @@
   }, {
     "text": "life but it's exploring life , I'm not favoriting the"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "<---60>",
     "id": 1,
     "relations": [],
     "definition": ""

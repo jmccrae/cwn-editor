@@ -21,12 +21,20 @@
   }, {
     "text": "me : * gets clingy *"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "derivation",
+      "target": "cling: to remain emotionally or intellectually attached; 'He clings to the idea that she might still love him.' <i30615>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "attached: fond and affectionate; 'she was very attached to her father' <i8018>",
+      "relNo": 1
+    }],
+    "definition": "excessively emotional and attached"
   }]
 }

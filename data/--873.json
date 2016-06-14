@@ -1,5 +1,5 @@
 {
-  "lemma": "*shit",
+  "lemma": "shit",
   "examples": [{
     "text": "im not about to keep doing this shit with people man"
   }, {
@@ -21,11 +21,23 @@
   }, {
     "text": "Like shit https : / / t.co / 1MGBDyD27U"
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "05148040-n (something of little value; \\\"\"his promise is not worth a damn\\\"\"; \\\"\"not worth one red cent\\\"\"; \\\"\"not worth shucks\\\"\");06623729-n (obscene words for unacceptable behavior; \\\"\"I put up with a lot of bullshit from that jerk\\\"\"; \\\"\"what he said was mostly bull\\\"\");09834593-n (insulting terms of address for people who are stupid or irritating or ridiculous);13576978-n (a coarse term for defecation; \\\"\"he took a shit\\\"\");13795187-n (a small worthless amount; \\\"\"you don't know jack\\\"\");14878732-n (obscene terms for feces);00073791-v (have a bowel movement; \\\"\"The dog had made in the flower beds\\\"\");00843665-v (give away information about somebody; \\\"\"He told on his classmate who had cheated on the exam\\\"\"",
+    "pos": "n",
+    "synonym": "<-----reddit-18>",
+    "id": 2,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "a",
+    "synonym": "<-----reddit-17>",
     "id": 1,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "<-----reddit-29>",
+    "id": 3,
     "relations": [],
     "definition": ""
   }]

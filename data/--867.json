@@ -21,12 +21,20 @@
   }, {
     "text": "Say wallahi and calls me a mandem https : /"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
+    "relations": [{
+      "type": "emotion",
+      "target": "vow: make a vow; promise; 'He vowed never to drink alcohol again' <i26054>",
+      "relNo": 2
+    }, {
+      "type": "loanword",
+      "target": "Somali: the Cushitic language spoken by the Somali <i73383>",
+      "relNo": 1
+    }],
+    "definition": "interjection meaning 'I swear to God'"
   }]
 }

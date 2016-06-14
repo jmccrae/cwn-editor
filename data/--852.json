@@ -21,12 +21,20 @@
   }, {
     "text": "competitive # market # mobilephones # iot # cyberattack"
   }],
-  "status": "",
+  "status": "novel",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "cyberwar: an assault on electronic communication networks <i39430>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "cyberwar: an assault on electronic communication networks <i39430>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "attack: (military) an offensive against an enemy (using weapons); 'the attack began at dawn' <i40496>",
+      "relNo": 2
+    }],
     "definition": ""
   }]
 }

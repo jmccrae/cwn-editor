@@ -21,28 +21,12 @@
   }, {
     "text": "the time go ? Needless to say..excuse the cliché , but it is what it is "
   }],
-  "status": "",
+  "status": "general",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "cliche: a trite or obvious remark <i74259>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "platitude=07168754-n (a trite or obvious remark)",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "trite=01693210-a (repeated too often; overfamiliar through overuse; \\\"\"bromidic sermons\\\"\"; \\\"\"his remarks were trite and commonplace\\\"\"; \\\"\"hackneyed phrases\\\"\"; \\\"\"a stock answer\\\"\"; \\\"\"repeating threadbare jokes\\\"\"; \\\"\"parroting some timeworn axiom\\\"\"; \\\"\"the trite metaphor `hard as nails'\\\"\"",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "expression=00359354-n (the act of forcing something out by squeezing or pressing; \\\"\"the expression of milk from her breast\\\"\");04687095-n (the feelings expressed on a person's face; \\\"\"a sad expression\\\"\"; \\\"\"a look of triumph\\\"\"; \\\"\"an angry face\\\"\");06324641-n (a group of words that form a constituent of a sentence and are considered as a single unit; \\\"\"I concluded from his awkward constructions that he was a foreigner\\\"\");06744551-n (a group of symbols that make a mathematical statement);06893299-n (expression without words; \\\"\"tears are an expression of grief\\\"\"; \\\"\"the pulse is a reflection of the heart's condition\\\"\");07083988-n (the style of expressing yourself; \\\"\"he suggested a better formulation\\\"\"; \\\"\"his manner of expression showed how much he cared\\\"\");07154581-n (the communication (in speech or writing) of your beliefs or opinions; \\\"\"expressions of good will\\\"\"; \\\"\"he helped me find verbal expression for my ideas\\\"\"; \\\"\"the idea was immediate but the verbalism took hours\\\"\");07166088-n (a word or phrase that particular people use in particular situations; \\\"\"pardon the expression\\\"\");13499408-n ((genetics) the process of expressing a gene",
-      "relNo": 2
-    }, {
-      "type": "none",
-      "target": "phrase=00528098-n (dance movements that are linked in a single choreographic sequence);06327041-n (an expression consisting of one or more words forming a grammatical constituent of a sentence);07059411-n (a short musical passage);07169038-n (an expression whose meanings cannot be inferred from the meanings of the words that make it up);00963146-v (divide, combine, or mark into phrases; \\\"\"phrase a musical passage\\\"\");00982485-v (put into words or an expression; \\\"\"He formulated his concerns to the board of trustees\\\"\"",
-      "relNo": 3
-    }],
-    "definition": "Something, most often a phrase or expression, that is overused or used outside its original context, so that its original impact and meaning are lost. A trite saying; a platitude."
+    "relations": [],
+    "definition": ""
   }]
 }

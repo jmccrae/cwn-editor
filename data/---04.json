@@ -10,11 +10,11 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "publicize=00976399-n",
+      "target": "publicize:00976399-n <i26463>",
       "relNo": 0
     }, {
       "type": "derivation",
-      "target": "post=00993715-v",
+      "target": "post:00993715-v <i26543>",
       "relNo": 1
     }],
     "definition": "To post a message on a social media website"

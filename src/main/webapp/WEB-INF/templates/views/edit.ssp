@@ -1,3 +1,11 @@
+<% import org.insightcentre.cwneditor._ %>
+<%@ var error:Option[String] %>
+<%@ var lemma:String %>
+<%@ var entryId:String %>
+<%@ var entry:Entry %>
+<%@ var relPath:String %>
+<% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
+<% attributes("relPath") = relPath %>
 <html>
     <head>
         <title>Colloquial WordNet Editor - Editing</title>
@@ -8,22 +16,24 @@
                 <h1>Edit Entry</h1>
             </div>
             <div class="row">
-                {{#error}}
-                <div class="alert alert-danger">Error: {{error}}</div>
-                {{/error}}
-                <form action="{{contextUrl}}/update/{{entry}}">
+                #match(error)
+                #case(Some(err))
+                <div class="alert alert-danger">Error: ${err}</div>
+                #otherwise
+                #end
+                <form action="${relPath}/update/${entryId}">
                     <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"
-                               id="lemma" name="lemma" value="{{lemma}}"/>
+                               id="lemma" name="lemma" value="${entry.lemma}"/>
                     </div>
                     <div class="form-group">
                         <button class="pull-right">Split</button>
                         <label>Example</label>
 <blockquote>
-                        {{#examples}}
-                            <p>{{text}}</p>
-                        {{/examples}}
+                        #for (example <- entry.examples)
+                            <p>${example}</p>
+                        #end
 </blockquote>
                     </div>
                     <div class="form-group">
@@ -52,54 +62,54 @@
                         <div class="radio"><label>
                         <input type="radio" name="status"
                             value="error"/>Error</label></div>
-                        <script>$('input[name=status][value={{status}}]').attr('checked', 'checked');</script>
+                        <script>$('input[name=status][value=${entry.status}]').attr('checked', 'checked');</script>
                     </div>
-                    {{#senses}}
-                    <h3>Sense {{id}}</h3>
+                    #for (sense <- entry.senses)
+                    <h3>Sense ${sense.id}</h3>
                     <div class="form-group">
-                        <label for="pos{{id}}">Part of Speech</label><br/>
+                        <label for="pos${sense.id}">Part of Speech</label><br/>
                         <div class="radio"><label>
-                        <input type="radio" name="pos{{id}}"
+                        <input type="radio" name="pos${sense.id}"
                             value="n" checked="checked"/>Noun</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="pos{{id}}"
+                        <input type="radio" name="pos${sense.id}"
                             value="v"/>Verb</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="pos{{id}}"
+                        <input type="radio" name="pos${sense.id}"
                             value="a"/>Adjective</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="pos{{id}}"
+                        <input type="radio" name="pos${sense.id}"
                             value="r"/>Adverb</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="pos{{id}}"
+                        <input type="radio" name="pos${sense.id}"
                             value="x"/>Other</label></div>
-                        <script>$('input[name=pos{{id}}][value={{pos}}]').attr('checked', 'checked');</script>
+                        <script>$('input[name=pos${sense.id}][value=${sense.pos}]').attr('checked', 'checked');</script>
                     </div>
                     <div class="form-group">
-                        <label for="definition{{id}}">Definition</label>
+                        <label for="definition${sense.id}">Definition</label>
                         <input type="text" class="form-control"
-                               id="definition{{id}}" name="definition{{id}}" value="{{definition}}"/>
+                               id="definition${sense.id}" name="definition${sense.id}" value="${sense,.definition}"/>
                     </div>
                     <div class="form-group">
-                        <label for="synonym{{id}}">Synonym</label>
+                        <label for="synonym${sense.id}">Synonym</label>
                         <input type="text" class="form-control"
-                               id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}"/>
+                               id="synonym${sense.id}" name="synonym${sense.id}" value="${sense.synonym}"/>
                     </div>
-                    <script>wncomplete('#synonym{{id}}');</script>
+                    <script>wncomplete('#synonym${sense.id}');</script>
                     <div class="form-group">
-                        <table style="width:100%;" id="relTable{{id}}">
+                        <table style="width:100%;" id="relTable${sense.id}">
                             <tr>
                                 <th style="margin-right:10px;">Relation</th>
                                 <th>Target</th>
                             </tr>
-                    <script>relNos[{{id}}] = 0;</script>
-                    {{#relations}} 
+                    <script>relNos[${sense.id}] = 0;</script>
+                    #for (relation <- senses.relations) 
                             <tr>
                                 <td>                     
                         <select class="s2-basic"
-                               id="relType{{id}}-{{relNo}}"
-                               name="relType{{id}}-{{relNo}}"
-                               value="{{type}}">
+                               id="relType${sense.id}-${relation.relNo}"
+                               name="relType${sense.id}-${relation.relNo}"
+                               value="${relation.type}">
                             <option value="hypernym">Hypernym (broader)</option>
                             <option value="hyponym">Hypernym (narrower)</option>
                             <option value="instance_hypernym">Instance of (hypernym)</option>
@@ -128,25 +138,25 @@
                             <option value="pejorative">Pejorative for</option>
                             <option value="none">Delete</option>
                         </select>
-                        <script>$('#relType{{id}}-{{relNo}}').val('{{type}}');</script>
+                        <script>$('#relType${sense.id}-${relation.relNo}').val('${sense.`type`}');</script>
                                 </td>
                                 <td>
                         <div class="ui-widget">
                         <input type="text" class="form-control"
-                               id="relTarget{{id}}-{{relNo}}"
-                               name="relTarget{{id}}-{{relNo}}"
-                               value="{{target}}"/>
+                               id="relTarget${sense.id}-${relation.relNo}"
+                               name="relTarget${sense.id}-${relation.relNo}"
+                               value="${relation.target}"/>
                         </div>
                                 </td>
                             </tr>
-                        <script>relNos[{{id}}] = {{relNo}};wncomplete('#relTarget{{id}}-{{relNo}}');</script>
-                    {{/relations}}
+                        <script>relNos[${sense.id}] = ${relation.relNo};wncomplete('#relTarget${sense.id}-${relation.relNo}');</script>
+                    #end
                         </table>
                     </div>
                     <div>
-                        <button class="btn btn-success" type="button" onclick="addrel({{id}})">Add relation</button>
+                        <button class="btn btn-success" type="button" onclick="addrel(${sense.id})">Add relation</button>
                     </div>
-                    {{/senses}}
+                    #end
 <script type="text/javascript">
 $(document).ready(function() {
   $('.s2-basic').select2();

@@ -13,8 +13,8 @@
       "target": "subscribe: receive or obtain regularly; 'We take the Times every day' <i32797>",
       "relNo": 0
     }, {
-      "type": "domain_usage",
-      "target": "social media <---43>",
+      "type": "domain_topic",
+      "target": "social media: <---43-1>",
       "relNo": 1
     }],
     "definition": "to subscribe to someone's updates on social media"

@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "tweet",
+      "target": "tweet <----0-1>",
       "relNo": 0
     }, {
       "type": "derivation",

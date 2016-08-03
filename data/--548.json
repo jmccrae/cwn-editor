@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "derivation",
-      "target": "<---05>",
+      "target": "Twitter: <---05-1>",
       "relNo": 3
     }, {
       "type": "derivation",

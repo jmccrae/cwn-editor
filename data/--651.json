@@ -23,7 +23,7 @@
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "domain_usage",
+      "type": "domain_region",
       "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
       "relNo": 2
     }, {

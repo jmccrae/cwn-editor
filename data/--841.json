@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "<---03>",
+      "target": "<---03-1>",
       "relNo": 1
     }],
     "definition": "an Instagram post that is all words"

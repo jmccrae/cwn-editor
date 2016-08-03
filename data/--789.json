@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "similar",
-      "target": "x86: <--721>",
+      "target": "x86: <--721-1>",
       "relNo": 2
     }, {
       "type": "hypernym",

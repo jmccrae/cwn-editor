@@ -32,7 +32,7 @@
       "relNo": 0
     }, {
       "type": "derivation",
-      "target": "tweet: <----0>",
+      "target": "tweet: <----0-1>",
       "relNo": 1
     }],
     "definition": "the act of tweeting without tagging a user so that they will not see the post"

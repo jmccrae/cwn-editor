@@ -46,7 +46,7 @@
     "id": 1,
     "relations": [{
       "type": "similar",
-      "target": "<-----reddit-21>",
+      "target": "<-----reddit-21-1>",
       "relNo": 0
     }, {
       "type": "emotion",

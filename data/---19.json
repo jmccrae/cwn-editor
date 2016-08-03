@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "follow <---23>",
+      "target": "follow: <---23-1>",
       "relNo": 0
     }, {
       "type": "derivation",

@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "post <04>",
+      "target": "post: <---04-1>",
       "relNo": 0
     }, {
       "type": "derivation",

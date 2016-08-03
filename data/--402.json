@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "derivation",
-      "target": "<--125>",
+      "target": "text: <--125-1>",
       "relNo": 2
     }, {
       "type": "hypernym",

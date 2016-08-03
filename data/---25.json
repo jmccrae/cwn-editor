@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "antonym",
-      "target": "follow <---23>",
+      "target": "follow: <---23-1>",
       "relNo": 0
     }, {
       "type": "derivation",

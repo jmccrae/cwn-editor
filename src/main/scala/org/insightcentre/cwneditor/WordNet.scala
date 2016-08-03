@@ -3,6 +3,8 @@ package org.insightcentre.cwneditor
 import spray.json._
 import spray.json.DefaultJsonProtocol._
 
+
+
 case class WordNetEntry(word : String, ili : String, definition : String)
 
 class StringTrie[B](val map : Map[Char, StringTrie[B]], val values : List[B]) {

@@ -10,11 +10,11 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "bad=01129296-n",
+      "target": "bad:01129296-n <i6173>",
       "relNo": 0
     }, {
       "type": "antonym",
-      "target": "on fleek=97",
+      "target": "on fleek: <---97-1>",
       "relNo": 1
     }],
     "definition": "not having a good appearance"

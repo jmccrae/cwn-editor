@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "derivation",
-      "target": "dabbing  <--101>",
+      "target": "dabbing:  <--101-1>",
       "relNo": 3
     }, {
       "type": "domain_topic",

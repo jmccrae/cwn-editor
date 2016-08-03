@@ -32,7 +32,7 @@
       "relNo": 0
     }, {
       "type": "derivation",
-      "target": "tweet <----0>",
+      "target": "tweet: <----0-1>",
       "relNo": 1
     }],
     "definition": "A person using Twitter"

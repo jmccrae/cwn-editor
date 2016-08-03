@@ -28,7 +28,7 @@
     "id": 1,
     "relations": [{
       "type": "derivation",
-      "target": "go <i30898>",
+      "target": "go: <i30898>",
       "relNo": 2
     }, {
       "type": "hypernym",

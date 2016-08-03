@@ -32,13 +32,13 @@
       "relNo": 1
     }, {
       "type": "hypernym",
-      "target": "<--779a>",
+      "target": "<--779a-1>",
       "relNo": 2
     }],
     "definition": "possible of being charged by being plugged in"
   }, {
     "pos": "n",
-    "synonym": "plug-in: a software module that extends or enhances the capabilities of an existing application <in>",
+    "synonym": "plug-in: a software module that extends or enhances the capabilities of an existing application <wn31:06578832-n-1>",
     "id": 1,
     "relations": [],
     "definition": ""

@@ -32,7 +32,7 @@ object YuzuBuild extends Build {
         "org.scalatra" %% "scalatra-auth" % ScalatraVersion
           excludeAll(ExclusionRule(organization="org.slf4j")),
 //        "ch.qos.logback" % "logback-classic" % "1.1.1" % "runtime",
-        "org.eclipse.jetty" % "jetty-webapp" % "9.2.10.v20150310" % "container"
+        "org.eclipse.jetty" % "jetty-webapp" % "9.2.10.v20150310"
           excludeAll(ExclusionRule(organization="org.slf4j")),
         "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
         "io.spray" %% "spray-json" % "1.3.2",

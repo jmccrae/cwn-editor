@@ -3,7 +3,7 @@
   "examples": [{
     "text": "My new vape shipped today"
   }],
-  "status": "novel",
+  "status": "novel","editorId": "",
   "senses": [{
     "pos": "v",
     "synonym": "",

@@ -21,7 +21,7 @@
   }, {
     "text": "Good evening"
   }],
-  "status": "nonlex",
+  "status": "nonlex","editorId": "",
   "senses": [{
     "pos": "n",
     "synonym": "",

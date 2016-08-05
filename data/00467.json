@@ -21,7 +21,7 @@
   }, {
     "text": "Check out this epic check-in"
   }],
-  "status": "general",
+  "status": "general","editorId": "",
   "senses": [{
     "pos": "n",
     "synonym": "check-in: the act of reporting your presence (as at an airport or a hotel) <i36159>",

@@ -87,6 +87,10 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport with Authenti
 
     def findNext(id : String) = store.next(id)
 
+    get("/logout") {
+      Unauthorized("Logged out")
+    }
+
     get("/next/:id") {
       findNext(params("id")) match {
         case Some(id) => TemporaryRedirect(context + "/edit/" + id)

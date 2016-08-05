@@ -3,7 +3,7 @@
   "examples": [{
     "text": "to form my own opinions , not trust some random on the interne"
   }],
-  "status": "novel",
+  "status": "novel","editorId": "",
   "senses": [{
     "pos": "n",
     "synonym": "stranger: an individual that one is not acquainted with <i93353>",

@@ -3,7 +3,7 @@
   "examples": [{
     "text": "There was vape juice just sitting on the table at my"
   }],
-  "status": "novel",
+  "status": "novel","editorId": "",
   "senses": [{
     "pos": "n",
     "synonym": "",

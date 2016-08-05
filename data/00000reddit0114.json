@@ -3,7 +3,7 @@
   "examples": [{
     "text": "aww babe"
   }],
-  "status": "novel",
+  "status": "novel","editorId": "",
   "senses": [{
     "pos": "x",
     "synonym": "",

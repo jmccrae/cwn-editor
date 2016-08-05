@@ -21,7 +21,7 @@
   }, {
     "text": "I want some Red lobster .."
   }],
-  "status": "name",
+  "status": "name","editorId": "",
   "senses": [{
     "pos": "n",
     "synonym": "",

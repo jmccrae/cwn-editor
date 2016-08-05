@@ -21,7 +21,7 @@
   }, {
     "text": "Could you FOLLOW me ?"
   }],
-  "status": "general",
+  "status": "general","editorId": "",
   "senses": [{
     "pos": "v",
     "synonym": "",

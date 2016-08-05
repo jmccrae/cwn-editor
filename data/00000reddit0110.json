@@ -3,7 +3,7 @@
   "examples": [{
     "text": "you have access to ? if you can squat , excellent , if no rack , the"
   }],
-  "status": "general",
+  "status": "general","editorId": "",
   "senses": [{
     "pos": "v",
     "synonym": "",

@@ -3,7 +3,7 @@
   "examples": [{
     "text": "puttin some stank on it"
   }],
-  "status": "vulgar",
+  "status": "vulgar","editorId": "",
   "senses": [{
     "pos": "n",
     "synonym": "",

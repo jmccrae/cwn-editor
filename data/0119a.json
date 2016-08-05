@@ -3,7 +3,7 @@
   "examples": [{
     "text": "Today slayed me ?"
   }],
-  "status": "novel",
+  "status": "novel","editorId": "",
   "senses": [{
     "pos": "v",
     "synonym": "tire out=00074774-v <i22148>",

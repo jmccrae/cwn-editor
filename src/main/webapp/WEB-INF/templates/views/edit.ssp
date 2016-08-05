@@ -1,11 +1,11 @@
 <% import org.insightcentre.cwneditor._ %>
 <%@ var error:Option[String] %>
-<%@ var lemma:String %>
 <%@ var entryId:String %>
 <%@ var entry:Entry %>
-<%@ var relPath:String %>
+<%@ var contextUrl:String %>
 <% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
-<% attributes("relPath") = relPath %>
+<% attributes("contextUrl") = contextUrl %>
+<% attributes("title") = "Colloquial WordNet Editor - Editing" %>
 <html>
     <head>
         <title>Colloquial WordNet Editor - Editing</title>
@@ -21,7 +21,7 @@
                 <div class="alert alert-danger">Error: ${err}</div>
                 #otherwise
                 #end
-                <form action="${relPath}/update/${entryId}">
+                <form action="${contextUrl}/update/${entryId}">
                     <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"
@@ -32,7 +32,7 @@
                         <label>Example</label>
 <blockquote>
                         #for (example <- entry.examples)
-                            <p>${example}</p>
+                            <p>${example.text}</p>
                         #end
 </blockquote>
                     </div>
@@ -88,7 +88,7 @@
                     <div class="form-group">
                         <label for="definition${sense.id}">Definition</label>
                         <input type="text" class="form-control"
-                               id="definition${sense.id}" name="definition${sense.id}" value="${sense,.definition}"/>
+                               id="definition${sense.id}" name="definition${sense.id}" value="${sense.definition}"/>
                     </div>
                     <div class="form-group">
                         <label for="synonym${sense.id}">Synonym</label>
@@ -103,13 +103,13 @@
                                 <th>Target</th>
                             </tr>
                     <script>relNos[${sense.id}] = 0;</script>
-                    #for (relation <- senses.relations) 
+                    #for (relation <- sense.relations) 
                             <tr>
                                 <td>                     
                         <select class="s2-basic"
                                id="relType${sense.id}-${relation.relNo}"
                                name="relType${sense.id}-${relation.relNo}"
-                               value="${relation.type}">
+                               value="${relation.`type`}">
                             <option value="hypernym">Hypernym (broader)</option>
                             <option value="hyponym">Hypernym (narrower)</option>
                             <option value="instance_hypernym">Instance of (hypernym)</option>
@@ -138,7 +138,7 @@
                             <option value="pejorative">Pejorative for</option>
                             <option value="none">Delete</option>
                         </select>
-                        <script>$('#relType${sense.id}-${relation.relNo}').val('${sense.`type`}');</script>
+                        <script>$('#relType${sense.id}-${relation.relNo}').val('${relation.`type`}');</script>
                                 </td>
                                 <td>
                         <div class="ui-widget">

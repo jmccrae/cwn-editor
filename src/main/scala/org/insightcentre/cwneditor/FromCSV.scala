@@ -44,7 +44,7 @@ object FromCSV {
             elems(2), List(Example(elems(3))), 
             elems(4), List(Sense(
               elems(5),
-              elems(7), elems(6), relations, 1))))
+              elems(7), elems(6), relations, 1)), ""))
         }
       }
     }

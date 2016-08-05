@@ -29,6 +29,8 @@ object YuzuBuild extends Build {
           excludeAll(ExclusionRule(organization="org.slf4j")),
         "org.scalatra" %% "scalatra-specs2" % ScalatraVersion % "test"
           excludeAll(ExclusionRule(organization="org.slf4j")),
+        "org.scalatra" %% "scalatra-auth" % ScalatraVersion
+          excludeAll(ExclusionRule(organization="org.slf4j")),
 //        "ch.qos.logback" % "logback-classic" % "1.1.1" % "runtime",
         "org.eclipse.jetty" % "jetty-webapp" % "9.2.10.v20150310" % "container"
           excludeAll(ExclusionRule(organization="org.slf4j")),

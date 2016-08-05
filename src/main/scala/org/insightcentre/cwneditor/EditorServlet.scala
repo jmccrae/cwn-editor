@@ -10,10 +10,10 @@ object CWNEditorJsonProtocol extends DefaultJsonProtocol {
   implicit val relationFormat = jsonFormat3(Relation)
   implicit val senseFormat = jsonFormat5(Sense)
   implicit val exampleFormat = jsonFormat1(Example)
-  implicit val entryFormat = jsonFormat4(Entry)
+  implicit val entryFormat = jsonFormat5(Entry)
 }
 
-class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
+class CWNEditorServlet extends ScalatraServlet with ScalateSupport with AuthenticationSupport {
     import CWNEditorJsonProtocol._
     
     lazy val context = io.Source.fromFile("context").mkString.trim
@@ -33,10 +33,10 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     get("/search/:lemma") {
       val k = urldecode(params("lemma"))
       val files = store.search(k).map({
-        case (id, e) => Map("name" -> id, "data" -> e)
+        case (id, e) => (e, id)
       })
       contentType = "text/html"
-      mustache("/summary",
+      ssp("/summary",
         "files" -> files,
         "contextUrl" -> context)
     }
@@ -60,30 +60,27 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       val page = params("page").toInt
       val files = store.listRange(page * 100, 100).map({
         f => 
-          Map("name" -> f,
-            "data" -> store.get(f))
+          (store.get(f), f)
       })
       contentType = "text/html"
-      mustache("/summary",
+      ssp("/summary",
         "files" -> files,
-        "next" -> (page + 1),
+        "next" -> (page + 1).toString,
         "contextUrl" -> context)
     }
 
     get("/edit/:id") {
+      basicAuth
         val f = new File("data/%s.json" format params("id"))
         if(!f.exists) {
             pass()
         } else {
             val data = file2entry(f)
             contentType = "text/html"
-            mustache("/edit", 
-                "error" -> params.get("error").toList,
-                "entry" -> params("id"),
-                "lemma" -> data.lemma,
-                "status" -> data.status,
-                "examples" -> data.examples,
-                "senses" -> data.senses,
+            ssp("/edit", 
+                "error" -> params.get("error"),
+                "entryId" -> params("id"),
+                "entry" -> data,
                 "contextUrl" -> context)
         }
     }
@@ -102,32 +99,37 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/update/:id") {
       try {
-        val data = store.get(params("id"))
-        val lemma = params.getOrElse("lemma", throw new EditorServletException("Lemma is required"))
-        val status = params.getOrElse("status", throw new EditorServletException("Status is required"))
-        val senseIds = params.keys.filter(_.matches("definition\\d+")).map({
-          s => s.drop("definition".length).toInt
-        })
-        val e = Entry(lemma, data.examples, status, senseIds.map({ id =>
-          val pos = params.getOrElse("pos" + id, throw new EditorServletException("POS is required"))
-          val definition = params.getOrElse("definition" + id, throw new EditorServletException("Definition is required"))
-          val synonym = params.getOrElse("synonym" + id, throw new EditorServletException("Synonym is required"))
-          val relIds = params.keys.filter(_.matches("relType" + id + "-\\d+")).map({
-            s => s.drop("relType".length + id.toString.length + 1).toInt
-          })
-          Sense(pos, definition, synonym, relIds.map({ rid =>
-            Relation(params.getOrElse("relType" + id + "-" + rid, throw new EditorServletException("Rel type missing")),
-                     params.getOrElse("relTarget" + id + "-" + rid, throw new EditorServletException("Rel target missing")),
-                     rid)
-          }).filter(_.`type` != "none").toList, id)
-        }).toList)
-        store.update(params("id"), e)
-        findNext(params("id")) match {
-          case Some(id) => TemporaryRedirect(context + "/edit/" + id)
-          case None => {
-            contentType = "text/plain"
-            "No more results"
-          }
+        basicAuth match {
+          case Some(User(userName)) =>
+            val data = store.get(params("id"))
+            val lemma = params.getOrElse("lemma", throw new EditorServletException("Lemma is required"))
+            val status = params.getOrElse("status", throw new EditorServletException("Status is required"))
+            val senseIds = params.keys.filter(_.matches("definition\\d+")).map({
+              s => s.drop("definition".length).toInt
+            })
+            val e = Entry(lemma, data.examples, status, senseIds.map({ id =>
+              val pos = params.getOrElse("pos" + id, throw new EditorServletException("POS is required"))
+              val definition = params.getOrElse("definition" + id, throw new EditorServletException("Definition is required"))
+              val synonym = params.getOrElse("synonym" + id, throw new EditorServletException("Synonym is required"))
+              val relIds = params.keys.filter(_.matches("relType" + id + "-\\d+")).map({
+                s => s.drop("relType".length + id.toString.length + 1).toInt
+              })
+              Sense(pos, definition, synonym, relIds.map({ rid =>
+                Relation(params.getOrElse("relType" + id + "-" + rid, throw new EditorServletException("Rel type missing")),
+                         params.getOrElse("relTarget" + id + "-" + rid, throw new EditorServletException("Rel target missing")),
+                         rid)
+              }).filter(_.`type` != "none").toList, id)
+            }).toList, userName)
+            store.update(params("id"), e)
+            findNext(params("id")) match {
+              case Some(id) => TemporaryRedirect(context + "/edit/" + id)
+              case None => {
+                contentType = "text/plain"
+                "No more results"
+              }
+            }
+          case None =>
+            BadRequest("Please authenticate")
         }
       } catch {
         case EditorServletException(msg) => {
@@ -138,6 +140,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
 
     get("/") {
+      basicAuth
       TemporaryRedirect(context + "/summary/0")
     }
 }

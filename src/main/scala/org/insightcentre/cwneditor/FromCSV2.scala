@@ -69,7 +69,7 @@ object FromCSV2 {
             List(Sense(
               elems(7), elems(15),
               elems(8),
-              mapRels(elems),1))))
+              mapRels(elems),1)), ""))
         }
       } else if(elems.length < 16) {
         System.err.println(line)

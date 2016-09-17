@@ -1,5 +1,4 @@
 {
-  "lemma": "sowwy",
   "examples": [{
     "text": "ahh . What ? I'm sowwy D :"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ahh . What ? I'm sowwy D :"
   }],
-  "status": "","editorId": "",
+  "lemma": "sowwy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Sorry"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

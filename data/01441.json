@@ -1,5 +1,4 @@
 {
-  "lemma": "schleep",
   "examples": [{
     "text": "I'm schleep https : / / t.co / btYuMcdmKp"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "In need of schleep"
   }],
-  "status": "","editorId": "",
+  "lemma": "schleep",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Sleep"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

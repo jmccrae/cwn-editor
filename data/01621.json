@@ -1,5 +1,4 @@
 {
-  "lemma": "daaaaamn",
   "examples": [{
     "text": "a concept : me , not givin a daaaaamn about anythin"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "daaaaamn niggas be lyyyyin lol"
   }],
-  "status": "","editorId": "",
+  "lemma": "daaaaamn",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Damn"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

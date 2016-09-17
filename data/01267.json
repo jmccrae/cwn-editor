@@ -1,5 +1,4 @@
 {
-  "lemma": "waaaaay",
   "examples": [{
     "text": "Waaaaay it's a big jobber # wwe"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "waaaaay too distracted by all those unread emails"
   }],
-  "status": "","editorId": "",
+  "lemma": "waaaaay",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Way"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

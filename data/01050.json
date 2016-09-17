@@ -1,5 +1,4 @@
 {
-  "lemma": "deets",
   "examples": [{
     "text": "RT bareMinerals : We ’ re spilling the deets on our secret ingredient . M … https"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Deets : https : / / t.co / ktfRFGHFeK"
   }],
-  "status": "","editorId": "",
+  "lemma": "deets",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "details: true confidential information; 'after the trial he gave us the real details' <i71354>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

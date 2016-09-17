@@ -1,5 +1,4 @@
 {
-  "lemma": "protip",
   "examples": [{
     "text": "ProTip : Add the ?word ‘ GIF ’ when"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "# protip write the flow of your zaps out on"
   }],
-  "status": "","editorId": "",
+  "lemma": "protip",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "professional: an authority qualified to teach apprentices <i91248>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "tip: an indication of potential opportunity; 'he got a tip on the stock market'; 'a good lead for a job' <i71436>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "tip: an indication of potential opportunity; 'he got a tip on the stock market'; 'a good lead for a job' <i71436>",
+      "relNo": 1
+    }],
+    "definition": "an insightful bit of advice"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

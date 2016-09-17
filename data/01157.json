@@ -1,5 +1,4 @@
 {
-  "lemma": "*a savage",
   "examples": [{
     "text": "DIDN'T I TELL YOU I WAS A SAVAGE"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "When ur a savage , but ur lowkey emotional & amp "
   }],
-  "status": "","editorId": "",
+  "lemma": "*a savage",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

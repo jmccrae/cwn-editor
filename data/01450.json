@@ -1,5 +1,4 @@
 {
-  "lemma": "no worries",
   "examples": [{
     "text": "travel the world and just be free with no worries ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "no worries : ) yes was wondering if you like"
   }],
-  "status": "","editorId": "",
+  "lemma": "no worries",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

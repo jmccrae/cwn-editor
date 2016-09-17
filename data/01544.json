@@ -1,5 +1,4 @@
 {
-  "lemma": "fucks with",
   "examples": [{
     "text": "3 . Fucks with good music"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "does what's requested / necessary and Croire just fucks with people"
   }],
-  "status": "","editorId": "",
+  "lemma": "fucks with",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

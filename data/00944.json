@@ -1,5 +1,4 @@
 {
-  "lemma": "*crunching",
   "examples": [{
     "text": "Number crunching for the past day - 1 new unfollower"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Number crunching for the past day - 22 new followers"
   }],
-  "status": "","editorId": "",
+  "lemma": "*crunching",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

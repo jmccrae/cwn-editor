@@ -1,5 +1,4 @@
 {
-  "lemma": "waaaa",
   "examples": [{
     "text": "Waaaa dommage giroud"
   }, {
@@ -19,12 +18,22 @@
   }, {
     "text": "Waaaa . So cute ."
   }],
-  "status": "","editorId": "",
+  "lemma": "*waaaa",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "upset: mildly physically distressed; 'an upset stomach' <i14133>",
+      "relNo": 1
+    }],
+    "definition": "Expression of upset and surprise "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

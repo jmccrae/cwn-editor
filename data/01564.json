@@ -1,5 +1,4 @@
 {
-  "lemma": "jäger",
   "examples": [{
     "text": "karma jäger is the one"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Jäger Bombs for # BlvckValentine ? ? ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "jäger",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": "</text>"
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

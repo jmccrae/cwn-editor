@@ -1,5 +1,4 @@
 {
-  "lemma": "*a catch",
   "examples": [{
     "text": "Jerricho Cotchery ’ s Play : Was That a Catch ? \\ by JOHN BRANCH via NYT https\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "thanku mil , need a catch up soon laa "
   }],
-  "status": "","editorId": "",
+  "lemma": "*a catch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

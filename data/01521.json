@@ -1,5 +1,4 @@
 {
-  "lemma": "you da",
   "examples": [{
     "text": "You da real MVP"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "you da cutest bitch ass nigga"
   }],
-  "status": "","editorId": "",
+  "lemma": "you da",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "You (are) the "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

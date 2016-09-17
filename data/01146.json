@@ -1,5 +1,4 @@
 {
-  "lemma": "my hair",
   "examples": [{
     "text": "hair , I wanna b friends , dye my hair frie"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Lesly is playing with my hair omg YES ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "my hair",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

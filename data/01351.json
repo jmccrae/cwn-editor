@@ -1,5 +1,4 @@
 {
-  "lemma": "spirit animal",
   "examples": [{
     "text": "Red from That 70's Show is my spirit animal ."
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "All dogs are my spirit animal ."
   }],
-  "status": "","editorId": "",
+  "lemma": "spirit animal",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "animal: a living organism characterized by voluntary movement <i35563>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "spirit: any incorporeal supernatural being that can become visible (or audible) to human beings <i86825>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "animal: a living organism characterized by voluntary movement <i35563>",
+      "relNo": 1
+    }],
+    "definition": "An animal whose characteristics match a part of a person's behavior"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

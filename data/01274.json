@@ -1,5 +1,4 @@
 {
-  "lemma": "nendoroid",
   "examples": [{
     "text": "Which site do you get your nendoroid figures from ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "WF2016 冬 ] HATSUNE MIKU by iDoll x Nendoroid"
   }],
-  "status": "","editorId": "",
+  "lemma": "nendoroid",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*hearthstone",
   "examples": [{
     "text": "and other games go on my Youtube and Hearthstone will be my main game on stream ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Registration is up for the next hearthstone tournament ! https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "*hearthstone",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "03512698-n (a stone that forms a hearth)",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

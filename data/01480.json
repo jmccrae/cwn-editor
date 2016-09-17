@@ -1,5 +1,4 @@
 {
-  "lemma": "*the bullshit",
   "examples": [{
     "text": "Don't u be on the bullshit ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "is an awesome update . nothing comparable to the bullshit CD tortured us with"
   }],
-  "status": "","editorId": "",
+  "lemma": "*the bullshit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

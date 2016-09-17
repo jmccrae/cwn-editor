@@ -1,5 +1,4 @@
 {
-  "lemma": "*freaking",
   "examples": [{
     "text": "Kind of fun to imagine them absolutely freaking out . Wonder who they're blaming ? #"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": ". especially last night ! ! ???? is freaking hilarious ."
   }],
-  "status": "","editorId": "",
+  "lemma": "freaking",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "r",
+    "synonym": "extremely: to an extreme degree; 'extremely cold'; 'extremely unpleasant'; 'she is super smart'; 'the night was deathly cold'; 'as a child, I was deathly afraid of snakes' <i18410>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "freak: lose one's nerve; 'When he saw the accident, he freaked out' <i30654>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

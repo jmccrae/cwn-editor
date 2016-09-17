@@ -1,5 +1,4 @@
 {
-  "lemma": "macaron",
   "examples": [{
     "text": "spent most of the day making these emoji macaron … https : / / t.co / 2t9v7PpcOV"
   }, {
@@ -17,12 +16,22 @@
   }, {
     "text": "someone go to the macaron bar w me plzzz"
   }],
-  "status": "","editorId": "",
+  "lemma": "macaron",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "loanword",
+      "target": "French: the Romance language spoken in France and in countries colonized by France <i73211>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "confectionery: candy and other sweets considered collectively; 'the business decided to concentrate on confectionery and soft drinks' <i76718>",
+      "relNo": 1
+    }],
+    "definition": "a sweet meringue-based confection made with egg white, icing sugar, granulated sugar, almond powder or ground almond, and food colouring. [Wikipedia] "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

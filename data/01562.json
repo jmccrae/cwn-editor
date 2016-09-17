@@ -1,5 +1,4 @@
 {
-  "lemma": "g2g",
   "examples": [{
     "text": "i use g2g so much omg g2g"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "but rn g2g do a little stuff brb in a few"
   }],
-  "status": "","editorId": "",
+  "lemma": "g2g",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Got to go"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

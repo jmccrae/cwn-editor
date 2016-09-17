@@ -1,5 +1,4 @@
 {
-  "lemma": "what is this",
   "examples": [{
     "text": "What is this ASO date auction thing ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Seriously . What is this ? How come they can show this on"
   }],
-  "status": "","editorId": "",
+  "lemma": "what is this",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "cuffin",
   "examples": [{
     "text": "Lames stay big cuffin they jeans and they bitches"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "No cuffin ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "cuff",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "Cuff <00962>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

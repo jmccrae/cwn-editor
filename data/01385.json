@@ -1,5 +1,4 @@
 {
-  "lemma": "bummy",
   "examples": [{
     "text": "don't want a bum nigga but you a bummy bitch ?"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "Make up a1 but I'm so bummy lmao"
   }],
-  "status": "","editorId": "",
+  "lemma": "bummy",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "shitty: very bad; 'a lousy play'; 'it's a stinking world' <i6181>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "bum: the fleshy part of the human body that you sit on; 'he deserves a good kick in the butt'; 'are you going to sit on your fanny and do nothing?' <i66132>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

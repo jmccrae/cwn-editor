@@ -1,5 +1,4 @@
 {
-  "lemma": "ohhh",
   "examples": [{
     "text": "ohhh at subway ? ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ohhh I see? ? lol ."
   }],
-  "status": "","editorId": "",
+  "lemma": "ohhh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Oh"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

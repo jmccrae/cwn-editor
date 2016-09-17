@@ -1,5 +1,4 @@
 {
-  "lemma": "*disrespecting",
   "examples": [{
     "text": "hurts to see my cousins talking back and disrespecting them ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "If you keep on disrespecting pancake day , I will batter yo"
   }],
-  "status": "","editorId": "",
+  "lemma": "Disrespect ",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "disrespect: show a lack of respect for <i34008>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

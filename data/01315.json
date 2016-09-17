@@ -1,5 +1,4 @@
 {
-  "lemma": "ehhh",
   "examples": [{
     "text": "ColdBlood but # DroneBlood instead ! ) Haha Ehhh # DroneLife"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "these in the store and be like \\ ehhh i dont know about nutrigrain waffles \\\"\" .\""
   }],
-  "status": "","editorId": "",
+  "lemma": "ehhh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Eh"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,14 +1,15 @@
 {
-  "lemma": "*slay",
   "examples": [{
     "text": "Today slayed me ?"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "*slay",
   "senses": [{
     "pos": "v",
     "synonym": "tire out=00074774-v <i22148>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

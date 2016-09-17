@@ -1,5 +1,4 @@
 {
-  "lemma": "stressed out",
   "examples": [{
     "text": "amp ; do good but I'm just a stressed out mess"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i am the most stressed out laziest person ever i don ’ t even"
   }],
-  "status": "","editorId": "",
+  "lemma": "stressed out",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "stressed: suffering severe physical strain or distress; 'he dropped out of the race, clearly distressed and having difficulty breathing' <i13626>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

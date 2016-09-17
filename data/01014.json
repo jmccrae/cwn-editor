@@ -1,5 +1,4 @@
 {
-  "lemma": "tbqh",
   "examples": [{
     "text": "don't know what I would do without them tbqh ! ??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm sure his people are on it tbqh"
   }],
-  "status": "","editorId": "",
+  "lemma": "tbqh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "To be quite honest "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

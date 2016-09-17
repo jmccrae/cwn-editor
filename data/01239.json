@@ -1,5 +1,4 @@
 {
-  "lemma": "kmsl",
   "examples": [{
     "text": "Kmsl nah , I'm a change woma"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ahhh shit kmsl ok ok u got me"
   }],
-  "status": "","editorId": "",
+  "lemma": "kmsl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

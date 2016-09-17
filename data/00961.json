@@ -1,5 +1,4 @@
 {
-  "lemma": "brb",
   "examples": [{
     "text": "And I'm really annoyed so brb"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Brb have to go calm down ."
   }],
-  "status": "","editorId": "",
+  "lemma": "brb",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "be right back"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

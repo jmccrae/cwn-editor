@@ -1,5 +1,4 @@
 {
-  "lemma": "mid-range",
   "examples": [{
     "text": "Mid-range Druid will rule the Standard ladder via /"
   }, {
@@ -17,12 +16,22 @@
   }, {
     "text": ".BernieSanders' mid-range jump shot is on ? https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "mid-range",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "medium: around the middle of a scale of evaluation; 'an orange of average size'; 'intermediate capacity'; 'medium bombers' <i8411>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "range: assign a rank or rating to; 'how would you rank these students?'; 'The restaurant is rated highly in the food guide' <i25016>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "middle: being neither at the beginning nor at the end in a series; 'adolescence is an awkward in-between age'; 'in a mediate position'; 'the middle point on a line' <i5552>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "my man",
   "examples": [{
     "text": "thats my man , thats my man "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Proud of my man for winning the New Hampshire Primary # OntoSouthCarolina"
   }],
-  "status": "","editorId": "",
+  "lemma": "my man",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

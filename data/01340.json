@@ -1,5 +1,4 @@
 {
-  "lemma": "willian",
   "examples": [{
     "text": "Willian put that kid on the deck # Tekkers"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "apart from getting sent for a taxi from Willian 1st half , top gam"
   }],
-  "status": "","editorId": "",
+  "lemma": "willian",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

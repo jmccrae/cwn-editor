@@ -1,5 +1,4 @@
 {
-  "lemma": "worldie",
   "examples": [{
     "text": "! ! ! jamie vardy just scored a worldie ! ! ! definitely winning the league !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Another worldie from Gaskell . Couple on saturday to shut"
   }],
-  "status": "","editorId": "",
+  "lemma": "worldie",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "world-class: ranking above all others; 'was first in her class'; 'the foremost figure among marine artists'; 'the top graduate' <i1254>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

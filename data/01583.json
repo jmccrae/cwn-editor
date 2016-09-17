@@ -1,5 +1,4 @@
 {
-  "lemma": "bugzy",
   "examples": [{
     "text": "Difference between and Is that bugzy would take my shit but I'd take chips"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "skoo I bet nobody test em \\ - bugzy # ViewsFromTheRich\""
   }],
-  "status": "","editorId": "",
+  "lemma": "bugzy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

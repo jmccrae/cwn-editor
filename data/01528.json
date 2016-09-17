@@ -1,5 +1,4 @@
 {
-  "lemma": "sooo",
   "examples": [{
     "text": "Always sooo sleepy?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "SOOO blessed to be able to spend the day"
   }],
-  "status": "","editorId": "",
+  "lemma": "sooo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "So"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

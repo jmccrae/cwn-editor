@@ -1,5 +1,4 @@
 {
-  "lemma": "thot",
   "examples": [{
     "text": "shutup hoe control this thot"
   }, {
@@ -21,16 +20,18 @@
   }, {
     "text": "Thot alert ???????? https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "thot",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "hot: sexually excited or exciting; 'was hot for her'; 'hot pants' <i11675>",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "prostitute=02559774-v (sell one's body; exchange sex for money);10505025-n (a woman who engages in sexual intercourse for money)",
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
       "relNo": 0
     }],
-    "definition": " A prostitute."
-  }]
+    "definition": ""
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

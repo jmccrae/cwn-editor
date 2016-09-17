@@ -1,5 +1,4 @@
 {
-  "lemma": "vlog",
   "examples": [{
     "text": ". # VampsWorldTour vlog tops our # YouTubeTuesday roundup : https :"
   }, {
@@ -21,12 +20,30 @@
   }, {
     "text": "Check out my latest # Vlog for the # MakeMeYourWife # youtubeseries this time"
   }],
-  "status": "","editorId": "",
+  "lemma": "vlog",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "domain_topic",
+      "target": "WWW: computer network consisting of a collection of internet sites that offer text and graphics and sound and animation resources through the hypertext transfer protocol <i61269>",
+      "relNo": 4
+    }, {
+      "type": "derivation",
+      "target": "log: a written record of messages sent or received; 'they kept a log of all transmission by the radio station'; 'an email log' <i70634>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "video: a recording of both the visual and audible components (especially one containing a recording of a movie or television program) <i60850>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "piece: an artistic or literary composition; 'he wrote an interesting piece on Iran'; 'the children acted out a comic piece to amuse the guests' <i69453>",
+      "relNo": 1
+    }],
+    "definition": "Regular videos on the Web typically by a single independent author"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "cheated on",
   "examples": [{
     "text": "She's been cheated on and pushed around and left alone"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Cheated on his dealer ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "cheated on",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

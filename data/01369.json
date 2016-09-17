@@ -1,5 +1,4 @@
 {
-  "lemma": "beast mode",
   "examples": [{
     "text": "Beast mode"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Beast Mode ! ! !"
   }],
-  "status": "","editorId": "",
+  "lemma": "beast mode",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

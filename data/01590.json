@@ -1,5 +1,4 @@
 {
-  "lemma": "muggin",
   "examples": [{
     "text": "I stay muggin in pictures tho ?"
   }, {
@@ -17,12 +16,26 @@
   }, {
     "text": "muggin & amp ; & amp ; what not"
   }],
-  "status": "","editorId": "",
+  "lemma": "mug",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "mug: the human face (`kisser' and `smiler' and `mug' are informal terms for `face' and `phiz' is British) <i66346>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "stare: look at with fixed eyes; 'The students stared at the teacher with amazement' <i32416>",
+      "relNo": 1
+    }],
+    "definition": "To stare awkwardly "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

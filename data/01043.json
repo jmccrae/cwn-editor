@@ -1,5 +1,4 @@
 {
-  "lemma": "ur",
   "examples": [{
     "text": "baby I can feel ur halo"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "that # wicked # left tell , hope ur don't bet a grand https : / "
   }],
-  "status": "","editorId": "",
+  "lemma": "ur",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Your"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

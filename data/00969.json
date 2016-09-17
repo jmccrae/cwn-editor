@@ -1,5 +1,4 @@
 {
-  "lemma": "play me",
   "examples": [{
     "text": "play me or your cat dies tomorrow"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Play me in ten minutes ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "play me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

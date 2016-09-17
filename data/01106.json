@@ -1,5 +1,4 @@
 {
-  "lemma": "*twenty-six",
   "examples": [{
     "text": "Inch twenty-six . https : / / t.co / 63ShuXhBGe"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Inch twenty-six . https : / / t.co / btUW0oN19O"
   }],
-  "status": "","editorId": "",
+  "lemma": "*twenty-six",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "13771030-n (the cardinal number that is the sum of twenty-five and one);02196552-a (being six more than twenty)",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

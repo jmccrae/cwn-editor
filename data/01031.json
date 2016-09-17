@@ -1,5 +1,4 @@
 {
-  "lemma": "imma be",
   "examples": [{
     "text": "FUDGE CAKE ( IF YOU DONT GET THIS IMMA BE SAD )"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Gotta stay up man , imma be good ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "imma be",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

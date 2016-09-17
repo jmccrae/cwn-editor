@@ -1,5 +1,4 @@
 {
-  "lemma": "duuude",
   "examples": [{
     "text": "duuude ! it's just so crazy hey . i"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "oh and duuude . You look soo different in real lifeee"
   }],
-  "status": "","editorId": "",
+  "lemma": "duuude",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Dude"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

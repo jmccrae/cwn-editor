@@ -1,5 +1,4 @@
 {
-  "lemma": "cutee",
   "examples": [{
     "text": "How cutee https : / / t.co / WohD8ONKKw"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "you are so cutee awwww ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "cutee",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Cute"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

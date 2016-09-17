@@ -1,5 +1,4 @@
 {
-  "lemma": "*bricking",
   "examples": [{
     "text": "Mysterious 'Error 53 ' is bricking iPhones , rendering them useless : Thousands o"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "I don't agree w those claiming error 53 bricking iPhones is the result of strong Cyber Security"
   }],
-  "status": "","editorId": "",
+  "lemma": "Brick",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "brick: rectangular block of clay baked by the sun or in a kiln; used as a building or paving material <i51122>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "malfunction: fail to function or function improperly; 'the coffee maker malfunctioned' <i29356>",
+      "relNo": 1
+    }],
+    "definition": "To stop working (of an electronic device) "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

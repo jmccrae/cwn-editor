@@ -1,5 +1,4 @@
 {
-  "lemma": "stupid shit",
   "examples": [{
     "text": "Inside the Stupid Shit No One Needs & amp ; Terrible Ideas"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "to the mall and always spend money on stupid shit like why did I just get another piercing"
   }],
-  "status": "","editorId": "",
+  "lemma": "stupid shit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

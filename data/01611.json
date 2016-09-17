@@ -1,5 +1,4 @@
 {
-  "lemma": "editor-in-chief",
   "examples": [{
     "text": "Editor-in-Chief Ray Le Maistre ponders the business case for"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": ", Production , And Delivery [ From The Editor-in-Chief ] https : / / t.co / EuoA78tDJ"
   }],
-  "status": "","editorId": "",
+  "lemma": "editor-in-chief",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "editor in chief: a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine) <i89689>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "nailed it",
   "examples": [{
     "text": "well played future superstars of Indian cricket , nailed it in semis.. We are all behind you fo"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Yeah pretty much nailed it https : / / t.co / 7yWK2dZcIa"
   }],
-  "status": "","editorId": "",
+  "lemma": "nail",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "succeed: attain success or reach a desired goal; 'The enterprise succeeded'; 'We succeeded in getting tickets to the show'; 'she struggled to overcome her handicap and won' <i34330>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

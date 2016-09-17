@@ -1,5 +1,4 @@
 {
-  "lemma": "iwatch",
   "examples": [{
     "text": "https : / / t.co / 84wsiZrLkG # iWatch"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Charging Dock Station Holder Stand For Apple Watch iWatch iPhone https : / / t.co / O0hPLNVYT6"
   }],
-  "status": "","editorId": "",
+  "lemma": "iwatch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

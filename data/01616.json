@@ -1,5 +1,4 @@
 {
-  "lemma": "ecofriendly",
   "examples": [{
     "text": "know # How To # Plan An # EcoFriendly # Party # Clean # Green # Talk"
   }, {
@@ -17,12 +16,26 @@
   }, {
     "text": "⌂ Burgundy Brown Recycled Paper Bead Earrings # EcoFriendly # Earth-friendly ! # green https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "*ecofriendly",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "friendly: inclined to help or support; not antagonistic or hostile; 'a government friendly to our interests'; 'well disposed to the good order and happiness of the United States'; 'a relaxed environment well-disposed to the appreciation of good food and fine wine' <i6822>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "ecology: the branch of biology concerned with the relations between organisms and their environment <i68604>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "good: having desirable or positive qualities especially those suitable for a thing specified; 'good news from the hospital'; 'a good report card'; 'when she was good she was very very good'; 'a good knife is one good for cutting'; 'this stump will make a good picnic table'; 'a good check'; 'a good joke'; 'a good exterior paint'; 'a good secretary'; 'a good dress for the office' <i6163>",
+      "relNo": 1
+    }],
+    "definition": "Good for the environment "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

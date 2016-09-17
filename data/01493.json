@@ -1,5 +1,4 @@
 {
-  "lemma": "severa",
   "examples": [{
     "text": "of mind now , even if you see severa ... More for Capricorn https : / "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I still have you , Severa "
   }],
-  "status": "","editorId": "",
+  "lemma": "severa",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

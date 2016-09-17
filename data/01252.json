@@ -1,5 +1,4 @@
 {
-  "lemma": "clame",
   "examples": [{
     "text": "Groundhogs perpetrate a conspiracy , in which they clame to dictate winter's en"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Biggest NETFLIX Subscription Giveaway . To clame it go to : https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "clame",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Claim"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

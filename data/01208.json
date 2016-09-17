@@ -1,5 +1,4 @@
 {
-  "lemma": "profile pic",
   "examples": [{
     "text": "you profile pic ???"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "really cool , man . Dig the new profile pic . ??? # RockSta"
   }],
-  "status": "","editorId": "",
+  "lemma": "profile pic",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

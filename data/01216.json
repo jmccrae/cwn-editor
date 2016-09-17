@@ -1,5 +1,4 @@
 {
-  "lemma": "swiftie",
   "examples": [{
     "text": ": RT tswizzlegifs : when you recognize another swiftie on the streets"
   }, {
@@ -21,16 +20,18 @@
   }, {
     "text": "RedPh # SpinnrTaylorSwift # SPINNation # SPINNationPHSwiftie # Swiftie # SwiftiePH"
   }],
-  "status": "","editorId": "",
+  "lemma": "swiftie",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "swiftly=00053812-r (in a swift manner; \\\"\"she moved swiftly\\\"\"",
+      "type": "hypernym",
+      "target": "fan: an ardent follower and admirer <i89881>",
       "relNo": 0
     }],
-    "definition": "Someone or something that moves swiftly."
-  }]
+    "definition": "Fan of Taylor Swift "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

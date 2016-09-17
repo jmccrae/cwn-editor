@@ -1,5 +1,4 @@
 {
-  "lemma": "geeked",
   "examples": [{
     "text": "Doritos just geeked"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "Bars got me geeked ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "geeked",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "geek: a person with an unusual or odd personality <i89680>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "intoxicated: stupefied or excited by a chemical substance (especially alcohol); 'a noisy crowd of intoxicated sailors'; 'helplessly inebriated' <i4390>",
+      "relNo": 1
+    }],
+    "definition": "High on a drug such as cocaine"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

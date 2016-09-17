@@ -1,5 +1,4 @@
 {
-  "lemma": "mlrt",
   "examples": [{
     "text": "mlrt reminds me of the suicide forest"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Mlrt is me everyday lmao??"
   }],
-  "status": "","editorId": "",
+  "lemma": "mlrt",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "My last retweet"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

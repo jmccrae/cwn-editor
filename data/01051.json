@@ -1,5 +1,4 @@
 {
-  "lemma": "lawl",
   "examples": [{
     "text": "Lawl ! It's been too long . I'm here"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "yeah , law"
   }],
-  "status": "","editorId": "",
+  "lemma": "lawl",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "laughter: the activity of laughing; the manifestation of joy or mirth or scorn; 'he enjoyed the laughter of the crowd' <i41034>",
+      "relNo": 1
+    }],
+    "definition": "Expression of laughter, frequently insincere "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

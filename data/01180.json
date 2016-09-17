@@ -1,5 +1,4 @@
 {
-  "lemma": "my idol",
   "examples": [{
     "text": "Addi ur my idol"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ".. This is unbelievable ... I Love you My Idol ! ??? https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "my idol",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

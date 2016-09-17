@@ -1,5 +1,4 @@
 {
-  "lemma": "thuggin",
   "examples": [{
     "text": "Thuggin https : / / t.co / Aqn14l7zGv"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "305 x Joe Moses , DJ Mustard - Thuggin ( Clean ) https : / / t.c"
   }],
-  "status": "","editorId": "",
+  "lemma": "thug",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "thug: an aggressive and violent young criminal <i90558>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "act: behave in a certain manner; show a certain behavior; conduct or comport oneself; 'You should act like an adult'; 'Don't behave like a fool'; 'What makes her do this way?'; 'The dog acts ferocious, but he is really afraid of people' <i21819>",
+      "relNo": 1
+    }],
+    "definition": "Acting like a criminal or antisocially but with positive connotations "
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "iphon",
   "examples": [{
     "text": "2016 New Smartwatch Bluetooth Smart watch for Apple iPhon … https : / / t.co / nGTN5koMyZ"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "5c 5s lcd digitizer replacement , for apple iphon ... https : / / t.co / NspGSumoI"
   }],
-  "status": "","editorId": "",
+  "lemma": "iphon",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "iPhone "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

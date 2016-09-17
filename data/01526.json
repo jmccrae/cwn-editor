@@ -1,5 +1,4 @@
 {
-  "lemma": "good girl",
   "examples": [{
     "text": "I said let her no me.I want a good girl charara.I good girl charara.a good girl faggit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Lemme be a good girl and cook ."
   }],
-  "status": "","editorId": "",
+  "lemma": "good girl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

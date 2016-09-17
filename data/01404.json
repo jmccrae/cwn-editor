@@ -1,5 +1,4 @@
 {
-  "lemma": "okk",
   "examples": [{
     "text": "tomorrow I will meet uhhh okk"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Okk man umm crap well i am going on"
   }],
-  "status": "","editorId": "",
+  "lemma": "okk",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "OK "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "shmoney",
   "examples": [{
     "text": "Shmoney baby ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "up and at em time to make this shmoney ?????..got a busy day ahead if me ."
   }],
-  "status": "","editorId": "",
+  "lemma": "shmoney",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "cash: money in the form of bills or coins; 'there is a desperate shortage of hard cash' <i107068>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

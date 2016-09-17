@@ -1,5 +1,4 @@
 {
-  "lemma": "*twenty-five",
   "examples": [{
     "text": "Twenty-five"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "a Bachelors in Business / Accounting and over twenty-five years of profession https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "*twenty-five",
   "senses": [{
-    "pos": "",
-    "synonym": "02196456-a (being five more than twenty);13770903-n (the cardinal number that is the sum of twenty-four and one)",
+    "pos": "n",
+    "synonym": "twenty-five: the cardinal number that is the sum of twenty-four and one <i109127>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

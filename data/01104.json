@@ -1,5 +1,4 @@
 {
-  "lemma": "pssh",
   "examples": [{
     "text": "bang on answer , i love that ?? pssh pssh i do that too ? https "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Pssh well I knew you'd end up being annoying"
   }],
-  "status": "","editorId": "",
+  "lemma": "pssh",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "x",
+    "synonym": "<00000reddit045>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

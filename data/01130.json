@@ -1,5 +1,4 @@
 {
-  "lemma": "paypig",
   "examples": [{
     "text": "# goddess # findom # hotterthanyourwife # paypig # slave http : …"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "payforplay # femdom # tribute # cashisking # paypig # payslut"
   }],
-  "status": "","editorId": "",
+  "lemma": "*paypig",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "pig: domestic swine <i48199>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "pay: give money, usually in exchange for goods or services; 'I paid four dollars for this sandwich'; 'Pay the waitress, please' <i32996>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "person: a human being; 'there was too much for one person to do' <i35562>",
+      "relNo": 1
+    }],
+    "definition": "A sexually submissive male"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

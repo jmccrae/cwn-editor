@@ -1,5 +1,4 @@
 {
-  "lemma": "grax",
   "examples": [{
     "text": "grax bro"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "grax"
   }],
-  "status": "","editorId": "",
+  "lemma": "grax",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Gracias "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

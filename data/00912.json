@@ -1,5 +1,4 @@
 {
-  "lemma": "bussin",
   "examples": [{
     "text": "yesss ! stayed bussin ! ??"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Piped down u aint bussin up shit"
   }],
-  "status": "","editorId": "",
+  "lemma": "bussin",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "hot: sexually excited or exciting; 'was hot for her'; 'hot pants' <i11675>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

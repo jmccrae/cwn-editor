@@ -1,5 +1,4 @@
 {
-  "lemma": "i hate myself",
   "examples": [{
     "text": "I hate myself ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i hate myself"
   }],
-  "status": "","editorId": "",
+  "lemma": "i hate myself",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

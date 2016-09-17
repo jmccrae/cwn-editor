@@ -1,5 +1,4 @@
 {
-  "lemma": "caralho",
   "examples": [{
     "text": "Phrasel Verbs do demonino do caralho arghhhhhhhh"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Jason & amp ; Cia GROIC é o caralho ! Aki é # The100 porra !"
   }],
-  "status": "","editorId": "",
+  "lemma": "caralho",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

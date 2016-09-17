@@ -1,5 +1,4 @@
 {
-  "lemma": "gon",
   "examples": [{
     "text": "I ain't gon do this on Twitter ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "RIP Nutt ?? . Love you and gon miss you big homie"
   }],
-  "status": "","editorId": "",
+  "lemma": "gon",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Going"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

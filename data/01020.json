@@ -1,5 +1,4 @@
 {
-  "lemma": "swole",
   "examples": [{
     "text": ". Pretty sure I can be Vin Diesel swole by next month . Nbd"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "# swole # gains # fit # fitfam # gym"
   }],
-  "status": "","editorId": "",
+  "lemma": "*swole",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "Swollen ",
+      "relNo": 1
+    }],
+    "definition": "Extremely muscled "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

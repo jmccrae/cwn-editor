@@ -1,5 +1,4 @@
 {
-  "lemma": "urgh",
   "examples": [{
     "text": "someone and always ends up hurting ? ? URGH"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "to tidy up and do some work but urgh"
   }],
-  "status": "","editorId": "",
+  "lemma": "urgh",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "disgust: strong feelings of dislike <i76176>",
+      "relNo": 1
+    }],
+    "definition": "Expression of disgust "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

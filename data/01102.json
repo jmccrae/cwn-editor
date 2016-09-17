@@ -1,5 +1,4 @@
 {
-  "lemma": "headcanon",
   "examples": [{
     "text": "This is now my headcanon ."
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "Overheard : headcanon conversation - cinder : thorne no thorne :"
   }],
-  "status": "","editorId": "",
+  "lemma": "headcanon",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "head: the upper part of the human body or the front part of the body in animals; contains the face and brains; 'he stuck his head out the window' <i66025>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "canon: a rule or especially body of rules or principles generally established as valid and fundamental in a field of art or philosophy; 'the neoclassical canon'; 'canons of polite society' <i71508>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "canon: a rule or especially body of rules or principles generally established as valid and fundamental in a field of art or philosophy; 'the neoclassical canon'; 'canons of polite society' <i71508>",
+      "relNo": 1
+    }],
+    "definition": "A personal version of the fantasy world from popular media"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "oh ok",
   "examples": [{
     "text": "Oh ok"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "oh ok ."
   }],
-  "status": "","editorId": "",
+  "lemma": "oh ok",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "acceptance: the act of accepting with approval; favorable reception; 'its adoption by society'; 'the proposal found wide acceptance' <i36361>",
+      "relNo": 1
+    }],
+    "definition": "Expression of resigned acceptance "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

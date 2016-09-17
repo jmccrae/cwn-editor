@@ -1,5 +1,4 @@
 {
-  "lemma": "hyunwoo",
   "examples": [{
     "text": "is actor lee hyunwoo avail ?"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "?My love # HyunWoo # Lee Hyun Woo https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "hyunwoo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

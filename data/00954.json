@@ -1,5 +1,4 @@
 {
-  "lemma": "bitch ass",
   "examples": [{
     "text": "me , i got up so quick , bitch ass better recognize "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Bitch ass thats …"
   }],
-  "status": "","editorId": "",
+  "lemma": "bitch ass",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "asshole: insulting terms of address for people who are stupid or irritating or ridiculous <i88330>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

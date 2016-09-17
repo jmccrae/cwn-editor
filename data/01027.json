@@ -1,5 +1,4 @@
 {
-  "lemma": "oh boy",
   "examples": [{
     "text": "Oh boy , this could be amazing . https "
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Oh boy , here we go again . https "
   }],
-  "status": "","editorId": "",
+  "lemma": "oh boy",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "anticipation: anticipating with confidence of fulfillment <i113127>",
+      "relNo": 1
+    }],
+    "definition": "Expression of anticipation and frequently dread"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

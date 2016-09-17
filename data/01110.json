@@ -1,5 +1,4 @@
 {
-  "lemma": "thottie",
   "examples": [{
     "text": "Don't look at me you little thottie !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Real thottie ????"
   }],
-  "status": "","editorId": "",
+  "lemma": "thottie",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "slut: a woman adulterer <i88094>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

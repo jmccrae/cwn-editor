@@ -1,5 +1,4 @@
 {
-  "lemma": "*laticifer",
   "examples": [{
     "text": "# EurekaMag Evolution of the laticifer in Euphorbia as interpreted from starch grain morphology"
   }, {
@@ -21,32 +20,14 @@
   }, {
     "text": "# EurekaMag Evolution of the laticifer in Euphorbia as interpreted from starch grain morphology"
   }],
-  "status": "","editorId": "",
+  "lemma": "*laticifer",
   "senses": [{
-    "pos": "",
-    "synonym": "13111986-n (a plant duct containing latex)",
+    "pos": "n",
+    "synonym": "laticifer: a plant duct containing latex <i105505>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "metabolite=15135363-n (any substance involved in metabolism (either as a product of metabolism or as necessary for metabolism))",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "rubber=01132700-a (returned for lack of funds; \\\"\"a rubber check\\\"\"; \\\"\"a no-good check\\\"\");00136062-v (coat or impregnate with rubber; \\\"\"rubberize fabric for rain coats\\\"\");02738543-n (a waterproof overshoe that protects shoes from water or snow);03092620-n (contraceptive device consisting of a sheath of thin rubber or latex that is worn over the penis during intercourse);04123606-n (an eraser made of rubber (or of a synthetic material with properties similar to rubber); commonly mounted at one end of a pencil);07480405-n (a contest consisting of a series of successive matches between the same sides; \\\"\"he won three out of five games to take the rubber\\\"\");15030825-n (an elastic material obtained from the latex sap of trees (especially trees of the genera Hevea and Ficus) that can be vulcanized and finished into a variety of products);15031356-n (any of various synthetic elastic materials whose properties resemble natural rubber",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "latex=03651334-n (a water-base paint that has a latex binder);15030685-n (a milky exudate from certain plants that coagulates on exposure to air)",
-      "relNo": 2
-    }, {
-      "type": "none",
-      "target": "secretory=02805077-a (of or relating to or producing a secretion; \\\"\"a secretory cell\\\"\"",
-      "relNo": 3
-    }, {
-      "type": "none",
-      "target": "elongated=01436882-a (having notably more length than width; being long and slender; \\\"\"an elongate tail tapering to a point\\\"\"; \\\"\"the old man's gaunt and elongated frame\\\"\");01437093-a (drawn out or made longer spatially; \\\"\"Picasso's elongated Don Quixote\\\"\"; \\\"\"lengthened skirts are fashionable this year\\\"\"; \\\"\"the extended airport runways can accommodate larger planes\\\"\"; \\\"\"a prolonged black line across the page\\\"\"",
-      "relNo": 4
-    }],
+    "relations": [],
     "definition": " a type of elongated secretory cell found in the leaves and/or stems of plants that produce latex and rubber as secondary metabolites."
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

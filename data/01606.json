@@ -1,5 +1,4 @@
 {
-  "lemma": "horchata",
   "examples": [{
     "text": "Just had the best street tacos and horchata holy shit"
   }, {
@@ -17,12 +16,22 @@
   }, {
     "text": "In December drinking horchata"
   }],
-  "status": "","editorId": "",
+  "lemma": "horchata",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "loanword",
+      "target": "Spanish: the Romance language spoken in most of Spain and the countries colonized by Spain <i73223>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "beverage: any liquid suitable for drinking; 'may I take your beverage order?' <i78658>",
+      "relNo": 1
+    }],
+    "definition": "Spanish traditional beverage,  made of ground almonds, sesame seeds, rice, barley, tigernuts (chufas), or melon seeds [Wikipedia] "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

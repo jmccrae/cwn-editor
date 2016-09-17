@@ -1,5 +1,4 @@
 {
-  "lemma": "awkward moment",
   "examples": [{
     "text": "That awkward moment when"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Awkward moment when you turn up to an audition for"
   }],
-  "status": "","editorId": "",
+  "lemma": "awkward moment",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

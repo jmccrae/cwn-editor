@@ -1,5 +1,4 @@
 {
-  "lemma": "biggest fan",
   "examples": [{
     "text": "I am your biggest Fan and.."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I just voted for in BIGGEST FAN OF STANA KATIC https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "biggest fan",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

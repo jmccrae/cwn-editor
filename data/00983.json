@@ -1,5 +1,4 @@
 {
-  "lemma": "shining on",
   "examples": [{
     "text": "The light is he , shining on you and me . https : / "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "The light is he , shining on you and me . https : / "
   }],
-  "status": "","editorId": "",
+  "lemma": "shining on",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

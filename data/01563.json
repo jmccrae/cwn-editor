@@ -1,5 +1,4 @@
 {
-  "lemma": "niiiice",
   "examples": [{
     "text": "NIIIICE Rosie knows all the words ( james doesn't"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "on the ice and shattered my phone . Niiiice ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "niiiice",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Nice "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

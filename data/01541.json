@@ -1,5 +1,4 @@
 {
-  "lemma": "fuq",
   "examples": [{
     "text": "The Revenant is \\ what the fuq ? ! \\\"\" worthy ?\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "umma stab u in the throat don't fuq wit me"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuq",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Fuck"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

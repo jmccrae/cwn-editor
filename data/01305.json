@@ -1,5 +1,4 @@
 {
-  "lemma": "tooo",
   "examples": [{
     "text": "its crazy but im giving you roses tooo https : / / t.co / szEfBRDRbR"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "yep me tooo cause you just never know whats going to"
   }],
-  "status": "","editorId": "",
+  "lemma": "tooo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Too"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*bossing",
   "examples": [{
     "text": "is Al Gorhythm and why is he always bossing me around ? # RIPTwitter"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Pauleen and Bossing Vic in news GMA !"
   }],
-  "status": "","editorId": "",
+  "lemma": "",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

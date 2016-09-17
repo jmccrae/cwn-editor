@@ -1,5 +1,4 @@
 {
-  "lemma": "love love love",
   "examples": [{
     "text": "Love love love this movie https : / / t.co /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Love love love"
   }],
-  "status": "","editorId": "",
+  "lemma": "love love love",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

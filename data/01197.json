@@ -1,5 +1,4 @@
 {
-  "lemma": "lt",
   "examples": [{
     "text": "Win tickets for & lt ; 24th Feb"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "3 + 1 , + 2 adjunct & lt ; "
   }],
-  "status": "","editorId": "",
+  "lemma": "lt",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

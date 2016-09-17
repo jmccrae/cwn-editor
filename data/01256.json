@@ -1,5 +1,4 @@
 {
-  "lemma": "ehhhh",
   "examples": [{
     "text": "https : / / t.co / h4NZT9ypqL \\ Ehhhh U.U\""
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Ehhhh . I feel like it's getting too overrated"
   }],
-  "status": "","editorId": "",
+  "lemma": "ehhhh",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "misunderstanding: an understanding of something that is not correct; 'he wasn't going to admit his mistake'; 'make no mistake about his intentions'; 'there must be some misunderstanding--I don't have a sister' <i67829>",
+      "relNo": 1
+    }],
+    "definition": "Expression showing failure to understand "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*baksheesh",
   "examples": [{
     "text": "Baksheesh parce que evaluating motorbike insurance agent strategies motorbike"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Big-league baksheesh against squat on the operating overcorrection of error"
   }],
-  "status": "","editorId": "",
+  "lemma": "*baksheesh",
   "senses": [{
-    "pos": "",
-    "synonym": "13319724-n (a relatively small amount of money given for services rendered (as by a waiter))",
+    "pos": "n",
+    "synonym": "baksheesh: a relatively small amount of money given for services rendered (as by a waiter) <i106560>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

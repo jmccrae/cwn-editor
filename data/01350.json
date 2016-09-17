@@ -1,5 +1,4 @@
 {
-  "lemma": "on fleek",
   "examples": [{
     "text": "brows on fleek"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm taking my mom to get on fleek and then we going to dinner / movie"
   }],
-  "status": "","editorId": "",
+  "lemma": "on fleek",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "fashionable: popular and considered appealing or fashionable at the time <i9979>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

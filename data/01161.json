@@ -1,5 +1,4 @@
 {
-  "lemma": "i think so",
   "examples": [{
     "text": ", I am in manc around the 20th I think so I'll extend my visi"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I think so , yes ! You were the one wh"
   }],
-  "status": "","editorId": "",
+  "lemma": "i think so",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

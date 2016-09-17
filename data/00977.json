@@ -1,5 +1,4 @@
 {
-  "lemma": "and shit",
   "examples": [{
     "text": "regular . Make me feel special and warm and shit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "shit about people then hangs out with them and shit , what makes you think they're not gonn"
   }],
-  "status": "","editorId": "",
+  "lemma": "and shit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

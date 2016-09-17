@@ -1,5 +1,4 @@
 {
-  "lemma": "hit that",
   "examples": [{
     "text": "good hit that block while ur at it"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "makes me look forward to every time I hit that GO LIVE button & lt ; 3"
   }],
-  "status": "","editorId": "",
+  "lemma": "hit that",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

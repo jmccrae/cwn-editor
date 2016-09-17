@@ -1,5 +1,4 @@
 {
-  "lemma": "go hard",
   "examples": [{
     "text": "No miracles around here .. Go Hard or Go Home"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hive is a real thing . They really go hard for him ."
   }],
-  "status": "","editorId": "",
+  "lemma": "go hard",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

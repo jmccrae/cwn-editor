@@ -1,5 +1,4 @@
 {
-  "lemma": "yest",
   "examples": [{
     "text": "Ann i watched avidly every minute yest . Could you please tell me what the"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "cancelled train yest , delays last night , delays this a"
   }],
-  "status": "","editorId": "",
+  "lemma": "yest",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Yesterday "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

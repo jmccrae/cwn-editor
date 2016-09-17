@@ -1,5 +1,4 @@
 {
-  "lemma": "gamification",
   "examples": [{
     "text": "Gamification : Engaging Students With Narrative | https :"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "teaching children online safety through # gamification with parrellell apps for parent and teacher #"
   }],
-  "status": "","editorId": "",
+  "lemma": "gamification",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "game: an amusement or pastime; 'they played word games'; 'he thought of his painting as a game that filled his empty time'; 'his life was all fun and games' <i37661>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "process: a particular course of action intended to achieve a result; 'the procedure of obtaining a driver's license'; 'it was a process of trial and error' <i40766>",
+      "relNo": 1
+    }],
+    "definition": "Making something more engaging by incorporating ideas and mechanics from games"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

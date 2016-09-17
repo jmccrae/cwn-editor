@@ -1,5 +1,4 @@
 {
-  "lemma": "hii",
   "examples": [{
     "text": "Hii thank you for being yourself , your kindnes"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hii"
   }],
-  "status": "","editorId": "",
+  "lemma": "hii",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "hi"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

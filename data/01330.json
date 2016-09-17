@@ -1,5 +1,4 @@
 {
-  "lemma": "deez",
   "examples": [{
     "text": "deez nuts"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "All deez candles got me feelin some typa way ."
   }],
-  "status": "","editorId": "",
+  "lemma": "deez",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "These "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

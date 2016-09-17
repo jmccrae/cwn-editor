@@ -1,5 +1,4 @@
 {
-  "lemma": "furbaby",
   "examples": [{
     "text": "CatsofTwitter # Catsofinstagram # Cats # Cat # furbaby PLEASE support us time is running OUT &"
   }, {
@@ -17,12 +16,22 @@
   }, {
     "text": "dogslife # dogmom # dogmommy # proudmommy # furbaby … https : / / t.co / XduVq4KAW8"
   }],
-  "status": "","editorId": "",
+  "lemma": "furbaby",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "baby: a very young mammal; 'baby rabbits' <i42295>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "baby: a very young mammal; 'baby rabbits' <i42295>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "fur: dense coat of fine silky hairs on mammals (e.g., cat or seal or weasel) <i45307>",
+      "relNo": 2
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

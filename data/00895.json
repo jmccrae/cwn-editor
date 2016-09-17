@@ -1,5 +1,4 @@
 {
-  "lemma": "judge me",
   "examples": [{
     "text": "don't judge me ~"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Dear Haters : Dont judge me ? https : / / t.co / s2e3D3lbFt"
   }],
-  "status": "","editorId": "",
+  "lemma": "judge me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

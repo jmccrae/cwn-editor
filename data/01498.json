@@ -1,5 +1,4 @@
 {
-  "lemma": "love is",
   "examples": [{
     "text": "Love is the greatest refreshment in life ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "The River of Love is Converting https : / / t.co / FE4KvkiHsU"
   }],
-  "status": "","editorId": "",
+  "lemma": "love is",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "tgif",
   "examples": [{
     "text": "# TGIF … follow for # bigbootygirls all day !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "a rum punch . It's the weekend # TGIF … https : / / t.co / S0oG1VhFXA"
   }],
-  "status": "","editorId": "",
+  "lemma": "tgif",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Thank God it is Friday "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

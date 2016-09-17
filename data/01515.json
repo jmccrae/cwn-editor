@@ -1,5 +1,4 @@
 {
-  "lemma": "bvb",
   "examples": [{
     "text": "Just playing BVB over here .... Nice mood setter"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "as good at making pancakes as Val # BVB"
   }],
-  "status": "","editorId": "",
+  "lemma": "bvb",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

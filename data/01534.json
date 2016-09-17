@@ -1,5 +1,4 @@
 {
-  "lemma": "oh yeah",
   "examples": [{
     "text": "oh yeah , because I don't fucking thin"
   }, {
@@ -21,12 +20,28 @@
   }, {
     "text": "oh yeah !"
   }],
-  "status": "","editorId": "",
+  "lemma": "oh yeah",
   "senses": [{
-    "pos": "",
+    "pos": "x",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "emotion",
+      "target": "excitement: the feeling of lively and cheerful joy; 'he could hardly conceal his excitement when she agreed' <i76314>",
+      "relNo": 1
+    }],
+    "definition": "Expression of excitement "
+  }, {
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "realisation: coming to understand something clearly and distinctly; 'a growing realization of the risk involved'; 'a sudden recognition of the problem he faced'; 'increasing recognition that diabetes frequently coexists with other chronic diseases' <i67401>",
+      "relNo": 1
+    }],
+    "definition": "Expression of realisation "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

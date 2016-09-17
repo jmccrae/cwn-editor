@@ -1,5 +1,4 @@
 {
-  "lemma": "rmbr",
   "examples": [{
     "text": "I still rmbr how bad am I with hatsuho weapon but"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Wow I don't rmbr Jesus doing this ?????? [ pic ] —"
   }],
-  "status": "","editorId": "",
+  "lemma": "rmbr",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Remember "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

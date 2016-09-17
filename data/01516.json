@@ -1,5 +1,4 @@
 {
-  "lemma": "make me",
   "examples": [{
     "text": "Vince takes any chance to make me look dumb"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ". Pretend I'm a man and try to make me cum. \\ & gt ; & gt ;\""
   }],
-  "status": "","editorId": "",
+  "lemma": "make me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

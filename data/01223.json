@@ -1,5 +1,4 @@
 {
-  "lemma": "*non-issue",
   "examples": [{
     "text": "act for that event . Swearing on Twitter non-issue"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "was just looking at that potential ridge but non-issue today . Small draw tmrw much bigger concern"
   }],
-  "status": "","editorId": "",
+  "lemma": "non-issue",
   "senses": [{
-    "pos": "",
-    "synonym": "14030306-n (the state of something that has outlived its relevance)",
+    "pos": "n",
+    "synonym": "non-issue: the state of something that has outlived its relevance <i110541>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

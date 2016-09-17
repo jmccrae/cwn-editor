@@ -1,5 +1,4 @@
 {
-  "lemma": "fundador",
   "examples": [{
     "text": "Muere Maurice White , fundador del grupo musical Earth , Wind & am"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Mor el fundador d ’ Earth , Wind & amp "
   }],
-  "status": "","editorId": "",
+  "lemma": "fundador",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

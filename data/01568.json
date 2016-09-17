@@ -1,5 +1,4 @@
 {
-  "lemma": "stupidness",
   "examples": [{
     "text": "Mass amounts of stupidness"
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "Just wasting the hotels free wifi for stupidness"
   }],
-  "status": "","editorId": "",
+  "lemma": "stupidness",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "stupidity: a poor ability to understand or to profit from experience <i66587>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "stupid: lacking intelligence; 'a dull job with lazy and unintelligent co-workers' <i7288>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

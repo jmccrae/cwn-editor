@@ -1,5 +1,4 @@
 {
-  "lemma": "samee",
   "examples": [{
     "text": "sAMEE"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "samee"
   }],
-  "status": "","editorId": "",
+  "lemma": "samee",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Samey "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

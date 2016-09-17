@@ -1,5 +1,4 @@
 {
-  "lemma": "grrrrr",
   "examples": [{
     "text": "tell me I'm atheist , still keep on grrrr"
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "God for this day still have body pain grrrrr see you at the AsopTv taping — traveling"
   }],
-  "status": "","editorId": "",
+  "lemma": "grrrrr",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "anger: the state of being angry <i110692>",
+      "relNo": 1
+    }],
+    "definition": "Expression of anger imitating a growl"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

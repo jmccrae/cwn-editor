@@ -1,5 +1,4 @@
 {
-  "lemma": "stay positive",
   "examples": [{
     "text": "I want the Stay Positive 11x17 Signed Poster from Jeydon Wale at District"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "just stay positive EG !"
   }],
-  "status": "","editorId": "",
+  "lemma": "stay positive",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

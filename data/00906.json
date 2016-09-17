@@ -1,5 +1,4 @@
 {
-  "lemma": "ooooooh",
   "examples": [{
     "text": "OOOOOOH YAS WERQ https : / / t.co /"
   }, {
@@ -21,12 +20,38 @@
   }, {
     "text": "ooooooh almost wish it were"
   }],
-  "status": "","editorId": "",
+  "lemma": "ooooooh",
   "senses": [{
-    "pos": "",
+    "pos": "x",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "emotion",
+      "target": "realisation: coming to understand something clearly and distinctly; 'a growing realization of the risk involved'; 'a sudden recognition of the problem he faced'; 'increasing recognition that diabetes frequently coexists with other chronic diseases' <i67401>",
+      "relNo": 1
+    }],
+    "definition": "an expression of realisation"
+  }, {
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "sympathy: sharing the feelings of others (especially feelings of sorrow or anguish) <i76455>",
+      "relNo": 1
+    }],
+    "definition": "an expression showing sympathy"
+  }, {
+    "pos": "x",
+    "synonym": "",
+    "id": 3,
+    "relations": [{
+      "type": "emotion",
+      "target": "excitement: the feeling of lively and cheerful joy; 'he could hardly conceal his excitement when she agreed' <i76314>",
+      "relNo": 1
+    }],
+    "definition": "an expression of excitement and anticipation"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

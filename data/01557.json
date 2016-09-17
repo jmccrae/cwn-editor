@@ -1,5 +1,4 @@
 {
-  "lemma": "newjob",
   "examples": [{
     "text": "# newhair for a # newjob in a # newtown so much cooler now"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "# newjob Internal Recruiter - London , United Kingdom "
   }],
-  "status": "","editorId": "",
+  "lemma": "newjob",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "New job"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

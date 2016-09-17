@@ -1,5 +1,4 @@
 {
-  "lemma": "finessed",
   "examples": [{
     "text": "as well forfeit the match , Vardy fully finessed the"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "You getting finessed yaself"
   }],
-  "status": "","editorId": "",
+  "lemma": "finesse",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "persuade: cause somebody to adopt a certain position, belief, or course of action; twist somebody's arm; 'You can't persuade me to buy this ugly vase!' <i25525>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "finesse: subtly skillful handling of a situation <i62435>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

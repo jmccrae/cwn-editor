@@ -1,5 +1,4 @@
 {
-  "lemma": "fisher-price",
   "examples": [{
     "text": "moms help me drop the price of the Fisher-Price Spinnyos Slide to $10.00 ( 67 % off"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Toy for Baby Toddler Kids Smart Stages Chair Fisher-Price Laugh and Learn # Baby https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "fisher-price",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

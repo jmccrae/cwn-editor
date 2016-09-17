@@ -1,5 +1,4 @@
 {
-  "lemma": "jalapeño",
   "examples": [{
     "text": "First the jalapeño guy now this ? ? ? UCONN.. Who's"
   }, {
@@ -21,20 +20,22 @@
   }, {
     "text": "SB50 menu : crab stuffed jalapeño poppers , shrimp po-boys , andouille & am"
   }],
-  "status": "","editorId": "",
+  "lemma": "jalapeño",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "Capsicum annuum=",
+      "type": "hypernym",
+      "target": "chili: very hot and finely tapering pepper of special pungency <i77587>",
       "relNo": 0
     }, {
-      "type": "none",
-      "target": "chili=07737201-n (very hot and finely tapering pepper of special pungency);07880910-n (ground beef and chili peppers or chili powder often with tomatoes and kidney beans)",
+      "type": "loanword",
+      "target": "Spanish: the Romance language spoken in most of Spain and the countries colonized by Spain <i73223>",
       "relNo": 1
     }],
-    "definition": "A cultivar of hot chili pepper, ''Capsicum annuum'"
-  }]
+    "definition": "A cultivar of hot chili pepper, ''Capsicum annuum' [wiktionary] "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

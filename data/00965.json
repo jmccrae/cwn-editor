@@ -1,5 +1,4 @@
 {
-  "lemma": "my guy",
   "examples": [{
     "text": "- my guy is wearing space boots fam , mad tin"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "My guy thats impossible labda one on one ill give"
   }],
-  "status": "","editorId": "",
+  "lemma": "my guy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*a shit",
   "examples": [{
     "text": "My boyfriend be slaying my ass cause I'm a shit as driver but I mean ... You drive"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hate taking a shit in a public restroom next to a bum"
   }],
-  "status": "","editorId": "",
+  "lemma": "*a shit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

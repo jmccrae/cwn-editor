@@ -1,5 +1,4 @@
 {
-  "lemma": "worst day",
   "examples": [{
     "text": "to the Vet \\ Adorable Pets having the worst day at the vets ! : D https :\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Today has literally went from terrible to the worst day of my life??"
   }],
-  "status": "","editorId": "",
+  "lemma": "worst day",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

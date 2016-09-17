@@ -1,5 +1,4 @@
 {
-  "lemma": "gotta",
   "examples": [{
     "text": "but I know it's over and we just gotta let it"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "YOu GoTtA pRay to mE I wIll DECide iF yUO"
   }],
-  "status": "","editorId": "",
+  "lemma": "gotta",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Got to"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "trece",
   "examples": [{
     "text": "# EnFebreroVoyA trece"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "trece # VoteDoveCameron # KCA"
   }],
-  "status": "","editorId": "",
+  "lemma": "trece",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

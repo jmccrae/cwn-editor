@@ -1,5 +1,4 @@
 {
-  "lemma": "jaha",
   "examples": [{
     "text": "- no jaha"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "who's idea was it to change camp Jaha to Arkadia"
   }],
-  "status": "","editorId": "",
+  "lemma": "jaha",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

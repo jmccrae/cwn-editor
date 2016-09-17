@@ -1,5 +1,4 @@
 {
-  "lemma": "grindin",
   "examples": [{
     "text": "haven't got my taxes ! This is with Grindin working hard asf"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "about salute . N Atlantic Records . Keep grindin"
   }],
-  "status": "","editorId": "",
+  "lemma": "grind",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "grind: work hard; 'She was digging away at her math homework'; 'Lexicographers drudge all day long' <i33834>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

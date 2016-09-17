@@ -1,5 +1,4 @@
 {
-  "lemma": "bucket list",
   "examples": [{
     "text": "are up there in age , making it bucket list worthy "
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "yes Ma'am cause Hawaii is on my bucket list"
   }],
-  "status": "","editorId": "",
+  "lemma": "bucket list",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "kick the bucket: pass from physical life and lose all bodily attributes and functions necessary to sustain life; 'She died from cancer'; 'The children perished in the fire'; 'The patient went peacefully'; 'The old guy kicked the bucket at the age of 102' <i23529>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "list: a database containing an ordered array of items (names or topics) <i70513>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "list: a database containing an ordered array of items (names or topics) <i70513>",
+      "relNo": 1
+    }],
+    "definition": "A list of things you plan to do before you die"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

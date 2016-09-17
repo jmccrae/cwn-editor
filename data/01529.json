@@ -1,5 +1,4 @@
 {
-  "lemma": "little bitch",
   "examples": [{
     "text": "it's a girl . And hex is a little bitch"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "my phone been acting like a little bitch"
   }],
-  "status": "","editorId": "",
+  "lemma": "little bitch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

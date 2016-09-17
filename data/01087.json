@@ -1,5 +1,4 @@
 {
-  "lemma": "coin toss",
   "examples": [{
     "text": "NFL : It's a # Panthers coin toss & amp ; # Broncos will receive !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "fix all the errors . What about bogus coin toss results . Clintons are so slick"
   }],
-  "status": "","editorId": "",
+  "lemma": "coin toss",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "toss: the act of flipping a coin <i41924>",
     "id": 1,
     "relations": [],
     "definition": "A particular instance where a coin is launched in the air, and whichever side that it lands on finalises a decision"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

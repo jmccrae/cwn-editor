@@ -1,5 +1,4 @@
 {
-  "lemma": "doxing",
   "examples": [{
     "text": "Retaliates Against Woman Who Pulled Cop Over by Doxing Her https : / / t.co / 2mQ9Snkset"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "a cryptic but not very clever attempt at doxing me please remove the troll b4 someone is"
   }],
-  "status": "","editorId": "",
+  "lemma": "doxing",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "harassment: the act of tormenting by continued persistent attacks and criticism <i37610>",
+      "relNo": 1
+    }],
+    "definition": "Releasing someone's personal information on the Web with the intention of causing harassment "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

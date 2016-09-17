@@ -1,5 +1,4 @@
 {
-  "lemma": "*the 4",
   "examples": [{
     "text": "The 4 daughters each have 1 brother ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Is the 4 : 30 number 65 to blessington running ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "*the 4",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

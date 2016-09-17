@@ -1,5 +1,4 @@
 {
-  "lemma": "autocorrected",
   "examples": [{
     "text": "that autocorrected I don't care that much"
   }, {
@@ -19,12 +18,30 @@
   }, {
     "text": "mean too ! ! Idk why my phone autocorrected I'm ! ???"
   }],
-  "status": "","editorId": "",
+  "lemma": "autocorrect",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "computing: the branch of engineering science that studies (with the aid of computers) computable processes and structures <i68812>",
+      "relNo": 4
+    }, {
+      "type": "derivation",
+      "target": "correct: make right or correct; 'Correct the mistakes'; 'rectify the calculation' <i22723>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "automatic: operating with minimal human intervention; independent of external control; 'automatic transmission'; 'a budget deficit that caused automatic spending cuts' <i980>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "correct: make right or correct; 'Correct the mistakes'; 'rectify the calculation' <i22723>",
+      "relNo": 1
+    }],
+    "definition": "To correct automatically (of a computer system) "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

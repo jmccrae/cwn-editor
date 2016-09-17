@@ -1,5 +1,4 @@
 {
-  "lemma": "yazi",
   "examples": [{
     "text": "are escorts on TLC and it's really interesting yazi ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Yazi Donald Trump is gonna win this thing ."
   }],
-  "status": "","editorId": "",
+  "lemma": "*yazi",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

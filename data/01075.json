@@ -1,5 +1,4 @@
 {
-  "lemma": "lrt",
   "examples": [{
     "text": "Lrt , what in God's green earth "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "OMG & gt ; lrt"
   }],
-  "status": "","editorId": "",
+  "lemma": "lrt",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Last retweet"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "oh hell",
   "examples": [{
     "text": "OH HELL NO ! THEY BETTER NOT START THEM DAMN"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "oh hell nah ??? https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "oh hell",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "disgust: strong feelings of dislike <i76176>",
+      "relNo": 1
+    }],
+    "definition": "Expression of disgust "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "baee",
   "examples": [{
     "text": "I wanna Baee ??"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "hair and nails done ! i love treating baee like a princess"
   }],
-  "status": "","editorId": "",
+  "lemma": "baee",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Bae"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

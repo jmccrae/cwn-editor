@@ -1,5 +1,4 @@
 {
-  "lemma": "proud of you",
   "examples": [{
     "text": "Brother ( Fouji ) We Are So Proud Of You"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "again you have so much talent I'm so proud of you"
   }],
-  "status": "","editorId": "",
+  "lemma": "proud of you",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

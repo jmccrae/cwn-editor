@@ -1,5 +1,4 @@
 {
-  "lemma": "kfb",
   "examples": [{
     "text": "kfb dear"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "kfb ... thanks"
   }],
-  "status": "","editorId": "",
+  "lemma": "kfb",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Kindly follow back"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

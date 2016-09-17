@@ -1,5 +1,4 @@
 {
-  "lemma": "love me",
   "examples": [{
     "text": "( Love me , love me , baby ) XaGnes TeRen"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "love me"
   }],
-  "status": "","editorId": "",
+  "lemma": "love me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

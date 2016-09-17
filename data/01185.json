@@ -1,5 +1,4 @@
 {
-  "lemma": "check it out",
   "examples": [{
     "text": "Another 5 star client testimonial , check it out "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Check it out ! I donated to Howlin4Spirit K9 Rescue &"
   }],
-  "status": "","editorId": "",
+  "lemma": "check out",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "check out: examine so as to determine accuracy, quality, or condition; 'check the brakes'; 'Check out the engine' <i25036>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

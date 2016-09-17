@@ -1,5 +1,4 @@
 {
-  "lemma": "well played",
   "examples": [{
     "text": "well played today De pena"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Well played , sir . What is the max volum"
   }],
-  "status": "","editorId": "",
+  "lemma": "well played",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

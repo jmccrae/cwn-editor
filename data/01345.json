@@ -1,5 +1,4 @@
 {
-  "lemma": "gift cards",
   "examples": [{
     "text": "Good night and Sleep Well ."
   }, {
@@ -37,12 +36,26 @@
   }, {
     "text": "Get FREE , , & amp ; other gift cards w / this site . Use this cod"
   }],
-  "status": "","editorId": "",
+  "lemma": "gift cards",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": "</text>"
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "gift: something acquired without compensation <i106363>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "card: a rectangular piece of stiff paper used to send messages (may have printed greetings or pictures); 'they sent us a card from Miami' <i71306>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "card: a rectangular piece of stiff paper used to send messages (may have printed greetings or pictures); 'they sent us a card from Miami' <i71306>",
+      "relNo": 1
+    }],
+    "definition": "A card with store credit given as a gift"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

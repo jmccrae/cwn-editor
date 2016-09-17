@@ -1,5 +1,4 @@
 {
-  "lemma": "loveeeee",
   "examples": [{
     "text": "loveeeee uuuu my heart kinggg @ ???????"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "loveeeee u"
   }],
-  "status": "","editorId": "",
+  "lemma": "loveeeee",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Love"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

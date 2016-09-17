@@ -1,5 +1,4 @@
 {
-  "lemma": "idky",
   "examples": [{
     "text": "me . before I couldn't click anything . idky twitter insists on trying to fix what ain't"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Idky I'm watching this shit show right now"
   }],
-  "status": "","editorId": "",
+  "lemma": "idky",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "I don't know why"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

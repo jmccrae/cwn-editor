@@ -1,5 +1,4 @@
 {
-  "lemma": "lil bro",
   "examples": [{
     "text": "happy birthday lil bro , enjoy it✊"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "?? “ Best diss track go to my lil bro ! ! Shit should be nominated for a"
   }],
-  "status": "","editorId": "",
+  "lemma": "lil bro",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Little bro"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

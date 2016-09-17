@@ -1,5 +1,4 @@
 {
-  "lemma": "*groundhog",
   "examples": [{
     "text": "Ima shoot the groundhog"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "very sorry but I killed puxatawny Phil and groundhog day next year will be cancelled thank you"
   }],
-  "status": "","editorId": "",
+  "lemma": "groundhog",
   "senses": [{
-    "pos": "",
-    "synonym": "02364239-n (reddish brown North American marmot)",
+    "pos": "n",
+    "synonym": "groundhog: reddish brown North American marmot <i47977>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

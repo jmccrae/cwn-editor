@@ -1,5 +1,4 @@
 {
-  "lemma": "*cost-effective",
   "examples": [{
     "text": "Reliable , Cost-Effective , Integrated # NetworkSecurity to Protect Patient Dat"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Cost-effective poster painting so that tote alias multitudinal :"
   }],
-  "status": "","editorId": "",
+  "lemma": "*cost-effective",
   "senses": [{
-    "pos": "",
-    "synonym": "00843642-a (productive relative to the cost)",
+    "pos": "a",
+    "synonym": "cost-effective: productive relative to the cost <i4609>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

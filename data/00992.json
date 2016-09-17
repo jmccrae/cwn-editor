@@ -1,5 +1,4 @@
 {
-  "lemma": "lmmfao",
   "examples": [{
     "text": "lmmfao twitpic when she reach"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "awesome to awesome sometimes that she get irritated lmmfao IDGAF AT ALL tho I'm sitting like ok"
   }],
-  "status": "","editorId": "",
+  "lemma": "lmmfao",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "laughing my mother fucking ass off"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

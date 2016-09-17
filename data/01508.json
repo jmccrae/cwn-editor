@@ -1,5 +1,4 @@
 {
-  "lemma": "*dumbass",
   "examples": [{
     "text": "stiles called Theo a dumbass : - ) ) ) ) )"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "And then there was this 1 dumbass DJ who put the speakers on full blast"
   }],
-  "status": "","editorId": "",
+  "lemma": "dumbass",
   "senses": [{
-    "pos": "",
-    "synonym": "10059388-n (a stupid person; these words are used to express a low opinion of someone's intelligence)",
+    "pos": "n",
+    "synonym": "dumbass: a stupid person; these words are used to express a low opinion of someone's intelligence <i89659>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

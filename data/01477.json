@@ -1,5 +1,4 @@
 {
-  "lemma": "i gotchu",
   "examples": [{
     "text": "that's what you want then okay , sure I gotch"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "okay then I gotchu ! I will hit you up !"
   }],
-  "status": "","editorId": "",
+  "lemma": "i gotchu",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "I got you "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

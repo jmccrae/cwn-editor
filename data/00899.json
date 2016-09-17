@@ -1,5 +1,4 @@
 {
-  "lemma": "woah",
   "examples": [{
     "text": "woah how did u know"
   }, {
@@ -21,12 +20,28 @@
   }, {
     "text": "hahaha woah ! ! ! Don't do that ! Mmm"
   }],
-  "status": "","editorId": "",
+  "lemma": "woah",
   "senses": [{
-    "pos": "",
+    "pos": "x",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "emotion",
+      "target": "warning: cautionary advice about something imminent (especially imminent danger or other unpleasantness); 'a letter of admonition about the dangers of immorality'; 'the warning was to beware of surprises'; 'his final word of advice was not to play with matches' <i71549>",
+      "relNo": 1
+    }],
+    "definition": "an expression indicating that the other party in the conversation is going too far"
+  }, {
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 1
+    }],
+    "definition": "an expression of surprise"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

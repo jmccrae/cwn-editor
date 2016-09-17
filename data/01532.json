@@ -1,5 +1,4 @@
 {
-  "lemma": "presidential debate",
   "examples": [{
     "text": "Full Republican Presidential Debate in New Hampshire ( February 6 , 201"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "/ / t.co / tmfDDBtO6O ABC News Republican Presidential Debate : The Best Line Was ..."
   }],
-  "status": "","editorId": "",
+  "lemma": "presidential debate",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

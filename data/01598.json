@@ -1,5 +1,4 @@
 {
-  "lemma": "fany",
   "examples": [{
     "text": "24 . Fany was very emotional in their performance “ Dear"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Fany sang \\ Don't tease me because I'm old\""
   }],
-  "status": "","editorId": "",
+  "lemma": "fany",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

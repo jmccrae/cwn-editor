@@ -1,5 +1,4 @@
 {
-  "lemma": "d-line",
   "examples": [{
     "text": "Broncos D-line eating em alive.."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "absolutely did NOT screw us over . Denver d-line dominated . That being said I thought the"
   }],
-  "status": "","editorId": "",
+  "lemma": "d-line",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "defensive line"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

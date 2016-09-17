@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck yeah",
   "examples": [{
     "text": "FUCK YEAH # superior"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Fuck yeah"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuck yeah",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "approval: a feeling of liking something or someone good; 'although she fussed at them, she secretly viewed all her children with approval' <i76158>",
+      "relNo": 1
+    }],
+    "definition": "Expression of strong approval "
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

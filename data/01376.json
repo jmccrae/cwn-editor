@@ -1,5 +1,4 @@
 {
-  "lemma": "w4m",
   "examples": [{
     "text": "* * * * * * * - w4m ( Leith View Rd , Horsham , Wes"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "# w4m # sex # horny 2 Girl Specials !"
   }],
-  "status": "","editorId": "",
+  "lemma": "w4m",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Woman for man"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

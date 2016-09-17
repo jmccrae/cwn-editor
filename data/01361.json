@@ -1,5 +1,4 @@
 {
-  "lemma": "yaa",
   "examples": [{
     "text": "yaa sayed one front shirtless pic selfie ? valentine"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "urwellcome yaa"
   }],
-  "status": "","editorId": "",
+  "lemma": "yaa",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Yes"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

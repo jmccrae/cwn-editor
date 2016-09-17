@@ -1,5 +1,4 @@
 {
-  "lemma": "hunnit",
   "examples": [{
     "text": "Them youngins toten guns were I'm from? with hunnit round drums were im from ?"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "A hunnit Twitter Beckies cain't tell my nothin https :"
   }],
-  "status": "","editorId": "",
+  "lemma": "hunnit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Hundred "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

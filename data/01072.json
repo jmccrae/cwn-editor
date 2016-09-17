@@ -1,5 +1,4 @@
 {
-  "lemma": "pmsl",
   "examples": [{
     "text": "pmsl you bugger xx"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "\\ .... and respond \\\"\" Good look \\\"\" PMSL\""
   }],
-  "status": "","editorId": "",
+  "lemma": "pmsl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Pissing myself laughing "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

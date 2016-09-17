@@ -1,5 +1,4 @@
 {
-  "lemma": "effed",
   "examples": [{
     "text": "He effed up ..... then manned up . Unfortunately "
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "yeah i effed up"
   }],
-  "status": "","editorId": "",
+  "lemma": "eff up",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "fuck up: make a mess of, destroy or ruin; 'I botched the dinner and we had to eat out'; 'the pianist screwed up the difficult passage in the second movement' <i34345>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "fuck up: make a mess of, destroy or ruin; 'I botched the dinner and we had to eat out'; 'the pianist screwed up the difficult passage in the second movement' <i34345>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

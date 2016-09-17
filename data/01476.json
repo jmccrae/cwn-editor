@@ -1,5 +1,4 @@
 {
-  "lemma": "luh",
   "examples": [{
     "text": "I LUH MA BESTFRANDD"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Still Can't Believe Luh A Gone , I Was So In Lov"
   }],
-  "status": "","editorId": "",
+  "lemma": "luh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Love"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

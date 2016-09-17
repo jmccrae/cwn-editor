@@ -1,5 +1,4 @@
 {
-  "lemma": "sideboob",
   "examples": [{
     "text": "⬅? # nsfw # erotica # bigass # sideboob https : / / t.co / PBKLG4ZxUt"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "her sexy feet , kinky # lingerie # sideboob https : / / t.co / oFZrSjOMxb http"
   }],
-  "status": "","editorId": "",
+  "lemma": "sideboob",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "side: either the left or right half of a body; 'he had a pain in his side' <i66089>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "boob: either of two soft fleshy milk-secreting glandular organs on the chest of a woman <i66106>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "boob: either of two soft fleshy milk-secreting glandular organs on the chest of a woman <i66106>",
+      "relNo": 1
+    }],
+    "definition": "A breast exposed from the side"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

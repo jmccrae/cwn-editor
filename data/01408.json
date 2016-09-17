@@ -1,5 +1,4 @@
 {
-  "lemma": "upcycle",
   "examples": [{
     "text": "you do with empty makeup packaging ? We upcycle them ? check it out https : /"
   }, {
@@ -17,12 +16,22 @@
   }, {
     "text": "6 Ways to Upcycle Old Baby Blankets https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "upcycle",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "recycle: use again after processing; 'We must recycle the cardboard boxes' <i27431>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "recycle: use again after processing; 'We must recycle the cardboard boxes' <i27431>",
+      "relNo": 1
+    }],
+    "definition": "To transform an old product into a newer and more expensive form with a different use"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

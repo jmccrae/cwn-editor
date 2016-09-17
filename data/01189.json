@@ -1,5 +1,4 @@
 {
-  "lemma": "happy monday",
   "examples": [{
     "text": "much for following ! Wishing you all a happy Monday ! ( Via https : / / t.co"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "thanks for the follow ! Happy Monday ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "happy monday",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

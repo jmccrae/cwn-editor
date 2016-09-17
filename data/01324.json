@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck sake",
   "examples": [{
     "text": "3 marks off from passing my theory for fuck sake"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Fuck sake , it's getting hard to defend you nowaday"
   }],
-  "status": "","editorId": "",
+  "lemma": "For fuck sake",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "exasperation: an exasperated feeling of annoyance <i76267>",
+      "relNo": 1
+    }],
+    "definition": "Expression of exasperation "
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

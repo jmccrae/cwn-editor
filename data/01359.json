@@ -1,5 +1,4 @@
 {
-  "lemma": "*kookie",
   "examples": [{
     "text": "Kookie nii chan my butler"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "© BERRY KOOKIE https : / / t.co / 2VlAqD5iBQ"
   }],
-  "status": "","editorId": "",
+  "lemma": "*kookie",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "02082059-a (informal or slang terms for mentally irregular; \\\"\"it used to drive my husband balmy\\\"\"",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

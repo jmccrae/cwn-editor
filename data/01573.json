@@ -1,5 +1,4 @@
 {
-  "lemma": "youtubed",
   "examples": [{
     "text": "Youtubed : This cute girl masturbates live at her"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Youtubed : This cute girl masturbates live at her"
   }],
-  "status": "","editorId": "",
+  "lemma": "youtubed",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

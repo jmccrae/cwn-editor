@@ -1,5 +1,4 @@
 {
-  "lemma": "my mom",
   "examples": [{
     "text": "My mom just called me on the Facebook messenger thing"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm taking my mom to get on fleek and then we going"
   }],
-  "status": "","editorId": "",
+  "lemma": "my mom",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

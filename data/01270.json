@@ -1,5 +1,4 @@
 {
-  "lemma": "wasup",
   "examples": [{
     "text": "IM TRYNA GET TO DA CHI WASUP WIT A PLAY"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Wasup"
   }],
-  "status": "","editorId": "",
+  "lemma": "wasup",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "What is up"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "top 100",
   "examples": [{
     "text": "Cube Game by Hasbro 10 days in the top 100 ( 326 ) Buy new : $11.99 $9.99"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# ActionCOACH ranked 35 this year in the Top 100 Global Franchises ! What an absolute honor to"
   }],
-  "status": "","editorId": "",
+  "lemma": "top 100",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

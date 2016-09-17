@@ -1,5 +1,4 @@
 {
-  "lemma": "hunni",
   "examples": [{
     "text": "hunni xx"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "thankyou hunni , have you got skype ? come an"
   }],
-  "status": "","editorId": "",
+  "lemma": "hunni",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Honey"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

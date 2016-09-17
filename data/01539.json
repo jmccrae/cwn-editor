@@ -1,5 +1,4 @@
 {
-  "lemma": "*bout",
   "examples": [{
     "text": "amp ; a Cheen , Ima Boss Im Bout That UNITY ... SandWhiches U Know U I"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "fuck u rolling bout lol"
   }],
-  "status": "","editorId": "",
+  "lemma": "*bout",
   "senses": [{
-    "pos": "",
-    "synonym": "00511734-n (an occasion for excessive eating or drinking; \\\"\"they went on a bust that lasted three days\\\"\");07471697-n (a contest or fight (especially between boxers or wrestlers));15144014-n (a period of illness; \\\"\"a bout of fever\\\"\"; \\\"\"a bout of depression\\\"\");15281525-n ((sports) a division during which one team is on the offensive",
+    "pos": "n",
+    "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "About "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

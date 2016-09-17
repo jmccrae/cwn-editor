@@ -1,5 +1,4 @@
 {
-  "lemma": "smth",
   "examples": [{
     "text": "Assad had smth similar . https : / / t.co /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "it's a sign that theyre gon date or smth lol cant celebs follow e / o just"
   }],
-  "status": "","editorId": "",
+  "lemma": "smth",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Something "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

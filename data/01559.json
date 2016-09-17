@@ -1,5 +1,4 @@
 {
-  "lemma": "*waisting",
   "examples": [{
     "text": "Tell em stop waisting their time , you're min"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "that doesn't believe or trust you ? Just waisting time"
   }],
-  "status": "","editorId": "",
+  "lemma": "*waisting",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Wasting "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

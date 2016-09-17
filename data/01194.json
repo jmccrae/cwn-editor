@@ -1,5 +1,4 @@
 {
-  "lemma": "fbf",
   "examples": [{
     "text": "# fattyfriday # fbf # fluffalump # heffalump # gigantasaurus"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# FBF via ?? https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "fbf",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Flashback Friday "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

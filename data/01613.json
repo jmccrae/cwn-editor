@@ -1,5 +1,4 @@
 {
-  "lemma": "unfriended",
   "examples": [{
     "text": "Unfriended , the untold sequel : Blocked . http"
   }, {
@@ -17,12 +16,22 @@
   }, {
     "text": "Just unfriended a kid from high school on Facebook because"
   }],
-  "status": "","editorId": "",
+  "lemma": "unfriend",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "friend: a person with whom you are acquainted; 'I have trouble remembering the names of all my acquaintances'; 'we are friends of the family' <i88061>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "remove: remove something concrete, as by lifting, pushing, or taking off, or remove something abstract; 'remove a threat'; 'remove a wrapper'; 'Remove the dirty dishes from the table'; 'take the gun from your pocket'; 'This machine withdraws heat from the environment' <i22577>",
+      "relNo": 1
+    }],
+    "definition": "To remove someone from your list of friends on a social network "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

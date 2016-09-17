@@ -1,5 +1,4 @@
 {
-  "lemma": "for shit",
   "examples": [{
     "text": "Never needed a nigga for shit !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "She wasn't good for shit I hadda cancel that bitch ? !"
   }],
-  "status": "","editorId": "",
+  "lemma": "for shit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

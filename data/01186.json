@@ -1,5 +1,4 @@
 {
-  "lemma": "white girl",
   "examples": [{
     "text": "When a white girl says she's down with the hood # HoodTanic"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "White girl trash tbh"
   }],
-  "status": "","editorId": "",
+  "lemma": "white girl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

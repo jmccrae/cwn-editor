@@ -1,5 +1,4 @@
 {
-  "lemma": "my boyfriend",
   "examples": [{
     "text": "For 3 years I have fame timed my boyfriend every night & amp ; I cannot sleep"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "as sleeping with him anyways ? I miss my boyfriend ."
   }],
-  "status": "","editorId": "",
+  "lemma": "my boyfriend",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

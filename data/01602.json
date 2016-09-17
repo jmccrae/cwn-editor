@@ -1,5 +1,4 @@
 {
-  "lemma": "whattttt",
   "examples": [{
     "text": "lmao whattttt"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "WHATTTTT"
   }],
-  "status": "","editorId": "",
+  "lemma": "whattttt",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "What"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

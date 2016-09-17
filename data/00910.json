@@ -1,5 +1,4 @@
 {
-  "lemma": "betch",
   "examples": [{
     "text": "why you subtweetin lil betch"
   }, {
@@ -21,12 +20,20 @@
   }, {
     "text": "hi betch https : / / t.co / dUBfcZdnF5"
   }],
-  "status": "","editorId": "",
+  "lemma": "betch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
+    "synonym": "",
+    "id": 2,
+    "relations": [],
+    "definition": "bet"
+  }, {
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "bitch"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

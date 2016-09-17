@@ -1,5 +1,4 @@
 {
-  "lemma": "chale",
   "examples": [{
     "text": "Chale . Hurt deep down"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "The master mix happening live chale ?going hard mahn # LIFESTYLECAFE w / #"
   }],
-  "status": "","editorId": "",
+  "lemma": "chale",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

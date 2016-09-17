@@ -1,5 +1,4 @@
 {
-  "lemma": "ohhhhhhh",
   "examples": [{
     "text": "Ohhhhhhh honey I will . But I have to"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "OHHHHHHH MY GOD THE MP100 PV IM FUCKING SCREAMING"
   }],
-  "status": "","editorId": "",
+  "lemma": "ohhhhhhh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Oh"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

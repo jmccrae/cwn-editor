@@ -1,5 +1,4 @@
 {
-  "lemma": "one-shot",
   "examples": [{
     "text": "Just an experimental BTS one-shot from Ms . A's perspective . Goodnight "
   }, {
@@ -17,24 +16,14 @@
   }, {
     "text": "Hahn takes one-shot lead in Phoenix https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "one-shot",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "series=05871305-n ((mathematics) the sum of a finite or infinite sequence of expressions);06606007-n (a periodical that appears at scheduled times);06633954-n (a serialized set of programs; \\\"\"a comedy series\\\"\"; \\\"\"the Masterworks concert series\\\"\");07480588-n ((sports) several contests played successively by the same teams; \\\"\"the visiting team swept the series\\\"\");08474987-n (similar things placed in order or happening one after another; \\\"\"they were investigating a series of bank robberies\\\"\");08475515-n (a group of postage stamps having a common theme or a group of coins or currency selected as a group for study or collection; \\\"\"the Post Office issued a series commemorating famous American entertainers\\\"\"; \\\"\"his coin collection included the complete series of Indian-head pennies\\\"\");13814122-n ((electronics) connection of components in such a manner that current flows first through one and then through the other; \\\"\"the voltage divider consisted of a series of fixed resistors\\\"\"",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "programme=00796926-v (arrange a program of or for; \\\"\"program the 80th birthday party\\\"\");01751525-v (write a computer program);00552252-n (a performance (or series of performances) at a public presentation; \\\"\"the program lasted more than two hours\\\"\");05907175-n (a series of steps to be carried out or goals to be accomplished; \\\"\"they drew up a six-step plan\\\"\"; \\\"\"they discussed plans for a new bond issue\\\"\");05907694-n (a system of projects or services intended to meet a public need; \\\"\"he proposed an elaborate program of public works\\\"\"; \\\"\"working mothers rely on the day care program\\\"\");06581154-n ((computer science) a sequence of instructions that a computer can interpret and execute; \\\"\"the program required several hundred lines of code\\\"\");06631935-n (a radio or television show; \\\"\"did you see his program last night?\\\"\");06689161-n (an integrated course of academic studies; \\\"\"he was admitted to a new program at the university\\\"\");06761180-n (an announcement of the events that will occur as part of a theatrical or sporting event; \\\"\"you can't tell the players without a program\\\"\"",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "television=04411547-n (a telecommunication system that transmits images of objects (stationary or moving) between distant points);04413042-n (an electronic device that receives television signals and displays them on a screen; \\\"\"the British call a tv set a telly\\\"\");06287933-n (broadcasting visual images of stationary or moving objects; \\\"\"she is a star of screen and video\\\"\"; \\\"\"Television is a medium because it is neither rare nor well done\\\"\" - Ernie Kovacs",
-      "relNo": 2
-    }],
+    "relations": [],
     "definition": " A television programme that is not part of a series."
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "syfy",
   "examples": [{
     "text": "Amazon Gift Card # giveaway # scifi # syfy # sciencefiction # amreading https : / /"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "quiet and crank it up # LostGirl # syfy https : / / t.co / qn0alkivwo"
   }],
-  "status": "","editorId": "",
+  "lemma": "syfy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "oned",
   "examples": [{
     "text": "oned zayn demi twolf t100 tvd to gg got"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "oned # VoteDirectionersUK # KCA https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "oned",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "One direction "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

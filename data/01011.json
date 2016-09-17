@@ -1,5 +1,4 @@
 {
-  "lemma": "rohith",
   "examples": [{
     "text": "Rohith Vemiula Suicide : Activists Protest PM Modi's Visit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Round Table India - Of Rohith and Yashica : Dalit Movement at a Crossroads"
   }],
-  "status": "","editorId": "",
+  "lemma": "rohith",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

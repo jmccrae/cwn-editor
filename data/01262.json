@@ -1,5 +1,4 @@
 {
-  "lemma": "droo",
   "examples": [{
     "text": "Hi droo"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "What's the last song you listened to Droo ? ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "droo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

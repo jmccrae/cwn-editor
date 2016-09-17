@@ -1,5 +1,4 @@
 {
-  "lemma": "ganna",
   "examples": [{
     "text": "I GET TO SEE MARGO THIS SUMMER IM GANNA FLIP"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "CURSED CHILD IS GANNA BE A BOOK"
   }],
-  "status": "","editorId": "",
+  "lemma": "ganna",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Going to"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

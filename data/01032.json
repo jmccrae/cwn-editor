@@ -1,5 +1,4 @@
 {
-  "lemma": "lov",
   "examples": [{
     "text": "I lov What I C Dammmn those Pussy Lips"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "＠ loV https : / / t.co / RapBcIxbZZ February"
   }],
-  "status": "","editorId": "",
+  "lemma": "lov",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Love"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

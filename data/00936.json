@@ -1,5 +1,4 @@
 {
-  "lemma": "w.e",
   "examples": [{
     "text": "Me ; Yea , w.e , nigga . * closes door "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "W.e that means "
   }],
-  "status": "","editorId": "",
+  "lemma": "w.e",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "whatever"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

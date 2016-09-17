@@ -1,5 +1,4 @@
 {
-  "lemma": "samesies",
   "examples": [{
     "text": "samesies"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Samesies https : / / t.co / IsqiE5kewD"
   }],
-  "status": "","editorId": "",
+  "lemma": "samesies",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "same: equal in amount or value; 'like amounts'; 'equivalent amounts'; 'the same amount'; 'gave one six blows and the other a like number'; 'the same number' <i7698>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

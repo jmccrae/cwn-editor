@@ -1,5 +1,4 @@
 {
-  "lemma": "*pleb",
   "examples": [{
     "text": "do that ? Genuinely unexplainable . What a pleb ."
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "curved desk pleb"
   }],
-  "status": "","editorId": "",
+  "lemma": "pleb",
   "senses": [{
-    "pos": "",
-    "synonym": "10460825-n (one of the common people)",
+    "pos": "n",
+    "synonym": "idiot: a person of subnormal intelligence <i90651>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

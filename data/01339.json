@@ -1,5 +1,4 @@
 {
-  "lemma": "happiest",
   "examples": [{
     "text": "Yakutsk ! ! ! The happiest place on earth..and you were right..that article was"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "recording solo is part of what makes you happiest"
   }],
-  "status": "","editorId": "",
+  "lemma": "happiest",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

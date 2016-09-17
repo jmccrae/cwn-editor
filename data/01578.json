@@ -1,5 +1,4 @@
 {
-  "lemma": "lezz",
   "examples": [{
     "text": "lezz go"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Lezz sleep ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "lezz",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Let's "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

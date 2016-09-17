@@ -1,5 +1,4 @@
 {
-  "lemma": "super cute",
   "examples": [{
     "text": "-super weird but super cute"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Charlotte Olympia's Super Cute Valentine's Day Collection … : https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "super cute",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

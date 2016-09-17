@@ -1,5 +1,4 @@
 {
-  "lemma": "lackin",
   "examples": [{
     "text": "yea I refuse to get caught lackin by someone's parents"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "That nigga Kwincy got caught hella lackin https : / / t.co / HmiXaDVl2X"
   }],
-  "status": "","editorId": "",
+  "lemma": "*lack",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "similar",
+      "target": "unprepared: without preparation; not prepared for; 'unprepared remarks'; 'the shock was unprepared'; 'our treaty makers approached their immensely difficult problems unprepared'- R.E.Danielson <i10140>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "lack: the state of needing something that is absent or unavailable; 'there is a serious lack of insight into the problem'; 'water is the critical deficiency in desert regions'; 'for want of a nail the shoe was lost' <i112941>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "Be",
+      "relNo": 1
+    }],
+    "definition": "To be insufficiently prepared "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

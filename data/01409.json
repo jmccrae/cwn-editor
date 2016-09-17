@@ -1,5 +1,4 @@
 {
-  "lemma": "pupper",
   "examples": [{
     "text": "pupper family"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "I need a pupper and a vacation ."
   }],
-  "status": "","editorId": "",
+  "lemma": "pupper",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "puppy: a young dog <i42298>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "puppy: a young dog <i42298>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

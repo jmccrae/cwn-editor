@@ -1,5 +1,4 @@
 {
-  "lemma": "zzzzzz",
   "examples": [{
     "text": "already 2AM ..daming assg.. i can rest naaaaa.. zzzzzz gnyt ; ) # ALDUBBoojieWonderLand"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "... Zzzzzz Goodnight ! ! ! ! Aneva shwem"
   }],
-  "status": "","editorId": "",
+  "lemma": "zzzzzz",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "snoring: the act of snoring or producing a snoring sound <i39795>",
+      "relNo": 1
+    }],
+    "definition": "Imitation of the sound of snoring "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "prolly",
   "examples": [{
     "text": "these thugs have no mercy , they prolly thought your whole fam is still in braa"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "This prolly my last week drinking"
   }],
-  "status": "","editorId": "",
+  "lemma": "prolly",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "r",
+    "synonym": "probably: with considerable certainty; without much doubt; 'He is probably out of the country'; 'in all likelihood we are headed for war' <i19060>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

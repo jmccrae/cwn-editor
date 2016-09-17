@@ -1,5 +1,4 @@
 {
-  "lemma": "i died",
   "examples": [{
     "text": "I died ? https : / / t.co / dEapLLDonz"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i died at this part . thank you jeff davis"
   }],
-  "status": "","editorId": "",
+  "lemma": "i died",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

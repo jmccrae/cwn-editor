@@ -1,5 +1,4 @@
 {
-  "lemma": "get well soon",
   "examples": [{
     "text": "get well soon seha ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Oh feel better get well soon , ain't it great having our own privat"
   }],
-  "status": "","editorId": "",
+  "lemma": "get well soon",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Expression wishing someone better health "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "damn near",
   "examples": [{
     "text": "now my ass damn near about to be sleep ..."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "My Unc hit it once and damn near threw up ???"
   }],
-  "status": "","editorId": "",
+  "lemma": "damn near",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

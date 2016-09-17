@@ -1,5 +1,4 @@
 {
-  "lemma": "you lost",
   "examples": [{
     "text": "don't look for happiness in the same place you lost it ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ".thank you ? ICYMI : YOU LOST , AGAIN ! ! GET OUT ! "
   }],
-  "status": "","editorId": "",
+  "lemma": "you lost",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

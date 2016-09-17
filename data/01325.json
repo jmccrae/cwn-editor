@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck around",
   "examples": [{
     "text": "I love when signers don't fuck around with their music videos and make them 10"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "Fuck around and get overdosed because music is my drug.???"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuck around",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "play: engage in an activity as if it were a game rather than take it seriously; 'They played games on their opponents'; 'play the stock market'; 'play with her feelings'; 'toy with an idea' <i21833>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "around: by a circular or circuitous route; 'He came all the way around the base'; 'the road goes around the pond' <i18570>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "fuck: slang for sexual intercourse <i39847>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

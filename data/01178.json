@@ -1,5 +1,4 @@
 {
-  "lemma": "whn",
   "examples": [{
     "text": "Whn ur body is tired af but you cant"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Those are the kind of things that happen whn an elected thinks about votes n forgets his"
   }],
-  "status": "","editorId": "",
+  "lemma": "whn",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "When"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

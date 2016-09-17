@@ -1,5 +1,4 @@
 {
-  "lemma": "mhm",
   "examples": [{
     "text": "mhm . Check YouTube"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "matricide ? mhm ... it would be a very royal thing"
   }],
-  "status": "","editorId": "",
+  "lemma": "mhm",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "understanding: the cognitive condition of someone who understands; 'he has virtually no understanding of social cause and effect' <i67391>",
+      "relNo": 1
+    }],
+    "definition": "Expression of understanding "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

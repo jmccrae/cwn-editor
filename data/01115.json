@@ -1,5 +1,4 @@
 {
-  "lemma": "niam",
   "examples": [{
     "text": "NIAM AF ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "niam thinks you're pretty and that's all that really"
   }],
-  "status": "","editorId": "",
+  "lemma": "niam",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

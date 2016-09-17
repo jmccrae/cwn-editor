@@ -1,5 +1,4 @@
 {
-  "lemma": "heyyyyyy",
   "examples": [{
     "text": "heyyyyyy I wanna talk to you ! ! !"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Oh heyyyyyy ?? https : / / t.co / JyQA3ZpUmD"
   }],
-  "status": "","editorId": "",
+  "lemma": "heyyyyyy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Hey"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

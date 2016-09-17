@@ -1,5 +1,4 @@
 {
-  "lemma": "*mavin",
   "examples": [{
     "text": "Mavin Records versus YBNL Nation Mixtape By DJ Real"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Mavin Singer Di ’ ja Sparkles Like A Golden"
   }],
-  "status": "","editorId": "",
+  "lemma": "*mavin",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "09781932-n (someone who is dazzlingly skilled in any field)",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

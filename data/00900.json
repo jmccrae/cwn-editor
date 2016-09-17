@@ -1,5 +1,4 @@
 {
-  "lemma": "*snitching",
   "examples": [{
     "text": "Damn everybody dry snitching ??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Me : \\ i ain't snitching fam \\\"\"\""
   }],
-  "status": "","editorId": "",
+  "lemma": "snitch",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "snitch: give away information about somebody; 'He told on his classmate who had cheated on the exam' <i25853>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

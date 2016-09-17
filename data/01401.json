@@ -1,5 +1,4 @@
 {
-  "lemma": "gintama",
   "examples": [{
     "text": "anyone : hey ruby is gintama good should-"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "to FULL RSS feed ! # adsense # gintama SEO Training Courses Launches …"
   }],
-  "status": "","editorId": "",
+  "lemma": "gintama",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

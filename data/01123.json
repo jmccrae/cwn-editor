@@ -1,5 +1,4 @@
 {
-  "lemma": "tbfh",
   "examples": [{
     "text": "be somewhere else , Not in the mood tbfh https : / / t.co / KredfVm0D"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "The rest its an insult to Lionel Richie tbfh"
   }],
-  "status": "","editorId": "",
+  "lemma": "tbfh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "To be fucking honest"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

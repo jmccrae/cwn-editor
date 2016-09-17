@@ -1,5 +1,4 @@
 {
-  "lemma": "fucking shit",
   "examples": [{
     "text": "i swear we talk about weird fucking shit in our xbox live parties LMAO"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "THE NEW SNEAK PEEK HOLY FUCKING SHIT LEXA IS SUCH A BADASS AND CLARKE IS"
   }],
-  "status": "","editorId": "",
+  "lemma": "fucking shit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

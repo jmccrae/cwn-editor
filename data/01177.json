@@ -1,5 +1,4 @@
 {
-  "lemma": "gyal",
   "examples": [{
     "text": "him leff you and get with a next gyal within a month later"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "can i get ya numba gyal ? * whines *"
   }],
-  "status": "","editorId": "",
+  "lemma": "gyal",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "chick: informal terms for a (young) woman <i89378>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

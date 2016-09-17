@@ -1,5 +1,4 @@
 {
-  "lemma": "transphobic",
   "examples": [{
     "text": "Jake from State Farm \\ commercial is super transphobic ? # blindspots # cisprivilege\""
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "fear is that they'll have Deadpool say sumn transphobic / make a transphobic joke & amp ;"
   }],
-  "status": "","editorId": "",
+  "lemma": "transphobic",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "phobia: an anxiety disorder characterized by extreme and irrational fear of simple things or social situations; 'phobic disorder is a general term for all phobias' <i112576>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "transsexual: a person whose sexual identification is entirely with the opposite sex <i93753>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "prejudiced: being biased or having a belief or attitude formed beforehand; 'a prejudiced judge' <i1584>",
+      "relNo": 1
+    }],
+    "definition": "Prejudiced against transgender people"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "kno",
   "examples": [{
     "text": "I KNO ha like the back of my hand ??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "All u bitches that kno u look like et w / o makeup"
   }],
-  "status": "","editorId": "",
+  "lemma": "kno",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Know"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

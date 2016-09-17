@@ -1,5 +1,4 @@
 {
-  "lemma": "tyvm",
   "examples": [{
     "text": "the Bronx , I enjoy the commute , tyv"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "to hear you say that ! # NoGrandmaStatusQuiteYet tyvm ! # collegefirst"
   }],
-  "status": "","editorId": "",
+  "lemma": "tyvm",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Thank you very much "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*shut up",
   "examples": [{
     "text": "shut up"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "o shut up ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "shut up",
   "senses": [{
-    "pos": "",
-    "synonym": "00462448-v (cause to be quiet or not talk; \\\"\"Please silence the children in the church!\\\"\");01042933-v (refuse to talk or stop talking; fall silent; \\\"\"The children shut up when their father approached\\\"\");01350360-v (place in a place where something cannot be removed or someone cannot escape; \\\"\"The parents locked her daughter up for the weekend\\\"\"; \\\"\"She locked her jewels in the safe\\\"\"",
+    "pos": "v",
+    "synonym": "shut up: refuse to talk or stop talking; fall silent; 'The children shut up when their father approached' <i26775>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

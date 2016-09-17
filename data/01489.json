@@ -1,5 +1,4 @@
 {
-  "lemma": "that awkward moment",
   "examples": [{
     "text": "That awkward moment when # WWE cares more about concussions than"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "That awkward moment when a lot of the \\ facts \\\"\"\""
   }],
-  "status": "","editorId": "",
+  "lemma": "that awkward moment",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "chillin",
   "examples": [{
     "text": "chillin n'shit . .. https : / / t.co"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "8 . Chillin"
   }],
-  "status": "","editorId": "",
+  "lemma": "chill",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "relax: become less tense, rest, or take one's ease; 'He relaxed in the hot tub'; 'Let's all relax after a hard day's work' <i21894>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "chill: make cool or cooler; 'Chill the food' <i23586>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

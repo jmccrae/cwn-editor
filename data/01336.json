@@ -1,5 +1,4 @@
 {
-  "lemma": "oh okay",
   "examples": [{
     "text": "\\ oh okay \\\"\" he would look over at her \\\"\"\""
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "oh okay , hold on ( this probably won't hel"
   }],
-  "status": "","editorId": "",
+  "lemma": "oh okay",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "agreement: the verbal act of agreeing <i74359>",
+      "relNo": 1
+    }],
+    "definition": "Expression of resigned agreement "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

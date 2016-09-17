@@ -1,5 +1,4 @@
 {
-  "lemma": "fagit",
   "examples": [{
     "text": "weeb fagit"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": ": r u frum fagitvil cuz ur an fagit"
   }],
-  "status": "","editorId": "",
+  "lemma": "fagit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Faggot"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

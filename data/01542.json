@@ -1,5 +1,4 @@
 {
-  "lemma": "hit me up",
   "examples": [{
     "text": "if you ain't want nun or me don't hit me up fr ? i got money to chase ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "talk to you about Stealthys PC shipping . Hit me up as soon as you can please , thank"
   }],
-  "status": "","editorId": "",
+  "lemma": "hit me up",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

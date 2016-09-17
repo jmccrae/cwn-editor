@@ -1,5 +1,4 @@
 {
-  "lemma": "whooped",
   "examples": [{
     "text": "Cam line need they ass whooped"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "to vent and ya ass needs to be whooped"
   }],
-  "status": "","editorId": "",
+  "lemma": "whoop",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "strike: hit against; come into sudden contact with; 'The car hit a tree'; 'He struck the table with his elbow' <i27808>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

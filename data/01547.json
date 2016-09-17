@@ -1,5 +1,4 @@
 {
-  "lemma": "*good luck",
   "examples": [{
     "text": "Good luck with the back surgery man I had rods"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "guessing that means your girlfriend dumped you . Good luck w / that ."
   }],
-  "status": "","editorId": "",
+  "lemma": "*good luck",
   "senses": [{
-    "pos": "",
-    "synonym": "07331456-n (an unexpected piece of good luck; \\\"\"he finally got his big break\\\"\");11484145-n (a stroke of luck);14497239-n (an auspicious state resulting from favorable outcomes",
+    "pos": "n",
+    "synonym": "good luck: an unexpected piece of good luck; 'he finally got his big break' <i75139>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

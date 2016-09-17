@@ -1,5 +1,4 @@
 {
-  "lemma": "*the 5th",
   "examples": [{
     "text": "Thank you for shouting us out ! I'm the 5th one ! # Spring16 https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Register now for the 5th Annual River City m Reign Classic March 12th"
   }],
-  "status": "","editorId": "",
+  "lemma": "*the 5th",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

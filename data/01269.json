@@ -1,5 +1,4 @@
 {
-  "lemma": "shawdy",
   "examples": [{
     "text": "i think he went smack at shawdy in her dms ????"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "I Realive want shawdy Tho ???"
   }],
-  "status": "","editorId": "",
+  "lemma": "shawdy",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "Shawty <00126>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "nooooooooo",
   "examples": [{
     "text": "Nooooooooo"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "IF I'D JUST TURNED RIGHT INSTEAD OF LEFT NOOOOOOOOO # TheWitness"
   }],
-  "status": "","editorId": "",
+  "lemma": "nooooooooo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "no"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "skyping",
   "examples": [{
     "text": "I ended up skyping Abhi from then until now wowowowowow now I'm"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Skyping my mum is the funniest ."
   }],
-  "status": "","editorId": "",
+  "lemma": "skype",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "communicate: transmit information; 'Please communicate this message to all employees'; 'pass along the good news' <i25409>",
+      "relNo": 1
+    }],
+    "definition": "to communicate using Skype or similar web conference software"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

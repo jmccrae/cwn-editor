@@ -1,5 +1,4 @@
 {
-  "lemma": "q8",
   "examples": [{
     "text": "q8 9gms ? # TrueFreeRange # sweepstakes"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Q8 How is a work ideal day different from"
   }],
-  "status": "","editorId": "",
+  "lemma": "q8",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

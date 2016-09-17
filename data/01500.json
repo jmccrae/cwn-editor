@@ -1,5 +1,4 @@
 {
-  "lemma": "colab",
   "examples": [{
     "text": "free to message me if you want to colab ; I'd be honored ."
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "The coLAB Project with Natalie Notions : The # coLAB"
   }],
-  "status": "","editorId": "",
+  "lemma": "colab",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "collaboration: act of working jointly; 'they worked either in collaboration or independently' <i41699>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

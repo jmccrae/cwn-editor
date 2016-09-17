@@ -1,5 +1,4 @@
 {
-  "lemma": "woww",
   "examples": [{
     "text": ") and got these vds and photos ... woww"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Watching Men's volleyball ... wow.. woww ... grabe . Grabe lang ."
   }],
-  "status": "","editorId": "",
+  "lemma": "woww",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Woww"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

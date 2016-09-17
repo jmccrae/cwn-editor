@@ -1,5 +1,4 @@
 {
-  "lemma": "booba",
   "examples": [{
     "text": "booba - jdc"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Christine and the Queens en feat avec Booba https : / / t.co / HoSoku4fN2"
   }],
-  "status": "","editorId": "",
+  "lemma": "booba",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

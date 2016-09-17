@@ -1,5 +1,4 @@
 {
-  "lemma": "aaaaaaaa",
   "examples": [{
     "text": "ontem com i need you girl na cabeca aaaaaaaa"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "se acuerdan de down to eartH AAAAAAAA MIS FILINS DE GORDA BILIBER"
   }],
-  "status": "","editorId": "",
+  "lemma": "aaaaaaaa",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Ah"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

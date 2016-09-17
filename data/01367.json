@@ -1,5 +1,4 @@
 {
-  "lemma": "what even",
   "examples": [{
     "text": "Idk what even is in a quesolupa but since taco bells"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "??? what even https : / / t.co / yn6UPtaSQC"
   }],
-  "status": "","editorId": "",
+  "lemma": "what even",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

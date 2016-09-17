@@ -1,5 +1,4 @@
 {
-  "lemma": "swear to god",
   "examples": [{
     "text": "and that made me laugh so hard I swear to god"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "swear to god if my mario kart 8 poster falls down"
   }],
-  "status": "","editorId": "",
+  "lemma": "swear to god",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "gotta go",
   "examples": [{
     "text": "in public , in my phone \\ shit gotta go .\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Just gotta go with the flow"
   }],
-  "status": "","editorId": "",
+  "lemma": "gotta go",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

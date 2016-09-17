@@ -1,5 +1,4 @@
 {
-  "lemma": "yes yes",
   "examples": [{
     "text": "yes yes yes"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Yes yes yes https : / / t.co / 8460DjAqge"
   }],
-  "status": "","editorId": "",
+  "lemma": "yes yes",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

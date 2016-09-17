@@ -1,5 +1,4 @@
 {
-  "lemma": "grown-up",
   "examples": [{
     "text": "Women rule the comedy world at an almost grown-up RIOT LA | https : / / t.co"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# TeamTrump Chuck Todd Lauds : ‘ Grown-Up , ’ ‘ Adult ’ Kasich Did Wel"
   }],
-  "status": "","editorId": "",
+  "lemma": "grown-up",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "grownup: a fully developed person from maturity onward <i87152>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

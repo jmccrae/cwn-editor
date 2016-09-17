@@ -1,5 +1,4 @@
 {
-  "lemma": "true believer",
   "examples": [{
     "text": "You might be a true believer of synchronicity today , convinced ... More fo"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hey ! Thanks for the follow , True Believer ! Always cool to get other follows othe"
   }],
-  "status": "","editorId": "",
+  "lemma": "true believer",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

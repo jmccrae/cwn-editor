@@ -1,5 +1,4 @@
 {
-  "lemma": "guap",
   "examples": [{
     "text": "$$$ , Guap this month , I'm talking thousands , ???"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Just dropped a guap I bought 4 new tires & amp ;"
   }],
-  "status": "","editorId": "",
+  "lemma": "guap",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "fortune: a large amount of wealth or prosperity <i106975>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

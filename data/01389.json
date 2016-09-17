@@ -1,5 +1,4 @@
 {
-  "lemma": "whaa",
   "examples": [{
     "text": "America the brave Stillafears whaa we don't know"
   }, {
@@ -19,12 +18,22 @@
   }, {
     "text": "Whaa ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "whaa",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "disgust: strong feelings of dislike <i76176>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 1
+    }],
+    "definition": "Expression of surprise and disgust "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

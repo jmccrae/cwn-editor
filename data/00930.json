@@ -1,5 +1,4 @@
 {
-  "lemma": "gametrailers",
   "examples": [{
     "text": "# Gametrailers https : / / t.co / 2uz3YJrS7u"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "GameTrailers Posts One More Video , Updating Bloodborne t"
   }],
-  "status": "","editorId": "",
+  "lemma": "gametrailers",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

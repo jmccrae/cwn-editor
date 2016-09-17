@@ -1,5 +1,4 @@
 {
-  "lemma": "love on",
   "examples": [{
     "text": "lets fall in love on purpose"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# joemacintosh Put some love on your screen this Wallpaper Wednesday https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "love on",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

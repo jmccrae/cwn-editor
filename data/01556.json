@@ -1,5 +1,4 @@
 {
-  "lemma": "supercock",
   "examples": [{
     "text": "# cougar # redstockings # supercock # sexcontact"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "# supercock # redstockings # photography # sexcontact"
   }],
-  "status": "","editorId": "",
+  "lemma": "supercock",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

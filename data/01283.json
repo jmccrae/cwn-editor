@@ -1,5 +1,4 @@
 {
-  "lemma": "sissification",
   "examples": [{
     "text": "t.co / AdE9Yunt0o # femdom # forcedfem # sissification https : / / t.co / V26bELKsDw"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "t.co / 9XRqC3sANU # femdom # forcedfem # sissification https : / / t.co / R9G6w3olID"
   }],
-  "status": "","editorId": "",
+  "lemma": "sissification",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": "</text>"
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "sissy: having unsuitable feminine qualities <i8086>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "sex act: sexual activity between individuals, especially the insertion of a man's penis into a woman's vagina until orgasm and ejaculation occur <i39846>",
+      "relNo": 1
+    }],
+    "definition": "Sexual act where a male is forced to act effeminately and dress like a woman "
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

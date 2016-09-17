@@ -1,5 +1,4 @@
 {
-  "lemma": "*lifehack",
   "examples": [{
     "text": "/ / t.co / opAl7lBryy # savetime # lifehack"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "https : / / t.co / kVmyqrlVyq # lifeHack"
   }],
-  "status": "","editorId": "",
+  "lemma": "*lifehack",
   "senses": [{
-    "pos": "",
-    "synonym": "00589020-v (make one's day-to-day activities more efficient)",
+    "pos": "n",
+    "synonym": "lifehack: make one's day-to-day activities more efficient <i24705>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

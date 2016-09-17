@@ -1,5 +1,4 @@
 {
-  "lemma": "agnst",
   "examples": [{
     "text": ", maybe it's him dt filed d case agnst FG 4 Metuh "
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "2 days until international protests agnst execution of # SheikhNimr https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "agnst",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Against "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

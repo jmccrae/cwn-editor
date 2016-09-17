@@ -1,5 +1,4 @@
 {
-  "lemma": "minghao",
   "examples": [{
     "text": "Where's the option for minghao https : / / t.co / B0M0D5dsh3"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "seventeen more like jun minghao and their friends"
   }],
-  "status": "","editorId": "",
+  "lemma": "minghao",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "wifed",
   "examples": [{
     "text": "you gon rout for Zuko lmfao"
   }, {
@@ -29,12 +28,18 @@
   }, {
     "text": "Wifed upppppppp"
   }],
-  "status": "","editorId": "",
+  "lemma": "wifed",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "married: of or relating to the state of marriage; 'marital status'; 'marital fidelity'; 'married bliss' <i16205>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "wife: a married woman; a man's partner in marriage <i94123>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

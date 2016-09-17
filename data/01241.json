@@ -1,5 +1,4 @@
 {
-  "lemma": "twatter",
   "examples": [{
     "text": "Yes him..who's he on twatter ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "man i love twatter"
   }],
-  "status": "","editorId": "",
+  "lemma": "twatter",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Twitter "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

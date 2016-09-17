@@ -1,5 +1,4 @@
 {
-  "lemma": "you was",
   "examples": [{
     "text": "When These Bitches Ain't Smart Enough To Realize You Was Trying To Push Their Buttons So They FUCK"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "You was never gang gang gang"
   }],
-  "status": "","editorId": "",
+  "lemma": "you was",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

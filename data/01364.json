@@ -1,5 +1,4 @@
 {
-  "lemma": "sweet home",
   "examples": [{
     "text": "Home sweet home . ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Home sweet home ! It's almost 8pm ; _ ;"
   }],
-  "status": "","editorId": "",
+  "lemma": "sweet home",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

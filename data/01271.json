@@ -1,5 +1,4 @@
 {
-  "lemma": "amazeballs",
   "examples": [{
     "text": "That's just freakin Amazeballs"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "Guuuuys ! ESG is freaking amazeballs ! Get a room and attend ! https"
   }],
-  "status": "","editorId": "",
+  "lemma": "amazeballs",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "amazing: surprising greatly; 'she does an amazing amount of work'; 'the dog was capable of astonishing tricks' <i13069>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "ball: one of the two male reproductive glands that produce spermatozoa and secrete androgens; 'she kicked him in the balls and got away' <i65957>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "amazing: surprising greatly; 'she does an amazing amount of work'; 'the dog was capable of astonishing tricks' <i13069>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

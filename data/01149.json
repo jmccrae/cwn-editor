@@ -1,5 +1,4 @@
 {
-  "lemma": "gossip girl",
   "examples": [{
     "text": "FV For Gossip Girl https : / / t.co / PGQps7xCeM"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I miss gossip girl"
   }],
-  "status": "","editorId": "",
+  "lemma": "gossip girl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

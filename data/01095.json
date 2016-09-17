@@ -1,5 +1,4 @@
 {
-  "lemma": "dashcam",
   "examples": [{
     "text": "Caught on dashcam : motorway crash https : / / t.co"
   }, {
@@ -21,12 +20,30 @@
   }, {
     "text": "Watching # carcrashbritain then come and grab a dashcam . New lower prices + a free accessory"
   }],
-  "status": "","editorId": "",
+  "lemma": "dashcam",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "mero_part",
+      "target": "car: a motor vehicle with four wheels; usually propelled by an internal combustion engine; 'he needs a car to get to work' <i51496>",
+      "relNo": 4
+    }, {
+      "type": "derivation",
+      "target": "dashboard: instrument panel on an automobile or airplane containing dials and controls <i52709>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "camera: television equipment consisting of a lens system that focuses an image on a photosensitive mosaic that is scanned by an electron beam <i60086>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "camera: television equipment consisting of a lens system that focuses an image on a photosensitive mosaic that is scanned by an electron beam <i60086>",
+      "relNo": 1
+    }],
+    "definition": "A camera filming from the dashboard of a car"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

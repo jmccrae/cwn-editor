@@ -1,5 +1,4 @@
 {
-  "lemma": "ugly ass",
   "examples": [{
     "text": "she got some ugly ass fire type top keks all around"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "lol yo ugly ass"
   }],
-  "status": "","editorId": "",
+  "lemma": "ugly ass",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "ugly: displeasing to the senses; 'an ugly face'; 'ugly furniture' <i1212>",
+      "relNo": 1
+    }],
+    "definition": "Very ugly "
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

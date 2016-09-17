@@ -1,5 +1,4 @@
 {
-  "lemma": "ppl",
   "examples": [{
     "text": "ppl take pride in being rude n mean n"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I genuinely only like about five ppl in this bitch ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "ppl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "People"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

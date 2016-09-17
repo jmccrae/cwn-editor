@@ -1,5 +1,4 @@
 {
-  "lemma": "karrueche",
   "examples": [{
     "text": "Karrueche"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "COLOURPOP X KARRUECHE # KAEPOP REVIEW + SWATCHES ON DARKER SKIN"
   }],
-  "status": "","editorId": "",
+  "lemma": "karrueche",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "isaw",
   "examples": [{
     "text": "I want to eat isaw and siomai"
   }, {
@@ -19,12 +18,22 @@
   }, {
     "text": "Isaw buddy ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "isaw",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "loanword",
+      "target": "Filipino: official language of the Philippines; based on Tagalog; draws its lexicon from other Philippine languages <i73061>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "food: any solid substance (as opposed to liquid) that is used as a source of nourishment; 'food and drink' <i76470>",
+      "relNo": 1
+    }],
+    "definition": "a street food from the Philippines, made from barbecued pig or chicken intestines [Wikipedia] "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

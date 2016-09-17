@@ -1,5 +1,4 @@
 {
-  "lemma": "ily2",
   "examples": [{
     "text": "I know you do short ass ❤ ily2"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "hahaha thanks . Ily2 ☺️"
   }],
-  "status": "","editorId": "",
+  "lemma": "ily2",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "I like you too"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

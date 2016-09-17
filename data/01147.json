@@ -1,5 +1,4 @@
 {
-  "lemma": "my bad",
   "examples": [{
     "text": "oops , that's my bad , cared too muc"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "my bad lol . My sense of humor don't usually"
   }],
-  "status": "","editorId": "",
+  "lemma": "bad",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "fault: responsibility for a bad situation or event; 'it was John's fault' <i61602>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

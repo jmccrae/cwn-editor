@@ -1,5 +1,4 @@
 {
-  "lemma": "naw",
   "examples": [{
     "text": "9 . Naw"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "If you don't know how to talk hell naw I'm gone text you back , and "
   }],
-  "status": "","editorId": "",
+  "lemma": "naw",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "No"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

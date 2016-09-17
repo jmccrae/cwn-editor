@@ -1,5 +1,4 @@
 {
-  "lemma": "jkjk",
   "examples": [{
     "text": "why u always tag me ? lololol jkjk ?"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "already ? That's quick , TOO QUICK ? jkj"
   }],
-  "status": "","editorId": "",
+  "lemma": "jkjk",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Joke"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

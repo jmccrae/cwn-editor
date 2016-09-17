@@ -1,5 +1,4 @@
 {
-  "lemma": "mompreneur",
   "examples": [{
     "text": "# Support # Single # Mompreneur on With A $5 Donation by Clicking The"
   }, {
@@ -21,12 +20,30 @@
   }, {
     "text": "... # optimism # scentsyspirit # quote # mompreneur https : / / t.co / 1LQzdcnIN6"
   }],
-  "status": "","editorId": "",
+  "lemma": "mompreneur",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "mom: informal terms for a mother <i91123>",
+      "relNo": 4
+    }, {
+      "type": "derivation",
+      "target": "entrepreneur: someone who organizes a business venture and assumes the risk for it <i89775>",
+      "relNo": 3
+    }, {
+      "type": "hypernym",
+      "target": "mother: a woman who has given birth to a child (also used as a term of address to your mother); 'the mother of three children' <i91462>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "entrepreneur: someone who organizes a business venture and assumes the risk for it <i89775>",
+      "relNo": 1
+    }],
+    "definition": "an entrepreneur and a mother"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

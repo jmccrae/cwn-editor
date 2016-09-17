@@ -1,5 +1,4 @@
 {
-  "lemma": "ff7",
   "examples": [{
     "text": "FF7 Remake Trailer @ 60FPS https : / /"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "FF7 Remake Trailer @ 60FPS https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "ff7",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

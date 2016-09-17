@@ -1,5 +1,4 @@
 {
-  "lemma": "inshallah",
   "examples": [{
     "text": "sorry girl : ( inshallah it gets better for the both of us"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "im going out with you , till then inshalla"
   }],
-  "status": "","editorId": "",
+  "lemma": "inshallah",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "loanword",
+      "target": "Arabic: the Semitic language of the Arabs; spoken in a variety of dialects <i73365>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "hope: the general feeling that some desire will be fulfilled; 'in spite of his troubles he never gave up hope' <i76382>",
+      "relNo": 1
+    }],
+    "definition": "'god willing' from the Arabic"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

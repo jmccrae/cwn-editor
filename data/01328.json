@@ -1,5 +1,4 @@
 {
-  "lemma": "my mum",
   "examples": [{
     "text": "Skyping my mum is the funniest ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "* screams * I'M EXCITED EVEN THO MY MUM WONT LET ME GO TO THEIR CONCERT YAY"
   }],
-  "status": "","editorId": "",
+  "lemma": "my mum",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

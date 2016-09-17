@@ -1,5 +1,4 @@
 {
-  "lemma": "ifb",
   "examples": [{
     "text": "ifb all !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hey Love ❤ , Can you follow me ifb always and turn on my notifs and as"
   }],
-  "status": "","editorId": "",
+  "lemma": "ifb",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "I follow back "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

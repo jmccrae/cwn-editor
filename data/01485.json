@@ -1,5 +1,4 @@
 {
-  "lemma": "paramore",
   "examples": [{
     "text": "Paramore"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "coldplay or paramore"
   }],
-  "status": "","editorId": "",
+  "lemma": "paramore",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

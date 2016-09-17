@@ -1,5 +1,4 @@
 {
-  "lemma": "muhfucka",
   "examples": [{
     "text": "you shoot your shot and swish like a muhfucka ? Lol"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "WAY \\ ASS NIGGAS . YOU A LYING MUHFUCKA LMAO .\""
   }],
-  "status": "","editorId": "",
+  "lemma": "muhfucka",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Motherfucker"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

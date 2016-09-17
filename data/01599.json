@@ -1,5 +1,4 @@
 {
-  "lemma": "yenna",
   "examples": [{
     "text": "# fetish # bath # yenna # rainier"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "fetish # bath # rainier # supermarket # yenna"
   }],
-  "status": "","editorId": "",
+  "lemma": "yenna",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

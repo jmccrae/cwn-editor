@@ -1,5 +1,4 @@
 {
-  "lemma": "*a fuck",
   "examples": [{
     "text": "up & amp ; produces very little is a fuck you to the fans . Earn your place"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "wears whatever they want , they don't give a fuck https : / / t.co / Xrq6ESPIK"
   }],
-  "status": "","editorId": "",
+  "lemma": "*a fuck",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

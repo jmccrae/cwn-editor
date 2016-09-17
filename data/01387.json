@@ -1,5 +1,4 @@
 {
-  "lemma": "pshh",
   "examples": [{
     "text": "pshh it's okay"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "PSHH ME NEITHER IM CLEANING UP MY ROUGH RN..???"
   }],
-  "status": "","editorId": "",
+  "lemma": "pshh",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "x",
+    "synonym": "Pshh <00000reddit045>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

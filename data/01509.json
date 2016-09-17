@@ -1,5 +1,4 @@
 {
-  "lemma": "ight",
   "examples": [{
     "text": "Ight Kanye starting to tweet too much for my"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ight sure"
   }],
-  "status": "","editorId": "",
+  "lemma": "ight",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Right "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

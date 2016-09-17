@@ -1,9 +1,8 @@
 {
-  "lemma": "off fleek",
   "examples": [{
     "text": "u should fix ya brows .... off fleek"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "off fleek",
   "senses": [{
     "pos": "r",
     "synonym": "",
@@ -18,5 +17,7 @@
       "relNo": 1
     }],
     "definition": "not having a good appearance"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

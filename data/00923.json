@@ -1,5 +1,4 @@
 {
-  "lemma": "i3",
   "examples": [{
     "text": "HP 15-ac120nr 15.6-Inch Laptop ( Intel Core i3 , 4 GB RAM , 750 GB HD"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "RB ) Multi-Platform CPU Cooler Core i7 i5 i3 … https : / / t.co / ol9gqq1KWY"
   }],
-  "status": "","editorId": "",
+  "lemma": "i3",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

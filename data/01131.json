@@ -1,5 +1,4 @@
 {
-  "lemma": "i8",
   "examples": [{
     "text": "BMW i8 https : / / t.co / RboJsD18F9"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# KCA https : / / t.co / i8 …"
   }],
-  "status": "","editorId": "",
+  "lemma": "i8",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

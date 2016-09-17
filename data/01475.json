@@ -1,5 +1,4 @@
 {
-  "lemma": "ryt",
   "examples": [{
     "text": "yahhh Ryt"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Show me ryt Path"
   }],
-  "status": "","editorId": "",
+  "lemma": "ryt",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Right"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

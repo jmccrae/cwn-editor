@@ -1,5 +1,4 @@
 {
-  "lemma": "slackin",
   "examples": [{
     "text": "for the little spam weve just been kinda slackin cuz of school n stuff love u guys"
   }, {
@@ -19,12 +18,22 @@
   }, {
     "text": "gabby you slackin ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "slack",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "relax: become less tense, rest, or take one's ease; 'He relaxed in the hot tub'; 'Let's all relax after a hard day's work' <i21894>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "slack: be inattentive to, or neglect; 'He slacks his attention' <i24836>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "thanks so much",
   "examples": [{
     "text": "Peecho Thanks so much for the follow !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "thanks so much : ) yesssss lets do it ! !"
   }],
-  "status": "","editorId": "",
+  "lemma": "thanks so much",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

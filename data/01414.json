@@ -1,5 +1,4 @@
 {
-  "lemma": "idfwu",
   "examples": [{
     "text": "Idfwu though ?"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Fam so bold . Idfwu"
   }],
-  "status": "","editorId": "",
+  "lemma": "idfwu",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "I don't fuck with you "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

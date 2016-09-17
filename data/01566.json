@@ -1,5 +1,4 @@
 {
-  "lemma": "gahd",
   "examples": [{
     "text": "Real quick oh gahd"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "wish was your brother ? — Daniel Padilla gahd https : / / t.co / g4MU18p0MZ"
   }],
-  "status": "","editorId": "",
+  "lemma": "gahd",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "God"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*twenty-two",
   "examples": [{
     "text": "twenty-two x # VoteDragMeDownUK # KCA"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "This is inch twenty-two . https : / / t.co / XiRK3LlbWt"
   }],
-  "status": "","editorId": "",
+  "lemma": "*twenty-two",
   "senses": [{
-    "pos": "",
-    "synonym": "02196164-a (being two more than twenty);04510146-n (a .22 caliber firearm (pistol or rifle));13770507-n (the cardinal number that is the sum of twenty-one and one)",
+    "pos": "n",
+    "synonym": "twenty-two: being two more than twenty <i12027>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

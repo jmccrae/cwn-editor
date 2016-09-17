@@ -1,5 +1,4 @@
 {
-  "lemma": "come thru",
   "examples": [{
     "text": "My best friend ALWAYS come thru for me ... I love him for that"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "how nigga be lol . But I'll definitely come thru"
   }],
-  "status": "","editorId": "",
+  "lemma": "come thru",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "come through"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

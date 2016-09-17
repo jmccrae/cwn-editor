@@ -1,5 +1,4 @@
 {
-  "lemma": "gaydick",
   "examples": [{
     "text": "wUwCTop61g # gayporn # gayvideos # dickvids # gaydick # hotgaysex # gaysex # gaypi … https"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "homo # gayfuck # gaysuck # gaynaked # gaydick # gaybottom # gaytop # gayfit # gaygym"
   }],
-  "status": "","editorId": "",
+  "lemma": "gaydick",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

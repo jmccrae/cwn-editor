@@ -1,5 +1,4 @@
 {
-  "lemma": "fucking stupid",
   "examples": [{
     "text": "because now I want to rant about how fucking stupid valentines day is"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "your a fucking stupid ignorant dumb bitch Bill cosby rapped them woman"
   }],
-  "status": "","editorId": "",
+  "lemma": "fucking stupid",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

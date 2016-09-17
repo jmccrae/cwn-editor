@@ -1,5 +1,4 @@
 {
-  "lemma": "real nigga",
   "examples": [{
     "text": "im convinced females can't handle a real nigga fr .."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "real nigga man https : / / t.co / 7QwSKvgj5B"
   }],
-  "status": "","editorId": "",
+  "lemma": "real nigga",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

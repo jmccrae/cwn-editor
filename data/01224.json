@@ -1,5 +1,4 @@
 {
-  "lemma": "promposal",
   "examples": [{
     "text": "Promposal during third ughhhh how cute !"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "Astig na promposal yon ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "promposal",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "prom: a formal ball held for a school class toward the end of the academic year <i75860>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "proposal: the act of making a proposal; 'they listened to her proposal' <i74287>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "proposal: the act of making a proposal; 'they listened to her proposal' <i74287>",
+      "relNo": 1
+    }],
+    "definition": "The act of asking someone to go to a prom with you "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

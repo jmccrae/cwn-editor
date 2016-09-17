@@ -1,5 +1,4 @@
 {
-  "lemma": "if you want",
   "examples": [{
     "text": "Like if you want a livestream ! ! !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "8 Tips You Should Know If You Want To # Start Your # Business Successfully https"
   }],
-  "status": "","editorId": "",
+  "lemma": "if you want",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

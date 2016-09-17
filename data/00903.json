@@ -1,5 +1,4 @@
 {
-  "lemma": "inb4",
   "examples": [{
     "text": "Inb4 plays this https : / / t.co /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "inb4 more bot accounts"
   }],
-  "status": "","editorId": "",
+  "lemma": "inb4",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "in before"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

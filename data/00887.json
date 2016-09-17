@@ -1,5 +1,4 @@
 {
-  "lemma": "get mad",
   "examples": [{
     "text": "Isn't it sad that some bigoted racists get mad at the fact that we are only trying"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "answering my messages & amp ; im finna get mad"
   }],
-  "status": "","editorId": "",
+  "lemma": "get mad",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

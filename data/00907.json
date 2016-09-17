@@ -1,5 +1,4 @@
 {
-  "lemma": "tsundere",
   "examples": [{
     "text": "Tsundere tower"
   }, {
@@ -21,12 +20,36 @@
   }, {
     "text": "Tsun + Dere = Tsundere … Explain That ! https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "tsundere",
   "senses": [{
-    "pos": "",
+    "pos": "n",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "person: a human being; 'there was too much for one person to do' <i35562>",
+      "relNo": 1
+    }, {
+      "type": "loanword",
+      "target": "Japanese: the language (usually considered to be Altaic) spoken by the Japanese <i72985>",
+      "relNo": 2
+    }],
+    "definition": "a person who is initially cold and even hostile towards another person before gradually showing a warmer side over time. [Wikipedia]"
+  }, {
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "loanword",
+      "target": "Japanese: the language (usually considered to be Altaic) spoken by the Japanese <i72985>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "development: a process in which something passes by degrees to a different stage (especially a more advanced or mature stage); 'the development of his ideas took many years'; 'the evolution of Greek civilization'; 'the slow development of her skill as a writer' <i107495>",
+      "relNo": 1
+    }],
+    "definition": "a character development process that describes a person who is initially cold and even hostile towards another person before gradually showing a warmer side over time. [Wikipedia]"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

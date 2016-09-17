@@ -1,5 +1,4 @@
 {
-  "lemma": "gonza",
   "examples": [{
     "text": "Gonza"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "gonza river 8-12"
   }],
-  "status": "","editorId": "",
+  "lemma": "gonza",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

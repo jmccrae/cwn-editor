@@ -1,5 +1,4 @@
 {
-  "lemma": "no lie",
   "examples": [{
     "text": "I'm addicted for life , no li"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "No lie , is one of the performers I'm forwar"
   }],
-  "status": "","editorId": "",
+  "lemma": "no lie",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

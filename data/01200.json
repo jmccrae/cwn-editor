@@ -1,5 +1,4 @@
 {
-  "lemma": "i like how",
   "examples": [{
     "text": "I like how you roll . Good night !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I like how some of these people saying they are sober"
   }],
-  "status": "","editorId": "",
+  "lemma": "i like how",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

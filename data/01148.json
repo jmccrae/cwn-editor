@@ -1,5 +1,4 @@
 {
-  "lemma": "on 1",
   "examples": [{
     "text": "a date was that ? ! The 2 on 1 . They didn't do anything but talk for"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "We rarely publish 2 stories on 1 day but did today . This is a"
   }],
-  "status": "","editorId": "",
+  "lemma": "on 1",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

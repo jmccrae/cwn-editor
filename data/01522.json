@@ -1,5 +1,4 @@
 {
-  "lemma": "being nice",
   "examples": [{
     "text": "being nice to people I meet . Trying to alter"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "not talk to them . No point in being nice . That is hypocritical . https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "being nice",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

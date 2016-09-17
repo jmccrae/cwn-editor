@@ -1,5 +1,4 @@
 {
-  "lemma": "fuckin",
   "examples": [{
     "text": "mane & amp ; it's too fuckin late ???"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "It's about fuckin time https : / / t.co / ZEa4NCVqIL"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuckin",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Fucking"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

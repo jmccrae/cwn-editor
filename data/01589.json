@@ -1,5 +1,4 @@
 {
-  "lemma": "seori",
   "examples": [{
     "text": "# hairyteens # seori # vidz # uk"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "# vidz # seori # teenporn # uk"
   }],
-  "status": "","editorId": "",
+  "lemma": "seori",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

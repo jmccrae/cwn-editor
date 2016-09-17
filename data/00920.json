@@ -1,5 +1,4 @@
 {
-  "lemma": "x_x",
   "examples": [{
     "text": ". Looks like it runs off mains power X_X"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "in the kim woo b * n tag x_x"
   }],
-  "status": "","editorId": "",
+  "lemma": "x_x",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "embarrassment: the shame you feel when your inadequacy or guilt is made public <i76199>",
+      "relNo": 1
+    }],
+    "definition": "an emoji appearing to be dead, generally indicating embarrassment"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

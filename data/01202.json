@@ -1,5 +1,4 @@
 {
-  "lemma": "too funny",
   "examples": [{
     "text": "my face ? I'm snickering , this is too funn"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "lmfaoo that's too funny I hope she doesn't still hate you"
   }],
-  "status": "","editorId": "",
+  "lemma": "too funny",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

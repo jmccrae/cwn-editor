@@ -1,5 +1,4 @@
 {
-  "lemma": "bless up",
   "examples": [{
     "text": "ME ) SPIRITUAL FIYA ! ! TRUE STORY BLESS UP ! ! https : / / t.co /"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "no school ?? bless up"
   }],
-  "status": "","editorId": "",
+  "lemma": "bless up",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "bless: give a benediction to; 'The dying man blessed his son' <i25959>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "bless: give a benediction to; 'The dying man blessed his son' <i25959>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

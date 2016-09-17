@@ -1,5 +1,4 @@
 {
-  "lemma": "wtfff",
   "examples": [{
     "text": "IT CANT BE TRUE IT CANT BE OMFG WTFFF"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "i deleted my dm with shawn , WHYYY WTFFF WH"
   }],
-  "status": "","editorId": "",
+  "lemma": "wtfff",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "What the fuck"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

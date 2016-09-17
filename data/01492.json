@@ -1,5 +1,4 @@
 {
-  "lemma": "we out",
   "examples": [{
     "text": "we out ???"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "we out"
   }],
-  "status": "","editorId": "",
+  "lemma": "we out",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

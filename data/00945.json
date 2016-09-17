@@ -1,5 +1,4 @@
 {
-  "lemma": "gonna cry",
   "examples": [{
     "text": "New Year at my work tonight . probably gonna cry lololol"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm for sure gonna cry tonight # seniornight"
   }],
-  "status": "","editorId": "",
+  "lemma": "gonna cry",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

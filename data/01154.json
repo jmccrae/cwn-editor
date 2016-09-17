@@ -1,5 +1,4 @@
 {
-  "lemma": "fym",
   "examples": [{
     "text": "KCA # VoteJKT48ID AlmightyTRE : nudisttt Eat mine fym"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "fym ? better not be talking about our group"
   }],
-  "status": "","editorId": "",
+  "lemma": "fym",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "What the fuck do you mean"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

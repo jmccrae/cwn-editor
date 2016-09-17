@@ -1,5 +1,4 @@
 {
-  "lemma": "screenshotted",
   "examples": [{
     "text": "annie and gab both screenshotted me crying i have to GO"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "screenshotted and sent by Maddie ? ? ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "screenshot",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "Screenshot <00939>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

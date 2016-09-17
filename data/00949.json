@@ -1,5 +1,4 @@
 {
-  "lemma": "kalma",
   "examples": [{
     "text": "Kalma For CarGlen"
   }, {
@@ -21,16 +20,14 @@
   }, {
     "text": "Kalma For CarGlen"
   }],
-  "status": "","editorId": "",
+  "lemma": "kalma",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "death=00220442-n (the act of killing; \\\"\"he had two deaths on his conscience\\\"\");07370091-n (the event of dying or departure from life; \\\"\"her death came as a terrible shock\\\"\"; \\\"\"upon your decease the capital will pass to your grandchildren\\\"\");11464213-n (the permanent end of all life functions in an organism or part of an organism; \\\"\"the animal died a painful death\\\"\");13985834-n (the absence of life or state of being dead; \\\"\"he seemed more content in death than he had ever been in life\\\"\");14586552-n (a final state; \\\"\"he came to a bad end\\\"\"; \\\"\"the so-called glorious experiment came to an inglorious end\\\"\");15168236-n (the time at which life ends; continuing until dead; \\\"\"she stayed until his death\\\"\"; \\\"\"a struggle to the last\\\"\");15168437-n (the time when something ends; \\\"\"it was the death of all his plans\\\"\"; \\\"\"a dying of old hopes\\\"\"",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": " death"
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

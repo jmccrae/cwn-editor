@@ -1,5 +1,4 @@
 {
-  "lemma": "dele",
   "examples": [{
     "text": "That ball from dele Alli was pinpoint ."
   }, {
@@ -21,16 +20,14 @@
   }, {
     "text": "20 . Dele"
   }],
-  "status": "","editorId": "",
+  "lemma": "dele",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "sign=00868895-v (make the sign of the cross over someone in order to call on God for protection; consecrate);00890750-v (be engaged by a written agreement; \\\"\"He signed to play the casino on Dec. 18\\\"\"; \\\"\"The soprano signed to sing the new opera\\\"\");00931122-v (communicate in sign language; \\\"\"I don't know how to sign, so I could not communicate with my deaf cousin\\\"\");00998530-v (mark with one's signature; write one's name (on); \\\"\"She signed the letter and sent it off\\\"\"; \\\"\"Please sign here\\\"\");01041202-v (communicate silently and non-verbally by signals or signs; \\\"\"He signed his disapproval with a dismissive hand gesture\\\"\"; \\\"\"The diner signaled the waiters to bring the menu\\\"\");01500958-v (place signs, as along a road; \\\"\"sign an intersection\\\"\"; \\\"\"This road has been signed\\\"\");02415071-v (engage by written agreement; \\\"\"They signed two new pitchers for the next season\\\"\");02470289-v (approve and express assent, responsibility, or obligation; \\\"\"All parties ratified the peace treaty\\\"\"; \\\"\"Have you signed your contract yet?\\\"\");04224949-n (structure displaying a board on which advertisements can be posted; \\\"\"the highway was lined with signboards\\\"\");06659006-n (a perceptible indication of something not immediately apparent (as a visible clue that something has happened); \\\"\"he showed signs of strain\\\"\"; \\\"\"they welcomed the signs of spring\\\"\");06804229-n (any nonverbal action or gesture that encodes a message; \\\"\"signals from the boat suddenly stopped\\\"\");06806088-n (a public display of a message; \\\"\"he posted signs in all the shop windows\\\"\");06824483-n (a character indicating a relation between quantities; \\\"\"don't forget the minus sign\\\"\");06889194-n (a gesture that is part of a sign language);07290723-n (a fundamental linguistic unit linking a signifier to that which is signified; \\\"\"The bond between the signifier and the signified is arbitrary\\\"\"--de Saussure);07300719-n (an event that is experienced as indicating important things to come; \\\"\"he hoped it was an augury\\\"\"; \\\"\"it was a sign from God\\\"\");08703415-n ((astrology) one of 12 equal areas into which the zodiac is divided);13878771-n (having an indicated pole (as the distinction between positive and negative electric charges); \\\"\"he got the polarity of the battery reversed\\\"\"; \\\"\"charges of opposite sign\\\"\");14325305-n ((medicine) any objective evidence of the presence of a disorder or disease; \\\"\"there were no signs of asphyxiation\\\"\"",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": " a sign signifying deletion"
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

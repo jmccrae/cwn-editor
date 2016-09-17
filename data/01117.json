@@ -1,5 +1,4 @@
 {
-  "lemma": "anti-white",
   "examples": [{
     "text": "girl thru 1st punch & amp ; thru Anti-white RACIST SLUR . https : / / t.co"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "do you think pro-blackness is anti-white ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "*anti-white",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "White: a Caucasian <i87277>",
+      "relNo": 3
+    }, {
+      "type": "similar",
+      "target": "antiblack: discriminatory especially on the basis of race or religion <i1588>",
+      "relNo": 2
+    }, {
+      "type": "similar",
+      "target": "prejudiced: being biased or having a belief or attitude formed beforehand; 'a prejudiced judge' <i1584>",
+      "relNo": 1
+    }],
+    "definition": "Opposed to people of European ancestry "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

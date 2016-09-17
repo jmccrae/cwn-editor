@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck yes",
   "examples": [{
     "text": "FUCK YES PREACH IT GIRL"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "FUCK YES https : / / t.co / uB0CBfZkwn"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuck yes",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

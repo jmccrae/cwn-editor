@@ -1,5 +1,4 @@
 {
-  "lemma": "righttt",
   "examples": [{
     "text": "I just want get you righttt"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "\\ fuckin righttt \\\"\" ?????\""
   }],
-  "status": "","editorId": "",
+  "lemma": "righttt",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Right "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

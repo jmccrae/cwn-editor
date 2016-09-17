@@ -1,5 +1,4 @@
 {
-  "lemma": "*swear",
   "examples": [{
     "text": "I swear people don't know how to walk ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I swear this week is weird . I been thinking"
   }],
-  "status": "","editorId": "",
+  "lemma": "*swear",
   "senses": [{
-    "pos": "",
-    "synonym": "00714537-v (have faith or confidence in; \\\"\"you can count on me to help you any time\\\"\"; \\\"\"Look to your friends for support\\\"\"; \\\"\"You can bet on that!\\\"\"; \\\"\"Depend on your family in times of crisis\\\"\");00867051-v (utter obscenities or profanities; \\\"\"The drunken men were cursing loudly in the street\\\"\");00891468-v (promise solemnly; take an oath);01013058-v (to declare or affirm solemnly and formally as true; \\\"\"Before God I swear I am innocent\\\"\");01015049-v (make a deposition; declare under oath",
+    "pos": "v",
+    "synonym": "swear: to declare or affirm solemnly and formally as true; 'Before God I swear I am innocent' <i26638>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

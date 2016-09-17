@@ -1,5 +1,4 @@
 {
-  "lemma": "patiently waiting",
   "examples": [{
     "text": "I'm patiently waiting for a follow from you ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Patiently waiting to present with some FRESH fan … https"
   }],
-  "status": "","editorId": "",
+  "lemma": "patiently waiting",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

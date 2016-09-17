@@ -1,5 +1,4 @@
 {
-  "lemma": "yessssssss",
   "examples": [{
     "text": "omg yessssssss ??? https : / / t.co / X7jKXyI4wr"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Sooooo lip sync battle on is everything ! Yessssssss please"
   }],
-  "status": "","editorId": "",
+  "lemma": "yessssssss",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Yes"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*a follow",
   "examples": [{
     "text": "Okay Shelby ! Everyone go give this girl a follow ! That's bro fr https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Please give a follow lets go so he reaches 600 only 89"
   }],
-  "status": "","editorId": "",
+  "lemma": "*a follow",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

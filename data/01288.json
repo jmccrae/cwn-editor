@@ -1,5 +1,4 @@
 {
-  "lemma": "*i smell",
   "examples": [{
     "text": "I smell guilt"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I smell ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "*i smell",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

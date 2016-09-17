@@ -1,5 +1,4 @@
 {
-  "lemma": "good shit",
   "examples": [{
     "text": "Damn , congrats my boy . Good shit "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Good shit Houston"
   }],
-  "status": "","editorId": "",
+  "lemma": "good shit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

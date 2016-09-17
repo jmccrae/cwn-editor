@@ -1,5 +1,4 @@
 {
-  "lemma": "so yeah",
   "examples": [{
     "text": "wanna use my data but I've overused it so yeah"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "every little shit you yourself mess up , so yeah go fall in a hole a die ol"
   }],
-  "status": "","editorId": "",
+  "lemma": "so yeah",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "r",
+    "synonym": "thus: (used to introduce a logical conclusion) from that fact or reason or as a result; 'therefore X must be true'; 'the eggs were fresh and hence satisfactory'; 'we were young and thence optimistic'; 'it is late and thus we must go'; 'the witness is biased and so cannot be trusted' <i18390>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

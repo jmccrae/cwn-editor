@@ -1,5 +1,4 @@
 {
-  "lemma": "ayye",
   "examples": [{
     "text": "east anedi crct ithe summer season lo release ayye cinema atlst 5.5cr business cheyali ga anna ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Ayye my point exactly https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "ayye",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "aye"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

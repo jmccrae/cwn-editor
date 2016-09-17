@@ -1,5 +1,4 @@
 {
-  "lemma": "snitched",
   "examples": [{
     "text": "made a movie about Frank Lucas cuz he snitched ... make a movie bout Big Meech"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "suddenly niggas hating on you . Nah you snitched on yo self . FOH"
   }],
-  "status": "","editorId": "",
+  "lemma": "snitch",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "snitch: give away information about somebody; 'He told on his classmate who had cheated on the exam' <i25853>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

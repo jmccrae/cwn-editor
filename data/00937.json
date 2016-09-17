@@ -1,5 +1,4 @@
 {
-  "lemma": "headass",
   "examples": [{
     "text": "HEADASS And I Need Some Dick"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Tark season is approaching ??? # ballislife # headass # TUSZN"
   }],
-  "status": "","editorId": "",
+  "lemma": "headass",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "asshole: insulting terms of address for people who are stupid or irritating or ridiculous <i88330>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

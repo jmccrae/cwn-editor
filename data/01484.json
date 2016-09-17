@@ -1,5 +1,4 @@
 {
-  "lemma": "game over",
   "examples": [{
     "text": "Defense took that game over"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ", Scarsdale 34 . LaRochelle taking control of game over last 9 minutes . She's got 10p "
   }],
-  "status": "","editorId": "",
+  "lemma": "game over",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

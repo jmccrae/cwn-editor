@@ -1,5 +1,4 @@
 {
-  "lemma": "duhhh",
   "examples": [{
     "text": "duhhh im gonna have a zoo?????????? ????"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "just needs to come hang out with me duhhh"
   }],
-  "status": "","editorId": "",
+  "lemma": "duhhh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Duh"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

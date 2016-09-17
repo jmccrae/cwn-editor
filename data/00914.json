@@ -1,5 +1,4 @@
 {
-  "lemma": "instalike",
   "examples": [{
     "text": "# picoftheday # bestoftheday # photooftheday # instalike # instahub # instagold # beauty # beautiful"
   }, {
@@ -21,12 +20,44 @@
   }, {
     "text": "lt ; 3 # instagram # instagood # instalike # love … https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "instalike",
   "senses": [{
-    "pos": "",
+    "pos": "n",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "thing: an entity that is not named specifically; 'I couldn't tell what the thing was' <i60192>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "like: find enjoyable or agreeable; 'I like jogging'; 'She likes to read Russian novels' <i30622>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "instantly: without any delay; 'he was killed outright' <i18331>",
+      "relNo": 2
+    }],
+    "definition": "something that is so good that it deserves to be instantly voted for on social media"
+  }, {
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "like: find enjoyable or agreeable; 'I like jogging'; 'She likes to read Russian novels' <i30622>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "instantly: without any delay; 'he was killed outright' <i18331>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "vote: express one's choice or preference by vote; 'vote the Democratic ticket' <i34031>",
+      "relNo": 1
+    }],
+    "definition": "to instantly vote for something on social media"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "be yourself",
   "examples": [{
     "text": "BE YOURSELF UNAPOLOGETICALLY ‼ ️ https : / / t.co"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Be yourself because pretending is so painful ."
   }],
-  "status": "","editorId": "",
+  "lemma": "be yourself",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

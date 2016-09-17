@@ -1,5 +1,4 @@
 {
-  "lemma": "sportsball",
   "examples": [{
     "text": "of the hyung status he cherishes to do aegyo for luhan ?☺ https : / / t.co"
   }, {
@@ -35,12 +34,26 @@
   }, {
     "text": "so many times cant wait for the next sportsball : )"
   }],
-  "status": "","editorId": "",
+  "lemma": "sportsball",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "ball: round object that is hit or thrown or kicked in games; 'the ball travelled 90 mph on his serve'; 'the mayor threw out the first ball'; 'the ball rolled into the corner pocket' <i50388>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "sport: the occupation of athletes who compete for pay <i37672>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "sport: the occupation of athletes who compete for pay <i37672>",
+      "relNo": 1
+    }],
+    "definition": "Sports of an unspecified kind,  usually condescending "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

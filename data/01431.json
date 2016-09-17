@@ -1,5 +1,4 @@
 {
-  "lemma": "snapchatted",
   "examples": [{
     "text": "lmao yeah we snapchatted that to you on my birthday haha"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "Me and have snapchatted everyday this year ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "snapchat",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "converse: carry on a conversation <i26420>",
+      "relNo": 1
+    }],
+    "definition": "To have a conversation on Snapchat"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

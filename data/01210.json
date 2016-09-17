@@ -1,5 +1,4 @@
 {
-  "lemma": "white people",
   "examples": [{
     "text": "* Oscars only nominate white people *"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "White people are MAD that B had the Black Panthers"
   }],
-  "status": "","editorId": "",
+  "lemma": "white people",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

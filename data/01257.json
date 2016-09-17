@@ -1,5 +1,4 @@
 {
-  "lemma": "mañana",
   "examples": [{
     "text": "by / Mañana # Estreno - # ALoNatural ( Prod ."
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "I got an AP quiz mañana but I'm over here watching videos on how"
   }],
-  "status": "","editorId": "",
+  "lemma": "mañana",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "tomorrow: the day after today; 'what are our tasks for tomorrow?' <i116860>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "loanword",
+      "target": "Spanish: the Romance language spoken in most of Spain and the countries colonized by Spain <i73223>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

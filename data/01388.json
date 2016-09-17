@@ -1,5 +1,4 @@
 {
-  "lemma": "foreva",
   "examples": [{
     "text": "3 years and now I have a hole foreva / :"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "I got ya back foreva eva ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "foreva",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Forever"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

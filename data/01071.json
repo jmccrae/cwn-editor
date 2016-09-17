@@ -1,5 +1,4 @@
 {
-  "lemma": "stop talking",
   "examples": [{
     "text": "Please stop talking , you know that the kid next t"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Can We please stop talking , tweeting , typing about Dion Phaneuf N"
   }],
-  "status": "","editorId": "",
+  "lemma": "stop talking",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

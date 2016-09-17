@@ -1,5 +1,4 @@
 {
-  "lemma": "hongbin",
   "examples": [{
     "text": "happy rheyre so annoying and cute i love hongbin so much https : / / t.co /"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "already have an u / n related to hongbin . looool"
   }],
-  "status": "","editorId": "",
+  "lemma": "hongbin",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "zoney",
   "examples": [{
     "text": "Zoney tho.. Hot damn"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "no bull Sebastian at the end of Wiz's Zoney was the coolest thing"
   }],
-  "status": "","editorId": "",
+  "lemma": "zoney",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "haha",
   "examples": [{
     "text": "haha this is so me and I fail every"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Haha !"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "haha",
   "senses": [{
-    "pos": "n",
+    "pos": "x",
     "synonym": "<--324-1>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

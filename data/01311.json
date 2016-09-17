@@ -1,5 +1,4 @@
 {
-  "lemma": "hell nah",
   "examples": [{
     "text": "Just \\ say no to drugs \\\"\" Hell nah i ain't listen??\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "oh hell nah ??? https : / / t.co / x6Wq9aBqGx"
   }],
-  "status": "","editorId": "",
+  "lemma": "hell nah",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "x",
+    "synonym": "Hell no <00555>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

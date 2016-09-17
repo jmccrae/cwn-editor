@@ -1,5 +1,4 @@
 {
-  "lemma": "no joke",
   "examples": [{
     "text": "Same here . I'm gunna crack soon no joke https : / / t.co / JDeSmP8klD"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "been through worst stages of epilepsy n it's no joke"
   }],
-  "status": "","editorId": "",
+  "lemma": "no joke",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

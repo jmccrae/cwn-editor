@@ -1,5 +1,4 @@
 {
-  "lemma": "mouf",
   "examples": [{
     "text": "well next time just shut that mouf ☺️☺️"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "When im in dat mouf I go bare face"
   }],
-  "status": "","editorId": "",
+  "lemma": "mouf",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Mouth"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

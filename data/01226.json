@@ -1,5 +1,4 @@
 {
-  "lemma": "chillax",
   "examples": [{
     "text": "Chillax it's hump day"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "don't get to do enough airplane tweeting # chillax"
   }],
-  "status": "","editorId": "",
+  "lemma": "chillax",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "relax: become less tense, rest, or take one's ease; 'He relaxed in the hot tub'; 'Let's all relax after a hard day's work' <i21894>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "chill: loose heat; 'The air cooled considerably after the thunderstorm' <i23583>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "relax: become less tense, less formal, or less restrained, and assume a friendlier manner; 'our new colleague relaxed when he saw that we were a friendly group' <i34700>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*self-aware",
   "examples": [{
     "text": "Least self-aware person on the planet . Wonder how much"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# depression are huge libido killers . Be self-aware and resolve these conditions before they squash your"
   }],
-  "status": "","editorId": "",
+  "lemma": "*self-aware",
   "senses": [{
-    "pos": "",
-    "synonym": "00573255-a (aware of yourself as an individual or of your own being and actions and thoughts; \\\"\"self-conscious awareness\\\"\"; \\\"\"self-conscious about their roles as guardians of the social values\\\"\"- D.M.Potter",
+    "pos": "a",
+    "synonym": "self-aware: aware of yourself as an individual or of your own being and actions and thoughts; 'self-conscious awareness'; 'self-conscious about their roles as guardians of the social values'- D.M.Potter <i3183>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

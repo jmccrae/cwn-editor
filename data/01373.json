@@ -1,5 +1,4 @@
 {
-  "lemma": "kns",
   "examples": [{
     "text": "LETS DO THIS KATHCAKES & amp ; KNS !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "kns : AAAAAAAHHHHHHH !"
   }],
-  "status": "","editorId": "",
+  "lemma": "kns",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

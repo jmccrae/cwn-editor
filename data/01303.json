@@ -1,5 +1,4 @@
 {
-  "lemma": "tix",
   "examples": [{
     "text": "11 : 11 - Troye Sivan tix"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "/ 1 in # NewtonMA . Many other tix available . https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "tix",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "ticket: a commercial document showing that the holder is entitled to something (as to ride on public transportation or to enter a public entertainment) <i70722>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

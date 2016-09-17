@@ -1,5 +1,4 @@
 {
-  "lemma": "my bff",
   "examples": [{
     "text": "stay at home unless its my bff having a party https : / / t.co"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Happy birthday to my bff I love you so much ! ! Thank"
   }],
-  "status": "","editorId": "",
+  "lemma": "my bff",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "my best friend forever"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

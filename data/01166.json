@@ -1,5 +1,4 @@
 {
-  "lemma": "bad mood",
   "examples": [{
     "text": "Such a bad mood ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "? bad mood ..."
   }],
-  "status": "","editorId": "",
+  "lemma": "bad mood",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "e46",
   "examples": [{
     "text": "Bmw e46 dvd bent , specially purposive against bmw "
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Radio Hd Hd Dvd Gps Navi Navigation For E46 3er M3 318 320 325 ↺Please"
   }],
-  "status": "","editorId": "",
+  "lemma": "e46",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

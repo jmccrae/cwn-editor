@@ -1,5 +1,4 @@
 {
-  "lemma": "jare",
   "examples": [{
     "text": "LOL . E ma da alakori yen lohun jare . Yes it was very tight oh ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Stare ale jare ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "jare",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

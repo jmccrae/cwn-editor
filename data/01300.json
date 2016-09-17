@@ -1,5 +1,4 @@
 {
-  "lemma": "big bro",
   "examples": [{
     "text": "Big bro droppin' a sick song @ 10pm featuring me"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "DTown4L Niggaz kno how we coming 4 you big bro"
   }],
-  "status": "","editorId": "",
+  "lemma": "big bro",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "bokuto",
   "examples": [{
     "text": "it looks like bokuto iS BREAKING KENMAS ARMS https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i need bokuto to hoot softly in my ear and tell"
   }],
-  "status": "","editorId": "",
+  "lemma": "bokuto",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "wowzers",
   "examples": [{
     "text": "wowzers ? ? ? ? ?"
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "WOWZERS ! ! Thats amazing"
   }],
-  "status": "","editorId": "",
+  "lemma": "wowzers",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 1
+    }],
+    "definition": "Expression of extreme surprise "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

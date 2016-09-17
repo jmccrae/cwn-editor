@@ -1,5 +1,4 @@
 {
-  "lemma": "selenator",
   "examples": [{
     "text": "Rise & lt ; 3 # Selenator https : / / t.co / V7yCT79v0e"
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "# selenagomez # selenator # selenators"
   }],
-  "status": "","editorId": "",
+  "lemma": "selenator",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "fan: an ardent follower and admirer <i89881>",
+      "relNo": 1
+    }],
+    "definition": "A fan of Selena Gomez"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

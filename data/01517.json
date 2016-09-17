@@ -1,5 +1,4 @@
 {
-  "lemma": "brotha",
   "examples": [{
     "text": "that spanish food around the way from my brotha crib on God ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hate you too my brotha from anotha motha https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "brotha",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Brother "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

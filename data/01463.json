@@ -1,5 +1,4 @@
 {
-  "lemma": "heyy",
   "examples": [{
     "text": "Heyy"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Heyy ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "heyy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Hey"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "ooooooo",
   "examples": [{
     "text": "OOOOOOO BLOOD PUMPING ! dude came in the gym"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "My baby hit me back ooooooo ????"
   }],
-  "status": "","editorId": "",
+  "lemma": "ooooooo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Oh"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

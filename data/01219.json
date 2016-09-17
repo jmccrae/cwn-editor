@@ -1,5 +1,4 @@
 {
-  "lemma": "alay",
   "examples": [{
     "text": "# tl open agency no nick and alay thingy please ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "For Alay From Tanggerang ! !"
   }],
-  "status": "","editorId": "",
+  "lemma": "alay",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

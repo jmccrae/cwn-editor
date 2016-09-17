@@ -1,5 +1,4 @@
 {
-  "lemma": "lls",
   "examples": [{
     "text": "Lls Eli looked so blown"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "until when ? ! Like another 3 years lls"
   }],
-  "status": "","editorId": "",
+  "lemma": "lls",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Laughing like shit "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

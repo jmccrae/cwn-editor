@@ -1,5 +1,4 @@
 {
-  "lemma": "mornight",
   "examples": [{
     "text": "Mornight ! ?"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "Good mornight ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "mornight",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "night: the time after sunset and before sunrise while it is dark outside <i116919>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "morning: the time period between dawn and noon; 'I spent the morning running errands' <i116908>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "time period: an amount of time; 'a time period of 30 years'; 'hastened the period of time of his recovery'; 'Picasso's blue period' <i116632>",
+      "relNo": 1
+    }],
+    "definition": "both morning and night, used when greeting someone"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

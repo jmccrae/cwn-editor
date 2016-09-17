@@ -1,5 +1,4 @@
 {
-  "lemma": "gujrat",
   "examples": [{
     "text": "hey , it's Gujarat , not gujra"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "hey , it's Gujarat , not gujra"
   }],
-  "status": "","editorId": "",
+  "lemma": "gujrat",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Gujarat"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

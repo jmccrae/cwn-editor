@@ -1,5 +1,4 @@
 {
-  "lemma": "ahah",
   "examples": [{
     "text": "wish I could ask my parents for money ahah"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "like meeting me ! ; ) : D ahah )"
   }],
-  "status": "","editorId": "",
+  "lemma": "ahah",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "x",
+    "synonym": "<--324-1>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

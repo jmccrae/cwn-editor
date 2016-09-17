@@ -1,5 +1,4 @@
 {
-  "lemma": "but seriously",
   "examples": [{
     "text": "No but seriously I had an epiphany ; it stopped me"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "But seriously I like Nonstop , Satisfied , Wait Fo"
   }],
-  "status": "","editorId": "",
+  "lemma": "but seriously",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

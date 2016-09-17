@@ -1,5 +1,4 @@
 {
-  "lemma": "*lightning rod",
   "examples": [{
     "text": "You are like a living lightning rod today , attracting dynamic ... More for Aquariu"
   }, {
@@ -21,40 +20,14 @@
   }, {
     "text": "You are like a living lightning rod today , attracting dynamic ... More for Aquariu"
   }],
-  "status": "","editorId": "",
+  "lemma": "*lightning rod",
   "senses": [{
-    "pos": "",
-    "synonym": "03673393-n (a metallic conductor that is attached to a high point and leads to the ground; protects the building from destruction by lightning);10281880-n (someone who is a frequent target of negative reactions and serves to distract attention from another)",
+    "pos": "n",
+    "synonym": "lightning rod: someone who is a frequent target of negative reactions and serves to distract attention from another <i91021>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "damage=00403900-n (the act of damaging something or someone);00745429-n (any harm or injury resulting from a violation of a legal right);07354253-n (loss of military equipment);07435370-n (the occurrence of a change for the worse);13324337-n (the amount of money needed to purchase something; \\\"\"the price of gasoline\\\"\"; \\\"\"he got his new car on excellent terms\\\"\"; \\\"\"how much is the damage?\\\"\");00259743-v (inflict damage upon; \\\"\"The snow damaged the roof\\\"\"; \\\"\"She damaged the car when she hit the tree\\\"\");00589255-v (suffer or be susceptible to damage; \\\"\"These fine china cups damage easily\\\"\"",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "protect=01130619-v (shield from danger, injury, destruction, or damage; \\\"\"Weatherbeater protects your roof from the rain\\\"\");01132136-v (use tariffs to favor domestic industry",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "ground=00638550-v (use as a basis for; found on; \\\"\"base a claim on some observation\\\"\");00832309-v (instruct someone in the fundamentals of a subject);01295137-v (connect to a ground; \\\"\"ground the electrical connections for safety reasons\\\"\");01307604-v (fix firmly and stably; \\\"\"anchor the lamppost in concrete\\\"\");01368058-v (cover with a primer; apply a primer to);01409010-v (hit onto the ground);01409166-v (hit a groundball; \\\"\"he grounded to the second baseman\\\"\");01409338-v (throw to the ground in order to stop play and avoid being tackled behind the line of scrimmage);01505293-v (place or put on the ground);01505401-v (confine or restrict to the ground; \\\"\"After the accident, they grounded the plane and the pilot\\\"\");02026205-v (hit or reach the ground);02026332-v (bring to the ground; \\\"\"the storm grounded the ship\\\"\");03365691-n (the first or preliminary coat of paint or size applied to a surface);03467526-n ((art) the surface (as a wall or canvas) prepared to take the paint for a painting);03467679-n (a connection between an electrical device and a large conducting body, such as the earth (which is taken to be at zero voltage));05939360-n (a relatively homogeneous percept extending back of the figure on which attention is focused);05942570-n (the part of a scene (or picture) that lies behind objects in the foreground; \\\"\"he posed her against a background of rolling hills\\\"\");08597662-n (a position to be won or defended in battle (or as if in battle); \\\"\"they gained ground step by step\\\"\"; \\\"\"they fought to regain the lost ground\\\"\");09201896-n (a rational motive for a belief or action; \\\"\"the reason that war was declared\\\"\"; \\\"\"the grounds for their declaration\\\"\");09357302-n (the solid part of the earth's surface; \\\"\"the plane turned away from the sea and moved back over land\\\"\"; \\\"\"the earth shook for several minutes\\\"\"; \\\"\"he dropped the logs on the ground\\\"\");09358146-n (material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use); \\\"\"the land had never been plowed\\\"\"; \\\"\"good agricultural soil\\\"\");13813124-n (a relation that provides the foundation for something; \\\"\"they were on a friendly footing\\\"\"; \\\"\"he worked on an interim basis\\\"\");14867162-n (the loose soft material that makes up a large part of the land surface; \\\"\"they dug into the earth outside the church\\\"\"",
-      "relNo": 2
-    }, {
-      "type": "none",
-      "target": "building=00912746-n (the act of constructing something; \\\"\"during the construction we had to take a detour\\\"\"; \\\"\"his hobby was the building of boats\\\"\");01106542-n (the commercial activity involved in repairing old structures or constructing new ones; \\\"\"their main business is home construction\\\"\"; \\\"\"workers in the building trades\\\"\");02916498-n (a structure that has a roof and walls and stands more or less permanently in one place; \\\"\"there was a three-story building on the corner\\\"\"; \\\"\"it was an imposing edifice\\\"\");07989688-n (the occupants of a building; \\\"\"the entire building complained about the noise\\\"\"",
-      "relNo": 3
-    }, {
-      "type": "none",
-      "target": "attach=01292858-v (be attached; be in contact with);01293025-v (become attached; \\\"\"The spider's thread attached to the window sill\\\"\");01299048-v (cause to be attached);02278138-v (take temporary possession of as a security, by legal authority; \\\"\"The FBI seized the drugs\\\"\"; \\\"\"The customs agents impounded the illegal shipment\\\"\"; \\\"\"The police confiscated the stolen artwork\\\"\");02543752-v (create social or emotional ties; \\\"\"The grandparents want to bond with the child\\\"\"",
-      "relNo": 4
-    }, {
-      "type": "none",
-      "target": "conductor=03093163-n (a device designed to transmit electricity, heat, etc.);09972018-n (the person who leads a musical group);09972531-n (the person who collects fares on a public conveyance);14845213-n (a substance that readily conducts e.g. electricity and heat",
-      "relNo": 5
-    }, {
-      "type": "none",
-      "target": "metallic=03757468-n (a yarn made partly or entirely of metal);03757562-n (a fabric made of a yarn that is partly or entirely of metal);01531539-a (containing or made of or resembling or characteristic of a metal; \\\"\"a metallic compound\\\"\"; \\\"\"metallic luster\\\"\"; \\\"\"the strange metallic note of the meadow lark, suggesting the clash of vibrant blades\\\"\"- Ambrose Bierce",
-      "relNo": 6
-    }],
-    "definition": "A metallic conductor that is attached to a high point of a building and leads to the ground and protects the building from damage by lightning"
-  }]
+    "relations": [],
+    "definition": ""
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

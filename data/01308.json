@@ -1,5 +1,4 @@
 {
-  "lemma": "gonna",
   "examples": [{
     "text": "I Got You Babe / It's Gonna Rain Digital 45 # Sonny & amp ;"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "\\ You know , i'm gonna have to work at some point \\\"\" He\""
   }],
-  "status": "","editorId": "",
+  "lemma": "gonna",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Going to "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

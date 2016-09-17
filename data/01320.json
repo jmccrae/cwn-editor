@@ -1,5 +1,4 @@
 {
-  "lemma": "mfs",
   "examples": [{
     "text": "Mfs get food wanna act funny?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Mfs still find ways to send me bs even"
   }],
-  "status": "","editorId": "",
+  "lemma": "mfs",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Motherfuckers"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

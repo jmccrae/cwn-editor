@@ -1,5 +1,4 @@
 {
-  "lemma": "beautiful day",
   "examples": [{
     "text": "A beautiful day in Portland , Oregon ☀️?? . The squa"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Happy Birthday i wish you a beautiful day , u are the best , love yo"
   }],
-  "status": "","editorId": "",
+  "lemma": "beautiful day",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

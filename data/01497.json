@@ -1,5 +1,4 @@
 {
-  "lemma": "this kid",
   "examples": [{
     "text": "This kid sat in MY unassigned seat and he messed"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "?? this kid # NoJamsEP1 https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "this kid",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

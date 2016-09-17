@@ -1,5 +1,4 @@
 {
-  "lemma": "alhamdulilah",
   "examples": [{
     "text": "Start everything with bismillah and u will find alhamdulilah in the end ."
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "lot people say that about SA people . Alhamdulilah . It's true . Love y'all for the"
   }],
-  "status": "","editorId": "",
+  "lemma": "*alhamdulilah",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "loanword",
+      "target": "Arabic: the Semitic language of the Arabs; spoken in a variety of dialects <i73365>",
+      "relNo": 1
+    }],
+    "definition": "An expression meaning 'praise God' in Arabic"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

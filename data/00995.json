@@ -1,5 +1,4 @@
 {
-  "lemma": "animu",
   "examples": [{
     "text": "need that animu recommendation"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "lookin forward to that animu ..."
   }],
-  "status": "","editorId": "",
+  "lemma": "animu",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

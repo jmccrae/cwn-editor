@@ -1,5 +1,4 @@
 {
-  "lemma": "leggo",
   "examples": [{
     "text": "Social Psych exam 1 . Leggo"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "leggo"
   }],
-  "status": "","editorId": "",
+  "lemma": "leggo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "let's go"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*the shit",
   "examples": [{
     "text": "I hate arguing with Daija ? the shit she say"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "HOL UP WOODY FROM TOY STORY WAS WITH THE SHIT ? Lmao"
   }],
-  "status": "","editorId": "",
+  "lemma": "*the shit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": " Something considered to be excellent or the best of its kind."
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

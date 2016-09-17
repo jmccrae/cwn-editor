@@ -1,5 +1,4 @@
 {
-  "lemma": "libtard",
   "examples": [{
     "text": "Someone here has a serious Libtard virus attack & gt ; & gt ;"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "is a free loading race-baiting gastric bypass debacle libtard ! # Trump"
   }],
-  "status": "","editorId": "",
+  "lemma": "libtard",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "retard: a person of subnormal intelligence <i90651>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "liberal: having political or social views favoring reform and progress <i11133>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "liberal: having political or social views favoring reform and progress <i11133>",
+      "relNo": 1
+    }],
+    "definition": "A pejorative term for a liberal "
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "yixing",
   "examples": [{
     "text": "I love yixing"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "* Zhang Yixing is seen filming"
   }],
-  "status": "","editorId": "",
+  "lemma": "yixing",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "your place",
   "examples": [{
     "text": "/ / t.co / M7b9TGS8cj? Fuck girls from your place ✅ Fully free now?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "/ t.co / Dimz2eV867? Women to fuck in your place ✅ Join for free now?"
   }],
-  "status": "","editorId": "",
+  "lemma": "your place",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

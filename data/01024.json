@@ -1,5 +1,4 @@
 {
-  "lemma": "yanno",
   "examples": [{
     "text": "i just wanna be happy yanno ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Yanno , that whole \\ love & amp ;\""
   }],
-  "status": "","editorId": "",
+  "lemma": "yanno",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "You know "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

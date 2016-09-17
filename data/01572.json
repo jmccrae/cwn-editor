@@ -1,5 +1,4 @@
 {
-  "lemma": "mcchicken",
   "examples": [{
     "text": "COME TO THE LIBRARY AND BE UNMOTIVATED WIT MCCHICKEN"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "a mcchicken would be great right about now"
   }],
-  "status": "","editorId": "",
+  "lemma": "mcchicken",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

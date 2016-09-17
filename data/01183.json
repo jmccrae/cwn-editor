@@ -1,5 +1,4 @@
 {
-  "lemma": "creampied",
   "examples": [{
     "text": "Japanese porn first-timer teen creampied https : / / t.co / uEiTBero3R #"
   }, {
@@ -21,12 +20,44 @@
   }, {
     "text": "Cuckold MILF Creampied by BBC cuckold666 co https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "creampie",
   "senses": [{
-    "pos": "",
+    "pos": "n",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "ejaculate: the thick white fluid containing spermatozoa that is ejaculated by the male genital tract <i65372>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "pie: dish baked in pastry-lined pan often with a pastry top <i76921>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "cream: the part of milk containing the butterfat <i78406>",
+      "relNo": 2
+    }],
+    "definition": "Ejaculate inside a vagina or anus"
+  }, {
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "pie: dish baked in pastry-lined pan often with a pastry top <i76921>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "cream: the part of milk containing the butterfat <i78406>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "ejaculate: eject semen <i22047>",
+      "relNo": 1
+    }],
+    "definition": "The act of ejaculating inside another person"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

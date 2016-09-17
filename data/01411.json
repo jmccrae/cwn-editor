@@ -1,5 +1,4 @@
 {
-  "lemma": "yeee",
   "examples": [{
     "text": "awak stalk sye yeee"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Yeee good lookin ?????"
   }],
-  "status": "","editorId": "",
+  "lemma": "yeee",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Yes"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

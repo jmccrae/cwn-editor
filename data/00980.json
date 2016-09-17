@@ -1,5 +1,4 @@
 {
-  "lemma": "wanna",
   "examples": [{
     "text": "i wanna say we're going steady like its 1954 FOCUS"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Do i wanna know # Vote5H # KCA https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "wanna",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "want to"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

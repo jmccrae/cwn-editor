@@ -1,5 +1,4 @@
 {
-  "lemma": "whoriental",
   "examples": [{
     "text": "# livetweet # whoriental # services # amateurs"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "porn # sexy # thai # video # whoriental # xxx"
   }],
-  "status": "","editorId": "",
+  "lemma": "whoriental",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "oriental: denoting or characteristic of countries of the Far East; 'oriental civilization' <i4540>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "whore: a woman who engages in sexual intercourse for money <i92307>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "whore: a woman who engages in sexual intercourse for money <i92307>",
+      "relNo": 1
+    }],
+    "definition": "An East Asian Whore"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

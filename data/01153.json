@@ -1,5 +1,4 @@
 {
-  "lemma": "*meerkat",
   "examples": [{
     "text": "MEERKAT : MeerkatsNow : TheSJSLawFirm : RT blkpolitics2day :"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "MEERKAT : briandavidson : |LIVE NOW| # meerkat https"
   }],
-  "status": "","editorId": "",
+  "lemma": "*meerkat",
   "senses": [{
-    "pos": "",
-    "synonym": "02141093-n (a mongoose-like viverrine of South Africa having a face like a lemur and only four toes)",
+    "pos": "n",
+    "synonym": "meerkat: a mongoose-like viverrine of South Africa having a face like a lemur and only four toes <i46698>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

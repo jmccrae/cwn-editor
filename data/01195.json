@@ -1,5 +1,4 @@
 {
-  "lemma": "ima",
   "examples": [{
     "text": "I'm watching neph rn Ima hit you after I take Jason to his"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Ima call you when I get down there https"
   }],
-  "status": "","editorId": "",
+  "lemma": "ima",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "I'm going to "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

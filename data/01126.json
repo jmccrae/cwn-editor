@@ -1,5 +1,4 @@
 {
-  "lemma": "wtff",
   "examples": [{
     "text": "gonna have a look at his book AND WTFF MAN IM FEELING EVEN WORSE FOR THIS GUY"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Wtff is thiss https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "wtff",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "What the fucking fuck"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

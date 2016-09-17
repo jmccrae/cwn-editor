@@ -1,5 +1,4 @@
 {
-  "lemma": "soulja",
   "examples": [{
     "text": "Soulja Slim - https : / / t.co /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Listen to ELZ MONTANA \\ G'D UP SOULJA DOWN \\\"\" RIP SOULJA SLIM by RealRida900 #\""
   }],
-  "status": "","editorId": "",
+  "lemma": "soulja",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

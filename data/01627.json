@@ -1,5 +1,4 @@
 {
-  "lemma": "haah",
   "examples": [{
     "text": "haah"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "haah"
   }],
-  "status": "","editorId": "",
+  "lemma": "haah",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Hah"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

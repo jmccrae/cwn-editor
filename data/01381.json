@@ -1,5 +1,4 @@
 {
-  "lemma": "hanbok",
   "examples": [{
     "text": "Find in Koreatown : LeeWha Hanbok Shop : Opened in 1993 , LeeWha "
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Koreans Vote for the maximum efficient Representative Hanbok Style kokoberry February 9 , 2016 0 O"
   }],
-  "status": "","editorId": "",
+  "lemma": "hanbok",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

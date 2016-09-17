@@ -1,5 +1,4 @@
 {
-  "lemma": "awesome day",
   "examples": [{
     "text": "John ! ! ! hope u had an awesome day ! ! ! ❣?✌???"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "morning / afternoon / night everyone have an awesome day today or sweet dreams ! Sandra https :"
   }],
-  "status": "","editorId": "",
+  "lemma": "awesome day",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

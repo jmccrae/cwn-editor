@@ -1,5 +1,4 @@
 {
-  "lemma": "ass up",
   "examples": [{
     "text": "cho ass up"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I could keep going on I'll fire that ass up"
   }],
-  "status": "","editorId": "",
+  "lemma": "ass up",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

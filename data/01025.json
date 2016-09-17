@@ -1,5 +1,4 @@
 {
-  "lemma": "swagg",
   "examples": [{
     "text": "continue to miss BRF , ambo no get swagg meh"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "in ur house used to be some bigboy swagg back then !"
   }],
-  "status": "","editorId": "",
+  "lemma": "swagg",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

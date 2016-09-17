@@ -1,5 +1,4 @@
 {
-  "lemma": "fenna",
   "examples": [{
     "text": "Im fenna spend tha night wit oomfs"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ".Just a young nigga who fenna eat , doing as much as I ca"
   }],
-  "status": "","editorId": "",
+  "lemma": "fenna",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Fixing to "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

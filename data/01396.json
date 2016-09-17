@@ -1,5 +1,4 @@
 {
-  "lemma": "ohk",
   "examples": [{
     "text": "ohk thanx for info g , and by th"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Ohk but airplanes as the intro song would be"
   }],
-  "status": "","editorId": "",
+  "lemma": "ohk",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "OK "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

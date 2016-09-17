@@ -1,5 +1,4 @@
 {
-  "lemma": "my cat",
   "examples": [{
     "text": "My cat left the room # VoteDebbyRyan # KCA"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# ialwaysgetannoyedwhen my cat children wake me up 4 : 00 AM"
   }],
-  "status": "","editorId": "",
+  "lemma": "my cat",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

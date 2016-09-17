@@ -1,5 +1,4 @@
 {
-  "lemma": "typa",
   "examples": [{
     "text": "THAT WOULDA BEEN SPILLED THE BEANS ON THAT TYPA CONSPIRACY"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "All deez candles got me feelin some typa way . Who's tryna blow em out &"
   }],
-  "status": "","editorId": "",
+  "lemma": "typa",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Type of "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

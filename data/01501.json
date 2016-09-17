@@ -1,5 +1,4 @@
 {
-  "lemma": "shoulda",
   "examples": [{
     "text": "I shoulda figured tho all that shit you was spittin"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Shoulda stayed home today"
   }],
-  "status": "","editorId": "",
+  "lemma": "shoulda",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Should have "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

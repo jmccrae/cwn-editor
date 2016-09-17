@@ -1,5 +1,4 @@
 {
-  "lemma": "high-profile",
   "examples": [{
     "text": "https : / / t.co / X0rLwt6YQX Roho High-profile Wheelchair Cushion ↺Please Favorite & amp ; Share"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Deadly Mexican Heroin Flowing into Florida : A high-profile bust ... https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "high-profile",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "high profile: a position attracting much attention and publicity <i110249>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*day-to-day",
   "examples": [{
     "text": "Stop allowing your day-to-day life to be clouded by busy nothingness ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "It's not day-to-day necessary info , or hard to find i"
   }],
-  "status": "","editorId": "",
+  "lemma": "*day-to-day",
   "senses": [{
-    "pos": "",
-    "synonym": "01975230-a (of or belonging to or occurring every day; \\\"\"daily routine\\\"\"; \\\"\"a daily paper\\\"\"",
+    "pos": "a",
+    "synonym": "day-to-day: of or belonging to or occurring every day; 'daily routine'; 'a daily paper' <i10779>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

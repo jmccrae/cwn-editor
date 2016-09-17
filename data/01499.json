@@ -1,5 +1,4 @@
 {
-  "lemma": "*twitch",
   "examples": [{
     "text": "& gt ; Ear twitch"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "TWITCH ! ! # Peace & amp ; patience"
   }],
-  "status": "","editorId": "",
+  "lemma": "*twitch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "14385069-n (a sudden muscle spasm; especially one caused by a nervous condition);00009624-v (make an uncontrolled, short, jerky motion; \\\"\"his face is twitching\\\"\");01451371-v (move or pull with a sudden motion);01459400-v (squeeze tightly between the fingers; \\\"\"He pinched her behind\\\"\"; \\\"\"She squeezed the bottle\\\"\");01895810-v (move with abrupt, seemingly uncontrolled motions; \\\"\"The patient's legs were jerkings\\\"\");01897594-v (toss with a sharp movement so as to cause to turn over in the air",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

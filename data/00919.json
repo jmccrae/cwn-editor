@@ -1,5 +1,4 @@
 {
-  "lemma": "peer-to-peer",
   "examples": [{
     "text": "Our Mail : Financials Edition : How does peer-to-peer lending work , and is it a g"
   }, {
@@ -21,12 +20,28 @@
   }, {
     "text": "Too_Easy_5 Join us on the first peer-to-peer rental platform for the new urban mobilities"
   }],
-  "status": "","editorId": "",
+  "lemma": "peer-to-peer",
   "senses": [{
-    "pos": "",
+    "pos": "a",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "domain_topic",
+      "target": "computing: the branch of engineering science that studies (with the aid of computers) computable processes and structures <i68812>",
+      "relNo": 1
+    }],
+    "definition": "Of a network of two or more computers connected as equal partners and able to share processing, control and access to data and peripherals [Wiktionary]"
+  }, {
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "similar",
+      "target": "equal: be equal to in quality or ability; 'Nothing can rival cotton for durability'; 'Your performance doesn't even touch that of your colleagues'; 'Her persistence and ambition only matches that of her parents' <i35024>",
+      "relNo": 1
+    }],
+    "definition": "Of a social network of equal partners able to conduct business without using a middle man [Wiktionary]"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "yooooooo",
   "examples": [{
     "text": "Yooooooo I'm mad bored??"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Yooooooo tonight it's goin down ! ! ! See"
   }],
-  "status": "","editorId": "",
+  "lemma": "yooooooo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Yo"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

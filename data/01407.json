@@ -1,5 +1,4 @@
 {
-  "lemma": "awhh",
   "examples": [{
     "text": "awhh thank you ❤️"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "Awhh I love you❤️"
   }],
-  "status": "","editorId": "",
+  "lemma": "awhh",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "sympathy: sharing the feelings of others (especially feelings of sorrow or anguish) <i76455>",
+      "relNo": 1
+    }],
+    "definition": "Expression of sympathy "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

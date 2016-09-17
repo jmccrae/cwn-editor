@@ -1,5 +1,4 @@
 {
-  "lemma": "feel me",
   "examples": [{
     "text": "Ya feel me"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "just tryna' get dat filthy criminal d ya feel me mm dats sum g00d shit"
   }],
-  "status": "","editorId": "",
+  "lemma": "feel me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

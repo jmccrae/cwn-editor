@@ -1,5 +1,4 @@
 {
-  "lemma": "harga",
   "examples": [{
     "text": "Harga 176 , 5 ribu "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Harga : Rm38 sehelai * exclude ... https :"
   }],
-  "status": "","editorId": "",
+  "lemma": "harga",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

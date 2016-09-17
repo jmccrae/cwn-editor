@@ -1,5 +1,4 @@
 {
-  "lemma": "*homegirl",
   "examples": [{
     "text": "You are homegirl af ?? class with you was always lit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Homegirl on here said she going to be a"
   }],
-  "status": "","editorId": "",
+  "lemma": "*homegirl",
   "senses": [{
-    "pos": "",
-    "synonym": "10201509-n (a fellow female member of a youth gang)",
+    "pos": "n",
+    "synonym": "homegirl: a fellow female member of a youth gang <i90545>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

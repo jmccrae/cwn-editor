@@ -1,5 +1,4 @@
 {
-  "lemma": "*glitching",
   "examples": [{
     "text": "are you glitching out"
   }, {
@@ -17,12 +16,22 @@
   }, {
     "text": "Marco Rubio Can't Stop Glitching , Continues to Repeat the Same Line Ove"
   }],
-  "status": "","editorId": "",
+  "lemma": "glitch",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "glitch: a fault or defect in a computer program, system, or machine <i113022>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "malfunction: fail to function or function improperly; 'the coffee maker malfunctioned' <i29356>",
+      "relNo": 1
+    }],
+    "definition": "To suffer a minor malfunction "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

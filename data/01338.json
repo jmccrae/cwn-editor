@@ -1,5 +1,4 @@
 {
-  "lemma": "add me",
   "examples": [{
     "text": "Hey , can you please add me on Snapchat : ItIsJordanM https : / "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Add me glacies217 : D https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "add me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "fingers crossed",
   "examples": [{
     "text": "at the end of last week too ... Fingers crossed ! x"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "out to try tag a bull shark ! Fingers crossed !"
   }],
-  "status": "","editorId": "",
+  "lemma": "fingers crossed",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "good luck: an unexpected piece of good luck; 'he finally got his big break' <i75139>",
+      "relNo": 1
+    }],
+    "definition": "Expression of hoping for good luck "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

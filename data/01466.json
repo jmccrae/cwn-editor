@@ -1,5 +1,4 @@
 {
-  "lemma": "sayang",
   "examples": [{
     "text": "Mancay , thanks for today ya sayan"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Try here sayang ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "sayang",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Saying "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

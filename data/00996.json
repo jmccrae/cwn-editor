@@ -1,5 +1,4 @@
 {
-  "lemma": "cuhz",
   "examples": [{
     "text": "Cuhz the microwave be tweakin that hoe still cold"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "2 bump music and smoke a thoint fuck cuhz"
   }],
-  "status": "","editorId": "",
+  "lemma": "cuhz",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "because"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

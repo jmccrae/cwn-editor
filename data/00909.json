@@ -1,5 +1,4 @@
 {
-  "lemma": "morningg",
   "examples": [{
     "text": "morningg"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "good morningg , ❤"
   }],
-  "status": "","editorId": "",
+  "lemma": "morningg",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "morning"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

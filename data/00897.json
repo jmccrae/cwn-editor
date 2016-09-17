@@ -1,5 +1,4 @@
 {
-  "lemma": "awww",
   "examples": [{
     "text": "if this was relatable and she said \\ awww yeah \\\"\" she sounded very sad for you\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Gal : Awww . Ok ."
   }],
-  "status": "","editorId": "",
+  "lemma": "awww",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "x",
+    "synonym": "<-----reddit-114-1>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*fandom",
   "examples": [{
     "text": "Fandom :"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Fandom :"
   }],
-  "status": "","editorId": "",
+  "lemma": "*fandom",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "08240502-n (the fans of a sport or famous person)",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

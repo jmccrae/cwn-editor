@@ -1,5 +1,4 @@
 {
-  "lemma": "shiiit",
   "examples": [{
     "text": "shiiit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "good \\ by Clipse used to be my shiiit boiii\""
   }],
-  "status": "","editorId": "",
+  "lemma": "shiiit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Shit"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

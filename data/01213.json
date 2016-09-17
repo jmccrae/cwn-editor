@@ -1,5 +1,4 @@
 {
-  "lemma": "waah",
   "examples": [{
     "text": "they're back and miss you : ' ) waah ."
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "waah you have the Ao Haru Ride artbook !"
   }],
-  "status": "","editorId": "",
+  "lemma": "waah",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "crying: the process of shedding tears (usually accompanied by sobs or other inarticulate sounds); 'I hate to hear the crying of a child'; 'she was in tears' <i39959>",
+      "relNo": 1
+    }],
+    "definition": "Imitation of the sound of crying "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

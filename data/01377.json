@@ -1,5 +1,4 @@
 {
-  "lemma": "wahhh",
   "examples": [{
     "text": "got my knitting machine working last night ... Wahhh I want to stay home and play with"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "WAHHH only needs simon BOO SIMON LEAVE HER"
   }],
-  "status": "","editorId": "",
+  "lemma": "wahhh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Wah"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

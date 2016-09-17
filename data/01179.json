@@ -1,5 +1,4 @@
 {
-  "lemma": "wknd",
   "examples": [{
     "text": "wacha ma boys warelax mechi ya next wknd sio mzaha"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "/ Xv8WcIwApg Retweeted RT NBA : As NBAAllStar wknd heads to Toronto , we present mrvincecarter15's INSA"
   }],
-  "status": "","editorId": "",
+  "lemma": "wknd",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Weekend"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

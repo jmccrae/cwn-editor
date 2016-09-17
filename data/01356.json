@@ -1,5 +1,4 @@
 {
-  "lemma": "gotta love",
   "examples": [{
     "text": "You gotta love a female who would rather stay in the"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Gotta love a good movie night , might need t"
   }],
-  "status": "","editorId": "",
+  "lemma": "gotta love",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Got to love"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

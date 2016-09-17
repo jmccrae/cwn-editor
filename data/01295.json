@@ -1,5 +1,4 @@
 {
-  "lemma": "*snowing",
   "examples": [{
     "text": "So it's snowing outside do you think the dmv will cancel"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "snowing again sweet boy , we have rain rai"
   }],
-  "status": "","editorId": "",
+  "lemma": "snow",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "snow: fall as snow; 'It was snowing all night' <i35476>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

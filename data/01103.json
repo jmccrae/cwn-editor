@@ -1,5 +1,4 @@
 {
-  "lemma": "kaisoo",
   "examples": [{
     "text": "finally comes out # Kai # Kyungsoo # kaisoo # fakesubs # exo # kpop ( Vine"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'll either do markbam jackbum or kaisoo"
   }],
-  "status": "","editorId": "",
+  "lemma": "kaisoo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

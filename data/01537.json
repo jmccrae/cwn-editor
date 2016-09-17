@@ -1,5 +1,4 @@
 {
-  "lemma": "totoo",
   "examples": [{
     "text": ". I love u both so much napaka totoo niyo . You deserve everything the best ."
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Totoo pong account & amp ; legit https :"
   }],
-  "status": "","editorId": "",
+  "lemma": "totoo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

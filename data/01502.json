@@ -1,5 +1,4 @@
 {
-  "lemma": "the 90s",
   "examples": [{
     "text": "Dating girls and playing video games , the 90s were much easier . https : / "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Some shows were just better in the 90s"
   }],
-  "status": "","editorId": "",
+  "lemma": "the 90s",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

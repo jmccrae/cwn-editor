@@ -1,5 +1,4 @@
 {
-  "lemma": "plz",
   "examples": [{
     "text": "can i get a big HIIIII plz ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Dr Grace Li's licence for animal cruelty ! Plz sign :"
   }],
-  "status": "","editorId": "",
+  "lemma": "plz",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Please"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

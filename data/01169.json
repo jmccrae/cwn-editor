@@ -1,5 +1,4 @@
 {
-  "lemma": "jinki",
   "examples": [{
     "text": "IM SCREECHING JINKI IS SO GOOD AT ACTING"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Jinki loves his members this is so cute https"
   }],
-  "status": "","editorId": "",
+  "lemma": "jinki",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

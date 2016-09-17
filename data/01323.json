@@ -1,5 +1,4 @@
 {
-  "lemma": "you sir",
   "examples": [{
     "text": "u thought that lame shit should fly ! You sir are an idiot ! Never tweet again !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "You sir , are a gentleman and a friend "
   }],
-  "status": "","editorId": "",
+  "lemma": "you sir",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "dankie",
   "examples": [{
     "text": "Okay lover ... dankie https : / / t.co / nNwGzGw5Or"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "dankie its really # summertime mfana wase loxion angisho"
   }],
-  "status": "","editorId": "",
+  "lemma": "dankie",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

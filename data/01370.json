@@ -1,5 +1,4 @@
 {
-  "lemma": "damn right",
   "examples": [{
     "text": "Damn right ! ! https : / / t.co /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "oregonstandoff My Intel , is better than yours.. Damn right , it's better than yours.. I could teac"
   }],
-  "status": "","editorId": "",
+  "lemma": "damn right",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

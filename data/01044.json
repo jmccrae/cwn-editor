@@ -1,5 +1,4 @@
 {
-  "lemma": "merica",
   "examples": [{
     "text": "Merica . https : / / t.co / mwZn8kYwsb"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "Merica . https : / / t.co / mwZn8kYwsb"
   }],
-  "status": "","editorId": "",
+  "lemma": "merica",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "America: North American republic containing 50 states - 48 conterminous states in North America plus Alaska in northwest North America and the Hawaiian Islands in the Pacific Ocean; achieved independence in 1776 <i84182>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "United States: North American republic containing 50 states - 48 conterminous states in North America plus Alaska in northwest North America and the Hawaiian Islands in the Pacific Ocean; achieved independence in 1776 <i84182>",
+      "relNo": 1
+    }],
+    "definition": "A pejorative term for the United States "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

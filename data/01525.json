@@ -1,5 +1,4 @@
 {
-  "lemma": "fuk",
   "examples": [{
     "text": "that white hair guy ! ! ! ! Fuk it"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Valentine ? Fuk it .."
   }],
-  "status": "","editorId": "",
+  "lemma": "fuk",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Fuck "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "vibin",
   "examples": [{
     "text": "Am I really Vibin to this in class rn ? ???? https"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "When you vibin to your music like straight getting that shit"
   }],
-  "status": "","editorId": "",
+  "lemma": "vibe ",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "enjoy: take delight in; 'he delights in his granddaughter' <i27573>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

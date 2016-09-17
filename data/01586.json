@@ -1,5 +1,4 @@
 {
-  "lemma": "jtfo",
   "examples": [{
     "text": "Jtfo man stacking ain't worried bout no nigga"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Somebody called my daddy phone just now jtfo it's bouta be a fight"
   }],
-  "status": "","editorId": "",
+  "lemma": "jtfo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Jog the fuck on"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

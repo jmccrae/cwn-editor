@@ -1,5 +1,4 @@
 {
-  "lemma": "wth",
   "examples": [{
     "text": "just took a shower and I'm wide awake wth"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "wth lol"
   }],
-  "status": "","editorId": "",
+  "lemma": "wth",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "what the hell"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

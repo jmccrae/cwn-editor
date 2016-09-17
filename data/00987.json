@@ -1,5 +1,4 @@
 {
-  "lemma": "wesh",
   "examples": [{
     "text": "YA STRESSED OUT A LA TELE WESH"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "blc wesh ct marrant sal"
   }],
-  "status": "","editorId": "",
+  "lemma": "wesh",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "yes: an affirmative; 'I was hoping for a yes' <i74511>",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "domain_region",
+      "target": "France: a republic in western Europe; the largest country wholly in Europe <i83644>",
+      "relNo": 1
+    }],
+    "definition": "oui + yes"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

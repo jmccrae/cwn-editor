@@ -1,5 +1,4 @@
 {
-  "lemma": "good lord",
   "examples": [{
     "text": "i don't know you but good lord i'm jealous"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "Happy weeksary tomorrow and may the Good Lord Bless You and Alden ."
   }],
-  "status": "","editorId": "",
+  "lemma": "good lord",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "disgust: strong feelings of dislike <i76176>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "worry: be worried, concerned, anxious, troubled, or uneasy; 'I worry about my job' <i30573>",
+      "relNo": 1
+    }],
+    "definition": "Expression of worry and disgust "
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

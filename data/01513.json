@@ -1,5 +1,4 @@
 {
-  "lemma": "suce",
   "examples": [{
     "text": "alors comme sa on suce IsDrox connare https : / / t.co /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "alors comme sa on suce IsDrox connare https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "suce",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

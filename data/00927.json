@@ -1,5 +1,4 @@
 {
-  "lemma": "mmmmmmm",
   "examples": [{
     "text": "Tomorrow ; n Who Nosey Who's Next ; mmmmmmm , Power Hungry ! ! "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "me ? did you save the pic ? mmmmmmm"
   }],
-  "status": "","editorId": "",
+  "lemma": "mmmmmmm",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "x",
+    "synonym": "<00565>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

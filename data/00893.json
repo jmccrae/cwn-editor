@@ -1,5 +1,4 @@
 {
-  "lemma": "oh wait",
   "examples": [{
     "text": "Oh wait , you're Lexie ... Meh , same thin"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I have a girlfriend ... oh wait no . Thats a fridge . I have"
   }],
-  "status": "","editorId": "",
+  "lemma": "oh wait",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

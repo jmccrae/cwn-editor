@@ -1,5 +1,4 @@
 {
-  "lemma": "good ass",
   "examples": [{
     "text": "that was bullshit Even tho hero is a good ass song"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ever took was fuckin w . these no good ass niggas"
   }],
-  "status": "","editorId": "",
+  "lemma": "good ass",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

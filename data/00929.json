@@ -1,5 +1,4 @@
 {
-  "lemma": "sum1",
   "examples": [{
     "text": "if sum1 buys me XCOM2 ill give them 3.5 peepee"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "sum1 hacked my tumblr : ( : ( :"
   }],
-  "status": "","editorId": "",
+  "lemma": "sum1",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "someone"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

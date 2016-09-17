@@ -1,5 +1,4 @@
 {
-  "lemma": "fucking hell",
   "examples": [{
     "text": "Fucking hell better drink as much as I can "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "fucking hell . I remember them toilets"
   }],
-  "status": "","editorId": "",
+  "lemma": "fucking hell",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "youthy",
   "examples": [{
     "text": "YOUTHY DEALS & gt ; & gt ; https"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "YOUTHY DEALS & gt ; & gt ; https"
   }],
-  "status": "","editorId": "",
+  "lemma": "youthy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

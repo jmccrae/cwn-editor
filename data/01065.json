@@ -1,5 +1,4 @@
 {
-  "lemma": "fav",
   "examples": [{
     "text": "iss? obviously the final winner will b channel fav too thank God I was nt tat attached"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "hmm me fav"
   }],
-  "status": "","editorId": "",
+  "lemma": "fav",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Favorite "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

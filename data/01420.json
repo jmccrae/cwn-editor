@@ -1,5 +1,4 @@
 {
-  "lemma": "everyjuan",
   "examples": [{
     "text": "Hows everyjuan ? ! # ALDUBBoojieWonderLand"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "stay happy everyjuan ."
   }],
-  "status": "","editorId": "",
+  "lemma": "everyjuan",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Everyone"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

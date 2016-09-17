@@ -1,5 +1,4 @@
 {
-  "lemma": "pake",
   "examples": [{
     "text": "Di google pake captain ..."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "wakak welcomein dong pake red carpet"
   }],
-  "status": "","editorId": "",
+  "lemma": "pake",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "shittin",
   "examples": [{
     "text": "you don't have 675578755 X 2 . you shittin on me ! ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "He really shittin on the rest of these niggas?"
   }],
-  "status": "","editorId": "",
+  "lemma": "shittin",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Shitting"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

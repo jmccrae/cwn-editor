@@ -1,5 +1,4 @@
 {
-  "lemma": "wahh",
   "examples": [{
     "text": "vaccay ke ? Wahh happy hols ?"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Wahh where's my class is cancelled notification"
   }],
-  "status": "","editorId": "",
+  "lemma": "wahh",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
+      "relNo": 1
+    }],
+    "definition": "Expression of surprise "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

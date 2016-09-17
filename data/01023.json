@@ -1,5 +1,4 @@
 {
-  "lemma": "fakest",
   "examples": [{
     "text": "You are literally the fakest person ever"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "why you dont catch me with anybody here fakest people around"
   }],
-  "status": "","editorId": "",
+  "lemma": "fakest",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "fake: not genuine or real; being an imitation of the genuine article; 'it isn't fake anything; it's real synthetic fur'; 'faux pearls'; 'false teeth'; 'decorated with imitation palm leaves'; 'a purse of simulated alligator hide' <i8632>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

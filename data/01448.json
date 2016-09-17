@@ -1,5 +1,4 @@
 {
-  "lemma": "hihi",
   "examples": [{
     "text": "out just to see your photo shoot ! Hihi ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "your hard-times-feelings . Found my lucky charm . Hihi / : ' )"
   }],
-  "status": "","editorId": "",
+  "lemma": "hihi",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "hello: an expression of greeting; 'every morning they exchanged polite hellos' <i71336>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

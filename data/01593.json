@@ -1,5 +1,4 @@
 {
-  "lemma": "*heads-up",
   "examples": [{
     "text": ", I just wanted to give you a heads-up that we have 7 new people starting i"
   }, {
@@ -15,16 +14,14 @@
   }, {
     "text": "PokerStars removing regular heads-up cash games : In a bid to reduce"
   }],
-  "status": "","editorId": "",
+  "lemma": "*heads-up",
   "senses": [{
-    "pos": "",
-    "synonym": "00093129-a (fully alert and watchful; \\\"\"played heads-up ball\\\"\");07240237-n (a warning message; \\\"\"he sent a heads-up to the District Attorney\\\"\"",
+    "pos": "n",
+    "synonym": "heads-up: a warning message; 'he sent a heads-up to the District Attorney' <i74632>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "advisory=01307737-a (giving advice; \\\"\"an advisory memorandum\\\"\"; \\\"\"his function was purely consultative\\\"\");06759721-n (an announcement that usually advises or warns the public of some threat; \\\"\"a frost advisory\\\"\"",
-      "relNo": 0
-    }],
-    "definition": " A warning or call to pay attention; an advisory notice."
-  }]
+    "relations": [],
+    "definition": ""
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

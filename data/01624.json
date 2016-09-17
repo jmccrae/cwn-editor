@@ -1,5 +1,4 @@
 {
-  "lemma": "cheesing",
   "examples": [{
     "text": "cheesing hard af in that avi???"
   }, {
@@ -17,12 +16,22 @@
   }, {
     "text": "Cheesing like its 1776 https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "cheesing",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "cheese: a solid food prepared from the pressed curd of milk <i78427>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "playing: the action of taking part in a game or sport or other recreation <i35627>",
+      "relNo": 1
+    }],
+    "definition": "To play a game or sport in a manner that is effective but requires little skill "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

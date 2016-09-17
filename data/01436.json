@@ -1,5 +1,4 @@
 {
-  "lemma": "instagay",
   "examples": [{
     "text": "TheOtherNight # Nyc # TexasBoy # Saucy # Instagay # Poppa … … https : / /"
   }, {
@@ -19,12 +18,22 @@
   }, {
     "text": "gay # muah # bear # cub # instagay # instaqueer https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "*instagay",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "gay: homosexual or arousing homosexual desires <i6570>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "photo: a representation of a person or scene in the form of a print or transparent slide or in digital format <i57211>",
+      "relNo": 1
+    }],
+    "definition": "A photo on the Instagram website, which is related to homosexuality "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

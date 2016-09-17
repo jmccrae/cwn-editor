@@ -1,5 +1,4 @@
 {
-  "lemma": "wowow",
   "examples": [{
     "text": "wowow two beauties ? ?"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "WOWOW will be airing 2015 JP Phantasia tour 24"
   }],
-  "status": "","editorId": "",
+  "lemma": "wowow",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Wow"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

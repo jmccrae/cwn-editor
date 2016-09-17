@@ -1,5 +1,4 @@
 {
-  "lemma": "birthdayyyy",
   "examples": [{
     "text": "HAPPPPPYYYYYYYYY BIRTHDAYYYY"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "HAPPY BIRTHDAYYYY"
   }],
-  "status": "","editorId": "",
+  "lemma": "birthdayyyy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "birthday"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

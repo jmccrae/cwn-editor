@@ -1,5 +1,4 @@
 {
-  "lemma": "*adorably",
   "examples": [{
     "text": "Velvet is an adorably geeky badass"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "This Dog Smiles Adorably for the Camera , Right on Cue http"
   }],
-  "status": "","editorId": "",
+  "lemma": "*adorably",
   "senses": [{
-    "pos": "",
-    "synonym": "00266729-r (in an adorable manner; \\\"\"the toddler behaved adorably\\\"\"",
+    "pos": "r",
+    "synonym": "adorably: in an adorable manner; 'the toddler behaved adorably' <i19994>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

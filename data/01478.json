@@ -1,5 +1,4 @@
 {
-  "lemma": "no shit",
   "examples": [{
     "text": "no shit ."
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "NO SHIT I didn't know you sent this when I"
   }],
-  "status": "","editorId": "",
+  "lemma": "no shit",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "obviousness: the property of being easy to see and understand <i61788>",
+      "relNo": 1
+    }],
+    "definition": "Expression indicating something is obvious "
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

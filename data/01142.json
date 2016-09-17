@@ -1,5 +1,4 @@
 {
-  "lemma": "lololololol",
   "examples": [{
     "text": "lololololol the obviousness is getting too much for me"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "YES ! lololololol im so dumb"
   }],
-  "status": "","editorId": "",
+  "lemma": "lololololol",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Lol"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

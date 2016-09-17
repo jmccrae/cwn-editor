@@ -1,5 +1,4 @@
 {
-  "lemma": "u kno",
   "examples": [{
     "text": "cassie u kno me i would NEVA ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "little did u kno"
   }],
-  "status": "","editorId": "",
+  "lemma": "u kno",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "You know "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "jaysus",
   "examples": [{
     "text": "Jaysus , I knew there were some dangerous nu"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "jaysus lads only starving now , listening to tha"
   }],
-  "status": "","editorId": "",
+  "lemma": "jaysus",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Jesus"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

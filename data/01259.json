@@ -1,5 +1,4 @@
 {
-  "lemma": "fapping",
   "examples": [{
     "text": "nylon # follow # fapping https : / / t.co / xAQTod4xb7 https"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "think I might be addicted to porn and fapping . ” what's fapping ? Lol"
   }],
-  "status": "","editorId": "",
+  "lemma": "fapping",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "masturbation: manual stimulation of the genital organs (of yourself or another) for sexual pleasure <i39894>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

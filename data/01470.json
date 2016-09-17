@@ -1,5 +1,4 @@
 {
-  "lemma": "whippin",
   "examples": [{
     "text": "still whippin the charger ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "IF YOU WHIPPIN KNOCK OFF GUCCI , LV , WEEZYS "
   }],
-  "status": "","editorId": "",
+  "lemma": "*whippin",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

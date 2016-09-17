@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck about",
   "examples": [{
     "text": "Never gave a fuck about someone's opinion about me , never will eithe"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Minister \\ And Scott Ludlam Is Salty As Fuck About It https : / / t.co / dHArDdFIxO\""
   }],
-  "status": "","editorId": "",
+  "lemma": "give a fuck",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "care: feel concern or interest; 'I really care about my work'; 'I don't care' <i30840>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

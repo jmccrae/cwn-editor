@@ -1,5 +1,4 @@
 {
-  "lemma": "reppin",
   "examples": [{
     "text": "lmao i gotta stay reppin em dre"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Reppin for that low life .........."
   }],
-  "status": "","editorId": "",
+  "lemma": "*rep",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "represent: be representative or typical for; 'This period is represented by Beethoven' <i34409>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

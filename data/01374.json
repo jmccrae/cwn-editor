@@ -1,5 +1,4 @@
 {
-  "lemma": "off-grid",
   "examples": [{
     "text": "Going Off-grid ? Here's a the parts for a typical"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "Luxurious off-grid tiny home in New Zealand is 100 %"
   }],
-  "status": "","editorId": "",
+  "lemma": "off-grid",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "similar",
+      "target": "disconnected: not plugged in or connected to a power source; 'the iron is disconnected' <i9048>",
+      "relNo": 1
+    }],
+    "definition": "Without access to an electrical or communication network "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

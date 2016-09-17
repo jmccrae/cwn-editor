@@ -1,5 +1,4 @@
 {
-  "lemma": "thst",
   "examples": [{
     "text": "What is thst fucking weather all about"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "To funny I remember listening to thst on Howard Stern"
   }],
-  "status": "","editorId": "",
+  "lemma": "thst",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "That"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

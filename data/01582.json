@@ -1,5 +1,4 @@
 {
-  "lemma": "mehh",
   "examples": [{
     "text": "Ayyyy.. Why won't you talk to mehh ? ."
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "maaa ... Hahahaha.. It just a daily conversation mehh"
   }],
-  "status": "","editorId": "",
+  "lemma": "mehh",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "indifference: the trait of lacking enthusiasm for or interest in things generally <i61440>",
+      "relNo": 1
+    }],
+    "definition": "Expression of indifference "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

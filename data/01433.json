@@ -1,5 +1,4 @@
 {
-  "lemma": "tmlt",
   "examples": [{
     "text": "And I haven't even started working yet # tmlt"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "I'm gonna give up candy # tmlt # Lent2016"
   }],
-  "status": "","editorId": "",
+  "lemma": "tmlt",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "To my last tweet "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

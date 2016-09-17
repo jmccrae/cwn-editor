@@ -1,5 +1,4 @@
 {
-  "lemma": "yass",
   "examples": [{
     "text": "yass https : / / t.co / vXSUa7XdVC"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "yass i live for brit and i adore madge"
   }],
-  "status": "","editorId": "",
+  "lemma": "yass",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "yes"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

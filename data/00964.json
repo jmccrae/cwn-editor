@@ -1,5 +1,4 @@
 {
-  "lemma": "amazon kindle",
   "examples": [{
     "text": "Enter to win an Amazon Kindle Fire HD 10 https : / / t.co"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "For Tablet 2015 7 \\ Amazon Kindle Fire Hd 7 Fold Leather Stand Cover Case\""
   }],
-  "status": "","editorId": "",
+  "lemma": "amazon kindle",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

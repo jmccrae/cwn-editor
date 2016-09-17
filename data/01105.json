@@ -1,5 +1,4 @@
 {
-  "lemma": "shitpost",
   "examples": [{
     "text": "i cant even shitpost about this this is literally too fucked up"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "i couldn't resist making yours a shitpost"
   }],
-  "status": "","editorId": "",
+  "lemma": "shitpost",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "shit: something of little value; 'his promise is not worth a damn'; 'not worth one red cent'; 'not worth shucks' <i64003>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "Post <00004>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "Post <00004> ",
+      "relNo": 1
+    }],
+    "definition": "A poor quality and controversial Internet post"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

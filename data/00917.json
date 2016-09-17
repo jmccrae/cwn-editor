@@ -1,5 +1,4 @@
 {
-  "lemma": "slayage",
   "examples": [{
     "text": "the fucking slayage thru the whole video ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Remember that time got me pregnant with this slayage https : / / t.co / HvJLHpiF2C"
   }],
-  "status": "","editorId": "",
+  "lemma": "slayage",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "greatness: the property possessed by something or someone of outstanding importance or eminence <i64148>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

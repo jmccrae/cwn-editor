@@ -1,5 +1,4 @@
 {
-  "lemma": "hackathon",
   "examples": [{
     "text": ", Head To FiDi For A Very Special Hackathon https : / / t.co / KZgpbsoDF"
   }, {
@@ -17,12 +16,30 @@
   }, {
     "text": "# innovdaysafrique # hackathon # jokkolabs https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "hackathon",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "domain_topic",
+      "target": "computing: the branch of engineering science that studies (with the aid of computers) computable processes and structures <i68812>",
+      "relNo": 4
+    }, {
+      "type": "derivation",
+      "target": "hack: fix a computer program piecemeal until it works; 'I'm not very good at hacking but I'll give it my best' <i24353>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "marathon: any long and arduous undertaking <i39594>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "event: something that happens at a given place and time <i35586>",
+      "relNo": 1
+    }],
+    "definition": "an event involving a marathon coding session"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

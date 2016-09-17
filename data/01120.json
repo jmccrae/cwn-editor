@@ -1,5 +1,4 @@
 {
-  "lemma": "ayeeeee",
   "examples": [{
     "text": "AYEEEEE fuckingg yeo ???"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i still feel like shit plus tired now ayeeeee"
   }],
-  "status": "","editorId": "",
+  "lemma": "ayeeeee",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Aye"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

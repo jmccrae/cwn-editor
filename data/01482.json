@@ -1,5 +1,4 @@
 {
-  "lemma": "*topi",
   "examples": [{
     "text": "be content talking with your friends about safe topi ... More for Taurus https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "be content talking with your friends about safe topi ... More for Taurus https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "*topi",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "02425037-n (a large South African antelope; considered the swiftest hoofed mammal);03957175-n (a lightweight hat worn in tropical countries for protection from the sun)",
     "id": 1,
     "relations": [],
     "definition": "An antelope of the species ."
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

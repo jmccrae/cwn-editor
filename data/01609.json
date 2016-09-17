@@ -1,5 +1,4 @@
 {
-  "lemma": "gwapo",
   "examples": [{
     "text": "Omg . Aki ang gwapo mo kagabi sa Wattpad ? I want to"
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "this gwapo human being wanna get slimed . So VOTE"
   }],
-  "status": "","editorId": "",
+  "lemma": "gwapo",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "handsome: pleasing in appearance especially by reason of conformity to ideals of form and proportion; 'a fine-looking woman'; 'a good-looking man'; 'better-looking than her sister'; 'very pretty but not so extraordinarily handsome'- Thackeray; 'our southern women are well-favored'- Lillian Hellman <i1201>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "loanword",
+      "target": "Filipino: official language of the Philippines; based on Tagalog; draws its lexicon from other Philippine languages <i73061>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "hungover",
   "examples": [{
     "text": "Don't want to leave the house today ? Hungover from the game ? We deliver ! #"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "Waking up feeling hungover when you don't even drink is the worst"
   }],
-  "status": "","editorId": "",
+  "lemma": "hungover",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "also",
+      "target": "hangover: disagreeable aftereffects from the use of drugs (especially alcohol) <i112929>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "hangover: disagreeable aftereffects from the use of drugs (especially alcohol) <i112929>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "sick: affected by an impairment of normal physical or mental function; 'ill from the monotony of his suffering' <i14100>",
+      "relNo": 1
+    }],
+    "definition": "Suffering the aftereffects of the consumption of alcohol "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

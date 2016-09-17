@@ -1,5 +1,4 @@
 {
-  "lemma": "lulz",
   "examples": [{
     "text": "LULZ"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Lulz bad guys who like to explain too much"
   }],
-  "status": "","editorId": "",
+  "lemma": "lulz",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "objective: the goal intended to be attained (and which is believed to be attainable); 'the sole object of her trip was to see her children' <i68254>",
+      "relNo": 1
+    }],
+    "definition": "An objective that is worth achieving only for its own enjoyment "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

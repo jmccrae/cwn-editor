@@ -1,5 +1,4 @@
 {
-  "lemma": "oh you",
   "examples": [{
     "text": "How omnipresent are you ? Oh you know , a bit more omnipresent than "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "oh you too ? https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "oh you",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "holy crap",
   "examples": [{
     "text": "Holy crap ! https : / / t.co / UKe6ZpkdJQ"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Holy crap . It was baaaaaaaad"
   }],
-  "status": "","editorId": "",
+  "lemma": "holy crap",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "shock: strike with horror or terror; 'The news of the bombing shocked her' <i30648>",
+      "relNo": 1
+    }],
+    "definition": "Expression of shock and surprise "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

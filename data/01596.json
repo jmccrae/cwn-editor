@@ -1,5 +1,4 @@
 {
-  "lemma": "babee",
   "examples": [{
     "text": "IM SO EXCITED BABEE"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "babee"
   }],
-  "status": "","editorId": "",
+  "lemma": "babee",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Baby "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

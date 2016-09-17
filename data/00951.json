@@ -1,5 +1,4 @@
 {
-  "lemma": "*i give up",
   "examples": [{
     "text": "can i give up my house for lent and live somewhere else"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i give up on trying to rewrite the tweets that have"
   }],
-  "status": "","editorId": "",
+  "lemma": "*i give up",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

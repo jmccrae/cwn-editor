@@ -1,5 +1,4 @@
 {
-  "lemma": "bonang",
   "examples": [{
     "text": ": / / t.co / GgTnbYCQtC B3nchmarq - Bonang"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "I wouldn't take relationship advice from bonang , I personally don't know of her bein"
   }],
-  "status": "","editorId": "",
+  "lemma": "bonang",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

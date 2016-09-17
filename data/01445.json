@@ -1,5 +1,4 @@
 {
-  "lemma": "eyy",
   "examples": [{
     "text": "Eyy baby I'll deep search you https : /"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "eyy bro ! ! !"
   }],
-  "status": "","editorId": "",
+  "lemma": "eyy",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "joy: the emotion of great happiness <i76310>",
+      "relNo": 1
+    }],
+    "definition": "Expression of joy"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

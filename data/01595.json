@@ -1,5 +1,4 @@
 {
-  "lemma": "deadmau5",
   "examples": [{
     "text": "deadmau5 - Hi Friend ! - feat . MC"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Rainy Strobe - DeadMau5 & amp ; Rainymood https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "deadmau5",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

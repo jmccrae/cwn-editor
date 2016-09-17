@@ -1,5 +1,4 @@
 {
-  "lemma": "figma",
   "examples": [{
     "text": "Figma Gilgamesh~"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Max Factory Love Live ! : Eli Ayase Figma Action Figure https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "figma",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

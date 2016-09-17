@@ -1,5 +1,4 @@
 {
-  "lemma": "catfished",
   "examples": [{
     "text": "If you're still gettin catfished in 2016 .... well , then obviously you'r"
   }, {
@@ -17,12 +16,26 @@
   }, {
     "text": "I'm sorry I catfished you all"
   }],
-  "status": "","editorId": "",
+  "lemma": "catfish",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "catfish: any of numerous mostly freshwater bottom-living fishes of Eurasia and North America with barbels like whiskers around the mouth <i48908>",
+      "relNo": 3
+    }, {
+      "type": "hypernym",
+      "target": "impersonate: pretend to be someone you are not; sometimes with fraudulent intentions; 'She posed as the Czar's daughter' <i25833>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "deceive: cause someone to believe an untruth; 'The insurance company deceived me when they told me they were covering my house' <i25903>",
+      "relNo": 1
+    }],
+    "definition": "To deceive someone by professing romantic feelings but actually using a false identity "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

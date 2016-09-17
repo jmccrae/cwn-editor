@@ -1,5 +1,4 @@
 {
-  "lemma": "not ok",
   "examples": [{
     "text": "I'm not ok but it's ok"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Let's just humor the \\ Beyoncés performance was not ok , since the Confederate flag in the media\""
   }],
-  "status": "","editorId": "",
+  "lemma": "not ok",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

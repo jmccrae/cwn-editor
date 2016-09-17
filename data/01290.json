@@ -1,5 +1,4 @@
 {
-  "lemma": "fucken",
   "examples": [{
     "text": "I've been fucken wanting one"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "you fucken weird cunt"
   }],
-  "status": "","editorId": "",
+  "lemma": "fucken",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Fucking"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

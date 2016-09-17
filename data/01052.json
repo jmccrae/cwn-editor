@@ -1,5 +1,4 @@
 {
-  "lemma": "*shitty",
   "examples": [{
     "text": "does one shitty thing ever happen to you & amp ;"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Nothing worse than a shitty ass mean dean devil wearing no prada bitchy"
   }],
-  "status": "","editorId": "",
+  "lemma": "*shitty",
   "senses": [{
-    "pos": "",
-    "synonym": "01131613-a (very bad; \\\"\"a lousy play\\\"\"; \\\"\"it's a stinking world\\\"\"",
+    "pos": "a",
+    "synonym": "shitty: very bad; 'a lousy play'; 'it's a stinking world' <i6181>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

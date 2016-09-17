@@ -1,5 +1,4 @@
 {
-  "lemma": "screenshotting",
   "examples": [{
     "text": "My Friday's consist of screenshotting Sarah Bleecher's Snapchats"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "someone very skilled at screenshotting send me a screenshot of Calum smiling in"
   }],
-  "status": "","editorId": "",
+  "lemma": "screenshot",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "shot: an informal photograph; usually made with a small hand-held camera; 'my snapshots haven't been developed yet'; 'he tried to get unposed shots of his friends' <i59132>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "screen: the display that is electronically created on the surface of the large end of a cathode-ray tube <i58557>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "record: make a record of; set down in permanent form <i26586>",
+      "relNo": 1
+    }],
+    "definition": "to capture an image from a computer's display"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

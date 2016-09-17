@@ -1,5 +1,4 @@
 {
-  "lemma": "cuh",
   "examples": [{
     "text": "Ball game cuh ."
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Ey thanks cuh"
   }],
-  "status": "","editorId": "",
+  "lemma": "cuh",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "brother: used as a term of address for those male persons engaged in the same movement; 'Greetings, comrade!' <i88711>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "cousin: the child of your aunt or uncle <i89276>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

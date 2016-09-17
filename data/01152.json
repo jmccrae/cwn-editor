@@ -1,5 +1,4 @@
 {
-  "lemma": "esurance",
   "examples": [{
     "text": "If one more esurance tweet pops up on my newsfeed I'm going"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "is giving away $250 , 000 ? ? esurance is ! ! # EsuranceSweepstake"
   }],
-  "status": "","editorId": "",
+  "lemma": "esurance",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

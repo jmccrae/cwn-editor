@@ -1,5 +1,4 @@
 {
-  "lemma": "*shush",
   "examples": [{
     "text": "mens penis sizes because we're gun owners . Shush ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "touchdowns.Who deserves hof then ? Sit down and shush"
   }],
-  "status": "","editorId": "",
+  "lemma": "*shush",
   "senses": [{
-    "pos": "",
-    "synonym": "00391412-v (silence (someone) by uttering `shush!')",
+    "pos": "n",
+    "synonym": "shush: silence (someone) by uttering `shush!' <i23684>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

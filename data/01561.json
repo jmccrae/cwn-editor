@@ -1,5 +1,4 @@
 {
-  "lemma": "daebak",
   "examples": [{
     "text": "wow ! the teaser is so asdfgjklqpeirrjdbsmzbxjs daebak ! https : / / t.co / D41Zsowfxm"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "eish , selfconfident lu daebak hyong -_"
   }],
-  "status": "","editorId": "",
+  "lemma": "daebak",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "hell yes",
   "examples": [{
     "text": "Last RT . Hell yes ."
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "hell yes . * keys the everyone wants to be"
   }],
-  "status": "","editorId": "",
+  "lemma": "hell yes",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "agreement: harmony of people's opinions or actions or characters; 'the two parties were in agreement' <i110356>",
+      "relNo": 1
+    }],
+    "definition": "Expression of strong agreement "
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

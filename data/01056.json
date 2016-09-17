@@ -1,5 +1,4 @@
 {
-  "lemma": "my dream",
   "examples": [{
     "text": "This is my dream"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "A management agency always been my dream , but I cannot do it alone "
   }],
-  "status": "","editorId": "",
+  "lemma": "my dream",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

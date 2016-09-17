@@ -1,5 +1,4 @@
 {
-  "lemma": "amoo",
   "examples": [{
     "text": "have a terribly pain at neck and TE AMOO # VoteLauraMarano # KCA # 13 ( I'm"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ellas son my life ... las amoo https : / / t.co / n5NWBiCnuf"
   }],
-  "status": "","editorId": "",
+  "lemma": "amoo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

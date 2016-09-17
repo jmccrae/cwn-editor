@@ -1,5 +1,4 @@
 {
-  "lemma": "fooking",
   "examples": [{
     "text": "HELL FOOKING YE"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "* fooking"
   }],
-  "status": "","editorId": "",
+  "lemma": "fooking",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Fucking"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

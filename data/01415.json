@@ -1,5 +1,4 @@
 {
-  "lemma": "ooooooooo",
   "examples": [{
     "text": "finally ooooooooo is about to happen"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Megan and Jordan in tonight ooooooooo # ExOnTheBeach"
   }],
-  "status": "","editorId": "",
+  "lemma": "ooooooooo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Oh"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*cuckolding",
   "examples": [{
     "text": "# cuckolding # sliced # rateme # sexcams"
   }, {
@@ -19,12 +18,26 @@
   }, {
     "text": "Cuckolding my Malay gf in threesome https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "cuckolding",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "domain_topic",
+      "target": "pornography: creative activity (writing or pictures or films etc.) of no literary or artistic value other than to stimulate sexual desire <i39363>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "cuckold: a man whose wife committed adultery <i89334>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "sex act: sexual activity between individuals, especially the insertion of a man's penis into a woman's vagina until orgasm and ejaculation occur <i39846>",
+      "relNo": 1
+    }],
+    "definition": "A sexual act where a married person has sex with another person while their spouse watches"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "sundate",
   "examples": [{
     "text": "Sundate with my Nalo ? https : / /"
   }, {
@@ -15,12 +14,26 @@
   }, {
     "text": "Lets have SATURDATE and SUNDATE by watching the latest show of # ILoveOPM"
   }],
-  "status": "","editorId": "",
+  "lemma": "sundate",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "Sunday: first day of the week; observed as a day of rest and worship by most Christians <i116899>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "date: a meeting arranged in advance; 'she asked how to avoid kissing at the end of a date' <i81169>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "date: a meeting arranged in advance; 'she asked how to avoid kissing at the end of a date' <i81169>",
+      "relNo": 1
+    }],
+    "definition": "A date on a Sunday "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

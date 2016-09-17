@@ -1,5 +1,4 @@
 {
-  "lemma": "dayl",
   "examples": [{
     "text": "\\ Can't wait for this ? \\\"\" Dayl on IG a few minutes ago - Jess\""
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": ": I could murder a guy in broad dayl …"
   }],
-  "status": "","editorId": "",
+  "lemma": "dayl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

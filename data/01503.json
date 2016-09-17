@@ -1,5 +1,4 @@
 {
-  "lemma": "my jam",
   "examples": [{
     "text": "THIS WAS MY JAM AT 3 YRS OLD LMAOOOO https : /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "well i love wrapped but WTF AIRPLANES MY JAM ! I NEED TO HEAR IT LIVE ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "my jam",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

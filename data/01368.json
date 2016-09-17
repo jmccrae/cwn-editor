@@ -1,5 +1,4 @@
 {
-  "lemma": "tired af",
   "examples": [{
     "text": "tired af"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm In An Extremely Good Mood But I'm Tired Af ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "tired af",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

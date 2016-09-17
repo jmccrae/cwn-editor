@@ -1,5 +1,4 @@
 {
-  "lemma": "aigoo",
   "examples": [{
     "text": "aigoo go rest . feel better soon . mwa"
   }, {
@@ -17,12 +16,22 @@
   }, {
     "text": "You're right , aigoo ? https : / / t.co / gAN1Id39E"
   }],
-  "status": "","editorId": "",
+  "lemma": "aigoo",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "loanword",
+      "target": "Korean: the Altaic language spoken by Koreans <i72984>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "frustration: a feeling of annoyance at being hindered or criticized; 'her constant complaints were the main source of his frustration' <i76266>",
+      "relNo": 1
+    }],
+    "definition": "Expression of frustration "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

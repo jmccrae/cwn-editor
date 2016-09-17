@@ -1,5 +1,4 @@
 {
-  "lemma": "fancam",
   "examples": [{
     "text": "i watched the hani fancam that went viral and its at 18m now"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "Why Did Stellar's 17 Million View Fancam Not Gain Momentum Like EXID ? https :"
   }],
-  "status": "","editorId": "",
+  "lemma": "fancam",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "camera: equipment for taking photographs (usually consisting of a lightproof box with a lens at one end and light-sensitive film at the other) <i51401>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "fan: an ardent follower and admirer <i89881>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "footage: film that has been shot; 'they had stock footage of lightning, tornados, and hurricanes'; 'he edited the news footage' <i53950>",
+      "relNo": 1
+    }],
+    "definition": "footage of a celebrity taken by a fan"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

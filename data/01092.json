@@ -1,5 +1,4 @@
 {
-  "lemma": "teemo",
   "examples": [{
     "text": "Teemo Master Troll And Destroyer Of Worlds ! ("
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "plus im no pro but 1st time using teemo kinda proud ? # LeagueOfLegends https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "teemo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

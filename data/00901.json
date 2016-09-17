@@ -1,5 +1,4 @@
 {
-  "lemma": "bud light",
   "examples": [{
     "text": "Hey , can you grab me another bud light pleeeeeeease ? https : / / t.co "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "※ ❞ Vintage Bud Light Phoenix Coyotes NHL Hockey Mask - Extremely Rare"
   }],
-  "status": "","editorId": "",
+  "lemma": "bud light",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "watch this",
   "examples": [{
     "text": "Hey Easy Copy My System ! Watch this video - & gt ; https : /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "exploring opportunities to develop specialised logistics services . Watch this space !"
   }],
-  "status": "","editorId": "",
+  "lemma": "watch this",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

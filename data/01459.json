@@ -1,5 +1,4 @@
 {
-  "lemma": "me neither",
   "examples": [{
     "text": "Me neither , they're so screwed lma"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "met a Hater doing better than you ? Me neither . ( Clark and Leah ) # OTWOLTheBreakUp"
   }],
-  "status": "","editorId": "",
+  "lemma": "me neither",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

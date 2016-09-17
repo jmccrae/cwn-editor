@@ -1,5 +1,4 @@
 {
-  "lemma": "glamping",
   "examples": [{
     "text": "Book your family # glamping trip to one of our UK sites this"
   }, {
@@ -17,12 +16,26 @@
   }, {
     "text": "# campdazedandamused # texasgirls # womenscamp # glamping https : / / t.co / 4CoVpkrvjY"
   }],
-  "status": "","editorId": "",
+  "lemma": "glamping",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "glamorous: having an air of allure, romance and excitement; 'glamorous movie stars' <i5052>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "camping: the act of encamping and living in tents in a camp <i40938>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "camping: the act of encamping and living in tents in a camp <i40938>",
+      "relNo": 1
+    }],
+    "definition": "Camping glamorously, i.e.,  with expensive equipment "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

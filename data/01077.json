@@ -1,5 +1,4 @@
 {
-  "lemma": "iphone 5c",
   "examples": [{
     "text": "https : / / t.co / 1PsZwPFJ43 Apple iPhone 5c 16GB Verizon GSM Unlocked AT & amp ;"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Apple iPhone 5c - 16GB - Blue ( Verizon ) Smartphone"
   }],
-  "status": "","editorId": "",
+  "lemma": "iphone 5c",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

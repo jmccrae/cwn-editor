@@ -1,5 +1,4 @@
 {
-  "lemma": "gmfu",
   "examples": [{
     "text": "odb really gmfu ???"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "This stock game gmfu"
   }],
-  "status": "","editorId": "",
+  "lemma": "gmfu",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "got me fucked up"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "i know right",
   "examples": [{
     "text": "I know right , but some kitty's are bad .."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I know right ! My mom was telling me about the"
   }],
-  "status": "","editorId": "",
+  "lemma": "i know right",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

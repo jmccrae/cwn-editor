@@ -1,5 +1,4 @@
 {
-  "lemma": "yday",
   "examples": [{
     "text": "Was supposed to be yday ! Waiting to be told it's all good"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "SM team called me yday after 6 days . Supposed 2 cal me"
   }],
-  "status": "","editorId": "",
+  "lemma": "yday",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Yesterday "
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

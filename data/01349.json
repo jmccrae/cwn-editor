@@ -1,5 +1,4 @@
 {
-  "lemma": "bad bitch",
   "examples": [{
     "text": "a fave , when I'm feeling like a bad bitch , or when I'm feeling like I need"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Thick bad bitch counting up the dope"
   }],
-  "status": "","editorId": "",
+  "lemma": "bad bitch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*tip-off",
   "examples": [{
     "text": "tonight as Western Michigan is in town . Tip-off is at 7pm at Savage . Out of"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "vs 7 : 00pm Tip-off"
   }],
-  "status": "","editorId": "",
+  "lemma": "*tip-off",
   "senses": [{
-    "pos": "",
-    "synonym": "00482677-n (the act of starting a basketball game with a jump ball);05835453-n (inside information that something is going to happen)",
+    "pos": "n",
+    "synonym": "tip-off: inside information that something is going to happen <i67501>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

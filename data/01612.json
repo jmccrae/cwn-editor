@@ -1,5 +1,4 @@
 {
-  "lemma": "daesung",
   "examples": [{
     "text": "Daesung verdict was CLEARLY \\ not-guilty \\\"\" or y'all\""
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "gdragon # TOP # taeyang # seungri # daesung https : / / t.co / Ig2t5VYEnV"
   }],
-  "status": "","editorId": "",
+  "lemma": "daesung",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

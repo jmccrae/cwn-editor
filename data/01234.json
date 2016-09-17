@@ -1,5 +1,4 @@
 {
-  "lemma": "*pro-choice",
   "examples": [{
     "text": "Republicans should be pro-choice . More abortions == less young people to"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "is an advocate for women : pro-choice & amp ; equal pay # Bernie2016 #"
   }],
-  "status": "","editorId": "",
+  "lemma": "*pro-choice",
   "senses": [{
-    "pos": "",
-    "synonym": "02604321-a (advocating a woman's right to control her own body (especially her right to an induced abortion))",
+    "pos": "a",
+    "synonym": "pro-choice: advocating a woman's right to control her own body (especially her right to an induced abortion) <i14400>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

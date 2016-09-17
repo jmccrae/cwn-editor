@@ -1,5 +1,4 @@
 {
-  "lemma": "betul",
   "examples": [{
     "text": "i wanna love you i wanna your smile~ betul ke lirik ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Ramai betul set2 support member ni . Thanks guys ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "betul",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

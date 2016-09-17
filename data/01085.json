@@ -1,5 +1,4 @@
 {
-  "lemma": "stay safe",
   "examples": [{
     "text": "Here are resources to help your Scouts stay safe online : https : / / t.co /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Bruh ?Everybody stay safe ? https : / / t.co / KuQNxb1raz"
   }],
-  "status": "","editorId": "",
+  "lemma": "stay safe",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

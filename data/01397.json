@@ -1,5 +1,4 @@
 {
-  "lemma": "tiddies",
   "examples": [{
     "text": "Tiddies long as Gratiot ... https : / /"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "Fuk it . He gon suck tiddies Either way ."
   }],
-  "status": "","editorId": "",
+  "lemma": "tiddies",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "boob: either of two soft fleshy milk-secreting glandular organs on the chest of a woman <i66106>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "tit: either of two soft fleshy milk-secreting glandular organs on the chest of a woman <i66106>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

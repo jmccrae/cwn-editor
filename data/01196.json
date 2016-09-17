@@ -1,5 +1,4 @@
 {
-  "lemma": "moar",
   "examples": [{
     "text": "Moar tasty treats ! https : / / t.co"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Iz one moar our kloser to sumtin ! February 10 "
   }],
-  "status": "","editorId": "",
+  "lemma": "moar",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "r",
+    "synonym": "more: comparative of much; to a greater degree or extent; 'he works more now'; 'they eat more than they should' <i18762>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "daymond",
   "examples": [{
     "text": "Flips Flops Gets Investment from Mark Cuban , Daymond John and Lori Greiner for $300 , 00"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Daymond John Bites Back : 'Tell These Bobos to"
   }],
-  "status": "","editorId": "",
+  "lemma": "daymond",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

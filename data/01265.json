@@ -1,5 +1,4 @@
 {
-  "lemma": "blacklace",
   "examples": [{
     "text": "# modell # selfshot # gifs # blacklace"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# blacklace # jav # cumsluts # flirting"
   }],
-  "status": "","editorId": "",
+  "lemma": "blacklace",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Black lace"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

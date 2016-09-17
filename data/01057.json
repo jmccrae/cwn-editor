@@ -1,5 +1,4 @@
 {
-  "lemma": "one call away",
   "examples": [{
     "text": "I'm only one call away"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ", you know you're not alone . ♫ One Call Away by Charlie Puth — https : / "
   }],
-  "status": "","editorId": "",
+  "lemma": "one call away",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

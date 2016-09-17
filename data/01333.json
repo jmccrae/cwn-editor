@@ -1,5 +1,4 @@
 {
-  "lemma": "fucking with",
   "examples": [{
     "text": "I can't tell if Vic is fucking with me or not . Goddamnit ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "If you real deal be fucking with people's emotions , you're a fucked up perso"
   }],
-  "status": "","editorId": "",
+  "lemma": "fucking with",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

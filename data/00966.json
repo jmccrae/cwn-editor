@@ -1,5 +1,4 @@
 {
-  "lemma": "calum",
   "examples": [{
     "text": "skilled at screenshotting send me a screenshot of Calum smiling in the snaps pls ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Calum"
   }],
-  "status": "","editorId": "",
+  "lemma": "calum",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "weeaboo",
   "examples": [{
     "text": "retweeting fucking weeaboo shit onto my tl ? This is your"
   }, {
@@ -15,12 +14,18 @@
   }, {
     "text": "another stupid weeaboo : another stupid weeaboo"
   }],
-  "status": "","editorId": "",
+  "lemma": "weeaboo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hyponym",
+      "target": "person: a human being; 'there was too much for one person to do' <i35562>",
+      "relNo": 1
+    }],
+    "definition": "A white person,  who is obsessed with Japanese culture,  usually pejorative "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

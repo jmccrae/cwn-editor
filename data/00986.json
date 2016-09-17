@@ -1,5 +1,4 @@
 {
-  "lemma": "rly",
   "examples": [{
     "text": "Welcome to today a.k.a. my getting rly pissed abt how my old school worded its"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i'm a newbie so i rly wanna get both ? what r u currently"
   }],
-  "status": "","editorId": "",
+  "lemma": "rly",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "really"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

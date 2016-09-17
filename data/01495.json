@@ -1,5 +1,4 @@
 {
-  "lemma": "*the bachelor",
   "examples": [{
     "text": "’ s Breakdown Of Week 6 Of “ The Bachelor ” & gt ; & gt ; https"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "school is just a low key episode of the Bachelor"
   }],
-  "status": "","editorId": "",
+  "lemma": "*the bachelor",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

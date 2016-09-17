@@ -1,5 +1,4 @@
 {
-  "lemma": "duhh",
   "examples": [{
     "text": "duhh . and we'll have matching ones"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "I'm like duhh Nigga it's Daneshia fawwwk you mean ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "duhh",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "obviousness: the property of being easy to see and understand <i61788>",
+      "relNo": 1
+    }],
+    "definition": "Expression indicating that something is obvious "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "m4w",
   "examples": [{
     "text": "Dry Creek Grill parking lot - m4w ( willow glen / cambrian ) : I"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "women fancy a nice foot massage - # m4w https : / / t.co / TXvhOaiKmR #"
   }],
-  "status": "","editorId": "",
+  "lemma": "m4w",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Man for woman"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

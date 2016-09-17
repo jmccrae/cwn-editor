@@ -1,5 +1,4 @@
 {
-  "lemma": "yey",
   "examples": [{
     "text": "Yey ? Baby Bruh ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Gym Day ! yey"
   }],
-  "status": "","editorId": "",
+  "lemma": "yey",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Yay"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

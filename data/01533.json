@@ -1,5 +1,4 @@
 {
-  "lemma": "vatsim",
   "examples": [{
     "text": "https : / / t.co / 9Y3u1LXkF4 # vatsim # vmm"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "https : / / t.co / dtH8gAiqGU # vatsim # vmm"
   }],
-  "status": "","editorId": "",
+  "lemma": "vatsim",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

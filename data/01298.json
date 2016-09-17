@@ -1,5 +1,4 @@
 {
-  "lemma": "day 3",
   "examples": [{
     "text": "# Singapore # Changi Instagram by - CNY Day 3 ; sending the folks off to Bali !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Headley's deposition cancelled on day 3 on Wednesday due to technical glitch ! Video"
   }],
-  "status": "","editorId": "",
+  "lemma": "day 3",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

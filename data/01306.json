@@ -1,5 +1,4 @@
 {
-  "lemma": "freaking out",
   "examples": [{
     "text": "Omg im freaking out liked my tweet now all i need is"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Kind of fun to imagine them absolutely freaking out . Wonder who they're blaming ? # PassThePopcornPlease"
   }],
-  "status": "","editorId": "",
+  "lemma": "freak out",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "Freak out <00000reddit0105>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "assident",
   "examples": [{
     "text": "sorry it was an assident"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "sorry it was an assident ."
   }],
-  "status": "","editorId": "",
+  "lemma": "assident",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Accident "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

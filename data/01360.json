@@ -1,5 +1,4 @@
 {
-  "lemma": "woulda",
   "examples": [{
     "text": "I woulda skipped that junk bro it's florida☀️"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "og woulda stopped the car and beat my shit in.."
   }],
-  "status": "","editorId": "",
+  "lemma": "woulda",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Would have "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

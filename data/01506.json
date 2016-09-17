@@ -1,5 +1,4 @@
 {
-  "lemma": "how dare you",
   "examples": [{
     "text": "How DARE you tell me and other women that aren't voting"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i need my sleep my precious children . how dare you "
   }],
-  "status": "","editorId": "",
+  "lemma": "how dare you",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

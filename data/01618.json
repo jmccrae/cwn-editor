@@ -1,5 +1,4 @@
 {
-  "lemma": "tomoz",
   "examples": [{
     "text": "Why am I so excited for my bday tomoz when I know EVERY year it just gets"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "haha im back tomoz so lemme knw bruh"
   }],
-  "status": "","editorId": "",
+  "lemma": "tomoz",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "tomorrow: the day after today; 'what are our tasks for tomorrow?' <i116860>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

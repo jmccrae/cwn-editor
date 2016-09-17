@@ -1,5 +1,4 @@
 {
-  "lemma": "n that",
   "examples": [{
     "text": "this is the music search for ur phone n that https : / / t.co / pPJNeTjM0Y"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Today is ash Wednesday n that makes me happy # meday"
   }],
-  "status": "","editorId": "",
+  "lemma": "n that",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "And that "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

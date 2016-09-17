@@ -1,5 +1,4 @@
 {
-  "lemma": "oh fuck",
   "examples": [{
     "text": "oh fuck her"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "OH FUCK"
   }],
-  "status": "","editorId": "",
+  "lemma": "oh fuck",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "dismay: fill with apprehension or alarm; cause to be unpleasantly surprised; 'I was horrified at the thought of being late for my interview'; 'The news of the executions horrified us' <i30647>",
+      "relNo": 1
+    }],
+    "definition": "Expression of dismay"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

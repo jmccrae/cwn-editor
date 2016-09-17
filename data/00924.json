@@ -1,5 +1,4 @@
 {
-  "lemma": "skizzy",
   "examples": [{
     "text": "Crash \\ ( feat . Pell ) by Skizzy Mars ♫ https : / / t.co /\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Skizzy is love , skizzy is lif"
   }],
-  "status": "","editorId": "",
+  "lemma": "skizzy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*to fuck",
   "examples": [{
     "text": "?https : / / t.co / 3zbwGm3Xik? Women to fuck near you ✅ Join free now?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "?https : / / t.co / Dimz2eV867? Women to fuck in your place ✅ Join for free now?"
   }],
-  "status": "","editorId": "",
+  "lemma": "*to fuck",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

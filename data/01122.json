@@ -1,5 +1,4 @@
 {
-  "lemma": "rue21",
   "examples": [{
     "text": "/ / t.co / yB2ZkXIaA4 # Retail # rue21 # Warrendale , PA # Veterans # Jo"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "https : / / t.co / mizrgfxa4Q # rue21 # Prescott , AZ # Veterans # Hirin"
   }],
-  "status": "","editorId": "",
+  "lemma": "rue21",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

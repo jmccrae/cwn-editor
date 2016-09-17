@@ -1,5 +1,4 @@
 {
-  "lemma": "for 7",
   "examples": [{
     "text": "happy 17th birthday to my karate bud for 7 years ! ! ! ! ! only 165"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I've been playing with her for 7 years . : )"
   }],
-  "status": "","editorId": "",
+  "lemma": "for 7",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

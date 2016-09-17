@@ -1,5 +1,4 @@
 {
-  "lemma": "foxxy",
   "examples": [{
     "text": "# foxxy # analsession # houchi # bandage"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "stopped paying attention to Beyonce after she did Foxxy Cleopatra . https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "foxxy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Foxy "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*nacreous",
   "examples": [{
     "text": "ikr they're called nacreous clouds / / / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Rare nacreous clouds https : / / t.co / IuZ7Hj22vV"
   }],
-  "status": "","editorId": "",
+  "lemma": "nacreous",
   "senses": [{
-    "pos": "",
-    "synonym": "00282886-a (having a play of lustrous rainbow colors; \\\"\"an iridescent oil slick\\\"\"; \\\"\"nacreous (or pearlescent) clouds looking like mother-of-pearl\\\"\"; \\\"\"a milky opalescent (or opaline) luster\\\"\");03007631-a (consisting of or resembling mother-of-pearl",
+    "pos": "a",
+    "synonym": "nacreous: having a play of lustrous rainbow colors; 'an iridescent oil slick'; 'nacreous (or pearlescent) clouds looking like mother-of-pearl'; 'a milky opalescent (or opaline) luster' <i1569>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

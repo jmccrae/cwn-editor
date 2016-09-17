@@ -1,5 +1,4 @@
 {
-  "lemma": "jesy",
   "examples": [{
     "text": "20 . jesy in this photoshoot # VoteLittleMixUK # KCA https"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Jesy using snapchat for the first time ? she's"
   }],
-  "status": "","editorId": "",
+  "lemma": "jesy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

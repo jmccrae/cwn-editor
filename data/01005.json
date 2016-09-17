@@ -1,5 +1,4 @@
 {
-  "lemma": "asab",
   "examples": [{
     "text": "My government easy asab tho fr lol"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Boy we learned the difference of those early asab https : / / t.co / zZbZrTrvY8"
   }],
-  "status": "","editorId": "",
+  "lemma": "asab",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "As a bitch"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

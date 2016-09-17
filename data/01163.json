@@ -1,5 +1,4 @@
 {
-  "lemma": "my boo",
   "examples": [{
     "text": "I wish my boo was up still"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Going out with my boo ? https : / / t.co / rRTsdGUDAa"
   }],
-  "status": "","editorId": "",
+  "lemma": "boo",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "girlfriend: a girl or young woman with whom a man is romantically involved; 'his girlfriend kicked him out' <i90209>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

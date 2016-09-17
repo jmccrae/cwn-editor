@@ -1,5 +1,4 @@
 {
-  "lemma": "home sweet home",
   "examples": [{
     "text": "! — watching Super Bowl 50 at Roberts Home Sweet Home https : / / t.co / 55t9RgfpHT"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Home sweet home ! It's almost 8pm ; _ ;"
   }],
-  "status": "","editorId": "",
+  "lemma": "home sweet home",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

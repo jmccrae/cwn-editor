@@ -1,5 +1,4 @@
 {
-  "lemma": "fanks",
   "examples": [{
     "text": "haha fanks ? . And I hope your stitches are"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "fanks duck"
   }],
-  "status": "","editorId": "",
+  "lemma": "fanks",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "thanks"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

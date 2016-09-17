@@ -1,5 +1,4 @@
 {
-  "lemma": "hayy",
   "examples": [{
     "text": "Hayy , I found this new social network sit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hayy , best # free # chating and "
   }],
-  "status": "","editorId": "",
+  "lemma": "hayy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Hay"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

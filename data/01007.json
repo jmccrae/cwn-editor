@@ -1,5 +1,4 @@
 {
-  "lemma": "shuf",
   "examples": [{
     "text": "( Check previous Tweet ID for orig . shuf . )"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "( Check previous Tweet ID for orig . shuf . )"
   }],
-  "status": "","editorId": "",
+  "lemma": "shuf",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

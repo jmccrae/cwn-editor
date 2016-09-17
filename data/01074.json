@@ -1,5 +1,4 @@
 {
-  "lemma": "shit up",
   "examples": [{
     "text": "love the way you dress and ain't got shit up on you"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "girl on the wax we bound to fuck shit up , expect some music from the two o"
   }],
-  "status": "","editorId": "",
+  "lemma": "shit up",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

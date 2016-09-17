@@ -1,5 +1,4 @@
 {
-  "lemma": "heyyyyy",
   "examples": [{
     "text": "Hey hey HEYYYYY ! ! ! YOU"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Heyyyyy imbafizz Thanks for the follow ! We upload"
   }],
-  "status": "","editorId": "",
+  "lemma": "heyyyyy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "hey"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*repping",
   "examples": [{
     "text": "repping live ... 13-02-2016 at Kee Gee Hotel inside"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Repping our navy rascal tracksuit . Get yours at"
   }],
-  "status": "","editorId": "",
+  "lemma": "rep",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "represent: be a delegate or spokesperson for; represent somebody's interest or be a proxy or substitute for, as of politicians and office holders representing their constituents, or of a tenant representing other tenants in a housing dispute; 'I represent the silent majority' <i34408>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

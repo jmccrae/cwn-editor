@@ -1,5 +1,4 @@
 {
-  "lemma": "your boyfriend",
   "examples": [{
     "text": "about rotten mcgregor , he'd knock you and your boyfriend out at the same time you fuckboy"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Your boyfriend is in my Dm's ... Come get him"
   }],
-  "status": "","editorId": "",
+  "lemma": "your boyfriend",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

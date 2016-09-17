@@ -1,5 +1,4 @@
 {
-  "lemma": "ilove",
   "examples": [{
     "text": "# Jauz at the Observatory # OC # ilove ... ( Vine by https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "when you live in the world of # Ilove ! # Ashwednesday ! https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "ilove",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "I love"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

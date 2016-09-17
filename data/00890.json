@@ -1,5 +1,4 @@
 {
-  "lemma": "my daddy",
   "examples": [{
     "text": "Somebody called my daddy phone just now jtfo it's bouta be a"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "• my daddy don't like to take me out to eat"
   }],
-  "status": "","editorId": "",
+  "lemma": "my daddy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

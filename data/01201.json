@@ -1,5 +1,4 @@
 {
-  "lemma": "*hoe",
   "examples": [{
     "text": "been killing the vibe , can't turn a hoe 'to a wife "
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "dog and cat because he a pet selfie hoe ."
   }],
-  "status": "","editorId": "",
+  "lemma": "*hoe",
   "senses": [{
-    "pos": "",
-    "synonym": "03529754-n (a tool with a flat blade attached at right angles to a long handle);01746437-v (dig with a hoe; \\\"\"He is hoeing the flower beds\\\"\"",
+    "pos": "n",
+    "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "whore: a woman who engages in sexual intercourse for money <i92307>",
+      "relNo": 3
+    }, {
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "woman: an adult female person (as opposed to a man); 'the woman kept house while the man hunted' <i94168>",
+      "relNo": 1
+    }],
+    "definition": "A sexually loose woman"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

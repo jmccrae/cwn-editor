@@ -1,5 +1,4 @@
 {
-  "lemma": "friendzoned",
   "examples": [{
     "text": "Should've friendzoned this one in an amicable way so he'd"
   }, {
@@ -19,12 +18,26 @@
   }, {
     "text": "don't care if this sounds petty ; I've friendzoned most of the girls who friendzoned me back"
   }],
-  "status": "","editorId": "",
+  "lemma": "friendzone",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "zone: an area or region distinguished from adjacent parts by a distinctive feature or characteristic <i81768>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "friend: a person with whom you are acquainted; 'I have trouble remembering the names of all my acquaintances'; 'we are friends of the family' <i88061>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "treat: interact in a certain way; 'Do right by her'; 'Treat him with caution, please'; 'Handle the press reporters gently' <i34283>",
+      "relNo": 1
+    }],
+    "definition": "To treat as a friend although the other party has romantic feelings"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

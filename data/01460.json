@@ -1,5 +1,4 @@
 {
-  "lemma": "now hiring",
   "examples": [{
     "text": "Now hiring for Technical Director - MEP / Building Services"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Now hiring for : Contract Sr . Marcom Manager in"
   }],
-  "status": "","editorId": "",
+  "lemma": "now hiring",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

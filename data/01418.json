@@ -1,5 +1,4 @@
 {
-  "lemma": "shiiiiit",
   "examples": [{
     "text": "Shiiiiit he got a Fukin R8 tho ?? https"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "I'd do the same shiiiiit ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "shiiiiit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Shit"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

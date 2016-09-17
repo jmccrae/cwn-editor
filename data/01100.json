@@ -1,5 +1,4 @@
 {
-  "lemma": "close-up",
   "examples": [{
     "text": "Bike Kit Close-Up : Blur Cycling ’ s Unique Jerseys :"
   }, {
@@ -21,16 +20,18 @@
   }, {
     "text": "Great close-up of a gorgeous bouquet ! Repost Sola's Bridal"
   }],
-  "status": "","editorId": "",
+  "lemma": "*close-up",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "image=03270785-n (a representation of a person (especially in the form of sculpture); \\\"\"the coin bears an effigy of Lincoln\\\"\"; \\\"\"the emperor's tomb had his image carved in stone\\\"\");03937282-n (a visual representation (of an object or scene or person or abstraction) produced on a surface; \\\"\"they showed us the pictures of their wedding\\\"\"; \\\"\"a movie is a series of images projected so rapidly that the eye integrates them\\\"\");04683134-n (the general impression that something (a person or organization or product) presents to the public; \\\"\"although her popular image was contrived it served to inspire music and pageantry\\\"\"; \\\"\"the company tried to project an altruistic image\\\"\");04685073-n ((Jungian psychology) a personal facade that one presents to the world; \\\"\"a public image is as fragile as Humpty Dumpty\\\"\");05936904-n (an iconic mental representation; \\\"\"her imagination forced images upon her too awful to contemplate\\\"\");05946242-n (a standard or typical example; \\\"\"he is the prototype of good breeding\\\"\"; \\\"\"he provided America with an image of the good father\\\"\");07120141-n (language used in a figurative or nonliteral sense);08016746-n ((mathematics) the set of values of the dependent variable for which a function is defined; \\\"\"the image of f(x) = x^2 is the set of all non-negative real numbers if the domain of the function is the set of all real numbers\\\"\");10046971-n (someone who closely resembles a famous person (especially an actor); \\\"\"he could be Gingrich's double\\\"\"; \\\"\"she's the very image of her mother\\\"\");01638974-v (imagine; conceive of; see in one's mind; \\\"\"I can't see him on horseback!\\\"\"; \\\"\"I can see what will happen\\\"\"; \\\"\"I can see a risk in this strategy\\\"\");02156033-v (render visible, as by means of MRI",
+      "type": "hypernym",
+      "target": "image: a representation of a person (especially in the form of sculpture); 'the coin bears an effigy of Lincoln'; 'the emperor's tomb had his image carved in stone' <i53307>",
       "relNo": 0
     }],
-    "definition": " A photographic (or other) image in which the subject is shown at a relatively large scale, and occupies most or all of the frame"
-  }]
+    "definition": " A photographic (or other) image in which the subject is shown at a relatively large scale, and occupies most or all of the frame [Wiktionary] "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

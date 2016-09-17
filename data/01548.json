@@ -1,5 +1,4 @@
 {
-  "lemma": "*coloring book",
   "examples": [{
     "text": "hnajmul1992 : RT K_Imagine_Pub : Awesome ! Animals coloring book for adults https : / / t.co /"
   }, {
@@ -21,32 +20,14 @@
   }, {
     "text": "Coloring Book For Adults"
   }],
-  "status": "","editorId": "",
+  "lemma": "*coloring book",
   "senses": [{
-    "pos": "",
-    "synonym": "03075786-n (a picture book with line drawings intended to be colored with crayons by children)",
+    "pos": "n",
+    "synonym": "coloring book: a picture book with line drawings intended to be colored with crayons by children <i52178>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "paint=03880896-n (a substance used as a coating to protect or decorate a surface (especially a mixture of pigment suspended in a liquid); dries to form a hard coating; \\\"\"artists use `paint' and `pigment' interchangeably\\\"\");04119846-n (makeup consisting of a pink or red powder applied to the cheeks);08608465-n ((basketball) a space (including the foul line) in front of the basket at each end of a basketball court; usually painted a different color from the rest of the court; \\\"\"he hit a jump shot from the top of the key\\\"\"; \\\"\"he dominates play in the paint\\\"\");01365439-v (apply paint to; coat with paint; \\\"\"We painted the rooms yellow\\\"\");01366185-v (apply a liquid to; e.g., paint the gutters with linseed oil);01688558-v (make a painting of; \\\"\"He painted his mistress many times\\\"\");01688794-v (make a painting; \\\"\"he painted all day in the garden\\\"\"; \\\"\"He painted a painting of the garden\\\"\"",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "marker=03727288-n (some conspicuous object used to distinguish or mark something; \\\"\"the buoys were markers for the channel\\\"\");03727498-n (a writing implement for making a mark);07284884-n (a distinguishing symbol; \\\"\"the owner's mark was on all the sheep\\\"\"",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "colored pencil=",
-      "relNo": 2
-    }, {
-      "type": "none",
-      "target": "crayon=03132899-n (writing implement consisting of a colored stick of composition wax used for writing and drawing);01696604-v (write, draw, or trace with a crayon",
-      "relNo": 3
-    }, {
-      "type": "none",
-      "target": "line art=",
-      "relNo": 4
-    }],
-    "definition": "A book containing line art for readers (usually children) to add color using crayons, colored pencils, markers, paint or other artistic media"
-  }]
+    "relations": [],
+    "definition": ""
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

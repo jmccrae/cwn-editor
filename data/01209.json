@@ -1,5 +1,4 @@
 {
-  "lemma": "fun fact",
   "examples": [{
     "text": "Lautopia_ : RT A_A_Ron_Rodgers : Fun fact # 48 : Houston drivers would rather risk"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Fun fact : James is 90 % water , "
   }],
-  "status": "","editorId": "",
+  "lemma": "fun fact",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

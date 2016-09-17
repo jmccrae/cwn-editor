@@ -1,5 +1,4 @@
 {
-  "lemma": "real love",
   "examples": [{
     "text": "# myaamartinezz : Show your dogs real love with # PupPot https : / / t.co"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "/ t.co / TMQnXmjCn4 - Jody Watley - Real Love https : / / t.co / j2WyUyMwna"
   }],
-  "status": "","editorId": "",
+  "lemma": "real love",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

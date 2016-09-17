@@ -1,5 +1,4 @@
 {
-  "lemma": "should of",
   "examples": [{
     "text": "you should of pushed him of the building"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I should of never let you come back"
   }],
-  "status": "","editorId": "",
+  "lemma": "should of",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Should have "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

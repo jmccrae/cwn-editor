@@ -1,5 +1,4 @@
 {
-  "lemma": "lolll",
   "examples": [{
     "text": "Ah lolll https : / / t.co / zpwhZKGkOC"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Was lowkey freaking out taking random turns lolll"
   }],
-  "status": "","editorId": "",
+  "lemma": "lolll",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Lol"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

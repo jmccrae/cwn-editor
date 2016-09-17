@@ -1,5 +1,4 @@
 {
-  "lemma": "*daughter-in-law",
   "examples": [{
     "text": "Ex-Congress Lawmaker , Kin Get Bail In Daughter-In-Law , 3 Kids Death Cas"
   }, {
@@ -19,20 +18,14 @@
   }, {
     "text": "Abu Hamza's daughter-in-law who can't be deported 'lives ... https :"
   }],
-  "status": "","editorId": "",
+  "lemma": "*daughter-in-law",
   "senses": [{
-    "pos": "",
-    "synonym": "10012578-n (the wife of your son)",
+    "pos": "n",
+    "synonym": "daughter-in-law: the wife of your son <i89399>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "son=10643436-n (a male human offspring; \\\"\"their son became a famous judge\\\"\"; \\\"\"his boy is taller than he is\\\"\"",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "wife=10800308-n (a married woman; a man's partner in marriage)",
-      "relNo": 1
-    }],
-    "definition": "The wife of one's son."
-  }]
+    "relations": [],
+    "definition": ""
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

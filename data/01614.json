@@ -1,5 +1,4 @@
 {
-  "lemma": "challs",
   "examples": [{
     "text": "challs money 8s ?"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Challs"
   }],
-  "status": "","editorId": "",
+  "lemma": "*challs",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "? "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

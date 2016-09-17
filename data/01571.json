@@ -1,5 +1,4 @@
 {
-  "lemma": "weeeee",
   "examples": [{
     "text": "Aaa weeeee listo fue"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "EXCITED FOR SLFL WEEEEE"
   }],
-  "status": "","editorId": "",
+  "lemma": "weeeee",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "We"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

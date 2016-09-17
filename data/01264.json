@@ -1,5 +1,4 @@
 {
-  "lemma": "c4d",
   "examples": [{
     "text": "... / °Street Themed Living Area° \\ « C4D 3D Visuals » ©2016 https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "FREE C4D SWORD MODEL ! : D https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "c4d",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

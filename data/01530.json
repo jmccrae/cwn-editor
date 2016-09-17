@@ -1,5 +1,4 @@
 {
-  "lemma": "wit it",
   "examples": [{
     "text": "for those tickets tomorrow though ???????????????????? come on wit it ! ! ! ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "..... oh shit . yo .... y'all disrespectful wit it aight lmao aight"
   }],
-  "status": "","editorId": "",
+  "lemma": "wit it",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "With it "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

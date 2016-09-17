@@ -1,5 +1,4 @@
 {
-  "lemma": "deff",
   "examples": [{
     "text": "X had a few bops but FOAF was deff trash . I needs to listen to royalty"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm deff gonna need like 10 cokes to make it"
   }],
-  "status": "","editorId": "",
+  "lemma": "deff",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "r",
+    "synonym": "definitely: without question and beyond doubt; 'it was decidedly too expensive'; 'she told him off in spades'; 'by all odds they should win' <i18356>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

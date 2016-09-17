@@ -1,5 +1,4 @@
 {
-  "lemma": "g8",
   "examples": [{
     "text": "Someone compared a Daiwa Connoisseur G8 Power vs MAP TKS 625 vs Preston CXR"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I hate bitching but on Twitter it's g8 ohmylordd unfollwme"
   }],
-  "status": "","editorId": "",
+  "lemma": "g8",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "the fam",
   "examples": [{
     "text": "glad to see the fam getting along??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Bring the fam out this Friday for some fun and prizes"
   }],
-  "status": "","editorId": "",
+  "lemma": "the fam",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

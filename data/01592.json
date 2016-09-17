@@ -1,5 +1,4 @@
 {
-  "lemma": "exophase",
   "examples": [{
     "text": "https : / / t.co / 4GMbbS4mob # exophase"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "https : / / t.co / 3sw8adZsR7 # exophase"
   }],
-  "status": "","editorId": "",
+  "lemma": "exophase",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

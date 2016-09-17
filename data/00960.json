@@ -1,5 +1,4 @@
 {
-  "lemma": "hurry up",
   "examples": [{
     "text": "Trying to hurry up but like I just don't feel like moving"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "lauren needs to hurry up and get to mine or I'm gunna start"
   }],
-  "status": "","editorId": "",
+  "lemma": "hurry up",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "hurry: act or move at high speed; 'We have to rush!'; 'hurry--it's late!' <i24017>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

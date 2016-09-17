@@ -1,5 +1,4 @@
 {
-  "lemma": "real talk",
   "examples": [{
     "text": "anyone you'll ever meet & amp ; that's real talk"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "Real talk"
   }],
-  "status": "","editorId": "",
+  "lemma": "real talk",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "real: capable of being treated as fact; 'tangible evidence'; 'his brief time as Prime Minister brought few real benefits to the poor' <i61>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "talk: discussion; (`talk about' is a less formal alternative for `discussion of'); 'his poetry contains much talk about love and anger' <i74181>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "talk: discussion; (`talk about' is a less formal alternative for `discussion of'); 'his poetry contains much talk about love and anger' <i74181>",
+      "relNo": 1
+    }],
+    "definition": "Act of talking honestly "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

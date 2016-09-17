@@ -1,5 +1,4 @@
 {
-  "lemma": "like really",
   "examples": [{
     "text": "hhhhh im joking btw but like really idk who's the guy — Fe wa7d klmni"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "chinese club in for fellaini for £50mn ? Like really . He's our star . Come buy him"
   }],
-  "status": "","editorId": "",
+  "lemma": "like really",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

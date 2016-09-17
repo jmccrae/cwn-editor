@@ -1,5 +1,4 @@
 {
-  "lemma": "*endorphins",
   "examples": [{
     "text": "Chocolate is supposed to release endorphins to make you feel happy , I thin"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ": 01m : 59s with # Endomondo # endorphins https : / / t.co / GVQaWy9Z0R"
   }],
-  "status": "","editorId": "",
+  "lemma": "endorphin",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "endorphin: a neurochemical occurring naturally in the brain and having analgesic properties <i114861>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

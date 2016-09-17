@@ -1,5 +1,4 @@
 {
-  "lemma": "b1a4",
   "examples": [{
     "text": "B1A4"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# 13 B1A4 http …"
   }],
-  "status": "","editorId": "",
+  "lemma": "b1a4",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

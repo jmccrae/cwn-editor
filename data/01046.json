@@ -1,5 +1,4 @@
 {
-  "lemma": "sneak peek",
   "examples": [{
     "text": "# TheFlash 2x13 sneak peek https : / / t.co / xWEEUV9rF4 via"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "THE NEW SNEAK PEEK HOLY FUCKING SHIT LEXA IS SUCH A BADASS"
   }],
-  "status": "","editorId": "",
+  "lemma": "sneak peek",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "peek: a secret look <i40009>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "sneak: to go stealthily or furtively; '..stead of sneaking around spying on the neighbor's house' <i31274>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "preview: a screening for a select audience in advance of release for the general public <i72698>",
+      "relNo": 1
+    }],
+    "definition": "An early view of an unreleased product "
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*deliciousness",
   "examples": [{
     "text": "Come on in and have some of our deliciousness !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "down . 70 % of hummus ends in deliciousness , not divorce . You're right , ther"
   }],
-  "status": "","editorId": "",
+  "lemma": "*deliciousness",
   "senses": [{
-    "pos": "",
-    "synonym": "05002958-n (extreme appetizingness)",
+    "pos": "n",
+    "synonym": "deliciousness: extreme appetizingness <i63258>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

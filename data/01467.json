@@ -1,5 +1,4 @@
 {
-  "lemma": "worldy",
   "examples": [{
     "text": "Ladies and Gentlemen , Jamie Vardy # worldy https : / / t.co / fgfol3CV5"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Worldy Cup - Super power soccer Games Entertainment Mac"
   }],
-  "status": "","editorId": "",
+  "lemma": "*worldy",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "world-class: ranking above all others; 'was first in her class'; 'the foremost figure among marine artists'; 'the top graduate' <i1254>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "world-class: ranking above all others; 'was first in her class'; 'the foremost figure among marine artists'; 'the top graduate' <i1254>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

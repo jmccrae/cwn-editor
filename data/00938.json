@@ -1,5 +1,4 @@
 {
-  "lemma": "hotsauce",
   "examples": [{
     "text": "King didn't even like spicy foods ? # hotsauce"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "https : / / t.co / 91jfshwfqc # HotSauce # BBQSauce pls RT"
   }],
-  "status": "","editorId": "",
+  "lemma": "hotsauce",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "hot sauce"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

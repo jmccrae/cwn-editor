@@ -1,5 +1,4 @@
 {
-  "lemma": "all i do",
   "examples": [{
     "text": "All I do is eat flip minis like it's become a"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "All I do during my hour break between classes is get"
   }],
-  "status": "","editorId": "",
+  "lemma": "all i do",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

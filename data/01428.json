@@ -1,5 +1,4 @@
 {
-  "lemma": "scorehero",
   "examples": [{
     "text": "Broadening My Horizons # scorehero https : / / t.co / UZ01OhuodT https"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "A New Challenge # scorehero https : / / t.co / ckJedWSIaN https"
   }],
-  "status": "","editorId": "",
+  "lemma": "scorehero",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

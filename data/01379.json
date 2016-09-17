@@ -1,5 +1,4 @@
 {
-  "lemma": "*thirty-five",
   "examples": [{
     "text": "Inch thirty-five ... https : / / t.co / HSqD9jyyce"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "| thirty-five |"
   }],
-  "status": "","editorId": "",
+  "lemma": "thirty-five",
   "senses": [{
-    "pos": "",
-    "synonym": "02197425-a (being five more than thirty)",
+    "pos": "n",
+    "synonym": "thirty-five: being five more than thirty <i12040>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

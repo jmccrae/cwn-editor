@@ -1,5 +1,4 @@
 {
-  "lemma": "chaeyoung",
   "examples": [{
     "text": "son chaeyoung"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "chaeyoung"
   }],
-  "status": "","editorId": "",
+  "lemma": "chaeyoung",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

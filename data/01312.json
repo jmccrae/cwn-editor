@@ -1,5 +1,4 @@
 {
-  "lemma": "rockband",
   "examples": [{
     "text": "/ / t.co / BYDWrPdAqO # rock # rockband"
   }, {
@@ -21,32 +20,14 @@
   }, {
     "text": "BRUTAL MODE ! ( Expert+ ) - # RockBand 4 - via https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "rockband",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "rock band: a band of musicians who play rock'n'roll music <i80485>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "terrain=08692301-n (a piece of ground having specific characteristics or military potential; \\\"\"they decided to attack across the rocky terrain\\\"\"",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "mountain=09382700-n (a land mass that projects well above its surroundings; higher than a hill);13796604-n ((often followed by `of') a large number or amount or extent; \\\"\"a batch of letters\\\"\"; \\\"\"a deal of trouble\\\"\"; \\\"\"a lot of money\\\"\"; \\\"\"he made a mint on the stock market\\\"\"; \\\"\"see the rest of the winners in our huge passel of photos\\\"\"; \\\"\"it must have cost plenty\\\"\"; \\\"\"a slew of journalists\\\"\"; \\\"\"a wad of money\\\"\"",
-      "relNo": 1
-    }, {
-      "type": "none",
-      "target": "hill=03797581-n (structure consisting of an artificial heap or bank usually of earth or stones; \\\"\"they built small mounds to hide behind\\\"\");03797867-n ((baseball) the slight elevation on which the pitcher stands);09325914-n (a local and well-defined elevation of the land; \\\"\"they loved to roam the hills of West Virginia\\\"\");01664534-v (form into a hill",
-      "relNo": 2
-    }, {
-      "type": "none",
-      "target": "formation=00237945-n (the act of forming or establishing something; \\\"\"the constitution of a PTA group last year\\\"\"; \\\"\"it was the establishment of his reputation\\\"\"; \\\"\"he still remembers the organization of the club\\\"\");00927021-n (the act of fabricating something in a particular shape);00929331-n (creation by mental activity; \\\"\"the formation of sentences\\\"\"; \\\"\"the formation of memories\\\"\");03389963-n (a particular spatial arrangement);08443418-n (an arrangement of people or things acting as a unit; \\\"\"a defensive formation\\\"\"; \\\"\"a formation of planes\\\"\");09310874-n ((geology) the geological features of the earth);13504691-n (natural process that causes something to form; \\\"\"the formation of gas in the intestine\\\"\"; \\\"\"the formation of crystals\\\"\"; \\\"\"the formation of pseudopods\\\"\"",
-      "relNo": 3
-    }, {
-      "type": "none",
-      "target": "rock=00348834-n (pitching dangerously to one side);07078755-n (a genre of popular music originating in the 1950s; a blend of black rhythm-and-blues with white country-and-western; \\\"\"rock is a generic term for the range of styles that evolved out of rock'n'roll.\\\"\");07624692-n (hard bright-colored stick candy (typically flavored with peppermint));09438954-n (a lump or mass of hard consolidated mineral matter; \\\"\"he threw a rock at me\\\"\");10554923-n ((figurative) someone who is strong and stable and dependable; \\\"\"he was her rock during the crisis\\\"\"; \\\"\"Thou art Peter, and upon this rock I will build my church\\\"\"--Gospel According to Matthew);14720954-n (material consisting of the aggregate of minerals like those making up the Earth's crust; \\\"\"that mountain is solid rock\\\"\"; \\\"\"stone is abundant in New England and there are many quarries\\\"\");01879288-v (move back and forth or sideways; \\\"\"the ship was rocking\\\"\"; \\\"\"the tall building swayed\\\"\"; \\\"\"She rocked back and forth on her feet\\\"\");01880021-v (cause to move back and forth; \\\"\"rock the cradle\\\"\"; \\\"\"rock the baby\\\"\"; \\\"\"the wind swayed the trees gently\\\"\"",
-      "relNo": 4
-    }],
-    "definition": " A rock formation that encircles a hill or mountain, separating other kinds of terrain that are above and below it"
-  }]
+    "relations": [],
+    "definition": ""
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "fucking up",
   "examples": [{
     "text": "Cause I'm highkey fucking up Rn !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I've been fucking up ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "fucking up",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

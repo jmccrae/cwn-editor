@@ -1,5 +1,4 @@
 {
-  "lemma": "soooo",
   "examples": [{
     "text": "I am sooOo tired jfc ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hello , Thank You soooo Much for going to see about my Flin"
   }],
-  "status": "","editorId": "",
+  "lemma": "soooo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "So"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

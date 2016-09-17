@@ -1,5 +1,4 @@
 {
-  "lemma": "*to shit",
   "examples": [{
     "text": "People have gone to shit . No morals . No self worth ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "online pool , why does that not translate to shit in real life billiard"
   }],
-  "status": "","editorId": "",
+  "lemma": "*to shit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

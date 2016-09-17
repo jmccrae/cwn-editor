@@ -1,5 +1,4 @@
 {
-  "lemma": "coolin",
   "examples": [{
     "text": "I'm coolin wit my youngins"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Coolin Hard Trippin Light ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "cool",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "relax: become less tense, rest, or take one's ease; 'He relaxed in the hot tub'; 'Let's all relax after a hard day's work' <i21894>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "cool: fashionable and attractive at the time; often skilled or socially adept; 'he's a cool dude'; 'that's cool'; 'Mary's dress is really cool'; 'it's not cool to arrive at a party too early' <i5317>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

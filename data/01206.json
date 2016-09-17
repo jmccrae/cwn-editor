@@ -1,5 +1,4 @@
 {
-  "lemma": "*dickhead",
   "examples": [{
     "text": "Sorry for playing the dickhead role when all you really needed was a"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Is this dickhead being serious ? https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "*dickhead",
   "senses": [{
-    "pos": "",
-    "synonym": "09834593-n (insulting terms of address for people who are stupid or irritating or ridiculous)",
+    "pos": "n",
+    "synonym": "dickhead: insulting terms of address for people who are stupid or irritating or ridiculous <i88330>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

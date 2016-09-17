@@ -1,5 +1,4 @@
 {
-  "lemma": "so sexy",
   "examples": [{
     "text": "good morning always so sexy"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "But Destroyer is so sexy because lady with a huge-ass axe ! Which"
   }],
-  "status": "","editorId": "",
+  "lemma": "so sexy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "carry-on",
   "examples": [{
     "text": "Tumi 22051DH Wheeled Rolling Briefcase Small Carry-On Suitcases - Bid Now ! Only $32.0 https"
   }, {
@@ -21,20 +20,18 @@
   }, {
     "text": ". But can't fit anything more in my carry-on to fly home ."
   }],
-  "status": "","editorId": "",
+  "lemma": "carry-on",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "baggage=02777635-n (cases used to carry belongings when traveling);02777926-n (the portable equipment and supplies of an army);09851816-n (a worthless or immoral woman)",
+      "type": "hypernym",
+      "target": "baggage: cases used to carry belongings when traveling <i50363>",
       "relNo": 0
-    }, {
-      "type": "none",
-      "target": "luggage=02777635-n (cases used to carry belongings when traveling)",
-      "relNo": 1
     }],
-    "definition": "That luggage or baggage which is taken onto an airplane with a passenger, rather than checked"
-  }]
+    "definition": "That luggage or baggage which is taken onto an airplane with a passenger, rather than checked [Wiktionary]"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

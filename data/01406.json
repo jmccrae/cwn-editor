@@ -1,5 +1,4 @@
 {
-  "lemma": "robocall",
   "examples": [{
     "text": "been received over white supremacists for Trump NH robocall ."
   }, {
@@ -19,12 +18,26 @@
   }, {
     "text": "It's a weird thing to robocall people with a message like that , especiall"
   }],
-  "status": "","editorId": "",
+  "lemma": "robocall",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "robot: a mechanism that can move automatically <i50283>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "call: a telephone connection; 'she reported several anonymous calls'; 'he placed a phone call to London'; 'he heard the phone ringing but didn't want to take the call' <i69471>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "phone call: a telephone connection; 'she reported several anonymous calls'; 'he placed a phone call to London'; 'he heard the phone ringing but didn't want to take the call' <i69471>",
+      "relNo": 1
+    }],
+    "definition": "An phone call made by an automated service "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

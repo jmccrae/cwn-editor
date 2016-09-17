@@ -1,5 +1,4 @@
 {
-  "lemma": "fufu",
   "examples": [{
     "text": "get someone ? after a breakup or some fufu shit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "my niqqa Austin did that superman punch that fufu tony Evans ????✊"
   }],
-  "status": "","editorId": "",
+  "lemma": "fufu",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "fake: fraudulent; having a misleading appearance <i6128>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

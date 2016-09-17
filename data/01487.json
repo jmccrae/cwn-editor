@@ -1,5 +1,4 @@
 {
-  "lemma": "so fun",
   "examples": [{
     "text": "american politics are so fun why can't i have this much fun caring"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hai learn islam is so fun with Muslim Millionaire Quiz | Get it on"
   }],
-  "status": "","editorId": "",
+  "lemma": "so fun",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

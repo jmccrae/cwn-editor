@@ -1,5 +1,4 @@
 {
-  "lemma": "kill myself",
   "examples": [{
     "text": "I wanna kill myself"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "home with my headphones and I want to KILL MYSELF"
   }],
-  "status": "","editorId": "",
+  "lemma": "kill myself",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

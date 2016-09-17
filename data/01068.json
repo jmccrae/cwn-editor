@@ -1,5 +1,4 @@
 {
-  "lemma": "like damn",
   "examples": [{
     "text": "of people who are glued to materialistic things like damn , so now you gotta act better tha"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Where does the time go in the morning like damn it was just 6 : 20?"
   }],
-  "status": "","editorId": "",
+  "lemma": "like damn",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

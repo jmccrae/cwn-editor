@@ -1,5 +1,4 @@
 {
-  "lemma": "*cuffing",
   "examples": [{
     "text": "Nigga don't be cuffing these women they shackle them smh wtf wrong"
   }, {
@@ -21,16 +20,26 @@
   }, {
     "text": "it's cold , we want cuddles . It's cuffing season . Wait till it gets warm "
   }],
-  "status": "","editorId": "",
+  "lemma": "cuff",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "cuff=03150509-n (the lap consisting of a turned-back hem encircling the end of the sleeve or leg);03489659-n (shackle that consists of a metal loop that can be locked around the wrist; usually used in pairs);01290804-v (confine or restrain with or as if with manacles or handcuffs; \\\"\"The police handcuffed the suspect at the scene of the crime\\\"\");01419816-v (hit with the hand",
+      "type": "hypernym",
+      "target": "unite: act in concert or unite in a common purpose or belief <i34069>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "cuff: shackle that consists of a metal loop that can be locked around the wrist; usually used in pairs <i54603>",
+      "relNo": 2
+    }, {
+      "type": "similar",
+      "target": "marry: take in marriage <i34166>",
+      "relNo": 1
     }],
-    "definition": "The act by which somebody is cuffed or struck."
-  }]
+    "definition": "to get involved in a relationship with another person"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

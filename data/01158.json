@@ -1,5 +1,4 @@
 {
-  "lemma": "narry",
   "examples": [{
     "text": "narry shippers venham a mim"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "one time and i made it ! ! Narry didn't pay attention to my side but it"
   }],
-  "status": "","editorId": "",
+  "lemma": "narry",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

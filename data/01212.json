@@ -1,5 +1,4 @@
 {
-  "lemma": "oh yes",
   "examples": [{
     "text": "oh yes so cool congrats ???"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "black & amp ; dominican oh yes ???"
   }],
-  "status": "","editorId": "",
+  "lemma": "oh yes",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

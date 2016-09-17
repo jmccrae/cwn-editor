@@ -1,5 +1,4 @@
 {
-  "lemma": "heeeeey",
   "examples": [{
     "text": ". Their face .... ? I'm like oh heeeeey ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "heeeeey u . Sup Doc"
   }],
-  "status": "","editorId": "",
+  "lemma": "heeeeey",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "hey"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

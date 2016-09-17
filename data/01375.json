@@ -1,5 +1,4 @@
 {
-  "lemma": "nigguh",
   "examples": [{
     "text": "Abraw in the air ..... this nigguh will murder up"
   }, {
@@ -19,12 +18,14 @@
   }, {
     "text": "Nigguh ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "nigguh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Nigger"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

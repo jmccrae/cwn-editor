@@ -1,5 +1,4 @@
 {
-  "lemma": "*the big game",
   "examples": [{
     "text": "Dress Up These Pigs in a Blanket for the Big Game ( You'll Hardly Recognize Them ) https :"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Check out this tasty recipe and turn the Big Game into # MCRWingNight ! https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "*the big game",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

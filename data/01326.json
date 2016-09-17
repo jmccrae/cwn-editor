@@ -1,5 +1,4 @@
 {
-  "lemma": "long ass",
   "examples": [{
     "text": "LONG ASS THANK YOUS AND REPLIES TO EVERYONE IN THE"
   }, {
@@ -21,12 +20,44 @@
   }, {
     "text": "\\ Long ass day. \\\"\" Bruh -___-\""
   }],
-  "status": "","editorId": "",
+  "lemma": "long ass",
   "senses": [{
-    "pos": "",
+    "pos": "a",
+    "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "long: for an extended time or at a distant time; 'a promotion long overdue'; 'something long hoped for'; 'his name has long been forgotten'; 'talked all night long'; 'how long will you be gone?'; 'arrived long before he was expected'; 'it is long after your bedtime' <i19264>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "ass: the fleshy part of the human body that you sit on; 'he deserves a good kick in the butt'; 'are you going to sit on your fanny and do nothing?' <i66132>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "long: for an extended time or at a distant time; 'a promotion long overdue'; 'something long hoped for'; 'his name has long been forgotten'; 'talked all night long'; 'how long will you be gone?'; 'arrived long before he was expected'; 'it is long after your bedtime' <i19264>",
+      "relNo": 2
+    }],
+    "definition": "Very long in the temporal sense "
+  }, {
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "ass: the fleshy part of the human body that you sit on; 'he deserves a good kick in the butt'; 'are you going to sit on your fanny and do nothing?' <i66132>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "long: primarily spatial sense; of relatively great or greater than average spatial extension or extension as specified; 'a long road'; 'a long distance'; 'contained many long words'; 'ten miles long' <i7833>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "long: primarily spatial sense; of relatively great or greater than average spatial extension or extension as specified; 'a long road'; 'a long distance'; 'contained many long words'; 'ten miles long' <i7833>",
+      "relNo": 1
+    }],
+    "definition": "Very long in the spatial sense"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

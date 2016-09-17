@@ -1,5 +1,4 @@
 {
-  "lemma": "woooo",
   "examples": [{
     "text": "Woooo ! ! ! ! just CRUSHED that Super"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Woooo , I'll see you there girls"
   }],
-  "status": "","editorId": "",
+  "lemma": "woooo",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "excitement: the feeling of lively and cheerful joy; 'he could hardly conceal his excitement when she agreed' <i76314>",
+      "relNo": 1
+    }],
+    "definition": "Expression of excitement "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

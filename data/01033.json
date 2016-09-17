@@ -1,5 +1,4 @@
 {
-  "lemma": "going live",
   "examples": [{
     "text": "going live in about 5 minutes playing some comp with"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "going live"
   }],
-  "status": "","editorId": "",
+  "lemma": "going live",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

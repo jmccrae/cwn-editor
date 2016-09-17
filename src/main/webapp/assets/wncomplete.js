@@ -17,7 +17,7 @@ function wncomplete(id) {
       })
       .autocomplete({
         source: function( request, response ) {
-          $.getJSON( '/wn/' + request.term, response );
+          $.getJSON( '/cwn-editor/wn/' + request.term, response );
         },
         search: function() {
           // custom minLength

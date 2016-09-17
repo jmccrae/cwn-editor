@@ -1,5 +1,4 @@
 {
-  "lemma": "pple",
   "examples": [{
     "text": "Yemenis were already the poorest pple in ME , now they are being slaughtere"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "; poor judgment : she misread the Am pple , dismissed Bernie as amusing anomaly , use"
   }],
-  "status": "","editorId": "",
+  "lemma": "pple",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "People"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

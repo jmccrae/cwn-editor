@@ -1,5 +1,4 @@
 {
-  "lemma": "pisses me",
   "examples": [{
     "text": "Nothing pisses me off more than when someone makes plans with"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "The way she talks pisses me off . The way she acts pisses off"
   }],
-  "status": "","editorId": "",
+  "lemma": "pisses me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

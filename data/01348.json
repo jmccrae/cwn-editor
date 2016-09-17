@@ -1,5 +1,4 @@
 {
-  "lemma": "hey love",
   "examples": [{
     "text": "Hey love "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hey Love ❤ , Can you follow me ifb alway"
   }],
-  "status": "","editorId": "",
+  "lemma": "hey love",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

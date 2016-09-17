@@ -1,5 +1,4 @@
 {
-  "lemma": "ahhhhhhhh",
   "examples": [{
     "text": "AHHHHHHHH I JUST FINISHED GREASE LIVE THAT WAS AMAZING"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "AHHHHHHHH"
   }],
-  "status": "","editorId": "",
+  "lemma": "ahhhhhhhh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Ah"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

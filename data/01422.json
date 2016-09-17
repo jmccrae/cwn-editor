@@ -1,5 +1,4 @@
 {
-  "lemma": "cumpleaños",
   "examples": [{
     "text": "Feliz cumpleaños a mi ! ! ! ! ! https"
   }, {
@@ -19,16 +18,14 @@
   }, {
     "text": "Feliz Cumpleaños ! ? hope you have a great day"
   }],
-  "status": "","editorId": "",
+  "lemma": "cumpleaños",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "birthday=15274989-n (an anniversary of the day on which a person was born (or the celebration of it));15277233-n (the date on which a person was born)",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": "birthday"
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

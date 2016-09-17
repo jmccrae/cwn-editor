@@ -1,5 +1,4 @@
 {
-  "lemma": "happy new year",
   "examples": [{
     "text": "Happy New Year China ! # CNY # CNY2016 https :"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Happy New Year Fam ? Thank You For The Amazing Support"
   }],
-  "status": "","editorId": "",
+  "lemma": "happy new year",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Expression said on or around the first day of the year "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

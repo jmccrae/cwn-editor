@@ -1,5 +1,4 @@
 {
-  "lemma": "womp",
   "examples": [{
     "text": "don't womp me"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "your go to is to shit on Louis womp https : / / t.co / O02Hyog6qw"
   }],
-  "status": "","editorId": "",
+  "lemma": "womp",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Imitation of the sound of drum and bass music "
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

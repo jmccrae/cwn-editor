@@ -1,5 +1,4 @@
 {
-  "lemma": "*good day",
   "examples": [{
     "text": "i hope adam driver is having a good day"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "always a good day when the quiz you didn't study for gets"
   }],
-  "status": "","editorId": "",
+  "lemma": "*good day",
   "senses": [{
-    "pos": "",
-    "synonym": "06642117-n (a farewell remark; \\\"\"they said their good-byes\\\"\"",
+    "pos": "n",
+    "synonym": "good day: a farewell remark; 'they said their good-byes' <i71321>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

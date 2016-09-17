@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck me",
   "examples": [{
     "text": "kiss me like you want me . And fuck me like you are in love with me. …"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "told her my fetish now she fuck me w no socks on"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuck me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

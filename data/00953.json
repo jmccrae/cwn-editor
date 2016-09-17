@@ -1,5 +1,4 @@
 {
-  "lemma": "pissing me off",
   "examples": [{
     "text": "This accounting hw is pissing me off"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "This snow is pissing me off ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "pissing me off",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

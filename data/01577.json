@@ -1,5 +1,4 @@
 {
-  "lemma": "yiss",
   "examples": [{
     "text": "# awyiss aww yiss ... mothafuckin austin vs feminism | https :"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Awww yiss . https : / / t.co / 9lJQsMv1N7"
   }],
-  "status": "","editorId": "",
+  "lemma": "yiss",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Yes"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

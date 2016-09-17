@@ -1,5 +1,4 @@
 {
-  "lemma": "bitxh",
   "examples": [{
     "text": "this guy is so douchey"
   }, {
@@ -37,12 +36,14 @@
   }, {
     "text": "Shyne lol she just got a lil Shyne Bitxh I Been doing the shit you tryna do"
   }],
-  "status": "","editorId": "",
+  "lemma": "bitxh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Bitch"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

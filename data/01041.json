@@ -1,5 +1,4 @@
 {
-  "lemma": "*chipotle",
   "examples": [{
     "text": "Chipotle to close all restaurants on February 8 for"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Getting my free burrito at # Chipotle . S / o to everyone who got"
   }],
-  "status": "","editorId": "",
+  "lemma": "*chipotle",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "07737578-n (a ripe jalapeno that has been dried for use in cooking)",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

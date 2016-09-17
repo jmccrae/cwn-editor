@@ -1,5 +1,4 @@
 {
-  "lemma": "like fuck",
   "examples": [{
     "text": ". Then this morning happened and now im like fuck you ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I can watch my oldest revines I'm cringing like fuck like why would I ever revine some of"
   }],
-  "status": "","editorId": "",
+  "lemma": "like fuck",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

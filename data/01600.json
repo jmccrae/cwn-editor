@@ -1,5 +1,4 @@
 {
-  "lemma": "h2h",
   "examples": [{
     "text": "no we'd play a h2h tomorrow for the seat"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "want to get in a quick ps4 MUT h2h game ? Don't worry I'm 88 overall so"
   }],
-  "status": "","editorId": "",
+  "lemma": "h2h",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "eonnie",
   "examples": [{
     "text": "baby socks ? hey eonnie !"
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "followed eonnie"
   }],
-  "status": "","editorId": "",
+  "lemma": "eonnie",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "Unnie <00091>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "loanword",
+      "target": "Korean: the Altaic language spoken by Koreans <i72984>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

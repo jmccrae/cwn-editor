@@ -1,5 +1,4 @@
 {
-  "lemma": "lil bitch",
   "examples": [{
     "text": "shhh I'm tryna not be a lil bitch rn"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "First off lil bitch . Hov did that so we don't have"
   }],
-  "status": "","editorId": "",
+  "lemma": "lil bitch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Little bitch"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

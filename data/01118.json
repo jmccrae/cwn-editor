@@ -1,5 +1,4 @@
 {
-  "lemma": "fuckhole",
   "examples": [{
     "text": "# escort # cock # fuckhole h …"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "# jizz # porca # desiteen # fuckhole"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuckhole",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "hole: an opening into or through something <i85530>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "fuck: slang for sexual intercourse <i39847>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "hole: an opening into or through something <i85530>",
+      "relNo": 1
+    }],
+    "definition": "A hole that can be used for sexual intercourse"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

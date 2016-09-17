@@ -1,5 +1,4 @@
 {
-  "lemma": "kayden",
   "examples": [{
     "text": "and gender . He just wanted to be Kayden and you can't let him be , eve"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ", as a whole fucking generation , failed Kayden Clarke . We let him be killed "
   }],
-  "status": "","editorId": "",
+  "lemma": "kayden",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

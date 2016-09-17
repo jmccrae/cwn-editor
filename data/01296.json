@@ -1,5 +1,4 @@
 {
-  "lemma": "ngl",
   "examples": [{
     "text": "Shoes am bad ngl ? https : / / t.co / 3DbQMasQD0"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "SALIS APRILIAN : The Second Life of Badak NGL https : / / t.co / fRQLHlVvKw #"
   }],
-  "status": "","editorId": "",
+  "lemma": "ngl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Not going to lie"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

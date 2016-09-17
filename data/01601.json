@@ -1,5 +1,4 @@
 {
-  "lemma": "pixiv",
   "examples": [{
     "text": ": ' ) pixiv looks so cute im so happy"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Daily Ranking has been updated ! [ pixiv ] https : / / t.co / aeDR3rre0e"
   }],
-  "status": "","editorId": "",
+  "lemma": "pixiv",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

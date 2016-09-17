@@ -1,5 +1,4 @@
 {
-  "lemma": "shit out",
   "examples": [{
     "text": "which bitch it is im puttin all da shit out . stupid bitches cant win"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Niggas is doin AL kinda shit out here"
   }],
-  "status": "","editorId": "",
+  "lemma": "shit out",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

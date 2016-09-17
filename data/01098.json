@@ -1,5 +1,4 @@
 {
-  "lemma": "swaggy",
   "examples": [{
     "text": "Swaggy P wit the Shot"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "for Jordan outside of my UK because of swaggy developers"
   }],
-  "status": "","editorId": "",
+  "lemma": "swaggy",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "fashionable: being or in accordance with current social fashions; 'fashionable clothing'; 'the fashionable side of town'; 'a fashionable cafe' <i5315>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "swag: goods or money obtained illegally <i106350>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

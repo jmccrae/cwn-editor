@@ -1,5 +1,4 @@
 {
-  "lemma": "*sext",
   "examples": [{
     "text": "water and to know your presence . # sext"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "horny # daddykik # daddy # hornykik # sext # dom Join the group # daddiesnaughtygirls #"
   }],
-  "status": "","editorId": "",
+  "lemma": "sext",
   "senses": [{
-    "pos": "",
-    "synonym": "15254770-n (the fourth of the seven canonical hours; about noon)",
+    "pos": "n",
+    "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "text: the words of something written; 'there were more than a thousand words of text'; 'they handed out the printed text of the mayor's speech'; 'he wants to reconstruct the original text' <i70058>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "sex: activities associated with sexual intercourse; 'they had sex in the back seat' <i39841>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "message: a communication (usually brief) that is written or spoken or signaled; 'he sent a three-word message' <i69368>",
+      "relNo": 1
+    }],
+    "definition": "A message with sexual content"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

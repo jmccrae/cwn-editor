@@ -1,5 +1,4 @@
 {
-  "lemma": "crowdsourcing",
   "examples": [{
     "text": "Hi Have you checked out # crowdsourcing Crowdsite recently ? Have a look at a"
   }, {
@@ -17,12 +16,26 @@
   }, {
     "text": "Iranians are using crowdsourcing to avoid 'morality police' : In spite of"
   }],
-  "status": "","editorId": "",
+  "lemma": "crowdsourcing",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "source: get (a product) from another country or business; 'She sourced a supply of carpet'; 'They are sourcing from smaller companies' <i32932>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "crowd: a large number of things or people considered together; 'a crowd of insects assembled around the flowers' <i80141>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "Work",
+      "relNo": 1
+    }],
+    "definition": "Work done by a large group of anonymous users"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

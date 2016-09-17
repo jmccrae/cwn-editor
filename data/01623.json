@@ -1,5 +1,4 @@
 {
-  "lemma": "smmfh",
   "examples": [{
     "text": "Smmfh . ?"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "tyreon is 1 hard headed child smmfh"
   }],
-  "status": "","editorId": "",
+  "lemma": "smmfh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Shaking my motherfucking head"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

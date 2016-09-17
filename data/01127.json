@@ -1,5 +1,4 @@
 {
-  "lemma": "daaaamn",
   "examples": [{
     "text": "DAAAAMN"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Daaaamn I'm Rollin at some of these niggas periscopes"
   }],
-  "status": "","editorId": "",
+  "lemma": "daaaamn",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Damn"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

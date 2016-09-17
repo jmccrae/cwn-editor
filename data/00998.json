@@ -1,5 +1,4 @@
 {
-  "lemma": "ransomware",
   "examples": [{
     "text": "Cylance for help recovering from a devastating # ransomware attack , # CrackingRansomware https : / "
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "a new version of CheckPoint's \\ offline \\\"\" ransomware https : / / t.co / sJ3j5Jcbp1\""
   }],
-  "status": "","editorId": "",
+  "lemma": "ransomware",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "malware: malicious software, designed to break into a system <in>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "ransom: payment for the release of someone <i41282>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "malware: malicious software, designed to break into a system <in>",
+      "relNo": 1
+    }],
+    "definition": "malicious software that makes a computer unusable unless a payment is made to the attacker"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

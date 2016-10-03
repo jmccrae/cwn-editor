@@ -1,5 +1,4 @@
 {
-  "lemma": "love him",
   "examples": [{
     "text": "# VoteHighlander I love HIM ! https : / / t.co / PW52s3zceu"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Seojun : I love him https : / / t.co / ZZ52tg8fRz"
   }],
-  "status": "","editorId": "",
+  "lemma": "love him",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

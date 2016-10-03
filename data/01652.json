@@ -1,5 +1,4 @@
 {
-  "lemma": "kill me",
   "examples": [{
     "text": "\\ What didn't kill me it never made me stronger at all \\\"\"\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "You kill me !"
   }],
-  "status": "","editorId": "",
+  "lemma": "kill me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

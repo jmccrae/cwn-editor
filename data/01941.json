@@ -1,5 +1,4 @@
 {
-  "lemma": "too real",
   "examples": [{
     "text": "Kaz getting way too real even before he got edgy in MGSV ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm too real to be hating on you !"
   }],
-  "status": "","editorId": "",
+  "lemma": "too real",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

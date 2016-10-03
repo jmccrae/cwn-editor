@@ -1,5 +1,4 @@
 {
-  "lemma": "wifey",
   "examples": [{
     "text": "I am officially wifey type I just made a ribeye with loaded"
   }, {
@@ -21,12 +20,20 @@
   }, {
     "text": "YOU BLESS ME EVERYDAY WIFEY"
   }],
-  "status": "","editorId": "",
+  "lemma": "wifey",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "wifelike: befitting or characteristic of a wife <i9527>",
+    "id": 2,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "wife: a married woman; a man's partner in marriage <i94123>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "nobody cares",
   "examples": [{
     "text": "nobody cares"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "wallah nobody cares , jahanam is waittin"
   }],
-  "status": "","editorId": "",
+  "lemma": "nobody cares",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

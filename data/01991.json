@@ -1,5 +1,4 @@
 {
-  "lemma": "hate on",
   "examples": [{
     "text": "Why do people hate on Tom Brady ? He's great.. Let that man"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "????? speaking your truth I can't hate on that"
   }],
-  "status": "","editorId": "",
+  "lemma": "hate on",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "criticise: find fault with; express criticism of; point out real or perceived flaws; 'The paper criticized the new movie'; 'Don't knock the food--it's free' <i25788>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "hate: dislike intensely; feel antipathy or aversion towards; 'I hate Mexican food'; 'She detests politicians' <i30608>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

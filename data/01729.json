@@ -1,5 +1,4 @@
 {
-  "lemma": "round 2",
   "examples": [{
     "text": "Fight Night Round 2 EA : SY ! 1980 Japan Import Fight"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Operation get kicked out of BPV round 2 https : / / t.co / 7youpoo1k1"
   }],
-  "status": "","editorId": "",
+  "lemma": "round 2",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

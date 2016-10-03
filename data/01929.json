@@ -1,5 +1,4 @@
 {
-  "lemma": "yeah right",
   "examples": [{
     "text": "Yeah RIGHT I bet he swears by the end of"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Yeah right . Two old farts started a revolution that's"
   }],
-  "status": "","editorId": "",
+  "lemma": "yeah right",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

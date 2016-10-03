@@ -1,5 +1,4 @@
 {
-  "lemma": "feed me",
   "examples": [{
     "text": "Someone come feed me vegetables and juices to cure my ailment"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "and here I thought it was feed me pizza so I know it's real ."
   }],
-  "status": "","editorId": "",
+  "lemma": "feed me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

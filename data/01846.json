@@ -1,5 +1,4 @@
 {
-  "lemma": "*falsies",
   "examples": [{
     "text": "Feel like I have little boy hands without falsies on hell naw"
   }, {
@@ -15,12 +14,22 @@
   }, {
     "text": "Her falsies are nice ? https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "falsie",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "false: not genuine or real; being an imitation of the genuine article; 'it isn't fake anything; it's real synthetic fur'; 'faux pearls'; 'false teeth'; 'decorated with imitation palm leaves'; 'a purse of simulated alligator hide' <i8632>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "eyelash: any of the short curved hairs that grow from the edges of the eyelids <i64888>",
+      "relNo": 1
+    }],
+    "definition": "artificial eyelashes"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

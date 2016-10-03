@@ -1,5 +1,4 @@
 {
-  "lemma": "mahogany lox",
   "examples": [{
     "text": "Go follow Mahogany LOX on her social medias ig : mahoganylox snap"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "mahogany lox always in my heart"
   }],
-  "status": "","editorId": "",
+  "lemma": "mahogany lox",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

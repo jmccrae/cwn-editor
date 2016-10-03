@@ -1,5 +1,4 @@
 {
-  "lemma": "booed",
   "examples": [{
     "text": "coach # Kubiak of the # DenverBroncos get booed ? ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "hugged up with Russell and shit ... they booed her https : / / t.co / oOUOIuHYLw"
   }],
-  "status": "","editorId": "",
+  "lemma": "boo",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "boo: show displeasure, as after a performance or speech <i25940>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

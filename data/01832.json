@@ -1,5 +1,4 @@
 {
-  "lemma": "omfggg",
   "examples": [{
     "text": "OMFGGG im going to kill allize ??"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "FOR REAL OMFGGG"
   }],
-  "status": "","editorId": "",
+  "lemma": "omfggg",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "oh my fucking god"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "my love",
   "examples": [{
     "text": "that . Mind you follow me ? All my love . S 678"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "that . Mind you follow me ? All my love . S 769"
   }],
-  "status": "","editorId": "",
+  "lemma": "my love",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

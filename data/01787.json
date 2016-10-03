@@ -1,5 +1,4 @@
 {
-  "lemma": "*okey",
   "examples": [{
     "text": "okey then"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "oh okey . Thanks ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "*okey",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "06700446-n (an endorsement; \\\"\"they gave us the O.K. to go ahead\\\"\"",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "OK"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

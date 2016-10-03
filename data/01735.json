@@ -1,5 +1,4 @@
 {
-  "lemma": "me either",
   "examples": [{
     "text": "me either ? it's ganna be funn ??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "not much with me either not a fan of February"
   }],
-  "status": "","editorId": "",
+  "lemma": "me either",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

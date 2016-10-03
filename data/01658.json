@@ -1,5 +1,4 @@
 {
-  "lemma": "dey",
   "examples": [{
     "text": "Guy where have you been ? Laboy dey greet o"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Slave trade Twitter dey DM dema body pass"
   }],
-  "status": "","editorId": "",
+  "lemma": "dey",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "they"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "waaa",
   "examples": [{
     "text": "hehehe waaa , if you havent seen its 2-0 a"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Slimane waaa les frissons # TheVoice"
   }],
-  "status": "","editorId": "",
+  "lemma": "waaa",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "wah"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

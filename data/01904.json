@@ -1,5 +1,4 @@
 {
-  "lemma": "d4",
   "examples": [{
     "text": "D4 result Wellow C 6 C 2 Andy Wheeler"
   }, {
@@ -15,12 +14,18 @@
   }, {
     "text": "0602 Nikon Single Lens Reflex SLR Digital Camera D4 16.2MP Body Only Japan … https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "*d4",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "dice: a small cube with 1 to 6 spots on the six faces; used in gambling to generate random numbers <i52865>",
+      "relNo": 1
+    }],
+    "definition": "a four-sided die"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

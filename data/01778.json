@@ -1,5 +1,4 @@
 {
-  "lemma": "esports",
   "examples": [{
     "text": "# Norwegian # School To Offer # ESports # Classes As Alternative To Traditional # Sports"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "# EMBRecapDay : ( 67 ) \\ Meltdown eSports Bars ( meltdownbars ) set to invade America\""
   }],
-  "status": "","editorId": "",
+  "lemma": "esports",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "sport: the occupation of athletes who compete for pay <i37672>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "electronic: of or relating to electronics; concerned with or using devices that operate on principles governing the behavior of electrons; 'electronic devices' <i15270>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "sport: the occupation of athletes who compete for pay <i37672>",
+      "relNo": 1
+    }],
+    "definition": "electronic sports"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

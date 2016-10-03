@@ -1,5 +1,4 @@
 {
-  "lemma": "so dope",
   "examples": [{
     "text": "they looked so dope it was a great moment to be black"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "my classes are so dope .really impressed so far"
   }],
-  "status": "","editorId": "",
+  "lemma": "dope",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "good: having desirable or positive qualities especially those suitable for a thing specified; 'good news from the hospital'; 'a good report card'; 'when she was good she was very very good'; 'a good knife is one good for cutting'; 'this stump will make a good picnic table'; 'a good check'; 'a good joke'; 'a good exterior paint'; 'a good secretary'; 'a good dress for the office' <i6163>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "dope: street names for marijuana <i57595>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

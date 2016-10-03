@@ -1,5 +1,4 @@
 {
-  "lemma": "vuln",
   "examples": [{
     "text": "You're likely to experience emotional turmoil today while vuln ... More for Capricorn https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Cisco ASA IKEv1 / IKEv2 Buffer Overflow Vuln"
   }],
-  "status": "","editorId": "",
+  "lemma": "vuln",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

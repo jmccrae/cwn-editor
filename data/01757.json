@@ -1,5 +1,4 @@
 {
-  "lemma": "dawg",
   "examples": [{
     "text": "yeah I got this dawg ?"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "gotta mess with you , gotta keep my dawg sharp✊"
   }],
-  "status": "","editorId": "",
+  "lemma": "dawg",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "dog: informal term for a man; 'you lucky dog' <i89566>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "dog: informal term for a man; 'you lucky dog' <i89566>",
+      "relNo": 1
+    }],
     "definition": "."
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

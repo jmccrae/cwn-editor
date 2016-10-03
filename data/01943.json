@@ -1,5 +1,4 @@
 {
-  "lemma": "baby mama",
   "examples": [{
     "text": "has , you clearly ain't shit but his baby mama "
   }, {
@@ -21,12 +20,34 @@
   }, {
     "text": "Obafemi Martins celebrates baby mama Abigail Barwuah on her birthday https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "baby mama",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "woman: an adult female person (as opposed to a man); 'the woman kept house while the man hunted' <i94168>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "baby: a very young child (birth to 1 year) who has not yet begun to walk or talk; 'the baby began to cry again'; 'she held the baby in her arms'; 'it sounds simple, but when you have your own baby it is all so different' <i88382>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "mama: informal terms for a mother <i91123>",
+      "relNo": 4
+    }, {
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 5
+    }, {
+      "type": "hypernym",
+      "target": "mother: a woman who has given birth to a child (also used as a term of address to your mother); 'the mother of three children' <i91462>",
+      "relNo": 2
+    }],
+    "definition": "the mother of at least one of your children"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

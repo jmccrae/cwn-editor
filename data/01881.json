@@ -1,5 +1,4 @@
 {
-  "lemma": "pro-abortion",
   "examples": [{
     "text": "So ... does this mean Jeb is pro-abortion ?"
   }, {
@@ -15,12 +14,18 @@
   }, {
     "text": "I'm pro-abortion but that's pretty weak . Your brain doesn't"
   }],
-  "status": "","editorId": "",
+  "lemma": "pro-abortion",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "pro-life: advocating full legal protection of embryos and fetuses (especially opposing the legalization of induced abortions) <i14401>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "abortion: termination of pregnancy <i36620>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

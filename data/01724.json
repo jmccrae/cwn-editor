@@ -1,5 +1,4 @@
 {
-  "lemma": "lol yeah",
   "examples": [{
     "text": "lol yeah I do . Them the homies ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "lol yeah no shade ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "lol yeah",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

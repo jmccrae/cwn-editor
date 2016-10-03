@@ -1,5 +1,4 @@
 {
-  "lemma": "smhh",
   "examples": [{
     "text": "smhh anyways"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Walmart earrings gave me an ear infection smhh : / / ."
   }],
-  "status": "","editorId": "",
+  "lemma": "smhh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "shaking my head hard"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

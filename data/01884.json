@@ -1,5 +1,4 @@
 {
-  "lemma": "shiit",
   "examples": [{
     "text": "year old nephew has been saying \\ ooh shiit \\\"\" for the past hour . nothing else\""
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Won't catch me doing no dumb shiit like this??? https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "shiit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "shit"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "bullshitting",
   "examples": [{
     "text": "I got 2-3 bangers on hold but niggas bullshitting . If they ain't bought by Saturday that's"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "/ Bd0PNORy9P The Fine Bros Apologize - They're Bullshitting You Out of Desperation"
   }],
-  "status": "","editorId": "",
+  "lemma": "bullshit",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "bullshit: speak insincerely or without regard for facts or truths; 'The politician was not well prepared for the debate and faked it' <i25842>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

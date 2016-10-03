@@ -1,5 +1,4 @@
 {
-  "lemma": "waaaay",
   "examples": [{
     "text": "feel waaaay better than I did this morning but omg"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "It's waaaay too hot for this"
   }],
-  "status": "","editorId": "",
+  "lemma": "waaaay",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "way"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

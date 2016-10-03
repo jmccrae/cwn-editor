@@ -1,5 +1,4 @@
 {
-  "lemma": "bitch that",
   "examples": [{
     "text": "bitch that you really like never fall in love wit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "can't stand a bitch that sneak diss ."
   }],
-  "status": "","editorId": "",
+  "lemma": "bitch that",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

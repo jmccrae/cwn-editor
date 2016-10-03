@@ -1,5 +1,4 @@
 {
-  "lemma": "your bitch",
   "examples": [{
     "text": "IS YOUR BITCH DOWN TO RIDE ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Nigga & amp ; Trust No Nigga With Your Bitch ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "your bitch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

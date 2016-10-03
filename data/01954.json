@@ -1,5 +1,4 @@
 {
-  "lemma": "harvested",
   "examples": [{
     "text": "I've harvested 1 , 500 of food ! https "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I've harvested 10 of food ! https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "harvest",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "harvest: gather, as of natural products; 'harvest the grapes' <i28286>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

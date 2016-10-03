@@ -1,5 +1,4 @@
 {
-  "lemma": "kill yourself",
   "examples": [{
     "text": "kill yourself https : / / t.co / jQnjSuUDO1"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Kill yourself"
   }],
-  "status": "","editorId": "",
+  "lemma": "kill yourself",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

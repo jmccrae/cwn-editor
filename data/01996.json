@@ -1,5 +1,4 @@
 {
-  "lemma": "new hot",
   "examples": [{
     "text": "NEW HOT VIDEOS & gt ; & gt ; https"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# Sexy # Celebrity # KristenStewart RARE NEW HOT 8X10 # Photo XGW06 https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "new hot",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

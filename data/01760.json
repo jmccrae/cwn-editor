@@ -1,5 +1,4 @@
 {
-  "lemma": "way better",
   "examples": [{
     "text": "that money just made my day way better lol"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "me or do the LEs just , look way better than the GRs most of the tim"
   }],
-  "status": "","editorId": "",
+  "lemma": "way better",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

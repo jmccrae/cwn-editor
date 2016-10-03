@@ -1,5 +1,4 @@
 {
-  "lemma": "just saying",
   "examples": [{
     "text": "IDK ! Dude was bat shit crazy . Just saying ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "fans will go crazy with this episode . Just saying ... \\ akdjdkks https : / / t.co\""
   }],
-  "status": "","editorId": "",
+  "lemma": "just saying",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

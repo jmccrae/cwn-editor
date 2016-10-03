@@ -1,5 +1,4 @@
 {
-  "lemma": "wana",
   "examples": [{
     "text": "Wana to eat chocolates??????Guru Ji"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "a good song for our dance if he wana crash : ) ! https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "wana",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "want to"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

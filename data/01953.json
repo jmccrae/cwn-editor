@@ -1,5 +1,4 @@
 {
-  "lemma": "*foodie",
   "examples": [{
     "text": "Foodie ? https : / / t.co / VPocdrrn1U"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "at ReSette ! # NYC # Italian # Foodie https : / / t.co / WSijVvSnwx"
   }],
-  "status": "","editorId": "",
+  "lemma": "*foodie",
   "senses": [{
-    "pos": "",
-    "synonym": "10081464-n (a person devoted to refined sensuous enjoyment (especially good food and drink))",
+    "pos": "n",
+    "synonym": "foodie: a person devoted to refined sensuous enjoyment (especially good food and drink) <i89783>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

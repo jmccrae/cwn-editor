@@ -1,5 +1,4 @@
 {
-  "lemma": "breaking bad",
   "examples": [{
     "text": "Breaking Bad ......"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "OwenFieldingx : Good idea to start Breaking Bad again at this time ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "breaking bad",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

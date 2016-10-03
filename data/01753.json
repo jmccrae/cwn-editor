@@ -1,5 +1,4 @@
 {
-  "lemma": "lolz",
   "examples": [{
     "text": "only the head ? Lolz"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ") only # sudo can do this Damn Lolz : -P https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "lolz",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "laughing out loud"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

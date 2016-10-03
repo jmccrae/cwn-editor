@@ -1,5 +1,4 @@
 {
-  "lemma": "s3xy",
   "examples": [{
     "text": "S3xY MAMA ! ! ! Toyin Aimakhu tries to"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "+18- Extremely s3xy Photos from The ongoing Brazil Carnival 2016 https"
   }],
-  "status": "","editorId": "",
+  "lemma": "s3xy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "sexy"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

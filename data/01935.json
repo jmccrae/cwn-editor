@@ -1,5 +1,4 @@
 {
-  "lemma": "regine",
   "examples": [{
     "text": "* regine * wooooh"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "* regine * wooooh"
   }],
-  "status": "","editorId": "",
+  "lemma": "regine",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

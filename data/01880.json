@@ -1,5 +1,4 @@
 {
-  "lemma": "x-rated",
   "examples": [{
     "text": "Eastenders getting x-rated and that ?"
   }, {
@@ -15,12 +14,18 @@
   }, {
     "text": "had to fight to keep it from being X-rated -"
   }],
-  "status": "","editorId": "",
+  "lemma": "x-rated",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "pornographic: designed to arouse lust; 'pornographic films and magazines'; 'adult movies' <i11684>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "rate: assign a rank or rating to; 'how would you rank these students?'; 'The restaurant is rated highly in the food guide' <i25016>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

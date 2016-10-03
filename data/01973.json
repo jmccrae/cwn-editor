@@ -1,5 +1,4 @@
 {
-  "lemma": "glowy",
   "examples": [{
     "text": "Skin care for a glowy , healthy complexion . https : / "
   }, {
@@ -15,12 +14,22 @@
   }, {
     "text": "an oily ass bitch so I could wear glowy foundations ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "glowy",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "glow: a steady even light without flames <i97829>",
+      "relNo": 2
+    }, {
+      "type": "similar",
+      "target": "bright: with brightness; 'the stars shone brilliantly'; 'the windows glowed jewel bright' <i18602>",
+      "relNo": 1
+    }],
+    "definition": "appearing to be glowing"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

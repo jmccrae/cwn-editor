@@ -1,5 +1,4 @@
 {
-  "lemma": "letitgo",
   "examples": [{
     "text": "# letitgo # vscome # vscoblackandwhite … https : /"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "a little \\ Frozen \\\"\" today ❄️ # letitgo # snow # winter # frozen # elsa\""
   }],
-  "status": "","editorId": "",
+  "lemma": "letitgo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "let it go"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

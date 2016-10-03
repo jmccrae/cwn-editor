@@ -1,5 +1,4 @@
 {
-  "lemma": "new fashion",
   "examples": [{
     "text": "Free shipping new fashion temperament exaggerated vintage original tass https : /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "offered an internship on the spot for a new fashion brand / mag when i finish sixth form"
   }],
-  "status": "","editorId": "",
+  "lemma": "new fashion",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

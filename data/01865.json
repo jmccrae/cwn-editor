@@ -1,5 +1,4 @@
 {
-  "lemma": "twinnie",
   "examples": [{
     "text": "When twinnie said IMVU needs to have a praise &"
   }, {
@@ -15,16 +14,18 @@
   }, {
     "text": "Twinnie of Life ..."
   }],
-  "status": "","editorId": "",
+  "lemma": "twinnie",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "twin: a duplicate copy <i52424>",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "surfboard=04370646-n (a narrow buoyant board for riding surf);01951936-v (ride the waves of the sea with a surfboard; \\\"\"Californians love to surf\\\"\"",
+      "type": "derivation",
+      "target": "twin: a duplicate copy <i52424>",
       "relNo": 0
     }],
-    "definition": "A surfboard with two fins."
-  }]
+    "definition": ""
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

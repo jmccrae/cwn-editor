@@ -1,5 +1,4 @@
 {
-  "lemma": "tftf",
   "examples": [{
     "text": "Hi & amp ; TFTF : D I bet you & amp ;"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "TFTF !"
   }],
-  "status": "","editorId": "",
+  "lemma": "tftf",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "too funny to fix"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

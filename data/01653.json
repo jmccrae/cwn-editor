@@ -1,5 +1,4 @@
 {
-  "lemma": "gud",
   "examples": [{
     "text": "Haven't been a gud start to this wk ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# MSGSalutes pitag gud ngt i will follow b wid me &"
   }],
-  "status": "","editorId": "",
+  "lemma": "gud",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "good"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

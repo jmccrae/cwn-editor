@@ -1,5 +1,4 @@
 {
-  "lemma": "my pleasure",
   "examples": [{
     "text": "my pleasure ! Really love what you did with the"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "\\ I'm a passionate , giving lover . My pleasure comes from giving it. \\\"\" # AshleyMadison\""
   }],
-  "status": "","editorId": "",
+  "lemma": "my pleasure",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

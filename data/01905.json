@@ -1,5 +1,4 @@
 {
-  "lemma": "shitted",
   "examples": [{
     "text": "of doo-doo follow behind him ... he him shitted"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Barnes just shitted on Harden"
   }],
-  "status": "","editorId": "",
+  "lemma": "shit",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "shit: have a bowel movement; 'The dog had made in the flower beds' <i22143>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

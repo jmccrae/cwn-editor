@@ -1,5 +1,4 @@
 {
-  "lemma": "gets me",
   "examples": [{
     "text": "it gets me everytime????"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Blair Waldorf just gets me tbh https : / / t.co / rvloSNh3Hj"
   }],
-  "status": "","editorId": "",
+  "lemma": "gets me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "qotd",
   "examples": [{
     "text": "qotd https : / / t.co / Af0xxYWt44"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "/ / t.co / e1OYzXljac # startup # qotd # startuplife"
   }],
-  "status": "","editorId": "",
+  "lemma": "qotd",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "Quote of the day"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

@@ -1,14 +1,15 @@
 {
-  "lemma": "*slay",
   "examples": [{
     "text": "We may not have won but we slayed either way ? # opcheer @ ESPN Wide"
   }],
-  "status": "","editorId": "",
+  "lemma": "*slay",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "slay <00704-1>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

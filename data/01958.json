@@ -1,5 +1,4 @@
 {
-  "lemma": "*swag",
   "examples": [{
     "text": "Happy Birthday to swag daddy ! The most lit person I know"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "NIGGA IM SWAG HOMIE ASS DA REAL G TOO OK hehe"
   }],
-  "status": "","editorId": "",
+  "lemma": "*swag",
   "senses": [{
-    "pos": "",
-    "synonym": "01880427-v (sway heavily or unsteadily);01928835-v (walk as if unable to control one's movements; \\\"\"The drunken man staggered into the room\\\"\");01989538-v (droop, sink, or settle from or as if from pressure or loss of tautness);04375196-n (a bundle containing the personal belongings of a swagman);13283562-n (goods or money obtained illegally);13392363-n (valuable goods",
+    "pos": "a",
+    "synonym": "cool: fashionable and attractive at the time; often skilled or socially adept; 'he's a cool dude'; 'that's cool'; 'Mary's dress is really cool'; 'it's not cool to arrive at a party too early' <i5317>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "swagger: act in an arrogant, overly self-assured, or conceited manner <i21827>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

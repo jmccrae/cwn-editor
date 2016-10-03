@@ -1,5 +1,4 @@
 {
-  "lemma": "unni",
   "examples": [{
     "text": "follback unni"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "follback unni"
   }],
-  "status": "","editorId": "",
+  "lemma": "unni",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "unnie   <00091-1>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

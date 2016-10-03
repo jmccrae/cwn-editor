@@ -1,5 +1,4 @@
 {
-  "lemma": "whateva",
   "examples": [{
     "text": "it was cute or whateva lol"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "gotten on the Sunway fresh take holiness or whateva it's called now ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "whateva",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "whatever"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "you bitch",
   "examples": [{
     "text": "listen here you bitch"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "FUCK YOU BITCH CAPSLOCK YAN PARA INTENSE https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "you bitch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

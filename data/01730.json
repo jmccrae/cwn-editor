@@ -1,5 +1,4 @@
 {
-  "lemma": "happy tuesday",
   "examples": [{
     "text": "Happy Tuesday"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Happy Tuesday ! ! ! # health # cyclesanity #"
   }],
-  "status": "","editorId": "",
+  "lemma": "happy tuesday",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "choppa",
   "examples": [{
     "text": "bet they'd instantly retort \\ Get to the choppa ! \\\"\" # MovieDadProblems\""
   }, {
@@ -17,12 +16,24 @@
   }, {
     "text": "! See With VGang , & amp ; Choppa Black . 41 Black Hosting ! LIVE SHOW"
   }],
-  "status": "","editorId": "",
+  "lemma": "choppa",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "assault rifle: any of the automatic rifles or semiautomatic rifles with large magazines designed for military use <i50213>",
+    "id": 2,
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "chopper: an aircraft without wings that obtains its lift from the rotation of overhead blades <i54763>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

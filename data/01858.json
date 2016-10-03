@@ -1,5 +1,4 @@
 {
-  "lemma": "s4s",
   "examples": [{
     "text": "# f4f # s4s # l4l # c4c # likeforlike # likeall"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "95 Lotus Esprit S4S oil cooler cross-over pipe and hoses A910E2520F https"
   }],
-  "status": "","editorId": "",
+  "lemma": "s4s",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "share for share"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

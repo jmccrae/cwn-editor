@@ -1,5 +1,4 @@
 {
-  "lemma": "*cockiness",
   "examples": [{
     "text": "Suck my cockiness , lick my persuasio"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "VoteMTV_1D : RT bvdgaIririi : COCKINESS ( LOVE IT ) # MTVStars Rihanna ⚓"
   }],
-  "status": "","editorId": "",
+  "lemma": "*cockiness",
   "senses": [{
-    "pos": "",
-    "synonym": "05174939-n (offensive boldness and assertiveness)",
+    "pos": "n",
+    "synonym": "cockiness: offensive boldness and assertiveness <i64136>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "what up",
   "examples": [{
     "text": "he knows what up"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "What up first time on Twitter"
   }],
-  "status": "","editorId": "",
+  "lemma": "what up",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

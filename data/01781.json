@@ -1,5 +1,4 @@
 {
-  "lemma": "ohh",
   "examples": [{
     "text": "? , Do I even have one ? ohh yeah but HE LEFT ME ??? IMY Chaaaa"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ke ? On twitter ke ? idk . Ohh yahhh i forgot i dont have ur number"
   }],
-  "status": "","editorId": "",
+  "lemma": "ohh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "oh"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

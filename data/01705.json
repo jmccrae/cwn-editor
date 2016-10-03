@@ -1,5 +1,4 @@
 {
-  "lemma": "is mad",
   "examples": [{
     "text": "need to get laid \\ because this girl is mad cute and i'm whipped , okay ?\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Cartman is mad now . LOL"
   }],
-  "status": "","editorId": "",
+  "lemma": "is mad",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

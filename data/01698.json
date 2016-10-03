@@ -1,5 +1,4 @@
 {
-  "lemma": "shit happens",
   "examples": [{
     "text": "lol I swear the awkwardest shit happens to me ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "shit happens man"
   }],
-  "status": "","editorId": "",
+  "lemma": "shit happens",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

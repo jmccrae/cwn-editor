@@ -1,5 +1,4 @@
 {
-  "lemma": "murked",
   "examples": [{
     "text": "Got ya bitch on me gettin murked ?"
   }, {
@@ -15,12 +14,24 @@
   }, {
     "text": "MURKED that # HalftimeShow tho' ! Damn , so"
   }],
-  "status": "","editorId": "",
+  "lemma": "murk",
   "senses": [{
-    "pos": "",
-    "synonym": "",
-    "id": 1,
+    "pos": "v",
+    "synonym": "slay <00704>",
+    "id": 2,
     "relations": [],
     "definition": ""
-  }]
+  }, {
+    "pos": "v",
+    "synonym": "kill: cause to die; put to death, usually intentionally or knowingly; 'This man killed several people when he tried to rob a bank'; 'The farmer killed a pig for the holidays' <i28306>",
+    "id": 1,
+    "relations": [{
+      "type": "derivation",
+      "target": "murder: unlawful premeditated killing of a human being by a human being <i36562>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

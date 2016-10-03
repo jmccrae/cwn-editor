@@ -1,5 +1,4 @@
 {
-  "lemma": "stay tuned",
   "examples": [{
     "text": "The 2016 PSA Award Nominations are out ! Stay tuned for the awards ceremony on Friday ! #"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Marko has promised to make more , so stay tuned ! # CharbayTequil"
   }],
-  "status": "","editorId": "",
+  "lemma": "stay tuned",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "shut the fuck",
   "examples": [{
     "text": "nigga shut the fuck up"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Shut the fuck up you dumb bitch , show us you"
   }],
-  "status": "","editorId": "",
+  "lemma": "shut the fuck",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

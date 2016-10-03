@@ -1,5 +1,4 @@
 {
-  "lemma": "niga",
   "examples": [{
     "text": "Niga “ You ’ re Like The Best Of"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Niga Iggy Azalea Says She ’ s Not Ready"
   }],
-  "status": "","editorId": "",
+  "lemma": "niga",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "nigger"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

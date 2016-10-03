@@ -1,5 +1,4 @@
 {
-  "lemma": "you right",
   "examples": [{
     "text": "okay I'll bring it to you right now ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "it's like 4hrs away from you right ? ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "you right",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

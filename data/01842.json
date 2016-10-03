@@ -1,5 +1,4 @@
 {
-  "lemma": "taeny",
   "examples": [{
     "text": "I love taeny do much and I always cry about how"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "# taeny https : / / t.co / sYXpYqVeXY"
   }],
-  "status": "","editorId": "",
+  "lemma": "taeny",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "ktt",
   "examples": [{
     "text": "0.0m , 8 : 50pm HW 7.1m # ktt https : / / t.co / MZ0I8MPnJ"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ", 11 : 41pm HW 2.2m . # ktt https : / / t.co / QhEa5Sw5U"
   }],
-  "status": "","editorId": "",
+  "lemma": "ktt",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

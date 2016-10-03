@@ -1,5 +1,4 @@
 {
-  "lemma": "lahat",
   "examples": [{
     "text": "PARA KAY MENG ! PARA SA ATING LAHAT !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Gonzaga of mah life ? nasa messenger na lahat , i love you ? mwa https "
   }],
-  "status": "","editorId": "",
+  "lemma": "lahat",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

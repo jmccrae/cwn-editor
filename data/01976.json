@@ -1,5 +1,4 @@
 {
-  "lemma": "laying in bed",
   "examples": [{
     "text": "Just laying in bed like wtf am I doing with life"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Laying in bed "
   }],
-  "status": "","editorId": "",
+  "lemma": "laying in bed",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

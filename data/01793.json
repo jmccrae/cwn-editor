@@ -1,5 +1,4 @@
 {
-  "lemma": "go like",
   "examples": [{
     "text": "The first 50 # gamers or people go like the Facebook page I will pick one person"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "really sorry . I didn't mean shit to go like this . I'm truly sorry . ???"
   }],
-  "status": "","editorId": "",
+  "lemma": "go like",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

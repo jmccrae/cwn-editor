@@ -1,5 +1,4 @@
 {
-  "lemma": "hahaah",
   "examples": [{
     "text": "yeah nah I know about the video hahaah"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "hahaah . Case jealousy ??????"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "hahaah",
   "senses": [{
     "pos": "x",
     "synonym": "<--324-1>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

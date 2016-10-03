@@ -1,5 +1,4 @@
 {
-  "lemma": "ballin",
   "examples": [{
     "text": ": / / t.co / YZfHb812F9 Logic - Ballin ( ft . Castro ) [ RAP ]"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "ballin"
   }],
-  "status": "","editorId": "",
+  "lemma": "ball",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "loanword",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "live: lead a certain kind of life; live in a certain style; 'we had to live frugally after the war' <i34744>",
+      "relNo": 1
+    }],
+    "definition": "to live very well"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

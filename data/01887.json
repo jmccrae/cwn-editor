@@ -1,5 +1,4 @@
 {
-  "lemma": "cosplaying",
   "examples": [{
     "text": "all kinds of pin up before I began cosplaying . This was my homage to the great"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Cosplaying tomorrow . ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "cosplay",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "cosplay   <00000reddit0131>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

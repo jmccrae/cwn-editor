@@ -1,5 +1,4 @@
 {
-  "lemma": "parem",
   "examples": [{
     "text": "nao parem MILEY IS PRINCESS"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Parem ...... ????"
   }],
-  "status": "","editorId": "",
+  "lemma": "parem",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

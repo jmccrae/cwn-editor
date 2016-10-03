@@ -1,5 +1,4 @@
 {
-  "lemma": "*blackface",
   "examples": [{
     "text": "Blackface Blasts 2face's Manager Efe Omorogbe After His Open"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ", Tobi Akingbade who was racially ridiculed with blackface Nutella photo … https : / / t.c"
   }],
-  "status": "","editorId": "",
+  "lemma": "*blackface",
   "senses": [{
-    "pos": "",
-    "synonym": "02850112-n (the makeup (usually burnt cork) used by a performer in order to imitate a Negro)",
+    "pos": "n",
+    "synonym": "blackface: the makeup (usually burnt cork) used by a performer in order to imitate a Negro <i50817>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

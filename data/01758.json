@@ -1,5 +1,4 @@
 {
-  "lemma": "naaa",
   "examples": [{
     "text": "naaa some bs"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm excited naaa # ENCANTADIA2016 https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "naaa",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "no"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

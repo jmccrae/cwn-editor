@@ -1,5 +1,4 @@
 {
-  "lemma": "tht",
   "examples": [{
     "text": "yes i was bout to say tht , ox is no good especially if "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "U got tht boom badoom boom boom badoom boom bass ❤"
   }],
-  "status": "","editorId": "",
+  "lemma": "tht",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "that"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

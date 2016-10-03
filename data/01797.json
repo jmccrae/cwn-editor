@@ -1,5 +1,4 @@
 {
-  "lemma": "you dumb",
   "examples": [{
     "text": "i really hate you dumb ass bitch ugh lick my ass . be"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "THAT WONT FUCKING HELP YOU DUMB PIECE OF SHIT"
   }],
-  "status": "","editorId": "",
+  "lemma": "you dumb",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

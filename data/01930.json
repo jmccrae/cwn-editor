@@ -1,5 +1,4 @@
 {
-  "lemma": "*wake up",
   "examples": [{
     "text": "You could wake up in a positive mood , willing to patientl"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "sleep . But her words Wednesday were a wake up call , davidcfr … https : / "
   }],
-  "status": "","editorId": "",
+  "lemma": "*wake up",
   "senses": [{
-    "pos": "",
-    "synonym": "00018519-v (stop sleeping; \\\"\"She woke up to the sound of the alarm clock\\\"\");00018806-v (cause to become awake or conscious; \\\"\"He was roused by the drunken men in the street\\\"\"; \\\"\"Please wake me at 6 AM.\\\"\"",
+    "pos": "v",
+    "synonym": "wake up: stop sleeping; 'She woke up to the sound of the alarm clock' <i21859>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

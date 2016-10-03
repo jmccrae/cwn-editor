@@ -1,5 +1,4 @@
 {
-  "lemma": "baby girl",
   "examples": [{
     "text": "My baby girl ! !"
   }, {
@@ -21,16 +20,14 @@
   }, {
     "text": "British tennis star , Andy Murray welcomes baby gir"
   }],
-  "status": "","editorId": "",
+  "lemma": "baby girl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "baby=00798428-n (a project of personal concern to someone; \\\"\"this project is his baby\\\"\");01324712-n (a very young mammal; \\\"\"baby rabbits\\\"\");09846765-n (the youngest member of a group (not necessarily young); \\\"\"the baby of the family\\\"\"; \\\"\"the baby of the Supreme Court\\\"\");09846929-n (a very young child (birth to 1 year) who has not yet begun to walk or talk; \\\"\"the baby began to cry again\\\"\"; \\\"\"she held the baby in her arms\\\"\"; \\\"\"it sounds simple, but when you have your own baby it is all so different\\\"\");09847462-n (an unborn child; a human fetus; \\\"\"I felt healthy and very feminine carrying the baby\\\"\"; \\\"\"it was great to feel my baby moving about inside\\\"\");09938012-n (an immature childish person; \\\"\"he remained a child in practical matters as long as he lived\\\"\"; \\\"\"stop being a baby!\\\"\");02576182-v (treat with excessive indulgence; \\\"\"grandparents often pamper the children\\\"\"; \\\"\"Let's not mollycoddle our students!\\\"\"",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": "a female baby"
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

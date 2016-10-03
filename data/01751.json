@@ -1,5 +1,4 @@
 {
-  "lemma": "hats off",
   "examples": [{
     "text": "Hats off to Indian army ?"
   }, {
@@ -13,12 +12,18 @@
   }, {
     "text": "Hats off to Indian army ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "hats off",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "support: aiding the cause or policy or interests of; 'the president no longer has the support of his own party'; 'they developed a scheme of mutual support' <i41740>",
+      "relNo": 1
+    }],
+    "definition": "Expression of support"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

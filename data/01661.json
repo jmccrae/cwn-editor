@@ -1,5 +1,4 @@
 {
-  "lemma": "pretty please",
   "examples": [{
     "text": "# AskHayes will you pretty please follow me ? it would actually mean a"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "come on smoochy poochy I said pretty please ???"
   }],
-  "status": "","editorId": "",
+  "lemma": "pretty please",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

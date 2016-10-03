@@ -1,5 +1,4 @@
 {
-  "lemma": "fuhh",
   "examples": [{
     "text": "Intergration vs differentiation fuhh ???? killer???"
   }, {
@@ -15,12 +14,18 @@
   }, {
     "text": "fuhh drinking soon"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuhh",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "exasperation: an exasperated feeling of annoyance <i76267>",
+      "relNo": 1
+    }],
+    "definition": "expression of exasperation"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

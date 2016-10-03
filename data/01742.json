@@ -1,5 +1,4 @@
 {
-  "lemma": "*crybaby",
   "examples": [{
     "text": "black i hate hime cause hes a showboating crybaby punk"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "https : / / t.co / FXkj4mgxJc # crybaby # melaniemartinez"
   }],
-  "status": "","editorId": "",
+  "lemma": "*crybaby",
   "senses": [{
-    "pos": "",
-    "synonym": "10796007-n (a person given to excessive complaints and crying and whining);10801493-n (a person who lacks confidence, is irresolute and wishy-washy",
+    "pos": "n",
+    "synonym": "crybaby: a person given to excessive complaints and crying and whining <i94096>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

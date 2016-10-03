@@ -1,5 +1,4 @@
 {
-  "lemma": "hatin",
   "examples": [{
     "text": "look like he bout to say some slick hatin shit lmaooo https : / / t.co /"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "Your friends hatin cause they want me & amp ; when"
   }],
-  "status": "","editorId": "",
+  "lemma": "hate",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "hate: dislike intensely; feel antipathy or aversion towards; 'I hate Mexican food'; 'She detests politicians' <i30608>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "express: articulate; either verbally or with a cry, shout, or noise; 'She expressed her anger'; 'He uttered a curse' <i26308>",
+      "relNo": 1
+    }],
+    "definition": "to have and express negative sentiments about a person"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

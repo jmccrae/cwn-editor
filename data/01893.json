@@ -1,5 +1,4 @@
 {
-  "lemma": "zoella",
   "examples": [{
     "text": "Zoella writing Girl Online 2 without ghostwriter https :"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "I just watched the beginning of a Zoella vlog in which she couldn't remember if the"
   }],
-  "status": "","editorId": "",
+  "lemma": "zoella",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

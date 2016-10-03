@@ -1,5 +1,4 @@
 {
-  "lemma": "oh really",
   "examples": [{
     "text": "oH REALLY OMGJSKF I JUST KNEW"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Oh really ? ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "oh really",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "scepticism: the disbelief in any claims of ultimate knowledge <i68249>",
+      "relNo": 1
+    }],
+    "definition": "Expression of scepticism"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

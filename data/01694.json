@@ -1,5 +1,4 @@
 {
-  "lemma": "kuz",
   "examples": [{
     "text": "Then I Just Bare Down Kuz I Know They Koming Back They Just Ain't"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ", this bitch mustaa did the cat challenge kuz this bitchh scratched her whole arm u"
   }],
-  "status": "","editorId": "",
+  "lemma": "kuz",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "because"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck boy",
   "examples": [{
     "text": "lol nvm he a fuck boy too"
   }, {
@@ -21,12 +20,40 @@
   }, {
     "text": "I can't allow a fuck boy to infiltrate my mental ."
   }],
-  "status": "","editorId": "",
+  "lemma": "fuck boy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
+    "synonym": "bastard: insulting terms of address for people who are stupid or irritating or ridiculous <i88330>",
+    "id": 2,
+    "relations": [{
+      "type": "derivation",
+      "target": "fuck: slang for sexual intercourse <i39847>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "boy: a youthful male person; 'the baby was a boy'; 'she made the boy brush his teeth every night'; 'most soldiers are only boys in uniform' <i91171>",
+      "relNo": 2
+    }],
+    "definition": ""
+  }, {
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "boy: a youthful male person; 'the baby was a boy'; 'she made the boy brush his teeth every night'; 'most soldiers are only boys in uniform' <i91171>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "fuck: slang for sexual intercourse <i39847>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "male: a person who belongs to the sex that cannot have babies <i87226>",
+      "relNo": 1
+    }],
+    "definition": "a sexually promiscuous male"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "feelz",
   "examples": [{
     "text": "Feelz to bake ! ! ?"
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "... Keeps replying to me ... Gets his feelz hurt ... Goes runny to mommy . Lol"
   }],
-  "status": "","editorId": "",
+  "lemma": "feelz",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "feelings: emotional or moral sensitivity (especially in relation to personal principles or dignity); 'the remark hurt his feelings' <i76234>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "feelings: emotional or moral sensitivity (especially in relation to personal principles or dignity); 'the remark hurt his feelings' <i76234>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

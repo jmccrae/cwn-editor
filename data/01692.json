@@ -1,5 +1,4 @@
 {
-  "lemma": "i would rather",
   "examples": [{
     "text": "I would rather swim at the ocean and get eaten by"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Me @ school : I would rather be at home all by myself not in"
   }],
-  "status": "","editorId": "",
+  "lemma": "i would rather",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*check out",
   "examples": [{
     "text": "Shopping for a vehicle ? Check out our newest addition : 2002 Honda Accord :"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Sales professional in # Calgary , AB , check out this # job : https : / "
   }],
-  "status": "","editorId": "",
+  "lemma": "check out",
   "senses": [{
-    "pos": "",
-    "synonym": "00663742-v (examine so as to determine accuracy, quality, or condition; \\\"\"check the brakes\\\"\"; \\\"\"Check out the engine\\\"\");00810733-v (try to learn someone's opinions and intentions; \\\"\"I have to sound out the new professor\\\"\");00968524-v (announce one's departure from a hotel);02316240-v (withdraw money by writing a check);02368741-v (record, add up, and receive payment for items purchased; \\\"\"She was checking out the apples that the customer had put on the conveyer belt\\\"\");02381924-v (trace; \\\"\"We are running down a few tips\\\"\");02664361-v (be verified or confirmed; pass inspection; \\\"\"These stories don't check!\\\"\"",
+    "pos": "v",
+    "synonym": "check out: examine so as to determine accuracy, quality, or condition; 'check the brakes'; 'Check out the engine' <i25036>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

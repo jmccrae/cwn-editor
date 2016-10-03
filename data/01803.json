@@ -1,5 +1,4 @@
 {
-  "lemma": "suju",
   "examples": [{
     "text": "x ) , block b , 17 , suju , bigbang , winner , twic"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "♡ suju"
   }],
-  "status": "","editorId": "",
+  "lemma": "suju",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "old love",
   "examples": [{
     "text": "Same old love ??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm so sick of that same old love , that shit , it … ♫ Sam"
   }],
-  "status": "","editorId": "",
+  "lemma": "old love",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

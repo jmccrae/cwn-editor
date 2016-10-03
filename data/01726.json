@@ -1,5 +1,4 @@
 {
-  "lemma": "that dude",
   "examples": [{
     "text": "foh \\ hope you find $20 \\\"\" , that dude don't want you happy .\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "but foreal I met that dude from the show they Moneymaker guy , an"
   }],
-  "status": "","editorId": "",
+  "lemma": "that dude",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

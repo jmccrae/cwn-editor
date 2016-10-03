@@ -1,5 +1,4 @@
 {
-  "lemma": "facemask",
   "examples": [{
     "text": "That is the worst facemask , I've ever seen "
   }, {
@@ -21,12 +20,28 @@
   }, {
     "text": "Izy with a facemask in has made my life https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "facemask",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "foul: an act that violates the rules of a sport <i39460>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "face mask: mask that provides a protective covering for the face in such sports as baseball or football or hockey <i53554>",
+      "relNo": 2
+    }],
+    "definition": "A foul in American Football where a player grabs another player's face mask"
+  }, {
+    "pos": "n",
+    "synonym": "face mask: mask that provides a protective covering for the face in such sports as baseball or football or hockey <i53554>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

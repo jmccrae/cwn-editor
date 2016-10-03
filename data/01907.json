@@ -1,5 +1,4 @@
 {
-  "lemma": "x264",
   "examples": [{
     "text": "Follow me please x264"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "2016-02-07 Super Muay Thai 720p WEB-DL x264 - TX : Category : Muay Thai :"
   }],
-  "status": "","editorId": "",
+  "lemma": "x264",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

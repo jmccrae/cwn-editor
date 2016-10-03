@@ -1,5 +1,4 @@
 {
-  "lemma": "giveback",
   "examples": [{
     "text": "like all American # Veterans # DoMore # GiveBack # AmericanSniperDay # TheLegend https : / /"
   }, {
@@ -15,16 +14,14 @@
   }, {
     "text": "Jersey superhero - Chase . # nonprofit # giveback # superhero # kids https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "giveback",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "rebate=01297737-v (join with a rebate; \\\"\"rebate the pieces of timber and stone\\\"\");01557975-v (cut a rebate in (timber or stone));02325180-v (give a reduction in the price during a sale; \\\"\"The store is rebating refrigerators this week\\\"\");04043252-n (a rectangular groove made to hold two pieces together);13303298-n (a refund of some fraction of the amount paid",
-      "relNo": 0
-    }],
-    "definition": "A rebate."
-  }]
+    "relations": [],
+    "definition": "give back"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

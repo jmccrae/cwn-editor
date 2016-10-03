@@ -1,5 +1,4 @@
 {
-  "lemma": "*the 7",
   "examples": [{
     "text": "my nuketown and the giant are missing after the 7 , 8GB updat"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "The 7 myths about mens bodies - inc where #"
   }],
-  "status": "","editorId": "",
+  "lemma": "*the 7",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

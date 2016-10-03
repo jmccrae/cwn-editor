@@ -1,5 +1,4 @@
 {
-  "lemma": "badass",
   "examples": [{
     "text": "I'm cool with Coulson , he's got a badass car , don't know the other guy.? http"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "PEEK HOLY FUCKING SHIT LEXA IS SUCH A BADASS AND CLARKE IS SO WORRIED BUT OMG MY"
   }],
-  "status": "","editorId": "",
+  "lemma": "badass",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "ass: the fleshy part of the human body that you sit on; 'he deserves a good kick in the butt'; 'are you going to sit on your fanny and do nothing?' <i66132>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "bad: characterized by wickedness or immorality; 'led a very bad life' <i6202>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "person: a human being; 'there was too much for one person to do' <i35562>",
+      "relNo": 1
+    }],
+    "definition": "A person considered impressive due to extreme attitudes, behavior or appearance [Wiktionary]"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

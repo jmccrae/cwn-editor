@@ -1,5 +1,4 @@
 {
-  "lemma": "mediafire",
   "examples": [{
     "text": "“ 25 ” by Adele # torrent # mediafire # Free # Download # mp3 → https"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Check out MediaFire to get up to 50GB of free online"
   }],
-  "status": "","editorId": "",
+  "lemma": "mediafire",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

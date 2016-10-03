@@ -1,5 +1,4 @@
 {
-  "lemma": "how sad",
   "examples": [{
     "text": "Reporter 2 : Cam , seriously , how sad are yo"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "And that's why , no matter how sad the Dreemur family's story might be , I'l"
   }],
-  "status": "","editorId": "",
+  "lemma": "how sad",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

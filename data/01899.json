@@ -1,5 +1,4 @@
 {
-  "lemma": "spoonie",
   "examples": [{
     "text": "indeed # ra # chronicillness # youdontlooksick # spoonie # awsome https : / / t.co /"
   }, {
@@ -15,12 +14,22 @@
   }, {
     "text": "rn # ChronicPain # Chronicillness # SpoonieProblems # Spoonie"
   }],
-  "status": "","editorId": "",
+  "lemma": "spoonie",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "spoon: a piece of cutlery with a shallow bowl-shaped container and a handle; used to stir or serve or take up food <i59365>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "sick: people who are sick; 'they devote their lives to caring for the sick' <i79099>",
+      "relNo": 1
+    }],
+    "definition": "someone with a chronic illness"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "kkkkkkkk",
   "examples": [{
     "text": "it was gonna be veryyyyyy nice KKKKKKKK ily"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "KKKKKKKK brinks"
   }],
-  "status": "","editorId": "",
+  "lemma": "kkkkkkkk",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "OK"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

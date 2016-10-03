@@ -1,5 +1,4 @@
 {
-  "lemma": "stupid ass",
   "examples": [{
     "text": "Fuckin stupid ass ??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "With yo stupid ass ."
   }],
-  "status": "","editorId": "",
+  "lemma": "stupid ass",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "stupid: lacking intelligence; 'a dull job with lazy and unintelligent co-workers' <i7288>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

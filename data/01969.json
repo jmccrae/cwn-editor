@@ -1,5 +1,4 @@
 {
-  "lemma": "you real",
   "examples": [{
     "text": "gracias you real"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "If you real deal be fucking with people's emotions , you'r"
   }],
-  "status": "","editorId": "",
+  "lemma": "you real",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

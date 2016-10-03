@@ -1,5 +1,4 @@
 {
-  "lemma": "fuckoff",
   "examples": [{
     "text": "you got five seconds to find wifi or FUCKOFF bruv like we share my monthly contract"
   }, {
@@ -15,16 +14,14 @@
   }, {
     "text": "home to go to sleep life's one big fuckoff rush ??? # rushing"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuckoff",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "contemptible=00907770-a (deserving of contempt or scorn)",
-      "relNo": 0
-    }],
-    "definition": " A contemptible person."
-  }]
+    "relations": [],
+    "definition": "fuck off "
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

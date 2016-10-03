@@ -1,5 +1,4 @@
 {
-  "lemma": "poun",
   "examples": [{
     "text": "King of da souf . Bobby by da poun Whitney by da key screw by da gallon"
   }, {
@@ -15,20 +14,14 @@
   }, {
     "text": "high power machines . She takes a pussy poun … htt …"
   }],
-  "status": "","editorId": "",
+  "lemma": "poun",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "pedestrian=10431800-n (a person who travels by foot);01349191-a (lacking wit or imagination; \\\"\"a pedestrian movie plot\\\"\"",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "walker=04552591-n (an enclosing framework on casters or wheels; helps babies learn to walk);04552757-n (a light enclosing framework (trade name Zimmer) with rubber castors or wheels and handles; helps invalids or the handicapped or the aged to walk);04553034-n (a shoe designed for comfortable walking);10431800-n (a person who travels by foot)",
-      "relNo": 1
-    }],
+    "relations": [],
     "definition": "walker; pedestrian"
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

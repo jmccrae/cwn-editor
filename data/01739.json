@@ -1,5 +1,4 @@
 {
-  "lemma": "thnx",
   "examples": [{
     "text": "today ? I'm hating it more than usual thnx"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "morning with national Canadian TV re Hillary ? thnx deborah.smith"
   }],
-  "status": "","editorId": "",
+  "lemma": "thnx",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "thanks"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

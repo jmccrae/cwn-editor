@@ -1,5 +1,4 @@
 {
-  "lemma": "hml",
   "examples": [{
     "text": "\\ 50$ Leases / 150 a beat / HML \\\"\" - ?\""
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "[ Hosted By ( This Song Included ) HML And Get … https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "hml",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "hate my life"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

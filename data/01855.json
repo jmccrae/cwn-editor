@@ -1,5 +1,4 @@
 {
-  "lemma": "gogogo",
   "examples": [{
     "text": "Gogogo h …"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "HOME STRETCH GOGOGO"
   }],
-  "status": "","editorId": "",
+  "lemma": "gogogo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "go go go"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

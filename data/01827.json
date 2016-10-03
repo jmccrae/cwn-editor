@@ -1,5 +1,4 @@
 {
-  "lemma": "upvote",
   "examples": [{
     "text": "If you like the system , upvote it : ) ! https : / "
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Welcome to the 100 upvote club for Tech Fights . ? https :"
   }],
-  "status": "","editorId": "",
+  "lemma": "upvote",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "upvote <00000reddit086-1>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

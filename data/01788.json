@@ -1,5 +1,4 @@
 {
-  "lemma": "so nice",
   "examples": [{
     "text": "THAT is gonna look so nice"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "It's so nice having a boyfriend who works hard for everything"
   }],
-  "status": "","editorId": "",
+  "lemma": "so nice",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

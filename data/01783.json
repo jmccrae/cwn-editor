@@ -1,5 +1,4 @@
 {
-  "lemma": "rest in peace",
   "examples": [{
     "text": "Rest in peace E ."
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "me : \\ rest in peace uncle phil \\\"\"\""
   }],
-  "status": "","editorId": "",
+  "lemma": "rest in peace",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "rest: euphemisms for death (based on an analogy between lying in a bed and in a tomb); 'she was laid to rest beside her husband'; 'they had to put their family pet to sleep' <i110310>",
+      "relNo": 1
+    }],
+    "definition": "Expression wishing rest to a dead person"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

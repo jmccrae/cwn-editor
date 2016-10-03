@@ -1,5 +1,4 @@
 {
-  "lemma": "lupita",
   "examples": [{
     "text": "Lupita Nyong'o makes her Broadway debut in on February"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ECLIPSED : AFRICAN PRIDE , LUPITA N'YONGO ON BROADWA"
   }],
-  "status": "","editorId": "",
+  "lemma": "lupita",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

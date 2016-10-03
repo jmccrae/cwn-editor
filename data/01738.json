@@ -1,5 +1,4 @@
 {
-  "lemma": "life goes on",
   "examples": [{
     "text": "Life goes on . Doors close and new doors open ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Proof that life goes on in # Syria ’ s most devastated city"
   }],
-  "status": "","editorId": "",
+  "lemma": "life goes on",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

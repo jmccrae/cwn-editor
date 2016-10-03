@@ -1,5 +1,4 @@
 {
-  "lemma": "iplayer",
   "examples": [{
     "text": ".... I'm just gonna sneak watch it on IPlayer ...... Shhhhhhh"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Link to listen on bbc iplayer : http : / / t.co / uZgg62wadf"
   }],
-  "status": "","editorId": "",
+  "lemma": "iplayer",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

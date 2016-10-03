@@ -1,5 +1,4 @@
 {
-  "lemma": "karabo",
   "examples": [{
     "text": "so karabo is serious with her 2 husband thing hahaha"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Karabo \\ i am not most women \\\"\" #\""
   }],
-  "status": "","editorId": "",
+  "lemma": "karabo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

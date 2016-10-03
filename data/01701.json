@@ -1,5 +1,4 @@
 {
-  "lemma": "*chicken wings",
   "examples": [{
     "text": "omg I want chicken wings : ("
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "When you see seagulls munching on chicken wings , you no times are har"
   }],
-  "status": "","editorId": "",
+  "lemma": "chicken wing",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "chicken wing: the wing of a chicken <i77092>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

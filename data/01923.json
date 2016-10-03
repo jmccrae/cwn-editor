@@ -1,5 +1,4 @@
 {
-  "lemma": "cuz",
   "examples": [{
     "text": "it easier 4 me 2 say these things cuz i just have 2 go 2 my basedment"
   }, {
@@ -21,12 +20,20 @@
   }, {
     "text": "bio ! ! I KNOW U LIKE HIM CUZ HES AWESOME https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "cuz",
   "senses": [{
-    "pos": "",
+    "pos": "n",
+    "synonym": "",
+    "id": 2,
+    "relations": [],
+    "definition": "cousin"
+  }, {
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "because"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

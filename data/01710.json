@@ -1,5 +1,4 @@
 {
-  "lemma": "*baddie",
   "examples": [{
     "text": "BC this is baddie"
   }, {
@@ -21,12 +20,38 @@
   }, {
     "text": "out , he's not as much of a baddie this time "
   }],
-  "status": "","editorId": "",
+  "lemma": "*baddie",
   "senses": [{
-    "pos": "",
-    "synonym": "10773447-n (the principal bad character in a film or work of fiction)",
+    "pos": "n",
+    "synonym": "stunner: a very attractive or seductive looking woman <i93085>",
+    "id": 2,
+    "relations": [],
+    "definition": ""
+  }, {
+    "pos": "n",
+    "synonym": "baddie: the principal bad character in a film or work of fiction <i93936>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }, {
+    "pos": "n",
+    "synonym": "",
+    "id": 3,
+    "relations": [{
+      "type": "derivation",
+      "target": "bad: below average in quality or performance; 'a bad chess player'; 'a bad recital' <i12991>",
+      "relNo": 2
+    }, {
+      "type": "domain_topic",
+      "target": "video game: a game played against a computer <i37827>",
+      "relNo": 3
+    }, {
+      "type": "hypernym",
+      "target": "player: a person who participates in or is skilled at some game <i92069>",
+      "relNo": 1
+    }],
+    "definition": "an unskilled video game player"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

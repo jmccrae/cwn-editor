@@ -1,5 +1,4 @@
 {
-  "lemma": "what am i",
   "examples": [{
     "text": "what am I going to put together kenessa ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "yUO deSerVe it ! ! ! ! RT What am I supposed to do when I feel like I"
   }],
-  "status": "","editorId": "",
+  "lemma": "what am i",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

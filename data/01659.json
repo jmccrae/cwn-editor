@@ -1,5 +1,4 @@
 {
-  "lemma": "missin",
   "examples": [{
     "text": "u ain't missin out on nun when ur getting ur shit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Missin them summer nights ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "missin",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "missing"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

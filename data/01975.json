@@ -1,5 +1,4 @@
 {
-  "lemma": "outta",
   "examples": [{
     "text": "Dubois annoys the shit outta me"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Straight outta nowhere doesn't mean I ain't going nowhere"
   }],
-  "status": "","editorId": "",
+  "lemma": "outta",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "out of"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

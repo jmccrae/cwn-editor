@@ -1,5 +1,4 @@
 {
-  "lemma": "ssbbw",
   "examples": [{
     "text": "/ vdO21BPmnR ?? # kikme # fetish # ssbbw # blacksex https : / / t.co /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# ssbbw # titssex # tittyfuck # suckdick"
   }],
-  "status": "","editorId": "",
+  "lemma": "ssbbw",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "super-sized, big, beautiful woman"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

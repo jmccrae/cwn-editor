@@ -1,5 +1,4 @@
 {
-  "lemma": "ep3",
   "examples": [{
     "text": "Bronx , road trip to Clifton for a ep3 driver door lma"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "EP3 ! JUST RELEASED TO YOUTUBE ! HILARIOUS !"
   }],
-  "status": "","editorId": "",
+  "lemma": "ep3",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

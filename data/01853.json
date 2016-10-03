@@ -1,5 +1,4 @@
 {
-  "lemma": "shiiiit",
   "examples": [{
     "text": "SHIIIIT B . PACOS ( pronounced pae-kiss ) WITH"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "shiiiit I could honestly watch a human get shot"
   }],
-  "status": "","editorId": "",
+  "lemma": "shiiiit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "shit"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

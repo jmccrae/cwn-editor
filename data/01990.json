@@ -1,5 +1,4 @@
 {
-  "lemma": "*bullshit",
   "examples": [{
     "text": "same thing ... at all ... its a bullshit reason..Something more is behind this"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "the blue eyed devil man who forced that bullshit on us"
   }],
-  "status": "","editorId": "",
+  "lemma": "*bullshit",
   "senses": [{
-    "pos": "",
-    "synonym": "06623729-n (obscene words for unacceptable behavior; \\\"\"I put up with a lot of bullshit from that jerk\\\"\"; \\\"\"what he said was mostly bull\\\"\");00841205-v (speak insincerely or without regard for facts or truths; \\\"\"The politician was not well prepared for the debate and faked it\\\"\"",
+    "pos": "n",
+    "synonym": "bullshit: obscene words for unacceptable behavior; 'I put up with a lot of bullshit from that jerk'; 'what he said was mostly bull' <i71209>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

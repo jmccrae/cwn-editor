@@ -1,5 +1,4 @@
 {
-  "lemma": "*cuddling",
   "examples": [{
     "text": "? We like Taco Bell , Starbucks , cuddling , compliments , naps , disney movies "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "when you used to love cuddling me ? https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "cuddle",
   "senses": [{
-    "pos": "",
-    "synonym": "00855630-n (affectionate play (or foreplay without contact with the genital organs))",
+    "pos": "v",
+    "synonym": "cuddle: hold (a person or thing) close, as for affection, comfort, or warmth; 'I cuddled the baby' <i28858>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

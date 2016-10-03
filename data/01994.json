@@ -1,5 +1,4 @@
 {
-  "lemma": "nove",
   "examples": [{
     "text": "NOVE DEMI IS CONFIDENT"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "nove # VoteRobertDowneyJr # KCA"
   }],
-  "status": "","editorId": "",
+  "lemma": "nove",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

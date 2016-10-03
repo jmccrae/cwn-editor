@@ -1,5 +1,4 @@
 {
-  "lemma": "yez",
   "examples": [{
     "text": "yez i canz"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "yez pag weekends https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "yez",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "yes"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

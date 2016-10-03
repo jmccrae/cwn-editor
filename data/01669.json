@@ -1,5 +1,4 @@
 {
-  "lemma": "so like",
   "examples": [{
     "text": "is Cara , and Cara has me , so like we will be holding up on both phone"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ok so like u"
   }],
-  "status": "","editorId": "",
+  "lemma": "so like",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

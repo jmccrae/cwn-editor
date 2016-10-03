@@ -1,5 +1,4 @@
 {
-  "lemma": "brackin",
   "examples": [{
     "text": "I love brackfest foods it's brackin b"
   }, {
@@ -17,12 +16,28 @@
   }, {
     "text": "I just said what's brackin blood to my friend . While a big"
   }],
-  "status": "","editorId": "",
+  "lemma": "*brackin",
   "senses": [{
-    "pos": "",
-    "synonym": "",
-    "id": 1,
-    "relations": [],
+    "pos": "v",
+    "synonym": "happen: come to pass; 'What is happening?'; 'The meeting took place off without an incidence'; 'Nothing occurred that seemed important' <i23435>",
+    "id": 2,
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }, {
+    "pos": "a",
+    "synonym": "great: very good; 'he did a bully job'; 'a neat sports car'; 'had a great time at the party'; 'you look simply smashing'; 'we had a grand old time' <i6164>",
+    "id": 1,
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "ecliptical",
   "examples": [{
     "text": "Ecliptical ( tropical , geocentric ) longitude for "
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Ecliptical ( tropical , geocentric ) longitude for "
   }],
-  "status": "","editorId": "",
+  "lemma": "ecliptical",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "elliptical: rounded like an egg <i11216>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

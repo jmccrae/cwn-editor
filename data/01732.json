@@ -1,5 +1,4 @@
 {
-  "lemma": "so hot",
   "examples": [{
     "text": "you are so hot"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "why the hell are you so hot ???? https : / / t.co / zzkNXm02nP"
   }],
-  "status": "","editorId": "",
+  "lemma": "so hot",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

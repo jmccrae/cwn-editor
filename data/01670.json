@@ -1,5 +1,4 @@
 {
-  "lemma": "guess who",
   "examples": [{
     "text": "And also guess who is seriously avoiding her essay right now ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Guess who applied for a job at dq?"
   }],
-  "status": "","editorId": "",
+  "lemma": "guess who",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

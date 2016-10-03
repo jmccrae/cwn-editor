@@ -1,5 +1,4 @@
 {
-  "lemma": "juss",
   "examples": [{
     "text": "We Juss a need a face to face"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "This nigga fr Juss asked for a pencil nd winked at me"
   }],
-  "status": "","editorId": "",
+  "lemma": "juss",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "just"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

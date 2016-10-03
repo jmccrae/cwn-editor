@@ -1,5 +1,4 @@
 {
-  "lemma": "decision-making",
   "examples": [{
     "text": "Decision-making about the use of non-vitamin K oral anticoagulant"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "2016 : The Year of Data-Informed Decision-Making https : / / t.co / cYFtmzbaOq #"
   }],
-  "status": "","editorId": "",
+  "lemma": "decision-making",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

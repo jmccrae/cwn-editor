@@ -1,5 +1,4 @@
 {
-  "lemma": "tnq",
   "examples": [{
     "text": "tnq sooooooooooooo much pa????"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "https : / / t.co / tnQ …"
   }],
-  "status": "","editorId": "",
+  "lemma": "tnq",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "nice one",
   "examples": [{
     "text": "I'll be able to escape from this one nice one tho , it always work"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Nice one , Kay ! https : / / t.c"
   }],
-  "status": "","editorId": "",
+  "lemma": "nice one",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "admiration: a feeling of delighted approval and liking <i76161>",
+      "relNo": 1
+    }],
+    "definition": "Expression of admiration for a particular action"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

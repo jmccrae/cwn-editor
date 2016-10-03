@@ -1,5 +1,4 @@
 {
-  "lemma": "emosh",
   "examples": [{
     "text": "become really attached to them . I'm so emosh like that ?? . Sigh ."
   }, {
@@ -15,12 +14,18 @@
   }, {
     "text": "emosh"
   }],
-  "status": "","editorId": "",
+  "lemma": "emosh",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "emotional: of more than usual emotion; 'his behavior was highly emotional' <i4690>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "emotional: of more than usual emotion; 'his behavior was highly emotional' <i4690>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

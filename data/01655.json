@@ -1,5 +1,4 @@
 {
-  "lemma": "thoe",
   "examples": [{
     "text": "im prayin for her i wouldnt show up thoe https : / / t.co / jYroB4vWSw"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'm still at work Thoe I'm fkn cleaning and I'm hella fkn sick"
   }],
-  "status": "","editorId": "",
+  "lemma": "thoe",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "though"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

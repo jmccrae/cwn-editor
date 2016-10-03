@@ -1,5 +1,4 @@
 {
-  "lemma": "yokai",
   "examples": [{
     "text": "today so i thought about the cowboy hat yokai and such"
   }, {
@@ -19,32 +18,22 @@
   }, {
     "text": "Bomber Jacket , Dragon Quest & amp ; Yokai Watch in Harajuku https : / / t.c"
   }],
-  "status": "","editorId": "",
+  "lemma": "yokai",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "folklore=05994487-n (the unwritten lore (stories and proverbs and riddles and songs) of a culture)",
-      "relNo": 0
-    }, {
-      "type": "none",
-      "target": "Japanese=02976588-a (of or relating to or characteristic of Japan or its people or their culture or language; \\\"\"the Japanese Emperor\\\"\"; \\\"\"Japanese cars\\\"\");06942056-n (the language (usually considered to be Altaic) spoken by the Japanese);09737613-n (a native or inhabitant of Japan",
+      "type": "loanword",
+      "target": "Japanese: the language (usually considered to be Altaic) spoken by the Japanese <i72985>",
       "relNo": 1
     }, {
-      "type": "none",
-      "target": "shapeshifter=",
-      "relNo": 2
-    }, {
-      "type": "none",
-      "target": "monster=01462749-n ((medicine) a grossly malformed and usually nonviable fetus);09515097-n (an imaginary creature usually having various human and animal parts);10129212-n (a person or animal that is markedly unusual or deformed);10148446-n (someone or something that is abnormally large and powerful);10349658-n (a cruel wicked and inhuman person)",
-      "relNo": 3
-    }, {
-      "type": "none",
-      "target": "supernatural=09527009-n (supernatural forces and events and beings collectively; \\\"\"She doesn't believe in the supernatural\\\"\");01578839-a (not existing in nature or subject to explanation according to natural laws; not physical or material; \\\"\"supernatural forces and occurrences and beings\\\"\"",
-      "relNo": 4
+      "type": "hypernym",
+      "target": "monster: an imaginary creature usually having various human and animal parts <i86500>",
+      "relNo": 0
     }],
-    "definition": "Any of various supernatural monsters, sometimes shapeshifters, in Japanese folklore"
-  }]
+    "definition": "Any of various supernatural monsters, sometimes shapeshifters, in Japanese folklore [Wiktionary]"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

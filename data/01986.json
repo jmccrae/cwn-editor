@@ -1,5 +1,4 @@
 {
-  "lemma": "hit me",
   "examples": [{
     "text": "no problem ! Maybe it just hit me wrong bc I know was your story of"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "talk to you about Stealthys PC shipping . Hit me up as soon as you can please "
   }],
-  "status": "","editorId": "",
+  "lemma": "hit me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

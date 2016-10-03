@@ -1,5 +1,4 @@
 {
-  "lemma": "ur face",
   "examples": [{
     "text": "like bitch i see that phone lightin' up ur face . yous aint an angel with a heavenly"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "to b careful not 2 get something on ur face bc no one will tell you \\ u\""
   }],
-  "status": "","editorId": "",
+  "lemma": "ur face",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "your face"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

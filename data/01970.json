@@ -1,5 +1,4 @@
 {
-  "lemma": "luke hemmings",
   "examples": [{
     "text": "whats a luke hemmings lul"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Dear Luke Hemmings from 5SOS "
   }],
-  "status": "","editorId": "",
+  "lemma": "luke hemmings",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

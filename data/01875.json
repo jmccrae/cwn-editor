@@ -1,5 +1,4 @@
 {
-  "lemma": "strugglin",
   "examples": [{
     "text": "and send me my makeup pls . I'm strugglin"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "be on social media fraudin like they aint strugglin"
   }],
-  "status": "","editorId": "",
+  "lemma": "strugglin",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "struggling"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

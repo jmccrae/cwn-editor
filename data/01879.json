@@ -1,5 +1,4 @@
 {
-  "lemma": "fuvk",
   "examples": [{
     "text": "22 YEAR OLD HARRY ALREADY HAS ME DEAD FUVK # BRITDRAGMEDOWN https : / / t.co /"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "FUVK FUCK FUCK DO I BUY IT NOW OR"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuvk",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "fuck"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "wonderboy",
   "examples": [{
     "text": "believe how one sided that was . # Wonderboy"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Wow . Wonderboy . Wow ."
   }],
-  "status": "","editorId": "",
+  "lemma": "wonderboy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "dooo",
   "examples": [{
     "text": "And friends shouldn't kiss me like you dooo"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "dooo itttt we can all go that night"
   }],
-  "status": "","editorId": "",
+  "lemma": "dooo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "do"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

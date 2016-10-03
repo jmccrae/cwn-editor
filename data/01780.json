@@ -1,5 +1,4 @@
 {
-  "lemma": "reynoldsburg",
   "examples": [{
     "text": "NO one protects citizens of Reynoldsburg no on protected # justice4cephus NOTHING done 2"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "# justice4cephus we do rt's 4 rt's ! Reynoldsburg OH LE ultimate fail https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "reynoldsburg",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

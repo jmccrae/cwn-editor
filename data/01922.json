@@ -1,5 +1,4 @@
 {
-  "lemma": "allkpop",
   "examples": [{
     "text": "Day's Hyeri makes a generous donation ! - allkpop https : / / t.co / 8F6Qqzpaq3 https"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "LET ME PLAY THIS ALLKPOP ALL STARS GAME UGH"
   }],
-  "status": "","editorId": "",
+  "lemma": "allkpop",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "All K-Pop"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

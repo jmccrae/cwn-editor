@@ -1,5 +1,4 @@
 {
-  "lemma": "dark fantasy",
   "examples": [{
     "text": "King of dark fantasy . Summon today . App Store : https"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "King of dark fantasy . Summon today . App Store : https"
   }],
-  "status": "","editorId": "",
+  "lemma": "dark fantasy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "that sucks",
   "examples": [{
     "text": "well that sucks . I hope you get well soon ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "said you guys shouldn't of had school . That sucks ? your day is almost over though"
   }],
-  "status": "","editorId": "",
+  "lemma": "that sucks",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

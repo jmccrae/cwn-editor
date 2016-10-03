@@ -1,5 +1,4 @@
 {
-  "lemma": "broo",
   "examples": [{
     "text": "what's gooddd broo https : / / t.co / HccLErFHc0"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Broo"
   }],
-  "status": "","editorId": "",
+  "lemma": "broo",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "bro"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

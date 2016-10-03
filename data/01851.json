@@ -1,5 +1,4 @@
 {
-  "lemma": "heyo",
   "examples": [{
     "text": "Heyo , ever tried marking tabs under the string"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "The Heyo Critiq Daily is out ! https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "heyo",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "hello: an expression of greeting; 'every morning they exchanged polite hellos' <i71336>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

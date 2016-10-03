@@ -1,5 +1,4 @@
 {
-  "lemma": "gunpla",
   "examples": [{
     "text": "# gunpla # g_tekketsu https : / / t. …"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": ", # customecha , # gundam , # gunpl"
   }],
-  "status": "","editorId": "",
+  "lemma": "gunpla",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "yaaasss",
   "examples": [{
     "text": "yaaasss baby the truth??"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "YAAASSS . Love it when you do these tweet"
   }],
-  "status": "","editorId": "",
+  "lemma": "yaaasss",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "yes"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "barz",
   "examples": [{
     "text": "Women Behind Barz https : / / t.co / NmOzuRKGrX"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "! LMFAO ! Outta ALL da got damn barz my brother walked into this 1???"
   }],
-  "status": "","editorId": "",
+  "lemma": "barz",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "bars"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

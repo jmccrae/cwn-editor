@@ -1,5 +1,4 @@
 {
-  "lemma": "wussup",
   "examples": [{
     "text": "Wussup all y'all ."
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "CHECK OUT THESE RAPPERS ! NOW THEY KNOW WUSSUP"
   }],
-  "status": "","editorId": "",
+  "lemma": "wussup",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "what's up"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

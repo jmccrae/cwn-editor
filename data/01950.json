@@ -1,5 +1,4 @@
 {
-  "lemma": "why do",
   "examples": [{
     "text": "why do you hate me . https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Why do I only have purple ligas ? ? ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "why do",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

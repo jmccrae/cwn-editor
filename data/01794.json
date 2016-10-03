@@ -1,5 +1,4 @@
 {
-  "lemma": "slim thick",
   "examples": [{
     "text": "\\ no we're slim thick \\\"\"\""
   }, {
@@ -21,12 +20,34 @@
   }, {
     "text": "Slim thick with ya cute ass ."
   }],
-  "status": "","editorId": "",
+  "lemma": "slim thick",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "thick: having a short and solid form or stature; 'a wrestler of compact build'; 'he was tall and heavyset'; 'stocky legs'; 'a thickset young man' <i13216>",
+      "relNo": 4
+    }, {
+      "type": "derivation",
+      "target": "slim: being of delicate or slender build; 'she was slender as a willow shoot is slender'- Frank Norris; 'a slim girl with straight blonde hair'; 'watched her slight figure cross the street' <i5422>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "thick: having a short and solid form or stature; 'a wrestler of compact build'; 'he was tall and heavyset'; 'stocky legs'; 'a thickset young man' <i13216>",
+      "relNo": 3
+    }, {
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 5
+    }, {
+      "type": "hypernym",
+      "target": "slim: being of delicate or slender build; 'she was slender as a willow shoot is slender'- Frank Norris; 'a slim girl with straight blonde hair'; 'watched her slight figure cross the street' <i5422>",
+      "relNo": 1
+    }],
+    "definition": "of a female with a large bottom and a slim waist"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

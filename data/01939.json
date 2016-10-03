@@ -1,5 +1,4 @@
 {
-  "lemma": "kiss it",
   "examples": [{
     "text": "Rihanna - kiss it better & gt ; & gt ; my"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Kiss it , kiss it better , baby?"
   }],
-  "status": "","editorId": "",
+  "lemma": "kiss it",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

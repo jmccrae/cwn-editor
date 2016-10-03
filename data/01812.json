@@ -1,5 +1,4 @@
 {
-  "lemma": "owari",
   "examples": [{
     "text": "JUST FINISHED OWARI NO SERAPH AND MY EMOTIONS ARE CONFLICTED"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "owari no seraph is fucking ugly"
   }],
-  "status": "","editorId": "",
+  "lemma": "owari",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

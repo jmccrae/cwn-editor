@@ -1,5 +1,4 @@
 {
-  "lemma": "bad girl",
   "examples": [{
     "text": "You go with the ht I'm such a bad girl so I won't follow"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I am a bad girl I know"
   }],
-  "status": "","editorId": "",
+  "lemma": "bad girl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "go girl",
   "examples": [{
     "text": "YASSSSS , go girl https : / / t.co / HI4wZSw6x"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Well go girl ! -I could use the back up here"
   }],
-  "status": "","editorId": "",
+  "lemma": "go girl",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

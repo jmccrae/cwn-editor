@@ -1,5 +1,4 @@
 {
-  "lemma": "switch up",
   "examples": [{
     "text": "switch up https : / / t.co / KdFYJry3Kh"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "All it take is☝?️sketchy thing and I'll totally switch up on ah MF and treat them accordingly ..."
   }],
-  "status": "","editorId": "",
+  "lemma": "switch up",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "switch: make a shift in or exchange of; 'First Joe led; then we switched' <i23634>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "switch: make a shift in or exchange of; 'First Joe led; then we switched' <i23634>",
+      "relNo": 1
+    }],
+    "definition": "to change something temporarily"
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

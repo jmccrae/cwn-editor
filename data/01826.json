@@ -1,5 +1,4 @@
 {
-  "lemma": "ziall",
   "examples": [{
     "text": "ziall bromance & gt ; & gt ;"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "dam ziall still real"
   }],
-  "status": "","editorId": "",
+  "lemma": "ziall",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "pawty",
   "examples": [{
     "text": "we does all get new furends from da pawty # archiesparty"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Remind us next year to have One Day Pawty ! ! Don't know how Mama and Grandmama"
   }],
-  "status": "","editorId": "",
+  "lemma": "pawty",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "party"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

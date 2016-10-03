@@ -1,5 +1,4 @@
 {
-  "lemma": "mkay",
   "examples": [{
     "text": "Okkeh . Slipknot . No doubt . Mkay ? : 3"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Mkay then , we'll go with the everything R'"
   }],
-  "status": "","editorId": "",
+  "lemma": "mkay",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "okay"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "fake ass",
   "examples": [{
     "text": "YOU FAKE ASS SAINTS FANS THAT WAS CHEERING FOR THE PANTHERS"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Fake ass hoes"
   }],
-  "status": "","editorId": "",
+  "lemma": "fake ass",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "fake: not genuine or real; being an imitation of the genuine article; 'it isn't fake anything; it's real synthetic fur'; 'faux pearls'; 'false teeth'; 'decorated with imitation palm leaves'; 'a purse of simulated alligator hide' <i8632>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

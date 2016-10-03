@@ -1,5 +1,4 @@
 {
-  "lemma": "okaaay",
   "examples": [{
     "text": "if i walked by her pretty ass . okaaay ."
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "gf but want a baby with someone else? okaaay"
   }],
-  "status": "","editorId": "",
+  "lemma": "okaaay",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "okay"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

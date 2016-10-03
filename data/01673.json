@@ -1,5 +1,4 @@
 {
-  "lemma": "my hero",
   "examples": [{
     "text": "you are my hero "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "sid .... plz say one word for my hero Rohit sharma????"
   }],
-  "status": "","editorId": "",
+  "lemma": "my hero",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

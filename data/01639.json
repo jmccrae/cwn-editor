@@ -1,5 +1,4 @@
 {
-  "lemma": "nice try",
   "examples": [{
     "text": "Nice try but people who do this aren't clever enough"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "nice try"
   }],
-  "status": "","editorId": "",
+  "lemma": "nice try",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

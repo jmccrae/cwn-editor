@@ -1,5 +1,4 @@
 {
-  "lemma": "husbando",
   "examples": [{
     "text": "NIGHT HUSBANDO !"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "naoto's my husbando u cant have him"
   }],
-  "status": "","editorId": "",
+  "lemma": "husbando",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "husband"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

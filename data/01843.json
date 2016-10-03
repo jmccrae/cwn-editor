@@ -1,5 +1,4 @@
 {
-  "lemma": "welkam",
   "examples": [{
     "text": "Welkam SQFAV0RS"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "SQFAV0RS welkam"
   }],
-  "status": "","editorId": "",
+  "lemma": "welkam",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "welcome"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "xddd",
   "examples": [{
     "text": "he seems like a dweeb lol no life xddd"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Powerhouse xDDD"
   }],
-  "status": "","editorId": "",
+  "lemma": "xddd",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "xD"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

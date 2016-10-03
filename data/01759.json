@@ -1,5 +1,4 @@
 {
-  "lemma": "trippin",
   "examples": [{
     "text": "Yesterdays leg workout has me trippin lol"
   }, {
@@ -21,12 +20,44 @@
   }, {
     "text": "Stop trippin , Just give me a minute "
   }],
-  "status": "","editorId": "",
+  "lemma": "trip",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "hallucinate: perceive what is not there; have illusions <i32345>",
+    "id": 2,
+    "relations": [{
+      "type": "derivation",
+      "target": "trip: a hallucinatory experience induced by drugs; 'an acid trip' <i112560>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }, {
+    "pos": "v",
+    "synonym": "trip: get high, stoned, or drugged; 'He trips every weekend' <i27628>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }, {
+    "pos": "v",
+    "synonym": "worry: be worried, concerned, anxious, troubled, or uneasy; 'I worry about my job' <i30573>",
+    "id": 4,
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }, {
+    "pos": "v",
+    "synonym": "overreact: show an exaggerated response to something; 'Don't overreact to the bad news--take it easy' <i25291>",
+    "id": 3,
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

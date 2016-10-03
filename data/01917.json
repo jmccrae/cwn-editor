@@ -1,5 +1,4 @@
 {
-  "lemma": "*one-off",
   "examples": [{
     "text": "service so far - wondering if it's a one-off ..."
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "’ t think of your mortgage as a one-off purchase , but as an ongoing process tha"
   }],
-  "status": "","editorId": "",
+  "lemma": "*one-off",
   "senses": [{
-    "pos": "",
-    "synonym": "07310701-n (a happening that occurs only once and is not repeated)",
+    "pos": "n",
+    "synonym": "one-off: a happening that occurs only once and is not repeated <i75034>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

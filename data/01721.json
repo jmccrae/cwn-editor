@@ -1,5 +1,4 @@
 {
-  "lemma": "yo bitch",
   "examples": [{
     "text": "Shut yo bitch ass up https : / / t.co /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I'll fucc yo bitch y u beside her"
   }],
-  "status": "","editorId": "",
+  "lemma": "yo bitch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "your bitch"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

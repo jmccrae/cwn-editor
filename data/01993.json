@@ -1,5 +1,4 @@
 {
-  "lemma": "check it",
   "examples": [{
     "text": "6 . So I check it and it was this girl name Tera and"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Could you please check it ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "check it",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

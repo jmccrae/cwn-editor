@@ -1,5 +1,4 @@
 {
-  "lemma": "the nigga",
   "examples": [{
     "text": "Then the Nigga Kam don't wanna answer ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Bitches be so disrespectful that they even let the nigga she cheating with hit it raw also"
   }],
-  "status": "","editorId": "",
+  "lemma": "the nigga",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "people change",
   "examples": [{
     "text": "perfectly happy without forgiving , I don't believe people change and I certainly don't give second chances x"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "People change . Feelings fade ."
   }],
-  "status": "","editorId": "",
+  "lemma": "people change",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

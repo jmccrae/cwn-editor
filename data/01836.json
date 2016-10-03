@@ -1,5 +1,4 @@
 {
-  "lemma": "shiddd",
   "examples": [{
     "text": "Shiddd Rome wasn't built in a day & amp"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "shiddd free is free lol"
   }],
-  "status": "","editorId": "",
+  "lemma": "shiddd",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "shit"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

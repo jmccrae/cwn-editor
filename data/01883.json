@@ -1,5 +1,4 @@
 {
-  "lemma": "l8r",
   "examples": [{
     "text": "Skool comes 1st , boyz come l8r . Shout out to my haterz cuz u"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "friend , can't wait to celebrate with you l8r ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "l8r",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "later"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

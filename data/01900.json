@@ -1,5 +1,4 @@
 {
-  "lemma": "cappin",
   "examples": [{
     "text": "Feel like cappin ."
   }, {
@@ -15,12 +14,18 @@
   }, {
     "text": "My bff comeback cappin : ("
   }],
-  "status": "","editorId": "",
+  "lemma": "cappin",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "lie: tell an untruth; pretend with intent to deceive; 'Don't lie to your parents'; 'She lied when she told me she was only 29' <i25821>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

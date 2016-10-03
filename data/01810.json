@@ -1,5 +1,4 @@
 {
-  "lemma": "gifset",
   "examples": [{
     "text": "heehee , perfect gifset ! # TheMentalist # RedLetterDay https : "
   }, {
@@ -15,16 +14,22 @@
   }, {
     "text": "A little hint of the gifset for tomorrow ? https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "*gifset",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "gif=",
+      "type": "hypernym",
+      "target": "set",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "set",
+      "relNo": 1
     }],
-    "definition": " A set of gifs."
-  }]
+    "definition": " A set of images in the GIF format"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "homie",
   "examples": [{
     "text": "Happy birthday homie ! ???"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "David . Homie . I need to talk to you about"
   }],
-  "status": "","editorId": "",
+  "lemma": "homie",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "homeboy: a male friend from your neighborhood or hometown <i90541>",
     "id": 1,
-    "relations": [],
-    "definition": " Someone, particularly a male acquaintance, from one's hometown"
-  }]
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 2
+    }],
+    "definition": ""
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

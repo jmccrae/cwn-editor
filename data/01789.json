@@ -1,5 +1,4 @@
 {
-  "lemma": "my bag",
   "examples": [{
     "text": "When I borrow a extra bag ? Gassh my bag is already ruined . -.-"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I got hot sauce in my bag"
   }],
-  "status": "","editorId": "",
+  "lemma": "my bag",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

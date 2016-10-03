@@ -1,5 +1,4 @@
 {
-  "lemma": "*shite",
   "examples": [{
     "text": "shite"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "you were going to say this ! You're shite ✋?"
   }],
-  "status": "","editorId": "",
+  "lemma": "*shite",
   "senses": [{
-    "pos": "",
-    "synonym": "14878732-n (obscene terms for feces)",
+    "pos": "n",
+    "synonym": "shite: obscene terms for feces <i115116>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

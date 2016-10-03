@@ -1,5 +1,4 @@
 {
-  "lemma": "since day",
   "examples": [{
     "text": "1 person that has been there for you since day one under the bus okay coo bet"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "forgive him , I've been on his side since day 1 "
   }],
-  "status": "","editorId": "",
+  "lemma": "since day",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

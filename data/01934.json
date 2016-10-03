@@ -1,5 +1,4 @@
 {
-  "lemma": "nvr",
   "examples": [{
     "text": "you'd ever say love , knowing that i'll nvr be enough . Breaking the best part o"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "ur TM . U are hilarious , have nvr cm across a funnier account "
   }],
-  "status": "","editorId": "",
+  "lemma": "nvr",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "never"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

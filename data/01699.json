@@ -1,5 +1,4 @@
 {
-  "lemma": "trust issues",
   "examples": [{
     "text": "I have trust issues because of the shit that I see ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "TRUST ISSUES FT.MIKE KING https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "trust issues",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

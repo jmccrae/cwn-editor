@@ -1,5 +1,4 @@
 {
-  "lemma": "jigg",
   "examples": [{
     "text": "Ok the jigg is up time to apply the pressure ?"
   }, {
@@ -13,12 +12,22 @@
   }, {
     "text": "same ! ! I'm ready to jigg in a theatre full of random real fans"
   }],
-  "status": "","editorId": "",
+  "lemma": "jigg",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "domain_region",
+      "target": "Louisiana: a state in southern United States on the Gulf of Mexico; one of the Confederate states during the American Civil War <i84401>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "dance: move in a graceful and rhythmical way; 'The young girl danced into the room' <i31179>",
+      "relNo": 1
+    }],
+    "definition": "dancing in a style associated with the South Louisiana club scene"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

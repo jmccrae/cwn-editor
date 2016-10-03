@@ -1,5 +1,4 @@
 {
-  "lemma": "swegway",
   "examples": [{
     "text": "has finally arrived ! ! ! ???????? # swegway # segway # fun # latechristmaspresent by pierre_atri"
   }, {
@@ -13,12 +12,14 @@
   }, {
     "text": "Bout that # sweglifestyle # swegway # sweglife # swegway by rudegalkellez26ddboyg_ https :"
   }],
-  "status": "","editorId": "",
+  "lemma": "swegway",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "drippin",
   "examples": [{
     "text": "Drippin - Future ☔️"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "drippin on em baby , how yu luv tha"
   }],
-  "status": "","editorId": "",
+  "lemma": "drippin",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "*paper thin",
   "examples": [{
     "text": "It feels as if your boundaries are paper thin today , prompting ... More for Libra http"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "It feels as if your boundaries are paper thin today , prompting ... More for Libra http"
   }],
-  "status": "","editorId": "",
+  "lemma": "*paper thin",
   "senses": [{
-    "pos": "",
-    "synonym": "02423296-a (thin as paper; \\\"\"her blouse was paper thin\\\"\"",
+    "pos": "n",
+    "synonym": "paper thin: thin as paper; 'her blouse was paper thin' <i13364>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

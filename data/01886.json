@@ -1,5 +1,4 @@
 {
-  "lemma": "rpers",
   "examples": [{
     "text": "Mostly because of cool Ludger RPers , more than anything , though . Th"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "to date Hyuna . But some of Hyuna rpers are rude and / or crazy ."
   }],
-  "status": "","editorId": "",
+  "lemma": "rpers",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "roleplayers"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

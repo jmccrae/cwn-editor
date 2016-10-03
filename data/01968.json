@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck do",
   "examples": [{
     "text": "How the fuck do you miss that easy ass lay up !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "BUT STILL HOW THE FUCK DO YOU NOT UNDERSTAND A METEORITE IS GOING TO"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuck do",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

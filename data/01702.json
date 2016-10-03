@@ -1,5 +1,4 @@
 {
-  "lemma": "oh hey",
   "examples": [{
     "text": "oh hey and English?"
   }, {
@@ -21,12 +20,24 @@
   }, {
     "text": "Oh hey there ."
   }],
-  "status": "","editorId": "",
+  "lemma": "oh hey",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
+    "id": 2,
+    "relations": [{
+      "type": "hypernym",
+      "target": "realization: coming to understand something clearly and distinctly; 'a growing realization of the risk involved'; 'a sudden recognition of the problem he faced'; 'increasing recognition that diabetes frequently coexists with other chronic diseases' <i67401>",
+      "relNo": 1
+    }],
+    "definition": "Expression indicating realization"
+  }, {
+    "pos": "x",
+    "synonym": "hello: an expression of greeting; 'every morning they exchanged polite hellos' <i71336>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

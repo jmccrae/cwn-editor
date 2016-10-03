@@ -1,5 +1,4 @@
 {
-  "lemma": "brownskin",
   "examples": [{
     "text": "# clingart # illustration # brownskin # draw # … https : / /"
   }, {
@@ -15,12 +14,22 @@
   }, {
     "text": "brownskin appreciate tweet ?? https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "brownskin",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "black: of or belonging to a racial group especially of sub-Saharan African origin; 'a great people--a black people--...injected new meaning and dignity into the veins of civilization'- Martin Luther King Jr. <i1349>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "skin: body covering of a living animal <i45286>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "brown: (of skin) deeply suntanned <i1366>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

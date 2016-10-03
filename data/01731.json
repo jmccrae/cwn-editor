@@ -1,5 +1,4 @@
 {
-  "lemma": "ehh",
   "examples": [{
     "text": "like to be productive to a Bad Point ehh"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "dad so cute one ? ! Like u ehh ; )"
   }],
-  "status": "","editorId": "",
+  "lemma": "ehh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "eh"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

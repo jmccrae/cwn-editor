@@ -1,5 +1,4 @@
 {
-  "lemma": "*dms",
   "examples": [{
     "text": "Turn on notifs for daily dms -Anita"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "sliddin gun your DMS"
   }],
-  "status": "","editorId": "",
+  "lemma": "*dms",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "direct messages"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

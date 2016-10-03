@@ -1,5 +1,4 @@
 {
-  "lemma": "betty white",
   "examples": [{
     "text": "I love Betty White ?? https : / / t.co / 3KpF7Y0rQt"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "lmfaoo is this Betty white ? ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "betty white",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

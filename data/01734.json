@@ -1,5 +1,4 @@
 {
-  "lemma": "*goosebumps",
   "examples": [{
     "text": "And , Goosebumps arised "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Here's our # MovieReview of # GoosebumpsMovie # goosebumps https : / / t.co / T73m30WFf6 https"
   }],
-  "status": "","editorId": "",
+  "lemma": "*goosebumps",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

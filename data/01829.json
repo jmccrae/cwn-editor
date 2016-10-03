@@ -1,5 +1,4 @@
 {
-  "lemma": "spoopy",
   "examples": [{
     "text": "/ / Mangles endo is spoopy"
   }, {
@@ -15,12 +14,26 @@
   }, {
     "text": "too spoopy for me"
   }],
-  "status": "","editorId": "",
+  "lemma": "*spoopy (+spooky)",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "spooky",
+      "relNo": 4
+    }, {
+      "type": "hypernym",
+      "target": "scary: provoking fear terror; 'a scary movie'; 'the most terrible and shuddery...tales of murder and revenge' <i1043>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "funny: arousing or provoking laughter; 'an amusing film with a steady stream of pranks and pratfalls'; 'an amusing fellow'; 'a comic hat'; 'a comical look of surprise'; 'funny stories that made everybody laugh'; 'a very funny writer'; 'it would have been laughable if it hadn't hurt so much'; 'a mirthful experience'; 'risible courtroom antics' <i6914>",
+      "relNo": 1
+    }],
+    "definition": "funny and spooky at the same time"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

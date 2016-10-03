@@ -1,5 +1,4 @@
 {
-  "lemma": "oii",
   "examples": [{
     "text": "Oii oii"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "thxchildren oii # Lovatics # BestFanArmy # iHeartAwards"
   }],
-  "status": "","editorId": "",
+  "lemma": "oii",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "oi"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

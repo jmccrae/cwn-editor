@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck no",
   "examples": [{
     "text": "FUCK NO https : / / t.co / OZaXlTCRir"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "to move to Florida with him i said fuck no"
   }],
-  "status": "","editorId": "",
+  "lemma": "fuck no",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

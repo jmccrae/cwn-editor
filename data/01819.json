@@ -1,5 +1,4 @@
 {
-  "lemma": "rahma",
   "examples": [{
     "text": "19 years old rahma has no functional limbs? https : / /"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "... no sin is too big for the Rahma of Allah. \\ ❤\""
   }],
-  "status": "","editorId": "",
+  "lemma": "rahma",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

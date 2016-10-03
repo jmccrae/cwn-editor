@@ -1,5 +1,4 @@
 {
-  "lemma": "bloop",
   "examples": [{
     "text": "A new favorite : Surface Music On Bloop - Hector Couto ( Guest Mix ) /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "technically outside international baggage bloop"
   }],
-  "status": "","editorId": "",
+  "lemma": "bloop",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "beep: a short high tone produced as a signal or warning <i75458>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

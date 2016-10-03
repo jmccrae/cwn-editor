@@ -1,5 +1,4 @@
 {
-  "lemma": "almost here",
   "examples": [{
     "text": "katie is almost here ! !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Its almost here . Keyana turns 18 , in 52 minute"
   }],
-  "status": "","editorId": "",
+  "lemma": "almost here",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

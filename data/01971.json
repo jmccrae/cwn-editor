@@ -1,5 +1,4 @@
 {
-  "lemma": "mind blowing",
   "examples": [{
     "text": "What a mind blowing match . Nail biting finish by"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Sex positions for Mind Blowing Orgasms https : / / t.co / 3F7cGAR7Cm"
   }],
-  "status": "","editorId": "",
+  "lemma": "mind blowing",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "mind-blowing: intensely affecting the mind or emotions; 'spending a week in the jungle was a mind-blowing experience'; 'a mind-blowing horror story' <i4700>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

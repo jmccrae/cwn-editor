@@ -1,5 +1,4 @@
 {
-  "lemma": "i miss him",
   "examples": [{
     "text": "I miss him like crazy ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I miss him ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "i miss him",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

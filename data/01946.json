@@ -1,5 +1,4 @@
 {
-  "lemma": "no words",
   "examples": [{
     "text": "I have no words for jalon"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Dear you make me so happy and no words could truly express how much I love you"
   }],
-  "status": "","editorId": "",
+  "lemma": "no words",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

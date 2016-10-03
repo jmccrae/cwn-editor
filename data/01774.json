@@ -1,5 +1,4 @@
 {
-  "lemma": "dab on",
   "examples": [{
     "text": "forever waiting for peyton to dab on cam"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Ill dab on you like its 1989"
   }],
-  "status": "","editorId": "",
+  "lemma": "dab",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "dance: taking a series of rhythmical steps (and movements) in time to music <i37654>",
+      "relNo": 1
+    }],
+    "definition": "a dance move in which the dancer simultaneously drops the head while raising an arm and the elbow in a gesture that has been noted to resemble sneezing"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

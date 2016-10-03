@@ -1,5 +1,4 @@
 {
-  "lemma": "live at",
   "examples": [{
     "text": "Chris Brown - Nicki Minaj | Listen It Live At : https : / / t.co / mdaVBEZc3F"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Call of Duty® : Black Ops III ) live at https : / / t.co / 7BbDCwHfbY"
   }],
-  "status": "","editorId": "",
+  "lemma": "live at",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

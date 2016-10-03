@@ -1,5 +1,4 @@
 {
-  "lemma": "ya boy",
   "examples": [{
     "text": "hit ya boy up if yall wanna revive ur dead ones"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "don't worry ya boy has all the T?☕️"
   }],
-  "status": "","editorId": "",
+  "lemma": "ya boy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "your boy"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

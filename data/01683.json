@@ -1,5 +1,4 @@
 {
-  "lemma": "no bitch",
   "examples": [{
     "text": "Ion got no bitch or relationship because I'm in love with money"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Trust No Bitch With Your Nigga & amp ; Trust No"
   }],
-  "status": "","editorId": "",
+  "lemma": "no bitch",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

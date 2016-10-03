@@ -1,5 +1,4 @@
 {
-  "lemma": "smashin",
   "examples": [{
     "text": "look deeper if u don't want to be smashin diseases"
   }, {
@@ -15,12 +14,22 @@
   }, {
     "text": "Smashin # andyousnowdat https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "smash",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "sleep together: have sexual intercourse with; 'This student sleeps with everyone in her dorm'; 'Adam knew Eve'; 'Were you ever intimate with this man?' <i28863>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "domain_region",
+      "target": "AAVE: a nonstandard form of American English characteristically spoken by African Americans in the United States <i73106>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "smash: collide or strike violently and suddenly; 'The motorcycle smashed into the guard rail' <i29537>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

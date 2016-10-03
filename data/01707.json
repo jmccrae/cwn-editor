@@ -1,5 +1,4 @@
 {
-  "lemma": "superfood",
   "examples": [{
     "text": "Athletic Greens Review - Health And Energy superfood drink overview https : / / t.co /"
   }, {
@@ -21,12 +20,26 @@
   }, {
     "text": "Green superfood smoothie https : / / t.co / QraRrzTI8M"
   }],
-  "status": "","editorId": "",
+  "lemma": "superfood",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "food: any solid substance (as opposed to liquid) that is used as a source of nourishment; 'food and drink' <i76470>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "super: to an extreme degree; 'extremely cold'; 'extremely unpleasant'; 'she is super smart'; 'the night was deathly cold'; 'as a child, I was deathly afraid of snakes' <i18410>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "food: any solid substance (as opposed to liquid) that is used as a source of nourishment; 'food and drink' <i76470>",
+      "relNo": 1
+    }],
+    "definition": "a food with health benefits"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

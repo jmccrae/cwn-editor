@@ -1,5 +1,4 @@
 {
-  "lemma": "spazzed",
   "examples": [{
     "text": "Wiz SPAZZED on that joint"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Just spazzed out on a freestyle ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "spaz",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "spaz <00994>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

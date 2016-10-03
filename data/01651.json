@@ -1,5 +1,4 @@
 {
-  "lemma": "might as well",
   "examples": [{
     "text": "& amp ; might as well do a song together https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "The minimum specs are a bit scary . Might as well custom build !"
   }],
-  "status": "","editorId": "",
+  "lemma": "might as well",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

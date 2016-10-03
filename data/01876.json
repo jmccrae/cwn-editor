@@ -1,5 +1,4 @@
 {
-  "lemma": "*beasting",
   "examples": [{
     "text": "lacinato ) kale ? I love it ... beasting this … https : / / t.co /"
   }, {
@@ -15,12 +14,18 @@
   }, {
     "text": "Von Miller Beasting out there # mvp"
   }],
-  "status": "","editorId": "",
+  "lemma": "beast",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "excel at: be good at; 'She shines at math' <i35033>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "beast: a living organism characterized by voluntary movement <i35563>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

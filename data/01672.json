@@ -1,5 +1,4 @@
 {
-  "lemma": "my dad",
   "examples": [{
     "text": "i have German.. My dad from Germany.. But me supporting other races' means"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Litterally every time my dad starts a conversation with , \\ Got a\""
   }],
-  "status": "","editorId": "",
+  "lemma": "my dad",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

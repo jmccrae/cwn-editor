@@ -1,5 +1,4 @@
 {
-  "lemma": "michael clifford",
   "examples": [{
     "text": "Michael Clifford is beautiful"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "@ Michael Clifford do a follow spree # BestFanArmy # 5SOSFam"
   }],
-  "status": "","editorId": "",
+  "lemma": "michael clifford",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

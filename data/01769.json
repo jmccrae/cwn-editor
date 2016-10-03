@@ -1,5 +1,4 @@
 {
-  "lemma": "get em",
   "examples": [{
     "text": "GO GET EM BERNIE . # VoteTogether https : / /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "get em together sis , i aint mad atcha "
   }],
-  "status": "","editorId": "",
+  "lemma": "get em",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

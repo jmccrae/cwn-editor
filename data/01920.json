@@ -1,5 +1,4 @@
 {
-  "lemma": "bombest",
   "examples": [{
     "text": "I'm eating the bombest ofada rice right now and the world doesn't"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "point tho wow taemin's bffs are literally the bombest im srsly in pain"
   }],
-  "status": "","editorId": "",
+  "lemma": "bombest",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "r",
+    "synonym": "best: (superlative of `good') having the most positive qualities; 'the best film of the year'; 'the best solution'; 'the best time for planting'; 'wore his best suit' <i1251>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

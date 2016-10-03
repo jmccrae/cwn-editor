@@ -1,5 +1,4 @@
 {
-  "lemma": "common core",
   "examples": [{
     "text": "Check out Everything you should know about Common Core in under 2 minutes from https : /"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Making the Common Core Writing Standards Accessible Through Universal Design for https"
   }],
-  "status": "","editorId": "",
+  "lemma": "common core",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

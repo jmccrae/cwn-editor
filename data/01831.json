@@ -1,5 +1,4 @@
 {
-  "lemma": "baboy",
   "examples": [{
     "text": "miss you baboy ko"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "hoPIA BABOY ? # bored https : / / t.co"
   }],
-  "status": "","editorId": "",
+  "lemma": "baboy",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "hongki",
   "examples": [{
     "text": "Hongki : I'm no longer bother about my weight"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Hongki : Let's sing with me & amp ;"
   }],
-  "status": "","editorId": "",
+  "lemma": "hongki",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

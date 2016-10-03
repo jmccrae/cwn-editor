@@ -1,5 +1,4 @@
 {
-  "lemma": "hokage",
   "examples": [{
     "text": "I also figured out how to use hokage kakashi lmao"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "r65L7pvFQs ●SC | ONLINE BATTLE # 7 - HOKAGE KAKASHI VS ITACHI | NARUTO STORM"
   }],
-  "status": "","editorId": "",
+  "lemma": "hokage",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

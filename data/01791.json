@@ -1,5 +1,4 @@
 {
-  "lemma": "happy place",
   "examples": [{
     "text": "happiness 24 / 7 . You are my happy place , my home "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "gym = happy place"
   }],
-  "status": "","editorId": "",
+  "lemma": "happy place",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

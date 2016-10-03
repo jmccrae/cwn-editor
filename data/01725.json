@@ -1,5 +1,4 @@
 {
-  "lemma": "happy day",
   "examples": [{
     "text": "happy day all https : / / t.co / qooLgX0XHV"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "much for following & lt ; 3 . Happy Day !"
   }],
-  "status": "","editorId": "",
+  "lemma": "happy day",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

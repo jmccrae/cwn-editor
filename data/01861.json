@@ -1,5 +1,4 @@
 {
-  "lemma": "padmé",
   "examples": [{
     "text": "“ It's horrible.. ” Padmé trailed off before she let out a soft"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Padmé :"
   }],
-  "status": "","editorId": "",
+  "lemma": "padmé",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

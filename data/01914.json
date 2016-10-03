@@ -1,5 +1,4 @@
 {
-  "lemma": "jorts",
   "examples": [{
     "text": "Gunkst - Jorts / Scrapes https : / / t.co /"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "YOU WANNA DIE JORTS HATER ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "jorts",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

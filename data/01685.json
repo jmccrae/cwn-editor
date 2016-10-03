@@ -1,5 +1,4 @@
 {
-  "lemma": "johnny depp",
   "examples": [{
     "text": "Johnny Depp to star in ‘ Invisible Man ’ reboot"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Johnny Depp as Captain Jack Sparrow in Pirates of the"
   }],
-  "status": "","editorId": "",
+  "lemma": "johnny depp",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

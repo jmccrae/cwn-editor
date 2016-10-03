@@ -1,5 +1,4 @@
 {
-  "lemma": "home alone",
   "examples": [{
     "text": "some are abroad so I'll just sit at home alone nice11111111"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "https : / / t.co / 4xqrAhpyz9 \\ HOME ALONE \\\"\" ft Pieter T 4rm New Zealand #\""
   }],
-  "status": "","editorId": "",
+  "lemma": "home alone",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "kendall jenner",
   "examples": [{
     "text": "Kendall Jenner admits she used to skip school ... but"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Kendall Jenner Wants to Shoot the Paparazzi ( Sort Of"
   }],
-  "status": "","editorId": "",
+  "lemma": "kendall jenner",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

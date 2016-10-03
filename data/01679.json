@@ -1,5 +1,4 @@
 {
-  "lemma": "sorry not sorry",
   "examples": [{
     "text": "Sorry not sorry"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Sorry not sorry ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "sorry not sorry",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

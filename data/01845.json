@@ -1,5 +1,4 @@
 {
-  "lemma": "twimbos",
   "examples": [{
     "text": "our cricket team in Zimbabwe # 263chat # Twimbos"
   }, {
@@ -15,12 +14,34 @@
   }, {
     "text": "# Twimbos so you have been sexually active the whole"
   }],
-  "status": "","editorId": "",
+  "lemma": "twimbos",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "hypernym",
+      "target": "slut: a woman adulterer <i88094>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "twin: either of two offspring born at the same time from the same pregnancy <i93814>",
+      "relNo": 3
+    }, {
+      "type": "hypernym",
+      "target": "twin: either of two offspring born at the same time from the same pregnancy <i93814>",
+      "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "bimbo: a young woman indulged by rich and powerful older men <i88568>",
+      "relNo": 4
+    }, {
+      "type": "domain_topic",
+      "target": "pornography: creative activity (writing or pictures or films etc.) of no literary or artistic value other than to stimulate sexual desire <i39363>",
+      "relNo": 5
+    }],
+    "definition": "a pair of twins, who are sexually promiscuous"
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

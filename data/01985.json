@@ -1,5 +1,4 @@
 {
-  "lemma": "homies",
   "examples": [{
     "text": "on here more and more and now we homies , i keep in contsct sith my middl"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Rollin with my homies ⛸⛸"
   }],
-  "status": "","editorId": "",
+  "lemma": "homie",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "homeboy: a male friend from your neighborhood or hometown <i90541>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "but yeah",
   "examples": [{
     "text": "you're a park ranger / firefighter kinda thing but yeah lol"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I was sticking with music but yeah , a few of the biggest Latina star"
   }],
-  "status": "","editorId": "",
+  "lemma": "but yeah",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

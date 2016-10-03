@@ -1,5 +1,4 @@
 {
-  "lemma": "ilym",
   "examples": [{
     "text": "ilym ??"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Ilym"
   }],
-  "status": "","editorId": "",
+  "lemma": "ilym",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "I love your more"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

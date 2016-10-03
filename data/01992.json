@@ -1,5 +1,4 @@
 {
-  "lemma": "*sneakily",
   "examples": [{
     "text": "AV vendor : okay , we'll sneakily replace Chrome with malware https : / "
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Sneakily trying to get off the bed so that"
   }],
-  "status": "","editorId": "",
+  "lemma": "*sneakily",
   "senses": [{
-    "pos": "",
-    "synonym": "00473730-r (in a surreptitious manner; \\\"\"he was watching her surreptitiously as she waited in the hotel lobby\\\"\"",
+    "pos": "r",
+    "synonym": "sneakily: in a surreptitious manner; 'he was watching her surreptitiously as she waited in the hotel lobby' <i21414>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

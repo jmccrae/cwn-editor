@@ -1,5 +1,4 @@
 {
-  "lemma": "m8s",
   "examples": [{
     "text": "[ 2016 Latest TV Box ] Bros Unite M8S TV Box Amlogic S812 … https : /"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "pic . https : / / t.co / m8S …"
   }],
-  "status": "","editorId": "",
+  "lemma": "m8s",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "mates"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

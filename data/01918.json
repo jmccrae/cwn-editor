@@ -1,5 +1,4 @@
 {
-  "lemma": "family-friendly",
   "examples": [{
     "text": "is STANDARD POODLE ALLAYAH F . ALLAYAH is family-friendly and beautiful . https : / / t.co"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Parental Advisory : Choose your adventure : Five family-friendly Florida campgrounds - Naples Daily News https :"
   }],
-  "status": "","editorId": "",
+  "lemma": "family-friendly",
   "senses": [{
-    "pos": "",
+    "pos": "a",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

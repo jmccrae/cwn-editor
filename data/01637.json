@@ -1,5 +1,4 @@
 {
-  "lemma": "smoke weed",
   "examples": [{
     "text": "you can succeed and smoke weed"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "just don't know how to tell it , smoke weed to ease the pain if I ain't smokin"
   }],
-  "status": "","editorId": "",
+  "lemma": "smoke weed",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

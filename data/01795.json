@@ -1,5 +1,4 @@
 {
-  "lemma": "lil bit",
   "examples": [{
     "text": "I hopped a lil bit lmao"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "makes me feel a lil pretty for that lil bit ! ? but You cute and a hooper"
   }],
-  "status": "","editorId": "",
+  "lemma": "lil bit",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "little bit"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

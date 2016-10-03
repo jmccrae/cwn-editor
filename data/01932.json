@@ -1,5 +1,4 @@
 {
-  "lemma": "i want that",
   "examples": [{
     "text": "i want that wig , motherfuck yo hairdo ??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "I say , everytime I get near you I want that old thing bac"
   }],
-  "status": "","editorId": "",
+  "lemma": "i want that",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

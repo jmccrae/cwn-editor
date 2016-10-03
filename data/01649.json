@@ -1,5 +1,4 @@
 {
-  "lemma": "wkend",
   "examples": [{
     "text": "Have a awesome wkend Jimmy ! Hopefully weather's still beautiful when u"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "How's your wkend"
   }],
-  "status": "","editorId": "",
+  "lemma": "wkend",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "weekend"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

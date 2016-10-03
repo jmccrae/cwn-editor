@@ -1,5 +1,4 @@
 {
-  "lemma": "i know but",
   "examples": [{
     "text": "lmao I know but I actually like my schedule this semester ??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i know but i just noticed your usernajjkwjs"
   }],
-  "status": "","editorId": "",
+  "lemma": "i know but",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

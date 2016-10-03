@@ -1,5 +1,4 @@
 {
-  "lemma": "suga",
   "examples": [{
     "text": "방탄소년단 # BTS # yoonmin # yoongi # suga # jimin # pocky # dead https :"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "talk about when they were all running and Suga looked like this cute marshmallow running with them"
   }],
-  "status": "","editorId": "",
+  "lemma": "suga",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

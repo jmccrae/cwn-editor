@@ -1,5 +1,4 @@
 {
-  "lemma": "fitspiration",
   "examples": [{
     "text": "# Diet # Fitspiration # FatLoss # Fit No 1 Fat Cutter"
   }, {
@@ -15,12 +14,30 @@
   }, {
     "text": "# Diet # Fitspiration # FatLoss # Fit Should I drink a"
   }],
-  "status": "","editorId": "",
+  "lemma": "fitspiration",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "domain_topic",
+      "target": "dieting: the act of restricting your food intake (or your intake of particular foods) <i41022>",
+      "relNo": 4
+    }, {
+      "type": "derivation",
+      "target": "inspiration: arousal of the mind to special unusual activity or creativity <i67536>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "fit: physically and mentally sound or healthy; 'felt relaxed and fit after their holiday'; 'keeps fit with diet and exercise' <i5565>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "inspiration: arousal of the mind to special unusual activity or creativity <i67536>",
+      "relNo": 1
+    }],
+    "definition": "something that inspires you to exercise"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

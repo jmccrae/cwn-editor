@@ -1,5 +1,4 @@
 {
-  "lemma": "gunna be",
   "examples": [{
     "text": "from not being able to afford food ! gunna be lit !"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "you bitches will ever compare , it's always gunna be me "
   }],
-  "status": "","editorId": "",
+  "lemma": "gunna be",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "going to be"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

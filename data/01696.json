@@ -1,5 +1,4 @@
 {
-  "lemma": "lit af",
   "examples": [{
     "text": "lit af ??"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ", so my night is about to be lit af ??"
   }],
-  "status": "","editorId": "",
+  "lemma": "lit af",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "a",
+    "synonym": "high: a state of altered consciousness induced by alcohol or narcotics; 'they took drugs to get a high on' <i112708>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

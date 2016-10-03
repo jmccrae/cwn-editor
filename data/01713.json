@@ -1,5 +1,4 @@
 {
-  "lemma": "*literally",
   "examples": [{
     "text": "THATS LITERALLY YOU OMFG"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Today has literally went from terrible to the worst day of"
   }],
-  "status": "","editorId": "",
+  "lemma": "*literally",
   "senses": [{
-    "pos": "",
-    "synonym": "00112012-r ((intensifier before a figurative expression) without exaggeration; \\\"\"our eyes were literally pinned to TV during the Gulf War\\\"\");00341857-r (in a literal sense; \\\"\"literally translated\\\"\"; \\\"\"he said so literally\\\"\"",
+    "pos": "r",
+    "synonym": "literally: (intensifier before a figurative expression) without exaggeration; 'our eyes were literally pinned to TV during the Gulf War' <i18844>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

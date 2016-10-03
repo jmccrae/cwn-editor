@@ -1,5 +1,4 @@
 {
-  "lemma": "*get well",
   "examples": [{
     "text": "Get well soon Esther ?"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Oh feel better get well soon , ain't it great having our ow"
   }],
-  "status": "","editorId": "",
+  "lemma": "*get well",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "00268897-v (improve in health; \\\"\"He got well fast\\\"\"",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

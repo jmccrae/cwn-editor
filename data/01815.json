@@ -1,5 +1,4 @@
 {
-  "lemma": "shart",
   "examples": [{
     "text": "i like to shart in my pants"
   }, {
@@ -15,12 +14,26 @@
   }, {
     "text": "Did Phil Simms just say Shart ? ? I think he did ! I"
   }],
-  "status": "","editorId": "",
+  "lemma": "shart",
   "senses": [{
-    "pos": "",
+    "pos": "v",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "shit: a coarse term for defecation; 'he took a shit' <i107946>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "fart: expel intestinal gases through the anus <i22281>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "defecate: have a bowel movement; 'The dog had made in the flower beds' <i22143>",
+      "relNo": 1
+    }],
+    "definition": "to intend to release flatulence but actually defecate"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

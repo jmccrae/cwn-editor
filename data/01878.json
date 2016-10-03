@@ -1,5 +1,4 @@
 {
-  "lemma": "nahhhhh",
   "examples": [{
     "text": "be you should read the instruct- \\ NAHHHHH I got this ! ! ! ! \\\"\"\""
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Nahhhhh she's gona be sick when she realizes she"
   }],
-  "status": "","editorId": "",
+  "lemma": "nahhhhh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "no"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

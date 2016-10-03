@@ -1,5 +1,4 @@
 {
-  "lemma": "fucking good",
   "examples": [{
     "text": "1 ) It's really fucking good"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "HE LOOKS SO FUCKING GOOD HE MAKES ME CRY"
   }],
-  "status": "","editorId": "",
+  "lemma": "fucking good",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

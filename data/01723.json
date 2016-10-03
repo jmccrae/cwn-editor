@@ -1,5 +1,4 @@
 {
-  "lemma": "the homie",
   "examples": [{
     "text": "the homie"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Tune in to catch the homie on"
   }],
-  "status": "","editorId": "",
+  "lemma": "the homie",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

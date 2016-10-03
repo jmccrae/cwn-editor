@@ -1,5 +1,4 @@
 {
-  "lemma": "your mum",
   "examples": [{
     "text": "When you ask your mum to get something from the shop and she"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Hey did your mum and Lynn do this to you guys ?"
   }],
-  "status": "","editorId": "",
+  "lemma": "your mum",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

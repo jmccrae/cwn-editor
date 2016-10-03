@@ -1,5 +1,4 @@
 {
-  "lemma": "yalla",
   "examples": [{
     "text": "yalla back ✌✌"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "Yalla bk"
   }],
-  "status": "","editorId": "",
+  "lemma": "yalla",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "loanword",
+      "target": "Arabic: the Semitic language of the Arabs; spoken in a variety of dialects <i73365>",
+      "relNo": 2
+    }, {
+      "type": "emotion",
+      "target": "hurry: the act of moving hurriedly and in a careless manner; 'in his haste to leave he forgot his book' <i38314>",
+      "relNo": 1
+    }],
+    "definition": "Expression asking the other party to come quickly"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

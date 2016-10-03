@@ -1,5 +1,4 @@
 {
-  "lemma": "gnite",
   "examples": [{
     "text": "Everything about today sucked , gnit"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "gnite paul sweet dreams see you tonight / tomorrow"
   }],
-  "status": "","editorId": "",
+  "lemma": "gnite",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "good night"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

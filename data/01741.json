@@ -1,5 +1,4 @@
 {
-  "lemma": "senioritis",
   "examples": [{
     "text": "dude I know ... I though high school senioritis is bad lol"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "Me when I won worst case of senioritis https : / / t.co / JuTbwJ4vNX"
   }],
-  "status": "","editorId": "",
+  "lemma": "senioritis",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "derivation",
+      "target": "senior: an undergraduate student during the year preceding graduation <i92872>",
+      "relNo": 2
+    }, {
+      "type": "hypernym",
+      "target": "tiredness: temporary loss of strength and energy resulting from hard physical or mental work; 'he was hospitalized for extreme fatigue'; 'growing fatigue was apparent from the decline in the execution of their athletic skills'; 'weariness overcame her after twelve hours and she fell asleep' <i110590>",
+      "relNo": 1
+    }],
+    "definition": "tiredness with the final year of high school"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

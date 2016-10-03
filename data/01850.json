@@ -1,5 +1,4 @@
 {
-  "lemma": "m'lady",
   "examples": [{
     "text": "it's like the fedora-wearing m'lady activists created Chu in a lab"
   }, {
@@ -15,20 +14,22 @@
   }, {
     "text": "Good Night ... sweet dreams M'Lady I gotta go to sleep .... Superbowl 2"
   }],
-  "status": "","editorId": "",
+  "lemma": "m'lady",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
-      "type": "none",
-      "target": "lady=10008828-n (a woman of refinement; \\\"\"a chauffeur opened the door of the limousine for the grand lady\\\"\");10262834-n (a polite name for any woman; \\\"\"a nice lady at the library helped me\\\"\"",
+      "type": "hypernym",
+      "target": "hello: an expression of greeting; 'every morning they exchanged polite hellos' <i71336>",
       "relNo": 0
     }, {
-      "type": "none",
-      "target": "my=",
+      "type": "derivation",
+      "target": "lady: a polite name for any woman; 'a nice lady at the library helped me' <i90899>",
       "relNo": 1
     }],
-    "definition": "A contracted form of my lady."
-  }]
+    "definition": "a polite but old-fashioned greeting to a woman"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

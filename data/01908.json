@@ -1,5 +1,4 @@
 {
-  "lemma": "getcho",
   "examples": [{
     "text": "getcho girl https : / / t.co / F3aytuVOcr"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "shit talkin fa fame ion do it . Getcho ass X'd out ion do NO talkin ."
   }],
-  "status": "","editorId": "",
+  "lemma": "getcho",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "get your"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "shotty",
   "examples": [{
     "text": "the chaingun is a better pistol , shotty and SSG have different application"
   }, {
@@ -15,12 +14,18 @@
   }, {
     "text": ". Such a shame their contractor is so shotty w their implementation . https : / /"
   }],
-  "status": "","editorId": "",
+  "lemma": "shotty",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "shotgun: firearm that is a double-barreled smoothbore shoulder weapon for firing shot at short ranges <i58856>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "shotgun: firearm that is a double-barreled smoothbore shoulder weapon for firing shot at short ranges <i58856>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

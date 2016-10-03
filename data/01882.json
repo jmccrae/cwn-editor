@@ -1,5 +1,4 @@
 {
-  "lemma": "*avant-garde",
   "examples": [{
     "text": "Trendy htc an v avant-garde the buy and sell : LOrypxda"
   }, {
@@ -15,16 +14,14 @@
   }, {
     "text": "Starcraft and numbers separated courses proclaim been opened avant-garde orient. : PUNWkMug"
   }],
-  "status": "","editorId": "",
+  "lemma": "*avant-garde",
   "senses": [{
-    "pos": "",
-    "synonym": "08482569-n (any creative group active in the innovation and application of new concepts and techniques in a given field (especially in the arts));01691548-a (radically new or original; \\\"\"an avant-garde theater piece\\\"\"",
+    "pos": "a",
+    "synonym": "avant-garde: radically new or original; 'an avant-garde theater piece' <i9237>",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "vanguard=06219154-n (the position of greatest importance or advancement; the leading position in any movement or field; \\\"\"the Cotswolds were once at the forefront of woollen manufacturing in England\\\"\"; \\\"\"the idea of motion was always to the forefront of his mind and central to his philosophy\\\"\");08232416-n (the leading units moving at the head of an army);08482569-n (any creative group active in the innovation and application of new concepts and techniques in a given field (especially in the arts)",
-      "relNo": 0
-    }],
-    "definition": " The vanguard of an army or other force."
-  }]
+    "relations": [],
+    "definition": ""
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

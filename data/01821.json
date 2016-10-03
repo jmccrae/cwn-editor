@@ -1,5 +1,4 @@
 {
-  "lemma": "motherfucka",
   "examples": [{
     "text": "Do I look friendly motherfucka"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "u a Lyin motherfucka ???????"
   }],
-  "status": "","editorId": "",
+  "lemma": "motherfucka",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "motherfucker"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

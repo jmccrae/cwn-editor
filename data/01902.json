@@ -1,5 +1,4 @@
 {
-  "lemma": "ghatiya",
   "examples": [{
     "text": "The one who was using ghatiya photos and tweets ! Josh men banda hosh"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "# shoppersstop ghatiya suit discolored in 6 months without washin.waitn fr"
   }],
-  "status": "","editorId": "",
+  "lemma": "ghatiya",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "ah yes",
   "examples": [{
     "text": "Ah yes . Dream come true https : / /"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "\\ G-g-g-g-g-g-ilmour , ah yes . It's a-a-a-a-a-a-a-a \\\"\"\""
   }],
-  "status": "","editorId": "",
+  "lemma": "ah yes",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
-    "relations": [],
-    "definition": ""
-  }]
+    "relations": [{
+      "type": "emotion",
+      "target": "confirmation: making something valid by formally ratifying or confirming it; 'the ratification of the treaty'; 'confirmation of the appointment' <i74384>",
+      "relNo": 1
+    }],
+    "definition": "Expression of confirmation"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "reyt",
   "examples": [{
     "text": "you love that commute , reyt glad I got out of that shit "
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Tha nors it's reyt ✌ https : / / t.co / KzhbpRpEOb"
   }],
-  "status": "","editorId": "",
+  "lemma": "reyt",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "right"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

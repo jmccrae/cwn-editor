@@ -1,5 +1,4 @@
 {
-  "lemma": "stoked",
   "examples": [{
     "text": "hoping they have it fixed soon . # STOKED"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "Stoked that my neighbours are considerate enough not to"
   }],
-  "status": "","editorId": "",
+  "lemma": "stoked",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "excited: marked by uncontrolled excitement or emotion; 'a crowd of delirious baseball fans'; 'something frantic in their gaiety'; 'a mad whirl of pleasure' <i13236>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "stoke: stir up or tend; of a fire <i33921>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

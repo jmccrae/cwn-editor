@@ -1,5 +1,4 @@
 {
-  "lemma": "porra",
   "examples": [{
     "text": "Larry is real porra ?"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "é o caralho ! Aki é # The100 porra !"
   }],
-  "status": "","editorId": "",
+  "lemma": "porra",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

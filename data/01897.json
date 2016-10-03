@@ -1,5 +1,4 @@
 {
-  "lemma": "ygm",
   "examples": [{
     "text": "so I'll feel grim if i unfollow them ygm"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "\\ so she's not copying someone else's art ygm\""
   }],
-  "status": "","editorId": "",
+  "lemma": "ygm",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "you get me"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

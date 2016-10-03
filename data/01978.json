@@ -1,5 +1,4 @@
 {
-  "lemma": "my team",
   "examples": [{
     "text": "My team is 110 % RIGHT"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": ", and that I wasn't getting roasted for my team Jordan'"
   }],
-  "status": "","editorId": "",
+  "lemma": "my team",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

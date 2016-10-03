@@ -1,5 +1,4 @@
 {
-  "lemma": "fakin",
   "examples": [{
     "text": "has ever put money in my pocket ✋? fakin like shit"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "These girls fakin"
   }],
-  "status": "","editorId": "",
+  "lemma": "fakin",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "faking"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

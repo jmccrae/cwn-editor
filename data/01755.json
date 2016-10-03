@@ -1,5 +1,4 @@
 {
-  "lemma": "binging",
   "examples": [{
     "text": "All I've been doing is binging and videos ... What has become of me"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "don't worry , I'll probably be binging on you after lent "
   }],
-  "status": "","editorId": "",
+  "lemma": "binge",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "binge <00000reddit067>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

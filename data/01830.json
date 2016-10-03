@@ -1,5 +1,4 @@
 {
-  "lemma": "bitchez",
   "examples": [{
     "text": "LUCKY YU DIDNT GET DAT EAST COAST SNOW BITCHEZ"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "bitchez b blowin me lmao # mindyabusiness"
   }],
-  "status": "","editorId": "",
+  "lemma": "bitchez",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "bitches"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

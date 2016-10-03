@@ -1,5 +1,4 @@
 {
-  "lemma": "whoopin",
   "examples": [{
     "text": "to the stairs i cam back you was whoopin ha ass ???"
   }, {
@@ -17,12 +16,14 @@
   }, {
     "text": "Just whoopin ass in fifa"
   }],
-  "status": "","editorId": "",
+  "lemma": "whoopin",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "n",
+    "synonym": "whoop <01214-1>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "tbf",
   "examples": [{
     "text": "tbf Chelsea were all over us last 10 minutes"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Loooool shegged before its started . Tbf Valencia don't win , Munir might get "
   }],
-  "status": "","editorId": "",
+  "lemma": "tbf",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "to be fair"
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

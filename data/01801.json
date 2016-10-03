@@ -1,5 +1,4 @@
 {
-  "lemma": "waaaah",
   "examples": [{
     "text": "was Steve King going , \\ waa , waaaah ... \\\"\" then RestartingSparky with his ~faaabulous~ idea\""
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "Waaaah ! ! ! Napan da naki fiesta Laoag"
   }],
-  "status": "","editorId": "",
+  "lemma": "waaaah",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "wah"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

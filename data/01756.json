@@ -1,5 +1,4 @@
 {
-  "lemma": "your dad",
   "examples": [{
     "text": "when Pepe isn't your dad https : / / t.co / Owt09cnbEp"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "in ... my dad Sam , and in your dad Cas too ......"
   }],
-  "status": "","editorId": "",
+  "lemma": "your dad",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

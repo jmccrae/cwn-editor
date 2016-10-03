@@ -1,5 +1,4 @@
 {
-  "lemma": "arsenal fans",
   "examples": [{
     "text": "And here come the Arsenal fans again.."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "???? stupid clown Arsenal fans https : / / t.co / WQplI1ANAC"
   }],
-  "status": "","editorId": "",
+  "lemma": "arsenal fans",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "qha",
   "examples": [{
     "text": "# HitnRun Qha ! https : / / t.co / bwEq7qItvV"
   }, {
@@ -15,16 +14,14 @@
   }, {
     "text": "in then by sending lalink to your contacts qha"
   }],
-  "status": "","editorId": "",
+  "lemma": "qha",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
-    "relations": [{
-      "type": "none",
-      "target": "water=00069341-v (secrete or form water, as tears or saliva; \\\"\"My mouth watered at the prospect of a good dinner\\\"\"; \\\"\"His eyes watered\\\"\");00228662-v (supply with water, as with channels or ditches or streams; \\\"\"Water the fields\\\"\");00453053-v (fill with tears; \\\"\"His eyes were watering\\\"\");02362872-v (provide with water; \\\"\"We watered the buffalo\\\"\");04569944-n (a facility that provides a source of water; \\\"\"the town debated the purification of the water supply\\\"\"; \\\"\"first you have to cut off the water\\\"\");07951744-n (a liquid necessary for the life of most animals and plants; \\\"\"he asked for a drink of water\\\"\");09248053-n (the part of the earth's surface covered with water (such as a river or lake or ocean); \\\"\"they invaded our territorial waters\\\"\"; \\\"\"they were sitting by the water's edge\\\"\");14869913-n (binary compound that occurs at room temperature as a clear colorless odorless tasteless liquid; freezes into ice below 0 degrees centigrade and boils above 100 degrees centigrade; widely used as a solvent);14871527-n (once thought to be one of four elements composing the universe (Empedocles));14879875-n (liquid excretory product; \\\"\"there was blood in his urine\\\"\"; \\\"\"the child had to make water\\\"\"",
-      "relNo": 0
-    }],
+    "relations": [],
     "definition": "water"
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

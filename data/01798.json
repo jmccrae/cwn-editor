@@ -1,5 +1,4 @@
 {
-  "lemma": "drose",
   "examples": [{
     "text": "Jimmy butler doing his best drose impersonation"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "I'm a big Drose fan but next year , he better ge"
   }],
-  "status": "","editorId": "",
+  "lemma": "drose",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "doing homework",
   "examples": [{
     "text": "our future life goals when I should be doing homework . ????"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "* Stalks people while doing homework *"
   }],
-  "status": "","editorId": "",
+  "lemma": "doing homework",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "college education",
   "examples": [{
     "text": "Me : I'm being overcharged for a college education"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Me : I'm being overcharged for a college education"
   }],
-  "status": "","editorId": "",
+  "lemma": "college education",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

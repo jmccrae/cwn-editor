@@ -1,5 +1,4 @@
 {
-  "lemma": "changing lanes",
   "examples": [{
     "text": "Changing lanes in the middle of a project is nothing"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "Changing lanes in the middle of a project is nothing"
   }],
-  "status": "","editorId": "",
+  "lemma": "changing lanes",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

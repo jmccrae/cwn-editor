@@ -1,5 +1,4 @@
 {
-  "lemma": "bad call",
   "examples": [{
     "text": ". Clearly and unequivocally . It was a bad call ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "go of a relationship yall both wanted so bad call me soft ima fight for what I want"
   }],
-  "status": "","editorId": "",
+  "lemma": "bad call",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

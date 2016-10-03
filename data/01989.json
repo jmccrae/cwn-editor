@@ -1,5 +1,4 @@
 {
-  "lemma": "ahhhh",
   "examples": [{
     "text": "Got our seating for the convention ☺️? # AHHHH"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "AHHHH ! one of the members I love just"
   }],
-  "status": "","editorId": "",
+  "lemma": "ahhhh",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "ah"
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

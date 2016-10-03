@@ -1,5 +1,4 @@
 {
-  "lemma": "copped",
   "examples": [{
     "text": "just copped thanks just checked my email and there it"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "i already copped two , foot locker is first come firs"
   }],
-  "status": "","editorId": "",
+  "lemma": "cop",
   "senses": [{
-    "pos": "",
-    "synonym": "",
+    "pos": "v",
+    "synonym": "cop: take by theft; 'Someone snitched my wallet!' <i33346>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

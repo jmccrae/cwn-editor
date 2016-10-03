@@ -1,5 +1,4 @@
 {
-  "lemma": "so stupid",
   "examples": [{
     "text": "would be so fun n we'd both be so stupid runnin round the kitchen tryna flip pancakes"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "this page is so stupid"
   }],
-  "status": "","editorId": "",
+  "lemma": "so stupid",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

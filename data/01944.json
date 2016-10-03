@@ -1,5 +1,4 @@
 {
-  "lemma": "shady character",
   "examples": [{
     "text": "A shady character may let you down by not following through"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "A shady character may let you down by not following through"
   }],
-  "status": "","editorId": "",
+  "lemma": "shady character",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

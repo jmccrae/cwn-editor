@@ -1,5 +1,4 @@
 {
-  "lemma": "act like",
   "examples": [{
     "text": "Don't act like you forgot ."
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "their places but when that happens they wanna act like they not gonna stand for it . Lmao"
   }],
-  "status": "","editorId": "",
+  "lemma": "act like",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

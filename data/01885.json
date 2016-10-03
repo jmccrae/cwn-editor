@@ -1,5 +1,4 @@
 {
-  "lemma": "smurfed",
   "examples": [{
     "text": "I just smurfed all over the garage ... # CupGang https"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "amazing in my # smurfsvillage ! Have you smurfed today ? https : / / t.co /"
   }],
-  "status": "","editorId": "",
+  "lemma": "smurfed",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

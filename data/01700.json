@@ -1,5 +1,4 @@
 {
-  "lemma": "no u",
   "examples": [{
     "text": "no u cannot . They can stop u at the"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "eeehh no u dont ... i do hahaha"
   }],
-  "status": "","editorId": "",
+  "lemma": "no u",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

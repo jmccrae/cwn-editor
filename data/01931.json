@@ -1,5 +1,4 @@
 {
-  "lemma": "buzzin",
   "examples": [{
     "text": "Buzzin Trades and Services Directory . Join us now"
   }, {
@@ -21,12 +20,28 @@
   }, {
     "text": "We can get your soundcloud Buzzin ! ! We Guarantee Exposure & amp ;"
   }],
-  "status": "","editorId": "",
+  "lemma": "*buzz/buzzing",
   "senses": [{
-    "pos": "",
-    "synonym": "",
-    "id": 1,
-    "relations": [],
+    "pos": "a",
+    "synonym": "excited: in an aroused state <i5035>",
+    "id": 2,
+    "relations": [{
+      "type": "derivation",
+      "target": "buzz: sound of rapid vibration; 'the buzz of a bumble bee' <i75465>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }, {
+    "pos": "v",
+    "synonym": "trip: get high, stoned, or drugged; 'He trips every weekend' <i27628>",
+    "id": 1,
+    "relations": [{
+      "type": "derivation",
+      "target": "buzz: sound of rapid vibration; 'the buzz of a bumble bee' <i75465>",
+      "relNo": 1
+    }],
+    "definition": ""
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

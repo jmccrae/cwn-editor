@@ -1,5 +1,4 @@
 {
-  "lemma": "wetin",
   "examples": [{
     "text": "kp ... see wetin we play"
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "be like * odus fell down * abeg wetin dey fall am ? Mtchewwww https : /"
   }],
-  "status": "","editorId": "",
+  "lemma": "*wetin",
   "senses": [{
-    "pos": "",
+    "pos": "x",
     "synonym": "",
     "id": 1,
     "relations": [],
-    "definition": ""
-  }]
+    "definition": "=what"
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

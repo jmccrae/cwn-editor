@@ -1,5 +1,4 @@
 {
-  "lemma": "twitpic",
   "examples": [{
     "text": "Twitpic \\ I dressed all wrong today lmao it's\""
   }, {
@@ -15,12 +14,14 @@
   }, {
     "text": "https : / / t.co / PlyFJUK9vh , twitpic and yfrog lo"
   }],
-  "status": "","editorId": "",
+  "lemma": "twitpic",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "name",
+  "editorId": "jmccrae"
 }

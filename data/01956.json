@@ -1,5 +1,4 @@
 {
-  "lemma": "excuse me",
   "examples": [{
     "text": "Excuse me sir.. https : / / t.co / vNpVQ8wFYt"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "nathan is inthe shower excuse me boy"
   }],
-  "status": "","editorId": "",
+  "lemma": "excuse me",
   "senses": [{
-    "pos": "",
+    "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "nonlex",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "flat earther",
   "examples": [{
     "text": "flat earthers preaching science ."
   }, {
@@ -7,7 +6,7 @@
   }, {
     "text": "that doesn't make sense , flat earthers believe that too "
   }],
-  "status": "novel","editorId": "",
+  "lemma": "flat earther",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -16,7 +15,17 @@
       "type": "hypernym",
       "target": "believer: a supporter who accepts something as true <i88524>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "Earth: the 3rd planet from the sun; the planet we live on; 'the Earth moves around the sun'; 'he sailed around the world' <i85350>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "flat: horizontally level; 'a flat roof' <i6745>",
+      "relNo": 1
     }],
     "definition": "a believer in a conspiracy theory, especially that the earth is flat"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

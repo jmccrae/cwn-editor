@@ -1,5 +1,4 @@
 {
-  "lemma": "hungover",
   "examples": [{
     "text": "assumed it was because we would all be hungover . \\"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "the next day on time , a little hungover albeit . i did well , but realize"
   }],
-  "status": "general","editorId": "",
+  "lemma": "hungover",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -36,5 +35,7 @@
       "relNo": 1
     }],
     "definition": "suffering the aftereffects of the use of drugs (especially alcohol)"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

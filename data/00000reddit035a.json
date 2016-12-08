@@ -1,5 +1,4 @@
 {
-  "lemma": "welp",
   "examples": [{
     "text": "better for it . the ones that don't welp . they get a mark on the wall"
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "welp , no wonder the downvotes . but the"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "welp",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -20,5 +19,7 @@
       "relNo": 0
     }],
     "definition": "An expression of sadness"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

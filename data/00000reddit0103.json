@@ -1,16 +1,21 @@
 {
-  "lemma": "legit",
   "examples": [{
     "text": "a standard chess match . i have no legit source and i'm supposed to be studying or"
   }, {
     "text": "legit question : \\"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "legit",
   "senses": [{
     "pos": "a",
     "synonym": "reliable: conforming to fact and therefore worthy of belief; 'an authentic account by an eyewitness'; 'reliable information' <i13659>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "legitimate: in accordance with recognized or accepted standards or principles; 'legitimate advertising practices' <i8953>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

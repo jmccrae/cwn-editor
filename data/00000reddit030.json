@@ -1,5 +1,4 @@
 {
-  "lemma": "social justice warrior",
   "examples": [{
     "text": "because it goes against the sjw narrative that it's only a 'tiny' minority of"
   }, {
@@ -25,12 +24,16 @@
   }, {
     "text": "asses . is this true or is he bullshitting me ?"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "social justice warrior",
   "senses": [{
     "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
+      "type": "derivation",
+      "target": "social: relating to human society and its members; 'social institutions'; 'societal evolution'; 'societal forces'; 'social legislation' <i15844>",
+      "relNo": 2
+    }, {
       "type": "pejorative",
       "target": "liberal: having political or social views favoring reform and progress <i11133>",
       "relNo": 0
@@ -38,7 +41,17 @@
       "type": "hypernym",
       "target": "activist: a militant reformer <i91356>",
       "relNo": 1
+    }, {
+      "type": "derivation",
+      "target": "justice: the quality of being just or fair <i62476>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "warrior: someone engaged in or experienced in warfare <i94040>",
+      "relNo": 4
     }],
     "definition": "negative term for someone who promote liberal causes especially feminism"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

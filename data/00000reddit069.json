@@ -1,5 +1,4 @@
 {
-  "lemma": "repost",
   "examples": [{
     "text": "ah the morning tea repost . see you after lunch same time as"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "who really gives a fuck if it's a repost or not ? if you've seen it many"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "repost",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -30,7 +29,13 @@
       "type": "hypernym",
       "target": "<-----reddit-69-1>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "<-----reddit-69-1>",
+      "relNo": 1
     }],
     "definition": "A post that has already been made before"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

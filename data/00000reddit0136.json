@@ -1,5 +1,4 @@
 {
-  "lemma": "punny",
   "examples": [{
     "text": "cooked pie , you could ask about helping punny bones . to lift the curse , sh"
   }, {
@@ -7,7 +6,7 @@
   }, {
     "text": "take your gold , you punny bitch "
   }],
-  "status": "novel","editorId": "",
+  "lemma": "punny",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -26,5 +25,7 @@
       "relNo": 1
     }],
     "definition": "provoking laughter by means of word play"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

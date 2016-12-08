@@ -1,14 +1,19 @@
 {
-  "lemma": "bitch out",
   "examples": [{
     "text": "he bitched out so hard . lol ."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "bitch out",
   "senses": [{
     "pos": "v",
     "synonym": "cancel: postpone indefinitely or annul something that was scheduled; 'Call off the engagement'; 'cancel the dinner party'; 'we had to scrub our vacation plans'; 'scratch that meeting--the chair is ill' <i34109>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "bitch: a person (usually but not necessarily a woman) who is thoroughly disliked; 'she said her son thought Hillary was a bitch' <i89339>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

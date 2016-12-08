@@ -1,5 +1,4 @@
 {
-  "lemma": "wut",
   "examples": [{
     "text": "lmfao . wut ."
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "wut ? youre not going to \\ feel \\\"\"\""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "wut",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -32,5 +31,7 @@
       "relNo": 0
     }],
     "definition": "expession of comical disbelief "
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

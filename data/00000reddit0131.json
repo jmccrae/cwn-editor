@@ -1,11 +1,10 @@
 {
-  "lemma": "cosplay",
   "examples": [{
     "text": "cosplay to your body type . i ain't cosplaying duke nukem that's for sure ."
   }, {
     "text": "to me it looks like obama cosplaying as storm from x-men ."
   }],
-  "status": "novel","editorId": "",
+  "lemma": "cosplay",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -24,5 +23,7 @@
       "relNo": 1
     }],
     "definition": "wear a costume to resemble a character from some media especially anime"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

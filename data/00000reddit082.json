@@ -1,9 +1,8 @@
 {
-  "lemma": "stank",
   "examples": [{
     "text": "puttin some stank on it"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "stank",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -12,7 +11,13 @@
       "type": "hypernym",
       "target": "odor: the sensation that results when olfactory receptors in the nose are stimulated by particular chemicals in gaseous form; 'she loved the smell of roses' <i66940>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "stink: smell badly and offensively; 'The building reeks of smoke' <i32378>",
+      "relNo": 1
     }],
     "definition": "A smell of genitals or sex"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

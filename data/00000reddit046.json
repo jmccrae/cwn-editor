@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck shit up",
   "examples": [{
     "text": "mess around , you can seriously fuck some shit up in there if you are not careful "
   }, {
@@ -7,7 +6,7 @@
   }, {
     "text": "what a cool way to fuck shit up"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "fuck shit up",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -16,7 +15,17 @@
       "type": "hypernym",
       "target": "disarray: bring disorder to <i23100>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "shit: obscene terms for feces <i115116>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "fuck: have sexual intercourse with; 'This student sleeps with everyone in her dorm'; 'Adam knew Eve'; 'Were you ever intimate with this man?' <i28863>",
+      "relNo": 1
     }],
     "definition": "to violently create disorder and destroy "
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

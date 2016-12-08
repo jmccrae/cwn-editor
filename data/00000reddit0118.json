@@ -1,5 +1,4 @@
 {
-  "lemma": "cringe",
   "examples": [{
     "text": "so much * cringe * man"
   }, {
@@ -7,7 +6,7 @@
   }, {
     "text": "what's more cringe is you saying \\ pure cringe \\\"\" \\\""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "cringe",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -16,7 +15,13 @@
       "type": "hypernym",
       "target": "disgrace: a state of dishonor; 'one mistake brought shame to all his family'; 'suffered the ignominy of being sent to prison' <i112893>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "cringe: show submission or fear <i32064>",
+      "relNo": 1
     }],
     "definition": "some event or object that causes embarrassment and shame"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

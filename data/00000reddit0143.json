@@ -1,5 +1,4 @@
 {
-  "lemma": "whelm",
   "examples": [{
     "text": "be fair , what the fuck is this dubstep shit "
   }, {
@@ -23,12 +22,14 @@
   }, {
     "text": "like whelmed and overwhelmed - both mean \\ being submerged\""
   }],
-  "status": "general","editorId": "",
+  "lemma": "whelm",
   "senses": [{
     "pos": "v",
     "synonym": "flood: cover with liquid, usually water; 'The swollen river flooded the village'; 'The broken vein had flooded blood in her eyes' <i22806>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

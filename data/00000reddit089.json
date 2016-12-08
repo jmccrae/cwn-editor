@@ -1,11 +1,10 @@
 {
-  "lemma": "dank",
   "examples": [{
     "text": "i grow some amazingly dank weed ."
   }, {
     "text": "interesting being watching youtube videos of dudes doing dank stunts and wiping out on hoverboards ."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "dank",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -14,7 +13,13 @@
       "type": "similar",
       "target": "superb: surpassingly good; 'a superb meal' <i6171>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "dank: unpleasantly cool and humid; 'a clammy handshake'; 'clammy weather'; 'a dank cellar'; 'dank rain forests' <i14138>",
+      "relNo": 1
     }],
     "definition": "of high quality especially of marijuana"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

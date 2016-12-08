@@ -1,5 +1,4 @@
 {
-  "lemma": "some random",
   "examples": [{
     "text": "but i wouldn't some random anything , i would want something i'd lik"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "to usa.gov to the usa.gov's facebook page to some random commenters page . you really just gotta get"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "some random",
   "senses": [{
     "pos": "a",
     "synonym": "unidentified: being or having an unknown or unnamed source; 'a poem by an unknown author'; 'corporations responsible to nameless owners'; 'an unnamed donor' <i639>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "random: lacking any definite plan or order or purpose; governed by or depending on chance; 'a random choice'; 'bombs fell at random'; 'random movements' <i10552>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

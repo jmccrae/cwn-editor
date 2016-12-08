@@ -1,11 +1,10 @@
 {
-  "lemma": "hoopy",
   "examples": [{
     "text": "hoopy froods \\"
   }, {
     "text": "i settled on the conclusion that they're really hoopy froods who always know where their towel is"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "hoopy",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -14,7 +13,13 @@
       "type": "similar",
       "target": "orderly: clean or organized; 'her neat dress'; 'a neat room' <i13411>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "hoop: a rigid circular band of metal or wood or other material used for holding or fastening or hanging or pulling; 'there was still a rusty iron hoop for tying a horse' <i54893>",
+      "relNo": 1
     }],
     "definition": "Neat, really together, knowing where one's towel is [Douglas Adam - Hitchhiker's Guide to the Galaxy]"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

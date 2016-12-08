@@ -1,9 +1,8 @@
 {
-  "lemma": "fuck you",
   "examples": [{
     "text": "the finger in the face and a big fuck you when he was suspicious and kept looking at"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "fuck you",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -12,7 +11,13 @@
       "type": "hypernym",
       "target": "rejection: the act of rejecting something; 'his proposals were met with rejection' <i36474>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "fuck: slang for sexual intercourse <i39847>",
+      "relNo": 1
     }],
     "definition": "A strong and vulgar rejection of an idea"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

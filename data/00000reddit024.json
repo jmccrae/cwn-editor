@@ -1,9 +1,8 @@
 {
-  "lemma": "oh man",
   "examples": [{
     "text": "oh man i missed that one . nothing is real"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "oh man",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -14,5 +13,7 @@
       "relNo": 0
     }],
     "definition": "an expression of disappointment"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

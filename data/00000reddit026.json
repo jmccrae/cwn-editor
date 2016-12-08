@@ -1,5 +1,4 @@
 {
-  "lemma": "NSFW",
   "examples": [{
     "text": "atleast where i live there are much more nsfw calenders on similar workplaces ."
   }, {
@@ -9,12 +8,14 @@
   }, {
     "text": "this isn't nsfw , we need a few pics of yo"
   }],
-  "status": "abbrev","editorId": "",
+  "lemma": "NSFW",
   "senses": [{
     "pos": "a",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": "Not safe for work"
-  }]
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "affluenza",
   "examples": [{
     "text": "\\ affluenza \\\"\"\""
   }, {
@@ -13,7 +12,7 @@
   }, {
     "text": "you suppose it would've had any effect on affluenza kid ? \\"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "affluenza",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -32,5 +31,7 @@
       "relNo": 1
     }],
     "definition": "an inability to understand the consequences of one's actions because of financial privilege [Wikipedia]"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

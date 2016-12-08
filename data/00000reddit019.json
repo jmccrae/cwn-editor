@@ -1,5 +1,4 @@
 {
-  "lemma": "shitload",
   "examples": [{
     "text": "day someone makes a bot to make a crapload of amazon accounts with wishlists ."
   }, {
@@ -41,12 +40,22 @@
   }, {
     "text": "of my calorie count so i just eat a shit load of omelets and chicken breasts everyday ."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "shitload",
   "senses": [{
     "pos": "n",
     "synonym": "lot: (often followed by `of') a large number or amount or extent; 'a batch of letters'; 'a deal of trouble'; 'a lot of money'; 'he made a mint on the stock market'; 'see the rest of the winners in our huge passel of photos'; 'it must have cost plenty'; 'a slew of journalists'; 'a wad of money' <i109294>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "load: a quantity that can be processed or transported at one time; 'the system broke down under excessive loads' <i109281>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "shit: obscene terms for feces <i115116>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

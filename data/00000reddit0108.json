@@ -1,5 +1,4 @@
 {
-  "lemma": "noice",
   "examples": [{
     "text": "can actually enjoy the 8 person smash ? noice"
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "% of most privileged people pn earth ... noice now move aside peasants. \\"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "noice",
   "senses": [{
     "pos": "a",
     "synonym": "nice: pleasant or pleasing or agreeable in nature or appearance; 'what a nice fellow you are and we all thought you so nasty'- George Meredith; 'nice manners'; 'a nice dress'; 'a nice face'; 'a nice day'; 'had a nice time at the party'; 'the corn and tomatoes are nice today' <i8695>",
@@ -20,5 +19,7 @@
       "relNo": 1
     }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

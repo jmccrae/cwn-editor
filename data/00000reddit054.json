@@ -1,5 +1,4 @@
 {
-  "lemma": "dingus",
   "examples": [{
     "text": "but some dingus over at pilsbury who , lets be rea"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "years , ya dingu"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "dingus",
   "senses": [{
     "pos": "n",
     "synonym": "idiot: a person of subnormal intelligence <i90651>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

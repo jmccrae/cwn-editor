@@ -1,5 +1,4 @@
 {
-  "lemma": "panspermia",
   "examples": [{
     "text": "another interesting one is panspermia . the idea the life we have on"
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "thing i find a tiny bit troubling about panspermia is that it kind of dodges the question"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "panspermia",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -20,5 +19,7 @@
       "relNo": 0
     }],
     "definition": "The hypothesis that microorganisms may transmit life from outer space to habitable bodies; or the process of such transmission. [Wiktionary]"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

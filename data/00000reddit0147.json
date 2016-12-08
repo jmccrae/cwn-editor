@@ -1,5 +1,4 @@
 {
-  "lemma": "normie",
   "examples": [{
     "text": "a bunch of meme based music , before normies caught up "
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "we call you people \\ normies \\\"\" .\""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "normie",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -24,5 +23,7 @@
       "relNo": 1
     }],
     "definition": "a normal person"
-  }]
+  }],
+  "status": "error",
+  "editorId": "jmccrae"
 }

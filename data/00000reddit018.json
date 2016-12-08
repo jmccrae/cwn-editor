@@ -1,14 +1,19 @@
 {
-  "lemma": "shit",
   "examples": [{
     "text": "of taking all 5 dogs ( who are a shit to walk together ) and walking home which"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "shit",
   "senses": [{
     "pos": "n",
     "synonym": "trouble: a source of difficulty; 'one trouble after another delayed the job'; 'what's the problem?' <i66801>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "shit: obscene terms for feces <i115116>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

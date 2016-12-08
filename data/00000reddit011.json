@@ -1,5 +1,4 @@
 {
-  "lemma": "swat",
   "examples": [{
     "text": "[ 10 streamers get swatted live ] ( https : / / youtube.com"
   }, {
@@ -29,7 +28,7 @@
   }, {
     "text": "lawyers . if you are found guilty of swatting , you get mandatory 5-10 years or "
   }],
-  "status": "novel","editorId": "",
+  "lemma": "swat",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -38,7 +37,13 @@
       "type": "hypernym",
       "target": "inform: act as an informer; 'She had informed on her own parents for years' <i25816>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "SWAT team: a squad of policemen who have been trained to deal with violent and dangerous situations <i80621>",
+      "relNo": 1
     }],
     "definition": "to make an illegitimate call to the police so as to have a SWAT team dispatched to a location [Wiktionary]"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

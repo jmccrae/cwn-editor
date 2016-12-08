@@ -1,5 +1,4 @@
 {
-  "lemma": "*crunch",
   "examples": [{
     "text": "25 crunches x 3 sets \\"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "sit-ups and crunches are both risky when not correctly executed "
   }],
-  "status": "general","editorId": "",
+  "lemma": "crunch",
   "senses": [{
     "pos": "n",
     "synonym": "tummy crunch: an exercise designed to strengthen the abdominal muscles <i38740>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "tummy crunch: an exercise designed to strengthen the abdominal muscles <i38740>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

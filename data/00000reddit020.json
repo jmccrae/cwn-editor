@@ -1,5 +1,4 @@
 {
-  "lemma": "bench",
   "examples": [{
     "text": "3 ) with crisp form . i've been benching since august and hit 2pl8x1 on jan 1st"
   }, {
@@ -17,7 +16,7 @@
   }, {
     "text": "the first week . and you'll probably be benching that after a couple workouts as well ."
   }],
-  "status": "novel","editorId": "",
+  "lemma": "bench",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -32,5 +31,7 @@
       "relNo": 1
     }],
     "definition": "To exercise using a bench press"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

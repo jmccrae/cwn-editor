@@ -1,5 +1,4 @@
 {
-  "lemma": "cromulent",
   "examples": [{
     "text": ", anything that embiggens your vocabulary is obviously cromulent "
   }, {
@@ -11,7 +10,7 @@
   }, {
     "text": "was and not evolve is ... a perfectly cromulent stance ."
   }],
-  "status": "novel","editorId": "",
+  "lemma": "cromulent",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -22,5 +21,7 @@
       "relNo": 0
     }],
     "definition": "Legitimate or valid (frequently used ironically)"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

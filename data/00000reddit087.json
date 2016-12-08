@@ -1,5 +1,4 @@
 {
-  "lemma": "woah",
   "examples": [{
     "text": ", half of all atheists would say \\ woah , there is a god , and he\""
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "woah ! ! ! ! ! you have your"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "woah",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -32,5 +31,7 @@
       "relNo": 0
     }],
     "definition": "An expression of surprise"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

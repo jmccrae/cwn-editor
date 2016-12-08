@@ -1,5 +1,4 @@
 {
-  "lemma": "dayum",
   "examples": [{
     "text": "dayum .... \\"
   }, {
@@ -13,7 +12,7 @@
   }, {
     "text": "to be fair ... dayum"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "dayum",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -22,7 +21,13 @@
       "type": "emotion",
       "target": "surprise: the astonishment you feel when something totally unexpected happens to you <i76217>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "damn: wish harm upon; invoke evil upon; 'The bad witch cursed the child' <i25957>",
+      "relNo": 1
     }],
     "definition": "An interjection expressing minor surprise, especially in response to seeing an attractive member of the opposite sex"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

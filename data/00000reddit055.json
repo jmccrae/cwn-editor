@@ -1,5 +1,4 @@
 {
-  "lemma": "fair enough",
   "examples": [{
     "text": "if it works for you fair enough . but you are still creating a calorie"
   }, {
@@ -7,12 +6,14 @@
   }, {
     "text": "you need from your diet ( which is fair enough ) . \\"
   }],
-  "status": "general","editorId": "",
+  "lemma": "fair enough",
   "senses": [{
     "pos": "a",
     "synonym": "fair: not excessive or extreme; 'a fairish income'; 'reasonable prices' <i8413>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

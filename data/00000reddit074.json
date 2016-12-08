@@ -1,5 +1,4 @@
 {
-  "lemma": "badass",
   "examples": [{
     "text": "badass man . i'm turning 21 this year "
   }, {
@@ -13,7 +12,7 @@
   }, {
     "text": "tree bulba seems like it would be a badass legendary ."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "badass",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -32,5 +31,7 @@
       "relNo": 1
     }],
     "definition": "being impressive due to extreme attitude or style"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

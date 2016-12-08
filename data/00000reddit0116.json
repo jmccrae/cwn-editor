@@ -1,5 +1,4 @@
 {
-  "lemma": "automated moderator",
   "examples": [{
     "text": "automod is retarded ."
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": ""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "automated moderator",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -28,5 +27,7 @@
       "relNo": 1
     }],
     "definition": "a computer program for automatically moderating an online forum or discussion"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

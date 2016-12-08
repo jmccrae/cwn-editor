@@ -1,5 +1,4 @@
 {
-  "lemma": "overhead press",
   "examples": [{
     "text": "/ 3 / 1 works very well for ohp ."
   }, {
@@ -23,7 +22,7 @@
   }, {
     "text": ""
   }],
-  "status": "general","editorId": "",
+  "lemma": "overhead press",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -42,5 +41,7 @@
       "relNo": 1
     }],
     "definition": "a weight training exercise, typically performed while standing, in which a weight is pressed straight upwards from the shoulders until the arms are locked out overhead [Wikipedia]"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

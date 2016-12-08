@@ -1,9 +1,8 @@
 {
-  "lemma": "turd polishing",
   "examples": [{
     "text": ". even your response to my claim of turd polishing is specious at best . we just"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "turd polishing",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -22,5 +21,7 @@
       "relNo": 1
     }],
     "definition": "The act of trying to make something hopelessly weak and unattractive appear strong and appealing [Urban Dictionary]"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

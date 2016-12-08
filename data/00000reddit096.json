@@ -1,5 +1,4 @@
 {
-  "lemma": "freestyling",
   "examples": [{
     "text": "/ czs139x ? context=10 # czs139x ) - freestyling is insane man , i still don "
   }, {
@@ -11,7 +10,7 @@
   }, {
     "text": "yeah freestyling is more improv than off the dome or"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "freestyling",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -20,7 +19,17 @@
       "type": "hypernym",
       "target": "improvisation: a creation spoken or written or composed extemporaneously (without prior preparation) <i55073>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "style: a particular kind (as to appearance); 'this style of shoe is in demand' <i67583>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "free: not limited or hampered; not under compulsion or restraint; 'free enterprise'; 'a free port'; 'a free country'; 'I have an hour free'; 'free will'; 'free of racism'; 'feel free to stay as long as you wish'; 'a free choice' <i5818>",
+      "relNo": 1
     }],
     "definition": "A form of rapping in which the emcee makes up lyrics while rapping. [Wiktionary]"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

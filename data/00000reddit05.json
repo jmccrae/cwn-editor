@@ -1,5 +1,4 @@
 {
-  "lemma": "deadlift",
   "examples": [{
     "text": "did great and i even did squats and deadlift without any problem . which is all fine"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "the gym . i skip the squats and deadlift alltogheter and now i just used the leg"
   }],
-  "status": "general","editorId": "",
+  "lemma": "deadlift",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -30,7 +29,17 @@
       "type": "hypernym",
       "target": "weightlift: bodybuilding by exercise that involves lifting weights <i38713>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "weightlift: lift weights; 'This guy can press 300 pounds' <i27376>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "dead: no longer having force or relevance; 'a dead issue' <i3718>",
+      "relNo": 1
     }],
     "definition": "a weight training exercise in which a loaded barbell is lifted off the ground to the hips, then lowered back to the ground"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

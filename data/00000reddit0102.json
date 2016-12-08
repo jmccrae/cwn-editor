@@ -1,22 +1,19 @@
 {
-  "lemma": "legit",
   "examples": [{
     "text": "look up . like just legit look up right at the ceiling infront of"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "legit",
   "senses": [{
     "pos": "r",
-    "synonym": "",
+    "synonym": "actually: in actual fact; 'to be nominally but not actually independent'; 'no one actually saw the shark'; 'large meteorites actually come from the asteroid belt' <i19142>",
     "id": 1,
     "relations": [{
-      "type": "similar",
-      "target": "actually: in actual fact; 'to be nominally but not actually independent'; 'no one actually saw the shark'; 'large meteorites actually come from the asteroid belt' <i19142>",
-      "relNo": 0
-    }, {
       "type": "derivation",
-      "target": "legitimate: based on known statements or events or conditions; 'rain was a logical expectation, given the time of year' <i13861>",
+      "target": "legitimate: in accordance with recognized or accepted standards or principles; 'legitimate advertising practices' <i8953>",
       "relNo": 1
     }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

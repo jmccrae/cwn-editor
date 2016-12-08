@@ -1,9 +1,8 @@
 {
-  "lemma": "post",
   "examples": [{
     "text": ""
   }],
-  "status": "general","editorId": "",
+  "lemma": "post",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -18,5 +17,7 @@
       "relNo": 1
     }],
     "definition": "A message on an internet bulletin board, forum or similar"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

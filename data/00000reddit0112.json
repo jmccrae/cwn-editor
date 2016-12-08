@@ -1,11 +1,10 @@
 {
-  "lemma": "hooman",
   "examples": [{
     "text": "hooman , your application to enter my bed i"
   }, {
     "text": "[ you'll pay for this , hooman . ] ( http : / / www.reddit.co"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "hooman",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -20,5 +19,7 @@
       "relNo": 1
     }],
     "definition": "human, mispronounced for comic effect"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

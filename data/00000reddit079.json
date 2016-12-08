@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck you",
   "examples": [{
     "text": "as someone turning 29 shortly , fuck you good sir "
   }, {
@@ -15,16 +14,22 @@
   }, {
     "text": "seriously fuck you al , i hope you get bette"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "fuck you",
   "senses": [{
     "pos": "x",
     "synonym": "",
     "id": 1,
     "relations": [{
+      "type": "derivation",
+      "target": "fuck: slang for sexual intercourse <i39847>",
+      "relNo": 2
+    }, {
       "type": "emotion",
       "target": "hatred: the emotion of intense dislike; a feeling of dislike so strong that it demands action <i76414>",
       "relNo": 1
     }],
     "definition": "An expletive showing strong hatred for the target"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

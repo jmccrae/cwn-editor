@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck up",
   "examples": [{
     "text": "doesn't sound like a fuck up to me ..."
   }, {
@@ -9,12 +8,14 @@
   }, {
     "text": "technically it wasn't a fuck up , since she * did * kindd"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "fuck up",
   "senses": [{
     "pos": "n",
     "synonym": "fuckup: an embarrassing mistake <i35801>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "pshh",
   "examples": [{
     "text": "fact , he didn't even get it . psh"
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "pshh ubisoft has graduated from \\ no preorder \\\"\"\""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "pshh",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -20,5 +19,7 @@
       "relNo": 0
     }],
     "definition": "a sound expressing disdain"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

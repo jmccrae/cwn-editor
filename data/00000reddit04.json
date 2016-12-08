@@ -1,5 +1,4 @@
 {
-  "lemma": "rewatch",
   "examples": [{
     "text": "doing everything right made me not want to rewatch the movie ."
   }, {
@@ -17,7 +16,7 @@
   }, {
     "text": "will always rewatch , * only * dvd boxset i hav"
   }],
-  "status": "general","editorId": "",
+  "lemma": "rewatch",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -26,7 +25,13 @@
       "type": "hypernym",
       "target": "watch: see or watch; 'view a show on television'; 'This program will be seen all over the world'; 'view an exhibition'; 'Catch a show on Broadway'; 'see a movie' <i32509>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "watch: see or watch; 'view a show on television'; 'This program will be seen all over the world'; 'view an exhibition'; 'Catch a show on Broadway'; 'see a movie' <i32509>",
+      "relNo": 1
     }],
     "definition": "to watch a show or television one more time"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

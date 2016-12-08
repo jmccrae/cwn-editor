@@ -1,5 +1,4 @@
 {
-  "lemma": "mindfuck",
   "examples": [{
     "text": "football and football . oh the mindfuck ."
   }, {
@@ -19,7 +18,7 @@
   }, {
     "text": "ya i understand he wants to have a mindfuck in every one of his games but goddamn"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "mindfuck",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -38,5 +37,7 @@
       "relNo": 1
     }],
     "definition": "Something that intentionally destabilizes, confuses or manipulates the mind of another person [Wiktionary]"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

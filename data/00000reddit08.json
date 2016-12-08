@@ -1,5 +1,4 @@
 {
-  "lemma": "oh god",
   "examples": [{
     "text": "all the food and practically screams . \\ oh my god i love orgasmic cereal. \\\"\" i wasn't sure\""
   }, {
@@ -115,7 +114,7 @@
   }, {
     "text": "\\ that late already ? \\\"\" and \\\"\" oh god my eyes hurt \\\"\"\""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "oh god",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -130,5 +129,7 @@
       "relNo": 1
     }],
     "definition": "An expression of surprise and shock"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

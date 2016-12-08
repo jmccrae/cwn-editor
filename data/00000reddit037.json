@@ -1,5 +1,4 @@
 {
-  "lemma": "delt",
   "examples": [{
     "text": "simple person could get that confused . the eli5 version is i am shitting on someone who"
   }, {
@@ -25,12 +24,18 @@
   }, {
     "text": "you bench high you recruit more shoulders and delts . a lower bar path will activate more"
   }],
-  "status": "general","editorId": "",
+  "lemma": "delt",
   "senses": [{
     "pos": "n",
     "synonym": "deltoid: a large triangular muscle covering the shoulder joint and serving to abduct and flex and extend and rotate the arm <i66081>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "deltoid: a large triangular muscle covering the shoulder joint and serving to abduct and flex and extend and rotate the arm <i66081>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

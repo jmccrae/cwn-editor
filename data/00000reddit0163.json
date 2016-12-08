@@ -1,5 +1,4 @@
 {
-  "lemma": "prenuptial agreement",
   "examples": [{
     "text": "a prenup ( generally ) protects assets that existed before"
   }, {
@@ -7,7 +6,7 @@
   }, {
     "text": ""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "prenuptial agreement",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -16,7 +15,17 @@
       "type": "hypernym",
       "target": "agreement: the statement (oral or written) of an exchange of promises; 'they had an agreement that they would not interfere in each other's business'; 'there was an understanding between management and the workers' <i72068>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "agreement: the statement (oral or written) of an exchange of promises; 'they had an agreement that they would not interfere in each other's business'; 'there was an understanding between management and the workers' <i72068>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "prenuptial: relating to events before a marriage; 'prenuptial agreement' <i17429>",
+      "relNo": 1
     }],
     "definition": "a contract entered into prior to marriage, civil union [Wikipedia]"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

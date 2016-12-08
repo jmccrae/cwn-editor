@@ -1,5 +1,4 @@
 {
-  "lemma": "pffft",
   "examples": [{
     "text": "pffft ... [ amatuers . ] ( http :"
   }, {
@@ -15,7 +14,7 @@
   }, {
     "text": "pffft you damn kids , back in my da"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "pffft",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -26,5 +25,7 @@
       "relNo": 0
     }],
     "definition": "an expression of skepticism or uncertainty"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "woooo",
   "examples": [{
     "text": "ama request : the wooo guy . how did you get away with"
   }, {
@@ -39,7 +38,7 @@
   }, {
     "text": "woooo ! !"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "woooo",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -58,5 +57,7 @@
       "relNo": 1
     }],
     "definition": "an expression of extreme excitement and joy"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "creep out",
   "examples": [{
     "text": "concluded the \\ lets watch this and get creeped out \\\"\" chapter in our lives .\""
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "this book about 10 times . it genuinely creeped me out , but i kept putting i"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "creep out",
   "senses": [{
     "pos": "v",
     "synonym": "unnerve: disturb the composure of <i30652>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "creepy: annoying and unpleasant; 'some creepy kids were bothering her' <i8896>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

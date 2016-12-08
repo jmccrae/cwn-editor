@@ -1,5 +1,4 @@
 {
-  "lemma": "Sriracha",
   "examples": [{
     "text": ": 1 . it's actually inspired by vietnamese sriracha , which is in turn inspired by tha"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": ", with pickled onion , sprouts , and sriracha mayo im pretty certai"
   }],
-  "status": "general","editorId": "",
+  "lemma": "Sriracha",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -36,5 +35,7 @@
       "relNo": 1
     }],
     "definition": "A sauce made from pureed garlic and chilis named after the town of Si Racha in Thailand"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

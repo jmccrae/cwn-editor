@@ -1,5 +1,4 @@
 {
-  "lemma": "tighty whitey",
   "examples": [{
     "text": "and saw that it was a pair of tighty whities that were absolutely covered in shit ."
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "was left with was dewey , and his tighty whiteys "
   }],
-  "status": "novel","editorId": "",
+  "lemma": "tighty whitey",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -28,5 +27,7 @@
       "relNo": 1
     }],
     "definition": "Tight, white underwear worn by men"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

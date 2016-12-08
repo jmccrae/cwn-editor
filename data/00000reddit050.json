@@ -1,5 +1,4 @@
 {
-  "lemma": "fanbase",
   "examples": [{
     "text": "6 . fanbase becomes trash \\"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": ", they all decided to fuck over their fanbase for ratings about a decade ago . al"
   }],
-  "status": "general","editorId": "",
+  "lemma": "fanbase",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -40,5 +39,7 @@
       "relNo": 1
     }],
     "definition": "All of the fans or devotees of something"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

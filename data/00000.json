@@ -1,9 +1,8 @@
 {
-  "lemma": "tweet",
   "examples": [{
     "text": ""
   }],
-  "status": "general","editorId": "",
+  "lemma": "tweet",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -12,7 +11,13 @@
       "type": "hypernym",
       "target": "message: send a message to; 'She messaged the committee' <i26947>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "tweet: a weak chirping sound as of a small bird <i75584>",
+      "relNo": 1
     }],
     "definition": "To post a message on Twitter"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

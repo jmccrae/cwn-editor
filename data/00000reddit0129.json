@@ -1,5 +1,4 @@
 {
-  "lemma": "meh",
   "examples": [{
     "text": "because it's 3 syllables ... meh , better luck next yea"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "not all ... 'objectivity' is still kinda \\ meh \\\"\" . also psyfile is not that interesting\""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "meh",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -32,5 +31,7 @@
       "relNo": 0
     }],
     "definition": "An expression of indifference"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

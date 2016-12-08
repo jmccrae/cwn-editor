@@ -1,5 +1,4 @@
 {
-  "lemma": "shitstorm",
   "examples": [{
     "text": "into metal music . so there's a massive shitstorm when your favourite band calls you out on"
   }, {
@@ -11,7 +10,7 @@
   }, {
     "text": "use corporate talk unless you want a media shitstorm to happen and lose your job ."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "shitstorm",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -20,7 +19,17 @@
       "type": "hypernym",
       "target": "backlash: an adverse reaction to some political or social occurrence; 'there was a backlash of intolerance' <i36472>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "storm: a violent weather condition with winds 64-72 knots (11 on the Beaufort scale) and precipitation and thunder and lightning <i97824>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "shit: obscene terms for feces <i115116>",
+      "relNo": 1
     }],
     "definition": "A considerable backlash or controversy"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

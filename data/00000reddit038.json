@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck up",
   "examples": [{
     "text": "although i know i am really fucked up and need professional help , i just can'"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "things are pretty hazy but i was really fucked up , so my friends dropped me off a"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "fuck up",
   "senses": [{
     "pos": "v",
     "synonym": "mess up: make a mess of, destroy or ruin; 'I botched the dinner and we had to eat out'; 'the pianist screwed up the difficult passage in the second movement' <i34345>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "fuck: have sexual intercourse with; 'This student sleeps with everyone in her dorm'; 'Adam knew Eve'; 'Were you ever intimate with this man?' <i28863>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

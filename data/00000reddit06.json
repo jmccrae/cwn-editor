@@ -1,5 +1,4 @@
 {
-  "lemma": "dabbing",
   "examples": [{
     "text": "a dance based on vaporizing cannabis oil ( dabbing ) . the whole thing where you stick"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "why is this called dabbing . i thought that was a weed smoking"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "dabbing",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -36,5 +35,7 @@
       "relNo": 1
     }],
     "definition": "pressing a marijuana concentrate to a hot surface in order to vaporize it and inhale the concentrate"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

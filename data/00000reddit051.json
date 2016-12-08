@@ -1,5 +1,4 @@
 {
-  "lemma": "smol",
   "examples": [{
     "text": "a smol snek !"
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "wat kidn of smol snek is dat ?"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "smol",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -24,5 +23,7 @@
       "relNo": 1
     }],
     "definition": "Very small and cute"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

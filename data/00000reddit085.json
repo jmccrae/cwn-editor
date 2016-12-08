@@ -1,5 +1,4 @@
 {
-  "lemma": "upvote",
   "examples": [{
     "text": ". ah what the hell , have an upvote "
   }, {
@@ -13,7 +12,7 @@
   }, {
     "text": "they have that . it's called an upvote ."
   }],
-  "status": "novel","editorId": "",
+  "lemma": "upvote",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -22,7 +21,13 @@
       "type": "hypernym",
       "target": "vote: a choice that is made by counting the number of people in favor of each alternative; 'there were only 17 votes in favor of the motion'; 'they allowed just one vote per person' <i36377>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "vote: a choice that is made by counting the number of people in favor of each alternative; 'there were only 17 votes in favor of the motion'; 'they allowed just one vote per person' <i36377>",
+      "relNo": 1
     }],
     "definition": "A positive vote on a social media website"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

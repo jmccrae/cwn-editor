@@ -1,11 +1,10 @@
 {
-  "lemma": "gank",
   "examples": [{
     "text": "getting ganked by high lvls instantly . fucking stranglemore ."
   }, {
     "text": "while playing eve . and obviously i got ganked , hence i am in a pod "
   }],
-  "status": "novel","editorId": "",
+  "lemma": "gank",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -16,5 +15,7 @@
       "relNo": 0
     }],
     "definition": "to kill with little effort in a video game"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

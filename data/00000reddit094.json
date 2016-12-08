@@ -1,5 +1,4 @@
 {
-  "lemma": "lock pick",
   "examples": [{
     "text": "basic lockpicking . yea , it can get very comple"
   }, {
@@ -17,7 +16,7 @@
   }, {
     "text": ""
   }],
-  "status": "general","editorId": "",
+  "lemma": "lock pick",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -26,7 +25,13 @@
       "type": "hypernym",
       "target": "unlock: open the lock of; 'unlock the door' <i28436>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "lock: a fastener fitted to a door or drawer to keep it firmly closed <i55775>",
+      "relNo": 1
     }],
     "definition": "To open a lock without the use of a key"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

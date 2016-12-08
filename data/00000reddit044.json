@@ -1,5 +1,4 @@
 {
-  "lemma": "bulk",
   "examples": [{
     "text": "and switching back and forth between cutting and bulking far more often than i should because i"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "unleash your inner jabba the hut . it's bulking season ."
   }],
-  "status": "novel","editorId": "",
+  "lemma": "bulk",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -36,5 +35,7 @@
       "relNo": 1
     }],
     "definition": "to gain size and weight by means of exercise and diet"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

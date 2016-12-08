@@ -1,5 +1,4 @@
 {
-  "lemma": "asscheek",
   "examples": [{
     "text": "better to take people demanding such and graft asscheeks to their faces ."
   }, {
@@ -11,12 +10,22 @@
   }, {
     "text": "was causing the unpleasant sensation of my two asscheeks sliding past each other with every step ."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "asscheek",
   "senses": [{
     "pos": "n",
     "synonym": "buttock: either of the two large fleshy masses of muscular tissue that form the human rump <i66133>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "cheek: either side of the face below the eyes <i66353>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "ass: the fleshy part of the human body that you sit on; 'he deserves a good kick in the butt'; 'are you going to sit on your fanny and do nothing?' <i66132>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

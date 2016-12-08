@@ -1,5 +1,4 @@
 {
-  "lemma": "fkn",
   "examples": [{
     "text": "fkn rekt"
   }, {
@@ -9,12 +8,14 @@
   }, {
     "text": "you consider cutting . you just gotta go fkn dreamer mode at 115lbs because you've got almost"
   }],
-  "status": "abbrev","editorId": "",
+  "lemma": "fkn",
   "senses": [{
     "pos": "a",
-    "synonym": "01524775",
+    "synonym": "",
     "id": 1,
     "relations": [],
     "definition": "fucking"
-  }]
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

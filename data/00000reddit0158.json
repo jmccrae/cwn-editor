@@ -1,5 +1,4 @@
 {
-  "lemma": "parkour",
   "examples": [{
     "text": ") and mirror's edge ( for first person parkour ) ."
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "parkour and javelin ."
   }],
-  "status": "novel","editorId": "",
+  "lemma": "parkour",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -36,5 +35,7 @@
       "relNo": 1
     }],
     "definition": "An athletic discipline, in which practitioners traverse any environment in the most efficient way possible using their physical abilities, and which commonly involves running, jumping, vaulting, rolling, and other similar physical movements. [Wiktionary]"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

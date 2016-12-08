@@ -1,5 +1,4 @@
 {
-  "lemma": "scumbag",
   "examples": [{
     "text": "beginning of the ama . you are a scumbag , and fuck you for avoiding transparency unles"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "the all new scumbag steve http : / / imgur.com / j0lm3ap"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "scumbag",
   "senses": [{
     "pos": "n",
     "synonym": "scum bag: a person who is deemed to be despicable or contemptible; 'only a rotter would do that'; 'kill the rat'; 'throw the bum out'; 'you cowardly little pukes!'; 'the British call a contemptible person a `git'' <i92641>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

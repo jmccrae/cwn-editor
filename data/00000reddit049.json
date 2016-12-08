@@ -1,5 +1,4 @@
 {
-  "lemma": "goddammit",
   "examples": [{
     "text": "goddamn ! i got a lot of care at"
   }, {
@@ -25,7 +24,7 @@
   }, {
     "text": "when that reveal again happened i thought \\ goddammit i forgot to look for him ! \\\"\"\""
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "goddammit",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -34,7 +33,17 @@
       "type": "emotion",
       "target": "annoyance: the psychological state of being irritated or annoyed <i112715>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "damn: expletives used informally as intensifiers; 'he's a blasted idiot'; 'it's a blamed shame'; 'a blame cold winter'; 'not a blessed dime'; 'I'll be damned (or blessed or darned or goddamned) if I'll do any such thing'; 'he's a damn (or goddam or goddamned) fool'; 'a deuced idiot'; 'an infernal nuisance' <i3724>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "God: the supernatural being conceived as the perfect and omnipotent and omniscient originator and ruler of the universe; the object of worship in monotheistic religions <i86771>",
+      "relNo": 1
     }],
     "definition": "An expletive expressing annoyance"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

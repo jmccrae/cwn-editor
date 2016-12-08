@@ -1,5 +1,4 @@
 {
-  "lemma": "shoegazing",
   "examples": [{
     "text": "80s new wave , 90s british indie , shoegaze and orchestral rock "
   }, {
@@ -15,7 +14,7 @@
   }, {
     "text": ""
   }],
-  "status": "general","editorId": "",
+  "lemma": "shoegazing",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -34,5 +33,7 @@
       "relNo": 1
     }],
     "definition": "A subgenre of alternative rock typified by significant use of guitar distortion, feedback, obscured vocals and the blurring of component musical parts into indistinguishable \"walls of sound\" [Wikipedia]"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

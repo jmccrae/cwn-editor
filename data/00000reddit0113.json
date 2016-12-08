@@ -1,5 +1,4 @@
 {
-  "lemma": "aww",
   "examples": [{
     "text": "aww , he's so adorabl"
   }, {
@@ -11,7 +10,7 @@
   }, {
     "text": "back ? they were going for a \\ aww , look , she will fall in love\""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "aww",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -22,5 +21,7 @@
       "relNo": 0
     }],
     "definition": "An expression of joy in response to seeing something cute"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

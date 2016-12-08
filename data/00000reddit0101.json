@@ -1,5 +1,4 @@
 {
-  "lemma": "legit",
   "examples": [{
     "text": "i have no legit argument against him so i'm going to make"
   }, {
@@ -13,20 +12,18 @@
   }, {
     "text": "the gym i am at is legit . the instructors are good and moderate you"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "legit",
   "senses": [{
     "pos": "a",
-    "synonym": "",
+    "synonym": "good: generally admired; 'good taste' <i4272>",
     "id": 1,
     "relations": [{
-      "type": "similar",
-      "target": "legitimate: based on known statements or events or conditions; 'rain was a logical expectation, given the time of year' <i13861>",
-      "relNo": 0
-    }, {
       "type": "derivation",
-      "target": "legitimate: based on known statements or events or conditions; 'rain was a logical expectation, given the time of year' <i13861>",
+      "target": "legitimate: in accordance with recognized or accepted standards or principles; 'legitimate advertising practices' <i8953>",
       "relNo": 1
     }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck that",
   "examples": [{
     "text": "2 , you can try again or say fuck it . happy year of the fire monkey everybod"
   }, {
@@ -41,16 +40,22 @@
   }, {
     "text": "when she is ready to talk again . fuck that bitch ."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "fuck that",
   "senses": [{
     "pos": "x",
     "synonym": "",
     "id": 1,
     "relations": [{
+      "type": "derivation",
+      "target": "fuck: slang for sexual intercourse <i39847>",
+      "relNo": 2
+    }, {
       "type": "emotion",
       "target": "exasperation: an exasperated feeling of annoyance <i76267>",
       "relNo": 1
     }],
     "definition": "expression of exasperation"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

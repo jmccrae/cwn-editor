@@ -1,9 +1,8 @@
 {
-  "lemma": "squat",
   "examples": [{
     "text": "you have access to ? if you can squat , excellent , if no rack , the"
   }],
-  "status": "general","editorId": "",
+  "lemma": "squat",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -18,5 +17,7 @@
       "relNo": 1
     }],
     "definition": "to perform the squat weightlifting exercise"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

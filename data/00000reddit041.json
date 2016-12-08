@@ -1,5 +1,4 @@
 {
-  "lemma": "hoverboard",
   "examples": [{
     "text": "be engineered to reflect them , then the hoverboard will be the thing you trip on o"
   }, {
@@ -13,7 +12,7 @@
   }, {
     "text": "what does this news mean for hoverboard technology ?"
   }],
-  "status": "general","editorId": "",
+  "lemma": "hoverboard",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -32,5 +31,7 @@
       "relNo": 1
     }],
     "definition": "A device resembling a skateboard without wheels that can hover above the ground"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

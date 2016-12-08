@@ -1,5 +1,4 @@
 {
-  "lemma": "nah",
   "examples": [{
     "text": "edit : nah : )"
   }, {
@@ -21,12 +20,14 @@
   }, {
     "text": "the jokester says , \\ nah , not if i'm gonna have to shout\""
   }],
-  "status": "misspell","editorId": "",
+  "lemma": "nah",
   "senses": [{
     "pos": "r",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": "no"
-  }]
+  }],
+  "status": "misspell",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "as fuck",
   "examples": [{
     "text": "a lot of people manage to be busy as hell without getting anything done ."
   }, {
@@ -41,12 +40,18 @@
   }, {
     "text": "your kids , and it's relaxing and cathartic as fuck . "
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "as fuck",
   "senses": [{
     "pos": "r",
     "synonym": "extremely: to an extreme degree; 'extremely cold'; 'extremely unpleasant'; 'she is super smart'; 'the night was deathly cold'; 'as a child, I was deathly afraid of snakes' <i18410>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "fuck: slang for sexual intercourse <i39847>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

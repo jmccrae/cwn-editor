@@ -1,5 +1,4 @@
 {
-  "lemma": "grilled cheese",
   "examples": [{
     "text": "agave , pretty decent mexican food , and grilled cheese co , which is solid. "
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "you god damn heretics . respect the grilled cheese and stop changing it into whatever you like"
   }],
-  "status": "general","editorId": "",
+  "lemma": "grilled cheese",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -40,5 +39,7 @@
       "relNo": 1
     }],
     "definition": "A grilled sandwich whose principal filling is cheese"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

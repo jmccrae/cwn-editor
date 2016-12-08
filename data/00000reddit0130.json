@@ -1,5 +1,4 @@
 {
-  "lemma": "friend with benefit",
   "examples": [{
     "text": "friend lost his virginity because i talked my fwb back then to throw him a bone "
   }, {
@@ -23,7 +22,7 @@
   }, {
     "text": ""
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "friend with benefit",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -32,7 +31,17 @@
       "type": "hypernym",
       "target": "friend: a person you know well and regard with affection and trust; 'he was my best friend at the university' <i90098>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "benefit: something that aids or promotes well-being; 'for the benefit of all' <i64011>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "friend: a person you know well and regard with affection and trust; 'he was my best friend at the university' <i90098>",
+      "relNo": 1
     }],
     "definition": "A friend with whom you have sex"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

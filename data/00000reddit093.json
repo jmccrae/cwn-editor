@@ -1,5 +1,4 @@
 {
-  "lemma": "my bad",
   "examples": [{
     "text": "edit : wrong species , my ba"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "you're right , my bad "
   }],
-  "status": "novel","editorId": "",
+  "lemma": "my bad",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -36,5 +35,7 @@
       "relNo": 1
     }],
     "definition": "An expression of apology and guilt"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

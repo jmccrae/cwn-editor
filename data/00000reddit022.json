@@ -1,5 +1,4 @@
 {
-  "lemma": "oh man",
   "examples": [{
     "text": "oh man ... i know its pretty obvious you're at"
   }, {
@@ -11,7 +10,7 @@
   }, {
     "text": "oh man , you have to be careful from no"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "oh man",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -22,5 +21,7 @@
       "relNo": 0
     }],
     "definition": "an expression of sympathy and understanding"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

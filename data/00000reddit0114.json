@@ -1,9 +1,8 @@
 {
-  "lemma": "aww",
   "examples": [{
     "text": "aww babe"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "aww",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -14,5 +13,7 @@
       "relNo": 0
     }],
     "definition": "expression of sympathy"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

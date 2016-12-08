@@ -1,5 +1,4 @@
 {
-  "lemma": "poutine",
   "examples": [{
     "text": "exported across the us yet . even shitty poutine was shockingly delicious ."
   }, {
@@ -17,7 +16,7 @@
   }, {
     "text": "what is poutine ? i'm assuming you're canadian , i've hear"
   }],
-  "status": "general","editorId": "",
+  "lemma": "poutine",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -32,5 +31,7 @@
       "relNo": 1
     }],
     "definition": "a Canadian dish made with french fries and cheese curds topped with a light brown gravy"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

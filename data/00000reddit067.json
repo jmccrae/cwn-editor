@@ -1,5 +1,4 @@
 {
-  "lemma": "binge",
   "examples": [{
     "text": "binging on it's always sunny and dave foley played"
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": ". yeah ... thanks , looks like i'm binging this show "
   }],
-  "status": "general","editorId": "",
+  "lemma": "binge",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -20,5 +19,7 @@
       "relNo": 0
     }],
     "definition": "to watch a large amount of media in a single seating"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

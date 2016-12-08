@@ -1,14 +1,15 @@
 {
-  "lemma": "turd",
   "examples": [{
     "text": "the final season was a bigger turd than bono . it was worse than killing"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "turd",
   "senses": [{
     "pos": "n",
     "synonym": "shit: obscene terms for feces <i115116>",
     "id": 1,
     "relations": [],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

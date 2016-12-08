@@ -1,5 +1,4 @@
 {
-  "lemma": "fucked",
   "examples": [{
     "text": "i do find certain things like this to be fucked up but if we start policing this stuff"
   }, {
@@ -13,7 +12,7 @@
   }, {
     "text": "their vision might not be fucked , but their depth perception , yo "
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "fucked",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -28,5 +27,7 @@
       "relNo": 1
     }],
     "definition": "Severly damaged, in disarray or incorrect"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

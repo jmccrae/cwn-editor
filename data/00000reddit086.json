@@ -1,5 +1,4 @@
 {
-  "lemma": "upvote",
   "examples": [{
     "text": "good one . upvote"
   }, {
@@ -9,16 +8,22 @@
   }, {
     "text": "i want to upvote for the joke , and downvote for th"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "upvote",
   "senses": [{
     "pos": "v",
     "synonym": "",
     "id": 1,
     "relations": [{
+      "type": "derivation",
+      "target": "vote: express one's choice or preference by vote; 'vote the Democratic ticket' <i34031>",
+      "relNo": 2
+    }, {
       "type": "hypernym",
       "target": "vote: express one's choice or preference by vote; 'vote the Democratic ticket' <i34031>",
       "relNo": 1
     }],
     "definition": "To vote positively on a social media website"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,9 +1,8 @@
 {
-  "lemma": "woosh",
   "examples": [{
     "text": "kinda woosh , [ but not the easiest of reference"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "woosh",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -14,5 +13,7 @@
       "relNo": 0
     }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

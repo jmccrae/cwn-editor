@@ -1,5 +1,4 @@
 {
-  "lemma": "dipshit",
   "examples": [{
     "text": "dipshit"
   }, {
@@ -13,12 +12,22 @@
   }, {
     "text": "this is canada , shit like this dipshit "
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "dipshit",
   "senses": [{
     "pos": "n",
     "synonym": "moron: a person of subnormal intelligence <i90651>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "shit: a coarse term for defecation; 'he took a shit' <i107946>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "dipstick: a graduated rod dipped into a container to indicate the fluid level <i52946>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

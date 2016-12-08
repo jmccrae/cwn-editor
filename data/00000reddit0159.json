@@ -1,5 +1,4 @@
 {
-  "lemma": "social anxiety",
   "examples": [{
     "text": "anxiety in general but i can speak about social anxiety disorder . it's feeling like you can't go"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "themselves . couple that with a bit of social anxiety and the idea of asking for their name"
   }],
-  "status": "general","editorId": "",
+  "lemma": "social anxiety",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -40,5 +39,7 @@
       "relNo": 1
     }],
     "definition": "A discomfort or a fear when a person is in a social interaction that involves a concern of being judged or evaluated by others. [Wiktionary]"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

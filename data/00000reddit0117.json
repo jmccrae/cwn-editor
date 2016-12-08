@@ -1,5 +1,4 @@
 {
-  "lemma": "reality television",
   "examples": [{
     "text": "a channel dedicated to historical documentaries airs shitty reality tv . that's not how you stay relevant "
   }, {
@@ -23,7 +22,7 @@
   }, {
     "text": ""
   }],
-  "status": "general","editorId": "",
+  "lemma": "reality television",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -42,5 +41,7 @@
       "relNo": 1
     }],
     "definition": "a genre of television programming that documents ostensibly unscripted real-life situations [Wikipedia]"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

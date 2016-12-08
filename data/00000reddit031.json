@@ -1,5 +1,4 @@
 {
-  "lemma": "shitfaced",
   "examples": [{
     "text": "buying shit while he got 24 / 7 shitfaced at the bar . they broke up when"
   }, {
@@ -15,12 +14,22 @@
   }, {
     "text": "ytf would covering yourself in mayo ( even shitfaced drunk ) be an option ?"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "shitfaced",
   "senses": [{
     "pos": "a",
     "synonym": "plastered: very drunk <i4393>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "face: the front of the human head from the forehead to the chin and ear to ear; 'he washed his face'; 'I wish I had seen the look on his face when he got the news' <i66344>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "shit: obscene terms for feces <i115116>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

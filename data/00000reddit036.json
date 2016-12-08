@@ -1,5 +1,4 @@
 {
-  "lemma": "weird out",
   "examples": [{
     "text": "a kid . am i right in being weirded out ?"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "wouldn't say it causes problems but it has weirded out a couple of my previous partners ."
   }],
-  "status": "general","editorId": "",
+  "lemma": "weird out",
   "senses": [{
     "pos": "v",
     "synonym": "disturb: move deeply; 'This book upset me'; 'A troubling thought' <i30590>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "weird: strikingly odd or unusual; 'some trick of the moonlight; some weird effect of shadow'- Bram Stoker <i5310>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

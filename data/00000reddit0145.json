@@ -1,14 +1,19 @@
 {
-  "lemma": "some random",
   "examples": [{
     "text": "to form my own opinions , not trust some random on the interne"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "some random",
   "senses": [{
     "pos": "n",
     "synonym": "stranger: an individual that one is not acquainted with <i93353>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "random: lacking any definite plan or order or purpose; governed by or depending on chance; 'a random choice'; 'bombs fell at random'; 'random movements' <i10552>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

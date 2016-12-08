@@ -1,5 +1,4 @@
 {
-  "lemma": "motherfucking",
   "examples": [{
     "text": "absolute masterpiece of an ouija board and the motherfucking headteacher turns the corner to our corridor and"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "where i truly was . i was in motherfucking japan ! ! ! i was suddenly overly"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "motherfucking",
   "senses": [{
     "pos": "a",
     "synonym": "fucking(a): informal intensifiers; 'what a bally (or blinking) nuisance'; 'a bloody fool'; 'a crashing bore'; 'you flaming idiot' <i8345>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "fuck: have sexual intercourse with; 'This student sleeps with everyone in her dorm'; 'Adam knew Eve'; 'Were you ever intimate with this man?' <i28863>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "mother: a woman who has given birth to a child (also used as a term of address to your mother); 'the mother of three children' <i91462>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

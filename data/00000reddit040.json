@@ -1,5 +1,4 @@
 {
-  "lemma": "batshit",
   "examples": [{
     "text": "approached , suddenly the whole world went * apeshit * . it turned into one of thos"
   }, {
@@ -33,12 +32,22 @@
   }, {
     "text": ""
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "batshit",
   "senses": [{
     "pos": "a",
     "synonym": "crackers: informal or slang terms for mentally irregular; 'it used to drive my husband balmy' <i11366>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "shit: obscene terms for feces <i115116>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "bat: nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate <i46702>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

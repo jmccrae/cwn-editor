@@ -1,5 +1,4 @@
 {
-  "lemma": "underwhelming",
   "examples": [{
     "text": "a bit underwhelming trailer . i had high hopes for this"
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "yeah halftime show was pretty underwhelming thus year . bey and bruno were aight"
   }],
-  "status": "general","editorId": "",
+  "lemma": "underwhelming",
   "senses": [{
     "pos": "a",
     "synonym": "disappointing: not up to expectations; 'a disappointing performance from one who had seemed so promising' <i11409>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "whelm: overcome, as with emotions or perceptual stimuli <i30774>",
+      "relNo": 1
+    }],
     "definition": "Not meeting expectations"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

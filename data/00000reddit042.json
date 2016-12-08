@@ -1,5 +1,4 @@
 {
-  "lemma": "photoshop",
   "examples": [{
     "text": "def not photoshopped"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "why is that photoshopped on a mug ?"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "photoshop",
   "senses": [{
     "pos": "v",
     "synonym": "",
@@ -36,5 +35,7 @@
       "relNo": 1
     }],
     "definition": "To digitally alter a photo"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

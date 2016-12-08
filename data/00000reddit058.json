@@ -1,11 +1,10 @@
 {
-  "lemma": "bitey",
   "examples": [{
     "text": "does my cat get all bitey and weird when i rub her belly because"
   }, {
     "text": "nope . only sharp , bitey death "
   }],
-  "status": "novel","editorId": "",
+  "lemma": "bitey",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -20,5 +19,7 @@
       "relNo": 1
     }],
     "definition": "Having a tendency to bite aggressively"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

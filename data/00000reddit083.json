@@ -1,5 +1,4 @@
 {
-  "lemma": "asshat",
   "examples": [{
     "text": "a hero and at times he's an arrogant asshat but in a way that is relatable and"
   }, {
@@ -21,12 +20,22 @@
   }, {
     "text": "that behind that innocent exterior lies an absolute asshat ."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "asshat",
   "senses": [{
     "pos": "n",
     "synonym": "idiot: a person of subnormal intelligence <i90651>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "hat: headdress that protects the head from bad weather; has shaped crown and usually a brim <i54674>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "ass: the fleshy part of the human body that you sit on; 'he deserves a good kick in the butt'; 'are you going to sit on your fanny and do nothing?' <i66132>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

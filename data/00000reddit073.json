@@ -1,5 +1,4 @@
 {
-  "lemma": "badass",
   "examples": [{
     "text": "10 named men in single combat . a badass . during the course of the book he"
   }, {
@@ -7,7 +6,7 @@
   }, {
     "text": "with sand . i'd feel like such a badass when i \\ pumped iron \\\"\"\""
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "badass",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -26,5 +25,7 @@
       "relNo": 1
     }],
     "definition": "A person considered impressive due to extreme attitude or style"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

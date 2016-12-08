@@ -1,5 +1,4 @@
 {
-  "lemma": "mwahahaha",
   "examples": [{
     "text": "be free of ancient cruft . never ! mwahahaha etc ."
   }, {
@@ -7,7 +6,7 @@
   }, {
     "text": ", so technically funded by da guvment . mwahahaha eat a banana "
   }],
-  "status": "novel","editorId": "",
+  "lemma": "mwahahaha",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -18,5 +17,7 @@
       "relNo": 0
     }],
     "definition": "A expression of evil or malicious intent"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

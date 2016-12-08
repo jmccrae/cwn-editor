@@ -1,5 +1,4 @@
 {
-  "lemma": "pissy",
   "examples": [{
     "text": ", i care a great deal about this pissy rant "
   }, {
@@ -21,12 +20,18 @@
   }, {
     "text": "when i arrived the manager was pissy about me being late . i tried to"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "pissy",
   "senses": [{
     "pos": "a",
     "synonym": "peevish: easily irritated or annoyed; 'an incorrigibly fractious young man'; 'not the least nettlesome of his countrymen' <i6219>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "piss: informal terms for urination; 'he took a pee' <i107832>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "oh man",
   "examples": [{
     "text": "boy oh boy , those are some short shorts "
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "oh man , james corden never disappoints . i enjo"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "oh man",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -36,5 +35,7 @@
       "relNo": 1
     }],
     "definition": "an expression of excitement and anticipation"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "Autonomous Sensory Meridian Response",
   "examples": [{
     "text": "am happy in my ignorance , but one asmr video mention that panic attacks usually don't las"
   }, {
@@ -7,16 +6,30 @@
   }, {
     "text": ""
   }],
-  "status": "novel","editorId": "",
+  "lemma": "*Autonomous Sensory Meridian Response (add meridian)",
   "senses": [{
     "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [{
+      "type": "derivation",
+      "target": "response: a bodily process occurring due to the effect of some antecedent stimulus or agent; 'a bad reaction to the medicine'; 'his responses have slowed with age' <i39914>",
+      "relNo": 4
+    }, {
+      "type": "derivation",
+      "target": "sensory: involving or derived from the senses; 'sensory experience'; 'sensory channels' <i11555>",
+      "relNo": 3
+    }, {
+      "type": "derivation",
+      "target": "autonomous: existing as an independent entity; 'the partitioning of India created two separate and autonomous jute economies' <i4029>",
+      "relNo": 2
+    }, {
       "type": "hypernym",
       "target": "response: a bodily process occurring due to the effect of some antecedent stimulus or agent; 'a bad reaction to the medicine'; 'his responses have slowed with age' <i39914>",
       "relNo": 1
     }],
     "definition": "euphoric experience characterized by a static-like tingling sensation on the skin that typically begins on the scalp and moves down the back of the neck and upper spine, precipitating relaxation [Wikipedia]"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

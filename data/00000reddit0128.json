@@ -1,5 +1,4 @@
 {
-  "lemma": "roti",
   "examples": [{
     "text": "dammit . now i want a roti canai pie hybrid monster . \\"
   }, {
@@ -19,12 +18,18 @@
   }, {
     "text": "you checked out the gazillion variants of malaysian roti canai ? they might be as varied as"
   }],
-  "status": "general","editorId": "",
+  "lemma": "roti",
   "senses": [{
     "pos": "n",
     "synonym": "chapati: flat pancake-like bread cooked on a griddle <i77337>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "loanword",
+      "target": "Hindi: the most widely spoken of modern Indic vernaculars; spoken mostly in the north of India; along with English it is the official language of India; usually written in Devanagari script <i73242>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

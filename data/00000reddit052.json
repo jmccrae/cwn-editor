@@ -1,5 +1,4 @@
 {
-  "lemma": "kill",
   "examples": [{
     "text": "because they killed it ."
   }, {
@@ -13,12 +12,18 @@
   }, {
     "text": "she killed it ."
   }],
-  "status": "novel","editorId": "",
+  "lemma": "kill",
   "senses": [{
     "pos": "v",
     "synonym": "succeed: attain success or reach a desired goal; 'The enterprise succeeded'; 'We succeeded in getting tickets to the show'; 'she struggled to overcome her handicap and won' <i34330>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "kill: cause to die; put to death, usually intentionally or knowingly; 'This man killed several people when he tried to rob a bank'; 'The farmer killed a pig for the holidays' <i28306>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

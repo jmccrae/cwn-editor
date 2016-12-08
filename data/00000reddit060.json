@@ -1,5 +1,4 @@
 {
-  "lemma": "slackline",
   "examples": [{
     "text": "500m slackline walk in castle valley , uta"
   }, {
@@ -7,7 +6,7 @@
   }, {
     "text": "théo sanson walked nearly 500 meters on a slackline rigged from the rectory to castleton tower in"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "*slackline",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -16,7 +15,17 @@
       "type": "hypernym",
       "target": "rope: a strong line <i58271>",
       "relNo": 0
+    }, {
+      "type": "derivation",
+      "target": "line",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "slack: the quality of being loose (not taut); 'he hadn't counted on the slackness of the rope' <i62107>",
+      "relNo": 1
     }],
     "definition": "a partially tensioned line for balance or walking"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

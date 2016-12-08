@@ -1,5 +1,4 @@
 {
-  "lemma": "dick",
   "examples": [{
     "text": "getting really drunk , binge watching tv or dicking around on the internet go work out "
   }, {
@@ -9,12 +8,18 @@
   }, {
     "text": "the god damn pillsbury holiday cookie dicking we've been getting for the last few years."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "dick",
   "senses": [{
     "pos": "v",
     "synonym": "mess around: do random, unplanned work or activities or spend time idly; 'The old lady is usually mucking about in her little house' <i29084>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "dick: obscene terms for penis <i65966>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

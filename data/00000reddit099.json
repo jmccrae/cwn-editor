@@ -1,5 +1,4 @@
 {
-  "lemma": "giggity",
   "examples": [{
     "text": "bb-4 : giggity ."
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "( unless i met her on tinder , giggity ) , i'd be afraid they jerked of"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "giggity",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -20,5 +19,7 @@
       "relNo": 0
     }],
     "definition": "An expletive indicating sexual arousal"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

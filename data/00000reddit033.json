@@ -1,5 +1,4 @@
 {
-  "lemma": "so yeah",
   "examples": [{
     "text": "always get great foundational results from that . so yeah id say to go for it"
   }, {
@@ -17,7 +16,7 @@
   }, {
     "text": "when the prophet mohammad fled to medinah . so yeah , gregorian isn't the default calendar for "
   }],
-  "status": "novel","editorId": "",
+  "lemma": "so yeah",
   "senses": [{
     "pos": "r",
     "synonym": "",
@@ -28,5 +27,7 @@
       "relNo": 0
     }],
     "definition": "In other words, as a result"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

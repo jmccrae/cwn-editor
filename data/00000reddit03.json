@@ -1,5 +1,4 @@
 {
-  "lemma": "overwatch",
   "examples": [{
     "text": "be balanced around not being able to crawl overwatch and wait for enemies to walk into ambushes"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "the shaken status by keeping her back in overwatch so she could get kills without getting hit"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "overwatch",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -40,5 +39,7 @@
       "relNo": 1
     }],
     "definition": "surveillence by a unit within a video game which would cause the unit to make an action in response to an enemy unit's action"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

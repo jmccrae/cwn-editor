@@ -1,5 +1,4 @@
 {
-  "lemma": "relatable",
   "examples": [{
     "text": "but temp is one of the most relatable . if this was for the public temp"
   }, {
@@ -21,7 +20,7 @@
   }, {
     "text": "yours strikes me as the most realistic and relatable ."
   }],
-  "status": "general","editorId": "",
+  "lemma": "relatable",
   "senses": [{
     "pos": "a",
     "synonym": "",
@@ -36,5 +35,7 @@
       "relNo": 1
     }],
     "definition": "having a manner or nature that is easy to relate to"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

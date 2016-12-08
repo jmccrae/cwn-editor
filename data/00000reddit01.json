@@ -1,14 +1,15 @@
 {
-  "lemma": "IAMA",
   "examples": [{
     "text": "of all , thank you for doing this iama . i am dutch as well ( thoug"
   }],
-  "status": "abbrev","editorId": "",
+  "lemma": "IAMA",
   "senses": [{
     "pos": "n",
     "synonym": "",
     "id": 1,
     "relations": [],
     "definition": "I am a"
-  }]
+  }],
+  "status": "abbrev",
+  "editorId": "jmccrae"
 }

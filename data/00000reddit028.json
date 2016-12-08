@@ -1,5 +1,4 @@
 {
-  "lemma": "brah",
   "examples": [{
     "text": "and smash a fokin bottle oer yer head bruv , i swer 2 christ . ya thin"
   }, {
@@ -25,12 +24,18 @@
   }, {
     "text": "top kek brah"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "brah",
   "senses": [{
     "pos": "n",
     "synonym": "brother: a close friend who accompanies his buddies in their activities <i88718>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "brother: a male with the same parents as someone else; 'my brother still lives with our parents' <i88708>",
+      "relNo": 1
+    }],
     "definition": "brother"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

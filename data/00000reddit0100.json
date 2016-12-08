@@ -1,14 +1,19 @@
 {
-  "lemma": "legit",
   "examples": [{
     "text": "years old so we weren't even talking about legit pedophiles who find pre-pubescent children attractive otherwise you'd"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "legit",
   "senses": [{
     "pos": "a",
     "synonym": "actual: existing in act or fact; 'rocks and trees...the actual world'; 'actual heroism'; 'the actual things that produced the emotion you experienced' <i10600>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "legitimate: in accordance with recognized or accepted standards or principles; 'legitimate advertising practices' <i8953>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

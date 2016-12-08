@@ -1,5 +1,4 @@
 {
-  "lemma": "douchebag",
   "examples": [{
     "text": "deserved it just for wearing sun glasses , douch"
   }, {
@@ -35,12 +34,22 @@
   }, {
     "text": "you sound like a type-a douchebag"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "douchebag",
   "senses": [{
     "pos": "n",
     "synonym": "asshole: insulting terms of address for people who are stupid or irritating or ridiculous <i88330>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "bag: a flexible container with a single opening; 'he stuffed his laundry into a large bag' <i50359>",
+      "relNo": 2
+    }, {
+      "type": "derivation",
+      "target": "douche: irrigation with a jet of water or medicated solution into or around a body part (especially the vagina) to treat infections or cleanse from odorous contents <i39092>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

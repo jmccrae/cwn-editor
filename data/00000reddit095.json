@@ -1,5 +1,4 @@
 {
-  "lemma": "kief",
   "examples": [{
     "text": "i got kief for days but no nugs . how can"
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "with a bang . there goes all my kief ! [ 8 ]"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "kief",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -20,5 +19,7 @@
       "relNo": 0
     }],
     "definition": "A form of cannabis from Morocco and Algeria"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

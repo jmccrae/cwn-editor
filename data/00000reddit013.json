@@ -1,5 +1,4 @@
 {
-  "lemma": "fuck",
   "examples": [{
     "text": "and then deadlift because that shit taxes the fuck out of me ."
   }, {
@@ -13,7 +12,7 @@
   }, {
     "text": "on his pants despite him shaking the living fuck out of it , and dean ( the othe"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "fuck",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -24,5 +23,7 @@
       "relNo": 0
     }],
     "definition": "Strongly and emphatically all of something "
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

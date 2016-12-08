@@ -1,5 +1,4 @@
 {
-  "lemma": "shitter",
   "examples": [{
     "text": "because i was on the way to the shitter . but did they also boo kubiak when"
   }, {
@@ -17,12 +16,18 @@
   }, {
     "text": "will give you one .... marriage in the shitter , father died , recovering from a sport"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "shitter",
   "senses": [{
     "pos": "n",
     "synonym": "bathroom: a room or building equipped with one or more toilets <i60333>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "shit: a coarse term for defecation; 'he took a shit' <i107946>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "woosh",
   "examples": [{
     "text": "realize the base analogy with close encounters . whoosh"
   }, {
@@ -9,7 +8,7 @@
   }, {
     "text": "* woosh *"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "woosh",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -20,5 +19,7 @@
       "relNo": 0
     }],
     "definition": "expression of failing to understand"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

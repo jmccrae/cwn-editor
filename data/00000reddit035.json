@@ -1,5 +1,4 @@
 {
-  "lemma": "welp",
   "examples": [{
     "text": "game and seeing that part and thinking \\ welp , she's dead. \\\"\" and constantly thinking back\""
   }, {
@@ -13,7 +12,7 @@
   }, {
     "text": "welp welp welp"
   }],
-  "status": "novel","editorId": "",
+  "lemma": "welp",
   "senses": [{
     "pos": "x",
     "synonym": "",
@@ -24,5 +23,7 @@
       "relNo": 0
     }],
     "definition": "An expression of fear and anxiety"
-  }]
+  }],
+  "status": "novel",
+  "editorId": "jmccrae"
 }

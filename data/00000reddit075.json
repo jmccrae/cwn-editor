@@ -1,9 +1,8 @@
 {
-  "lemma": "badass",
   "examples": [{
     "text": "company . i know , i'm such a badass sticking them with that penny charge then patronizin"
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "badass",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -22,5 +21,7 @@
       "relNo": 1
     }],
     "definition": "A mean or belligerent person [Wiktionary]"
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

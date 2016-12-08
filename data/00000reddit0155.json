@@ -1,5 +1,4 @@
 {
-  "lemma": "turd",
   "examples": [{
     "text": "have his moment ) , but what a turd . just do your thing man , don'"
   }, {
@@ -11,12 +10,18 @@
   }, {
     "text": "you are just a whiny little turd ."
   }],
-  "status": "vulgar","editorId": "",
+  "lemma": "turd",
   "senses": [{
     "pos": "n",
     "synonym": "asshole: insulting terms of address for people who are stupid or irritating or ridiculous <i88330>",
     "id": 1,
-    "relations": [],
+    "relations": [{
+      "type": "derivation",
+      "target": "turd: obscene terms for feces <i115116>",
+      "relNo": 1
+    }],
     "definition": ""
-  }]
+  }],
+  "status": "vulgar",
+  "editorId": "jmccrae"
 }

@@ -1,5 +1,4 @@
 {
-  "lemma": "nanomachine",
   "examples": [{
     "text": "i had nanomachines in the 80s . they were the micromachines"
   }, {
@@ -13,7 +12,7 @@
   }, {
     "text": "what do they use to see the nanomachines that have replaced computer monitors ?"
   }],
-  "status": "general","editorId": "",
+  "lemma": "nanomachine",
   "senses": [{
     "pos": "n",
     "synonym": "",
@@ -32,5 +31,7 @@
       "relNo": 1
     }],
     "definition": "a machine of the size of close to one nanometre"
-  }]
+  }],
+  "status": "general",
+  "editorId": "jmccrae"
 }

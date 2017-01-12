@@ -21,11 +21,11 @@
     "id": 1,
     "relations": [{
       "type": "hypernym",
-      "target": "set",
+      "target": "set: <i79315>",
       "relNo": 0
     }, {
       "type": "derivation",
-      "target": "set",
+      "target": "set: <i79315>",
       "relNo": 1
     }],
     "definition": " A set of images in the GIF format"

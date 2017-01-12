@@ -31,7 +31,7 @@
       "relNo": 0
     }, {
       "type": "derivation",
-      "target": "<-----reddit-69-1>",
+      "target": "post: <-----reddit-69-1>",
       "relNo": 1
     }],
     "definition": "A post that has already been made before"

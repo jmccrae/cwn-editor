@@ -31,11 +31,11 @@
       "relNo": 3
     }, {
       "type": "derivation",
-      "target": "Post <00004>",
+      "target": "post: <----3-1>",
       "relNo": 2
     }, {
       "type": "hypernym",
-      "target": "Post <00004> ",
+      "target": "post: <----3-1>",
       "relNo": 1
     }],
     "definition": "A poor quality and controversial Internet post"

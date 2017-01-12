@@ -11,6 +11,7 @@ object ToGWN {
   val synsetRef = ".*<-+(.*)\\-(\\d)>".r
   val iliSenseRef = "(.*?):.*<(i\\d+)>".r
   val senseRef = "(.*?):.*<-+(.*)\\-(\\d)>".r
+  val sourcedDefinition = "(.*) \\[(.*)\\]".r
 
   val senseRelations = Set("antonym", "derivation", "loanword")
 
@@ -29,9 +30,9 @@ object ToGWN {
            version="0.1-prerelease"
            citation=""
            url="">
-${entries.flatMap(toGWNEntry).mkString("\n")}
+${entries.sortBy(_._2.lemma).flatMap(toGWNEntry).mkString("\n")}
 ${aux.map(toAuxEntry).mkString("\n")}
-${entries.flatMap(toGWNSynset).mkString("\n")}
+${entries.sortBy(_._2.lemma).flatMap(toGWNSynset).mkString("\n")}
 ${aux.map(toAuxSynset).mkString("\n")}
   </Lexicon>
 </LexicalResource>"""
@@ -89,7 +90,6 @@ ${aux.map(toAuxSynset).mkString("\n")}
   def toGWNEntry(entry : (String, Entry)) = entry match {
     case (id, Entry(lemma, examples, status, senses, _)) =>
       val grouped = senses.groupBy(_.pos).values
-      if(id == "318") println(grouped)
       for {
            entryGroup <- grouped
       } yield  toGWNEntry2(id, lemma, status, entryGroup)
@@ -116,7 +116,7 @@ ${sense.relations.filter(x => senseRelations contains x.`type`).map(senseRelToGW
         case wn31Ref(id) => "wn31:" + id
         case synsetRef(id, idx) => id + "-" + idx
         case failure =>
-          System.err.println(failure)
+          System.err.println("Bad Target: %s in %s" format (failure, id))
           "ERR"
       }
       s"""      <Sense id="${lemmaEscape(lemma)}-$id-${sense.id}" synset="$target"/>"""
@@ -127,7 +127,7 @@ ${sense.relations.filter(x => senseRelations contains x.`type`).map(senseRelToGW
       case iliSenseRef(sense, ili) => lemmaEscape(sense) + "-" + ili
       case senseRef(sense, id, senseIdx) => lemmaEscape(sense) + "-" + id + "-" + senseIdx
       case failure =>
-        System.err.println(failure)
+        System.err.println("Bad Sense Target: %s" format failure)
         "ERR"
     }
     if(r.`type` != "loanword") 
@@ -141,9 +141,14 @@ ${sense.relations.filter(x => senseRelations contains x.`type`).map(senseRelToGW
     case (id, entry) => entry.senses.filter(_.synonym == "").map{toGWNSynset2(_,id,entry.lemma)}
   }
 
+  def toDefn(defnString : String) = defnString match {
+    case sourcedDefinition(defn, source) => """<Definition source="${source}">${defn}</Definition>"""
+    case defn => """<Definition>${defn}</Definition>"""
+  }
+
   def toGWNSynset2(sense : Sense, id : String, lemma : String) = 
     s"""    <Synset id=\"$id-${sense.id}" ili="in" partOfSpeech="${sense.pos}"> <!-- $lemma -->
-      <Definition>${sense.definition}</Definition>
+      <Definition>${sense.definition.trim()}</Definition>
 ${sense.relations.filter(x => !(senseRelations contains x.`type`)).map(synRelToGWN(_)).mkString("\n")}
     </Synset>"""
 
@@ -153,7 +158,7 @@ ${sense.relations.filter(x => !(senseRelations contains x.`type`)).map(synRelToG
       case wn31Ref(id) => "wn31:" + id
       case synsetRef(id, idx) => id + "-" + idx
       case failure =>
-        System.err.println(failure)
+        System.err.println("Bad Syn Target: %s" format failure)
         "ERR"
     }
     if(r.`type` != "emotion" && r.`type` != "pejorative")
@@ -171,7 +176,7 @@ ${sense.relations.filter(x => !(senseRelations contains x.`type`)).map(synRelToG
             (entry.status == "general" || entry.status == "novel" || entry.status == "vulgar") &&
             !entry.senses.exists(_.pos == "x") &&
             !entry.senses.exists(_.synonym != "")
-        }).take(98)
+        })
       )
     )
     out.flush

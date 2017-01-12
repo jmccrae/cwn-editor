@@ -21,7 +21,7 @@
     "id": 1,
     "relations": [{
       "type": "derivation",
-      "target": "spooky",
+      "target": "spooky: <i5032>",
       "relNo": 4
     }, {
       "type": "hypernym",

@@ -107,14 +107,14 @@ ${senses.map(toGWNSense(_, id, lemma)).mkString("\n")}
 
   def toGWNSense(sense : Sense, id : String, lemma : String) = 
     if(sense.synonym == "") {
-      s"""      <Sense id="${lemmaEscape(lemma)}-$id-${sense.id}" synset="${id}-${sense.id}">
+      s"""      <Sense id="${lemmaEscape(lemma)}-$id-${sense.id}" synset="colloqwn-${id}-${sense.id}">
 ${sense.relations.filter(x => senseRelations contains x.`type`).map(senseRelToGWN(_)).mkString("\n")}
       </Sense>"""
     } else {
       val target = sense.synonym match {
         case iliRef(ili) => ili
         case wn31Ref(id) => "wn31:" + id
-        case synsetRef(id, idx) => id + "-" + idx
+        case synsetRef(id, idx) => "colloqwn-" + id + "-" + idx
         case failure =>
           System.err.println("Bad Target: %s in %s" format (failure, id))
           "ERR"
@@ -147,7 +147,7 @@ ${sense.relations.filter(x => senseRelations contains x.`type`).map(senseRelToGW
   }
 
   def toGWNSynset2(sense : Sense, id : String, lemma : String) = 
-    s"""    <Synset id=\"$id-${sense.id}" ili="in" partOfSpeech="${sense.pos}"> <!-- $lemma -->
+    s"""    <Synset id=\"colloqwn-$id-${sense.id}" ili="in" partOfSpeech="${sense.pos}"> <!-- $lemma -->
       <Definition>${sense.definition.trim()}</Definition>
 ${sense.relations.filter(x => !(senseRelations contains x.`type`)).map(synRelToGWN(_)).mkString("\n")}
     </Synset>"""
@@ -156,7 +156,7 @@ ${sense.relations.filter(x => !(senseRelations contains x.`type`)).map(synRelToG
     val target = r.target match {
       case iliRef(ili) => ili
       case wn31Ref(id) => "wn31:" + id
-      case synsetRef(id, idx) => id + "-" + idx
+      case synsetRef(id, idx) => "colloqwn-" + id + "-" + idx
       case failure =>
         System.err.println("Bad Syn Target: %s" format failure)
         "ERR"

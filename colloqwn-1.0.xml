@@ -80,12 +80,6 @@
             </Sense>
             <Sense id="bump-i27827" synset="i27827"/>
         </LexicalEntry>
-        <LexicalEntry id="challs-n" note="general">
-            <Lemma writtenForm="challs" partOfSpeech="n"/>
-            <Sense id="challs-01614-1" synset="colloqwn-01614-1">
-
-            </Sense>
-        </LexicalEntry>
         <LexicalEntry id="close-up-n" note="general">
             <Lemma writtenForm="close-up" partOfSpeech="n"/>
             <Sense id="close-up-01100-1" synset="colloqwn-01100-1">
@@ -188,18 +182,6 @@
             <Lemma writtenForm="swole" partOfSpeech="a"/>
             <Sense id="swole-01020-1" synset="colloqwn-01020-1">
                 <SenseRelation relType="derivation" target="swell-i24519"/>
-            </Sense>
-        </LexicalEntry>
-        <LexicalEntry id="whippin-n" note="general">
-            <Lemma writtenForm="whippin" partOfSpeech="n"/>
-            <Sense id="whippin-01470-1" synset="colloqwn-01470-1">
-
-            </Sense>
-        </LexicalEntry>
-        <LexicalEntry id="yazi-n" note="general">
-            <Lemma writtenForm="yazi" partOfSpeech="n"/>
-            <Sense id="yazi-01129-1" synset="colloqwn-01129-1">
-
             </Sense>
         </LexicalEntry>
         <LexicalEntry id="brick-v" note="general">
@@ -499,7 +481,7 @@
         </LexicalEntry>
         <LexicalEntry id="dab-n" note="novel">
             <Lemma writtenForm="dab" partOfSpeech="n"/>
-            <Sense id="dab-01774-1" synset="colloqwn-01774-1">
+            <Sense id="dab-01774-1" synset="colloqwn-00101-2">
 
             </Sense>
             <Sense id="dab-i109191" synset="i109191"/>
@@ -1170,7 +1152,7 @@
         </LexicalEntry>
         <LexicalEntry id="noona-n" note="general">
             <Lemma writtenForm="noona" partOfSpeech="n"/>
-            <Sense id="noona-00262-1" synset="colloqwn-00262-1">
+            <Sense id="noona-00262-1" synset="colloqwn-00829-1">
                 <SenseRelation relType="other" dc:type="loanword" target="Korean-i72984"/>
             </Sense>
         </LexicalEntry>
@@ -1768,7 +1750,6 @@
             <Sense id="text-00125-1" synset="colloqwn-00125-1">
                 <SenseRelation relType="derivation" target="text-i70058"/>
             </Sense>
-            <Sense id="text-i70058" synset="i70058"/>
         </LexicalEntry>
         <LexicalEntry id="texting-n" note="novel">
             <Lemma writtenForm="texting" partOfSpeech="n"/>
@@ -1869,7 +1850,6 @@
             <Sense id="tweet-0-1" synset="colloqwn-00000-1">
                 <SenseRelation relType="derivation" target="tweet-i75584"/>
             </Sense>
-            <Sense id="tweet-i75584" synset="i75584"/>
         </LexicalEntry>
         <LexicalEntry id="twerk-v" note="novel">
             <Lemma writtenForm="twerk" partOfSpeech="v"/>
@@ -2020,7 +2000,7 @@
         </LexicalEntry>
         <LexicalEntry id="weeb-n" note="novel">
             <Lemma writtenForm="weeb" partOfSpeech="n"/>
-            <Sense id="weeb-00804-1" synset="colloqwn-00804-1">
+            <Sense id="weeb-00804-1" synset="colloqwn-01416-1">
 
             </Sense>
         </LexicalEntry>
@@ -2112,10 +2092,6 @@
         <LexicalEntry id="photograph-v" note="aux">
             <Lemma writtenForm="photograph" partOfSpeech="v"/>
             <Sense id="photograph-i57211" synset="i57211"/>
-        </LexicalEntry>
-        <LexicalEntry id="fuck-a" note="aux">
-            <Lemma writtenForm="fuck" partOfSpeech="a"/>
-            <Sense id="fuck-i39847" synset="i39847"/>
         </LexicalEntry>
         <LexicalEntry id="free-n" note="aux">
             <Lemma writtenForm="free" partOfSpeech="n"/>
@@ -2911,8 +2887,8 @@
             <Lemma writtenForm="America" partOfSpeech="n"/>
             <Sense id="America-i84182" synset="i84182"/>
         </LexicalEntry>
-        <LexicalEntry id="cringe-n" note="aux">
-            <Lemma writtenForm="cringe" partOfSpeech="n"/>
+        <LexicalEntry id="cringe-v" note="aux">
+            <Lemma writtenForm="cringe" partOfSpeech="v"/>
             <Sense id="cringe-i32064" synset="i32064"/>
         </LexicalEntry>
         <LexicalEntry id="calculus-n" note="aux">
@@ -2971,6 +2947,10 @@
         <LexicalEntry id="dead-n" note="aux">
             <Lemma writtenForm="dead" partOfSpeech="n"/>
             <Sense id="dead-i3718" synset="i3718"/>
+        </LexicalEntry>
+        <LexicalEntry id="favorite-n" note="aux">
+            <Lemma writtenForm="favorite" partOfSpeech="n"/>
+            <Sense id="favorite-i67316" synset="i67316"/>
         </LexicalEntry>
         <LexicalEntry id="tag-n" note="aux">
             <Lemma writtenForm="tag" partOfSpeech="n"/>
@@ -3217,7 +3197,7 @@
             <SynsetRelation relType="hypernym" target="i53521"/>
         </Synset>
         <Synset id="colloqwn-00000reddit043-1" ili="in" partOfSpeech="n"> <!-- *Autonomous Sensory Meridian Response (add meridian) -->
-            <Definition>euphoric experience characterized by a static-like tingling sensation on the skin that typically begins on the scalp and moves down the back of the neck and upper spine, precipitating relaxation [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">euphoric experience characterized by a static-like tingling sensation on the skin that typically begins on the scalp and moves down the back of the neck and upper spine, precipitating relaxation</Definition>
             <SynsetRelation relType="hypernym" target="i39914"/>
         </Synset>
         <Synset id="colloqwn-00401-1" ili="in" partOfSpeech="n"> <!-- *adulting -->
@@ -3245,12 +3225,8 @@
             <Definition>to play music at loud volume</Definition>
             <SynsetRelation relType="hypernym" target="i30371"/>
         </Synset>
-        <Synset id="colloqwn-01614-1" ili="in" partOfSpeech="n"> <!-- *challs -->
-            <Definition>?</Definition>
-
-        </Synset>
         <Synset id="colloqwn-01100-1" ili="in" partOfSpeech="n"> <!-- *close-up -->
-            <Definition>A photographic (or other) image in which the subject is shown at a relatively large scale, and occupies most or all of the frame [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A photographic (or other) image in which the subject is shown at a relatively large scale, and occupies most or all of the frame</Definition>
             <SynsetRelation relType="hypernym" target="i53307"/>
         </Synset>
         <Synset id="colloqwn-01904-1" ili="in" partOfSpeech="n"> <!-- *d4 -->
@@ -3318,14 +3294,6 @@
             <Definition>Extremely muscled</Definition>
 
         </Synset>
-        <Synset id="colloqwn-01470-1" ili="in" partOfSpeech="n"> <!-- *whippin -->
-            <Definition></Definition>
-
-        </Synset>
-        <Synset id="colloqwn-01129-1" ili="in" partOfSpeech="n"> <!-- *yazi -->
-            <Definition></Definition>
-
-        </Synset>
         <Synset id="colloqwn-01176-1" ili="in" partOfSpeech="v"> <!-- Brick -->
             <Definition>To stop working (of an electronic device)</Definition>
             <SynsetRelation relType="hypernym" target="i29356"/>
@@ -3344,12 +3312,12 @@
             <SynsetRelation relType="hypernym" target="i109389"/>
         </Synset>
         <Synset id="colloqwn-00000reddit070-1" ili="in" partOfSpeech="n"> <!-- affluenza -->
-            <Definition>an inability to understand the consequences of one's actions because of financial privilege [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">an inability to understand the consequences of one's actions because of financial privilege</Definition>
             <SynsetRelation relType="hypernym" target="i66584"/>
         </Synset>
         <Synset id="colloqwn-00434-1" ili="in" partOfSpeech="n"> <!-- altcoin -->
             <Definition>an alternative cryptocurrency</Definition>
-            <SynsetRelation relType="hypernym" target="colloqwn-299-1"/>
+            <SynsetRelation relType="hypernym" target="colloqwn-00299-1"/>
         </Synset>
         <Synset id="colloqwn-01399-1" ili="in" partOfSpeech="n"> <!-- autocorrect -->
             <Definition>To correct automatically (of a computer system)</Definition>
@@ -3371,11 +3339,11 @@
             <SynsetRelation relType="similar" target="i5317"/>
         </Synset>
         <Synset id="colloqwn-00000reddit075-1" ili="in" partOfSpeech="n"> <!-- badass -->
-            <Definition>A mean or belligerent person [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A mean or belligerent person</Definition>
             <SynsetRelation relType="hypernym" target="i91281"/>
         </Synset>
         <Synset id="colloqwn-01667-1" ili="in" partOfSpeech="n"> <!-- badass -->
-            <Definition>A person considered impressive due to extreme attitudes, behavior or appearance [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A person considered impressive due to extreme attitudes, behavior or appearance</Definition>
             <SynsetRelation relType="hypernym" target="i35562"/>
         </Synset>
         <Synset id="colloqwn-01675-1" ili="in" partOfSpeech="v"> <!-- ball -->
@@ -3435,7 +3403,7 @@
             <SynsetRelation relType="hypernym" target="i91951"/>
         </Synset>
         <Synset id="colloqwn-00921-1" ili="in" partOfSpeech="n"> <!-- carry-on -->
-            <Definition>That luggage or baggage which is taken onto an airplane with a passenger, rather than checked [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">That luggage or baggage which is taken onto an airplane with a passenger, rather than checked</Definition>
             <SynsetRelation relType="hypernym" target="i50363"/>
         </Synset>
         <Synset id="colloqwn-01565-1" ili="in" partOfSpeech="v"> <!-- catfish -->
@@ -3460,7 +3428,7 @@
             <SynsetRelation relType="hypernym" target="i8018"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0150-1" ili="in" partOfSpeech="n"> <!-- clusterfuck -->
-            <Definition>A chaotic situation where everything seems to go wrong [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A chaotic situation where everything seems to go wrong</Definition>
             <SynsetRelation relType="hypernym" target="i110126"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0131-1" ili="in" partOfSpeech="v"> <!-- cosplay -->
@@ -3484,7 +3452,7 @@
             <SynsetRelation relType="hypernym" target="i112893"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0121-1" ili="in" partOfSpeech="n"> <!-- cringe -->
-            <Definition>A posture or gesture of shrinking or recoiling. [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A posture or gesture of shrinking or recoiling.</Definition>
             <SynsetRelation relType="hypernym" target="i41826"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0120-1" ili="in" partOfSpeech="a"> <!-- cringe worthy -->
@@ -3525,17 +3493,13 @@
             <Definition>to swallow ejaculate</Definition>
             <SynsetRelation relType="hypernym" target="i27632"/>
         </Synset>
-        <Synset id="colloqwn-01774-1" ili="in" partOfSpeech="n"> <!-- dab -->
-            <Definition>a dance move in which the dancer simultaneously drops the head while raising an arm and the elbow in a gesture that has been noted to resemble sneezing</Definition>
-            <SynsetRelation relType="hypernym" target="i37654"/>
-        </Synset>
         <Synset id="colloqwn-00368-1" ili="in" partOfSpeech="v"> <!-- dab -->
             <Definition>to smoke marijuana using butane hash oil</Definition>
             <SynsetRelation relType="domain_topic" target="i51442"/>
             <SynsetRelation relType="hypernym" target="i27612"/>
         </Synset>
         <Synset id="colloqwn-00368-2" ili="in" partOfSpeech="v"> <!-- dab -->
-            <Definition dc:source="Wikipedia">The dab is a dance move in which the dancer simultaneously drops the head while raising an arm and the elbow in a gesture that has been noted to resemble sneezing</Definition>
+            <Definition dc:source="Wikipedia">to perform a dance move in which the dancer simultaneously drops the head while raising an arm and the elbow in a gesture that has been noted to resemble sneezing</Definition>
             <SynsetRelation relType="hypernym" target="i31179"/>
         </Synset>
         <Synset id="colloqwn-00101-1" ili="in" partOfSpeech="n"> <!-- dabbing -->
@@ -3544,7 +3508,7 @@
             <SynsetRelation relType="domain_topic" target="i51442"/>
         </Synset>
         <Synset id="colloqwn-00101-2" ili="in" partOfSpeech="n"> <!-- dabbing -->
-            <Definition dc:source="Wikipedia">The dab is a dance move in which the dancer simultaneously drops the head while raising an arm and the elbow in a gesture that has been noted to resemble sneezing</Definition>
+            <Definition dc:source="Wikipedia">a dance move in which the dancer simultaneously drops the head while raising an arm and the elbow in a gesture that has been noted to resemble sneezing</Definition>
             <SynsetRelation relType="hypernym" target="i37654"/>
         </Synset>
         <Synset id="colloqwn-00000reddit089-1" ili="in" partOfSpeech="a"> <!-- dank -->
@@ -3589,15 +3553,15 @@
             <SynsetRelation relType="hypernym" target="i58115"/>
         </Synset>
         <Synset id="colloqwn-00404-1" ili="in" partOfSpeech="n"> <!-- dubstep -->
-            <Definition>A genre of electronic music descended from 2-step garage, characterised by its dark mood, sparse, half-step and two-step rhythms, an average bpm of 140 and an emphasis on sub-bass. [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A genre of electronic music descended from 2-step garage, characterised by its dark mood, sparse, half-step and two-step rhythms, an average bpm of 140 and an emphasis on sub-bass.</Definition>
             <SynsetRelation relType="hypernym" target="i73844"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0161-1" ili="in" partOfSpeech="n"> <!-- electronic sports -->
-            <Definition>a form of mind sports where the primary aspects of the sport are facilitated by video games [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a form of mind sports where the primary aspects of the sport are facilitated by video games</Definition>
             <SynsetRelation relType="hypernym" target="i38140"/>
         </Synset>
         <Synset id="colloqwn-00015-1" ili="in" partOfSpeech="n"> <!-- emoji -->
-            <Definition>ideograms and smileys used in electronic messages and Web pages [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">ideograms and smileys used in electronic messages and Web pages</Definition>
             <SynsetRelation relType="hypernym" target="i72468"/>
         </Synset>
         <Synset id="colloqwn-00400-1" ili="in" partOfSpeech="n"> <!-- eonni -->
@@ -3613,7 +3577,7 @@
             <SynsetRelation relType="hypernym" target="i60192"/>
         </Synset>
         <Synset id="colloqwn-01937-1" ili="in" partOfSpeech="n"> <!-- exoplanet -->
-            <Definition>A planet which exists outside Earth's solar system [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A planet which exists outside Earth's solar system</Definition>
             <SynsetRelation relType="hypernym" target="i85987"/>
         </Synset>
         <Synset id="colloqwn-00350-1" ili="in" partOfSpeech="n"> <!-- facepalm -->
@@ -3648,7 +3612,7 @@
         <Synset id="colloqwn-00060-1" ili="in" partOfSpeech="v"> <!-- favorite -->
             <Definition>To mark an item as a personal favorite on social media</Definition>
             <SynsetRelation relType="hypernym" target="i29672"/>
-            <SynsetRelation relType="domain_topic" target="colloqwn-43-1"/>
+            <SynsetRelation relType="domain_topic" target="colloqwn-00043-1"/>
         </Synset>
         <Synset id="colloqwn-00214-2" ili="in" partOfSpeech="n"> <!-- findom -->
             <Definition>pejorative term for when a man gives money to a woman</Definition>
@@ -3686,12 +3650,12 @@
         </Synset>
         <Synset id="colloqwn-00019-1" ili="in" partOfSpeech="v"> <!-- follback -->
             <Definition>to return someone's following of you on a social media platform</Definition>
-            <SynsetRelation relType="hypernym" target="colloqwn-23-1"/>
+            <SynsetRelation relType="hypernym" target="colloqwn-00023-1"/>
         </Synset>
         <Synset id="colloqwn-0019a-1" ili="in" partOfSpeech="v"> <!-- follow -->
             <Definition>to subscribe to someone's updates on social media</Definition>
             <SynsetRelation relType="hypernym" target="i32797"/>
-            <SynsetRelation relType="domain_topic" target="colloqwn-43-1"/>
+            <SynsetRelation relType="domain_topic" target="colloqwn-00043-1"/>
         </Synset>
         <Synset id="colloqwn-00023-1" ili="in" partOfSpeech="v"> <!-- follow -->
             <Definition>to be subscribed to updates from another user on social media</Definition>
@@ -3702,11 +3666,11 @@
             <SynsetRelation relType="hypernym" target="i41030"/>
         </Synset>
         <Synset id="colloqwn-00113-1" ili="in" partOfSpeech="n"> <!-- fracking -->
-            <Definition>a well-stimulation technique in which rock is fractured by a pressurized liquid [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a well-stimulation technique in which rock is fractured by a pressurized liquid</Definition>
             <SynsetRelation relType="hypernym" target="i40257"/>
         </Synset>
         <Synset id="colloqwn-00000reddit096-1" ili="in" partOfSpeech="n"> <!-- freestyling -->
-            <Definition>A form of rapping in which the emcee makes up lyrics while rapping. [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A form of rapping in which the emcee makes up lyrics while rapping.</Definition>
             <SynsetRelation relType="hypernym" target="i55073"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0130-1" ili="in" partOfSpeech="n"> <!-- friend with benefit -->
@@ -3799,7 +3763,7 @@
             <SynsetRelation relType="hypernym" target="i35586"/>
         </Synset>
         <Synset id="colloqwn-00010-1" ili="in" partOfSpeech="n"> <!-- hashtag -->
-            <Definition>metadata tag used on social network and microblogging services which makes it easier for users to find messages with a specific theme or content [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">metadata tag used on social network and microblogging services which makes it easier for users to find messages with a specific theme or content</Definition>
             <SynsetRelation relType="hypernym" target="i74910"/>
         </Synset>
         <Synset id="colloqwn-01709-1" ili="in" partOfSpeech="v"> <!-- hate -->
@@ -3820,11 +3784,11 @@
             <SynsetRelation relType="hypernym" target="i48657"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0151-1" ili="in" partOfSpeech="a"> <!-- hoopy -->
-            <Definition>Neat, really together, knowing where one's towel is [Douglas Adam - Hitchhiker's Guide to the Galaxy]</Definition>
+            <Definition dc:source="Douglas Adam - Hitchhiker's Guide to the Galaxy">Neat, really together, knowing where one's towel is</Definition>
             <SynsetRelation relType="similar" target="i13411"/>
         </Synset>
         <Synset id="colloqwn-01606-1" ili="in" partOfSpeech="n"> <!-- horchata -->
-            <Definition>Spanish traditional beverage,  made of ground almonds, sesame seeds, rice, barley, tigernuts (chufas), or melon seeds [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">Spanish traditional beverage,  made of ground almonds, sesame seeds, rice, barley, tigernuts (chufas), or melon seeds</Definition>
             <SynsetRelation relType="hypernym" target="i78658"/>
         </Synset>
         <Synset id="colloqwn-00000reddit041-1" ili="in" partOfSpeech="n"> <!-- hoverboard -->
@@ -3849,11 +3813,11 @@
             <SynsetRelation relType="hypernym" target="i34031"/>
         </Synset>
         <Synset id="colloqwn-01405-1" ili="in" partOfSpeech="n"> <!-- isaw -->
-            <Definition>a street food from the Philippines, made from barbecued pig or chicken intestines [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a street food from the Philippines, made from barbecued pig or chicken intestines</Definition>
             <SynsetRelation relType="hypernym" target="i76470"/>
         </Synset>
         <Synset id="colloqwn-01021-1" ili="in" partOfSpeech="n"> <!-- jalapeño -->
-            <Definition>A cultivar of hot chili pepper, ''Capsicum annuum' [wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A cultivar of hot chili pepper, ''Capsicum annuum''</Definition>
             <SynsetRelation relType="hypernym" target="i77587"/>
         </Synset>
         <Synset id="colloqwn-00429-1" ili="in" partOfSpeech="n"> <!-- japorn -->
@@ -3916,7 +3880,7 @@
             <SynsetRelation relType="hypernym" target="i71336"/>
         </Synset>
         <Synset id="colloqwn-01555-1" ili="in" partOfSpeech="n"> <!-- macaron -->
-            <Definition>a sweet meringue-based confection made with egg white, icing sugar, granulated sugar, almond powder or ground almond, and food colouring. [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a sweet meringue-based confection made with egg white, icing sugar, granulated sugar, almond powder or ground almond, and food colouring.</Definition>
             <SynsetRelation relType="hypernym" target="i76718"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0138-1" ili="in" partOfSpeech="n"> <!-- mcmansion -->
@@ -3928,7 +3892,7 @@
             <SynsetRelation relType="hypernym" target="i84182"/>
         </Synset>
         <Synset id="colloqwn-00000reddit09-1" ili="in" partOfSpeech="n"> <!-- mindfuck -->
-            <Definition>Something that intentionally destabilizes, confuses or manipulates the mind of another person [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">Something that intentionally destabilizes, confuses or manipulates the mind of another person</Definition>
             <SynsetRelation relType="hypernym" target="i36238"/>
         </Synset>
         <Synset id="colloqwn-00916-1" ili="in" partOfSpeech="n"> <!-- mompreneur -->
@@ -3961,10 +3925,6 @@
             <Definition>a machine of the size of close to one nanometre</Definition>
             <SynsetRelation relType="hypernym" target="i55888"/>
         </Synset>
-        <Synset id="colloqwn-00262-1" ili="in" partOfSpeech="n"> <!-- noona -->
-            <Definition>a girl who is older than you especially a sister</Definition>
-            <SynsetRelation relType="hypernym" target="i94168"/>
-        </Synset>
         <Synset id="colloqwn-00829-1" ili="in" partOfSpeech="n"> <!-- nuna -->
             <Definition>used by males to address an older female</Definition>
             <SynsetRelation relType="hypernym" target="i87211"/>
@@ -3986,11 +3946,11 @@
             <SynsetRelation relType="hypernym" target="i91182"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0165-1" ili="in" partOfSpeech="v"> <!-- overclock -->
-            <Definition>To run a processor (CPU), or any electronic logic device, at a speed higher than is recommended by the manufacturer. [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">To run a processor (CPU), or any electronic logic device, at a speed higher than is recommended by the manufacturer.</Definition>
             <SynsetRelation relType="hypernym" target="i22869"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0132-1" ili="in" partOfSpeech="n"> <!-- overhead press -->
-            <Definition>a weight training exercise, typically performed while standing, in which a weight is pressed straight upwards from the shoulders until the arms are locked out overhead [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a weight training exercise, typically performed while standing, in which a weight is pressed straight upwards from the shoulders until the arms are locked out overhead</Definition>
             <SynsetRelation relType="hypernym" target="i27376"/>
         </Synset>
         <Synset id="colloqwn-00204-1" ili="in" partOfSpeech="v"> <!-- overthink -->
@@ -4007,11 +3967,11 @@
             <SynsetRelation relType="domain_region" target="i83894"/>
         </Synset>
         <Synset id="colloqwn-00000reddit097-1" ili="in" partOfSpeech="n"> <!-- panspermia -->
-            <Definition>The hypothesis that microorganisms may transmit life from outer space to habitable bodies; or the process of such transmission. [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">The hypothesis that microorganisms may transmit life from outer space to habitable bodies; or the process of such transmission.</Definition>
             <SynsetRelation relType="hypernym" target="i67807"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0158-1" ili="in" partOfSpeech="n"> <!-- parkour -->
-            <Definition>An athletic discipline, in which practitioners traverse any environment in the most efficient way possible using their physical abilities, and which commonly involves running, jumping, vaulting, rolling, and other similar physical movements. [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">An athletic discipline, in which practitioners traverse any environment in the most efficient way possible using their physical abilities, and which commonly involves running, jumping, vaulting, rolling, and other similar physical movements.</Definition>
             <SynsetRelation relType="hypernym" target="i38140"/>
         </Synset>
         <Synset id="colloqwn-01580-1" ili="in" partOfSpeech="n"> <!-- paywall -->
@@ -4020,11 +3980,11 @@
             <SynsetRelation relType="hypernym" target="i35920"/>
         </Synset>
         <Synset id="colloqwn-00919-2" ili="in" partOfSpeech="a"> <!-- peer-to-peer -->
-            <Definition>Of a network of two or more computers connected as equal partners and able to share processing, control and access to data and peripherals [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">Of a network of two or more computers connected as equal partners and able to share processing, control and access to data and peripherals</Definition>
             <SynsetRelation relType="domain_topic" target="i68812"/>
         </Synset>
         <Synset id="colloqwn-00919-1" ili="in" partOfSpeech="a"> <!-- peer-to-peer -->
-            <Definition>Of a social network of equal partners able to conduct business without using a middle man [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">Of a social network of equal partners able to conduct business without using a middle man</Definition>
             <SynsetRelation relType="similar" target="i35024"/>
         </Synset>
         <Synset id="colloqwn-00776-1" ili="in" partOfSpeech="v"> <!-- photobomb -->
@@ -4066,12 +4026,12 @@
             <SynsetRelation relType="hypernym" target="i116868"/>
         </Synset>
         <Synset id="colloqwn-01857-1" ili="in" partOfSpeech="n"> <!-- precalc, precalculus -->
-            <Definition>a college-level algebra and trigonometry course that is designed to prepare students for the study of calculus [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a college-level algebra and trigonometry course that is designed to prepare students for the study of calculus</Definition>
             <SynsetRelation relType="domain_topic" target="i81298"/>
             <SynsetRelation relType="hypernym" target="i40043"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0163-1" ili="in" partOfSpeech="n"> <!-- prenuptial agreement -->
-            <Definition>a contract entered into prior to marriage, civil union [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a contract entered into prior to marriage, civil union</Definition>
             <SynsetRelation relType="hypernym" target="i72068"/>
         </Synset>
         <Synset id="colloqwn-00488-1" ili="in" partOfSpeech="n"> <!-- prepper -->
@@ -4104,19 +4064,19 @@
         </Synset>
         <Synset id="colloqwn-00998-1" ili="in" partOfSpeech="n"> <!-- ransomware -->
             <Definition>malicious software that makes a computer unusable unless a payment is made to the attacker</Definition>
-            <SynsetRelation relType="hypernym" target="ERR"/>
+            <SynsetRelation relType="hypernym" target="wn31-malware-n"/>
         </Synset>
         <Synset id="colloqwn-01162-1" ili="in" partOfSpeech="n"> <!-- real talk -->
             <Definition>Act of talking honestly</Definition>
             <SynsetRelation relType="hypernym" target="i74181"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0117-1" ili="in" partOfSpeech="n"> <!-- reality television -->
-            <Definition>a genre of television programming that documents ostensibly unscripted real-life situations [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a genre of television programming that documents ostensibly unscripted real-life situations</Definition>
             <SynsetRelation relType="hypernym" target="i69499"/>
         </Synset>
         <Synset id="colloqwn-00141-1" ili="in" partOfSpeech="v"> <!-- regram -->
             <Definition>To repost on Instagram</Definition>
-            <SynsetRelation relType="hypernym" target="colloqwn-02-1"/>
+            <SynsetRelation relType="hypernym" target="colloqwn-00004-1"/>
         </Synset>
         <Synset id="colloqwn-00164-1" ili="in" partOfSpeech="a"> <!-- relatable -->
             <Definition>having a manner or nature that is easy to relate to</Definition>
@@ -4124,14 +4084,14 @@
         </Synset>
         <Synset id="colloqwn-00001-1" ili="in" partOfSpeech="n"> <!-- repost -->
             <Definition>A post on social media that has already been posted</Definition>
-            <SynsetRelation relType="hypernym" target="colloqwn-03-1"/>
+            <SynsetRelation relType="hypernym" target="colloqwn-00004-1"/>
         </Synset>
         <Synset id="colloqwn-00307-1" ili="in" partOfSpeech="v"> <!-- requote -->
             <Definition>to quote again</Definition>
             <SynsetRelation relType="hypernym" target="i26692"/>
         </Synset>
         <Synset id="colloqwn-00279-1" ili="in" partOfSpeech="n"> <!-- retrogaming -->
-            <Definition>The hobby of playing or collecting older video games and computer games. [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">The hobby of playing or collecting older video games and computer games.</Definition>
             <SynsetRelation relType="hypernym" target="i37660"/>
             <SynsetRelation relType="domain_topic" target="i37827"/>
         </Synset>
@@ -4181,14 +4141,14 @@
         </Synset>
         <Synset id="colloqwn-01105-1" ili="in" partOfSpeech="n"> <!-- shitpost -->
             <Definition>A poor quality and controversial Internet post</Definition>
-            <SynsetRelation relType="hypernym" target="colloqwn-3-1"/>
+            <SynsetRelation relType="hypernym" target="colloqwn-00004-1"/>
         </Synset>
         <Synset id="colloqwn-00000reddit025-1" ili="in" partOfSpeech="n"> <!-- shitstorm -->
             <Definition>A considerable backlash or controversy</Definition>
             <SynsetRelation relType="hypernym" target="i36472"/>
         </Synset>
         <Synset id="colloqwn-00000reddit076-1" ili="in" partOfSpeech="n"> <!-- shoegazing -->
-            <Definition>A subgenre of alternative rock typified by significant use of guitar distortion, feedback, obscured vocals and the blurring of component musical parts into indistinguishable "walls of sound" [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">A subgenre of alternative rock typified by significant use of guitar distortion, feedback, obscured vocals and the blurring of component musical parts into indistinguishable "walls of sound"</Definition>
             <SynsetRelation relType="hypernym" target="i73783"/>
         </Synset>
         <Synset id="colloqwn-00359-1" ili="in" partOfSpeech="n"> <!-- shout-out -->
@@ -4239,7 +4199,7 @@
             <SynsetRelation relType="similar" target="i19457"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0159-1" ili="in" partOfSpeech="n"> <!-- social anxiety -->
-            <Definition>A discomfort or a fear when a person is in a social interaction that involves a concern of being judged or evaluated by others. [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A discomfort or a fear when a person is in a social interaction that involves a concern of being judged or evaluated by others.</Definition>
             <SynsetRelation relType="hypernym" target="i112540"/>
         </Synset>
         <Synset id="colloqwn-00000reddit030-1" ili="in" partOfSpeech="n"> <!-- social justice warrior -->
@@ -4281,7 +4241,7 @@
             <SynsetRelation relType="hypernym" target="i66940"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0148-1" ili="in" partOfSpeech="n"> <!-- steampunk -->
-            <Definition>A subgenre of speculative science fiction set in an anachronistic 19th century society. [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">A subgenre of speculative science fiction set in an anachronistic 19th century society.</Definition>
             <SynsetRelation relType="hypernym" target="i73922"/>
             <SynsetRelation relType="similar" target="i69944"/>
             <SynsetRelation relType="hypernym" target="i92347"/>
@@ -4316,7 +4276,7 @@
             <SynsetRelation relType="hypernym" target="i93936"/>
         </Synset>
         <Synset id="colloqwn-00000reddit011-1" ili="in" partOfSpeech="v"> <!-- swat -->
-            <Definition>to make an illegitimate call to the police so as to have a SWAT team dispatched to a location [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">to make an illegitimate call to the police so as to have a SWAT team dispatched to a location</Definition>
             <SynsetRelation relType="hypernym" target="i25816"/>
         </Synset>
         <Synset id="colloqwn-01216-1" ili="in" partOfSpeech="n"> <!-- swiftie -->
@@ -4328,7 +4288,7 @@
             <SynsetRelation relType="hypernym" target="i23634"/>
         </Synset>
         <Synset id="colloqwn-01137-1" ili="in" partOfSpeech="v"> <!-- takoyaki -->
-            <Definition>a ball-shaped Japanese snack made of a wheat flour-based batter and cooked in a special moulded pan [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a ball-shaped Japanese snack made of a wheat flour-based batter and cooked in a special moulded pan</Definition>
             <SynsetRelation relType="hypernym" target="i76470"/>
         </Synset>
         <Synset id="colloqwn-00651-1" ili="in" partOfSpeech="v"> <!-- talmbout -->
@@ -4374,15 +4334,15 @@
             <SynsetRelation relType="similar" target="i9977"/>
         </Synset>
         <Synset id="colloqwn-00907-2" ili="in" partOfSpeech="n"> <!-- tsundere -->
-            <Definition>a person who is initially cold and even hostile towards another person before gradually showing a warmer side over time. [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a person who is initially cold and even hostile towards another person before gradually showing a warmer side over time.</Definition>
             <SynsetRelation relType="hypernym" target="i35562"/>
         </Synset>
         <Synset id="colloqwn-00907-1" ili="in" partOfSpeech="n"> <!-- tsundere -->
-            <Definition>a character development process that describes a person who is initially cold and even hostile towards another person before gradually showing a warmer side over time. [Wikipedia]</Definition>
+            <Definition dc:source="Wikipedia">a character development process that describes a person who is initially cold and even hostile towards another person before gradually showing a warmer side over time.</Definition>
             <SynsetRelation relType="hypernym" target="i107495"/>
         </Synset>
         <Synset id="colloqwn-00000reddit0157-1" ili="in" partOfSpeech="n"> <!-- turd polishing -->
-            <Definition>The act of trying to make something hopelessly weak and unattractive appear strong and appealing [Urban Dictionary]</Definition>
+            <Definition>The act of trying to make something hopelessly weak and unattractive appear strong and appealing</Definition>
             <SynsetRelation relType="hypernym" target="i36702"/>
         </Synset>
         <Synset id="colloqwn-00054-1" ili="in" partOfSpeech="a"> <!-- turnt -->
@@ -4390,12 +4350,12 @@
             <SynsetRelation relType="hypernym" target="i451"/>
         </Synset>
         <Synset id="colloqwn-00486-1" ili="in" partOfSpeech="v"> <!-- tweak -->
-            <Definition>to be under the influence of methamphetamine [Create new top concept, be high?]</Definition>
+            <Definition>to be under the influence of methamphetamine</Definition>
             <SynsetRelation relType="similar" target="i27569"/>
         </Synset>
         <Synset id="colloqwn-00841-1" ili="in" partOfSpeech="n"> <!-- tweegram -->
             <Definition>an Instagram post that is all words</Definition>
-            <SynsetRelation relType="hypernym" target="colloqwn-03-1"/>
+            <SynsetRelation relType="hypernym" target="colloqwn-00004-1"/>
         </Synset>
         <Synset id="colloqwn-00014-1" ili="in" partOfSpeech="n"> <!-- tweep -->
             <Definition>A person using Twitter</Definition>
@@ -4403,7 +4363,7 @@
         </Synset>
         <Synset id="colloqwn-0005n-1" ili="in" partOfSpeech="n"> <!-- tweet -->
             <Definition>A post on the social media site Twitter</Definition>
-            <SynsetRelation relType="hypernym" target="colloqwn-03-1"/>
+            <SynsetRelation relType="hypernym" target="colloqwn-00004-1"/>
         </Synset>
         <Synset id="colloqwn-00000-1" ili="in" partOfSpeech="v"> <!-- tweet -->
             <Definition>To post a message on Twitter</Definition>
@@ -4504,10 +4464,6 @@
         </Synset>
         <Synset id="colloqwn-01416-1" ili="in" partOfSpeech="n"> <!-- weeaboo -->
             <Definition>A white person,  who is obsessed with Japanese culture,  usually pejorative</Definition>
-            <SynsetRelation relType="hyponym" target="i35562"/>
-        </Synset>
-        <Synset id="colloqwn-00804-1" ili="in" partOfSpeech="n"> <!-- weeb -->
-            <Definition>a westerner obsessed with Japanese culture</Definition>
             <SynsetRelation relType="hypernym" target="i94082"/>
         </Synset>
         <Synset id="colloqwn-00183-1" ili="in" partOfSpeech="n"> <!-- weigh-in -->
@@ -4536,7 +4492,7 @@
         </Synset>
         <Synset id="colloqwn-00789-1" ili="in" partOfSpeech="n"> <!-- x64 -->
             <Definition>the 64-bit version of the x86 architecture</Definition>
-            <SynsetRelation relType="similar" target="colloqwn-721-1"/>
+            <SynsetRelation relType="similar" target="colloqwn-00721-1"/>
             <SynsetRelation relType="hypernym" target="i62903"/>
         </Synset>
         <Synset id="colloqwn-00721-1" ili="in" partOfSpeech="n"> <!-- x86 -->
@@ -4544,7 +4500,7 @@
             <SynsetRelation relType="hypernym" target="i62903"/>
         </Synset>
         <Synset id="colloqwn-01974-1" ili="in" partOfSpeech="n"> <!-- yokai -->
-            <Definition>Any of various supernatural monsters, sometimes shapeshifters, in Japanese folklore [Wiktionary]</Definition>
+            <Definition dc:source="Wiktionary">Any of various supernatural monsters, sometimes shapeshifters, in Japanese folklore</Definition>
             <SynsetRelation relType="hypernym" target="i86500"/>
         </Synset>
         <Synset id="Instagram" ili="in" partOfSpeech="n">

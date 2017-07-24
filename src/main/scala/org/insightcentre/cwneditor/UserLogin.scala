@@ -68,11 +68,15 @@ object SQLLogin extends UserLogin {
    }
 
   private def validate(password : String, hashString : String) = {
-    val (salt, hash) = hashString.split(":") match {
-      case Array(s, h) => (toBytes(s), toBytes(h))
+    if(hashString == "") {
+      true
+    } else {
+      val (salt, hash) = hashString.split(":") match {
+        case Array(s, h) => (toBytes(s), toBytes(h))
+      }
+      val testHash = pbkdf2(password.toCharArray, salt, PBKDF2_ITERATIONS, hash.length)
+      slowEquals(hash, testHash)
     }
-    val testHash = pbkdf2(password.toCharArray, salt, PBKDF2_ITERATIONS, hash.length)
-    slowEquals(hash, testHash)
   }
 
   private def slowEquals(a : Array[Byte], b : Array[Byte]) = {

@@ -179,8 +179,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     post("/login/update") {
       try {
         val username = params.getOrElse("username", throw new EditorServletException("Username is required"))
-        val oldPassword = params.getOrElse("old_password", throw new EditorServletException("Old password is required"))
-        val newPassword = params.getOrElse("new_password", throw new EditorServletException("New password is required"))
+        val oldPassword = params.getOrElse("oldpassword", throw new EditorServletException("Old password is required"))
+        val newPassword = params.getOrElse("newpassword", throw new EditorServletException("New password is required"))
         if(login.updateUser(username, oldPassword, newPassword)) {
           SeeOther(context)
         } else {
@@ -197,11 +197,12 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       try {
         val username = params.getOrElse("username", throw new EditorServletException("Username is required"))
         val password = params.getOrElse("password", throw new EditorServletException("Password is required"))
+        val password2 = params.getOrElse("password2", throw new EditorServletException("Password2 is required"))
         val email = params.getOrElse("email", throw new EditorServletException("Email is required"))
-        if(login.addUser(username, password, email)) {
+        if(password == password2 && login.addUser(username, password, email)) {
           SeeOther(context)
         } else {
-          BadRequest("User update failed")
+          BadRequest("User creation failed")
         }
       } catch {
         case EditorServletException(msg) => {
@@ -217,7 +218,17 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         ssp("/login", "redirect" ->  redirect, "contextUrl" -> context)
     }
 
+    get("/sign_up") {
+        val redirect = params.getOrElse("redirect","/")
+        contentType = "text/html"
+        ssp("/sign_up", "redirect" ->  redirect, "contextUrl" -> context)
+    }
 
+    get("/update_user") {
+        val redirect = params.getOrElse("redirect","/")
+        contentType = "text/html"
+        ssp("/update_user", "redirect" ->  redirect, "contextUrl" -> context)
+    }
 
     get("/") {
       TemporaryRedirect(context + "/summary/0")

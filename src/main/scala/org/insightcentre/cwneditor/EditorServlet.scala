@@ -13,7 +13,7 @@ object CWNEditorJsonProtocol extends DefaultJsonProtocol {
   implicit val entryFormat = jsonFormat5(Entry)
 }
 
-class CWNEditorServlet extends ScalatraServlet with ScalateSupport with AuthenticationSupport {
+class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     import CWNEditorJsonProtocol._
     
     lazy val context = io.Source.fromFile("context").mkString.trim
@@ -22,6 +22,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport with Authenti
 
     lazy val store = new SQLDataStore(new File("cwn.db"))
     lazy val wordnet : WordNet = store
+    lazy val login = SQLLogin
+    lazy val activeUsers = new TimedHash()
 
     def file2entry(f : File) = {
       val s = io.Source.fromFile(f)
@@ -60,7 +62,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport with Authenti
       val page = params("page").toInt
       val files = store.listRange(page * 100, 100).map({
         f => 
-          (store.get(f), f)
+          (store.get(f).get, f)
       })
       contentType = "text/html"
       ssp("/summary",
@@ -70,19 +72,29 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport with Authenti
     }
 
     get("/edit/:id") {
-      basicAuth
-        val f = new File("data/%s.json" format params("id"))
-        if(!f.exists) {
-            pass()
-        } else {
-            val data = file2entry(f)
-            contentType = "text/html"
-            ssp("/edit", 
-                "error" -> params.get("error"),
-                "entryId" -> params("id"),
-                "entry" -> data,
-                "contextUrl" -> context)
+      try {
+        session.get("login") match {
+          case Some(login) =>
+            val userName = activeUsers.get(login.toString).getOrElse(throw new EditorServletException("Session expired"))
+            val id = params("id")
+            store.get(id) match {
+              case Some(data) =>
+                contentType = "text/html"
+                ssp("/edit", 
+                  "error" -> params.get("error"),
+                  "entryId" -> params("id"),
+                  "entry" -> data,
+                  "contextUrl" -> context)
+              case None =>
+                pass()
+            }
+          case None =>
+            SeeOther(context + "/login?redirect=/edit/"+params("id"))
         }
+      } catch {
+        case EditorServletException(msg) =>
+          BadRequest(msg)
+      }
     }
 
     def findNext(id : String) = store.next(id)
@@ -103,9 +115,10 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport with Authenti
 
     get("/update/:id") {
       try {
-        basicAuth match {
-          case Some(User(userName)) =>
-            val data = store.get(params("id"))
+        session.get("login") match {
+          case Some(login) =>
+            val userName = activeUsers.get(login.toString).getOrElse(throw new EditorServletException("Session expired"))
+            val data = store.get(params("id")).getOrElse(throw new EditorServletException("ID does not exist"))
             val lemma = params.getOrElse("lemma", throw new EditorServletException("Lemma is required"))
             val status = params.getOrElse("status", throw new EditorServletException("Status is required"))
             val senseIds = params.keys.filter(_.matches("definition\\d+")).map({
@@ -133,7 +146,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport with Authenti
               }
             }
           case None =>
-            BadRequest("Please authenticate")
+            val id = store.get(params("id"))
+            TemporaryRedirect(context + "/login/?redirect=/update/"+id)
         }
       } catch {
         case EditorServletException(msg) => {
@@ -142,9 +156,70 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport with Authenti
       }
     }
 
+    post("/login/login") {
+      try {
+        val username = params.getOrElse("username", throw new EditorServletException("Username is required"))
+        val password = params.getOrElse("password", throw new EditorServletException("Password is required"))
+        val redirect = params.getOrElse("redirect", "/")
+        login.login(username, password) match {
+          case Some(key) =>
+            activeUsers.put(key, username)
+            session("login") = key
+            SeeOther(context + redirect)
+          case None =>
+            SeeOther(context + "/login?auth_failure=1")
+        }
+      } catch {
+        case EditorServletException(msg) => {
+          BadRequest(msg)
+        }
+      }
+    }
+
+    post("/login/update") {
+      try {
+        val username = params.getOrElse("username", throw new EditorServletException("Username is required"))
+        val oldPassword = params.getOrElse("old_password", throw new EditorServletException("Old password is required"))
+        val newPassword = params.getOrElse("new_password", throw new EditorServletException("New password is required"))
+        if(login.updateUser(username, oldPassword, newPassword)) {
+          SeeOther(context)
+        } else {
+          BadRequest("User update failed")
+        }
+      } catch {
+        case EditorServletException(msg) => {
+          BadRequest(msg)
+        }
+      }
+    }
+
+    post("/login/add") {
+      try {
+        val username = params.getOrElse("username", throw new EditorServletException("Username is required"))
+        val password = params.getOrElse("password", throw new EditorServletException("Password is required"))
+        val email = params.getOrElse("email", throw new EditorServletException("Email is required"))
+        if(login.addUser(username, password, email)) {
+          SeeOther(context)
+        } else {
+          BadRequest("User update failed")
+        }
+      } catch {
+        case EditorServletException(msg) => {
+          BadRequest(msg)
+        }
+      }
+    }
+
+
+    get("/login") {
+        val redirect = params.getOrElse("redirect","/")
+        contentType = "text/html"
+        ssp("/login", "redirect" ->  redirect, "contextUrl" -> context)
+    }
+
+
 
     get("/") {
-      basicAuth
       TemporaryRedirect(context + "/summary/0")
     }
 }

@@ -9,7 +9,7 @@ import java.sql.DriverManager
 trait DataStore {
   //def list : List[String]
   def listRange(offset : Int, length : Int) : List[String]
-  def get(id : String) : Entry
+  def get(id : String) : Option[Entry]
   def next(id : String) : Option[String]
   def search(pattern : String) : List[(String, Entry)]
   def update(id : String, entry : Entry) : Unit
@@ -27,8 +27,8 @@ object FileDataStore extends DataStore {
   def list = new File("data/").listFiles.filter(_.getName().endsWith(".json")).map(_.getName().dropRight(5)).toList
   def listRange(offset : Int, length : Int) = list.sorted.drop(offset).take(length)
   def next(id : String) = list.sorted.dropWhile(_ != id).tail.headOption
-  def get(id : String) = file2entry(new File("data/%s.json" format id))
-  def search(pattern : String) = list.map(x => (x, get(x))).filter({
+  def get(id : String) = Some(file2entry(new File("data/%s.json" format id)))
+  def search(pattern : String) = list.map(x => (x, get(x).get)).filter({
     case (id, e) => e.lemma.matches(pattern.replaceAll("\\*",".*"))
   })
   def update(id : String, entry : Entry) = {
@@ -95,8 +95,8 @@ class SQLDataStore(db : File) extends DataStore with WordNet {
     sql"""SELECT id FROM entries WHERE pwn=0 LIMIT ${length} OFFSET ${offset}""".as1[String].toList
   }
 
-  def get(id : String) : Entry = withSession(conn) { implicit session =>
-    sql"""SELECT content FROM entries WHERE id=${id} AND pwn=0""".as1[String].head.parseJson.convertTo[Entry]
+  def get(id : String) : Option[Entry] = withSession(conn) { implicit session =>
+    sql"""SELECT content FROM entries WHERE id=${id} AND pwn=0""".as1[String].headOption.map(_.parseJson.convertTo[Entry])
   }
 
   def next(id : String) : Option[String] = withSession(conn) { implicit session =>

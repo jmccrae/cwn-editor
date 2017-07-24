@@ -20,8 +20,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport with Authenti
 
     def urldecode(s : String) = java.net.URLDecoder.decode(s, "UTF-8")
 
-    lazy val wordnet = WordNetSQL
-    lazy val store = FileDataStore
+    lazy val store = new SQLDataStore(new File("cwn.db"))
+    lazy val wordnet : WordNet = store
 
     def file2entry(f : File) = {
       val s = io.Source.fromFile(f)
@@ -45,7 +45,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport with Authenti
     get("/wn/:key") {
       val k = urldecode(params("key"))
       if(k.length >= 2) {
-        val results = wordnet.data.find(k)
+        val results = wordnet.find(k)
         contentType = "application/javascript"
         "[" + results.map({ result =>
           s""""${result.word}: ${result.definition.replaceAll("\\\"","'")} <${result.ili}>""""

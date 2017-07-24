@@ -4,9 +4,13 @@ import java.io.File
 import java.sql.DriverManager
 import sql._
 
+trait WordNet {
+  def find(s : String) : List[WordNetEntry]
+}
+
 case class WordNetEntry(word : String, ili : String, definition : String)
 
-case class WordNetSQL(dbURL : String) {
+case class WordNetSQL(dbURL : String) extends WordNet {
 
   def find(s : String) : List[WordNetEntry] = 
     withSession(DriverManager.getConnection(dbURL)) { implicit session =>

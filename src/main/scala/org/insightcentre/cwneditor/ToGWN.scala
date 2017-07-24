@@ -174,12 +174,32 @@ ${sense.relations.filter(x => !(senseRelations contains x.`type`)).map(synRelToG
         FileDataStore.list.map(id => (id.replaceAll("^\\-+",""), FileDataStore.get(id))).filter({
           case (id, entry) => 
             (entry.status == "general" || entry.status == "novel" || entry.status == "vulgar") &&
-            !entry.senses.exists(_.pos == "x") &&
             !entry.senses.exists(_.synonym != "")
         })
       )
     )
     out.flush
     out.close
+
+    val out2 = new java.io.PrintWriter("colloqwn-corrections.csv")
+    FileDataStore.list.map(id => FileDataStore.get(id)).foreach({ entry =>
+      if(entry.status == "nonlex") {
+        out2.println("nonlex\t" + entry.lemma + "\t");
+      } else if(entry.status == "error") {
+        out2.println("error\t" + entry.lemma + "\t");
+      } else if(entry.status == "name") {
+        out2.println("name\t" + entry.lemma + "\t");
+      } else if(entry.status == "abbrev") {
+        for(sense <- entry.senses) {
+          out2.println("abbrev\t" + entry.lemma + "\t" + sense.definition);
+        }
+      } else if(entry.status == "misspell") {
+        for(sense <- entry.senses) {
+          out2.println("misspell\t" + entry.lemma + "\t" + sense.definition);
+        }
+      }
+    })
+    out2.flush
+    out2.close
   }
 }

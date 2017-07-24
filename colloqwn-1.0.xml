@@ -184,10 +184,632 @@
                 <SenseRelation relType="derivation" target="swell-i24519"/>
             </Sense>
         </LexicalEntry>
+        <LexicalEntry id="waaaa-x" note="novel">
+            <Lemma writtenForm="waaaa" partOfSpeech="x"/>
+            <Sense id="waaaa-01392-1" synset="colloqwn-01392-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="wetin-x" note="novel">
+            <Lemma writtenForm="wetin" partOfSpeech="x"/>
+            <Sense id="wetin-01864-1" synset="colloqwn-01864-1">
+
+            </Sense>
+        </LexicalEntry>
         <LexicalEntry id="brick-v" note="general">
             <Lemma writtenForm="brick" partOfSpeech="v"/>
             <Sense id="brick-01176-1" synset="colloqwn-01176-1">
                 <SenseRelation relType="derivation" target="brick-i51122"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="For_fuck_sake-x" note="vulgar">
+            <Lemma writtenForm="For fuck sake" partOfSpeech="x"/>
+            <Sense id="For_fuck_sake-01324-1" synset="colloqwn-01324-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="aaaaaa-x" note="novel">
+            <Lemma writtenForm="aaaaaa" partOfSpeech="x"/>
+            <Sense id="aaaaaa-00573-2" synset="colloqwn-00573-2">
+
+            </Sense>
+            <Sense id="aaaaaa-00573-1" synset="colloqwn-00573-1">
+
+            </Sense>
+            <Sense id="aaaaaa-00573-3" synset="colloqwn-00573-3">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="ah_yes-x" note="novel">
+            <Lemma writtenForm="ah yes" partOfSpeech="x"/>
+            <Sense id="ah_yes-01638-1" synset="colloqwn-01638-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="ahaha-x" note="novel">
+            <Lemma writtenForm="ahaha" partOfSpeech="x"/>
+            <Sense id="ahaha-00449-1" synset="colloqwn-00449-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="aigoo-x" note="novel">
+            <Lemma writtenForm="aigoo" partOfSpeech="x"/>
+            <Sense id="aigoo-01587-1" synset="colloqwn-01587-1">
+                <SenseRelation relType="other" dc:type="loanword" target="Korean-i72984"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="awh-x" note="general">
+            <Lemma writtenForm="awh" partOfSpeech="x"/>
+            <Sense id="awh-00422-1" synset="colloqwn-00422-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="awhh-x" note="novel">
+            <Lemma writtenForm="awhh" partOfSpeech="x"/>
+            <Sense id="awhh-01407-1" synset="colloqwn-01407-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="aww-x" note="novel">
+            <Lemma writtenForm="aww" partOfSpeech="x"/>
+            <Sense id="aww-00000reddit0114-1" synset="colloqwn-00000reddit0114-1">
+
+            </Sense>
+            <Sense id="aww-00000reddit0113-1" synset="colloqwn-00000reddit0113-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="ayeee-x" note="novel">
+            <Lemma writtenForm="ayeee" partOfSpeech="x"/>
+            <Sense id="ayeee-00281-1" synset="colloqwn-00281-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="bejesus-x" note="novel">
+            <Lemma writtenForm="bejesus" partOfSpeech="x"/>
+            <Sense id="bejesus-00000reddit0166-1" synset="colloqwn-00000reddit0166-1">
+                <SenseRelation relType="derivation" target="Jesus-i95713"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="big_up-x" note="novel">
+            <Lemma writtenForm="big up" partOfSpeech="x"/>
+            <Sense id="big_up-01676-1" synset="colloqwn-01676-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="dayum-x" note="vulgar">
+            <Lemma writtenForm="dayum" partOfSpeech="x"/>
+            <Sense id="dayum-00000reddit064-1" synset="colloqwn-00000reddit064-1">
+                <SenseRelation relType="derivation" target="damn-i3724"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="duhh-x" note="novel">
+            <Lemma writtenForm="duhh" partOfSpeech="x"/>
+            <Sense id="duhh-01045-1" synset="colloqwn-01045-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="ehhhh-x" note="novel">
+            <Lemma writtenForm="ehhhh" partOfSpeech="x"/>
+            <Sense id="ehhhh-01256-1" synset="colloqwn-01256-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="eish-x" note="novel">
+            <Lemma writtenForm="eish" partOfSpeech="x"/>
+            <Sense id="eish-00371-1" synset="colloqwn-00371-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="eyy-x" note="novel">
+            <Lemma writtenForm="eyy" partOfSpeech="x"/>
+            <Sense id="eyy-01445-1" synset="colloqwn-01445-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="fair_enough-x" note="general">
+            <Lemma writtenForm="fair enough" partOfSpeech="x"/>
+            <Sense id="fair_enough-00000reddit056-1" synset="colloqwn-00000reddit056-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="fingers_crossed-x" note="novel">
+            <Lemma writtenForm="fingers crossed" partOfSpeech="x"/>
+            <Sense id="fingers_crossed-01550-1" synset="colloqwn-01550-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="fuck_that-x" note="vulgar">
+            <Lemma writtenForm="fuck that" partOfSpeech="x"/>
+            <Sense id="fuck_that-00000reddit010-1" synset="colloqwn-00000reddit010-1">
+                <SenseRelation relType="derivation" target="fuck-i39847"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="fuck_yeah-x" note="vulgar">
+            <Lemma writtenForm="fuck yeah" partOfSpeech="x"/>
+            <Sense id="fuck_yeah-01076-1" synset="colloqwn-01076-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="fuck_you-x" note="vulgar">
+            <Lemma writtenForm="fuck you" partOfSpeech="x"/>
+            <Sense id="fuck_you-00000reddit079-1" synset="colloqwn-00000reddit079-1">
+                <SenseRelation relType="derivation" target="fuck-i39847"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="fuhh-x" note="novel">
+            <Lemma writtenForm="fuhh" partOfSpeech="x"/>
+            <Sense id="fuhh-01889-1" synset="colloqwn-01889-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="get_well_soon-x" note="novel">
+            <Lemma writtenForm="get well soon" partOfSpeech="x"/>
+            <Sense id="get_well_soon-01080-1" synset="colloqwn-01080-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="giggity-x" note="novel">
+            <Lemma writtenForm="giggity" partOfSpeech="x"/>
+            <Sense id="giggity-00000reddit099-1" synset="colloqwn-00000reddit099-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="goddammit-x" note="vulgar">
+            <Lemma writtenForm="goddammit" partOfSpeech="x"/>
+            <Sense id="goddammit-00000reddit049-1" synset="colloqwn-00000reddit049-1">
+                <SenseRelation relType="derivation" target="damn-i3724"/>
+                <SenseRelation relType="derivation" target="God-i86771"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="good_lord-x" note="vulgar">
+            <Lemma writtenForm="good lord" partOfSpeech="x"/>
+            <Sense id="good_lord-01543-1" synset="colloqwn-01543-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="grrrrr-x" note="novel">
+            <Lemma writtenForm="grrrrr" partOfSpeech="x"/>
+            <Sense id="grrrrr-01603-1" synset="colloqwn-01603-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="hahahahah-x" note="novel">
+            <Lemma writtenForm="hahahahah" partOfSpeech="x"/>
+            <Sense id="hahahahah-00324-1" synset="colloqwn-00324-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="happy_new_year-x" note="novel">
+            <Lemma writtenForm="happy new year" partOfSpeech="x"/>
+            <Sense id="happy_new_year-01081-1" synset="colloqwn-01081-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="hats_off-x" note="novel">
+            <Lemma writtenForm="hats off" partOfSpeech="x"/>
+            <Sense id="hats_off-01751-1" synset="colloqwn-01751-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="hell_no-x" note="novel">
+            <Lemma writtenForm="hell no" partOfSpeech="x"/>
+            <Sense id="hell_no-00555-1" synset="colloqwn-00555-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="hell_yeah-x" note="novel">
+            <Lemma writtenForm="hell yeah" partOfSpeech="x"/>
+            <Sense id="hell_yeah-00293-1" synset="colloqwn-00293-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="hell_yes-x" note="vulgar">
+            <Lemma writtenForm="hell yes" partOfSpeech="x"/>
+            <Sense id="hell_yes-01334-1" synset="colloqwn-01334-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="hmmmmmm-x" note="novel">
+            <Lemma writtenForm="hmmmmmm" partOfSpeech="x"/>
+            <Sense id="hmmmmmm-00904-1" synset="colloqwn-00904-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="holy_crap-x" note="novel">
+            <Lemma writtenForm="holy crap" partOfSpeech="x"/>
+            <Sense id="holy_crap-01030-1" synset="colloqwn-01030-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="holy_shit-x" note="vulgar">
+            <Lemma writtenForm="holy shit" partOfSpeech="x"/>
+            <Sense id="holy_shit-00116-1" synset="colloqwn-00116-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="huhu-x" note="novel">
+            <Lemma writtenForm="huhu" partOfSpeech="x"/>
+            <Sense id="huhu-00151-1" synset="colloqwn-00151-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="huhuhu-x" note="novel">
+            <Lemma writtenForm="huhuhu" partOfSpeech="x"/>
+            <Sense id="huhuhu-00282-1" synset="colloqwn-00151-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="hurray-x" note="novel">
+            <Lemma writtenForm="hurray" partOfSpeech="x"/>
+            <Sense id="hurray-00794-1" synset="colloqwn-00794-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="ingat-x" note="novel">
+            <Lemma writtenForm="ingat" partOfSpeech="x"/>
+            <Sense id="ingat-00698-1" synset="colloqwn-00698-1">
+                <SenseRelation relType="other" dc:type="loanword" target="Filipino-i73061"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="inshallah-x" note="novel">
+            <Lemma writtenForm="inshallah" partOfSpeech="x"/>
+            <Sense id="inshallah-00978-1" synset="colloqwn-00978-1">
+                <SenseRelation relType="other" dc:type="loanword" target="Arabic-i73365"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="lawl-x" note="novel">
+            <Lemma writtenForm="lawl" partOfSpeech="x"/>
+            <Sense id="lawl-01051-1" synset="colloqwn-01051-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="mashallah-x" note="novel">
+            <Lemma writtenForm="mashallah" partOfSpeech="x"/>
+            <Sense id="mashallah-00775-2" synset="colloqwn-00775-2">
+                <SenseRelation relType="other" dc:type="loanword" target="Arabic-i73365"/>
+            </Sense>
+            <Sense id="mashallah-00775-1" synset="colloqwn-00775-1">
+                <SenseRelation relType="other" dc:type="loanword" target="Arabic-i73365"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="meh-x" note="novel">
+            <Lemma writtenForm="meh" partOfSpeech="x"/>
+            <Sense id="meh-00000reddit0129-1" synset="colloqwn-00000reddit0129-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="mehh-x" note="novel">
+            <Lemma writtenForm="mehh" partOfSpeech="x"/>
+            <Sense id="mehh-01582-1" synset="colloqwn-01582-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="mhm-x" note="novel">
+            <Lemma writtenForm="mhm" partOfSpeech="x"/>
+            <Sense id="mhm-01549-1" synset="colloqwn-01549-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="mhmm-x" note="novel">
+            <Lemma writtenForm="mhmm" partOfSpeech="x"/>
+            <Sense id="mhmm-00835-1" synset="colloqwn-00835-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="mmmmm-x" note="novel">
+            <Lemma writtenForm="mmmmm" partOfSpeech="x"/>
+            <Sense id="mmmmm-00192-2" synset="colloqwn-00192-2">
+
+            </Sense>
+            <Sense id="mmmmm-00192-1" synset="colloqwn-00192-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="mwahahaha-x" note="novel">
+            <Lemma writtenForm="mwahahaha" partOfSpeech="x"/>
+            <Sense id="mwahahaha-00000reddit0123-1" synset="colloqwn-00000reddit0123-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="my_bad-x" note="novel">
+            <Lemma writtenForm="my bad" partOfSpeech="x"/>
+            <Sense id="my_bad-00000reddit093-1" synset="colloqwn-00000reddit093-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="nice_one-x" note="novel">
+            <Lemma writtenForm="nice one" partOfSpeech="x"/>
+            <Sense id="nice_one-01686-1" synset="colloqwn-01686-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="no_shit-x" note="vulgar">
+            <Lemma writtenForm="no shit" partOfSpeech="x"/>
+            <Sense id="no_shit-01478-1" synset="colloqwn-01478-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_boy-x" note="novel">
+            <Lemma writtenForm="oh boy" partOfSpeech="x"/>
+            <Sense id="oh_boy-01027-1" synset="colloqwn-01027-1">
+
+            </Sense>
+            <Sense id="oh_boy-00000reddit0134-1" synset="colloqwn-00000reddit0134-1">
+                <SenseRelation relType="derivation" target="boy-i91171"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_dear-x" note="novel">
+            <Lemma writtenForm="oh dear" partOfSpeech="x"/>
+            <Sense id="oh_dear-00802-1" synset="colloqwn-00802-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_fuck-x" note="vulgar">
+            <Lemma writtenForm="oh fuck" partOfSpeech="x"/>
+            <Sense id="oh_fuck-01150-1" synset="colloqwn-01150-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_god-x" note="novel">
+            <Lemma writtenForm="oh god" partOfSpeech="x"/>
+            <Sense id="oh_god-00000reddit08-1" synset="colloqwn-00000reddit08-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_hell-x" note="novel">
+            <Lemma writtenForm="oh hell" partOfSpeech="x"/>
+            <Sense id="oh_hell-01299-1" synset="colloqwn-01299-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_man-x" note="novel">
+            <Lemma writtenForm="oh man" partOfSpeech="x"/>
+            <Sense id="oh_man-00000reddit024-1" synset="colloqwn-00000reddit024-1">
+
+            </Sense>
+            <Sense id="oh_man-00000reddit023-1" synset="colloqwn-00000reddit023-1">
+
+            </Sense>
+            <Sense id="oh_man-00000reddit022-1" synset="colloqwn-00000reddit022-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_ok-x" note="novel">
+            <Lemma writtenForm="oh ok" partOfSpeech="x"/>
+            <Sense id="oh_ok-01039-1" synset="colloqwn-01039-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_okay-x" note="novel">
+            <Lemma writtenForm="oh okay" partOfSpeech="x"/>
+            <Sense id="oh_okay-01336-1" synset="colloqwn-01336-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_really-x" note="novel">
+            <Lemma writtenForm="oh really" partOfSpeech="x"/>
+            <Sense id="oh_really-01680-1" synset="colloqwn-01680-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_shit-x" note="vulgar">
+            <Lemma writtenForm="oh shit" partOfSpeech="x"/>
+            <Sense id="oh_shit-00277-1" synset="colloqwn-00277-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="oh_yeah-x" note="novel">
+            <Lemma writtenForm="oh yeah" partOfSpeech="x"/>
+            <Sense id="oh_yeah-01534-2" synset="colloqwn-01534-2">
+
+            </Sense>
+            <Sense id="oh_yeah-01534-1" synset="colloqwn-01534-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="ohhhh-x" note="novel">
+            <Lemma writtenForm="ohhhh" partOfSpeech="x"/>
+            <Sense id="ohhhh-00817-2" synset="colloqwn-00817-2">
+
+            </Sense>
+            <Sense id="ohhhh-00817-1" synset="colloqwn-00817-1">
+
+            </Sense>
+            <Sense id="ohhhh-00817-4" synset="colloqwn-00817-4">
+
+            </Sense>
+            <Sense id="ohhhh-00817-5" synset="colloqwn-00817-5">
+
+            </Sense>
+            <Sense id="ohhhh-00817-6" synset="colloqwn-00817-6">
+
+            </Sense>
+            <Sense id="ohhhh-00817-3" synset="colloqwn-00817-3">
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="ooooo-x" note="novel">
+            <Lemma writtenForm="ooooo" partOfSpeech="x"/>
+            <Sense id="ooooo-00236-1" synset="colloqwn-00236-1"/>
+        </LexicalEntry>
+        <LexicalEntry id="ooooooh-x" note="novel">
+            <Lemma writtenForm="ooooooh" partOfSpeech="x"/>
+            <Sense id="ooooooh-00906-2" synset="colloqwn-00906-2"/>
+            <Sense id="ooooooh-00906-1" synset="colloqwn-00906-1"/>
+            <Sense id="ooooooh-00906-3" synset="colloqwn-00906-3"/>
+        </LexicalEntry>
+        <LexicalEntry id="pffft-x" note="novel">
+            <Lemma writtenForm="pffft" partOfSpeech="x"/>
+            <Sense id="pffft-00000reddit065-1" synset="colloqwn-00000reddit065-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="pshh-x" note="novel">
+            <Lemma writtenForm="pshh" partOfSpeech="x"/>
+            <Sense id="pshh-00000reddit045-1" synset="colloqwn-00000reddit045-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="rest_in_peace-x" note="novel">
+            <Lemma writtenForm="rest in peace" partOfSpeech="x"/>
+            <Sense id="rest_in_peace-01783-1" synset="colloqwn-01783-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="sweet_dreams-x" note="novel">
+            <Lemma writtenForm="sweet dreams" partOfSpeech="x"/>
+            <Sense id="sweet_dreams-00759-1" synset="colloqwn-00759-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="tangina-x" note="novel">
+            <Lemma writtenForm="tangina" partOfSpeech="x"/>
+            <Sense id="tangina-00619-1" synset="colloqwn-00619-1">
+                <SenseRelation relType="other" dc:type="loanword" target="Filipino-i73061"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="ugh-x" note="novel">
+            <Lemma writtenForm="ugh" partOfSpeech="x"/>
+            <Sense id="ugh-00879-2" synset="colloqwn-00879-2">
+
+            </Sense>
+            <Sense id="ugh-00879-1" synset="colloqwn-00879-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="ughhhh-x" note="novel">
+            <Lemma writtenForm="ughhhh" partOfSpeech="x"/>
+            <Sense id="ughhhh-00302-1" synset="colloqwn-00302-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="uh_oh-x" note="novel">
+            <Lemma writtenForm="uh oh" partOfSpeech="x"/>
+            <Sense id="uh_oh-00809-1" synset="colloqwn-00809-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="urgh-x" note="novel">
+            <Lemma writtenForm="urgh" partOfSpeech="x"/>
+            <Sense id="urgh-01292-1" synset="colloqwn-01292-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="waah-x" note="novel">
+            <Lemma writtenForm="waah" partOfSpeech="x"/>
+            <Sense id="waah-01213-1" synset="colloqwn-01213-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="wahh-x" note="novel">
+            <Lemma writtenForm="wahh" partOfSpeech="x"/>
+            <Sense id="wahh-01018-1" synset="colloqwn-01018-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="wallahi-x" note="novel">
+            <Lemma writtenForm="wallahi" partOfSpeech="x"/>
+            <Sense id="wallahi-00867-1" synset="colloqwn-00867-1">
+                <SenseRelation relType="other" dc:type="loanword" target="Somali-i73383"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="welp-x" note="novel">
+            <Lemma writtenForm="welp" partOfSpeech="x"/>
+            <Sense id="welp-00143-1" synset="colloqwn-00143-1">
+
+            </Sense>
+            <Sense id="welp-00000reddit035a-1" synset="colloqwn-00000reddit035a-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="whaa-x" note="novel">
+            <Lemma writtenForm="whaa" partOfSpeech="x"/>
+            <Sense id="whaa-01389-1" synset="colloqwn-01389-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="what_the_fuck-x" note="novel">
+            <Lemma writtenForm="what the fuck" partOfSpeech="x"/>
+            <Sense id="what_the_fuck-00680-1" synset="colloqwn-00680-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="woah-x" note="novel">
+            <Lemma writtenForm="woah" partOfSpeech="x"/>
+            <Sense id="woah-00899-2" synset="colloqwn-00899-2">
+
+            </Sense>
+            <Sense id="woah-00899-1" synset="colloqwn-00899-1">
+
+            </Sense>
+            <Sense id="woah-00000reddit087-1" synset="colloqwn-00000reddit087-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="womp-x" note="novel">
+            <Lemma writtenForm="womp" partOfSpeech="x"/>
+            <Sense id="womp-01535-1" synset="colloqwn-01535-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="woooo-x" note="novel">
+            <Lemma writtenForm="woooo" partOfSpeech="x"/>
+            <Sense id="woooo-00000reddit048-1" synset="colloqwn-00000reddit048-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="woosh-x" note="novel">
+            <Lemma writtenForm="woosh" partOfSpeech="x"/>
+            <Sense id="woosh-00000reddit0106-1" synset="colloqwn-00000reddit0106-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="wowowowow-x" note="novel">
+            <Lemma writtenForm="wowowowow" partOfSpeech="x"/>
+            <Sense id="wowowowow-00351-1" synset="colloqwn-00351-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="wowza-x" note="novel">
+            <Lemma writtenForm="wowza" partOfSpeech="x"/>
+            <Sense id="wowza-00773-1" synset="colloqwn-00773-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="wowzers-x" note="novel">
+            <Lemma writtenForm="wowzers" partOfSpeech="x"/>
+            <Sense id="wowzers-01620-1" synset="colloqwn-01620-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="wut-x" note="novel">
+            <Lemma writtenForm="wut" partOfSpeech="x"/>
+            <Sense id="wut-00000reddit0154-1" synset="colloqwn-00000reddit0154-1">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="yalla-x" note="novel">
+            <Lemma writtenForm="yalla" partOfSpeech="x"/>
+            <Sense id="yalla-01648-1" synset="colloqwn-01648-1">
+                <SenseRelation relType="other" dc:type="loanword" target="Arabic-i73365"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="zzzzz-x" note="novel">
+            <Lemma writtenForm="zzzzz" partOfSpeech="x"/>
+            <Sense id="zzzzz-00615-2" synset="colloqwn-00615-2">
+
+            </Sense>
+            <Sense id="zzzzz-00615-1" synset="colloqwn-00615-1">
+
+            </Sense>
+            <Sense id="zzzzz-00615-3" synset="colloqwn-00615-3">
+
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="zzzzzz-x" note="novel">
+            <Lemma writtenForm="zzzzzz" partOfSpeech="x"/>
+            <Sense id="zzzzzz-01438-1" synset="colloqwn-01438-1">
+
             </Sense>
         </LexicalEntry>
         <LexicalEntry id="Spetsnaz-n" note="general">
@@ -252,7 +874,7 @@
         </LexicalEntry>
         <LexicalEntry id="badass-n" note="vulgar">
             <Lemma writtenForm="badass" partOfSpeech="n"/>
-             <Sense id="badass-00000reddit075-1" synset="colloqwn-00000reddit075-1">
+            <Sense id="badass-00000reddit075-1" synset="colloqwn-00000reddit075-1">
                 <SenseRelation relType="derivation" target="ass-i66132"/>
                 <SenseRelation relType="derivation" target="bad-i6202"/>
             </Sense>
@@ -1375,12 +1997,12 @@
                 <SenseRelation relType="derivation" target="ransom-i41282"/>
             </Sense>
         </LexicalEntry>
-    <LexicalEntry id="wn31-malware-n" >
-      <Lemma writtenForm="malware" partOfSpeech="n" />
-      <Sense id="wn31-malware-n-06600315" synset="wn31-06600315-n" dc:identifier="malware%1:10:00::">
-      </Sense>
-    </LexicalEntry>
- 
+        <LexicalEntry id="wn31-malware-n" >
+            <Lemma writtenForm="malware" partOfSpeech="n" />
+            <Sense id="wn31-malware-n-06600315" synset="wn31-06600315-n" dc:identifier="malware%1:10:00::">
+            </Sense>
+        </LexicalEntry>
+
         <LexicalEntry id="real_talk-n" note="novel">
             <Lemma writtenForm="real talk" partOfSpeech="n"/>
             <Sense id="real_talk-01162-1" synset="colloqwn-01162-1">
@@ -3192,6 +3814,22 @@
             <Lemma writtenForm="turd" partOfSpeech="n"/>
             <Sense id="turd-i115116" synset="i115116"/>
         </LexicalEntry>
+        <LexicalEntry id="boy-n" note="aux">
+            <Lemma writtenForm="boy" partOfSpeech="n"/>
+            <Sense id="boy-i91171" synset="i91171"/>
+        </LexicalEntry>
+        <LexicalEntry id="Somali-n" note="aux">
+            <Lemma writtenForm="Somali" partOfSpeech="n"/>
+            <Sense id="Somali-i73383" synset="i73383"/>
+        </LexicalEntry>
+        <LexicalEntry id="damn-s" note="aux">
+            <Lemma writtenForm="damn" partOfSpeech="s"/>
+            <Sense id="damn-i3724" synset="i3724"/>
+        </LexicalEntry>
+        <LexicalEntry id="God-n" note="aux">
+            <Lemma writtenForm="God" partOfSpeech="n"/>
+            <Sense id="God-i86771" synset="i86711"/>
+        </LexicalEntry>
         <Synset id="colloqwn-00000reddit071-1" ili="in" partOfSpeech="n"> <!-- *Ammonium Nitrate/Fuel Oil; ANFO -->
             <Definition>An industrial explosive made of the mix of ammonium nitrate and fuel oil</Definition>
             <SynsetRelation relType="hypernym" target="i53521"/>
@@ -4064,7 +4702,7 @@
         </Synset>
         <Synset id="colloqwn-00998-1" ili="in" partOfSpeech="n"> <!-- ransomware -->
             <Definition>malicious software that makes a computer unusable unless a payment is made to the attacker</Definition>
-            <SynsetRelation relType="hypernym" target="wn31-malware-n"/>
+            <SynsetRelation relType="hypernym" target="wn31-06600315-n"/>
         </Synset>
         <Synset id="colloqwn-01162-1" ili="in" partOfSpeech="n"> <!-- real talk -->
             <Definition>Act of talking honestly</Definition>
@@ -4507,6 +5145,478 @@
             <Definition>an online mobile photo-sharing site</Definition>
             <SynsetRelation relType="instance_hypernym" target="i79556"/>
         </Synset>
+        <Synset id="colloqwn-00000reddit064-1" ili="in" partOfSpeech="x"> <!-- dayum -->
+            <Definition>An interjection expressing minor surprise, especially in response to seeing an attractive member of the opposite sex</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-01045-1" ili="in" partOfSpeech="x"> <!-- duhh -->
+            <Definition>Expression indicating that something is obvious</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i61788"/>
+        </Synset>
+        <Synset id="colloqwn-01256-1" ili="in" partOfSpeech="x"> <!-- ehhhh -->
+            <Definition>Expression showing failure to understand</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i67829"/>
+        </Synset>
+        <Synset id="colloqwn-00371-1" ili="in" partOfSpeech="x"> <!-- eish -->
+            <Definition>expression of exasperation</Definition>
+            <SynsetRelation relType="domain_region" target="i83973"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76267"/>
+        </Synset>
+        <Synset id="colloqwn-01445-1" ili="in" partOfSpeech="x"> <!-- eyy -->
+            <Definition>Expression of joy</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76310"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit056-1" ili="in" partOfSpeech="x"> <!-- fair enough -->
+            <Definition>interjection confirming an acceptance of the other party's reasoning</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i110356"/>
+        </Synset>
+        <Synset id="colloqwn-01550-1" ili="in" partOfSpeech="x"> <!-- fingers crossed -->
+            <Definition>Expression of hoping for good luck</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i75139"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit010-1" ili="in" partOfSpeech="x"> <!-- fuck that -->
+            <Definition>expression of exasperation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76267"/>
+        </Synset>
+        <Synset id="colloqwn-01076-1" ili="in" partOfSpeech="x"> <!-- fuck yeah -->
+            <Definition>Expression of strong approval</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76158"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit079-1" ili="in" partOfSpeech="x"> <!-- fuck you -->
+            <Definition>An expletive showing strong hatred for the target</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76414"/>
+        </Synset>
+        <Synset id="colloqwn-01889-1" ili="in" partOfSpeech="x"> <!-- fuhh -->
+            <Definition>expression of exasperation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76267"/>
+        </Synset>
+        <Synset id="colloqwn-01080-1" ili="in" partOfSpeech="x"> <!-- get well soon -->
+            <Definition>Expression wishing someone better health</Definition>
+
+        </Synset>
+        <Synset id="colloqwn-00000reddit099-1" ili="in" partOfSpeech="x"> <!-- giggity -->
+            <Definition>An expletive indicating sexual arousal</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i110697"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit049-1" ili="in" partOfSpeech="x"> <!-- goddammit -->
+            <Definition>An expletive expressing annoyance</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i112715"/>
+        </Synset>
+        <Synset id="colloqwn-01543-1" ili="in" partOfSpeech="x"> <!-- good lord -->
+            <Definition>Expression of worry and disgust</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76176"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i30573"/>
+        </Synset>
+        <Synset id="colloqwn-01603-1" ili="in" partOfSpeech="x"> <!-- grrrrr -->
+            <Definition>Expression of anger imitating a growl</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i110692"/>
+        </Synset>
+        <Synset id="colloqwn-00324-1" ili="in" partOfSpeech="x"> <!-- hahahahah -->
+            <Definition>sound imitating laughter</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i74112"/>
+        </Synset>
+        <Synset id="colloqwn-01081-1" ili="in" partOfSpeech="x"> <!-- happy new year -->
+            <Definition>Expression said on or around the first day of the year</Definition>
+
+        </Synset>
+        <Synset id="colloqwn-01751-1" ili="in" partOfSpeech="x"> <!-- hats off -->
+            <Definition>Expression of support</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i41740"/>
+        </Synset>
+        <Synset id="colloqwn-00555-1" ili="in" partOfSpeech="x"> <!-- hell no -->
+            <Definition>expression of extreme aversion</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76173"/>
+        </Synset>
+        <Synset id="colloqwn-00293-1" ili="in" partOfSpeech="x"> <!-- hell yeah -->
+            <Definition>expression of extreme pleasure and liking</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76143"/>
+        </Synset>
+        <Synset id="colloqwn-01334-1" ili="in" partOfSpeech="x"> <!-- hell yes -->
+            <Definition>Expression of strong agreement</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i110356"/>
+        </Synset>
+        <Synset id="colloqwn-00904-1" ili="in" partOfSpeech="x"> <!-- hmmmmmm -->
+            <Definition>an expression showing the speaker is considering something</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i67290"/>
+        </Synset>
+        <Synset id="colloqwn-01030-1" ili="in" partOfSpeech="x"> <!-- holy crap -->
+            <Definition>Expression of shock and surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i30648"/>
+        </Synset>
+        <Synset id="colloqwn-00116-1" ili="in" partOfSpeech="x"> <!-- holy shit -->
+            <Definition>An expression of extreme surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-00151-1" ili="in" partOfSpeech="x"> <!-- huhu -->
+            <Definition>sound imitating crying</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i39959"/>
+        </Synset>
+        <Synset id="colloqwn-00794-1" ili="in" partOfSpeech="x"> <!-- hurray -->
+            <Definition>expression of celebration</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i37653"/>
+        </Synset>
+        <Synset id="colloqwn-00698-1" ili="in" partOfSpeech="x"> <!-- ingat -->
+            <Definition>take care</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i30840"/>
+        </Synset>
+        <Synset id="colloqwn-00978-1" ili="in" partOfSpeech="x"> <!-- inshallah -->
+            <Definition>'god willing' from the Arabic</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76382"/>
+        </Synset>
+        <Synset id="colloqwn-01051-1" ili="in" partOfSpeech="x"> <!-- lawl -->
+            <Definition>Expression of laughter, frequently insincere</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i41034"/>
+        </Synset>
+        <Synset id="colloqwn-00775-2" ili="in" partOfSpeech="x"> <!-- mashallah -->
+            <Definition>expression of praise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i25913"/>
+        </Synset>
+        <Synset id="colloqwn-00775-1" ili="in" partOfSpeech="x"> <!-- mashallah -->
+            <Definition>expression of joy</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i67515"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit0129-1" ili="in" partOfSpeech="x"> <!-- meh -->
+            <Definition>An expression of indifference</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i61440"/>
+        </Synset>
+        <Synset id="colloqwn-01582-1" ili="in" partOfSpeech="x"> <!-- mehh -->
+            <Definition>Expression of indifference</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i61440"/>
+        </Synset>
+        <Synset id="colloqwn-01549-1" ili="in" partOfSpeech="x"> <!-- mhm -->
+            <Definition>Expression of understanding</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i67391"/>
+        </Synset>
+        <Synset id="colloqwn-00835-1" ili="in" partOfSpeech="x"> <!-- mhmm -->
+            <Definition>expresssion of agreement</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i74359"/>
+        </Synset>
+        <Synset id="colloqwn-00192-2" ili="in" partOfSpeech="x"> <!-- mmmmm -->
+            <Definition>expressing uncertainty and contemplation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i66857"/>
+        </Synset>
+        <Synset id="colloqwn-00192-1" ili="in" partOfSpeech="x"> <!-- mmmmm -->
+            <Definition>expressing desire</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i62965"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit0123-1" ili="in" partOfSpeech="x"> <!-- mwahahaha -->
+            <Definition>A expression of evil or malicious intent</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76441"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit093-1" ili="in" partOfSpeech="x"> <!-- my bad -->
+            <Definition>An expression of apology and guilt</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i71342"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76358"/>
+        </Synset>
+        <Synset id="colloqwn-01686-1" ili="in" partOfSpeech="x"> <!-- nice one -->
+            <Definition>Expression of admiration for a particular action</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76161"/>
+        </Synset>
+        <Synset id="colloqwn-01478-1" ili="in" partOfSpeech="x"> <!-- no shit -->
+            <Definition>Expression indicating something is obvious</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i61788"/>
+        </Synset>
+        <Synset id="colloqwn-01027-1" ili="in" partOfSpeech="x"> <!-- oh boy -->
+            <Definition>Expression of anticipation and frequently dread</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i113127"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit0134-1" ili="in" partOfSpeech="x"> <!-- oh boy -->
+            <Definition>An expression of apprehension</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76280"/>
+        </Synset>
+        <Synset id="colloqwn-00802-1" ili="in" partOfSpeech="x"> <!-- oh dear -->
+            <Definition>expression of worry</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76294"/>
+        </Synset>
+        <Synset id="colloqwn-01150-1" ili="in" partOfSpeech="x"> <!-- oh fuck -->
+            <Definition>Expression of dismay</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i30647"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit08-1" ili="in" partOfSpeech="x"> <!-- oh god -->
+            <Definition>An expression of surprise and shock</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76219"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-01299-1" ili="in" partOfSpeech="x"> <!-- oh hell -->
+            <Definition>Expression of disgust</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76176"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit024-1" ili="in" partOfSpeech="x"> <!-- oh man -->
+            <Definition>an expression of disappointment</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76380"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit023-1" ili="in" partOfSpeech="x"> <!-- oh man -->
+            <Definition>an expression of excitement and anticipation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76314"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i113127"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit022-1" ili="in" partOfSpeech="x"> <!-- oh man -->
+            <Definition>an expression of sympathy and understanding</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76455"/>
+        </Synset>
+        <Synset id="colloqwn-01039-1" ili="in" partOfSpeech="x"> <!-- oh ok -->
+            <Definition>Expression of resigned acceptance</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i36361"/>
+        </Synset>
+        <Synset id="colloqwn-01336-1" ili="in" partOfSpeech="x"> <!-- oh okay -->
+            <Definition>Expression of resigned agreement</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i74359"/>
+        </Synset>
+        <Synset id="colloqwn-01680-1" ili="in" partOfSpeech="x"> <!-- oh really -->
+            <Definition>Expression of scepticism</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i68249"/>
+        </Synset>
+        <Synset id="colloqwn-00277-1" ili="in" partOfSpeech="x"> <!-- oh shit -->
+            <Definition>expression in response to a bad thing happening</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i30715"/>
+        </Synset>
+        <Synset id="colloqwn-01534-2" ili="in" partOfSpeech="x"> <!-- oh yeah -->
+            <Definition>Expression of excitement</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76314"/>
+        </Synset>
+        <Synset id="colloqwn-01534-1" ili="in" partOfSpeech="x"> <!-- oh yeah -->
+            <Definition>Expression of realisation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i67401"/>
+        </Synset>
+        <Synset id="colloqwn-00817-2" ili="in" partOfSpeech="x"> <!-- ohhhh -->
+            <Definition>expression of amazement</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76213"/>
+        </Synset>
+        <Synset id="colloqwn-00817-1" ili="in" partOfSpeech="x"> <!-- ohhhh -->
+            <Definition>expression of surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-00817-4" ili="in" partOfSpeech="x"> <!-- ohhhh -->
+            <Definition>a word to introduce an afterthought</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i49858"/>
+        </Synset>
+        <Synset id="colloqwn-00817-5" ili="in" partOfSpeech="x"> <!-- ohhhh -->
+            <Definition>expression of pain</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i112218"/>
+        </Synset>
+        <Synset id="colloqwn-00817-6" ili="in" partOfSpeech="x"> <!-- ohhhh -->
+            <Definition>expression of scepticism</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i68249"/>
+        </Synset>
+        <Synset id="colloqwn-00817-3" ili="in" partOfSpeech="x"> <!-- ohhhh -->
+            <Definition>expression of understanding</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i67391"/>
+        </Synset>
+        <Synset id="colloqwn-00236-1" ili="in" partOfSpeech="x"> <!-- ooooo -->
+            <Definition>expressing interest</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i66782"/>
+        </Synset>
+        <Synset id="colloqwn-00906-2" ili="in" partOfSpeech="x"> <!-- ooooooh -->
+            <Definition>an expression of realisation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i67401"/>
+        </Synset>
+        <Synset id="colloqwn-00906-1" ili="in" partOfSpeech="x"> <!-- ooooooh -->
+            <Definition>an expression showing sympathy</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76455"/>
+        </Synset>
+        <Synset id="colloqwn-00906-3" ili="in" partOfSpeech="x"> <!-- ooooooh -->
+            <Definition>an expression of excitement and anticipation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76314"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit065-1" ili="in" partOfSpeech="x"> <!-- pffft -->
+            <Definition>an expression of skepticism or uncertainty</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i66857"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit045-1" ili="in" partOfSpeech="x"> <!-- pshh -->
+            <Definition>a sound expressing disdain</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76175"/>
+        </Synset>
+        <Synset id="colloqwn-01783-1" ili="in" partOfSpeech="x"> <!-- rest in peace -->
+            <Definition>Expression wishing rest to a dead person</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i110310"/>
+        </Synset>
+        <Synset id="colloqwn-00759-1" ili="in" partOfSpeech="x"> <!-- sweet dreams -->
+            <Definition>expression wishing a pleasant sleep</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i117511"/>
+        </Synset>
+        <Synset id="colloqwn-00619-1" ili="in" partOfSpeech="x"> <!-- tangina -->
+            <Definition>interjection excusing oneself</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i26083"/>
+        </Synset>
+        <Synset id="colloqwn-00879-2" ili="in" partOfSpeech="x"> <!-- ugh -->
+            <Definition>expression of exasperation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76267"/>
+        </Synset>
+        <Synset id="colloqwn-00879-1" ili="in" partOfSpeech="x"> <!-- ugh -->
+            <Definition>expression of disgust</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76176"/>
+        </Synset>
+        <Synset id="colloqwn-00302-1" ili="in" partOfSpeech="x"> <!-- ughhhh -->
+            <Definition>expression of disgust</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76176"/>
+        </Synset>
+        <Synset id="colloqwn-00809-1" ili="in" partOfSpeech="x"> <!-- uh oh -->
+            <Definition>expression of trepidation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76281"/>
+        </Synset>
+        <Synset id="colloqwn-01292-1" ili="in" partOfSpeech="x"> <!-- urgh -->
+            <Definition>Expression of disgust</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76176"/>
+        </Synset>
+        <Synset id="colloqwn-01018-1" ili="in" partOfSpeech="x"> <!-- wahh -->
+            <Definition>Expression of surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-00867-1" ili="in" partOfSpeech="x"> <!-- wallahi -->
+            <Definition>interjection meaning 'I swear to God'</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i26054"/>
+        </Synset>
+        <Synset id="colloqwn-00143-1" ili="in" partOfSpeech="x"> <!-- welp -->
+            <Definition>An expression of fear and anxiety</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76295"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit035a-1" ili="in" partOfSpeech="x"> <!-- welp -->
+            <Definition>An expression of sadness</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76337"/>
+        </Synset>
+        <Synset id="colloqwn-01389-1" ili="in" partOfSpeech="x"> <!-- whaa -->
+            <Definition>Expression of surprise and disgust</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76176"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-00680-1" ili="in" partOfSpeech="x"> <!-- what the fuck -->
+            <Definition>expression of extreme suprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-00899-2" ili="in" partOfSpeech="x"> <!-- woah -->
+            <Definition>an expression indicating that the other party in the conversation is going too far</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i71549"/>
+        </Synset>
+        <Synset id="colloqwn-00899-1" ili="in" partOfSpeech="x"> <!-- woah -->
+            <Definition>an expression of surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit087-1" ili="in" partOfSpeech="x"> <!-- woah -->
+            <Definition>An expression of surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-01535-1" ili="in" partOfSpeech="x"> <!-- womp -->
+            <Definition>Imitation of the sound of drum and bass music</Definition>
+
+        </Synset>
+        <Synset id="colloqwn-00000reddit048-1" ili="in" partOfSpeech="x"> <!-- woooo -->
+            <Definition>an expression of extreme excitement and joy</Definition>
+            <SynsetRelation relType="similar" target="colloqwn-00000reddit021-1"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76310"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76314"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit0106-1" ili="in" partOfSpeech="x"> <!-- woosh -->
+            <Definition>expression of failing to understand</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i66785"/>
+        </Synset>
+        <Synset id="colloqwn-00351-1" ili="in" partOfSpeech="x"> <!-- wowowowow -->
+            <Definition>expression of extreme surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-00773-1" ili="in" partOfSpeech="x"> <!-- wowza -->
+            <Definition>expression of extreme surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-01620-1" ili="in" partOfSpeech="x"> <!-- wowzers -->
+            <Definition>Expression of extreme surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit0154-1" ili="in" partOfSpeech="x"> <!-- wut -->
+            <Definition>expession of comical disbelief</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i68248"/>
+        </Synset>
+        <Synset id="colloqwn-01648-1" ili="in" partOfSpeech="x"> <!-- yalla -->
+            <Definition>Expression asking the other party to come quickly</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i38314"/>
+        </Synset>
+        <Synset id="colloqwn-00615-2" ili="in" partOfSpeech="x"> <!-- zzzzz -->
+            <Definition>expression of tiredness</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i110590"/>
+        </Synset>
+        <Synset id="colloqwn-00615-1" ili="in" partOfSpeech="x"> <!-- zzzzz -->
+            <Definition>imitation of the sound of snoring</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i39795"/>
+        </Synset>
+        <Synset id="colloqwn-00615-3" ili="in" partOfSpeech="x"> <!-- zzzzz -->
+            <Definition>expression of boredom</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76376"/>
+        </Synset>
+        <Synset id="colloqwn-01438-1" ili="in" partOfSpeech="x"> <!-- zzzzzz -->
+            <Definition>Imitation of the sound of snoring</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i39795"/>
+        </Synset>
+        <Synset id="colloqwn-01213-1" ili="in" partOfSpeech="x"> <!-- waah -->
+            <Definition>Imitation of the sound of crying</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i39959"/>
+        </Synset>
+        <Synset id="colloqwn-01676-1" ili="in" partOfSpeech="x"> <!-- big up -->
+            <Definition>Expression of respect, support and acclaim</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i71650"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i69150"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i41740"/>
+        </Synset>
+        <Synset id="colloqwn-01392-1" ili="in" partOfSpeech="x"> <!-- *waaaa -->
+            <Definition>Expression of upset and surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+            <SynsetRelation relType="other" dc:type="emotion" target="i14133"/>
+        </Synset>
+        <Synset id="colloqwn-01864-1" ili="in" partOfSpeech="x"> <!-- *wetin -->
+            <Definition>=what</Definition>
+
+        </Synset>
+        <Synset id="colloqwn-01324-1" ili="in" partOfSpeech="x"> <!-- For fuck sake -->
+            <Definition>Expression of exasperation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76267"/>
+        </Synset>
+        <Synset id="colloqwn-00573-2" ili="in" partOfSpeech="x"> <!-- aaaaaa -->
+            <Definition>expression of panic</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76275"/>
+        </Synset>
+        <Synset id="colloqwn-00573-1" ili="in" partOfSpeech="x"> <!-- aaaaaa -->
+            <Definition>filler sound showing uncertainty</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i66857"/>
+        </Synset>
+        <Synset id="colloqwn-00573-3" ili="in" partOfSpeech="x"> <!-- aaaaaa -->
+            <Definition>expression of sympathy</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76455"/>
+        </Synset>
+        <Synset id="colloqwn-01638-1" ili="in" partOfSpeech="x"> <!-- ah yes -->
+            <Definition>Expression of confirmation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i74384"/>
+        </Synset>
+        <Synset id="colloqwn-00449-1" ili="in" partOfSpeech="x"> <!-- ahaha -->
+            <Definition>imitation of the sound of laughter</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i74112"/>
+        </Synset>
+        <Synset id="colloqwn-01587-1" ili="in" partOfSpeech="x"> <!-- aigoo -->
+            <Definition>Expression of frustration</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76266"/>
+        </Synset>
+        <Synset id="colloqwn-00422-1" ili="in" partOfSpeech="x"> <!-- awh -->
+            <Definition>expression of appreciation</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i74653"/>
+        </Synset>
+        <Synset id="colloqwn-01407-1" ili="in" partOfSpeech="x"> <!-- awhh -->
+            <Definition>Expression of sympathy</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76455"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit0114-1" ili="in" partOfSpeech="x"> <!-- aww -->
+            <Definition>expression of sympathy</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76455"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit0113-1" ili="in" partOfSpeech="x"> <!-- aww -->
+            <Definition>An expression of joy in response to seeing something cute</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76310"/>
+        </Synset>
+        <Synset id="colloqwn-00281-1" ili="in" partOfSpeech="x"> <!-- ayeee -->
+            <Definition>expression of excitement</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76314"/>
+        </Synset>
+        <Synset id="colloqwn-00000reddit0166-1" ili="in" partOfSpeech="x"> <!-- bejesus -->
+            <Definition>Expressing extreme surprise</Definition>
+            <SynsetRelation relType="other" dc:type="emotion" target="i76217"/>
+        </Synset>
+
         <Synset id="wn31-06600315-n" ili="" note="aux"/>
         <Synset id="i79556" ili="i79556" note="aux"/>
         <Synset id="i94168" ili="i94168" note="aux"/>
@@ -5039,5 +6149,82 @@
         <Synset id="i51122" ili="i51122" note="aux"/>
         <Synset id="i66089" ili="i66089" note="aux"/>
         <Synset id="i110202" ili="i110202" note="aux"/>
+        <Synset id="i91171" ili="i91171" note="aux"/>
+        <Synset id="i73383" ili="i73383" note="aux"/>
+        <Synset id="i61788" ili="i61788" note="aux"/>
+        <Synset id="i67829" ili="i67829" note="aux"/>
+        <Synset id="i76267" ili="i76267" note="aux"/>
+        <Synset id="i76310" ili="i76310" note="aux"/>
+        <Synset id="i83973" ili="i83973" note="aux"/>
+        <Synset id="i110356" ili="i110356" note="aux"/>
+        <Synset id="i75139" ili="i75139" note="aux"/>
+        <Synset id="i76158" ili="i76158" note="aux"/>
+        <Synset id="i110697" ili="i110697" note="aux"/>
+        <Synset id="i112715" ili="i112715" note="aux"/>
+        <Synset id="i76176" ili="i76176" note="aux"/>
+        <Synset id="i30573" ili="i30573" note="aux"/>
+        <Synset id="i110692" ili="i110692" note="aux"/>
+        <Synset id="i74112" ili="i74112" note="aux"/>
+        <Synset id="i41740" ili="i41740" note="aux"/>
+        <Synset id="i76173" ili="i76173" note="aux"/>
+        <Synset id="i76143" ili="i76143" note="aux"/>
+        <Synset id="i67290" ili="i67290" note="aux"/>
+        <Synset id="i30648" ili="i30648" note="aux"/>
+        <Synset id="i39959" ili="i39959" note="aux"/>
+        <Synset id="i37653" ili="i37653" note="aux"/>
+        <Synset id="i30840" ili="i30840" note="aux"/>
+        <Synset id="i76382" ili="i76382" note="aux"/>
+        <Synset id="i41034" ili="i41034" note="aux"/>
+        <Synset id="i25913" ili="i25913" note="aux"/>
+        <Synset id="i67515" ili="i67515" note="aux"/>
+        <Synset id="i61440" ili="i61440" note="aux"/>
+        <Synset id="i67391" ili="i67391" note="aux"/>
+        <Synset id="i74359" ili="i74359" note="aux"/>
+        <Synset id="i66857" ili="i66857" note="aux"/>
+        <Synset id="i62965" ili="i62965" note="aux"/>
+        <Synset id="i71342" ili="i71342" note="aux"/>
+        <Synset id="i76358" ili="i76358" note="aux"/>
+        <Synset id="i113127" ili="i113127" note="aux"/>
+        <Synset id="i76280" ili="i76280" note="aux"/>
+        <Synset id="i76294" ili="i76294" note="aux"/>
+        <Synset id="i30647" ili="i30647" note="aux"/>
+        <Synset id="i76219" ili="i76219" note="aux"/>
+        <Synset id="i76380" ili="i76380" note="aux"/>
+        <Synset id="i76441" ili="i76441" note="aux"/>
+        <Synset id="i76161" ili="i76161" note="aux"/>
+        <Synset id="i76314" ili="i76314" note="aux"/>
+        <Synset id="i76455" ili="i76455" note="aux"/>
+        <Synset id="i36361" ili="i36361" note="aux"/>
+        <Synset id="i68249" ili="i68249" note="aux"/>
+        <Synset id="i30715" ili="i30715" note="aux"/>
+        <Synset id="i67401" ili="i67401" note="aux"/>
+        <Synset id="i76213" ili="i76213" note="aux"/>
+        <Synset id="i49858" ili="i49858" note="aux"/>
+        <Synset id="i112218" ili="i112218" note="aux"/>
+        <Synset id="i66782" ili="i66782" note="aux"/>
+        <Synset id="i76175" ili="i76175" note="aux"/>
+        <Synset id="i110310" ili="i110310" note="aux"/>
+        <Synset id="i117511" ili="i117511" note="aux"/>
+        <Synset id="i26083" ili="i26083" note="aux"/>
+        <Synset id="i76281" ili="i76281" note="aux"/>
+        <Synset id="i26054" ili="i26054" note="aux"/>
+        <Synset id="i76295" ili="i76295" note="aux"/>
+        <Synset id="i76337" ili="i76337" note="aux"/>
+        <Synset id="i71549" ili="i71549" note="aux"/>
+        <Synset id="i66785" ili="i66785" note="aux"/>
+        <Synset id="i68248" ili="i68248" note="aux"/>
+        <Synset id="i38314" ili="i38314" note="aux"/>
+        <Synset id="i39795" ili="i39795" note="aux"/>
+        <Synset id="i76376" ili="i76376" note="aux"/>
+        <Synset id="i76414" ili="i76414" note="aux"/>
+        <Synset id="i69150" ili="i69150" note="aux"/>
+        <Synset id="i71650" ili="i71650" note="aux"/>
+        <Synset id="i14133" ili="i14133" note="aux"/>
+        <Synset id="i76275" ili="i76275" note="aux"/>
+        <Synset id="i74384" ili="i74384" note="aux"/>
+        <Synset id="i76266" ili="i76266" note="aux"/>
+        <Synset id="i74653" ili="i74653" note="aux"/>
+        <Synset id="i3724" ili="i3724" note="aux"/>
+        <Synset id="i86711" ili="i86711" note="aux"/>
     </Lexicon>
 </LexicalResource>

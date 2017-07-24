@@ -4,6 +4,8 @@ import java.io.File
 import java.sql.DriverManager
 import sql._
 
+case class WordNetEntry(word : String, ili : String, definition : String)
+
 case class WordNetSQL(dbURL : String) {
 
   def find(s : String) : List[WordNetEntry] = 

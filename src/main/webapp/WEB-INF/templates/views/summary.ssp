@@ -2,6 +2,9 @@
 <%@ var files:Seq[(Entry, String)] %>
 <%@ var contextUrl:String %>
 <%@ var next:String = "" %>
+<%@ var loggedin: Boolean %>
+<%@ var search: Boolean = false %>
+<% attributes("loggedin") = loggedin %>
 <% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
 <% attributes("contextUrl") = contextUrl %>
 <% attributes("title") = "Colloquial WordNet Editor" %>
@@ -12,7 +15,14 @@
     <body>
         <div class="container">
             <div class="row">
+                #if (search)
+                <h1>Search Results</h1>
+                #else
                 <h1>Summary</h1>
+                #end
+                #if (files.isEmpty)
+                <p>No Results!</p>
+                #end
                 #for ((entry,name) <- files)
                     <div class="panel panel-primary panel-${entry.status}">
                         <div class="panel-heading">

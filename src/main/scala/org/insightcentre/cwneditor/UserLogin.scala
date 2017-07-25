@@ -143,10 +143,15 @@ class TimedHash {
     underlying.put(key, (value, Instant.now()))
   }
 
-  def clean() {
+  private def clean() {
     val elems = underlying.filter(x => x._2._2.until(Instant.now(), session._2) > session._1).keys
     for(k <- elems) {
       underlying.remove(k)
     }
+  }
+
+  def clear(key : String) {
+    clean()
+    underlying.remove(key)
   }
 }

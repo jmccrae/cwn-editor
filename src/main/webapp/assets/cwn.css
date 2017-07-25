@@ -1,0 +1,39 @@
+.cwn-help {
+    border-color: #ddd;
+    border-width: 2px;
+    border-radius: 4px 4px 0 0;
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom:15px;
+    border-style: solid;
+    display:none;
+    position: relative;
+}
+
+.cwn-help:after {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #959595;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    content: "Help";
+}
+
+.cwn-sense {
+    display: none;
+}
+
+.cwn-status {
+    display: none;
+}
+
+.cwn-nonsense {
+    display: none;
+}
+

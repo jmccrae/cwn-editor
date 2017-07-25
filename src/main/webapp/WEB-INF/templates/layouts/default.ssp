@@ -1,6 +1,7 @@
 <%@ var body: String %>
 <%@ var contextUrl: String %>
 <%@ var title: String %>
+<%@ var loggedin: Boolean %>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,6 +19,7 @@
     <link rel="stylesheet" href="${contextUrl}/assets/bootstrap.min.css">
     <link rel="stylesheet" href="${contextUrl}/assets/select2.min.css">
     <link rel="stylesheet" href="${contextUrl}/assets/jquery-ui.css">
+    <link rel="stylesheet" href="${contextUrl}/assets/cwn.css">
     <script src="${contextUrl}/assets/jquery-1.12.0.min.js"></script>
     <script src="${contextUrl}/assets/jquery-ui.min.js"></script>
     <script src="${contextUrl}/assets/select2.min.js"></script>
@@ -50,6 +52,31 @@
   </head>
 
   <body>
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="${contextUrl}/">Colloquial WordNet</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     <ul class="nav navbar-nav navbar-right">
+        #if (loggedin)
+            <li><a href="${contextUrl}/update_user">Account</a></li>
+            <li><a href="${contextUrl}/logout">Log Out</a></li>
+        #else
+            <li><a href="${contextUrl}/sign_up">Sign Up</a></li>
+            <li><a href="${contextUrl}/login">Sign In</a></li>
+        #end
+      </ul>
+      <form class="navbar-form navbar-left navbar-right" role="search" method="get" action="${contextUrl}/search">
+        <div class="form-group">
+          <input type="text" name="lemma" class="form-control" placeholder="Lemma">
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+      </form>
+     </div>
+  </div>
+</nav>
   ${unescape(body)}
 
     <!-- Bootstrap core JavaScript

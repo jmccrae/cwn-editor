@@ -1,4 +1,4 @@
-function wncomplete(id) {
+function wncomplete(id, context) {
   $(function() {
     function split( val ) {
       return val.split( /,\s*/ );
@@ -17,7 +17,7 @@ function wncomplete(id) {
       })
       .autocomplete({
         source: function( request, response ) {
-          $.getJSON( '/cwn-editor/wn/' + request.term, response );
+          $.getJSON( context + '/wn/' + request.term, response );
         },
         search: function() {
           // custom minLength

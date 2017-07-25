@@ -32,15 +32,35 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       e
     }
 
-    get("/search/:lemma") {
-      val k = urldecode(params("lemma"))
-      val files = store.search(k).map({
-        case (id, e) => (e, id)
-      })
-      contentType = "text/html"
-      ssp("/summary",
-        "files" -> files,
-        "contextUrl" -> context)
+    def loggedin = {
+      session.get("login") match {
+        case Some(login) =>
+          activeUsers.get(login.toString) != None
+        case _ =>
+          false
+      }
+    }
+
+    get("/search") {
+      params.get("lemma") match {
+        case Some(lemma) =>
+          val k = urldecode(lemma)
+          val files = store.search(k).map({
+            case (id, e) => (e, id)
+          })
+          contentType = "text/html"
+          ssp("/summary",
+            "files" -> files,
+            "contextUrl" -> context,
+            "loggedin" -> loggedin,
+            "search" -> true)
+        case None =>
+          contentType = "text/html"
+          ssp("/error",
+            "contextUrl" -> context,
+            "loggedin" -> loggedin,
+            "message" -> "No query for search")
+      }
     }
 
 
@@ -68,7 +88,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       ssp("/summary",
         "files" -> files,
         "next" -> (page + 1).toString,
-        "contextUrl" -> context)
+        "contextUrl" -> context,
+        "loggedin" -> loggedin)
     }
 
     get("/edit/:id") {
@@ -84,7 +105,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                   "error" -> params.get("error"),
                   "entryId" -> params("id"),
                   "entry" -> data,
-                  "contextUrl" -> context)
+                  "contextUrl" -> context,
+                  "loggedin" -> true)
               case None =>
                 pass()
             }
@@ -100,7 +122,10 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     def findNext(id : String) = store.next(id)
 
     get("/logout") {
-      Unauthorized("Logged out")
+      session.get("login").map({ login =>
+        activeUsers.clear(login.toString)
+      })
+      SeeOther(context + "/")
     }
 
     get("/next/:id") {
@@ -126,6 +151,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
             })
             val e = Entry(lemma, data.examples, status, senseIds.map({ id =>
               val pos = params.getOrElse("pos" + id, throw new EditorServletException("POS is required"))
+              // TODO: Account for abbreviation/misspelling
               val definition = params.getOrElse("definition" + id, throw new EditorServletException("Definition is required"))
               val synonym = params.getOrElse("synonym" + id, throw new EditorServletException("Synonym is required"))
               val relIds = params.keys.filter(_.matches("relType" + id + "-\\d+")).map({
@@ -215,19 +241,19 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     get("/login") {
         val redirect = params.getOrElse("redirect","/")
         contentType = "text/html"
-        ssp("/login", "redirect" ->  redirect, "contextUrl" -> context)
+        ssp("/login", "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
     }
 
     get("/sign_up") {
         val redirect = params.getOrElse("redirect","/")
         contentType = "text/html"
-        ssp("/sign_up", "redirect" ->  redirect, "contextUrl" -> context)
+        ssp("/sign_up", "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
     }
 
     get("/update_user") {
         val redirect = params.getOrElse("redirect","/")
         contentType = "text/html"
-        ssp("/update_user", "redirect" ->  redirect, "contextUrl" -> context)
+        ssp("/update_user", "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
     }
 
     get("/") {

@@ -3,6 +3,8 @@
 <%@ var entryId:String %>
 <%@ var entry:Entry %>
 <%@ var contextUrl:String %>
+<%@ var loggedin: Boolean %>
+<% attributes("loggedin") = loggedin %>
 <% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
 <% attributes("contextUrl") = contextUrl %>
 <% attributes("title") = "Colloquial WordNet Editor - Editing" %>
@@ -25,146 +27,109 @@
                     <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"
-                               id="lemma" name="lemma" value="${entry.lemma}"/>
+                               id="lemma" name="lemma" value="${entry.lemma}" readonly/>
                     </div>
                     <div class="form-group">
-                        <button class="pull-right">Split</button>
-                        <label>Example</label>
+                        <label>Example
+                        <button class="btn-xs btn btn-info" onclick="$('#examples-help').toggle();return false">Help</button></label>
 <blockquote>
                         #for (example <- entry.examples)
                             <p>${example.text}</p>
                         #end
 </blockquote>
+                        <div id="examples-help" class="cwn-help">
+                            <p>These are some examples from Twitter to help you check you understand the term</p>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label for="status">Status</label><br/>
+                        <label for="confidence">Confidence
+                        <button class="btn-xs btn btn-info" onclick="$('#confidence-help').toggle();return false">Help</button></label><br/>
+                        <div class="radio"><label>
+                        <input type="radio" name="confidence" id="confidence-vstrong"
+                            value="vstrong" onclick="setConfidence('vstrong')"/>Very strong</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="confidence" id="confidence-strong"
+                            value="strong" onclick="setConfidence('strong')"/>Strong</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="confidence" id="confidence-medium"
+                            value="medium" onclick="setConfidence('medium')"/>Medium</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="confidence" id="confidence-weak"
+                            value="weak" onclick="setConfidence('weak')"/>Weak</label></div>
+                        <div class="radio"><label>
+                        <input type="radio" name="confidence" id="confidence-skip"
+                            value="skip" onclick="setConfidence('skip')"/>Skip</label></div>
+                        <div id="confidence-help" class="cwn-help">
+                            <p>The confidence indicates how strongly you understand the term in question</p>
+                            <ul>
+                                <li><b>Very Strong:</b> This is a term I use regularly and know exactly what it means</li>
+                                <li><b>Strong:</b> I am clear about the meaning of this term and have heard it used frequently</li>
+                                <li><b>Medium:</b> I have done a little research and am pretty sure I have a found a good secondary definition</li>
+                                <li><b>Weak:</b> I have guessed from the term and the contexts and think I now what it means</li>
+                                <li><b>Skip:</b> I don't have a clue about this term and don't want to annotate it</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-group cwn-status">
+                        <label for="status">Status
+                        <button class="btn-xs btn btn-info" onclick="$('#status-help').toggle();return false">Help</button></label><br/>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-general"
-                            value="general" checked="checked"/>General</label></div>
+                            value="general" onclick="setStatus('general')"/>General</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="status"
-                            value="novel"/>Novel</label></div>
+                        <input type="radio" name="status" id="status-novel"
+                            value="novel" onclick="setStatus('novel')"/>Novel</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="status"
-                            value="vulgar"/>Vulgar</label></div>
+                        <input type="radio" name="status" id="status-vulgar"
+                            value="vulgar" onclick="setStatus('vulgar')"/>Vulgar</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="status"
-                            value="abbrev"/>Abbreviation</label></div>
+                        <input type="radio" name="status" id="status-abbrev"
+                            value="abbrev" onclick="setStatus('abbrev')"/>Abbreviation</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="status"
-                            value="misspell"/>Misspelling</label></div>
+                        <input type="radio" name="status" id="status-misspell"
+                            value="misspell" onclick="setStatus('misspell')"/>Misspelling</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="status"
-                            value="name"/>Name</label></div>
+                        <input type="radio" name="status" id="status-name"
+                            value="name" onclick="setStatus('name')"/>Name</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="status"
-                            value="nonlex"/>Not Lexical</label></div>
+                        <input type="radio" name="status" id="status-nonlex"
+                            value="nonlex" onclick="setStatus('nonlex')"/>Not Lexical</label></div>
                         <div class="radio"><label>
-                        <input type="radio" name="status"
-                            value="error"/>Error</label></div>
-                        <script>$('input[name=status][value=${entry.status}]').attr('checked', 'checked');</script>
-                    </div>
-                    #for (sense <- entry.senses)
-                    <h3>Sense ${sense.id}</h3>
-                    <div class="form-group">
-                        <label for="pos${sense.id}">Part of Speech</label><br/>
-                        <div class="radio"><label>
-                        <input type="radio" name="pos${sense.id}"
-                            value="n" checked="checked"/>Noun</label></div>
-                        <div class="radio"><label>
-                        <input type="radio" name="pos${sense.id}"
-                            value="v"/>Verb</label></div>
-                        <div class="radio"><label>
-                        <input type="radio" name="pos${sense.id}"
-                            value="a"/>Adjective</label></div>
-                        <div class="radio"><label>
-                        <input type="radio" name="pos${sense.id}"
-                            value="r"/>Adverb</label></div>
-                        <div class="radio"><label>
-                        <input type="radio" name="pos${sense.id}"
-                            value="x"/>Other</label></div>
-                        <script>$('input[name=pos${sense.id}][value=${sense.pos}]').attr('checked', 'checked');</script>
-                    </div>
-                    <div class="form-group">
-                        <label for="definition${sense.id}">Definition</label>
-                        <input type="text" class="form-control"
-                               id="definition${sense.id}" name="definition${sense.id}" value="${sense.definition}"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="synonym${sense.id}">Synonym</label>
-                        <input type="text" class="form-control"
-                               id="synonym${sense.id}" name="synonym${sense.id}" value="${sense.synonym}"/>
-                    </div>
-                    <script>wncomplete('#synonym${sense.id}');</script>
-                    <div class="form-group">
-                        <table style="width:100%;" id="relTable${sense.id}">
-                            <tr>
-                                <th style="margin-right:10px;">Relation</th>
-                                <th>Target</th>
-                            </tr>
-                    <script>relNos[${sense.id}] = 0;</script>
-                    #for (relation <- sense.relations) 
-                            <tr>
-                                <td>                     
-                        <select class="s2-basic"
-                               id="relType${sense.id}-${relation.relNo}"
-                               name="relType${sense.id}-${relation.relNo}"
-                               value="${relation.`type`}">
-                            <option value="hypernym">Hypernym (broader)</option>
-                            <option value="hyponym">Hypernym (narrower)</option>
-                            <option value="instance_hypernym">Instance of (hypernym)</option>
-                            <option value="instance_hyponym">Has instance (hyponym)</option>
-                            <option value="antonym">Antonym (opposite)</option>
-                            <option value="emotion">Shows emotion</option>
-                            <option value="derivation">Derived from (linguistically)</option>
-                            <option value="loanword">Loanword from this language</option>
-                            <option value="involved">Involved in</option>
-                            <option value="also">See also</option>
-                            <option value="causes">Causes</option>
-                            <option value="domain_region">Region</option>
-                            <option value="domain_topic">Topic</option>
-                            <option value="domain_usage">Usage</option>
-                            <option value="similar">Similar to</option>
-                            <option value="mero_location">Meronym location (sub-location)</option>
-                            <option value="mero_member">Meronym member (is member of)</option>
-                            <option value="mero_part">Meronym part (is component of)</option>
-                            <option value="mero_portion">Meronym portion (is division of)</option>
-                            <option value="mero_substance">Meronym substance (is made of)</option>
-                            <option value="holo_location">Holonym location (containing location)</option>
-                            <option value="holo_member">Holonym member (is group of)</option>
-                            <option value="holo_part">Holonym part (is composed of)</option>
-                            <option value="holo_portion">Holonym portion (divides into)</option>
-                            <option value="holo_substance">Holonym substance (substance of)</option>
-                            <option value="pejorative">Pejorative for</option>
-                            <option value="none">Delete</option>
-                        </select>
-                        <script>$('#relType${sense.id}-${relation.relNo}').val('${relation.`type`}');</script>
-                                </td>
-                                <td>
-                        <div class="ui-widget">
-                        <input type="text" class="form-control"
-                               id="relTarget${sense.id}-${relation.relNo}"
-                               name="relTarget${sense.id}-${relation.relNo}"
-                               value="${relation.target}"/>
+                        <input type="radio" name="status" id="status-error"
+                            value="error" onclick="setStatus('error')"/>Error</label></div>
+                        <div id="status-help" class="cwn-help">
+                            <p>The status indicates what kind of term this term is, not that "General", "Novel" and "Vulgar" are used for true terms, and "Abbreviation", "Misspelling", "Name", "Not Lexical" and "Error" for terms that will not be included in the Colloquial WordNet</p>
+                            <ul>
+                                <li><b>General:</b> This is a term that should be included in a general-purpose dictionary such as Princeton WordNet. It should be widely and frequently used by native English speakers</li>
+                                <li><b>Novel:</b> This term is novel and may not persist in the language. This term should be used for slang, dialectal forms and other non-standard usage of English. This should also be used for interjections such as "wow!" or "gosh!" (in this case please set the part of speech to other).</li>
+                                <li><b>Vulgar:</b> This term is vulgar or obscene and would not be suitable for a general purpose dictionary</li>
+                                <li><b>Abbreviation:</b> This term is an abbreviation; you should give the full form of this entry.</li>
+                                <li><b>Misspelling:</b> This term is misspelled; you should give the correct spelling</li>
+                                <li><b>Name:</b> This term is a name (proper noun) and is not suitable for inclusion in the WordNet</li>
+                                <li><b>Not Lexical:</b> This is not a proper term. It may be a fragment of text that doesn't work as an independent phrase, e.g., "I know a", or it may be a multiword phrase, where the meaning is clearly composed from the constituent words, e.g, "tasty ham", "cheese sandwich".</li>
+                                <li><b>Error:</b> This is used if the "term" does not seem to be English, e.g., "&amp;nbsp;"</li>
+                            </ul>
                         </div>
-                                </td>
-                            </tr>
-                        <script>relNos[${sense.id}] = ${relation.relNo};wncomplete('#relTarget${sense.id}-${relation.relNo}');</script>
-                    #end
-                        </table>
                     </div>
-                    <div>
-                        <button class="btn btn-success" type="button" onclick="addrel(${sense.id})">Add relation</button>
-                    </div>
-                    #end
 <script type="text/javascript">
 $(document).ready(function() {
   $('.s2-basic').select2();
+
+#for ((sense,senseId) <- entry.senses.zipWithIndex)
+  addsense('${contextUrl}', '${sense.pos}','${sense.synonym.replaceAll("'","\\\\'")}','${sense.definition.replaceAll("'","\\\\'")}','${sense.definition.replaceAll("'","\\\\'")}','${sense.definition.replaceAll("'","\\\\'")}');
+    #for (rel <- sense.relations)
+  addrel('${contextUrl}', ${senseId + 1}, '${rel.`type`}', '${rel.target.replaceAll("'","\\\\'")}');
+    #end
+#end
+  setConfidence('vstrong');
+  setStatus('${entry.status}');
+  $('#confidence-vstrong').focus();
 });
-$('#status-general').focus();
 </script>
-                    <div id="submitDiv">
-                        <button class="btn btn-success" type="button" onclick="addsense()">Add sense</button>
+                    <div id="submitDiv" class="cwn-sense cwn-abbrev cwn-misspell pull-right">
+                        <button class="btn btn-success" type="button" onclick="addsense('${contextUrl}')">Add sense</button>
+                    </div>
+                    <div>
                         <input type="submit" class="btn btn-default" value="Submit"/>
                     </div>
                 </form>

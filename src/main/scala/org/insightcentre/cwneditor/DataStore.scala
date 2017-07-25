@@ -79,9 +79,9 @@ class SQLDataStore(db : File) extends DataStore with WordNet {
       c.commit()
       c.setAutoCommit(true)
     }
-  } else {
-    System.err.println("Database already exists")
-  }
+  } //else {
+    //System.err.println("Database already exists")
+//  }
 
   def conn = {
     DriverManager.getConnection("jdbc:sqlite:" + db.getPath())
@@ -122,7 +122,8 @@ class SQLDataStore(db : File) extends DataStore with WordNet {
 
   def find(s : String) : List[WordNetEntry] = withSession(conn) { implicit session =>
     sql"""SELECT id, word, definition FROM entries 
-          WHERE word LIKE ${s + "%"} LIMIT 20""".as3[String, String, String].flatMap({
+          WHERE definition != "" AND word LIKE ${s + "%"} 
+          ORDER BY length(word) LIMIT 20""".as3[String, String, String].flatMap({
             case (id, word, defn) => defn.split(";;;").map({ defn =>
               WordNetEntry(word, id, defn)
             })

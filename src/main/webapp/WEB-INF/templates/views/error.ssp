@@ -1,0 +1,21 @@
+<% import org.insightcentre.cwneditor._ %>
+<%@ var message:String %>
+<%@ var contextUrl:String %>
+<%@ var loggedin: Boolean %>
+<% attributes("loggedin") = loggedin %>
+<% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
+<% attributes("contextUrl") = contextUrl %>
+<% attributes("title") = "Colloquial WordNet Editor" %>
+<html>
+    <head>
+        <title>Colloquial WordNet Editor</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1>Sorry, something went wrong...</h1>
+                <p>${message}</p>
+            </div>
+        </div>
+    </body>
+</html>            

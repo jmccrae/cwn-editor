@@ -13,33 +13,12 @@ trait DataStore {
   def next(id : String) : Option[String]
   def search(pattern : String) : List[(String, Entry)]
   def update(id : String, entry : Entry) : Unit
+  def find(s : String) : List[WordNetEntry]
 }
 
-object FileDataStore extends DataStore {
-    import CWNEditorJsonProtocol._
-    def file2entry(f : File) = {
-      val s = io.Source.fromFile(f)
-      val e = s.mkString.parseJson.convertTo[Entry]
-      s.close
-      e
-    }
+case class WordNetEntry(word : String, ili : String, definition : String)
 
-  def list = new File("data/").listFiles.filter(_.getName().endsWith(".json")).map(_.getName().dropRight(5)).toList
-  def listRange(offset : Int, length : Int) = list.sorted.drop(offset).take(length)
-  def next(id : String) = list.sorted.dropWhile(_ != id).tail.headOption
-  def get(id : String) = Some(file2entry(new File("data/%s.json" format id)))
-  def search(pattern : String) = list.map(x => (x, get(x).get)).filter({
-    case (id, e) => e.lemma.matches(pattern.replaceAll("\\*",".*"))
-  })
-  def update(id : String, entry : Entry) = {
-    val out = new java.io.PrintWriter(new File(new File("data"), id + ".json"))
-    out.println(entry.toJson.prettyPrint)
-    out.flush
-    out.close
-  }
-}
-
-class SQLDataStore(db : File) extends DataStore with WordNet {
+class SQLDataStore(db : File) extends DataStore {
   import CWNEditorJsonProtocol._
   try {
     Class.forName("org.sqlite.JDBC") }

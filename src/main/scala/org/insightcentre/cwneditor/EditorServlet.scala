@@ -21,7 +21,6 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     def urldecode(s : String) = java.net.URLDecoder.decode(s, "UTF-8")
 
     lazy val store = new SQLDataStore(new File("cwn.db"))
-    lazy val wordnet : WordNet = store
     lazy val login = SQLLogin
     lazy val activeUsers = new TimedHash()
 
@@ -67,7 +66,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     get("/wn/:key") {
       val k = urldecode(params("key"))
       if(k.length >= 2) {
-        val results = wordnet.find(k)
+        val results = store.find(k)
         contentType = "application/javascript"
         "[" + results.map({ result =>
           s""""${result.word}: ${result.definition.replaceAll("\\\"","'")} <${result.ili}>""""

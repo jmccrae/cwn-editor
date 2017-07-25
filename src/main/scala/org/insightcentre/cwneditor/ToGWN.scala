@@ -168,10 +168,11 @@ ${sense.relations.filter(x => !(senseRelations contains x.`type`)).map(synRelToG
   }
 
   def main(args : Array[String]) {
+    val store = new SQLDataStore(new java.io.File("cwn.db"))
     val out = new java.io.PrintWriter("colloqwn.xml")
     out.println(
       toGWN(
-        FileDataStore.list.map(id => (id.replaceAll("^\\-+",""), FileDataStore.get(id).get)).filter({
+        store.list.map(id => (id.replaceAll("^\\-+",""), store.get(id).get)).filter({
           case (id, entry) => 
             (entry.status == "general" || entry.status == "novel" || entry.status == "vulgar") &&
             !entry.senses.exists(_.synonym != "")
@@ -182,7 +183,7 @@ ${sense.relations.filter(x => !(senseRelations contains x.`type`)).map(synRelToG
     out.close
 
     val out2 = new java.io.PrintWriter("colloqwn-corrections.csv")
-    FileDataStore.list.map(id => FileDataStore.get(id).get).foreach({ entry =>
+    store.list.map(id => store.get(id).get).foreach({ entry =>
       if(entry.status == "nonlex") {
         out2.println("nonlex\t" + entry.lemma + "\t");
       } else if(entry.status == "error") {

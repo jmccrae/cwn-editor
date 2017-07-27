@@ -121,8 +121,12 @@ object SQLLogin extends UserLogin {
   def addUser(username : String, password : String, email : String) =
     withSession(conn) { implicit session =>
       val h = hash(password)
-      sql"""INSERT INTO users (name, hash, email) VALUES (${username}, ${h}, ${email})""".execute
-      true
+      try {
+        sql"""INSERT INTO users (name, hash, email) VALUES (${username}, ${h}, ${email})""".execute
+        true
+      } catch {
+        case x : java.sql.SQLException => false
+      }
     }
 }
 

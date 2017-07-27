@@ -1,0 +1,45 @@
+<% import org.insightcentre.cwneditor._ %>
+<%@ var queue:List[AnnotationQueueEntry] %>
+<%@ var contextUrl:String %>
+<%@ var loggedin: Boolean %>
+<% attributes("loggedin") = loggedin %>
+<% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
+<% attributes("contextUrl") = contextUrl %>
+<% attributes("title") = "Colloquial WordNet Editor - Login" %>
+<html>
+    <head>
+        <title>Colloquial WordNet Editor - Queue</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1>My Annotation Queue</h1>
+            </div>
+            <table class="table table-striped">
+                <tr>
+                    <th>Lemma</th>
+                    <th>Examples</th>
+                    <th>Annotation Hold Until</th>
+                    <th>Actions</th>
+                </tr>
+                #for(aqe <- queue)
+                <tr>
+                    <td>${aqe.lemma}</td>
+                    <td>
+                    #for(example <- aqe.examples.take(3))
+                        <p>${example}</p>
+                    #end
+                    </td>
+                    <td>
+                        ${aqe.expiryString}
+                    </td>
+                    <td>
+                        <a class="btn btn-xs btn-success" href="${contextUrl}/add/${aqe.id}">Annotate</a>
+                        <a class="btn btn-xs btn-danger" href="${contextUrl}/dequeue/${aqe.id}">Remove</a>
+                        <a class="btn btn-xs btn-warning" href="${contextUrl}/extend/${aqe.id}">Renew Hold</a>
+                    </td>
+                #end
+            </table>
+        </div>
+    </body>
+</html>

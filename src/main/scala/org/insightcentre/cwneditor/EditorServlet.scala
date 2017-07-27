@@ -23,6 +23,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     lazy val store = new SQLDataStore(new File("cwn.db"))
     lazy val login = SQLLogin
     lazy val activeUsers = new TimedHash()
+    lazy val annoQueue = SQLAnnotationQueue
 
     def file2entry(f : File) = {
       val s = io.Source.fromFile(f)
@@ -31,14 +32,9 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       e
     }
 
-    def loggedin = {
-      session.get("login") match {
-        case Some(login) =>
-          activeUsers.get(login.toString) != None
-        case _ =>
-          false
-      }
-    }
+    def username : Option[String] = session.get("login").flatMap(login => activeUsers.get(login.toString))
+
+    def loggedin = username != None
 
     get("/search") {
       params.get("lemma") match {
@@ -93,9 +89,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/edit/:id") {
       try {
-        session.get("login") match {
-          case Some(login) =>
-            val userName = activeUsers.get(login.toString).getOrElse(throw new EditorServletException("Session expired"))
+        username match {
+          case Some(userName) =>
             val id = params("id")
             store.get(id) match {
               case Some(data) =>
@@ -110,7 +105,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                 pass()
             }
           case None =>
-            SeeOther(context + "/login?redirect=/edit/"+params("id"))
+            TemporaryRedirect(context + "/login?redirect=/edit/"+params("id"))
         }
       } catch {
         case EditorServletException(msg) =>
@@ -124,7 +119,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       session.get("login").map({ login =>
         activeUsers.clear(login.toString)
       })
-      SeeOther(context + "/")
+      TemporaryRedirect(context + "/")
     }
 
     get("/next/:id") {
@@ -139,9 +134,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/update/:id") {
       try {
-        session.get("login") match {
-          case Some(login) =>
-            val userName = activeUsers.get(login.toString).getOrElse(throw new EditorServletException("Session expired"))
+        username match {
+          case Some(userName) =>
             val data = store.get(params("id")).getOrElse(throw new EditorServletException("ID does not exist"))
             val lemma = params.getOrElse("lemma", throw new EditorServletException("Lemma is required"))
             val status = params.getOrElse("status", throw new EditorServletException("Status is required"))
@@ -150,8 +144,9 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
             })
             val e = Entry(lemma, data.examples, status, senseIds.map({ id =>
               val pos = params.getOrElse("pos" + id, throw new EditorServletException("POS is required"))
-              // TODO: Account for abbreviation/misspelling
-              val definition = params.getOrElse("definition" + id, throw new EditorServletException("Definition is required"))
+              val definition = params.get("definition" + id).orElse(
+                params.get("abbrev" + id).orElse(
+                  params.get("misspell" + id))).getOrElse(throw new EditorServletException("Definition is required"))
               val synonym = params.getOrElse("synonym" + id, throw new EditorServletException("Synonym is required"))
               val relIds = params.keys.filter(_.matches("relType" + id + "-\\d+")).map({
                 s => s.drop("relType".length + id.toString.length + 1).toInt
@@ -192,7 +187,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
             session("login") = key
             SeeOther(context + redirect)
           case None =>
-            SeeOther(context + "/login?auth_failure=1")
+            SeeOther(context + "/login?auth_failure=1&redirect=" + redirect)
         }
       } catch {
         case EditorServletException(msg) => {
@@ -203,13 +198,17 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     post("/login/update") {
       try {
-        val username = params.getOrElse("username", throw new EditorServletException("Username is required"))
-        val oldPassword = params.getOrElse("oldpassword", throw new EditorServletException("Old password is required"))
-        val newPassword = params.getOrElse("newpassword", throw new EditorServletException("New password is required"))
-        if(login.updateUser(username, oldPassword, newPassword)) {
-          SeeOther(context)
-        } else {
-          BadRequest("User update failed")
+        username match {
+          case Some(username) =>
+            val oldPassword = params.getOrElse("oldpassword", throw new EditorServletException("Old password is required"))
+            val newPassword = params.getOrElse("newpassword", throw new EditorServletException("New password is required"))
+            if(login.updateUser(username, oldPassword, newPassword)) {
+              SeeOther(context + "/")
+            } else {
+              BadRequest("User update failed")
+            }
+          case None =>
+            SeeOther(context + "/login?redirect=" + context + "/update_user")
         }
       } catch {
         case EditorServletException(msg) => {
@@ -225,13 +224,15 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         val password2 = params.getOrElse("password2", throw new EditorServletException("Password2 is required"))
         val email = params.getOrElse("email", throw new EditorServletException("Email is required"))
         if(password == password2 && login.addUser(username, password, email)) {
-          SeeOther(context)
+          SeeOther(context + "/")
+        } else if(password != password2) {
+          SeeOther(context + "/sign_up?err=Passwords do not match")
         } else {
-          BadRequest("User creation failed")
+          SeeOther(context + "/sign_up?err=Username exists")
         }
       } catch {
         case EditorServletException(msg) => {
-          BadRequest(msg)
+          SeeOther(context + "/sign_up?err="+msg)
         }
       }
     }
@@ -245,8 +246,9 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/sign_up") {
         val redirect = params.getOrElse("redirect","/")
+        val err = params.getOrElse("err", "")
         contentType = "text/html"
-        ssp("/sign_up", "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
+        ssp("/sign_up", "err" -> err,  "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
     }
 
     get("/update_user") {
@@ -255,8 +257,47 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         ssp("/update_user", "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
     }
 
+    get("/add/:id") {
+      val id = params("id")
+      username match {
+        case Some(username) =>
+          throw new UnsupportedOperationException("TODO")
+        case None =>
+          TemporaryRedirect(s"$context/login?redirect=$context/add/$id")
+      }
+    }
+
+    get("/dequeue/:id") {
+      val id = params("id")
+      username match {
+        case Some(username) =>
+          annoQueue.dequeue(username, id)
+          TemporaryRedirect(context + "/")
+        case None =>
+          TemporaryRedirect(s"$context/login?redirect=$context/dequeue/$id")
+      }
+    }
+
+    get("/extend/:id") {
+      val id = params("id")
+      username match {
+        case Some(username) =>
+          annoQueue.extend(username, id)
+          TemporaryRedirect(context + "/")
+        case None =>
+          TemporaryRedirect(s"$context/login?redirect=$context/extend/$id")
+      }
+    }
+          
     get("/") {
-      TemporaryRedirect(context + "/summary/0")
+      username match {
+        case Some(username) =>
+          val queue = annoQueue.getQueue(username)
+          contentType = "text/html"
+          ssp("/queue", "queue" -> queue, "contextUrl" -> context, "loggedin" -> true)
+        case None =>
+          TemporaryRedirect(context + "/summary/0")
+      }
     }
 }
 

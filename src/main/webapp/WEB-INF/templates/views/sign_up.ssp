@@ -2,6 +2,7 @@
 <%@ var redirect:String %>
 <%@ var contextUrl:String %>
 <%@ var loggedin: Boolean %>
+<%@ var err: String %>
 <% attributes("loggedin") = loggedin %>
 <% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
 <% attributes("contextUrl") = contextUrl %>
@@ -15,7 +16,10 @@
             <div class="row">
                 <h1>Sign up</h1>
             </div>
-            <form class="form-horizontal" action="${contextUrl}/login/login" method="POST">
+            #if(err != "")
+                <div class="alert alert-danger">${err}</div>
+            #end    
+            <form class="form-horizontal" action="${contextUrl}/login/add" method="POST">
                 <fieldset>
                     <div class="form-group">
                         <label for="username" class="col-lg-2 control-label">Username</label>
@@ -38,7 +42,7 @@
                      <div class="form-group">
                         <label for="password2" class="col-lg-2 control-label">Password (repeat)</label>
                         <div class="col-lg-10">
-                            <input type="password2" class="form-control" id="password" placeholder="Password" autocomplete="off" name="password2">
+                            <input type="password" class="form-control" id="password" placeholder="Password" autocomplete="off" name="password2">
                         </div>
                     </div>
                      <input type="text" value="${redirect}" name="redirect" style="display:none;">

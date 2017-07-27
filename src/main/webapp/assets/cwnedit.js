@@ -116,7 +116,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <label for="definition{{id}}">Short for
                         <button class="btn btn-xs btn-info" onclick="$('#abbrev{{id}}-help').toggle();return false">Help</button></label>
                         <input type="text" class="form-control"
-                               id="definition{{id}}" name="abbrev{{id}}" value="{{abbrev}}"/>
+                               id="abbrve{{id}}" name="abbrev{{id}}" value="{{abbrev}}"/>
                         <div id="abbrev{{id}}-help" class="cwn-help">
                             <p>Please give the full form of the term. If it is ambiguous you may add more senses with "Add sense"</p>
                         </div>
@@ -125,7 +125,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <label for="definition{{id}}">Correct spelling
                         <button class="btn-xs btn btn-info" onclick="$('#misspell{{id}}-help').toggle();return false">Help</button></label>
                         <input type="text" class="form-control"
-                               id="definition{{id}}" name="misspell{{id}}" value="{{misspell}}"/>
+                               id="misspell{{id}}" name="misspell{{id}}" value="{{misspell}}"/>
                         <div id="misspell{{id}}-help" class="cwn-help">
                             <p>Please give the correct spelling of the term. If it is ambiguous you may add more senses with "Add sense"</p>
                         </div>

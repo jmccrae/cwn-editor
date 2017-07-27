@@ -18,19 +18,13 @@
             <form class="form-horizontal" action="${contextUrl}/login/update" method="POST">
                 <fieldset>
                     <div class="form-group">
-                        <label for="username" class="col-lg-2 control-label">Username</label>
-                        <div class="col-lg-10">
-                            <input type="text" class="form-control" id="username" placeholder="Username" autocomplete="off" name="username">
-                        </div>
-                    </div>
-                    <div class="form-group">
                         <label for="oldpassword" class="col-lg-2 control-label">Old Password</label>
                         <div class="col-lg-10">
                             <input type="password" class="form-control" id="oldpassword" placeholder="Old Password" autocomplete="off" name="oldpassword">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="newpassword" class="col-lg-2 control-label">Old Password</label>
+                        <label for="newpassword" class="col-lg-2 control-label">New Password</label>
                         <div class="col-lg-10">
                             <input type="password" class="form-control" id="newpassword" placeholder="New Password" autocomplete="off" name="newpassword">
                         </div>

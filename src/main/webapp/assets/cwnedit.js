@@ -5,7 +5,7 @@ function addrel(context, id, type="", target="") {
     relNos[id]++;
     var rn = relNos[id];
     if(isNaN(rn)) { rn = 0; }
-    var cont = `<tr>
+    var cont = `<tr id="relType{{id}}-{{relNo}}-row">
                                 <td>                     
                         <select class="s2-basic-{{id}}-{{relNo}}"
                                id="relType{{id}}-{{relNo}}"
@@ -62,7 +62,11 @@ function addrel(context, id, type="", target="") {
     $("#relTable" + id).append(cont);
     relNos[id] = rn;
     wncomplete('#relTarget' + id + "-" + rn,context);
-    $('.s2-basic-' + id + "-" + rn).select2();
+    $('.s2-basic-' + id + "-" + rn).select2().on("change", function(e) {
+        if($('.s2-basic-'+id+'-'+rn).val() == "none") {
+            $('#relType'+id+'-'+rn+'-row').remove();
+        }
+    });
     $('#relType' + id + "-" + rn).focus();
 }
 
@@ -96,7 +100,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <input type="text" class="form-control"
                                id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}"/>
                         <div id="synonym{{id}}-help" class="cwn-help">
-                            <p>Please first type in suitable synonym terms to find any likely terms that are required. If you find a suitable term select it from the drop-down, otherwise continue to the next step</p>
+                            <p>Please first type in suitable synonym terms to find any likely terms that are already in Colloquial or Princeton WordNet. If you find a suitable term select it from the drop-down, otherwise continue to the next step</p>
                         </div>
                     </div>
                      <div class="form-group cwn-sense">
@@ -144,9 +148,9 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                                 <li><b>Has instance (hyponym):</b> This should rarely be used</li>
                                 <li><b>Antonym (opposite):</b> A term with the opposite meaning, mostly used for adjectives, e.g., "hot" vs. "cold"</li>
                                 <li><b>Shows emotion:</b> This is used for interjections that show a particular emotion, e.g., "wow!" shows the emotion of "surprise"</li>
-                                <li><b>Loanword for this language:</b> If this word is borrowed from another language use this property linked to the synset for the language where the word is borrowed from</li>
+                                <li><b>Loanword for this language:</b> If this word is borrowed from another language, use this property linked to the synset for the language where the word is borrowed from</li>
                                 <li><b>Derived from (linguistically):</b> This word is derived from another word, e.g., "shorty" from "short", or is a multiword term whose elements are the chosen words</li>
-                                <li><b>See also:</b> Used for relevant relations, which do not fit under any other category</li>
+                                <li><b>See also:</b> Used for relevant relations which do not fit under any other category</li>
                                 <li><b>Causes:</b> Something that is the result of the event described by this noun or the action of this verb</li>
                                 <li><b>Region:</b> The region that this is used in. This also indicates dialect, e.g. select "United Kingdom" for slang terms used in the UK. For African-American Vernacular English, please use AAVE as the region</li>
                                 <li><b>Topic:</b> A domain in which this word is used, e.g., "Medicine" for medical terms</li>

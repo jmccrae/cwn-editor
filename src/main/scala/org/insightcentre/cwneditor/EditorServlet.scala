@@ -256,6 +256,9 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         val password2 = params.getOrElse("password2", throw new EditorServletException("Password2 is required"))
         val email = params.getOrElse("email", throw new EditorServletException("Email is required"))
         if(password == password2 && login.addUser(username, password, email)) {
+          val key = login.login(username, password).get
+          activeUsers.put(key, username)
+          session("login") = key
           SeeOther(context + "/")
         } else if(password != password2) {
           SeeOther(context + "/sign_up?err=Passwords do not match")

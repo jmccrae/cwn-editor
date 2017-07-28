@@ -25,8 +25,13 @@ object LegacyJSONtoCSVConverter {
     entry.senses.map({sense => sense.definition}).mkString(";;;")
   }
 
+  private def examples(entry : LegacyEntry) : String = {
+    entry.examples.map(_.text).mkString(";;;")
+  }
+
   def main(args : Array[String]) {
     val out = new PrintWriter(new GZIPOutputStream(new FileOutputStream("data.csv.gz")))
+    val out2 = new PrintWriter(new GZIPOutputStream(new FileOutputStream("queue.csv.gz")))
     var num = 0
     new File("data-old/").listFiles.filter(_.getName().endsWith(".json")).map({ file =>
       val entry = io.Source.fromFile(file).mkString.parseJson.convertTo[LegacyEntry]
@@ -40,6 +45,8 @@ object LegacyJSONtoCSVConverter {
         val entry2 = entry.update(id)
         out.println(s"""$num|||${id}|||${entry.lemma}|||${definitions(entry)}|||${entry2.toJson.toString}|||0""")
         num += 1
+      } else {
+        out2.println(s"""${entry.lemma}|||${examples(entry)}""")
       }
     })
     io.Source.fromInputStream(
@@ -51,6 +58,8 @@ object LegacyJSONtoCSVConverter {
         })
     out.flush
     out.close
+    out2.flush
+    out2.close
 
   }
 }

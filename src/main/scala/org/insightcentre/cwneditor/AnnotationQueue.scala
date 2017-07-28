@@ -45,6 +45,25 @@ object SQLAnnotationQueue extends AnnotationQueue {
                                 user TEXT,
                                 examples TEXT)""".execute
       sql"""CREATE INDEX queue_users ON queue (user)""".execute
+      sql"""CREATE INDEX queue_expiry ON queue (expiry)""".execute
+      val insertEntry = sql"""INSERT INTO queue (expiry,lemma,user,examples) VALUES (0,?,"",?)""".insert2[String,String]
+      var i = 0
+      io.Source.fromInputStream(
+        new java.util.zip.GZIPInputStream(
+          new java.io.FileInputStream("queue.csv.gz"))).getLines.foreach({ line =>
+            val e = line.split("\\|\\|\\|")
+            insertEntry(e(0),e(1))
+            i += 1
+            if(i % 10000 == 0) {
+              insertEntry.execute
+              System.err.print(".")
+            }
+      })
+      insertEntry.execute
+      System.err.println("")
+
+
+
     }
   }
 

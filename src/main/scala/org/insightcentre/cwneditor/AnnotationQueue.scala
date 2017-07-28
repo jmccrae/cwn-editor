@@ -68,7 +68,7 @@ object SQLAnnotationQueue extends AnnotationQueue {
       val newExpiry = (java.time.LocalDate.now().toEpochDay() + HOLD_LENGTH_DAYS) * 86400000l
       sql"""SELECT id FROM queue WHERE user="" OR expiry < $now LIMIT $n""".
         as1[Int].foreach(id => {
-          sql"""UPDATE SET user=$user, expiry=$newExpiry WHERE id=$id""".execute
+          sql"""UPDATE queue SET user=$user, expiry=$newExpiry WHERE id=$id""".execute
         })
     }
   }

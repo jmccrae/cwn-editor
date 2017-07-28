@@ -171,7 +171,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
               val annoId = Try(id.drop(Entrys.CWN_NEW.length).toInt).
                 getOrElse(throw new EditorServletException("ID not integer"))
               store.insert(e)
-              annoQueue.dequeue(userName, annoId)
+              annoQueue.remove(userName, annoId)
               annoQueue.getQueue(userName).headOption match {
                 case Some(aqe) =>
                   TemporaryRedirect(s"$context/add/${aqe.id}")
@@ -347,6 +347,22 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         }
       })
     }
+
+    get("/pull_queue/") {
+      username match {
+        case Some(username) =>
+          Try(params("n").toInt) match {
+            case Success(n) =>
+              annoQueue.pullQueue(username, n)
+              TemporaryRedirect(s"$context/")
+            case Failure(_) =>
+              pass()
+          }
+         case None =>
+           TemporaryRedirect(s"$context/login?redirect=/pull_queue/?n=${params("n")}")
+      }
+    }
+
           
     get("/") {
       username match {

@@ -5,15 +5,19 @@ import sql._
 import java.io.File
 
 trait AnnotationQueue {
+  def get(id : Int) : Option[AnnotationQueueEntry]
   def getQueue(user : String) : List[AnnotationQueueEntry]
   def pullQueue(user : String, n : Int) : Unit
-  def remove(user : String, id : String) : Boolean
-  def dequeue(user : String, id : String) : Boolean
-  def extend(user : String, id : String) : Boolean
+  def remove(user : String, id : Int) : Boolean
+  def dequeue(user : String, id : Int) : Boolean
+  def extend(user : String, id : Int) : Boolean
 }
 
 case class AnnotationQueueEntry(id : Int, expiry : Long, lemma : String, user : String, examples : List[String]) {
   def expiryString = AnnotationQueueEntry.dateFormat.format(new java.util.Date(expiry))
+
+  def toEntry : Entry = Entry(lemma, examples.map({e => Example(e)}),
+    "", Nil, Entrys.CWN_NEW + id)
 }
 
 object AnnotationQueueEntry {
@@ -44,6 +48,13 @@ object SQLAnnotationQueue extends AnnotationQueue {
     }
   }
 
+  def get(id : Int) = withSession(conn) { implicit session =>
+    sql"""SELECT * FROM queue WHERE id=$id""".as5[Int,Long,String,String,String].map({
+      case (id, expiry, lemma, user, examples) => AnnotationQueueEntry(id, expiry, lemma, user, examples.split(";;;").toList)
+    }).headOption
+  }
+
+
   def getQueue(user : String) = withSession(conn) { implicit session =>
     val now = (java.time.LocalDate.now().toEpochDay()) * 86400000l 
     sql"""SELECT * FROM queue WHERE user=$user AND expiry > $now""".as5[Int,Long,String,String,String].map({
@@ -62,16 +73,16 @@ object SQLAnnotationQueue extends AnnotationQueue {
     }
   }
 
-  def dequeue(user : String, id : String) = withSession(conn) { implicit session =>
+  def dequeue(user : String, id : Int) = withSession(conn) { implicit session =>
     sql"""UPDATE queue SET user="" WHERE user=$user AND id=$id""".execute
   }
 
-  def extend(user : String, id : String) = withSession(conn) { implicit session =>
+  def extend(user : String, id : Int) = withSession(conn) { implicit session =>
     val newExpiry = (java.time.LocalDate.now().toEpochDay() + HOLD_LENGTH_DAYS) * 86400000l
     sql"""UPDATE queue SET expiry=$newExpiry WHERE user=$user AND id=$id""".execute
   }
 
-  def remove(user : String, id : String) = withSession(conn) { implicit session =>
+  def remove(user : String, id : Int) = withSession(conn) { implicit session =>
     sql"""DELETE FROM queue WHERE user=$user AND id=$id""".execute
   }
 

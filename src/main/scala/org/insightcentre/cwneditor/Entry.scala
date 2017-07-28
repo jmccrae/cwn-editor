@@ -15,6 +15,11 @@ case class Entry(val lemma : String, val examples : List[Example],
   def abbrevOrMisspell = status == "abbrev" || status == "misspell"
 }
 
+object Entrys {
+  val CWN_NEW = "cwn-new-"
+  val CWN_ENTRY = "cwn-entry-"
+}
+
 case class Example(text : String)
 
 case class Sense(

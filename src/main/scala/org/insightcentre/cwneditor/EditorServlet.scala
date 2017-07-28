@@ -5,6 +5,7 @@ import org.scalatra._
 import scalate.ScalateSupport
 import spray.json._
 import scala.collection.JavaConversions._
+import scala.util.{Try, Success, Failure}
 
 object CWNEditorJsonProtocol extends DefaultJsonProtocol {
   implicit val relationFormat = jsonFormat3(Relation)
@@ -133,16 +134,25 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     }
 
     get("/update/:id") {
+      val isNew = params("id").startsWith(Entrys.CWN_NEW)
+      val id = params("id")
       try {
         username match {
           case Some(userName) =>
-            val data = store.get(params("id")).getOrElse(throw new EditorServletException("ID does not exist"))
+            val examples = if(isNew) {
+              annoQueue.get(Try(id.drop(Entrys.CWN_NEW.length).toInt).
+                getOrElse(throw new EditorServletException("ID not integer"))).
+                getOrElse(throw new EditorServletException("ID not in queue")).
+                examples.map(Example(_))
+            } else {
+              store.get(params("id")).getOrElse(throw new EditorServletException("ID does not exist")).examples
+            }
             val lemma = params.getOrElse("lemma", throw new EditorServletException("Lemma is required"))
             val status = params.getOrElse("status", throw new EditorServletException("Status is required"))
             val senseIds = params.keys.filter(_.matches("definition\\d+")).map({
               s => s.drop("definition".length).toInt
             })
-            val e = Entry(lemma, data.examples, status, senseIds.map({ id =>
+            val e = Entry(lemma, examples, status, senseIds.map({ id =>
               val pos = params.getOrElse("pos" + id, throw new EditorServletException("POS is required"))
               val definition = params.get("definition" + id).orElse(
                 params.get("abbrev" + id).orElse(
@@ -157,21 +167,42 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                          rid)
               }).filter(_.`type` != "none").toList, id)
             }).toList, userName)
-            store.update(params("id"), e)
-            findNext(params("id")) match {
-              case Some(id) => TemporaryRedirect(context + "/edit/" + id)
-              case None => {
-                contentType = "text/plain"
-                "No more results"
+            if(isNew) {
+              val annoId = Try(id.drop(Entrys.CWN_NEW.length).toInt).
+                getOrElse(throw new EditorServletException("ID not integer"))
+              store.insert(e)
+              annoQueue.dequeue(userName, annoId)
+              annoQueue.getQueue(userName).headOption match {
+                case Some(aqe) =>
+                  TemporaryRedirect(s"$context/add/${aqe.id}")
+                case None =>
+                  TemporaryRedirect(s"$context/")
+              }
+            } else {
+              store.update(params("id"), e)
+              findNext(params("id")) match {
+                case Some(id) => TemporaryRedirect(s"$context/edit/$id")
+                case None => TemporaryRedirect(s"$context/")
               }
             }
           case None =>
-            val id = store.get(params("id"))
-            TemporaryRedirect(context + "/login/?redirect=/update/"+id)
+            if(isNew) {
+              val annoId = Try(id.drop(Entrys.CWN_NEW.length).toInt).
+                getOrElse(throw new EditorServletException("ID not integer"))
+              TemporaryRedirect(s"$context/login/?redirect=/add/$annoId")
+            } else {
+              TemporaryRedirect(s"$context/login/?redirect=/update/$id")
+            }
         }
       } catch {
         case EditorServletException(msg) => {
-          TemporaryRedirect(context + "/edit/" + params("id") + "?error=" + msg)
+          if(isNew) {
+            val annoId = Try(id.drop(Entrys.CWN_NEW.length).toInt).
+                getOrElse(throw new EditorServletException("ID not integer"))
+            TemporaryRedirect(s"$context/add/$annoId?error=$msg")
+          } else {
+            TemporaryRedirect(s"$context/edit/$id?error=$msg")
+          }
         }
       }
     }
@@ -257,36 +288,64 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         ssp("/update_user", "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
     }
 
-    get("/add/:id") {
-      val id = params("id")
-      username match {
-        case Some(username) =>
-          throw new UnsupportedOperationException("TODO")
-        case None =>
-          TemporaryRedirect(s"$context/login?redirect=$context/add/$id")
+    def id2int(f : Int => Any) = {
+      Try(params("id").toInt) match {
+        case Success(id) => f(id)
+        case Failure(e) => {
+          contentType = "text/html"
+          BadRequest(ssp("/error",
+            "message" -> e.getMessage(),
+            "contextUrl" -> context,
+            "loggedin" -> loggedin))
+        }
       }
+    }
+
+
+    get("/add/:id") {
+      id2int(id => {
+        username match {
+          case Some(username) =>
+            annoQueue.get(id) match {
+              case Some(data) =>
+                contentType = "text/html"
+                ssp("/edit", 
+                  "error" -> params.get("error"),
+                  "entryId" -> (Entrys.CWN_NEW + params("id")),
+                  "entry" -> data.toEntry,
+                  "contextUrl" -> context,
+                  "loggedin" -> true)
+              case None =>
+                pass()
+              }
+          case None =>
+            TemporaryRedirect(s"$context/login?redirect=$context/add/$id")
+        }
+      })
     }
 
     get("/dequeue/:id") {
-      val id = params("id")
-      username match {
-        case Some(username) =>
-          annoQueue.dequeue(username, id)
-          TemporaryRedirect(context + "/")
-        case None =>
-          TemporaryRedirect(s"$context/login?redirect=$context/dequeue/$id")
-      }
+      id2int(id => {
+        username match {
+          case Some(username) =>
+            annoQueue.remove(username, id)
+            TemporaryRedirect(context + "/")
+          case None =>
+            TemporaryRedirect(s"$context/login?redirect=$context/dequeue/$id")
+        }
+      })
     }
 
     get("/extend/:id") {
-      val id = params("id")
-      username match {
-        case Some(username) =>
-          annoQueue.extend(username, id)
-          TemporaryRedirect(context + "/")
-        case None =>
-          TemporaryRedirect(s"$context/login?redirect=$context/extend/$id")
-      }
+      id2int(id => {
+        username match {
+          case Some(username) =>
+            annoQueue.extend(username, id)
+            TemporaryRedirect(context + "/")
+          case None =>
+            TemporaryRedirect(s"$context/login?redirect=$context/extend/$id")
+        }
+      })
     }
           
     get("/") {

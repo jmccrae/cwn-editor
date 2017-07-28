@@ -28,8 +28,13 @@ object LegacyJSONtoCSVConverter {
   def main(args : Array[String]) {
     val out = new PrintWriter(new GZIPOutputStream(new FileOutputStream("data.csv.gz")))
     var num = 0
-    new File("data/").listFiles.filter(_.getName().endsWith(".json")).foreach({ file =>
+    new File("data-old/").listFiles.filter(_.getName().endsWith(".json")).map({ file =>
       val entry = io.Source.fromFile(file).mkString.parseJson.convertTo[LegacyEntry]
+      if(entry.lemma == "") {
+        println(file.getName())
+      }
+      entry.copy(lemma=entry.lemma.replaceAll("^\\*",""))
+    }).sortBy(_.lemma.toLowerCase).foreach({ entry =>
       val id = s"""cwn-entry-${num+1}"""
       if(entry.status != "") {
         val entry2 = entry.update(id)
@@ -39,7 +44,7 @@ object LegacyJSONtoCSVConverter {
     })
     io.Source.fromInputStream(
       new java.util.zip.GZIPInputStream(
-        new java.io.FileInputStream("data/wn31.csv.gz"))).getLines.foreach({ line =>
+        new java.io.FileInputStream("data-old/wn31.csv.gz"))).getLines.foreach({ line =>
           val e = line.split(",")
           out.println(s"""$num|||${e(1)}|||${e(0)}|||${e.drop(2).mkString(",")}|||{}|||1""")
           num += 1

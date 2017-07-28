@@ -16,7 +16,7 @@ trait AnnotationQueue {
 case class AnnotationQueueEntry(id : Int, expiry : Long, lemma : String, user : String, examples : List[String]) {
   def expiryString = AnnotationQueueEntry.dateFormat.format(new java.util.Date(expiry))
 
-  def toEntry : Entry = Entry(lemma, examples.map({e => Example(e)}),
+  def toEntry : Entry = Entry(lemma, "", examples.map({e => Example(e)}),
     "", Nil, Entrys.CWN_NEW + id)
 }
 

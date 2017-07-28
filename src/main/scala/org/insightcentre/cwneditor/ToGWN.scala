@@ -57,7 +57,7 @@ ${aux.map(toAuxSynset).mkString("\n")}
   }
 
   def auxiliaries(entry : (String, Entry)) : Seq[Auxiliary] = entry match {
-    case (id, Entry(_, _, _, senses, _)) =>
+    case (id, Entry(_, _, _, _, senses, _)) =>
       senses.flatMap(senseAux)
   }
 
@@ -88,18 +88,27 @@ ${aux.map(toAuxSynset).mkString("\n")}
 
 
   def toGWNEntry(entry : (String, Entry)) = entry match {
-    case (id, Entry(lemma, examples, status, senses, _)) =>
+    case (id, Entry(lemma, confidence, examples, status, senses, _)) =>
       val grouped = senses.groupBy(_.pos).values
       for {
            entryGroup <- grouped
-      } yield  toGWNEntry2(id, lemma, status, entryGroup)
+      } yield  toGWNEntry2(id, confidence, lemma, status, entryGroup)
   }
 
-  def toGWNEntry2(id : String, _lemma : String, 
+  def mapScore(confidence : String) : String = confidence match {
+    case "vstrong" => "1.0"
+    case "strong"  => "0.9"
+    case "medium"  => "0.8"
+    case "weak"    => "0.7"
+    case ""        => "0.1"
+    case "skip"    => "0.0"
+  }
+
+  def toGWNEntry2(id : String, confidence : String, _lemma : String, 
     status : String, senses : List[Sense]) = {
       val lemma = _lemma.replaceAll("^\\*", "")
       val pos = senses(0).pos
-        s"""    <LexicalEntry id=\"${lemmaEscape(lemma)}-$pos\" note=\"$status\">
+        s"""    <LexicalEntry id=\"${lemmaEscape(lemma)}-$pos\" note=\"$status\" confidenceScore=\"${mapScore(confidence)}">
       <Lemma writtenForm=\"$lemma\" partOfSpeech=\"$pos\"/>
 ${senses.map(toGWNSense(_, id, lemma)).mkString("\n")}
     </LexicalEntry>"""

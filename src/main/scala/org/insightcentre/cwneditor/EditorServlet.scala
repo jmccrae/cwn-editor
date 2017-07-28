@@ -11,7 +11,7 @@ object CWNEditorJsonProtocol extends DefaultJsonProtocol {
   implicit val relationFormat = jsonFormat3(Relation)
   implicit val senseFormat = jsonFormat5(Sense)
   implicit val exampleFormat = jsonFormat1(Example)
-  implicit val entryFormat = jsonFormat5(Entry)
+  implicit val entryFormat = jsonFormat6(Entry)
 }
 
 class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
@@ -147,12 +147,13 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
             } else {
               store.get(params("id")).getOrElse(throw new EditorServletException("ID does not exist")).examples
             }
+            val confidence = params.getOrElse("confidence", throw new EditorServletException("Confidence is required"))
             val lemma = params.getOrElse("lemma", throw new EditorServletException("Lemma is required"))
             val status = params.getOrElse("status", throw new EditorServletException("Status is required"))
             val senseIds = params.keys.filter(_.matches("definition\\d+")).map({
               s => s.drop("definition".length).toInt
             })
-            val e = Entry(lemma, examples, status, senseIds.map({ id =>
+            val e = Entry(lemma, confidence, examples, status, senseIds.map({ id =>
               val pos = params.getOrElse("pos" + id, throw new EditorServletException("POS is required"))
               val definition = params.get("definition" + id).orElse(
                 params.get("abbrev" + id).orElse(

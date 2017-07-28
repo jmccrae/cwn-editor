@@ -4,10 +4,24 @@ import spray.json._
 import java.io._
 import java.util.zip._
 
-object LegacyJSONtoCSVConverter {
-  import CWNEditorJsonProtocol._
+object LegacyCWNEditorJsonProtocol extends DefaultJsonProtocol {
+  implicit val relationFormat = jsonFormat3(Relation)
+  implicit val senseFormat = jsonFormat5(Sense)
+  implicit val exampleFormat = jsonFormat1(Example)
+  implicit val entryFormat = jsonFormat6(Entry)
+  implicit val legacyEntryFormat = jsonFormat5(LegacyEntry)
+}
 
-  private def definitions(entry : Entry) : String = {
+
+case class LegacyEntry(val lemma : String, val examples : List[Example],
+    status : String, senses : List[Sense], editorId : String) {
+  def update(id : String) : Entry = Entry(lemma, "vstrong", examples, status, senses, id)
+}
+
+object LegacyJSONtoCSVConverter {
+  import LegacyCWNEditorJsonProtocol._
+
+  private def definitions(entry : LegacyEntry) : String = {
     entry.senses.map({sense => sense.definition}).mkString(";;;")
   }
 
@@ -15,10 +29,10 @@ object LegacyJSONtoCSVConverter {
     val out = new PrintWriter(new GZIPOutputStream(new FileOutputStream("data.csv.gz")))
     var num = 0
     new File("data/").listFiles.filter(_.getName().endsWith(".json")).foreach({ file =>
-      val entry = io.Source.fromFile(file).mkString.parseJson.convertTo[Entry]
+      val entry = io.Source.fromFile(file).mkString.parseJson.convertTo[LegacyEntry]
       val id = s"""cwn-entry-${num+1}"""
       if(entry.status != "") {
-        val entry2 = entry.copy(editorId=id)
+        val entry2 = entry.update(id)
         out.println(s"""$num|||${id}|||${entry.lemma}|||${definitions(entry)}|||${entry2.toJson.toString}|||0""")
         num += 1
       }

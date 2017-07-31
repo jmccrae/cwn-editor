@@ -13,7 +13,8 @@ trait DataStore {
   def next(id : String) : Option[String]
   def search(pattern : String) : List[(String, Entry)]
   def update(id : String, entry : Entry) : Unit
-  def insert(entry : Entry) : Unit
+  /** Returns the new id */
+  def insert(entry : Entry) : String
   def find(s : String) : List[WordNetEntry]
 }
 
@@ -100,13 +101,14 @@ class SQLDataStore(db : File) extends DataStore {
                              definition=${definitions(entry)} WHERE id=${id}""".execute
   }   
 
-  def insert(entry : Entry) : Unit = withSession(conn) { implicit session =>
+  def insert(entry : Entry) : String = withSession(conn) { implicit session =>
     val n : Int = sql"""SELECT max(num) FROM entries WHERE pwn=0""".as1[Int].head
     val idNew = Entrys.CWN_ENTRY + (n+2)
     val entry2 = entry.copy(editorId=idNew)
     sql"""INSERT INTO entries (id, word, definition, content, pwn) VALUES ($idNew, 
       ${entry.lemma}, ${entry.senses.map(_.definition).mkString(";;;")}, ${entry.toJson.toString},
       0)""".execute
+    idNew
   }
 
   def find(s : String) : List[WordNetEntry] = withSession(conn) { implicit session =>

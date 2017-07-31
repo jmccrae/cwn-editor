@@ -71,7 +71,10 @@ function addrel(context, id, type="", target="") {
 }
 
 function addsense(context, pos="",synonym="",definition="",abbrev="",misspell="") {
-    var code = `<span id="sense{{id}}"><h3 class="cwn-sense">Sense {{id}}</h3>
+    var code = `<span id="sense{{id}}">
+                <div class="panel panel-info cwn-sense">
+                    <div class="panel-heading">Sense {{id}}</div>
+                    <div class="panel-body">
                     <div class="form-group cwn-sense">
                         <label for="pos{{id}}">Part of Speech
                         <button class="btn-xs btn btn-info" onclick="$('#pos{{id}}-help').toggle();return false">Help</button></label><br/>
@@ -168,7 +171,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                                 <li><b>Delete:</b> Choose this option to delete a link</li>
                             </ul>
                         </div>
-                    </div></span>`;
+                    </div></div></div></span>`;
     var id = Object.keys(relNos).length + 1;
     relNos[id] = 0;
     var last_code = "";

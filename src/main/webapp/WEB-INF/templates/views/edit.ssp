@@ -121,13 +121,16 @@ $(document).ready(function() {
   addrel('${contextUrl}', ${senseId + 1}, '${rel.`type`}', '${rel.target.replaceAll("'","\\\\'")}');
     #end
 #end
-  setConfidence('vstrong');
+  setConfidence('${entry.confidence}');
   setStatus('${entry.status}');
   $('#confidence-vstrong').focus();
 });
 </script>
-                    <div id="submitDiv" class="cwn-sense cwn-abbrev cwn-misspell pull-right">
-                        <button class="btn btn-success" type="button" onclick="addsense('${contextUrl}')">Add sense</button>
+                    <div>
+                        <h3>Senses
+                        <button class="btn btn-success" type="button" onclick="addsense('${contextUrl}')">Add sense</button></h3>
+                    </div>
+                    <div id="submitDiv" class="cwn-sense cwn-abbrev cwn-misspell">
                     </div>
                     <div>
                         <input type="submit" class="btn btn-default" value="Submit"/>

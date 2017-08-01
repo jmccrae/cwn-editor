@@ -48,6 +48,9 @@ function addrel(context, id, type="", target="") {
                                name="relTarget{{id}}-{{relNo}}"
                                value="{{target}}"/>
                         </div>
+                        </td>
+                        <td>
+                        <button type="button" class="close" onclick="$('#relType{{id}}-{{relNo}}-row').remove();return false">&times;</button>
                                 </td>
                             </tr>`;
     var last_cont = "";
@@ -73,7 +76,9 @@ function addrel(context, id, type="", target="") {
 function addsense(context, pos="",synonym="",definition="",abbrev="",misspell="") {
     var code = `<span id="sense{{id}}">
                 <div class="panel panel-info cwn-sense cwn-abbrev cwn-misspell">
-                    <div class="panel-heading">Sense {{id}}</div>
+                    <div class="panel-heading">Sense {{id}}
+                        <button type="button" class="close pull-right" onclick="removesense({{id}});return false">&times;</button>
+                    </div>
                     <div class="panel-body">
                     <div class="form-group cwn-sense">
                         <label for="pos{{id}}">Part of Speech
@@ -93,7 +98,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
                             value="x"/>Other</label></div>
-                        <div id="pos-help" class="cwn-help">
+                        <div id="pos{{id}}-help" class="cwn-help">
                             <p>Please give the part-of-speech. "Other" is used for interjections such as "wow!" or "gosh!"</p>
                         </div>
                     </div>
@@ -134,7 +139,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         </div>
                     </div>
                     <div class="alert alert-danger" id="syndefn{{id}}" style="display:none;">
-                        Error: please set either the synonym or the definition!
+                        Error: please set either the synonym or the definition (not both)!
                     </div>
                     <div class="form-group cwn-sense">
                         <table style="width:100%;" id="relTable{{id}}">
@@ -193,6 +198,10 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
     }
     wncomplete('#synonym' + id, context);
     $('#sense' + id + " .cwn-sense").show();
+}
+
+function removesense(id) {
+    $('#sense' + id).remove();
 }
  
 function setConfidence(value) {

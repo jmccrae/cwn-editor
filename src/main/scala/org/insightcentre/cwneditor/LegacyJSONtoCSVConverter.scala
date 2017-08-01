@@ -22,7 +22,11 @@ object LegacyJSONtoCSVConverter {
   import LegacyCWNEditorJsonProtocol._
 
   private def definitions(entry : LegacyEntry) : String = {
-    entry.senses.map({sense => sense.definition}).mkString(";;;")
+    if(entry.status == "general" || entry.status == "novel" || entry.status == "vulgar") {
+      entry.senses.map({sense => sense.definition}).mkString(";;;")
+    } else {
+      ""
+    }
   }
 
   private def examples(entry : LegacyEntry) : String = {

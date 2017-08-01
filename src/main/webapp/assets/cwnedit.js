@@ -72,7 +72,7 @@ function addrel(context, id, type="", target="") {
 
 function addsense(context, pos="",synonym="",definition="",abbrev="",misspell="") {
     var code = `<span id="sense{{id}}">
-                <div class="panel panel-info cwn-sense">
+                <div class="panel panel-info cwn-sense cwn-abbrev cwn-misspell">
                     <div class="panel-heading">Sense {{id}}</div>
                     <div class="panel-body">
                     <div class="form-group cwn-sense">
@@ -101,7 +101,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <label for="synonym{{id}}">Synonym
                         <button class="btn-xs btn btn-info" onclick="$('#synonym{{id}}-help').toggle();return false">Help</button></label>
                         <input type="text" class="form-control"
-                               id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}"/>
+                               id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}" oninput="checkDefnSyn({{id}})"/>
                         <div id="synonym{{id}}-help" class="cwn-help">
                             <p>Please first type in suitable synonym terms to find any likely terms that are already in Colloquial or Princeton WordNet. If you find a suitable term select it from the drop-down, otherwise continue to the next step</p>
                         </div>
@@ -110,7 +110,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <label for="definition{{id}}">Definition
                         <button class="btn-xs btn btn-info" onclick="$('#definition{{id}}-help').toggle();return false">Help</button></label>
                         <input type="text" class="form-control"
-                               id="definition{{id}}" name="definition{{id}}" value="{{definition}}"/>
+                               id="definition{{id}}" name="definition{{id}}" value="{{definition}}" oninput="checkDefnSyn({{id}})"/>
                         <div id="definition{{id}}-help" class="cwn-help">
                             <p>If you cannot find a synonym term, please give a definition of this term that describes it well. A good definition consists of a <i>genus</i> and a <i>differentia</i>. The genus is the type of thing that a word is e.g., "parkour" is a "training discipline", and the differentia is a criteria that unambiguously identifiers this word, e.g., "using movement that developed from military obstacle course training". It is advised that you use definitions from other sources and if you do so please include the source in square brackets after the definition, e.g., "A training discipline using movement that developed from military obstacle course training [Wikipedia]".</p>
                         </div>
@@ -119,7 +119,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <label for="definition{{id}}">Short for
                         <button class="btn btn-xs btn-info" onclick="$('#abbrev{{id}}-help').toggle();return false">Help</button></label>
                         <input type="text" class="form-control"
-                               id="abbrve{{id}}" name="abbrev{{id}}" value="{{abbrev}}"/>
+                               id="abbrve{{id}}" name="abbrev{{id}}" value="{{abbrev}}" oninput="clearSyn({{id}})"/>
                         <div id="abbrev{{id}}-help" class="cwn-help">
                             <p>Please give the full form of the term. If it is ambiguous you may add more senses with "Add sense"</p>
                         </div>
@@ -128,10 +128,13 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <label for="definition{{id}}">Correct spelling
                         <button class="btn-xs btn btn-info" onclick="$('#misspell{{id}}-help').toggle();return false">Help</button></label>
                         <input type="text" class="form-control"
-                               id="misspell{{id}}" name="misspell{{id}}" value="{{misspell}}"/>
+                               id="misspell{{id}}" name="misspell{{id}}" value="{{misspell}}" oninput="clearSyn({{id}})"/>
                         <div id="misspell{{id}}-help" class="cwn-help">
                             <p>Please give the correct spelling of the term. If it is ambiguous you may add more senses with "Add sense"</p>
                         </div>
+                    </div>
+                    <div class="alert alert-danger" id="syndefn{{id}}" style="display:none;">
+                        Error: please set either the synonym or the definition!
                     </div>
                     <div class="form-group cwn-sense">
                         <table style="width:100%;" id="relTable{{id}}">
@@ -181,6 +184,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
     }
     code = code.replace("{{synonym}}", synonym);
     code = code.replace("{{definition}}", definition);
+    code = code.replace("{{abbrev}}", abbrev);
     code = code.replace("{{misspell}}", misspell);
     code = code.replace("{{context}}", context);
     $(code).insertBefore('#submitDiv');
@@ -244,4 +248,16 @@ function setStatus(value) {
     }
 }
 
+function checkDefnSyn(id) {
+    if($('#synonym'+id).val() !== "" &&
+       $('#definition'+id).val() !== "") {
+        $('#syndefn'+id).show();
+    } else {
+        $('#syndefn'+id).hide();
+    }
+}
+
+function clearSyn(id) {
+    $('#synonym'+id).val("");
+}
 

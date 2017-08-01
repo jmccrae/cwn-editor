@@ -269,11 +269,9 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                     }
                   })
                   reduceTries(senses) flatMap { senses =>
-                    println(lemma)
                     Success(Entry(lemma, confidence, entry.examples, status, senses.toList, editorId))
                   }
                 } else {
-                    println(lemma)
                   Success(Entry(lemma, confidence, entry.examples, status, Nil, editorId))
                 }
               }

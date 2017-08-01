@@ -33,7 +33,11 @@
     display: none;
 }
 
-.cwn-nonsense {
+.cwn-abbrev {
+    display: none;
+}
+
+.cwn-misspell {
     display: none;
 }
 

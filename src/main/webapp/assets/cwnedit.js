@@ -75,7 +75,7 @@ function addrel(context, id, type="", target="") {
 
 function addsense(context, pos="",synonym="",definition="",abbrev="",misspell="") {
     var code = `<span id="sense{{id}}">
-                <div class="panel panel-info cwn-sense cwn-abbrev cwn-misspell">
+                <div class="panel panel-info cwn-sense">
                     <div class="panel-heading">Sense {{id}}
                         <button type="button" class="close pull-right" onclick="removesense({{id}});return false">&times;</button>
                     </div>
@@ -118,24 +118,6 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                                id="definition{{id}}" name="definition{{id}}" value="{{definition}}" oninput="checkDefnSyn({{id}})"/>
                         <div id="definition{{id}}-help" class="cwn-help">
                             <p>If you cannot find a synonym term, please give a definition of this term that describes it well. A good definition consists of a <i>genus</i> and a <i>differentia</i>. The genus is the type of thing that a word is e.g., "parkour" is a "training discipline", and the differentia is a criteria that unambiguously identifiers this word, e.g., "using movement that developed from military obstacle course training". It is advised that you use definitions from other sources and if you do so please include the source in square brackets after the definition, e.g., "A training discipline using movement that developed from military obstacle course training [Wikipedia]".</p>
-                        </div>
-                    </div>
-                    <div class="form-group cwn-nonsense cwn-abbrev">
-                        <label for="definition{{id}}">Short for
-                        <button class="btn btn-xs btn-info" onclick="$('#abbrev{{id}}-help').toggle();return false">Help</button></label>
-                        <input type="text" class="form-control"
-                               id="abbrve{{id}}" name="abbrev{{id}}" value="{{abbrev}}" oninput="clearSyn({{id}})"/>
-                        <div id="abbrev{{id}}-help" class="cwn-help">
-                            <p>Please give the full form of the term. If it is ambiguous you may add more senses with "Add sense"</p>
-                        </div>
-                    </div>
-                    <div class="form-group cwn-nonsense cwn-misspell">
-                        <label for="definition{{id}}">Correct spelling
-                        <button class="btn-xs btn btn-info" onclick="$('#misspell{{id}}-help').toggle();return false">Help</button></label>
-                        <input type="text" class="form-control"
-                               id="misspell{{id}}" name="misspell{{id}}" value="{{misspell}}" oninput="clearSyn({{id}})"/>
-                        <div id="misspell{{id}}-help" class="cwn-help">
-                            <p>Please give the correct spelling of the term. If it is ambiguous you may add more senses with "Add sense"</p>
                         </div>
                     </div>
                     <div class="alert alert-danger" id="syndefn{{id}}" style="display:none;">
@@ -222,9 +204,23 @@ function setConfidence(value) {
         case 'skip':
             $('.cwn-status').hide();
             $('.cwn-sense').hide();
-            $('.cwn-nonsense').hide();
+            $('.cwn-abbrev').hide();
+            $('.cwn-misspell').hide();
             break;            
     }
+}
+
+function add_misspell_or_abbrev(type, value="") {
+    var id = $('.' + type + '-input').size() + 1;
+    var code = "<tr id='" + type + id + "-row'><td width=\"100%\"><input type='text' class='form-control " + type + "-input' id='" + type + id + 
+        "' name='" + type + id + "' value='" + value.replace(/'/g, "&quot;") + "'/>"
+        + "</td><td><button type='button' class='close' onclick='remove_misspell_or_abbrev(" +
+        id + ",\"" + type + "\");return false'>&times;</button></td></tr>";
+    $(code).insertBefore('#' + type + 's');
+}
+
+function remove_misspell_or_abbrev(id, type) {
+    $('#' + type + id + "-row").remove();
 }
 
 function setStatus(value) {
@@ -236,23 +232,25 @@ function setStatus(value) {
         case 'novel':
         case 'vulgar':
             $('.cwn-sense').show();
-            $('.cwn-nonsense').hide();
+            $('.cwn-abbrev').hide();
+            $('.cwn-misspell').hide();
             break;
         case 'abbrev':
             $('.cwn-sense').hide();
-            $('.cwn-nonsense').hide();
+            $('.cwn-misspell').hide();
             $('.cwn-abbrev').show();
             break;
         case 'misspell':
             $('.cwn-sense').hide();
-            $('.cwn-nonsense').hide();
+            $('.cwn-abbrev').hide();
             $('.cwn-misspell').show();
             break;
         case 'name':
         case 'nonlex':
         case 'error':
             $('.cwn-sense').hide();
-            $('.cwn-nonsense').hide();
+            $('.cwn-abbrev').hide();
+            $('.cwn-misspell').hide();
             break;
     }
 }

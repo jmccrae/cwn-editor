@@ -242,9 +242,9 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                     Try(params.getOrElse("pos"+id, 
                         throw new EntryValidityException("Part of speech is required", entry.copy(confidence=confidence,status=status))
                     )) flatMap { pos =>
-                      val defnOpt = params.get("definition" + id).
-                          orElse(params.get("abbrev" + id)).
-                          orElse(params.get("misspell" + id))
+                      val defnOpt = params.get("defintion" + id)
+                      println(status)
+                      println(defnOpt)
                       Try(defnOpt.get) flatMap { defn =>
                         Try(params("synonym"+id)) flatMap { synonym =>
                           if((defn != "" && synonym != "") || (defn == "" && synonym == "")) {
@@ -271,7 +271,15 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                   reduceTries(senses) flatMap { senses =>
                     Success(Entry(lemma, confidence, entry.examples, status, senses.toList, editorId))
                   }
-                } else {
+                } else if(status == "abbrev") {
+                  val abbrevs = params.keys.filter(_.matches("abbrev\\d+")).map(k => params(k))
+                  Success(Entry(lemma, confidence, entry.examples, status, 
+                    abbrevs.map(a => Sense("x", a, "", Nil, 1)).toList, editorId))
+                } else if(status == "misspell") {
+                  val abbrevs = params.keys.filter(_.matches("misspell\\d+")).map(k => params(k))
+                  Success(Entry(lemma, confidence, entry.examples, status, 
+                    abbrevs.map(a => Sense("x", a, "", Nil, 1)).toList, editorId))
+                 } else {
                   Success(Entry(lemma, confidence, entry.examples, status, Nil, editorId))
                 }
               }

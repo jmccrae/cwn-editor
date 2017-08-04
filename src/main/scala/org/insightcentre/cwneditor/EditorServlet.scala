@@ -242,10 +242,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                     Try(params.getOrElse("pos"+id, 
                         throw new EntryValidityException("Part of speech is required", entry.copy(confidence=confidence,status=status))
                     )) flatMap { pos =>
-                      val defnOpt = params.get("defintion" + id)
-                      println(status)
-                      println(defnOpt)
-                      Try(defnOpt.get) flatMap { defn =>
+                      val defnOpt = params.get("definition" + id)
+                      Try(defnOpt.getOrElse(throw new EditorServletException("Definition missing"))) flatMap { defn =>
                         Try(params("synonym"+id)) flatMap { synonym =>
                           if((defn != "" && synonym != "") || (defn == "" && synonym == "")) {
                             Failure(new EntryValidityException("Please set either definition or synonym, not both", entry.copy(confidence,status=status)))
@@ -288,82 +286,6 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         }
       }
     }
-
-
-//    get("/update/:id") {
-//      val isNew = params("id").startsWith(Entrys.CWN_NEW)
-//      val id = params("id")
-//      try {
-//        username match {
-//          case Some(userName) =>
-//            val examples = if(isNew) {
-//              annoQueue.get(Try(id.drop(Entrys.CWN_NEW.length).toInt).
-//                getOrElse(throw new EditorServletException("ID not integer"))).
-//                getOrElse(throw new EditorServletException("ID not in queue")).
-//                examples.map(Example(_))
-//            } else {
-//              store.get(params("id")).getOrElse(throw new EditorServletException("ID does not exist")).examples
-//            }
-//            val confidence = params.getOrElse("confidence", throw new EditorServletException("Confidence is required"))
-//            val lemma = params.getOrElse("lemma", throw new EditorServletException("Lemma is required"))
-//            val status = params.getOrElse("status", throw new EditorServletException("Status is required"))
-//            val senseIds = params.keys.filter(_.matches("definition\\d+")).map({
-//              s => s.drop("definition".length).toInt
-//            })
-//            val e = Entry(lemma, confidence, examples, status, senseIds.map({ id =>
-//              val pos = params.getOrElse("pos" + id, throw new EditorServletException("POS is required"))
-//              val definition = params.get("definition" + id).orElse(
-//                params.get("abbrev" + id).orElse(
-//                  params.get("misspell" + id))).getOrElse(throw new EditorServletException("Definition is required"))
-//              val synonym = params.getOrElse("synonym" + id, throw new EditorServletException("Synonym is required"))
-//              val relIds = params.keys.filter(_.matches("relType" + id + "-\\d+")).map({
-//                s => s.drop("relType".length + id.toString.length + 1).toInt
-//              })
-//              Sense(pos, definition, synonym, relIds.map({ rid =>
-//                Relation(params.getOrElse("relType" + id + "-" + rid, throw new EditorServletException("Rel type missing")),
-//                         params.getOrElse("relTarget" + id + "-" + rid, throw new EditorServletException("Rel target missing")),
-//                         rid)
-//              }).filter(_.`type` != "none").toList, id)
-//            }).toList, userName)
-//            if(isNew) {
-//              val annoId = Try(id.drop(Entrys.CWN_NEW.length).toInt).
-//                getOrElse(throw new EditorServletException("ID not integer"))
-//              store.insert(e)
-//              annoQueue.remove(userName, annoId)
-//              annoQueue.getQueue(userName).headOption match {
-//                case Some(aqe) =>
-//                  TemporaryRedirect(s"$context/add/${aqe.id}")
-//                case None =>
-//                  TemporaryRedirect(s"$context/")
-//              }
-//            } else {
-//              store.update(params("id"), e)
-//              findNext(params("id")) match {
-//                case Some(id) => TemporaryRedirect(s"$context/edit/$id")
-//                case None => TemporaryRedirect(s"$context/")
-//              }
-//            }
-//          case None =>
-//            if(isNew) {
-//              val annoId = Try(id.drop(Entrys.CWN_NEW.length).toInt).
-//                getOrElse(throw new EditorServletException("ID not integer"))
-//              TemporaryRedirect(s"$context/login/?redirect=/add/$annoId")
-//            } else {
-//              TemporaryRedirect(s"$context/login/?redirect=/update/$id")
-//            }
-//        }
-//      } catch {
-//        case EditorServletException(msg) => {
-//          if(isNew) {
-//            val annoId = Try(id.drop(Entrys.CWN_NEW.length).toInt).
-//                getOrElse(throw new EditorServletException("ID not integer"))
-//            TemporaryRedirect(s"$context/add/$annoId?error=$msg")
-//          } else {
-//            TemporaryRedirect(s"$context/edit/$id?error=$msg")
-//          }
-//        }
-//      }
-//    }
 
     post("/login/login") {
       try {

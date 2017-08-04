@@ -158,7 +158,6 @@ $(document).ready(function() {
 #else 
     add_misspell_or_abbrev("misspell");
     add_misspell_or_abbrev("abbrev");
-    addsense('${contextUrl}');
 #end
     
 

@@ -32,15 +32,14 @@
                     <div class="form-group">
                         <label>Example
                         <button class="btn-xs btn btn-info" onclick="$('#examples-help').toggle();return false">Help</button></label>
-
-                        <div id="examples-help" class="cwn-help">
-                            <p>These are some examples from Twitter to help you check you understand the term</p>
-                        </div>
 <blockquote>
                         #for (example <- entry.examples)
                             <p>${example.text}</p>
                         #end
 </blockquote>
+                        <div id="examples-help" class="cwn-help">
+                            <p>These are some examples from Twitter to help you check you understand the term</p>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="confidence">Confidence
@@ -99,7 +98,7 @@
                         <input type="radio" name="status" id="status-error"
                             value="error" onclick="setStatus('error')"/>Error</label></div>
                         <div id="status-help" class="cwn-help">
-                            <p>The status indicates what kind of term this term is, note that "General", "Novel" and "Vulgar" are used for true terms, and "Abbreviation", "Misspelling", "Name", "Not Lexical" and "Error" for terms that will not be included only in the ancillary data for Colloquial WordNet</p>
+                            <p>The status indicates what kind of term this term is, note that "General", "Novel" and "Vulgar" are used for true terms, and "Abbreviation", "Misspelling", "Name", "Not Lexical" and "Error" for terms that will only be included in the ancillary data for Colloquial WordNet</p>
                             <ul>
                                 <li><b>General:</b> This is a term that should be included in a general-purpose dictionary such as Princeton WordNet. It should be widely and frequently used by native English speakers</li>
                                 <li><b>Novel:</b> This term is novel and may not persist in the language. This term should be used for slang, dialectal forms and other non-standard usage of English. This should also be used for interjections such as "wow!" or "gosh!" (in this case please set the part of speech to other).</li>

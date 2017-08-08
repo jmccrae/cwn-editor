@@ -37,7 +37,6 @@ function addrel(context, id, type="", target="") {
                             <option value="holo_portion">Holonym portion (divides into)</option>
                             <option value="holo_substance">Holonym substance (substance of)</option>
                             <option value="pejorative">Pejorative for</option>
-                            <option value="none">Delete</option>
                         </select>
                         <script>$('#relType{{id}}-{{relNo}}').val('{{type}}');</script>
                                 </td>

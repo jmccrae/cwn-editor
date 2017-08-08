@@ -32,14 +32,15 @@
                     <div class="form-group">
                         <label>Example
                         <button class="btn-xs btn btn-info" onclick="$('#examples-help').toggle();return false">Help</button></label>
+
+                        <div id="examples-help" class="cwn-help">
+                            <p>These are some examples from Twitter to help you check you understand the term</p>
+                        </div>
 <blockquote>
                         #for (example <- entry.examples)
                             <p>${example.text}</p>
                         #end
 </blockquote>
-                        <div id="examples-help" class="cwn-help">
-                            <p>These are some examples from Twitter to help you check you understand the term</p>
-                        </div>
                     </div>
                     <div class="form-group">
                         <label for="confidence">Confidence

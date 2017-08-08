@@ -101,7 +101,7 @@
                             <p>The status indicates what kind of term this term is, note that "General", "Novel" and "Vulgar" are used for true terms, and "Abbreviation", "Misspelling", "Name", "Not Lexical" and "Error" for terms that will only be included in the ancillary data for Colloquial WordNet</p>
                             <ul>
                                 <li><b>General:</b> This is a term that should be included in a general-purpose dictionary such as Princeton WordNet. It should be widely and frequently used by native English speakers</li>
-                                <li><b>Novel:</b> This term is novel and may not persist in the language. This term should be used for slang, dialectal forms and other non-standard usage of English. This should also be used for interjections such as "wow!" or "gosh!" (in this case please set the part of speech to other).</li>
+                                <li><b>Novel:</b> This term is novel and may not persist in the language. This term should be used for slang, dialectal forms (used only in a particular dialect or social group) and other non-standard usage of English. This should also be used for interjections such as "wow!" or "gosh!" (in this case please set the part of speech to other).</li>
                                 <li><b>Vulgar:</b> This term is vulgar or obscene and would not be suitable for a general purpose dictionary</li>
                                 <li><b>Abbreviation:</b> This term is an abbreviation; you should give the full form of this entry.</li>
                                 <li><b>Misspelling:</b> This term is misspelled; you should give the correct spelling</li>

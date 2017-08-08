@@ -139,7 +139,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                             <ul>
                                 <li><b>Hypernym (broader):</b> The target term whose meaning subsumes this one, most terms should have one broader term</li>
                                 <li><b>Hyponym (broader):</b> A target term whose meaning is subsumed by this one, it is not generally necessary to add this</li>
-                                <li><b>Instance of (hypernym):</b> This term is an instance of this class, this should only be used for proper nouns, which should only be defined in special cases</li>
+                                <li><b>Instance of (hypernym):</b> This term is an instance of the class given by the selected target, this should only be used for proper nouns, which should only be defined in special cases</li>
                                 <li><b>Has instance (hyponym):</b> This should rarely be used</li>
                                 <li><b>Antonym (opposite):</b> A term with the opposite meaning, mostly used for adjectives, e.g., "hot" vs. "cold"</li>
                                 <li><b>Shows emotion:</b> This is used for interjections that show a particular emotion, e.g., "wow!" shows the emotion of "surprise"</li>

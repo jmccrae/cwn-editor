@@ -99,7 +99,8 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <input type="radio" name="pos{{id}}"
                             value="x"/>Other</label></div>
                         <div id="pos{{id}}-help" class="cwn-help">
-                            <p>Please give the part-of-speech. "Other" is used for interjections such as "wow!" or "gosh!"</p>
+                            <p>Please give the part-of-speech associated with this sense of the term or phrase. 
+                            "Other" is used for interjections such as "wow!" or "gosh!".</p>
                         </div>
                     </div>
                      <div class="form-group cwn-sense">
@@ -133,14 +134,18 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                             </tr>
                         <table>
                         <div id="relation{{id}}-help" class="cwn-help">
-                            <p>Please give at least one relation linking this term to an existing term in Colloquial or Princeton WordNet by typing the word under target and selecting the synset from the autocomplete. In general, it is expected that nouns always have a hypernym (broader) term, verbs, adjectives and adverbs may have a broader term and/or a similar term. Please also consider the origin of the term: if it is derived from an existing word, please add a "derived from" link, if this word is borrowed from another language, please add a loanword linking, whose target is the synset for the language this word is borrowed from</p>
+                            <p>Please give at least one relation linking this term to an existing term in Colloquial or Princeton WordNet by typing the word under target and selecting the synset from the autocomplete. In general, it is expected that nouns always have a hypernym (broader) term, verbs, adjectives and adverbs may have a broader term and/or a similar term. Please also consider the origin of the term: if it is derived from an existing word, please add a "derived from" link, if this word is borrowed from another language, please add a loanword linking, whose target is the synset for the language this word is borrowed from.</p>
+                            <p>Common relations:</p>
                             <ul>
-                                <li><b>Hypernym (broader):</b> The term whose meaning subsumes this one, most terms should have one broader term</li>
-                                <li><b>Hyponym (broader):</b> A term whose meaning is subsumed by this one, it is not generally necessary to add this</li>
-                                <li><b>Instance of (hypernym):</b> This term is an instance of this class, this should only be used for proper nouns, which should only be defined in special cases</li>
+                                <li><b>Hypernym (broader):</b> The target term whose meaning subsumes this one, most terms should have one broader term</li>
+                                <li><b>Hyponym (broader):</b> A target term whose meaning is subsumed by this one, it is not generally necessary to add this</li>
+                                <li><b>Instance of (hypernym):</b> This term is an instance of the class given by the selected target, this should only be used for proper nouns, which should only be defined in special cases</li>
                                 <li><b>Has instance (hyponym):</b> This should rarely be used</li>
                                 <li><b>Antonym (opposite):</b> A term with the opposite meaning, mostly used for adjectives, e.g., "hot" vs. "cold"</li>
                                 <li><b>Shows emotion:</b> This is used for interjections that show a particular emotion, e.g., "wow!" shows the emotion of "surprise"</li>
+                            </ul>
+                            <p>Other relations:</p>
+                            <ul>
                                 <li><b>Loanword for this language:</b> If this word is borrowed from another language, use this property linked to the synset for the language where the word is borrowed from</li>
                                 <li><b>Derived from (linguistically):</b> This word is derived from another word, e.g., "shorty" from "short", or is a multiword term whose elements are the chosen words</li>
                                 <li><b>See also:</b> Used for relevant relations which do not fit under any other category</li>
@@ -158,8 +163,8 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
     <li>"Ivory" is a substance meronym of "tusk"</li>
 </ul></li>
                                 <li><b>Pejorative for:</b> This term is a negative term used to describe something (typically a group of people). The target is the object or group being described</li>
-                                <li><b>Delete:</b> Choose this option to delete a link</li>
                             </ul>
+                            <p>You can delete a relation by clicking the small "x" to it's right.</p>
                         </div>
                     </div></div></div></span>`;
     var id = Object.keys(relNos).length + 1;

@@ -137,7 +137,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                             <p>Please give at least one relation linking this term to an existing term in Colloquial or Princeton WordNet by typing the word under target and selecting the synset from the autocomplete. In general, it is expected that nouns always have a hypernym (broader) term, verbs, adjectives and adverbs may have a broader term and/or a similar term. Please also consider the origin of the term: if it is derived from an existing word, please add a "derived from" link, if this word is borrowed from another language, please add a loanword linking, whose target is the synset for the language this word is borrowed from.</p>
                             <p>Common relations:</p>
                             <ul>
-                                <li><b>Hypernym (broader):</b> The target term whose meaning subsumes this one, most terms should have one broader term</li>
+                                <li><b>Hypernym (broader):</b> The target term whose meaning subsumes this one, most terms should have one broader term. A term may have more than hypernym, but please add only <b>direct</b> hypernyms.</li>
                                 <li><b>Hyponym (broader):</b> A target term whose meaning is subsumed by this one, it is not generally necessary to add this</li>
                                 <li><b>Instance of (hypernym):</b> This term is an instance of the class given by the selected target, this should only be used for proper nouns, which should only be defined in special cases</li>
                                 <li><b>Has instance (hyponym):</b> This should rarely be used</li>

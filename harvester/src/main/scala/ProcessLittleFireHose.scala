@@ -35,12 +35,15 @@ object ProcessLittleFireHose {
           for(line <- io.Source.fromInputStream(
                new GZIPInputStream(
                  new FileInputStream(f))).getLines) {
-            if(line != "") {
+            if(line startsWith "{") {
               val data = mapper.readTree(line)
               data.get("lang") match {
                 case null =>
                 case node if node.textValue() == "en" =>
-                  out.println(Option(data.get("text")).getOrElse(""))
+                  out.println("%s,%s" format (
+                    Option(data.get("created_at")).getOrElse(""),
+                    Option(data.get("id")).getOrElse(""),
+                    Option(data.get("text")).getOrElse("")))
               }
             }
           }

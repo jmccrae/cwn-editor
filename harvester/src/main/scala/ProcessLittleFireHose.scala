@@ -1,22 +1,53 @@
-import java.io.File
+import java.io.{File, PrintWriter, FileInputStream, FileOutputStream}
 import com.fasterxml.jackson.databind.ObjectMapper
+import java.util.zip.{GZIPInputStream, GZIPOutputStream}
 
 object ProcessLittleFireHose {
+  case class Config(dir : File = new File("."), 
+    prefix : String = "littleFireHose.json.gz", 
+    out : File = new File("tweets.txt"))
+
   def main(args : Array[String]) {
-    val dir = args(0)
-    val prefix = args(1)
-    val mapper = new ObjectMapper()
-    for(f <- new File(dir).listFiles if f.getName().startsWith(prefix)) {
-      for(line <- io.Source.fromFile(f).getLines) {
-        if(line != "") {
-          val data = mapper.readTree(line)
-          data.get("lang") match {
-            case null =>
-            case node if node.textValue() == "en" =>
-              println(Option(data.get("text")).getOrElse(""))
+    val parser = new scopt.OptionParser[Config]("Process Little Firehose") {
+      head("ProcessLittleFireHose", "0.1")
+
+      opt[File]('d', "dir")
+        .action((x,c) => c.copy(dir=x))
+        .text("The directory containing the files")
+
+      opt[String]('p', "prefix")
+        .action((x,c) => c.copy(prefix=x))
+        .text("The prefix that files start with")
+
+      opt[File]('o', "out")
+        .action((x,c) => c.copy(out=x))
+        .text("Where to write the output to")
+    }
+
+    parser.parse(args, Config()) match {
+      case Some(config) =>
+        val out = new java.io.PrintWriter(
+          new GZIPOutputStream(
+            new FileOutputStream(config.out)))
+        val mapper = new ObjectMapper()
+        for(f <- config.dir.listFiles if f.getName().startsWith(config.prefix)) {
+          println(f.getName())
+          for(line <- io.Source.fromInputStream(
+               new GZIPInputStream(
+                 new FileInputStream(f))).getLines) {
+            if(line != "") {
+              val data = mapper.readTree(line)
+              data.get("lang") match {
+                case null =>
+                case node if node.textValue() == "en" =>
+                  out.println(Option(data.get("text")).getOrElse(""))
+              }
+            }
           }
         }
-      }
+      case None =>
+        parser.showUsageAsError()
+        
     }
   }
 }

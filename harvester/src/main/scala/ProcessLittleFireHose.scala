@@ -40,7 +40,7 @@ object ProcessLittleFireHose {
               data.get("lang") match {
                 case null =>
                 case node if node.textValue() == "en" =>
-                  out.println("%s,%s" format (
+                  out.println("%s,%s,%s" format (
                     Option(data.get("created_at")).getOrElse(""),
                     Option(data.get("id")).getOrElse(""),
                     Option(data.get("text")).getOrElse("")))

@@ -134,17 +134,13 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <table>
                         <div id="relation{{id}}-help" class="cwn-help">
                             <p>Please give at least one relation linking this term to an existing term in Colloquial or Princeton WordNet by typing the word under target and selecting the synset from the autocomplete. In general, it is expected that nouns always have a hypernym (broader) term, verbs, adjectives and adverbs may have a broader term and/or a similar term. Please also consider the origin of the term: if it is derived from an existing word, please add a "derived from" link, if this word is borrowed from another language, please add a loanword linking, whose target is the synset for the language this word is borrowed from.</p>
-                            <p>Common relations:</p>
                             <ul>
-                                <li><b>Hypernym (broader):</b> The target term whose meaning subsumes this one, most terms should have one broader term. A term may have more than hypernym, but please add only <b>direct</b> hypernyms, e.g., a <i>pike</i> is a <i>fish</i> and a <i>predator</i>, but not an <i>animal</i>.</li>
+                                <li><b>Hypernym (broader):</b> A target term whose meaning subsumes this one, most terms should have one broader term. A term may have more than one hypernym, but please add only <b>distinct</b> <b>direct</b> hypernyms, e.g., a <i>pike</i> is a <i>fish</i> and a <i>predator</i>, but do not add <i>animal</i> (fish and animal are not distinct hypernyms of pike).</li>
                                 <li><b>Hyponym (broader):</b> A target term whose meaning is subsumed by this one, it is not generally necessary to add this</li>
                                 <li><b>Instance of (hypernym):</b> This term is an instance of the class given by the selected target, this should only be used for proper nouns, which should only be defined in special cases</li>
                                 <li><b>Has instance (hyponym):</b> This should rarely be used</li>
                                 <li><b>Antonym (opposite):</b> A term with the opposite meaning, mostly used for adjectives, e.g., "hot" vs. "cold"</li>
                                 <li><b>Shows emotion:</b> This is used for interjections that show a particular emotion, e.g., "wow!" shows the emotion of "surprise"</li>
-                            </ul>
-                            <p>Other relations:</p>
-                            <ul>
                                 <li><b>Loanword for this language:</b> If this word is borrowed from another language, use this property linked to the synset for the language where the word is borrowed from</li>
                                 <li><b>Derived from (linguistically):</b> This word is derived from another word, e.g., "shorty" from "short", or is a multiword term whose elements are the chosen words</li>
                                 <li><b>See also:</b> Used for relevant relations which do not fit under any other category</li>

@@ -16,6 +16,7 @@ object HarvestUrbanDic {
                 format (letter, page))
                   .openConnection()
                   .asInstanceOf[HttpURLConnection]
+        req.setInstanceFollowRedirects(false)
         if(req.getResponseCode() == 200) {
             for(line <- io.Source.fromInputStream(req.getInputStream()).getLines) {
               link.findAllMatchIn(line).foreach({

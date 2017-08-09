@@ -3,6 +3,14 @@ import java.net.{URL,HttpURLConnection}
 object HarvestUrbanDic {
   val link = """<a (class="popular" )?href="/define.php\?term=[^"]*">([^<]*)</a>""".r
 
+  def udUrl(letter : Char, page : Int) : String = {
+    if(page == 1) {
+      "http://www.urbandictionary.com/browse.php?character=%s" format (letter)
+    } else {
+      "http://www.urbandictionary.com/browse.php?character=%s&page=%d" format (letter, page)
+    }
+  }
+
   def main(args : Array[String]) {
     val out = new java.io.PrintWriter("terms.txt")
 
@@ -11,9 +19,7 @@ object HarvestUrbanDic {
       var found = true
       while(found) {
         found = false
-        val req = new URL(
-          "http://www.urbandictionary.com/browse.php?character=%s&page=%d" 
-                format (letter, page))
+        val req = new URL(udUrl(letter, page))
                   .openConnection()
                   .asInstanceOf[HttpURLConnection]
         req.setInstanceFollowRedirects(false)

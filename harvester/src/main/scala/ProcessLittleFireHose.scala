@@ -5,7 +5,7 @@ import java.util.zip.{GZIPInputStream, GZIPOutputStream}
 object ProcessLittleFireHose {
   case class Config(dir : File = new File("."), 
     prefix : String = "littleFireHose.json.gz", 
-    out : File = new File("tweets.txt"))
+    out : File = new File("tweets.txt.gz"))
 
   def main(args : Array[String]) {
     val parser = new scopt.OptionParser[Config]("Process Little Firehose") {

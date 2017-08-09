@@ -44,6 +44,7 @@ object ProcessLittleFireHose {
                     Option(data.get("created_at")).getOrElse(""),
                     Option(data.get("id")).getOrElse(""),
                     Option(data.get("text")).getOrElse("")))
+                case _ =>
               }
             }
           }

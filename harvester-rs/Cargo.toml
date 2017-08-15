@@ -1,0 +1,21 @@
+[package]
+name = "harvester"
+version = "0.1.0"
+authors = ["John P. McCrae <john@mccr.ae>"]
+
+[[bin]]
+name = "process-little-firehose"
+path = "src/process-little-firehose.rs"
+
+[[bin]]
+name = "frequency"
+path = "src/frequency.rs"
+
+[dependencies]
+clap = "*"
+flate2 = "*"
+serde = "*"
+serde_json = "*"
+serde_xml = "*"
+regex = "*"
+lazy_static = "*"

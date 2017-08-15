@@ -32,21 +32,26 @@ object ProcessLittleFireHose {
         val mapper = new ObjectMapper()
         for(f <- config.dir.listFiles if f.getName().startsWith(config.prefix)) {
           println(f.getName())
-          for(line <- io.Source.fromInputStream(
-               new GZIPInputStream(
-                 new FileInputStream(f))).getLines) {
-            if(line startsWith "{") {
-              val data = mapper.readTree(line)
-              data.get("lang") match {
-                case null =>
-                case node if node.textValue() == "en" =>
-                  out.println("%s,%s,%s" format (
-                    Option(data.get("created_at")).getOrElse(""),
-                    Option(data.get("id")).getOrElse(""),
-                    Option(data.get("text")).getOrElse("")))
-                case _ =>
+          try {
+            for(line <- io.Source.fromInputStream(
+                 new GZIPInputStream(
+                   new FileInputStream(f))).getLines) {
+              if(line startsWith "{") {
+                val data = mapper.readTree(line)
+                data.get("lang") match {
+                  case null =>
+                  case node if node.textValue() == "en" =>
+                    out.println("%s,%s,%s" format (
+                      Option(data.get("created_at")).getOrElse(""),
+                      Option(data.get("id")).getOrElse(""),
+                      Option(data.get("text")).getOrElse("")))
+                  case _ =>
+                }
               }
             }
+          } catch {
+            case x : Exception =>
+              x.printStackTrace()
           }
         }
       case None =>

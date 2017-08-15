@@ -52,7 +52,7 @@ object SQLAnnotationQueue extends AnnotationQueue {
         new java.util.zip.GZIPInputStream(
           new java.io.FileInputStream("queue.csv.gz"))).getLines.foreach({ line =>
             val e = line.split("\\|\\|\\|")
-            insertEntry(e(0),e(1))
+            insertEntry(e(1),e(2))
             i += 1
             if(i % 10000 == 0) {
               insertEntry.execute

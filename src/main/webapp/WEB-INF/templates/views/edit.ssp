@@ -27,8 +27,11 @@
                     <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"
-                               id="lemma" name="lemma" value="${entry.lemma}" readonly/>
+                               id="lemma" name="lemma" value="${if(entry.lemma.startsWith("*")) entry.lemma.drop(1) else entry.lemma }" readonly/>
                     </div>
+                    #if (entry.lemma.startsWith("*"))
+                    <div class="alert alert-info">This term already appears in WordNet but may be a new sense</div>
+                    #end
                     <div class="form-group">
                         <label>Example
                         <button class="btn-xs btn btn-info" onclick="$('#examples-help').toggle();return false">Help</button></label>

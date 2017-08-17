@@ -270,7 +270,7 @@ fn load_cwn_data(file : &str) -> Result<HashSet<String>,String> {
         let term = elems.nth(2).ok_or(format!("Bad line in CWN file (1): {}", line))?;
         let is_pwn = elems.nth(2).ok_or(format!("Bad line in CWN file (2): {}", line))?;
         if is_pwn == "0" {
-            data.insert(term.to_string());
+            data.insert(term.to_lowercase());
         } else if is_pwn != "1" {
             return Err(format!("Bad line in CWN file (3): {}", line))
         } 

@@ -151,13 +151,11 @@ $(document).ready(function() {
         add_misspell_or_abbrev("abbrev", '${sense.definition.replaceAll("'", "\\\\'")}');
     #end
     add_misspell_or_abbrev("misspell");
-    addsense('${contextUrl}');
 #elseif(entry.status == "misspell")
     #for (sense <- entry.senses)
         add_misspell_or_abbrev("misspell", '${sense.definition.replaceAll("'", "\\\\'")}');
     #end
     add_misspell_or_abbrev("abbrev");
-    addsense('${contextUrl}');
 #else 
     add_misspell_or_abbrev("misspell");
     add_misspell_or_abbrev("abbrev");

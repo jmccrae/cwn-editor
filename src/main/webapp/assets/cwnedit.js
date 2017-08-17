@@ -179,9 +179,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
         $("input:radio[name=pos" + id + "][value=" + pos + "]").attr("checked", true);
     }
     wncomplete('#synonym' + id, context);
-    if(pos !== "") {
-        $('#sense' + id + " .cwn-sense").show();
-    }
+    $('#sense' + id + " .cwn-sense").show();
 }
 
 function removesense(id) {

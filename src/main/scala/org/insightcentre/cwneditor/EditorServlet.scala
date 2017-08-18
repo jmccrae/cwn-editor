@@ -277,7 +277,11 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                   val abbrevs = params.keys.filter(_.matches("misspell\\d+")).map(k => params(k))
                   Success(Entry(lemma, confidence, entry.examples, status, 
                     abbrevs.map(a => Sense("x", a, "", Nil, 1)).toList, editorId))
-                 } else {
+                } else if(status == "inflected") {
+                  val abbrevs = params.keys.filter(_.matches("inflected\\d+")).map(k => params(k))
+                  Success(Entry(lemma, confidence, entry.examples, status, 
+                    abbrevs.map(a => Sense("x", a, "", Nil, 1)).toList, editorId))
+                } else {
                   Success(Entry(lemma, confidence, entry.examples, status, Nil, editorId))
                 }
               }

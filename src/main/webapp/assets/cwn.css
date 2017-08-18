@@ -41,6 +41,10 @@
     display: none;
 }
 
+.cwn-inflected {
+    display: none;
+}
+
 body {
     margin-bottom:50px;
 }

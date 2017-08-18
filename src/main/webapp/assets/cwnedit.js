@@ -207,6 +207,7 @@ function setConfidence(value) {
             $('.cwn-sense').hide();
             $('.cwn-abbrev').hide();
             $('.cwn-misspell').hide();
+            $('.cwn-inflected').hide();
             break;            
     }
 }
@@ -235,16 +236,25 @@ function setStatus(value) {
             $('.cwn-sense').show();
             $('.cwn-abbrev').hide();
             $('.cwn-misspell').hide();
+            $('.cwn-inflected').hide();
             break;
         case 'abbrev':
             $('.cwn-sense').hide();
             $('.cwn-misspell').hide();
+            $('.cwn-inflected').hide();
             $('.cwn-abbrev').show();
             break;
         case 'misspell':
             $('.cwn-sense').hide();
             $('.cwn-abbrev').hide();
+            $('.cwn-inflected').hide();
             $('.cwn-misspell').show();
+            break;
+        case 'inflected':
+            $('.cwn-sense').hide();
+            $('.cwn-abbrev').hide();
+            $('.cwn-inflected').show();
+            $('.cwn-misspell').hide();
             break;
         case 'name':
         case 'nonlex':
@@ -252,6 +262,7 @@ function setStatus(value) {
             $('.cwn-sense').hide();
             $('.cwn-abbrev').hide();
             $('.cwn-misspell').hide();
+            $('.cwn-inflected').hide();
             break;
     }
 }

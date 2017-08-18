@@ -34,7 +34,7 @@
                     #end
                     <div class="form-group">
                         <label>Example
-                        <button class="btn-xs btn btn-info" onclick="$('#examples-help').toggle();return false">Help</button></label>
+                        <button class="btn-xs btn btn-info" onclick="$('#examples-help').toggle();return false" tabindex="-1">Help</button></label>
 <blockquote>
                         #for (example <- entry.examples)
                             <p>${example.text}</p>
@@ -46,7 +46,7 @@
                     </div>
                     <div class="form-group">
                         <label for="confidence">Confidence
-                        <button class="btn-xs btn btn-info" onclick="$('#confidence-help').toggle();return false">Help</button></label><br/>
+                        <button class="btn-xs btn btn-info" onclick="$('#confidence-help').toggle();return false" tabindex="-1">Help</button></label><br/>
                         <div class="radio"><label>
                         <input type="radio" name="confidence" id="confidence-vstrong"
                             value="vstrong" onclick="setConfidence('vstrong')"/>Very strong</label></div>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="form-group cwn-status">
                         <label for="status">Status
-                        <button class="btn-xs btn btn-info" onclick="$('#status-help').toggle();return false">Help</button></label><br/>
+                        <button class="btn-xs btn btn-info" onclick="$('#status-help').toggle();return false" tabindex="-1">Help</button></label><br/>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-general"
                             value="general" onclick="setStatus('general')"/>General</label></div>
@@ -120,7 +120,7 @@
                     </div>
                     <div class="form-group cwn-abbrev">
                         <label for="definition1">Short for
-                        <button class="btn btn-xs btn-info" onclick="$('#abbrev1-help').toggle();return false">Help</button>
+                        <button class="btn btn-xs btn-info" onclick="$('#abbrev1-help').toggle();return false" tabindex="-1">Help</button>
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('abbrev');return false">Add</button></label>
                         <table id="abbrevs"></table>
                         <div id="abbrev1-help" class="cwn-help">
@@ -129,7 +129,7 @@
                     </div>
                     <div class="form-group cwn-misspell">
                         <label for="definition1">Correct spelling
-                        <button class="btn-xs btn btn-info" onclick="$('#misspell1-help').toggle();return false">Help</button>
+                        <button class="btn-xs btn btn-info" onclick="$('#misspell1-help').toggle();return false" tabindex="-1">Help</button>
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('misspell');return false">Add</button></label>
                         <table id="misspells"></table>
                         <div id="misspell1-help" class="cwn-help">
@@ -138,8 +138,8 @@
                     </div>
                     <div class="form-group cwn-inflected">
                         <label for="definition1">Lemma form
-                        <button class="btn-xs btn btn-info" onclick="$('#inflected-help').toggle();return false">Help</button>
-                        <button class="btn-xs btn btn-success" onclick="add_inflected_or_abbrev('inflected');return false">Add</button></label>
+                        <button class="btn-xs btn btn-info" onclick="$('#inflected-help').toggle();return false" tabindex="-1">Help</button>
+                        <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('inflected');return false">Add</button></label>
                         <table id="inflecteds"></table>
                         <div id="inflected1-help" class="cwn-help">
                             <p>Please give the lemma form of this word.</p>
@@ -192,13 +192,13 @@ $(document).ready(function() {
 });
 </script>
                     <div class="cwn-sense">
-                        <h3>Senses
-                        <button class="btn btn-success" type="button" onclick="addsense('${contextUrl}')">Add sense</button></h3>
+                        <h3>Senses</h3>
                     </div>
                     <div id="submitDiv" class="cwn-sense cwn-abbrev cwn-misspell cwn-inflected">
                     </div>
                     <div>
-                        <input type="submit" class="btn btn-default" value="Submit"/>
+                        <button class="btn btn-success cwn-sense" type="button" onclick="addsense('${contextUrl}')" style="margin:10px;">Add sense</button>
+                        <input type="submit" class="btn btn-default" value="Submit" style="margin:10px;"/>
                     </div>
                 </form>
             </div>

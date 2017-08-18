@@ -49,7 +49,7 @@ function addrel(context, id, type="", target="") {
                         </div>
                         </td>
                         <td>
-                        <button type="button" class="close" onclick="$('#relType{{id}}-{{relNo}}-row').remove();return false">&times;</button>
+                        <button type="button" class="btn btn-danger" onclick="$('#relType{{id}}-{{relNo}}-row').remove();return false">Remove</button>
                                 </td>
                             </tr>`;
     var last_cont = "";
@@ -81,7 +81,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                     <div class="panel-body">
                     <div class="form-group cwn-sense">
                         <label for="pos{{id}}">Part of Speech
-                        <button class="btn-xs btn btn-info" onclick="$('#pos{{id}}-help').toggle();return false">Help</button></label><br/>
+                        <button class="btn-xs btn btn-info" onclick="$('#pos{{id}}-help').toggle();return false" tabindex="-1">Help</button></label><br/>
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
                             value="n"/>Noun</label></div>
@@ -104,7 +104,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                     </div>
                      <div class="form-group cwn-sense">
                         <label for="synonym{{id}}">Synonym
-                        <button class="btn-xs btn btn-info" onclick="$('#synonym{{id}}-help').toggle();return false">Help</button></label>
+                        <button class="btn-xs btn btn-info" onclick="$('#synonym{{id}}-help').toggle();return false" tabindex="-1">Help</button></label>
                         <input type="text" class="form-control"
                                id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}" oninput="checkDefnSyn({{id}})"/>
                         <div id="synonym{{id}}-help" class="cwn-help">
@@ -113,7 +113,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                     </div>
                      <div class="form-group cwn-sense">
                         <label for="definition{{id}}">Definition
-                        <button class="btn-xs btn btn-info" onclick="$('#definition{{id}}-help').toggle();return false">Help</button></label>
+                        <button class="btn-xs btn btn-info" onclick="$('#definition{{id}}-help').toggle();return false" tabindex="-1">Help</button></label>
                         <input type="text" class="form-control"
                                id="definition{{id}}" name="definition{{id}}" value="{{definition}}" oninput="checkDefnSyn({{id}})"/>
                         <div id="definition{{id}}-help" class="cwn-help">
@@ -127,8 +127,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <table style="width:100%;" id="relTable{{id}}">
                             <tr>
                                 <th style="margin-right:10px;">Relation
-                        <button class="btn btn-xs btn-success" type="button" onclick="addrel('{{context}}',{{id}})">Add</button>
-                        <button class="btn-xs btn btn-info" onclick="$('#relation{{id}}-help').toggle();return false">Help</button></th>
+                        <button class="btn-xs btn btn-info" onclick="$('#relation{{id}}-help').toggle();return false" tabindex="-1">Help</button></th>
                                 <th>Target</th>
                             </tr>
                         <table>
@@ -161,6 +160,8 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                             </ul>
                             <p>You can delete a relation by clicking the small "x" to it's right.</p>
                         </div>
+                        <button class="btn btn-xs btn-success" type="button" onclick="addrel('{{context}}',{{id}})">Add</button>
+
                     </div></div></div></span>`;
     var id = Object.keys(relNos).length + 1;
     relNos[id] = 0;
@@ -180,6 +181,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
     }
     wncomplete('#synonym' + id, context);
     $('#sense' + id + " .cwn-sense").show();
+    $("input:radio[name=pos"+id+"][value=n]").focus();
 }
 
 function removesense(id) {

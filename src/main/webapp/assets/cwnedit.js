@@ -127,7 +127,9 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <table style="width:100%;" id="relTable{{id}}">
                             <tr>
                                 <th style="margin-right:10px;">Relation
-                        <button class="btn-xs btn btn-info" onclick="$('#relation{{id}}-help').toggle();return false" tabindex="-1">Help</button></th>
+                        <button class="btn-xs btn btn-info" onclick="$('#relation{{id}}-help').toggle();return false" tabindex="-1">Help</button>
+                        <button class="btn btn-xs btn-success" type="button" onclick="addrel('{{context}}',{{id}})">Add</button>
+                                </th>
                                 <th>Target</th>
                             </tr>
                         <table>
@@ -160,7 +162,6 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                             </ul>
                             <p>You can delete a relation by clicking the small "x" to it's right.</p>
                         </div>
-                        <button class="btn btn-xs btn-success" type="button" onclick="addrel('{{context}}',{{id}})">Add</button>
 
                     </div></div></div></span>`;
     var id = Object.keys(relNos).length + 1;

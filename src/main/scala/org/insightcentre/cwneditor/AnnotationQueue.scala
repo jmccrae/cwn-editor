@@ -38,7 +38,9 @@ object SQLAnnotationQueue extends AnnotationQueue {
   }
 
   if(!file.exists) {
-    withSession(conn) { implicit sesion =>
+    val c = conn
+    withSession(c) { implicit sesion =>
+      c.setAutoCommit(false)
       sql"""CREATE TABLE queue (id INTEGER PRIMARY KEY AUTOINCREMENT,
                                 expiry INTEGER,
                                 lemma TEXT,
@@ -46,13 +48,13 @@ object SQLAnnotationQueue extends AnnotationQueue {
                                 examples TEXT)""".execute
       sql"""CREATE INDEX queue_users ON queue (user)""".execute
       sql"""CREATE INDEX queue_expiry ON queue (expiry)""".execute
-      val insertEntry = sql"""INSERT INTO queue (expiry,lemma,user,examples) VALUES (0,?,"",?)""".insert2[String,String]
+      val insertEntry = sql"""INSERT INTO queue VALUES (?,?,?,?,?)""".insert5[Int,Int,String,String,String]
       var i = 0
       io.Source.fromInputStream(
         new java.util.zip.GZIPInputStream(
           new java.io.FileInputStream("queue.csv.gz"))).getLines.foreach({ line =>
             val e = line.split("\\|\\|\\|")
-            insertEntry(e(1),e(2))
+            insertEntry(i,0,e(1),"",e(2))
             i += 1
             if(i % 10000 == 0) {
               insertEntry.execute
@@ -60,6 +62,7 @@ object SQLAnnotationQueue extends AnnotationQueue {
             }
       })
       insertEntry.execute
+      c.setAutoCommit(true)
       System.err.println("")
 
 

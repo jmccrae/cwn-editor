@@ -78,31 +78,31 @@
                         <button class="btn-xs btn btn-info" onclick="$('#status-help').toggle();return false" tabindex="-1">Help</button></label><br/>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-general"
-                            value="general" onclick="setStatus('general')"/>General</label></div>
+                            value="general" onclick="setStatus('general','${contextUrl}')"/>General</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-novel"
-                            value="novel" onclick="setStatus('novel')"/>Novel</label></div>
+                            value="novel" onclick="setStatus('novel', '${contextUrl}')"/>Novel</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-vulgar"
-                            value="vulgar" onclick="setStatus('vulgar')"/>Vulgar</label></div>
+                            value="vulgar" onclick="setStatus('vulgar', '${contextUrl}')"/>Vulgar</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-abbrev"
-                            value="abbrev" onclick="setStatus('abbrev')"/>Abbreviation</label></div>
+                            value="abbrev" onclick="setStatus('abbrev', '${contextUrl}')"/>Abbreviation</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-misspell"
-                            value="misspell" onclick="setStatus('misspell')"/>Misspelling</label></div>
+                            value="misspell" onclick="setStatus('misspell', '${contextUrl}')"/>Misspelling</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-inflected"
-                            value="inflected" onclick="setStatus('inflected')"/>Inflected Form</label></div>
+                            value="inflected" onclick="setStatus('inflected', '${contextUrl}')"/>Inflected Form</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-name"
-                            value="name" onclick="setStatus('name')"/>Name</label></div>
+                            value="name" onclick="setStatus('name', '${contextUrl}')"/>Name</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-nonlex"
-                            value="nonlex" onclick="setStatus('nonlex')"/>Not Lexical</label></div>
+                            value="nonlex" onclick="setStatus('nonlex', '${contextUrl}')"/>Not Lexical</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="status" id="status-error"
-                            value="error" onclick="setStatus('error')"/>Error</label></div>
+                            value="error" onclick="setStatus('error', '${contextUrl}')"/>Error</label></div>
                         <div id="status-help" class="cwn-help">
                             <p>The status indicates what kind of term this term is, note that "General", "Novel" and "Vulgar" are used for true terms, and "Abbreviation", "Misspelling", "Name", "Not Lexical" and "Error" for terms that will only be included in the ancillary data for Colloquial WordNet</p>
                             <ul>

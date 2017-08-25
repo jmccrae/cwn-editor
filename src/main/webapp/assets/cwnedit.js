@@ -81,22 +81,22 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                     <div class="panel-body">
                     <div class="form-group cwn-sense">
                         <label for="pos{{id}}">Part of Speech
-                        <button class="btn-xs btn btn-info" onclick="$('#pos{{id}}-help').toggle();return false" tabindex="-1">Help</button></label><br/>
+                        <button class="btn-xs btn btn-info" onclick="$('#pos{{id}}-help').toggle();" tabindex="-1">Help</button></label><br/>
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
-                            value="n"/>Noun</label></div>
+                            value="n" onclick="$('#synonym{{id}}').focus();"/>Noun</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
-                            value="v"/>Verb</label></div>
+                            value="v" onclick="$('#synonym{{id}}').focus();"/>Verb</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
-                            value="a"/>Adjective</label></div>
+                            value="a" onclick="$('#synonym{{id}}').focus();"/>Adjective</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
-                            value="r"/>Adverb</label></div>
+                            value="r" onclick="$('#synonym{{id}}').focus();"/>Adverb</label></div>
                         <div class="radio"><label>
                         <input type="radio" name="pos{{id}}"
-                            value="x"/>Other</label></div>
+                            value="x" onclick="$('#synonym{{id}}').focus();"/>Other</label></div>
                         <div id="pos{{id}}-help" class="cwn-help">
                             <p>Please give the part-of-speech associated with this sense of the term or phrase. 
                             "Other" is used for interjections such as "wow!" or "gosh!".</p>
@@ -201,8 +201,9 @@ function setConfidence(value) {
             $('.cwn-status').show();
             var status_val = $('input:radio[name="status"]:checked').val();
             if(status_val) {
-                setStatus(status_val);
+                setStatus(status_val,"");
             }
+            $('#status-general').focus();
             break;
         case 'skip':
         case '':
@@ -228,7 +229,7 @@ function remove_misspell_or_abbrev(id, type) {
     $('#' + type + id + "-row").remove();
 }
 
-function setStatus(value) {
+function setStatus(value, context=null) {
     if(!$('#status-' + value).attr("checked")) {
         $('#status-' + value).attr("checked", true);
     }
@@ -240,6 +241,12 @@ function setStatus(value) {
             $('.cwn-abbrev').hide();
             $('.cwn-misspell').hide();
             $('.cwn-inflected').hide();
+            if($('#sense1').size() == 0 && context !== null) {
+                addsense(context);
+            } else {
+                alert($('#sense1').size());
+                alert("")
+            }
             break;
         case 'abbrev':
             $('.cwn-sense').hide();

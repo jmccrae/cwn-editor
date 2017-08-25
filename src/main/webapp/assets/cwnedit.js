@@ -243,9 +243,6 @@ function setStatus(value, context=null) {
             $('.cwn-inflected').hide();
             if($('#sense1').size() == 0 && context !== null) {
                 addsense(context);
-            } else {
-                alert($('#sense1').size());
-                alert("")
             }
             break;
         case 'abbrev':

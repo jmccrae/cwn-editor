@@ -138,7 +138,7 @@
                     </div>
                     <div class="form-group cwn-inflected">
                         <label for="definition1">Lemma form
-                        <button class="btn-xs btn btn-info" onclick="$('#inflected-help').toggle();return false" tabindex="-1">Help</button>
+                        <button class="btn-xs btn btn-info" onclick="$('#inflected1-help').toggle();return false" tabindex="-1">Help</button>
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('inflected');return false">Add</button></label>
                         <table id="inflecteds"></table>
                         <div id="inflected1-help" class="cwn-help">

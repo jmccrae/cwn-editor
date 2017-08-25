@@ -312,24 +312,39 @@ fn load_wordnet_words(wordnet_file : &str) -> Result<HashSet<String>,String> {
     Ok(values)
 
 }
+
+enum FalsePositive {
+    InWordNet,
+    Inflection,
+    TruePositive
+}
+
+use FalsePositive::*;
+
+static BAD_PREFIXES : [&'static str;22] = ["i ", "you ", "we ", "he ", "she ",
+    "they ", "it ", "my ", "your ", "our ", "his ", "her ", "their ", "its ",
+    "a ", "all ", "not ", "some ", "that ", "the ", "those ", "to "];
+static BAD_SUFFIXES : [&'static str;9] = ["ing", "s", " that", " me", 
+    " you", " him", " her", " it", " them"];
+
 fn false_postive(word : &str, wordnet_words : &HashSet<String>,
-                 stopwords : &HashSet<String>) -> bool {
+                 stopwords : &HashSet<String>) -> FalsePositive {
     if wordnet_words.contains(word) || stopwords.contains(word) {
-        true
-    } else if word.ends_with("ing") && wordnet_words.contains(&word[3..]) {
-        true
-    } else if word.ends_with("s") && wordnet_words.contains(&word[1..]) {
-        true
-    } else if word.starts_with("i ") && wordnet_words.contains(&word[2..]) {
-        true
-    } else if word.starts_with("a ") && wordnet_words.contains(&word[2..]) {
-        true
-    } else if word.starts_with("the ") && wordnet_words.contains(&word[4..]) {
-        true
-    } else if word.starts_with("to ") && wordnet_words.contains(&word[3..]) {
-        true
+        InWordNet
     } else {
-        false
+        for bp in BAD_PREFIXES.iter() {
+            if word.starts_with(bp) &&
+                wordnet_words.contains(&word[(bp.len())..]) {
+                return Inflection;
+            }
+        }
+        for bs in BAD_SUFFIXES.iter() {
+            if word.ends_with(bs) &&
+                wordnet_words.contains(&word[0..(word.len()-bs.len())]) {
+                return Inflection;
+            }
+        }
+        TruePositive
     }
 }
 
@@ -361,8 +376,24 @@ fn get_examples(mut contexts : Vec<String>, top_words : &HashSet<String>) -> Vec
             Ordering::Equal
         }
     });
-    contexts.into_iter().take(10).collect()
- 
+    let mut examples = Vec::new();
+    for c in contexts {
+        if examples.len() < 10 && is_distinct(&c, &examples) {
+            examples.push(c);
+        }
+    }
+    examples
+}
+
+fn is_distinct(c: &str, examples : &Vec<String>) -> bool {
+    let c_words : HashSet<&str> = c.split(" ").collect();
+    for s in examples {
+        let example_words = s.split(" ").collect();
+        if c_words.intersection(&example_words).count() > 5 {
+            return false;
+        }
+    }
+    return true;
 }
 
 fn frequency(config : Config) -> Result<(),String> {
@@ -482,21 +513,37 @@ fn frequency(config : Config) -> Result<(),String> {
         if *freq > config.freq_min && !cwn_words.contains(phrase) {
             match contexts.get(phrase) {
                 Some(c) => {
-                    write!(out,"{}|||{}{}", freq / n, 
-                           if false_postive(phrase, &wordnet_words, &stopwords) { 
-                                     "*" 
-                           } else { "" 
-                           }, phrase).map_err(|e| format!("Error writing: {}", e))?;
-                    let mut first = true;
-                    for content in get_examples(c.clone(), &top_words) {
-                        if first {
-                            write!(out,"|||{}", content).map_err(|e| format!("Error writing: {}", e))?;
-                            first = false;
-                        } else {
-                            write!(out,";;;{}", content).map_err(|e| format!("Error writing: {}", e))?;
-                        }
+                    match false_postive(phrase, &wordnet_words, &stopwords) {
+                        TruePositive =>  {
+                            write!(out,"{}|||{}", freq / n, phrase)
+                                .map_err(|e| format!("Error writing: {}", e))?;
+                            let mut first = true;
+                            for content in get_examples(c.clone(), &top_words) {
+                                if first {
+                                    write!(out,"|||{}", content).map_err(|e| format!("Error writing: {}", e))?;
+                                    first = false;
+                                } else {
+                                    write!(out,";;;{}", content).map_err(|e| format!("Error writing: {}", e))?;
+                                }
+                            }
+                            writeln!(out,"").map_err(|e| format!("Error writing: {}", e))?;
+                        },
+                        InWordNet => {
+                            write!(out,"{}|||*{}", freq / n, phrase)
+                                .map_err(|e| format!("Error writing: {}", e))?;
+                            let mut first = true;
+                            for content in get_examples(c.clone(), &top_words) {
+                                if first {
+                                    write!(out,"|||{}", content).map_err(|e| format!("Error writing: {}", e))?;
+                                    first = false;
+                                } else {
+                                    write!(out,";;;{}", content).map_err(|e| format!("Error writing: {}", e))?;
+                                }
+                            }
+                            writeln!(out,"").map_err(|e| format!("Error writing: {}", e))?;
+                        },
+                        Inflection => {}
                     }
-                    writeln!(out,"").map_err(|e| format!("Error writing: {}", e))?;
                 },
                 None => {}
             }

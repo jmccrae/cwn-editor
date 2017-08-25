@@ -56,6 +56,13 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="${contextUrl}/">Colloquial WordNet</a>
+        <ul class="nav navbar-nav">
+      <li><a href="${contextUrl}/summary/0?recent=true">Recent Entries</a></li>
+        #if (loggedin)
+      <li><a href="${contextUrl}/queue/">My Queue</a></li>
+      <li><a href="${contextUrl}/summary/0?annotator_me=true">My Entries</a></li>
+        #end
+</ul>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

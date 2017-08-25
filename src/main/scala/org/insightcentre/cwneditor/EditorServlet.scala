@@ -23,7 +23,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     lazy val store = new SQLDataStore(new File("cwn.db"))
     lazy val login = SQLLogin
-    lazy val activeUsers = new TimedHash()
+    lazy val activeUsers = collection.mutable.HashMap[String, String]()
     lazy val annoQueue = SQLAnnotationQueue
 
     def file2entry(f : File) = {
@@ -76,7 +76,17 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/summary/:page") {
       val page = params("page").toInt
-      val files = store.listRange(page * 100, 100).map({
+      val recency = params.contains("recent")
+      val annotator = params.get("annotator") match {
+        case Some(a) => Some(a)
+        case None => if(params.contains("annotator_me")) {
+          username
+        } else {
+          None
+        }
+      }
+          
+      val files = store.listRange(page * 100, 100, recency, annotator).map({
         f => 
           (store.get(f).get, f)
       })
@@ -118,7 +128,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/logout") {
       session.get("login").map({ login =>
-        activeUsers.clear(login.toString)
+        activeUsers.remove(login.toString)
       })
       TemporaryRedirect(context + "/")
     }
@@ -165,7 +175,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
               TemporaryRedirect(s"$context/edit/$id?error=${e.getMessage}")
           }
         case None =>
-          TemporaryRedirect(s"$context/login/?redirect=/update/$id")
+          TemporaryRedirect(s"$context/login?redirect=/update/$id")
       }
     }
 
@@ -178,7 +188,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
             case Some(userName) =>
               entryFromParams("NEW_ENTRY", entry) match {
                 case Success(e) => 
-                  store.insert(e)
+                  store.insert(e, userName)
                   annoQueue.remove(userName, annoId)
                   annoQueue.getQueue(userName).headOption match {
                     case Some(aqe) =>
@@ -195,14 +205,14 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                       TemporaryRedirect(s"$context/")
                   }
                 case Failure(EntryValidityException(msg, e)) =>
-                  val newId = store.insert(e)
+                  val newId = store.insert(e, userName)
                   annoQueue.remove(userName, annoId)
                   TemporaryRedirect(s"$context/edit/${newId}?error=$msg")
                 case Failure(e) =>
                   TemporaryRedirect(s"$context/add/$annoId?error=${e.getMessage()}")
               }
             case None =>
-              TemporaryRedirect(s"$context/login/?redirect=/add/$annoId")
+              TemporaryRedirect(s"$context/login?redirect=/add/$annoId")
           }
         }
         case Failure(_) =>
@@ -446,7 +456,18 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
               pass()
           }
          case None =>
-           TemporaryRedirect(s"$context/login?redirect=/pull_queue/?n=${params("n")}")
+           TemporaryRedirect(s"$context/login?redirect=$context/pull_queue/?n=${params("n")}")
+      }
+    }
+
+    get("/queue/") {
+      username match {
+        case Some(username) =>
+          val queue = annoQueue.getQueue(username)
+          contentType = "text/html"
+          ssp("/queue", "queue" -> queue, "contextUrl" -> context, "loggedin" -> true)
+        case None =>
+          TemporaryRedirect(s"$context/login?redirect=$context/queue/")
       }
     }
 
@@ -454,11 +475,9 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     get("/") {
       username match {
         case Some(username) =>
-          val queue = annoQueue.getQueue(username)
-          contentType = "text/html"
-          ssp("/queue", "queue" -> queue, "contextUrl" -> context, "loggedin" -> true)
+          TemporaryRedirect(s"$context/queue/")
         case None =>
-          TemporaryRedirect(context + "/summary/0")
+          TemporaryRedirect(s"$context/summary/0")
       }
     }
 }

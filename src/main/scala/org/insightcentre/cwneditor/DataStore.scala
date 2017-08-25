@@ -8,13 +8,14 @@ import java.sql.DriverManager
 
 trait DataStore {
   //def list : List[String]
-  def listRange(offset : Int, length : Int) : List[String]
+  def listRange(offset : Int, length : Int, recency : Boolean = false,
+    annotator : Option[String] = None) : List[String]
   def get(id : String) : Option[Entry]
   def next(id : String) : Option[String]
   def search(pattern : String) : List[(String, Entry)]
   def update(id : String, entry : Entry) : Unit
   /** Returns the new id */
-  def insert(entry : Entry) : String
+  def insert(entry : Entry, user : String) : String
   def find(s : String) : List[WordNetEntry]
 }
 
@@ -37,17 +38,19 @@ class SQLDataStore(db : File) extends DataStore {
                                   word TEXT,
                                   definition TEXT,
                                   content TEXT,
+                                  annotator TEXT,
                                   pwn BOOLEAN)""".execute
       sql"""CREATE INDEX entries_id ON entries (id)""".execute
       sql"""CREATE INDEX entries_word ON entries (word)""".execute
-      val insertWord = sql""" INSERT INTO entries VALUES (?,?,?,?,?,?)""".insert6[Int,String,String,String,String,Boolean]
+      val insertWord = sql""" INSERT INTO entries VALUES (?,?,?,?,?,?,?)""".insert7[Int,String,String,String,String,String,Boolean]
       var i = 0
       System.err.println("Loading database")
       io.Source.fromInputStream(
         new java.util.zip.GZIPInputStream(
           new java.io.FileInputStream("data.csv.gz"))).getLines.foreach({ line =>
             val e = line.split("\\|\\|\\|")
-            insertWord(e(0).toInt, e(1), e(2), e(3), e(4), e(5) == "1")
+            // All previous data by jmccrae, this will be updated
+            insertWord(e(0).toInt, e(1), e(2), e(3), e(4), "jmccrae", e(5) == "1")
             i += 1
             if(i % 10000 == 0) {
               insertWord.execute
@@ -72,8 +75,27 @@ class SQLDataStore(db : File) extends DataStore {
     sql"""SELECT id FROM entries WHERE pwn=0""".as1[String].toList
   }
 
-  def listRange(offset : Int, length : Int) : List[String] = withSession(conn) { implicit session =>
-    sql"""SELECT id FROM entries WHERE pwn=0 LIMIT ${length} OFFSET ${offset}""".as1[String].toList
+  def listRange(offset : Int, length : Int, recency : Boolean = false,
+    annotator : Option[String] = None) : List[String] = withSession(conn) { implicit session =>
+      if(recency) {
+        annotator match {
+          case Some(ann) =>
+            sql"""SELECT id FROM entries WHERE pwn=0 AND annotator=${ann} 
+            ORDER BY num DESC LIMIT ${length} OFFSET ${offset}""".as1[String].toList
+          case None =>
+            sql"""SELECT id FROM entries WHERE pwn=0 
+            ORDER BY num DESC LIMIT ${length} OFFSET ${offset}""".as1[String].toList
+        }
+      } else {
+        annotator match {
+          case Some(ann) =>
+            sql"""SELECT id FROM entries WHERE pwn=0 AND annotator=${ann}
+            LIMIT ${length} OFFSET ${offset}""".as1[String].toList
+          case None =>
+            sql"""SELECT id FROM entries WHERE pwn=0 
+            LIMIT ${length} OFFSET ${offset}""".as1[String].toList
+        }
+      }
   }
 
   def get(id : String) : Option[Entry] = withSession(conn) { implicit session =>
@@ -101,13 +123,12 @@ class SQLDataStore(db : File) extends DataStore {
                              definition=${definitions(entry)} WHERE id=${id}""".execute
   }   
 
-  def insert(entry : Entry) : String = withSession(conn) { implicit session =>
+  def insert(entry : Entry, user : String) : String = withSession(conn) { implicit session =>
     val n : Int = sql"""SELECT max(num) FROM entries WHERE pwn=0""".as1[Int].head
     val idNew = Entrys.CWN_ENTRY + (n+2)
-    val entry2 = entry.copy(editorId=idNew)
-    sql"""INSERT INTO entries (id, word, definition, content, pwn) VALUES ($idNew, 
+    sql"""INSERT INTO entries (id, word, definition, content, annotator, pwn) VALUES ($idNew, 
       ${entry.lemma}, ${entry.senses.map(_.definition).mkString(";;;")}, ${entry.toJson.toString},
-      0)""".execute
+      ${user}, 0)""".execute
     idNew
   }
 

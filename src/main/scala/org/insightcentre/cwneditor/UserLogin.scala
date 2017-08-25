@@ -130,32 +130,32 @@ object SQLLogin extends UserLogin {
     }
 }
 
-import java.time.Instant
-import java.time.temporal.ChronoUnit._
-
-class TimedHash {
-  private val session = (24, HOURS)
-  private val underlying = collection.mutable.HashMap[String, (String, Instant)]()
-
-  def get(key : String) : Option[String] = {
-    clean()
-    underlying.get(key).map(_._1)
-  }
-
-  def put(key : String, value : String) = {
-    clean()
-    underlying.put(key, (value, Instant.now()))
-  }
-
-  private def clean() {
-    val elems = underlying.filter(x => x._2._2.until(Instant.now(), session._2) > session._1).keys
-    for(k <- elems) {
-      underlying.remove(k)
-    }
-  }
-
-  def clear(key : String) {
-    clean()
-    underlying.remove(key)
-  }
-}
+//import java.time.Instant
+//import java.time.temporal.ChronoUnit._
+//
+//class TimedHash {
+//  private val session = (24, HOURS)
+//  private val underlying = collection.mutable.HashMap[String, (String, Instant)]()
+//
+//  def get(key : String) : Option[String] = {
+//    clean()
+//    underlying.get(key).map(_._1)
+//  }
+//
+//  def put(key : String, value : String) = {
+//    clean()
+//    underlying.put(key, (value, Instant.now()))
+//  }
+//
+//  private def clean() {
+//    val elems = underlying.filter(x => x._2._2.until(Instant.now(), session._2) > session._1).keys
+//    for(k <- elems) {
+//      underlying.remove(k)
+//    }
+//  }
+//
+//  def remove(key : String) {
+//    clean()
+//    underlying.remove(key)
+//  }
+//}

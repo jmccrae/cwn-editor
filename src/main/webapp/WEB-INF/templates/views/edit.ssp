@@ -142,7 +142,8 @@
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('inflected');return false">Add</button></label>
                         <table id="inflecteds"></table>
                         <div id="inflected1-help" class="cwn-help">
-                            <p>Please give the lemma form of this word.</p>
+                            <p>Please give the lemma form of this word. This is the "base" form for inclected words. For verbs, it is the infinitive form (eg: for "going" or "went" you would enter "go"). For noun plurals, it's the singular (eg: for "dogs" you would enter "dog"). 
+                            See this <a  target="_blank" href="https://en.wikipedia.org/wiki/Inflection#Examples_in_English">Wikipedia article</a> on inflected forms.</p>
                         </div>
                     </div>
 

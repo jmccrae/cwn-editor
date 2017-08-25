@@ -132,7 +132,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                                 </th>
                                 <th>Target</th>
                             </tr>
-                        <table>
+                        </table>
                         <div id="relation{{id}}-help" class="cwn-help">
                             <p>(only if you cannot find a synonym term) Please give at least one relation linking this term to an existing term in Colloquial or Princeton WordNet by typing the word under target and selecting the synset from the autocomplete. In general, it is expected that nouns always have a hypernym (broader) term, verbs, adjectives and adverbs may have a broader term and/or a similar term. Please also consider the origin of the term: if it is derived from an existing word, please add a "derived from" link, if this word is borrowed from another language, please add a loanword linking, whose target is the synset for the language this word is borrowed from.</p>
                             <ul>
@@ -243,6 +243,9 @@ function setStatus(value, context=null) {
             $('.cwn-inflected').hide();
             if($('#sense1').size() == 0 && context !== null) {
                 addsense(context);
+            } else {
+                alert($('#sense1').size());
+                alert("")
             }
             break;
         case 'abbrev':

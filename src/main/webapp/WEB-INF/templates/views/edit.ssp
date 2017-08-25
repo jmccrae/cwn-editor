@@ -106,13 +106,13 @@
                         <div id="status-help" class="cwn-help">
                             <p>The status indicates what kind of term this term is, note that "General", "Novel" and "Vulgar" are used for true terms, and "Abbreviation", "Misspelling", "Name", "Not Lexical" and "Error" for terms that will only be included in the ancillary data for Colloquial WordNet</p>
                             <ul>
-                                <li><b>General:</b> This is a term that should be included in a general-purpose dictionary such as Princeton WordNet. It should be widely and frequently used by native English speakers</li>
-                                <li><b>Novel:</b> This term is novel and may not persist in the language. This term should be used for slang, dialectal forms (used only in a particular dialect or social group) and other non-standard usage of English. This should also be used for interjections such as "wow!" or "gosh!" (in this case please set the part of speech to other).</li>
-                                <li><b>Vulgar:</b> This term is vulgar or obscene and would not be suitable for a general purpose dictionary</li>
-                                <li><b>Abbreviation:</b> This term is an abbreviation; you should give the full form of this entry.</li>
-                                <li><b>Misspelling:</b> This term is misspelled; you should give the correct spelling</li>
-                                <li><b>Inflected Form:</b> This term is an <a  target="_blank" href="https://en.wikipedia.org/wiki/Inflection#Examples_in_English">inflected form</a>, a simple gramatical variation of a word (eg: "running" from the word "run"), you should give the lemma.</li>
-                                <li><b>Name:</b> This term is a name (proper noun) and is not suitable for inclusion in the WordNet</li>
+                                <li><b>General:</b> This is a term that should be included in a general-purpose dictionary such as Princeton WordNet. It should be widely and frequently used by native English speakers. Example: "lockpick"</li>
+                                <li><b>Novel:</b> This term is novel and may not persist in the language. This term should be used for slang, dialectal forms (used only in a particular dialect or social group) and other non-standard usage of English. This should also be used for interjections such as "wow!" or "gosh!" (in this case please set the part of speech to other). Examples: "twerk", "dab", "belieber"</li>
+                                <li><b>Vulgar:</b> This term is vulgar or obscene and would not be suitable for a general purpose dictionary. Examples: "fuck", "creampie"</li>
+                                <li><b>Abbreviation:</b> This term is an abbreviation; you should give the full form of this entry. Examples: "IDK", "IMHO"</li>
+                                <li><b>Misspelling:</b> This term is misspelled; you should give the correct spelling, please also include phonetic or dialectic misspellings in this category: Examples: "teh", "innit"</li>
+                                <li><b>Inflected Form:</b> This term is an <a  target="_blank" href="https://en.wikipedia.org/wiki/Inflection#Examples_in_English">inflected form</a>, a simple gramatical variation of a word (eg: "running" from the word "run"), you should give the lemma. Examples: "cats", "running".</li>
+                                <li><b>Name:</b> This term is a name (proper noun) and is not suitable for inclusion in the WordNet. Examples: "Google", "Justin Bieber"</li>
                                 <li><b>Not Lexical:</b> This is not a proper term. It may be a fragment of text that doesn't work as an independent phrase, e.g., "I know a", or it may be a multiword phrase, where the meaning is clearly composed from the constituent words, e.g, "tasty ham", "cheese sandwich".</li>
                                 <li><b>Error:</b> This is used if the "term" does not seem to be English, e.g., "&amp;nbsp;"</li>
                             </ul>
@@ -124,7 +124,7 @@
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('abbrev');return false">Add</button></label>
                         <table id="abbrevs"></table>
                         <div id="abbrev1-help" class="cwn-help">
-                            <p>Please give the full form of the term. If it is ambiguous you may add more abbreviations with "Add"</p>
+                            <p>Please give the full form of the term. If it is ambiguous include multiple terms separated with a semicolon (';')</p>
                         </div>
                     </div>
                     <div class="form-group cwn-misspell">
@@ -133,7 +133,7 @@
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('misspell');return false">Add</button></label>
                         <table id="misspells"></table>
                         <div id="misspell1-help" class="cwn-help">
-                            <p>Please give the correct spelling of the term. If it is ambiguous you may add more possible spellings with "Add"</p>
+                            <p>Please give the correct spelling of the term. If it is ambiguous include multiple terms separated with a semicolon (';')</p>
                         </div>
                     </div>
                     <div class="form-group cwn-inflected">

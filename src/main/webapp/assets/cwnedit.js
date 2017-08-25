@@ -108,7 +108,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <input type="text" class="form-control"
                                id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}" oninput="checkDefnSyn({{id}})"/>
                         <div id="synonym{{id}}-help" class="cwn-help">
-                            <p>Please first type in suitable synonym terms to find any likely terms that are already in Colloquial or Princeton WordNet. If you find a suitable term select it from the drop-down, otherwise continue to the next step</p>
+                            <p>Please first type in suitable synonym terms to find any likely terms that are already in Colloquial or Princeton WordNet. If you find a suitable term select it from the drop-down, otherwise leave <b>Synonym</b> blank and enter a definition below.</p>
                         </div>
                     </div>
                      <div class="form-group cwn-sense">
@@ -117,7 +117,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         <input type="text" class="form-control"
                                id="definition{{id}}" name="definition{{id}}" value="{{definition}}" oninput="checkDefnSyn({{id}})"/>
                         <div id="definition{{id}}-help" class="cwn-help">
-                            <p>If you cannot find a synonym term, please give a definition of this term that describes it well. A good definition consists of a <i>genus</i> and a <i>differentia</i>. The genus is the type of thing that a word is e.g., "parkour" is a "training discipline", and the differentia is a criteria that unambiguously identifiers this word, e.g., "using movement that developed from military obstacle course training". It is advised that you use definitions from other sources and if you do so please include the source in square brackets after the definition, e.g., "A training discipline using movement that developed from military obstacle course training [Wikipedia]".</p>
+                            <p>(only if you cannot find a synonym term) Please give a definition of this term that describes it well. A good definition consists of a <i>genus</i> and a <i>differentia</i>. The genus is the type of thing that a word is e.g., "parkour" is a "training discipline", and the differentia is a criteria that unambiguously identifiers this word, e.g., "using movement that developed from military obstacle course training". It is advised that you use definitions from other sources and if you do so please include the source in square brackets after the definition, e.g., "A training discipline using movement that developed from military obstacle course training [Wikipedia]".</p>
                         </div>
                     </div>
                     <div class="alert alert-danger" id="syndefn{{id}}" style="display:none;">
@@ -132,7 +132,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                             </tr>
                         <table>
                         <div id="relation{{id}}-help" class="cwn-help">
-                            <p>Please give at least one relation linking this term to an existing term in Colloquial or Princeton WordNet by typing the word under target and selecting the synset from the autocomplete. In general, it is expected that nouns always have a hypernym (broader) term, verbs, adjectives and adverbs may have a broader term and/or a similar term. Please also consider the origin of the term: if it is derived from an existing word, please add a "derived from" link, if this word is borrowed from another language, please add a loanword linking, whose target is the synset for the language this word is borrowed from.</p>
+                            <p>(only if you cannot find a synonym term) Please give at least one relation linking this term to an existing term in Colloquial or Princeton WordNet by typing the word under target and selecting the synset from the autocomplete. In general, it is expected that nouns always have a hypernym (broader) term, verbs, adjectives and adverbs may have a broader term and/or a similar term. Please also consider the origin of the term: if it is derived from an existing word, please add a "derived from" link, if this word is borrowed from another language, please add a loanword linking, whose target is the synset for the language this word is borrowed from.</p>
                             <ul>
                                 <li><b>Hypernym (broader):</b> A target term whose meaning subsumes this one, most terms should have one broader term. A term may have more than one hypernym, but please add only <b>distinct</b> <b>direct</b> hypernyms, e.g., a <i>pike</i> is a <i>fish</i> and a <i>predator</i>, but do not add <i>animal</i> (fish and animal are not distinct hypernyms of pike).</li>
                                 <li><b>Hyponym (broader):</b> A target term whose meaning is subsumed by this one, it is not generally necessary to add this</li>

@@ -111,7 +111,7 @@
                                 <li><b>Vulgar:</b> This term is vulgar or obscene and would not be suitable for a general purpose dictionary</li>
                                 <li><b>Abbreviation:</b> This term is an abbreviation; you should give the full form of this entry.</li>
                                 <li><b>Misspelling:</b> This term is misspelled; you should give the correct spelling</li>
-                                <li><b>Inflected Form:</b> This term is an inflected form, you should give the lemma.</li>
+                                <li><b>Inflected Form:</b> This term is an <a  target="_blank" href="https://en.wikipedia.org/wiki/Inflection#Examples_in_English">inflected form</a>, a simple gramatical variation of a word (eg: "running" from the word "run"), you should give the lemma.</li>
                                 <li><b>Name:</b> This term is a name (proper noun) and is not suitable for inclusion in the WordNet</li>
                                 <li><b>Not Lexical:</b> This is not a proper term. It may be a fragment of text that doesn't work as an independent phrase, e.g., "I know a", or it may be a multiword phrase, where the meaning is clearly composed from the constituent words, e.g, "tasty ham", "cheese sandwich".</li>
                                 <li><b>Error:</b> This is used if the "term" does not seem to be English, e.g., "&amp;nbsp;"</li>

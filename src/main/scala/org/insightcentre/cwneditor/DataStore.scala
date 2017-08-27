@@ -47,7 +47,7 @@ class SQLDataStore(db : File) extends DataStore {
       System.err.println("Loading database")
       io.Source.fromInputStream(
         new java.util.zip.GZIPInputStream(
-          new java.io.FileInputStream("data.csv.gz"))).getLines.foreach({ line =>
+          new java.io.FileInputStream("data.csv.gz")), "UTF-8").getLines.foreach({ line =>
             val e = line.split("\\|\\|\\|")
             // All previous data by jmccrae, this will be updated
             insertWord(e(0).toInt, e(1), e(2), e(3), e(4), "jmccrae", e(5) == "1")

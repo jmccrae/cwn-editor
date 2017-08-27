@@ -12,7 +12,7 @@
     <meta name="description" content="Colloquial WordNet Editor">
     <meta name="author" content="John P. McCrae">
     <link rel="icon" href="/favicon.ico">
-
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <title>${title}</title>
 
     <!-- Bootstrap core CSS -->

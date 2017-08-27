@@ -89,7 +89,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       val files = store.listRange(page * 100, 100, recency, annotator).map({
         f => 
           (store.get(f).get, f)
-      })
+      }).filter(x => x._1.status != "nonlex" && x._1.status != "skip" && x._1.status != "name" && x._1.status != "error")
       contentType = "text/html"
       ssp("/summary",
         "files" -> files,

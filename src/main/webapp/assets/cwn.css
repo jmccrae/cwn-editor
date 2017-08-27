@@ -76,11 +76,11 @@ body {
     border-color: #7b28a4;
 }
 
-.btn-info:hover {
+.btn-info:hover,.btn-info:focus {
     background-color: #9932cd;
     border-color: #7b28a4;
 }
-.btn-primary:hover {
+.btn-primary:hover,.btn-primary:focus {
     background-color: #9932cd;
     border-color: #7b28a4;
 }
@@ -114,4 +114,42 @@ body {
     background-color: white;
     border-bottom: 1px solid #dad8de;
     color: #7b28a4;
+}
+
+.summary-entry {
+    border-color: #dad8de;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    margin: 5px;
+}
+
+.nav>li>a:focus, .nav>li>a:focus {
+    background-color: #9932cd;
+    border-color: #7b28a4;
+}
+
+.status-icon {
+   height: 50px;
+   width: 50px;
+  } 
+
+.entry-id {
+    font-size:14px;
+    color: #bbb;
+}
+
+.entry-defn {
+    color:#777;
+    font-style: italic;
+    quotes: '\201c' '\201d'; 
+}
+
+.entry-defn:before {
+    content: "&ldquo;";
+    content: open-quote; 
+}
+
+.entry-defn:after {
+    content: "&rdquo;";
+    content: close-quote; 
 }

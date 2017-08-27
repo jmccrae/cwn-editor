@@ -24,29 +24,34 @@
                 <p>No Results!</p>
                 #end
                 #for ((entry,name) <- files)
-                    <div class="panel panel-primary panel-${entry.status}">
-                        <div class="panel-heading">
-                            <h3>${entry.lemma} &#160;&#160;&lt;${name}&gt;
-                            <a class="pull-right" style="color:#eee;" href="${contextUrl}/edit/${name}">Edit</a></h3>
+                    <div class="summary-entry col-sm-5">
+                        <div class="summary-heading">
+                            <h3><img src="${contextUrl}/assets/${entry.status}.png" class="status-icon"/>
+${entry.lemma} &#160;&#160;<span class="entry-id">&lt;${name}&gt;</span>
+                            <a class="pull-right" href="${contextUrl}/edit/${name}">Edit</a></h3>
                         </div>
-                        <div class="panel-body">
-                            <h4>${entry.status}</h4>
+                        <div class="summary-body">
                             #if (entry.validEntry)
                                 #for (sense <- entry.senses)
-                                    <p><h5>Sense ${sense.id}</h5></p>
+                                    <hr>
                                     #if (sense.synonym == "")
-                                        <p>Part of Speech: ${sense.pos}</p>
-                                        <p>Definition: ${sense.definition}</p>
+                                        <p>(${sense.partOfSpeech}) ${sense.definition}</p>
                                         #for (relation <- sense.relations)
-                                            <p>${relation.`type`} &#8594; ${relation.target}</p>
+                                            <p>${relation.`type`} &#8594; <a href="${relation.trgLink}">${relation.trgWord}</a> <span class="entry-defn">${relation.trgDefn}</span></p>
                                         #end
                                     #else
-                                        <p>= ${sense.synonym}</p>
+                                        <p>See <a href="${sense.synLink}">${sense.synWord}</a> <span class="entry-defn">${sense.synDefn}</span></p>
                                     #end
                                 #end
                             #end
-                            #if (entry.abbrevOrMisspell)
-                                <p> => ${entry.senses.head.definition}</p>
+                            #if (entry.status == "abbrev")
+                                <p>Short for &ldquo;${entry.senses.head.definition}&rdquo;</p>
+                            #end
+                            #if (entry.status == "misspell")
+                                <p>Misspelling of <a href="${contextUrl}/search?lemma=${entry.senses.head.definition}">${entry.senses.head.definition}</a></p>
+                            #end
+                            #if (entry.status == "inflected")
+                                <p>Inflected form of <a href="${contextUrl}/search?lemma=${entry.senses.head.definition}">${entry.senses.head.definition}</a></p>
                             #end
                         </div>
                     </div>
@@ -58,5 +63,11 @@
                 #end
             </div>
         </div>
+    <!-- Man Swearing by Gan Khoon Lay from the Noun Project -->
+    <!-- baby bottle by Tomasz Pasternak from the Noun Project -->
+    <!-- novels by Made by Made from the Noun Project -->
+    <!-- Ellipsis Bubble by Kevin from the Noun Project -->
+    <!-- Question by Kid A from the Noun Project -->
+    <!-- Arrow by Vladimir Belochkin from the Noun Project -->
     </body>
 </html>

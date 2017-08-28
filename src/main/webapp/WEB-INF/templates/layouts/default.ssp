@@ -56,6 +56,7 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="${contextUrl}/">Colloquial WordNet</a>
+    </div>
         <ul class="nav navbar-nav">
       <li><a href="${contextUrl}/summary/0?recent=true">Recent Entries</a></li>
         #if (loggedin)
@@ -63,9 +64,7 @@
       <li><a href="${contextUrl}/summary/0?annotator_me=true">My Entries</a></li>
         #end
 </ul>
-    </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
      <ul class="nav navbar-nav navbar-right">
         #if (loggedin)
             <li><a href="${contextUrl}/update_user">Account</a></li>
@@ -81,7 +80,6 @@
         </div>
         <button type="submit" class="btn btn-default">Search</button>
       </form>
-     </div>
   </div>
 </nav>
   ${unescape(body)}

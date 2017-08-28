@@ -123,7 +123,7 @@ body {
     margin: 5px;
 }
 
-.nav>li>a:focus, .nav>li>a:focus {
+.nav>li>a:focus, .nav>li>a:hover {
     background-color: #9932cd;
     border-color: #7b28a4;
 }
@@ -131,6 +131,12 @@ body {
 .status-icon {
    height: 50px;
    width: 50px;
+  } 
+
+
+.edit-icon {
+   height: 30px;
+   width: 30px;
   } 
 
 .entry-id {
@@ -152,4 +158,8 @@ body {
 .entry-defn:after {
     content: "&rdquo;";
     content: close-quote; 
+}
+
+a {
+    color: #7b28a4;
 }

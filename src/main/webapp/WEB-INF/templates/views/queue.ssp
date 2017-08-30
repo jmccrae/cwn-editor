@@ -6,17 +6,12 @@
 <% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
 <% attributes("contextUrl") = contextUrl %>
 <% attributes("title") = "Colloquial WordNet Editor - Login" %>
-<html>
-    <head>
-        <title>Colloquial WordNet Editor - Queue</title>
-    </head>
-    <body>
         <div class="container">
             <div class="row">
                 <h1>My Annotation Queue</h1>
             </div>
             <div class="row">
-                <table class="table table-striped">
+                <table class="table table-striped" id="queue-table">
                     <tr>
                         <th>Lemma</th>
                         <th>Examples</th>
@@ -35,9 +30,9 @@
                             ${aqe.expiryString}
                         </td>
                         <td>
-                            <a class="btn btn-xs btn-success" href="${contextUrl}/add/${aqe.id}">Annotate</a>
+                            <a class="btn btn-xs btn-success" href="${contextUrl}/add/${aqe.id}">Annotate</a><br>
+                            <a class="btn btn-xs btn-warning" href="${contextUrl}/extend/${aqe.id}">Renew Hold</a><br>
                             <a class="btn btn-xs btn-danger" href="${contextUrl}/dequeue/${aqe.id}">Remove</a>
-                            <a class="btn btn-xs btn-warning" href="${contextUrl}/extend/${aqe.id}">Renew Hold</a>
                         </td>
                     #end
                 </table>
@@ -54,5 +49,3 @@
                 </form>
             </div>
         </div>
-    </body>
-</html>

@@ -49,7 +49,7 @@ function addrel(context, id, type="", target="") {
                         </div>
                         </td>
                         <td>
-                        <button type="button" class="btn btn-danger" onclick="$('#relType{{id}}-{{relNo}}-row').remove();return false">Remove</button>
+                        <button type="button" class="btn btn-danger pull-right" onclick="$('#relType{{id}}-{{relNo}}-row').remove();return false">Remove</button>
                                 </td>
                             </tr>`;
     var last_cont = "";
@@ -81,22 +81,22 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                     <div class="panel-body">
                     <div class="form-group cwn-sense">
                         <label for="pos{{id}}">Part of Speech
-                        <button class="btn-xs btn btn-info" onclick="$('#pos{{id}}-help').toggle();" tabindex="-1">Help</button></label><br/>
-                        <div class="radio"><label>
+                        <a href="#" onclick="$('#pos{{id}}-help').toggle();" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label><br/>
+                        <label class="radio-inline">
                         <input type="radio" name="pos{{id}}"
-                            value="n" onclick="$('#synonym{{id}}').focus();"/>Noun</label></div>
-                        <div class="radio"><label>
+                            value="n" onclick="$('#synonym{{id}}').focus();"/>Noun</label>
+                        <label class="radio-inline">
                         <input type="radio" name="pos{{id}}"
-                            value="v" onclick="$('#synonym{{id}}').focus();"/>Verb</label></div>
-                        <div class="radio"><label>
+                            value="v" onclick="$('#synonym{{id}}').focus();"/>Verb</label>
+                        <label class="radio-inline">
                         <input type="radio" name="pos{{id}}"
-                            value="a" onclick="$('#synonym{{id}}').focus();"/>Adjective</label></div>
-                        <div class="radio"><label>
+                            value="a" onclick="$('#synonym{{id}}').focus();"/>Adjective</label>
+                        <label class="radio-inline">
                         <input type="radio" name="pos{{id}}"
-                            value="r" onclick="$('#synonym{{id}}').focus();"/>Adverb</label></div>
-                        <div class="radio"><label>
+                            value="r" onclick="$('#synonym{{id}}').focus();"/>Adverb</label>
+                        <label class="radio-inline">
                         <input type="radio" name="pos{{id}}"
-                            value="x" onclick="$('#synonym{{id}}').focus();"/>Other</label></div>
+                            value="x" onclick="$('#synonym{{id}}').focus();"/>Other</label>
                         <div id="pos{{id}}-help" class="cwn-help">
                             <p>Please give the part-of-speech associated with this sense of the term or phrase. 
                             "Other" is used for interjections such as "wow!" or "gosh!".</p>
@@ -104,7 +104,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                     </div>
                      <div class="form-group cwn-sense">
                         <label for="synonym{{id}}">Synonym
-                        <button class="btn-xs btn btn-info" onclick="$('#synonym{{id}}-help').toggle();return false" tabindex="-1">Help</button></label>
+                        <a href="#" onclick="$('#synonym{{id}}-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label>
                         <input type="text" class="form-control"
                                id="synonym{{id}}" name="synonym{{id}}" value="{{synonym}}" oninput="checkDefnSyn({{id}})"/>
                         <div id="synonym{{id}}-help" class="cwn-help">
@@ -113,7 +113,7 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                     </div>
                      <div class="form-group cwn-sense">
                         <label for="definition{{id}}">Definition
-                        <button class="btn-xs btn btn-info" onclick="$('#definition{{id}}-help').toggle();return false" tabindex="-1">Help</button></label>
+                        <a href="#" onclick="$('#definition{{id}}-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label>
                         <input type="text" class="form-control"
                                id="definition{{id}}" name="definition{{id}}" value="{{definition}}" oninput="checkDefnSyn({{id}})"/>
                         <div id="definition{{id}}-help" class="cwn-help">
@@ -124,14 +124,17 @@ function addsense(context, pos="",synonym="",definition="",abbrev="",misspell=""
                         Error: please set either the synonym or the definition (not both)!
                     </div>
                     <div class="form-group cwn-sense">
-                        <table style="width:100%;" id="relTable{{id}}">
-                            <tr>
-                                <th style="margin-right:10px;">Relation
-                        <button class="btn-xs btn btn-info" onclick="$('#relation{{id}}-help').toggle();return false" tabindex="-1">Help</button>
-                        <button class="btn btn-xs btn-success" type="button" onclick="addrel('{{context}}',{{id}})">Add</button>
-                                </th>
-                                <th>Target</th>
-                            </tr>
+                        <table class="table table-striped" id="relTable{{id}}">
+                            <thead>
+                                <tr>
+                                    <th style="margin-right:10px;">Relation
+                            <a href="#" onclick="$('#relation{{id}}-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            <button class="btn btn-xs btn-success" type="button" onclick="addrel('{{context}}',{{id}})">Add</button>
+                                    </th>
+                                    <th>Target</th>
+                                    <th width="12%"></th>
+                                </tr>
+                            <thead>
                         </table>
                         <div id="relation{{id}}-help" class="cwn-help">
                             <p>(only if you cannot find a synonym term) Please give at least one relation linking this term to an existing term in Colloquial or Princeton WordNet by typing the word under target and selecting the synset from the autocomplete. In general, it is expected that nouns always have a hypernym (broader) term, verbs, adjectives and adverbs may have a broader term and/or a similar term. Please also consider the origin of the term: if it is derived from an existing word, please add a "derived from" link, if this word is borrowed from another language, please add a loanword linking, whose target is the synset for the language this word is borrowed from.</p>
@@ -218,11 +221,11 @@ function setConfidence(value) {
 
 function add_misspell_or_abbrev(type, value="") {
     var id = $('.' + type + '-input').size() + 1;
-    var code = "<tr id='" + type + id + "-row'><td width=\"100%\"><input type='text' class='form-control " + type + "-input' id='" + type + id + 
+    var code = "<tr id='" + type + id + "-row'><td><div class=\"input-group\"><input type='text' class='form-control " + type + "-input' id='" + type + id + 
         "' name='" + type + id + "' value='" + value.replace(/'/g, "&quot;") + "'/>"
-        + "</td><td><button type='button' class='close' onclick='remove_misspell_or_abbrev(" +
-        id + ",\"" + type + "\");return false'>&times;</button></td></tr>";
-    $(code).insertBefore('#' + type + 's');
+        + "<div class=\"input-group-addon btn-danger\" onclick='remove_misspell_or_abbrev(" +
+        id + ",\"" + type + "\");return false'>&times;</div></div></td></tr>";
+    $('#' + type + 's').append(code);
 }
 
 function remove_misspell_or_abbrev(id, type) {
@@ -286,4 +289,16 @@ function checkDefnSyn(id) {
 function clearSyn(id) {
     $('#synonym'+id).val("");
 }
+
+$(document).ready(function() {
+    var $container = $(".entries-row").masonry({
+        itemSelector: '.summary-entry',
+        columnWidth: '.col-md-5',
+        percentPosition: true
+    });
+
+    $container.imagesLoaded( function() {
+         $container.masonry();
+    });
+});
 

@@ -6,11 +6,7 @@
 <% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
 <% attributes("contextUrl") = contextUrl %>
 <% attributes("title") = "Colloquial WordNet Editor - Login" %>
-<html>
-    <head>
-        <title>Colloquial WordNet Editor - Update User</title>
-    </head>
-    <body>
+
         <div class="container">
             <div class="row">
                 <h1>Login</h1>
@@ -38,5 +34,3 @@
                 </fieldset>
             </form>
         </div>
-    </body>
-</html>

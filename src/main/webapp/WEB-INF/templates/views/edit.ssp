@@ -8,11 +8,7 @@
 <% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
 <% attributes("contextUrl") = contextUrl %>
 <% attributes("title") = "Colloquial WordNet Editor - Editing" %>
-<html>
-    <head>
-        <title>Colloquial WordNet Editor - Editing</title>
-    </head>
-    <body>
+
         <div class="container">
             <div class="row">
                 <h1>Edit Entry</h1>
@@ -34,7 +30,7 @@
                     #end
                     <div class="form-group">
                         <label>Example
-                        <button class="btn-xs btn btn-info" onclick="$('#examples-help').toggle();return false" tabindex="-1">Help</button></label>
+                        <a href="#" onclick="$('#examples-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label>
 <blockquote>
                         #for (example <- entry.examples)
                             <p>${example.text}</p>
@@ -46,22 +42,22 @@
                     </div>
                     <div class="form-group">
                         <label for="confidence">Confidence
-                        <button class="btn-xs btn btn-info" onclick="$('#confidence-help').toggle();return false" tabindex="-1">Help</button></label><br/>
-                        <div class="radio"><label>
+                        <a href="#" onclick="$('#confidence-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label><br/>
+                        <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-vstrong"
-                            value="vstrong" onclick="setConfidence('vstrong')"/>Very strong</label></div>
-                        <div class="radio"><label>
+                            value="vstrong" onclick="setConfidence('vstrong')"/>Very strong</label>
+                        <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-strong"
-                            value="strong" onclick="setConfidence('strong')"/>Strong</label></div>
-                        <div class="radio"><label>
+                            value="strong" onclick="setConfidence('strong')"/>Strong</label>
+                        <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-medium"
-                            value="medium" onclick="setConfidence('medium')"/>Medium</label></div>
-                        <div class="radio"><label>
+                            value="medium" onclick="setConfidence('medium')"/>Medium</label>
+                        <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-weak"
-                            value="weak" onclick="setConfidence('weak')"/>Weak</label></div>
-                        <div class="radio"><label>
+                            value="weak" onclick="setConfidence('weak')"/>Weak</label>
+                        <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-skip"
-                            value="skip" onclick="setConfidence('skip')"/>Skip</label></div>
+                            value="skip" onclick="setConfidence('skip')"/>Skip</label>
                         <div id="confidence-help" class="cwn-help">
                             <p>The confidence indicates how strongly you understand the term in question</p>
                             <ul>
@@ -75,34 +71,34 @@
                     </div>
                     <div class="form-group cwn-status">
                         <label for="status">Status
-                        <button class="btn-xs btn btn-info" onclick="$('#status-help').toggle();return false" tabindex="-1">Help</button></label><br/>
-                        <div class="radio"><label>
+                        <a href="#" onclick="$('#status-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label><br/>
+                        <label class="radio-inline">
                         <input type="radio" name="status" id="status-general"
-                            value="general" onclick="setStatus('general','${contextUrl}')"/>General</label></div>
-                        <div class="radio"><label>
+                            value="general" onclick="setStatus('general','${contextUrl}')"/>General</label>
+                        <label class="radio-inline">
                         <input type="radio" name="status" id="status-novel"
-                            value="novel" onclick="setStatus('novel', '${contextUrl}')"/>Novel</label></div>
-                        <div class="radio"><label>
+                            value="novel" onclick="setStatus('novel', '${contextUrl}')"/>Novel</label>
+                        <label class="radio-inline">
                         <input type="radio" name="status" id="status-vulgar"
-                            value="vulgar" onclick="setStatus('vulgar', '${contextUrl}')"/>Vulgar</label></div>
-                        <div class="radio"><label>
+                            value="vulgar" onclick="setStatus('vulgar', '${contextUrl}')"/>Vulgar</label>
+                        <label class="radio-inline">
                         <input type="radio" name="status" id="status-abbrev"
-                            value="abbrev" onclick="setStatus('abbrev', '${contextUrl}')"/>Abbreviation</label></div>
-                        <div class="radio"><label>
+                            value="abbrev" onclick="setStatus('abbrev', '${contextUrl}')"/>Abbreviation</label>
+                        <label class="radio-inline">
                         <input type="radio" name="status" id="status-misspell"
-                            value="misspell" onclick="setStatus('misspell', '${contextUrl}')"/>Misspelling</label></div>
-                        <div class="radio"><label>
+                            value="misspell" onclick="setStatus('misspell', '${contextUrl}')"/>Misspelling</label>
+                        <label class="radio-inline">
                         <input type="radio" name="status" id="status-inflected"
-                            value="inflected" onclick="setStatus('inflected', '${contextUrl}')"/>Inflected Form</label></div>
-                        <div class="radio"><label>
+                            value="inflected" onclick="setStatus('inflected', '${contextUrl}')"/>Inflected Form</label>
+                        <label class="radio-inline">
                         <input type="radio" name="status" id="status-name"
-                            value="name" onclick="setStatus('name', '${contextUrl}')"/>Name</label></div>
-                        <div class="radio"><label>
+                            value="name" onclick="setStatus('name', '${contextUrl}')"/>Name</label>
+                        <label class="radio-inline">
                         <input type="radio" name="status" id="status-nonlex"
-                            value="nonlex" onclick="setStatus('nonlex', '${contextUrl}')"/>Not Lexical</label></div>
-                        <div class="radio"><label>
+                            value="nonlex" onclick="setStatus('nonlex', '${contextUrl}')"/>Not Lexical</label>
+                        <label class="radio-inline">
                         <input type="radio" name="status" id="status-error"
-                            value="error" onclick="setStatus('error', '${contextUrl}')"/>Error</label></div>
+                            value="error" onclick="setStatus('error', '${contextUrl}')"/>Error</label>
                         <div id="status-help" class="cwn-help">
                             <p>The status indicates what kind of term this term is, note that "General", "Novel" and "Vulgar" are used for true terms, and "Abbreviation", "Misspelling", "Name", "Not Lexical" and "Error" for terms that will only be included in the ancillary data for Colloquial WordNet</p>
                             <ul>
@@ -120,7 +116,7 @@
                     </div>
                     <div class="form-group cwn-abbrev">
                         <label for="definition1">Short for
-                        <button class="btn btn-xs btn-info" onclick="$('#abbrev1-help').toggle();return false" tabindex="-1">Help</button>
+                        <a href="#" onclick="$('#abbrev1-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('abbrev');return false">Add</button></label>
                         <table id="abbrevs"></table>
                         <div id="abbrev1-help" class="cwn-help">
@@ -129,7 +125,7 @@
                     </div>
                     <div class="form-group cwn-misspell">
                         <label for="definition1">Correct spelling
-                        <button class="btn-xs btn btn-info" onclick="$('#misspell1-help').toggle();return false" tabindex="-1">Help</button>
+                        <a href="#" onclick="$('#misspell1-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('misspell');return false">Add</button></label>
                         <table id="misspells"></table>
                         <div id="misspell1-help" class="cwn-help">
@@ -138,7 +134,7 @@
                     </div>
                     <div class="form-group cwn-inflected">
                         <label for="definition1">Lemma form
-                        <button class="btn-xs btn btn-info" onclick="$('#inflected1-help').toggle();return false" tabindex="-1">Help</button>
+                        <a href="#" onclick="$('#inflected1-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('inflected');return false">Add</button></label>
                         <table id="inflecteds"></table>
                         <div id="inflected1-help" class="cwn-help">
@@ -149,48 +145,50 @@
 
 
 <script type="text/javascript">
-$(document).ready(function() {
-  $('.s2-basic').select2();
+window.onload = function() {
+    $(document).ready(function() {
+      $('.s2-basic').select2();
 
-#if(entry.status == "general" || entry.status == "novel" || entry.status == "vulgar")
-    #for ((sense,senseId) <- entry.senses.zipWithIndex)
-      addsense('${contextUrl}', '${sense.pos}','${sense.synonym.replaceAll("'","\\\\'")}','${sense.definition.replaceAll("'","\\\\'")}','${sense.definition.replaceAll("'","\\\\'")}','${sense.definition.replaceAll("'","\\\\'")}');
-        #for (rel <- sense.relations)
-      addrel('${contextUrl}', ${senseId + 1}, '${rel.`type`}', '${rel.target.replaceAll("'","\\\\'")}');
+    #if(entry.status == "general" || entry.status == "novel" || entry.status == "vulgar")
+        #for ((sense,senseId) <- entry.senses.zipWithIndex)
+          addsense('${contextUrl}', '${sense.pos}','${sense.synonym.replaceAll("'","\\\\'")}','${sense.definition.replaceAll("'","\\\\'")}','${sense.definition.replaceAll("'","\\\\'")}','${sense.definition.replaceAll("'","\\\\'")}');
+            #for (rel <- sense.relations)
+          addrel('${contextUrl}', ${senseId + 1}, '${rel.`type`}', '${rel.target.replaceAll("'","\\\\'")}');
+            #end
         #end
+        add_misspell_or_abbrev("abbrev");
+        add_misspell_or_abbrev("misspell");
+        add_misspell_or_abbrev("inflected");
+    #elseif(entry.status == "abbrev") 
+        #for (sense <- entry.senses)
+            add_misspell_or_abbrev("abbrev", '${sense.definition.replaceAll("'", "\\\\'")}');
+        #end
+        add_misspell_or_abbrev("misspell");
+        add_misspell_or_abbrev("inflected");
+    #elseif(entry.status == "misspell")
+        #for (sense <- entry.senses)
+            add_misspell_or_abbrev("misspell", '${sense.definition.replaceAll("'", "\\\\'")}');
+        #end
+        add_misspell_or_abbrev("abbrev");
+        add_misspell_or_abbrev("inflected");
+    #elseif(entry.status == "inflected")
+        #for (sense <- entry.senses)
+            add_misspell_or_abbrev("inflected", '${sense.definition.replaceAll("'", "\\\\'")}');
+        #end
+        add_misspell_or_abbrev("abbrev");
+        add_misspell_or_abbrev("misspell");
+    #else 
+        add_misspell_or_abbrev("misspell");
+        add_misspell_or_abbrev("abbrev");
+        add_misspell_or_abbrev("inflected");
     #end
-    add_misspell_or_abbrev("abbrev");
-    add_misspell_or_abbrev("misspell");
-    add_misspell_or_abbrev("inflected");
-#elseif(entry.status == "abbrev") 
-    #for (sense <- entry.senses)
-        add_misspell_or_abbrev("abbrev", '${sense.definition.replaceAll("'", "\\\\'")}');
-    #end
-    add_misspell_or_abbrev("misspell");
-    add_misspell_or_abbrev("inflected");
-#elseif(entry.status == "misspell")
-    #for (sense <- entry.senses)
-        add_misspell_or_abbrev("misspell", '${sense.definition.replaceAll("'", "\\\\'")}');
-    #end
-    add_misspell_or_abbrev("abbrev");
-    add_misspell_or_abbrev("inflected");
-#elseif(entry.status == "inflected")
-    #for (sense <- entry.senses)
-        add_misspell_or_abbrev("inflected", '${sense.definition.replaceAll("'", "\\\\'")}');
-    #end
-    add_misspell_or_abbrev("abbrev");
-    add_misspell_or_abbrev("misspell");
-#else 
-    add_misspell_or_abbrev("misspell");
-    add_misspell_or_abbrev("abbrev");
-    add_misspell_or_abbrev("inflected");
-#end
-    
+        
 
-  setConfidence('${entry.confidence}');
-  setStatus('${entry.status}');
-  $('#confidence-vstrong').focus();
-});
+      setConfidence('${entry.confidence}');
+      setStatus('${entry.status}');
+      $('#confidence-vstrong').focus();
+    });
+}
 </script>
                     <div class="cwn-sense">
                         <h3>Senses</h3>
@@ -205,5 +203,3 @@ $(document).ready(function() {
             </div>
         </div>
         <div style="height: 90vh;width: 25vw"></div>
-    </body>
-</html>

@@ -45,13 +45,13 @@
                                     #end
                                 #end
                                 #if (entry.status == "abbrev")
-                                    <p>Short for &ldquo;${entry.senses.head.definition}&rdquo;</p>
+                                    <p>Short for &ldquo;${entry.senses.headOption.map(_.definition).getOrElse("")}&rdquo;</p>
                                 #end
                                 #if (entry.status == "misspell")
-                                    <p>Misspelling of <a href="${contextUrl}/search?lemma=${entry.senses.head.definition}">${entry.senses.head.definition}</a></p>
+                                    <p>Misspelling of <a href="${contextUrl}/search?lemma=${entry.senses.headOption.map(_.definition).getOrElse("")}">${entry.senses.headOption.map(_.definition).getOrElse("")}</a></p>
                                 #end
                                 #if (entry.status == "inflected")
-                                    <p>Inflected form of <a href="${contextUrl}/search?lemma=${entry.senses.head.definition}">${entry.senses.head.definition}</a></p>
+                                    <p>Inflected form of <a href="${contextUrl}/search?lemma=${entry.senses.headOption.map(_.definition).getOrElse("")}">${entry.senses.headOption.map(_.definition).getOrElse("")}</a></p>
                                 #end
                             </div>
                         </div>

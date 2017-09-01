@@ -120,7 +120,7 @@
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('abbrev');return false">Add</button></label>
                         <table id="abbrevs"></table>
                         <div id="abbrev1-help" class="cwn-help">
-                            <p>Please give the full form of the term. If it is ambiguous include multiple terms separated with a semicolon (';')</p>
+                            <p>Please give the full form of the term. If it is ambiguous include multiple terms with the add button</p>
                         </div>
                     </div>
                     <div class="form-group cwn-misspell">
@@ -129,7 +129,7 @@
                         <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('misspell');return false">Add</button></label>
                         <table id="misspells"></table>
                         <div id="misspell1-help" class="cwn-help">
-                            <p>Please give the correct spelling of the term. If it is ambiguous include multiple terms separated with a semicolon (';')</p>
+                            <p>Please give the correct spelling of the term. If it is ambiguous include multiple terms with the add button</p>
                         </div>
                     </div>
                     <div class="form-group cwn-inflected">

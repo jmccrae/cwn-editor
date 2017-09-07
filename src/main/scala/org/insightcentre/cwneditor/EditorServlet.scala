@@ -1,18 +1,11 @@
 package org.insightcentre.cwneditor
 
 import java.io.File
+import spray.json._
 import org.scalatra._
 import scalate.ScalateSupport
-import spray.json._
 import scala.collection.JavaConversions._
 import scala.util.{Try, Success, Failure}
-
-object CWNEditorJsonProtocol extends DefaultJsonProtocol {
-  implicit val relationFormat = jsonFormat3(Relation)
-  implicit val senseFormat = jsonFormat5(Sense)
-  implicit val exampleFormat = jsonFormat1(Example)
-  implicit val entryFormat = jsonFormat6(Entry)
-}
 
 class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     import CWNEditorJsonProtocol._
@@ -21,10 +14,10 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     def urldecode(s : String) = java.net.URLDecoder.decode(s, "UTF-8")
 
-    lazy val store = new SQLDataStore(new File("cwn.db"))
-    lazy val login = SQLLogin
+    lazy val store = new db.DB(new File("cwn.db"))
+    lazy val login = store
     lazy val activeUsers = collection.mutable.HashMap[String, String]()
-    lazy val annoQueue = SQLAnnotationQueue
+    lazy val annoQueue = store
 
     def file2entry(f : File) = {
       val s = io.Source.fromFile(f)
@@ -37,6 +30,67 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     def loggedin = username != None
 
+    def getSynsets(syns : Seq[String]) : Map[String, SynsetWithMembers] = {
+      syns.toSet.flatMap((s: String) =>
+          store.getSynsetWithMembers(s).map(x => s -> x)).toMap
+    }
+
+    get("/json/entry/:name") {
+      store.getEntry(params("name")) match {
+        case Some(entry) =>
+          contentType = "application/json"
+          entry.toJson.toString
+        case None =>
+          NotFound(params("name"))
+      }
+    }
+
+    get("/json/synset/:name") {
+      store.getSynset(params("name")) match {
+        case Some(synset) =>
+          contentType = "application/json"
+          synset.toJson.toString
+        case None =>
+          NotFound(params("name"))
+      }
+    }
+
+    get("/synset/:name") {
+      store.getSynset(params("name")) match {
+        case Some(synset) =>
+          contentType = "text/html"
+          val entries = store.getSynsetEntries(params("name"))
+          val synsets = getSynsets(
+            synset.relations.map(_.trgSynset) ++
+            entries.flatMap(_.senses.flatMap(_.relations.map(_.trgSynset))))
+          ssp("/synset",
+              "contextUrl" -> context,
+              "synset" -> synset,
+              "synsets" -> synsets,
+              "entries" -> entries,
+              "loggedin" -> loggedin)
+        case None =>
+          pass
+      }
+    }
+
+    get("/entry/:name") {
+      store.getEntry(params("name")) match {
+        case Some(entry) =>
+          val synsets = getSynsets(entry.senses.map(_.synset) ++
+            entry.senses.flatMap(_.relations.map(_.trgSynset)))
+          contentType = "text/html"
+          ssp("/entry",
+              "contextUrl" -> context,
+              "entry" -> entry,
+              "synsets" -> synsets,
+              "loggedin" -> loggedin)
+          case None =>
+            // TODO: Add to queue
+            pass
+      }
+    }
+
     get("/search") {
       params.get("lemma") match {
         case Some(lemma) =>
@@ -44,9 +98,13 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
           val files = store.search(k).map({
             case (id, e) => (e, id)
           })
+          val syns = files.map(_._1).flatMap({ e =>
+            if(e.validEntry) { e.senses.map(_.synset) } else { Nil }
+          }).toSet.flatMap((s:String) => store.getSynset(s).map(x => s -> x)).toMap
           contentType = "text/html"
           ssp("/summary",
             "files" -> files,
+            "synsets" -> syns,
             "contextUrl" -> context,
             "loggedin" -> loggedin,
             "search" -> true)
@@ -90,9 +148,13 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         f => 
           (store.get(f).get, f)
       }).filter(x => x._1.status != "nonlex" && x._1.status != "skip" && x._1.status != "name" && x._1.status != "error")
+      val syns = files.map(_._1).flatMap({ e =>
+        if(e.validEntry) { e.senses.map(_.synset) } else { Nil }
+      }).toSet.flatMap((s:String) => store.getSynset(s).map(x => s -> x)).toMap
       contentType = "text/html"
       ssp("/summary",
         "files" -> files,
+        "synsets" -> syns,
         "next" -> (page + 1).toString,
         "contextUrl" -> context,
         "loggedin" -> loggedin)
@@ -264,12 +326,14 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                             val rels = relIds.map({ rid  =>
                               Try(params(s"relType$id-$rid")) flatMap { relType =>
                                 Try(params(s"relTarget$id-$rid")) flatMap { relTarget =>
-                                  Success(Relation(relType, relTarget, rid))
+                                  Success(Relation(relType, "TODO", relTarget))
                                 }
                               }
                             }).filter(_.map(_.`type` != "none").getOrElse(true))
                             reduceTries(rels) flatMap { rels =>
-                              Success(Sense(pos, defn, synonym, rels.toList, id))
+                              //Success(Sense(pos, defn, synonym, rels.toList, id))
+                              // TODO
+                              Success(Sense(rels.toList, synonym))
                             }
                           }
                         }
@@ -277,22 +341,22 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                     }
                   })
                   reduceTries(senses) flatMap { senses =>
-                    Success(Entry(lemma, confidence, entry.examples, status, senses.toList, editorId))
+                    Success(Entry(lemma, confidence, entry.examples, status, senses.toList))
                   }
                 } else if(status == "abbrev") {
                   val abbrevs = params.keys.filter(_.matches("abbrev\\d+")).map(k => params(k))
                   Success(Entry(lemma, confidence, entry.examples, status, 
-                    abbrevs.map(a => Sense("x", a, "", Nil, 1)).toList, editorId))
+                    abbrevs.map(a => Sense(Nil, a)).toList))
                 } else if(status == "misspell") {
                   val abbrevs = params.keys.filter(_.matches("misspell\\d+")).map(k => params(k))
                   Success(Entry(lemma, confidence, entry.examples, status, 
-                    abbrevs.map(a => Sense("x", a, "", Nil, 1)).toList, editorId))
+                    abbrevs.map(a => Sense(Nil, a)).toList))
                 } else if(status == "inflected") {
                   val abbrevs = params.keys.filter(_.matches("inflected\\d+")).map(k => params(k))
                   Success(Entry(lemma, confidence, entry.examples, status, 
-                    abbrevs.map(a => Sense("x", a, "", Nil, 1)).toList, editorId))
+                    abbrevs.map(a => Sense(Nil, a)).toList))
                 } else {
-                  Success(Entry(lemma, confidence, entry.examples, status, Nil, editorId))
+                  Success(Entry(lemma, confidence, entry.examples, status, Nil))
                 }
               }
             }

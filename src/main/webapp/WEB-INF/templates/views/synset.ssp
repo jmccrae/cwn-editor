@@ -1,0 +1,76 @@
+<% import org.insightcentre.cwneditor._ %>
+<% import spray.json._ %>
+<% import CWNEditorJsonProtocol._ %>
+<%@ var contextUrl:String %>
+<%@ var synset : Synset %>
+<%@ var synsets : Map[String, SynsetWithMembers] %>
+<%@ var entries : Seq[Entry] %>
+<%@ var loggedin: Boolean %>
+<% attributes("loggedin") = loggedin %>
+<% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
+<% attributes("contextUrl") = contextUrl %>
+<% attributes("title") = "Colloquial WordNet Editor" %>
+
+<div class="container" ng-app="app">
+    <div class="row" ng-controller="SynsetController">
+        <h1 ng-bind="id"></h1>
+        <hr>
+        <div class="synset-definition">
+            Definition: <span class="synset-definition" ng-bind="definition">
+        </div>
+        <hr>
+        <div class="synset-relations">
+            <h3>Synset Relations</h3>
+            <ul>
+                <li ng-repeat="relation in relations">
+                    <span ng-bind="relation.type"></span> &#8594;
+                    <span ng-controller="ExtSynsetController">
+                        <a ng-href="${contextUrl}/synset/{{id}}">
+                            <span ng-bind="lemmas.join(', ')"></span></a>
+                            <i ng-bind="definition"></i>
+                        </a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="synset-members">
+            <h3>Synset Members</h3>
+            <div ng-repeat="entry in members">
+                <b ng-bind="entry.lemma"></b>
+                <span ng-repeat="sense in entry.senses">
+                    <ul ng-if="sense.synset === id">
+                        <li ng-repeat="relation in sense.relations">
+                        <span ng-bind="relation.type"></span> &#8594;
+                        <span ng-controller="ExtSynsetController">
+                        <a ng-href="${contextUrl}/synset/{{id}}">
+                            <span ng-bind="lemmas.join(', ')"></span></a>
+                        <i ng-bind="definition"></i>
+                        </span>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+var synsets = ${unescape(synsets.toJson.toString)};
+
+angular.module('app', []);
+
+angular.module('app').controller('SynsetController', function($scope) {
+    $scope.id = "${synset.id}";
+    $scope.definition = "${unescape(synset.definition.replaceAll("\\\"","\\\\\""))}";
+    $scope.relations = ${unescape(synset.relations.toJson.toString)};
+    $scope.members = ${unescape(entries.toJson.toString)};
+});
+
+angular.module('app').controller('ExtSynsetController', function($scope) {
+    var ss = synsets[$scope.$parent.relation.trgSynset];
+    if(ss) {
+        $scope.lemmas = ss.lemmas;
+        $scope.id = $scope.$parent.relation.trgSynset;
+        $scope.definition = ss.definition;
+    }
+});
+</script>

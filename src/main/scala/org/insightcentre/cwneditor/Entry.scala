@@ -1,11 +1,22 @@
 package org.insightcentre.cwneditor
+import spray.json._
+
+object CWNEditorJsonProtocol extends DefaultJsonProtocol {
+  implicit val synsetRelationFormat = jsonFormat2(SynsetRelation)
+  implicit val relationFormat = jsonFormat3(Relation)
+  implicit val synsetFormat = jsonFormat4(Synset)
+  implicit val synsetWithMembersFormat = jsonFormat5(SynsetWithMembers)
+  implicit val senseFormat = jsonFormat2(Sense)
+  implicit val exampleFormat = jsonFormat1(Example)
+  implicit val entryFormat = jsonFormat5(Entry)
+}
 
 case class Entry(val lemma : String, 
     val confidence : String,
     val examples : List[Example],
-    status : String, senses : List[Sense], editorId : String) {
+    status : String, senses : List[Sense]) {
   def addExample(example : String) = Entry(lemma, confidence,
-    Example(example) :: examples, status, senses, editorId)
+    Example(example) :: examples, status, senses)
 
   def validEntry = status match {
     case "" => false
@@ -27,30 +38,16 @@ object Entrys {
 case class Example(text : String)
 
 case class Sense(
-    pos : String,
-    definition : String,
-    synonym : String,
     relations : List[Relation],
-    id : Int) {
-  def isSyn = synonym != ""
-  def synWord = synonym match {
-    case Entrys.DEFN_REGEX(w, _, _) => w
-    case x => x
-  }
-  def synDefn = synonym match {
-    case Entrys.DEFN_REGEX(_, d, _) => d
-    case _ => ""
-  }
-  def synLink = synonym match {
-    case Entrys.DEFN_REGEX(_, _, l) => {
-      if(l.startsWith("i")) {
-        "http://ili.globalwordnet.org/ili/" + l
-      } else {
-        "http://colloqwn.linguistic-lod.org/show/" + l
-      }
-    }
-    case _ => ""
-  }
+    synset : String) {
+}
+
+case class Synset(
+  id : String,
+  pos : String,
+  definition : String,
+  relations : List[SynsetRelation]
+) {
   def partOfSpeech = pos match {
     case "n" => "noun"
     case "v" => "verb"
@@ -60,23 +57,13 @@ case class Sense(
   }
 }
 
-case class Relation(`type` : String, target : String, relNo : Int) {
-  def trgWord = target match {
-    case Entrys.DEFN_REGEX(w, _, _) => w
-    case x => x
-  }
-  def trgDefn = target match {
-    case Entrys.DEFN_REGEX(_, d, _) => d
-    case _ => ""
-  }
-  def trgLink = target match {
-    case Entrys.DEFN_REGEX(_, _, l) => {
-      if(l.startsWith("i")) {
-        "http://ili.globalwordnet.org/ili/" + l
-      } else {
-        "http://colloqwn.linguistic-lod.org/show/" + l
-      }
-    }
-    case _ => ""
-  }
-}
+case class SynsetWithMembers(
+  id : String,
+  pos : String,
+  definition : String,
+  relations : List[SynsetRelation],
+  lemmas : List[String])
+
+case class Relation(`type` : String, trgWord : String, trgSynset : String)
+
+case class SynsetRelation(`type` : String, trgSynset : String) 

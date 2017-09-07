@@ -1,5 +1,5 @@
 <% import org.insightcentre.cwneditor._ %>
-<%@ var queue:List[AnnotationQueueEntry] %>
+<%@ var queue:List[db.AnnotationQueueEntry] %>
 <%@ var contextUrl:String %>
 <%@ var loggedin: Boolean %>
 <% attributes("loggedin") = loggedin %>

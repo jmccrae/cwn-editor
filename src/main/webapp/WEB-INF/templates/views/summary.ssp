@@ -1,5 +1,8 @@
 <% import org.insightcentre.cwneditor._ %>
+<% import spray.json._ %>
+<% import CWNEditorJsonProtocol._ %>
 <%@ var files:Seq[(Entry, String)] %>
+<%@ var synsets:Map[String,Synset] %>
 <%@ var contextUrl:String %>
 <%@ var next:String = "" %>
 <%@ var loggedin: Boolean %>
@@ -9,61 +12,67 @@
 <% attributes("contextUrl") = contextUrl %>
 <% attributes("title") = "Colloquial WordNet Editor" %>
 
-        <div class="container">
-            <div class="row">
-                #if (search)
-                <h1>Search Results</h1>
-                #else
-                <h1>Summary</h1>
-                #end
-                #if (files.isEmpty)
-                <p>No Results!</p>
-                #end
-
-                <div class="entries-row">
-                    #for ((entry,name) <- files)
-                        <div class="summary-entry col-xs-12 col-sm-12 col-md-5">
-                            <div class="summary-heading">
-                                <h3>
-                                    <img src="${contextUrl}/assets/${entry.status}.png" class="status-icon" title="${entry.status}"/>
-                                    ${entry.lemma} &#160;&#160;<span class="entry-id">&lt;${name}&gt;</span>
-                                    <a class="pull-right edit-icon" href="${contextUrl}/edit/${name}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                </h3>
-                            </div>
-                            <div class="summary-body">
-                                #if (entry.validEntry)
-                                    #for (sense <- entry.senses)
-                                        <hr>
-                                        #if (sense.synonym == "")
-                                            <p>(${sense.partOfSpeech}) ${sense.definition}</p>
-                                            #for (relation <- sense.relations)
-                                                <p>${relation.`type`} &#8594; <a href="${relation.trgLink}">${relation.trgWord}</a> <span class="entry-defn">${relation.trgDefn}</span></p>
-                                            #end
-                                        #else
-                                            <p>See <a href="${sense.synLink}">${sense.synWord}</a> <span class="entry-defn">${sense.synDefn}</span></p>
-                                        #end
-                                    #end
-                                #end
-                                #if (entry.status == "abbrev")
-                                    <p>Short for &ldquo;${entry.senses.headOption.map(_.definition).getOrElse("")}&rdquo;</p>
-                                #end
-                                #if (entry.status == "misspell")
-                                    <p>Misspelling of <a href="${contextUrl}/search?lemma=${entry.senses.headOption.map(_.definition).getOrElse("")}">${entry.senses.headOption.map(_.definition).getOrElse("")}</a></p>
-                                #end
-                                #if (entry.status == "inflected")
-                                    <p>Inflected form of <a href="${contextUrl}/search?lemma=${entry.senses.headOption.map(_.definition).getOrElse("")}">${entry.senses.headOption.map(_.definition).getOrElse("")}</a></p>
-                                #end
-                            </div>
-                        </div>
-                    #end
+<div class="container" ng-app="app">
+    <div class="row">
+#if (search)
+        <h1>Search Results</h1>
+#else
+        <h1>Summary</h1>
+#end
+        <div class="entries-row" ng-controller="SummaryController">
+            <div class="summary-entry col-xs-12 col-sm-12 col-md-5" ng-repeat="entry in results">
+                <div class="summary-heading">
+                    <h3>
+                        <img ng-src="${contextUrl}/assets/{{entry.status}}.png"
+                             class="status-icon"
+                             ng-title="{{entry.status}}"/>
+                        <span ng-bind="entry.lemma"></span>
+                        <a class="pull-right edit-icon"
+                           ng-href="${contextUrl}/edit/{{entry.lemma}}">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </a>
+                    </h3>
+                </div>
+                <div class="summary-body" 
+                   ng-if="entry.status === 'general' || entry.status === 'novel' || entry.status === 'vulgar'">
+                    <span ng-repeat="sense in entry.senses">
+                        <hr>
+                        <p><span ng-controller="SynsetController">(<span ng-bind="partOfSpeech"></span>) <span ng-bind="definition"></span></span>
+                        <a ng-href="${contextUrl}/synset/{{sense.synset}}">&lt;<span ng-bind="sense.synset"></span>&gt;</a></p>
+                        <p ng-repeat="relation in sense.relations">
+                            <span ng-bind="relation.type"></span> &#8594; <a 
+                            ng-href="${contextUrl}/entry/{{relation.trgWord}}"
+                            ng-bind="relation.trgWord">
+                        </a></p>
+                    </span>
+                </div>
+                <div class="summary-body"
+                    ng-if="entry.status === 'abbrev'">
+                    <p>Short for &ldquo;<a 
+                        ng-href="${contextUrl}/entry/{{entry.senses[0].synset}}"
+                        ng-bind="entry.senses[0].synset"></a>&rdquo;</p>
+                </div>
+                <div class="summary-body"
+                    ng-if="entry.status === 'misspell'">
+                    <p>Misspelling of &ldquo;<a
+                        ng-href="${contextUrl}/entry/{{entry.senses[0].synset}}"
+                        ng-bind="entry.senses[0].synset"></a>&rdquo;</p>
+                </div>
+                <div class="summary-body"
+                    ng-if="entry.status === 'inflected'">
+                    <p>Inflected form of &ldquo;<a
+                        ng-href="${contextUrl}/entry/{{entry.senses[0].synset}}"
+                        ng-bind="entry.senses[0].synset"></a>&rdquo;</p>
                 </div>
             </div>
-            <div class="row">
-                #if (next != "")
-                <h3><a href="${contextUrl}/summary/${next}">Next</a></h3>
-                #end
-            </div>
         </div>
+        <div class="row">
+#if (next != "")
+            <h3><a href="${contextUrl}/summary/${next}">Next</a></h3>
+#end
+        </div>
+    </div>
+</div>
     <!-- Man Swearing by Gan Khoon Lay from the Noun Project -->
     <!-- baby bottle by Tomasz Pasternak from the Noun Project -->
     <!-- novels by Made by Made from the Noun Project -->
@@ -71,3 +80,32 @@
     <!-- Question by Kid A from the Noun Project -->
     <!-- Arrow by Vladimir Belochkin from the Noun Project -->
     <!-- Pencil by myladkings from the Noun Project -->
+<script>
+var synsets = ${unescape(synsets.toJson.toString)};
+
+angular.module('app', []);
+
+angular.module('app').controller('SummaryController', function($scope) {
+    $scope.results = [
+#for((f,_) <- files) 
+    ${unescape(f.toJson.toString)},
+#end
+    ];
+});
+
+angular.module('app').controller('SynsetController', function($scope,$http) {
+    //$http({
+    //    "method": "GET",
+    //    "url": "${contextUrl}/json/synset/" + $scope.$parent.sense.synset
+    //}).then(function(response) {
+    //    $scope.definition = response.data.definition;
+    //    $scope.partOfSpeech = response.data.pos;
+    //}, function(response) { 
+    //});
+    var ss = synsets[$scope.$parent.sense.synset];
+    if(ss) {
+        $scope.definition = ss.definition;
+        $scope.partOfSpeech = ss.pos;
+    }
+});
+</script>

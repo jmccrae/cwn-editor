@@ -37,7 +37,9 @@
         <div class="synset-members">
             <h3>Synset Members</h3>
             <div ng-repeat="entry in members">
-                <b ng-bind="entry.lemma"></b>
+                <a ng-href="${contextUrl}/entry/{{entry.lemma}}">
+                    <b ng-bind="entry.lemma"></b>
+                </a>
                 <span ng-repeat="sense in entry.senses">
                     <ul ng-if="sense.synset === id">
                         <li ng-repeat="relation in sense.relations">

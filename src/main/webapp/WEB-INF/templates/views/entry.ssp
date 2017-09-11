@@ -14,24 +14,41 @@
     <div class="row" ng-controller="EntryController">
         <h1 ng-bind="entry.lemma"></h1>
         <hr>
-        <h3>Examples</h3>
-        <blockquote>
-            <p ng-repeat="example in entry.examples" ng-bind="example.text"></p>
-        </blockquote>
+        <span ng-show="has_examples">
+            <h3>Examples</h3>
+            <blockquote>
+                <p ng-repeat="example in entry.examples" ng-bind="example.text"></p>
+            </blockquote>
+        </span>
         <p><b>Confidence:</b> <span ng-bind="entry.confidence"/></p>
         <p><b>Status:</b> <span ng-bind="entry.status"/></p>
         <span ng-repeat="sense in entry.senses">
             <div class="panel panel-info">
-                <div class="panel-heading" ng-bind="sense.synset"></div>
+                <div class="panel-heading" ng-controller="ExtSynsetHeader">
+                    <a ng-href="${contextUrl}/synset/{{id}}">
+                        <span ng-bind="lemmas.join(', ')"></span></a>
+                </div>
                 <div class="panel-body">
+                    <i ng-controller="ExtSynsetHeader" ng-bind="definition" class="definition"></i>
                     <ul>
+                        <span ng-controller="ExtSynsetHeader">
+                        <li ng-repeat="relation in relations">
+                            <span ng-bind="relation.type"></span> &#8594;
+                            <span ng-controller="ExtSynsetController">
+                                <a ng-href="${contextUrl}/synset/{{id}}">
+                                    <span ng-bind="lemmas.join(', ')"></span>
+                                </a>
+                                <i ng-bind="definition" class="definition"></i>
+                            </span>
+                        </li>
+                        </span>
                         <li ng-repeat="relation in sense.relations">
                             <span ng-bind="relation.type"></span> &#8594;
                             <span ng-controller="ExtSynsetController">
-                            <a ng-href="${contextUrl}/synset/{{id}}">
-                            <span ng-bind="lemmas.join(', ')"></span></a>
-                            <i ng-bind="definition"></i>
-                            </a>
+                                <a ng-href="${contextUrl}/synset/{{id}}">
+                                    <span ng-bind="lemmas.join(', ')"></span>
+                                </a>
+                                <i ng-bind="definition" class="definition"></i>
                             </span>
                         </li>
                     </ul>
@@ -47,6 +64,7 @@ angular.module('app', []);
 
 angular.module('app').controller('EntryController', function($scope) {
     $scope.entry = ${unescape(entry.toJson.toString)};
+    $scope.has_examples = $scope.entry.examples.length > 0;
 });
 angular.module('app').controller('ExtSynsetController', function($scope) {
     var ss = synsets[$scope.$parent.relation.trgSynset];
@@ -54,6 +72,15 @@ angular.module('app').controller('ExtSynsetController', function($scope) {
         $scope.lemmas = ss.lemmas;
         $scope.id = $scope.$parent.relation.trgSynset;
         $scope.definition = ss.definition;
+    }
+});
+angular.module('app').controller('ExtSynsetHeader', function($scope) {
+    var ss = synsets[$scope.$parent.sense.synset];
+    if(ss) {
+        $scope.lemmas = ss.lemmas;
+        $scope.id = $scope.$parent.sense.synset;
+        $scope.definition = ss.definition;
+        $scope.relations = ss.relations;
     }
 });
 </script>

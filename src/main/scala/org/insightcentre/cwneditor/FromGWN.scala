@@ -138,7 +138,8 @@ object FromGWN {
 
     var cwns = 0
 
-    val cwnSynsets = (gwn \\ "Synset").map({ s =>
+    val cwnSynsets = (gwn \\ "Synset")
+    .map({ s =>
       cwns += 1
       val id = s"c$cwns"
       (s \ "@id").text -> Synset(
@@ -191,7 +192,11 @@ object FromGWN {
     val synsets2 : Map[String, Synset] = (cwnSynsets ++ pwnSynsets)
     val synsets = synsets2.mapValues({ s =>
       s.copy(relations=s.relations.map({sr =>
-        sr.copy(trgSynset=synsets2(sr.trgSynset).id)
+        if(sr.trgSynset.matches("[icp]\\d+")) {
+          sr
+        } else {
+          sr.copy(trgSynset=synsets2(sr.trgSynset).id)
+        }
       }))
     })
 

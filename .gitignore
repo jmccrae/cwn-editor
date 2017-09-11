@@ -21,3 +21,10 @@ users.db
 queue.db
 data-old/
 transgender-tweets.txt.gz
+
+colloqwn-corrections.csv
+colloqwn-examples.tsv
+cwn-old.db
+queue-all.csv.gz
+wn31.xml
+

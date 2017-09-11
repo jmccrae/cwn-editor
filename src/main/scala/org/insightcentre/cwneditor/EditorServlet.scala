@@ -78,7 +78,9 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       store.getEntry(params("name")) match {
         case Some(entry) =>
           val synsets = getSynsets(entry.senses.map(_.synset) ++
-            entry.senses.flatMap(_.relations.map(_.trgSynset)))
+            entry.senses.flatMap(_.relations.map(_.trgSynset)) ++
+            entry.senses.flatMap(s => store.getSynset(s.synset).toSeq.flatMap(ss =>
+                ss.relations.map(_.trgSynset))))
           contentType = "text/html"
           ssp("/entry",
               "contextUrl" -> context,

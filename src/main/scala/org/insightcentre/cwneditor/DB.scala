@@ -243,9 +243,11 @@ class DB(db : File) {
   }
 
   def find(s : String) : List[WordNetEntry] = withSession(conn) { implicit session =>
-    sql"""SELECT id, word, definition FROM entries 
-          WHERE definition != "" AND word LIKE ${s + "%"} 
-          ORDER BY length(word) LIMIT 20""".as3[String, String, String].flatMap({
+    sql"""SELECT synsets.ili, entries.lemma, synsets.definition FROM entries 
+          JOIN entry_synset ON entries.id == entry_synset.entry
+          JOIN synsets ON synsets.id == entry_synset.synset
+          WHERE definition != "" AND lemma LIKE ${s + "%"} 
+          ORDER BY length(lemma) LIMIT 50""".as3[String, String, String].flatMap({
             case (id, word, defn) => defn.split(";;;").map({ defn =>
               WordNetEntry(word, id, defn)
             })

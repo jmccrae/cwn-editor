@@ -1,8 +1,10 @@
 <% import org.insightcentre.cwneditor._ %>
-<%@ var error:Option[String] %>
-<%@ var entryId:String %>
-<%@ var entry:Entry %>
+<% import spray.json._ %>
+<% import CWNEditorJsonProtocol._ %>
 <%@ var contextUrl:String %>
+<%@ var error:Option[String] %>
+<%@ var entry:Entry %>
+<%@ var synsets : Map[String, SynsetWithMembers] %> 
 <%@ var loggedin: Boolean %>
 <% attributes("loggedin") = loggedin %>
 <% attributes("layout") = "/WEB-INF/templates/layouts/default.ssp" %>
@@ -19,20 +21,21 @@
                 <div class="alert alert-danger">Error: ${err}</div>
                 #otherwise
                 #end
-                <form action="${contextUrl}/update/${entryId}" ng-controller="CWNEditController">
-                    <div class="form-group">
+                <form ng-action="${contextUrl}/update/{{entry.lemma}}" ng-controller="CWNEditController">
+                   <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"
-                               id="lemma" name="lemma" ng-model="lemma" readonly/>
+                               id="lemma" name="lemma" ng-model="entry.lemma" readonly/>
 <!--value="{if(entry.lemma.startsWith("*")) entry.lemma.drop(1) else entry.lemma }" readonly/>-->
                     </div>
-                    <div class="alert alert-info" ng-show="lemma.startsWith('*')">This term already appears in WordNet but may be a new sense</div>
+                    <div class="alert alert-info" ng-show="entry.lemma.startsWith('*')">This term already appears in WordNet but may be a new sense</div>
                     <div class="form-group">
                         <label>Example
                         <a href="#" onclick="$('#examples-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label>
-<blockquote>
-                            <p ng-repeat="examples">{{text}}</p>
-</blockquote>
+                        <blockquote>
+                            <p ng-repeat="example in entry.examples" 
+                               ng-bind="example.text"></p>
+                        </blockquote>
                         <div id="examples-help" class="cwn-help">
                             <p>These are some examples from Twitter to help you check you understand the term</p>
                         </div>
@@ -42,19 +45,19 @@
                         <a href="#" onclick="$('#confidence-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label><br/>
                         <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-vstrong"
-                            value="vstrong" onclick="setConfidence('vstrong')" ng-model="confidence"/>Very strong</label>
+                            value="vstrong" ng-model="entry.confidence"/>Very strong</label>
                         <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-strong"
-                            value="strong" onclick="setConfidence('strong')" ng-model="confidence"/>Strong</label>
+                            value="strong" ng-model="entry.confidence"/>Strong</label>
                         <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-medium"
-                            value="medium" onclick="setConfidence('medium')" ng-model="confidence"/>Medium</label>
+                            value="medium" ng-model="entry.confidence"/>Medium</label>
                         <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-weak"
-                            value="weak" onclick="setConfidence('weak')" ng-model="confidence"/>Weak</label>
+                            value="weak" ng-model="entry.confidence"/>Weak</label>
                         <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-skip"
-                            value="skip" onclick="setConfidence('skip')" ng-model="confidence"/>Skip</label>
+                            value="skip" ng-model="entry.confidence"/>Skip</label>
                         <div id="confidence-help" class="cwn-help">
                             <p>The confidence indicates how strongly you understand the term in question</p>
                             <ul>
@@ -66,36 +69,36 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="form-group cwn-status">
+                    <div class="form-group" ng-show="entry.confidence != 'skip'">
                         <label for="status">Status
                         <a href="#" onclick="$('#status-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label><br/>
                         <label class="radio-inline">
                         <input type="radio" name="status" id="status-general"
-                            value="general" onclick="setStatus('general','${contextUrl}')" ng-model="status"/>General</label>
+                            value="general" ng-model="entry.status"/>General</label>
                         <label class="radio-inline">
                         <input type="radio" name="status" id="status-novel"
-                            value="novel" onclick="setStatus('novel', '${contextUrl}')" ng-model="status"/>Novel</label>
+                            value="novel" ng-model="entry.status"/>Novel</label>
                         <label class="radio-inline">
                         <input type="radio" name="status" id="status-vulgar"
-                            value="vulgar" onclick="setStatus('vulgar', '${contextUrl}')" ng-model="status"/>Vulgar</label>
+                            value="vulgar" ng-model="entry.status"/>Vulgar</label>
                         <label class="radio-inline">
                         <input type="radio" name="status" id="status-abbrev"
-                            value="abbrev" onclick="setStatus('abbrev', '${contextUrl}')" ng-model="status"/>Abbreviation</label>
+                            value="abbrev" ng-model="entry.status"/>Abbreviation</label>
                         <label class="radio-inline">
                         <input type="radio" name="status" id="status-misspell"
-                            value="misspell" onclick="setStatus('misspell', '${contextUrl}')" ng-model="status"/>Misspelling</label>
+                            value="misspell" ng-model="entry.status"/>Misspelling</label>
                         <label class="radio-inline">
                         <input type="radio" name="status" id="status-inflected"
-                            value="inflected" onclick="setStatus('inflected', '${contextUrl}')" ng-model="status"/>Inflected Form</label>
+                            value="inflected" ng-model="entry.status"/>Inflected Form</label>
                         <label class="radio-inline">
                         <input type="radio" name="status" id="status-name"
-                            value="name" onclick="setStatus('name', '${contextUrl}')" ng-model="status"/>Name</label>
+                            value="name" ng-model="entry.status"/>Name</label>
                         <label class="radio-inline">
                         <input type="radio" name="status" id="status-nonlex"
-                            value="nonlex" onclick="setStatus('nonlex', '${contextUrl}')" ng-model="status"/>Not Lexical</label>
+                            value="nonlex" ng-model="entry.status"/>Not Lexical</label>
                         <label class="radio-inline">
                         <input type="radio" name="status" id="status-error"
-                            value="error" onclick="setStatus('error', '${contextUrl}')" ng-model="status"/>Error</label>
+                            value="error" ng-model="entry.status"/>Error</label>
                         <div id="status-help" class="cwn-help">
                             <p>The status indicates what kind of term this term is, note that "General", "Novel" and "Vulgar" are used for true terms, and "Abbreviation", "Misspelling", "Name", "Not Lexical" and "Error" for terms that will only be included in the ancillary data for Colloquial WordNet</p>
                             <ul>
@@ -111,56 +114,484 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="form-group cwn-abbrev" ng-show="status=='abbrev'">
-                        <label for="definition1">Short for
+                    <div class="cwn-sense" ng-show="entry.status && (entry.status == 'general' || entry.status == 'novel' || entry.status == 'vulgar')">
+                        <h3>Senses</h3>
+                    </div>
+                    <div class="panel panel-info cwn-sense" 
+                            ng-repeat="sense in entry.senses" 
+                            ng-show="entry.status && (entry.status == 'general' || entry.status == 'novel' || entry.status == 'vulgar')">
+                        <div class="panel-heading">Sense <span ng-bind="sense.id"></span>
+                            <button type="button" class="close pull-right" 
+                             ng-click="removeSense(sense.id)">&times;</button>
+                        </div>
+                        <div class="panel-body">
+                        <div class="form-group">
+                            <label>Part of Speech
+                                <a href="" ng-click="togglePosHelp(sense.id)"
+                                tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            </label><br/>
+                            <label class="radio-inline">
+                                <input type="radio" value="n" 
+                                 readonly
+                                 ng-disabled="sense.external"
+                                 ng-model="sense.synset.pos"/>Noun</label>
+                            <label class="radio-inline">
+                                <input type="radio" value="v" 
+                                 ng-disabled="sense.external"
+                                 ng-model="sense.synset.pos"/>Verb</label>
+                            <label class="radio-inline">
+                                <input type="radio" value="a" 
+                                 ng-disabled="sense.external"
+                                 ng-model="sense.synset.pos"/>Adjective</label>
+                            <label class="radio-inline">
+                                <input type="radio" value="r" 
+                                 ng-disabled="sense.external"
+                                 ng-model="sense.synset.pos"/>Adverb</label>
+                            <label class="radio-inline">
+                                <input type="radio" value="x" 
+                                 ng-disabled="sense.external"
+                                 ng-model="sense.synset.pos"/>Other</label>
+                            <div ng-attr-id="pos{{sense.id}}-help" class="cwn-help">
+                                <p>Please give the part-of-speech associated with this sense of the term or phrase. 
+                                "Other" is used for interjections such as "wow!" or "gosh!".</p>
+                            </div>
+                       </div>
+                       <div class="form-group">
+                          <label>Synonym
+                            <a href="" ng-click="toggleSynonymHelp(sense.id)" 
+                             tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label>
+                          </label>
+                            <div ng-controller="SynAutoComplete as ctrl" layout="column" ng-cloak="">
+                              <md-content class="md-padding">
+                                <md-autocomplete 
+                                    md-selected-item="ctrl.selectedItem" 
+                                    md-selected-item-change="ctrl.selectedItemChange(item)"
+                                    md-search-text="ctrl.searchText" 
+                                    md-items="item in ctrl.querySearch(ctrl.searchText)" 
+                                    md-item-text="item.display" 
+                                    md-min-length="2" 
+                                    placeholder="Synset">
+                                   <md-item-template>
+                                     <span md-highlight-text="ctrl.searchText" md-highlight-flags="^i">{{item.display}}</span>
+                                   </md-item-template>
+                                   <md-not-found>
+                                     Not in dictionary
+                                   </md-not-found>
+                                </md-autocomplete>
+                              </md-content>
+                            </div>
+                          <div id="synonym{{sense.id}}-help" class="cwn-help">
+                            <p>Please first type in suitable synonym terms to find any likely terms that are already in Colloquial or Princeton WordNet. If you find a suitable term select it from the drop-down, otherwise leave <b>Synonym</b> blank and enter a definition below.</p>
+                         </div>
+                      </div>
+                       <div class="form-group">
+                        <label>Definition
+                        <a href="" ng-click="toggleDefinitionHelp(sense.id)" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label>
+                        <input type="text" class="form-control" 
+                        ng-disabled="sense.external"
+                        ng-model="sense.synset.definition"/>
+                        </label>
+                        <div ng-attr-id="definition{{sense.id}}-help" class="cwn-help">
+                            <p>(only if you cannot find a synonym term) Please give a definition of this term that describes it well. A good definition consists of a <i>genus</i> and a <i>differentia</i>. The genus is the type of thing that a word is e.g., "parkour" is a "training discipline", and the differentia is a criteria that unambiguously identifiers this word, e.g., "using movement that developed from military obstacle course training". It is advised that you use definitions from other sources and if you do so please include the source in square brackets after the definition, e.g., "A training discipline using movement that developed from military obstacle course training [Wikipedia]".</p>
+                        </div>
+                    </div>
+                    <div class="alert alert-danger" ng-show="sense.synonym && sense.synonym != '' && sense.synset.definition && sense.synset.definition != ''">
+                        Error: please set either the synonym or the definition (not both)!
+                    </div>
+                    <div class="form-group cwn-sense">
+                        <table class="table table-striped" ng-attr-id="relTable{{sense.id}}">
+                            <thead>
+                                <tr>
+                                    <th style="margin-right:10px;">Relation
+                            <a href="" ng-click="toggleRelationHelp(sense.id)" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                            <button class="btn btn-xs btn-success" 
+                             ng-click="addRel(sense)"
+                             type="button">Add</button>
+                                    </th>
+                                    <th>Target</th>
+                                    <th width="12%"></th>
+                                </tr>
+                            <thead>
+                            <tr ng-repeat="relation in sense.relations">
+                              <td>                     
+                                <select ng-model="relation.type"
+                                 ng-disabled="sense.external">
+                                  <option value="hypernym">Hypernym (broader)</option>
+                                  <option value="hyponym">Hyponym (narrower)</option>
+                                  <option value="instance_hypernym">Instance of (hypernym)</option>
+                                  <option value="instance_hyponym">Has instance (hyponym)</option>
+                                  <option value="antonym">Antonym (opposite)</option>
+                                  <option value="emotion">Shows emotion</option>
+                                  <option value="derivation">Derived from (linguistically)</option>
+                                  <option value="loanword">Loanword from this language</option>
+                                  <option value="also">See also</option>
+                                  <option value="causes">Causes</option>
+                                  <option value="domain_region">Region</option>
+                                  <option value="domain_topic">Topic</option>
+                                  <option value="domain_usage">Exemplifies</option>
+                                  <option value="similar">Similar to</option>
+                                  <option value="mero_location">Meronym location (sub-location)</option>
+                                  <option value="mero_member">Meronym member (is member of)</option>
+                                  <option value="mero_part">Meronym part (is component of)</option>
+                                  <option value="mero_portion">Meronym portion (is division of)</option>
+                                  <option value="mero_substance">Meronym substance (is made of)</option>
+                                  <option value="holo_location">Holonym location (containing location)</option>
+                                  <option value="holo_member">Holonym member (is group of)</option>
+                                  <option value="holo_part">Holonym part (is composed of)</option>
+                                  <option value="holo_portion">Holonym portion (divides into)</option>
+                                  <option value="holo_substance">Holonym substance (substance of)</option>
+                                  <option value="pejorative">Pejorative for</option>
+                              </select>
+                            </td>
+                            <td>
+                              <div class="ui-widget">
+                            <div ng-controller="SynAutoComplete2 as ctrl" layout="column" ng-cloak="">
+                              <md-content class="md-padding">
+                                <md-autocomplete 
+                                    md-selected-item="ctrl.selectedItem" 
+                                    md-selected-item-change="ctrl.selectedItemChange(item)"
+                                    md-search-text="ctrl.searchText" 
+                                    md-items="item in ctrl.querySearch(ctrl.searchText)" 
+                                    md-item-text="item.display" 
+                                    md-min-length="2" 
+                                    placeholder="Synset">
+                                   <md-item-template>
+                                     <span md-highlight-text="ctrl.searchText" md-highlight-flags="^i">{{item.display}}</span>
+                                   </md-item-template>
+                                   <md-not-found>
+                                     Not in dictionary
+                                   </md-not-found>
+                                </md-autocomplete>
+                              </md-content>
+                            </div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-danger pull-right"
+                                ng-click="removeRel(sense,relation)"
+                               >Remove</button>
+                          </td>
+                      </tr>
+                      </table>
+                        <div ng-attr-id="relation{{sense.id}}-help" class="cwn-help">
+                            <p>(only if you cannot find a synonym term) Please give at least one relation linking this term to an existing term in Colloquial or Princeton WordNet by typing the word under target and selecting the synset from the autocomplete. In general, it is expected that nouns always have a hypernym (broader) term, verbs, adjectives and adverbs may have a broader term and/or a similar term. Please also consider the origin of the term: if it is derived from an existing word, please add a "derived from" link, if this word is borrowed from another language, please add a loanword linking, whose target is the synset for the language this word is borrowed from.</p>
+                            <ul>
+                                <li><b>Hypernym (broader):</b> A target term whose meaning subsumes this one, most terms should have one broader term. A term may have more than one hypernym, but please add only <b>distinct</b> <b>direct</b> hypernyms, e.g., a <i>pike</i> is a <i>fish</i> and a <i>predator</i>, but do not add <i>animal</i> (fish and animal are not distinct hypernyms of pike).</li>
+                                <li><b>Hyponym (broader):</b> A target term whose meaning is subsumed by this one, it is not generally necessary to add this</li>
+                                <li><b>Instance of (hypernym):</b> This term is an instance of the class given by the selected target, this should only be used for proper nouns, which should only be defined in special cases</li>
+                                <li><b>Has instance (hyponym):</b> This should rarely be used</li>
+                                <li><b>Antonym (opposite):</b> A term with the opposite meaning, mostly used for adjectives, e.g., "hot" vs. "cold"</li>
+                                <li><b>Shows emotion:</b> This is used for interjections that show a particular emotion, e.g., "wow!" shows the emotion of "surprise"</li>
+                                <li><b>Loanword for this language:</b> If this word is borrowed from another language, use this property linked to the synset for the language where the word is borrowed from</li>
+                                <li><b>Derived from (linguistically):</b> This word is derived from another word, e.g., "shorty" from "short", or is a multiword term whose elements are the chosen words</li>
+                                <li><b>See also:</b> Used for relevant relations which do not fit under any other category</li>
+                                <li><b>Causes:</b> Something that is the result of the event described by this noun or the action of this verb</li>
+                                <li><b>Region:</b> The region that this is used in. This also indicates dialect, e.g. select "United Kingdom" for slang terms used in the UK. For African-American Vernacular English, please use AAVE as the region</li>
+                                <li><b>Topic:</b> A domain in which this word is used, e.g., "Medicine" for medical terms</li>
+                                <li><b>Exemplifies:</b> If this word is of a particular terminological type, e.g., "insult", "slang", "colloquialism", "trade mark"</li>
+                                <li><b>Similar to:</b> This word is similar, but not equal, in meaning to another word. This should be used if a suitable hypernym cannot be discovered</li>
+                                <li><b>Meronym/Holonym:</b> This word is a part (meronym) or is made of (holonym) something else. There are five subcategories: 
+<ul>
+    <li>"Paris" is a location meronym of "France"</li>
+    <li>"Squirrel" is a member meronym of "family Sciuidae"</li>
+    <li>"Transmission" is a part meronym of "automobile"</li>
+    <li>"Slice" is a portion meronym of "cake"</li>
+    <li>"Ivory" is a substance meronym of "tusk"</li>
+</ul></li>
+                                <li><b>Pejorative for:</b> This term is a negative term used to describe something (typically a group of people). The target is the object or group being described</li>
+                            </ul>
+                            <p>You can delete a relation by clicking the small "x" to it's right.</p>
+                        </div>
+
+                    </div></div></div></span>                    
+
+
+                    <div class="form-group cwn-abbrev" ng-show="entry.status && entry.status=='abbrev'">
+                        <label>Short for
                         <a href="#" onclick="$('#abbrev1-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
-                        <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('abbrev');return false">Add</button></label>
-                        <table id="abbrevs"></table>
+                        <button class="btn-xs btn btn-success" 
+                         ng-click="addAbbrev()">Add</button></label>
+                        <table id="abbrevs">
+                            <tr ng-repeat="abbrev in entry.abbrevs">
+                                <td>
+                                    <div class="input-group">
+                                      <input type='text' class='form-control'
+                                       ng-model="abbrev.text"/>
+                                      <div class="input-group-addon btn-danger"
+                                       ng-click="removeAbbrev(abbrev)">&times;</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
                         <div id="abbrev1-help" class="cwn-help">
                             <p>Please give the full form of the term. If it is ambiguous include multiple terms with the add button</p>
                         </div>
                     </div>
-                    <div class="form-group cwn-misspell" ng-show="status=='misspell'">
+                    <div class="form-group" ng-show="entry.status && entry.status=='misspell'">
                         <label for="definition1">Correct spelling
                         <a href="#" onclick="$('#misspell1-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
-                        <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('misspell');return false">Add</button></label>
-                        <table id="misspells"></table>
+                        <button class="btn-xs btn btn-success" 
+                            ng-click="addMisspell()">Add</button></label>
+                        <table id="misspells">
+                            <tr ng-repeat="misspell in entry.misspells">
+                                <td>
+                                    <div class="input-group">
+                                      <input type='text' class='form-control'
+                                       ng-model="misspell.text"/>
+                                      <div class="input-group-addon btn-danger"
+                                       ng-click="removeMisspell(misspell)">&times;</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
                         <div id="misspell1-help" class="cwn-help">
                             <p>Please give the correct spelling of the term. If it is ambiguous include multiple terms with the add button</p>
                         </div>
                     </div>
-                    <div class="form-group cwn-inflected" ng-show="status=='inflected'">
+                    <div class="form-group cwn-inflected" ng-show="entry.status && entry.status=='inflected'">
                         <label for="definition1">Lemma form
                         <a href="#" onclick="$('#inflected1-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
-                        <button class="btn-xs btn btn-success" onclick="add_misspell_or_abbrev('inflected');return false">Add</button></label>
-                        <table id="inflecteds"></table>
+                        <button class="btn-xs btn btn-success" 
+                            ng-click="addInflected()">Add</button></label>
+                        <table id="inflecteds">
+                            <tr ng-repeat="inflected in entry.inflecteds">
+                                <td>
+                                    <div class="input-group">
+                                      <input type='text' class='form-control'
+                                       ng-model="inflected.text"/>
+                                      <div class="input-group-addon btn-danger"
+                                       ng-click="removeInflected(inflected)">&times;</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
                         <div id="inflected1-help" class="cwn-help">
                             <p>Please give the lemma form of this word. This is the "base" form for inclected words. For verbs, it is the infinitive form (eg: for "going" or "went" you would enter "go"). For noun plurals, it's the singular (eg: for "dogs" you would enter "dog"). 
                             See this <a  target="_blank" href="https://en.wikipedia.org/wiki/Inflection#Examples_in_English">Wikipedia article</a> on inflected forms.</p>
                         </div>
                     </div>
+                    <div>
+                        <button class="btn btn-success cwn-sense" type="button" 
+                         ng-click="addSense()" style="margin:10px;">Add sense</button>
+                        <input type="submit" class="btn btn-default" value="Submit" style="margin:10px;"/>
+                    </div>
+
 
 
 <script type="text/javascript">
-angular.module('app', []);
+var synsets = ${unescape(synsets.toJson.toString)};
+
+angular.module('app', ['ngMaterial']);
 
 angular.module('app').controller('CWNEditController', function($scope) {
-    $scope.lemma = ${entry.lemma};
-    // TODO
+    $scope.entry = ${unescape(entry.toJson.toString)};
+    $scope.entry.abbrevs=[{"text": ""}];
+    $scope.entry.misspells=[{"text": ""}];
+    $scope.entry.inflecteds=[{"text": ""}];
+    if($scope.entry.status === 'general' ||
+            $scope.entry.status === 'novel' ||
+            $scope.entry.status === 'vulgar') {
+        for(sense in $scope.entry.senses) {
+            var ss = $scope.entry.senses[sense].synset;
+            $scope.entry.senses[sense].id = (parseInt(sense) + 1);
+            for(r in synsets[ss].relations) {
+                var relation = synsets[ss].relations[r];
+                $scope.entry.senses[sense].relations.push(relation);
+            }
+            if(ss.match("[ip]\\d+")) {
+                $scope.entry.senses[sense].external = true;
+            }
+            $scope.entry.senses[sense].synset = synsets[ss];
+        }
+    } else if($scope.entry.status === 'abbrev') {
+        $scope.entry.abbrevs = $scope.entry.senses.map(function(s) {
+            return {"text": s.synset};
+        });
+    } else if($scope.entry.status === 'misspell') {
+        $scope.entry.misspells = $scope.entry.senses.map(function(s) {
+            return {"text": s.synset};
+        });
+    } else if($scope.entry.status === 'inflected') {
+        $scope.entry.inflecteds = $scope.entry.senses.map(function(s) {
+            return {"text": s.synset};
+        });
+    } 
+
+    $scope.toggleSynonymHelp = function(id) {
+        $('#synonym'+id + '-help').toggle();
+        return false;
+    };
+    $scope.toggleDefinitionHelp = function(id) {
+        $('#definition'+id + '-help').toggle();
+        return false;
+    };
+    $scope.togglePosHelp = function(id) {
+        $('#pos'+id + '-help').toggle();
+        return false;
+    };
+    $scope.toggleRelationHelp = function(id) {
+        $('#relation'+id + '-help').toggle();
+        return false;
+    };
+    $scope.addSense = function() {
+        var nextId = 1;
+        for(nextId = 1;;nextId++) {
+            var found = false;
+            for(id2 in $scope.entry.senses) {
+                if(nextId === $scope.entry.senses[id2].id) {
+                    found = true;
+                }
+            }
+            if(!found) {
+                break;
+            }
+        }
+        $scope.entry.senses.push({
+            "synonym": "",
+            "synset": {
+                "pos": "",
+                "definition": ""
+            },
+            relations: [],
+            id: nextId
+        });
+    };
+    $scope.removeSense = function(id) {
+        for(id2 in $scope.entry.senses) {
+            if(id === $scope.entry.senses[id2].id) {
+                $scope.entry.senses.splice(id2, 1);
+            }
+        }
+    };
+    $scope.addRel = function(sense) {
+        sense.relations.push({
+            "type": "hypernym",
+            "trgWord": "",
+            "trgSynset": ""
+        });
+    };
+    $scope.removeRel = function(sense, relation) {
+        for(r in sense.relations) {
+            var tRel = sense.relations[r];
+            if(tRel.type === relation.type &&
+               tRel.target === relation.target) {
+                sense.relations.splice(r, 1);
+                return;
+            }
+        }
+    }
+    $scope.addAbbrev = function() {
+        $scope.entry.abbrevs.push({"text": ""});
+    };
+    $scope.removeAbbrev = function(abbrev) {
+        for(a in $scope.entry.abbrevs) {
+            var abbrev2 = $scope.entry.abbrevs[a];
+            if(abbrev2.text === abbrev.text) {
+                $scope.entry.abbrevs.splice(a,1);
+                return;
+            }
+        }
+    };
+    $scope.addMisspell = function() {
+        $scope.entry.misspells.push({"text": ""});
+    };
+    $scope.removeMisspell = function(misspell) {
+        for(a in $scope.entry.misspells) {
+            var misspell2 = $scope.entry.misspells[a];
+            if(misspell2.text === misspell.text) {
+                $scope.entry.misspells.splice(a,1);
+                return;
+            }
+        }
+    };
+    $scope.addInflected = function() {
+        $scope.entry.inflecteds.push({"text": ""});
+    };
+    $scope.removeInflected = function(inflected) {
+        for(a in $scope.entry.inflecteds) {
+            var inflected2 = $scope.entry.inflecteds[a];
+            if(inflected2.text === inflected.text) {
+                $scope.entry.inflecteds.splice(a,1);
+                return;
+            }
+        }
+    };
 });
 
+angular.module('app').controller('SynAutoComplete2', function($http,$scope) {
+        var self = this;
+        self.querySearch   = querySearch;
+        self.selectedItem = {
+            "ili": $scope.$parent.relation.trgSynset,
+            "word": $scope.$parent.relation.trgWord,
+            "display": $scope.$parent.relation.trgWord + ": <" +
+                $scope.$parent.relation.trgSynset + ">"
+        };
 
+        function querySearch (query) {
+            return $http.get("${contextUrl}/wn/" + query)
+                .then(function(result) {
+                    return result.data.map(function(s) {
+                        var ili = s.match(".* <([icp]\\d+)>")[1];
+                        var word = s.match("(.*):.*")[1];
+                        return {"display": s, "ili": ili, "word": word};
+                    });
+                });
+        }
+
+        self.selectedItemChange = function(item) {
+            if(item) {
+               $scope.$parent.relation.trgSynset = item.ili;
+                $scope.$parent.relation.trgWord = item.word;
+            } else {
+                $scope.$parent.sense.trgSynset = "";
+                $scope.$parent.relation.trgWord = "";
+            }
+        };
+    });
+
+angular.module('app').controller('SynAutoComplete', function($http,$scope) {
+        var self = this;
+        self.querySearch   = querySearch;
+        if($scope.$parent.sense.external) {
+            var ss = $scope.$parent.sense.synset;
+            self.selectedItem = {
+                "display": (ss.lemmas.join(",") + ": " + 
+                    ss.definition + " <" + ss.id + ">"),
+                "ili": ss.id
+            };
+        }
+            
+
+        function querySearch (query) {
+            return $http.get("${contextUrl}/wn/" + query)
+                .then(function(result) {
+                    return result.data.map(function(s) {
+                        var ili = s.match(".* <([icp]\\d+)>")[1];
+                        return {"display": s, "ili": ili};
+                    });
+                });
+        }
+
+        self.selectedItemChange = function(item) {
+            if(item) {
+               $scope.$parent.sense.synset = {
+                "id": item.ili
+                };
+                $scope.$parent.sense.external = true;
+            } else {
+                $scope.$parent.sense.synset = {
+                    "id": "",
+                    "pos": "",
+                    "relations": [],
+                    "definition": ""
+                };
+                $scope.$parent.sense.external = false;
+            }
+        };
+    });
 </script>
-                    <div class="cwn-sense">
-                        <h3>Senses</h3>
-                    </div>
-                    <div id="submitDiv" class="cwn-sense cwn-abbrev cwn-misspell cwn-inflected">
-                    </div>
-                    <div>
-                        <button class="btn btn-success cwn-sense" type="button" onclick="addsense('${contextUrl}')" style="margin:10px;">Add sense</button>
-                        <input type="submit" class="btn btn-default" value="Submit" style="margin:10px;"/>
-                    </div>
+                    {{entry}}
                 </form>
-            </div>-->
+            </div>
         </div>
         <div style="height: 90vh;width: 25vw"></div>

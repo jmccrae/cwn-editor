@@ -93,6 +93,23 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       }
     }
 
+    get("/edit/:name") {
+      store.getEntry(params("name")) match {
+        case Some(entry) =>
+          val synsets = getSynsets(entry.senses.map(_.synset))
+          contentType = "text/html"
+          ssp("/edit",
+            "error" -> None,
+            "contextUrl" -> context,
+            "entry" -> entry,
+            "synsets" -> synsets,
+            "loggedin" -> loggedin)
+        case None =>
+          // TODO: Add to queue
+          pass
+      }
+    }
+
     get("/search") {
       params.get("lemma") match {
         case Some(lemma) =>
@@ -122,12 +139,12 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     get("/wn/:key") {
       val k = urldecode(params("key"))
-      if(k.length >= 2) {
+      if(k.length >= 1) {
         val results = store.find(k)
         contentType = "application/javascript"
         "[" + results.map({ result =>
           s""""${result.word}: ${result.definition.replaceAll("\\\"","'")} <${result.ili}>""""
-        }).reverse.mkString(",") + "]"
+        }).mkString(",") + "]"
       } else {
         ""
       }

@@ -25,26 +25,6 @@
     content: "Help";
 }
 
-.cwn-sense {
-    display: none;
-}
-
-.cwn-status {
-    display: none;
-}
-
-.cwn-abbrev {
-    display: none;
-}
-
-.cwn-misspell {
-    display: none;
-}
-
-.cwn-inflected {
-    display: none;
-}
-
 body {
     margin-bottom:50px;
     font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
@@ -215,4 +195,10 @@ a {
 
 .definition {
     color: #555;
+}
+
+.md-autocomplete-suggestions li {
+    white-space: normal;
+    line-height: normal;
+    padding-bottom: 5px;
 }

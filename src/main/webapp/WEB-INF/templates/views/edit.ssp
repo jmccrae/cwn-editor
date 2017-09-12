@@ -612,7 +612,6 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
         };
     });
 </script>
-                    {{entry}}
                 </form>
             </div>
         </div>

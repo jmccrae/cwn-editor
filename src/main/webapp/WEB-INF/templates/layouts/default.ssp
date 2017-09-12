@@ -21,7 +21,7 @@
 
             <!-- Bootstrap core CSS -->
             <link rel="stylesheet" href="${contextUrl}/assets/bootstrap.min.css">
-            <link rel="stylesheet" href="${contextUrl}/assets/font-awesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
             <!-- Libraries CSS -->
             <link rel="stylesheet" href="${contextUrl}/assets/select2.min.css">

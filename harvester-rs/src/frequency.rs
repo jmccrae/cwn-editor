@@ -81,6 +81,7 @@ struct Config {
     pub bigrams_file : String,
     pub corpus_file : String,
     pub wordnet_file : String,
+    pub colloq_wordnet_file : String,
     pub cwn_data_file : String,
     pub out_file : String,
     pub freq_min : f64,
@@ -95,6 +96,7 @@ impl Config {
         let bigram = matches.value_of("bigrams").unwrap_or("count_2w.txt");
         let corpus = matches.value_of("corpus").unwrap_or("twitter.txt.gz");
         let wordnet = matches.value_of("wordnet").unwrap_or("wn31.xml");
+        let colloq_wordnet = matches.value_of("colloq_wordnet").unwrap_or("colloqwn-1.0.xml");
         let cwn_data = matches.value_of("cwn_data").unwrap_or("data.csv.gz");
         let out = matches.value_of("out").unwrap_or("queue.csv.gz");
         let freq_min = matches.value_of("freq_min").unwrap_or("5")
@@ -107,25 +109,30 @@ impl Config {
                 if file_exists(&bigram) {
                     if file_exists(&corpus) {
                         if file_exists(&wordnet) {
-                            if file_exists(&cwn_data) {
-                                if stopwords.is_none() || file_exists(stopwords.unwrap()) {
-                                    Ok(Config {
-                                        terms_file: terms.to_string(),
-                                        stopwords_file: stopwords.map(|x| x.to_string()),
-                                        unigrams_file: unigram.to_string(),
-                                        bigrams_file: bigram.to_string(),
-                                        corpus_file: corpus.to_string(),
-                                        wordnet_file: wordnet.to_string(),
-                                        cwn_data_file: cwn_data.to_string(),
-                                        out_file: out.to_string(),
-                                        freq_min: freq_min,
-                                        field_no: field_no
-                                    })
+                            if file_exists(&colloq_wordnet) {
+                                if file_exists(&cwn_data) {
+                                    if stopwords.is_none() || file_exists(stopwords.unwrap()) {
+                                        Ok(Config {
+                                            terms_file: terms.to_string(),
+                                            stopwords_file: stopwords.map(|x| x.to_string()),
+                                            unigrams_file: unigram.to_string(),
+                                            bigrams_file: bigram.to_string(),
+                                            corpus_file: corpus.to_string(),
+                                            wordnet_file: wordnet.to_string(),
+                                            colloq_wordnet_file: colloq_wordnet.to_string(),
+                                            cwn_data_file: cwn_data.to_string(),
+                                            out_file: out.to_string(),
+                                            freq_min: freq_min,
+                                            field_no: field_no
+                                        })
+                                    } else {
+                                        Err("Stopwords file does not exist")
+                                    }
                                 } else {
-                                    Err("Stopwords file does not exist")
+                                    Err("CWN Data file does not exist")
                                 }
                             } else {
-                                Err("CWN Data file does not exist")
+                                Err("Colloquial Wordnet file does not exist")
                             }
                         } else {
                             Err("Wordnet file does not exist")
@@ -191,6 +198,10 @@ fn main() {
         .arg(Arg::with_name("wordnet")
              .long("wordnet")
              .help("The wordnet file, e.g., http://john.mccr.ae/wn31.xml")
+             .takes_value(true))
+        .arg(Arg::with_name("colloq_wordnet")
+             .long("cwn")
+             .help("The colloquial wordnet file")
              .takes_value(true));
     let matches = app.clone().get_matches();
     match Config::new(&matches) {
@@ -411,6 +422,10 @@ fn frequency(config : Config) -> Result<(),String> {
     let wordnet_words = load_wordnet_words(&config.wordnet_file)?;
     eprintln!("Loaded {} WordNet words", wordnet_words.len());
 
+    eprintln!("Loading Colloquial WordNet");
+    let colloq_wordnet_words = load_wordnet_words(&config.colloq_wordnet_file)?;
+    eprintln!("Loaded {} WordNet words", colloq_wordnet_words.len());
+
     eprintln!("Loading Unigrams");
     let unigram_counts = load_counts(&config.unigrams_file)?;
     eprintln!("Loaded {} unigrams", unigram_counts.len());
@@ -515,18 +530,20 @@ fn frequency(config : Config) -> Result<(),String> {
                 Some(c) => {
                     match false_postive(phrase, &wordnet_words, &stopwords) {
                         TruePositive =>  {
-                            write!(out,"{}|||{}", freq / n, phrase)
-                                .map_err(|e| format!("Error writing: {}", e))?;
-                            let mut first = true;
-                            for content in get_examples(c.clone(), &top_words) {
-                                if first {
-                                    write!(out,"|||{}", content).map_err(|e| format!("Error writing: {}", e))?;
-                                    first = false;
-                                } else {
-                                    write!(out,";;;{}", content).map_err(|e| format!("Error writing: {}", e))?;
+                            if !colloq_wordnet_words.contains(phrase) {
+                                write!(out,"{}|||{}", freq / n, phrase)
+                                    .map_err(|e| format!("Error writing: {}", e))?;
+                                let mut first = true;
+                                for content in get_examples(c.clone(), &top_words) {
+                                    if first {
+                                        write!(out,"|||{}", content).map_err(|e| format!("Error writing: {}", e))?;
+                                        first = false;
+                                    } else {
+                                        write!(out,";;;{}", content).map_err(|e| format!("Error writing: {}", e))?;
+                                    }
                                 }
+                                writeln!(out,"").map_err(|e| format!("Error writing: {}", e))?;
                             }
-                            writeln!(out,"").map_err(|e| format!("Error writing: {}", e))?;
                         },
                         InWordNet => {
                             write!(out,"{}|||*{}", freq / n, phrase)

@@ -50,13 +50,16 @@ class DB(db : File) {
     sql"""CREATE TABLE entries (id INTEGER PRIMARY KEY AUTOINCREMENT,
       lemma TEXT UNIQUE,
       content TEXT,
+      annotator TEXT,
       pwn BOOLEAN)""".execute
     sql"""CREATE INDEX entries_id ON entries (id)""".execute
     sql"""CREATE INDEX entries_lemma ON entries (lemma)""".execute
+    sql"""CREATE INDEX entries_annotator ON entries (annotator)""".execute
     sql"""CREATE TABLE synsets (id INTEGER PRIMARY KEY AUTOINCREMENT,
       ili TEXT,
       definition TEXT,
       content TEXT,
+      pos TEXT,
       pwn BOOLEAN)""".execute
     sql"""CREATE INDEX synsets_ili ON synsets (ili)""".execute
     sql"""CREATE TABLE entry_synset (
@@ -65,11 +68,6 @@ class DB(db : File) {
       FOREIGN KEY(synset) REFERENCES synsets(id))""".execute
     sql"""CREATE INDEX entry_synset_entry ON entry_synset (entry)""".execute
     sql"""CREATE INDEX entry_synset_synset ON entry_synset (synset)""".execute
-    sql"""CREATE TABLE history (id INTEGER PRIMARY KEY AUTOINCREMENT,
-      lemma TEXT,
-      annotator TEXT,
-      date INTEGER,
-      content TEXT)""".execute
     sql"""CREATE TABLE queue (id INTEGER PRIMARY KEY AUTOINCREMENT,
       expiry INTEGER,
       lemma TEXT,
@@ -80,17 +78,17 @@ class DB(db : File) {
     sql"""CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT UNIQUE,
       hash TEXT,
-      email TEXT)""".execute
+      email TEXT,
+      reviewer TEXT)""".execute
 
 
     var entries = 0
     var synsets = 0
-    val insertEntryQuery = sql"""INSERT INTO entries VALUES (?, ?, ?, ?)""".insert4[Int, String, String, Boolean]
+    val insertEntryQuery = sql"""INSERT INTO entries VALUES (?, ?, ?, ?, ?)""".insert5[Int, String, String, String, Boolean]
     val insertEntrySynsetQuery = sql"""INSERT INTO entry_synset VALUES (?, ?)""".insert2[Int, Int]
-    val insertSynsetQuery = sql"""INSERT INTO synsets VALUES (?, ?, ?, ?, ?)""".insert5[Int, String, String, String, Int]
+    val insertSynsetQuery = sql"""INSERT INTO synsets VALUES (?, ?, ?, ?, ?, ?)""".insert6[Int, String, String, String, String, Int]
     val insertQueueEntry = sql"""INSERT INTO queue VALUES (?,?,?,?,?)""".insert5[Int,Int,String,String,String]
-    var lazyMap = collection.mutable.ListBuffer[(String, String)]()
-
+    val insertUserQuery = sql"""INSERT INTO users (name, hash, email, reviewer) VALUES (?, ?, ?, ?)""".insert4[String, String, String, String]
     private var qi = 0;
     
     val ILI = "([icp]\\d+)".r
@@ -99,7 +97,7 @@ class DB(db : File) {
     // This does not check the uniqueness constraint!
     def insertEntry(e : Entry, user : String) : Int = {
       entries += 1
-      insertEntryQuery(entries, e.lemma, e.toJson.toString, 
+      insertEntryQuery(entries, e.lemma, e.toJson.toString, user,
         !e.senses.exists(_.synset.startsWith("c")))
       if(entries % 10000 == 0) {
         insertEntryQuery.execute
@@ -110,7 +108,7 @@ class DB(db : File) {
     def insertSynset(s : Synset, user : String) : Int = {
       synsets += 1 
       insertSynsetQuery(synsets, s.id, s.definition, s.toJson.toString, 
-        if(s.id.startsWith("c")) { 0 } else { 1 })
+        s.pos, if(s.id.startsWith("c")) { 0 } else { 1 })
       if(synsets % 10000 == 0) {
         insertSynsetQuery.execute
       }
@@ -129,15 +127,16 @@ class DB(db : File) {
       }
     }
 
+    def insertUser(name : String, hash : String, email : String, reviewer : String) {
+      insertUserQuery(name, hash, email, reviewer)
+      insertUserQuery.execute
+    }
+
     def close = {
       insertEntryQuery.execute
       insertSynsetQuery.execute
       insertEntrySynsetQuery.execute
       insertQueueEntry.execute
-      for((entry, SYN(_,_,t)) <- lazyMap) {
-        sql"""INSERT INTO entry_synset VALUES (SELECT id FROM entries WHERE lemma=$entry,
-          SELECT id FROM synsets WHERE ili=$t""".execute
-      }
       conn.commit
       session.close
     }
@@ -211,8 +210,8 @@ class DB(db : File) {
 
 
   def next(id : String) : Option[String] = withSession(conn) { implicit session =>
-    sql"""SELECT id FROM entries WHERE ili=${id}""".as1[Int].headOption.flatMap({ num =>
-      sql"""SELECT ili FROM entries WHERE id=${num + 1} AND pwn=0""".as1[String].headOption
+    sql"""SELECT id FROM entries WHERE lemma=${id}""".as1[Int].headOption.flatMap({ num =>
+      sql"""SELECT lemma FROM entries WHERE id>=${num + 1} AND pwn=0 LIMIT 1""".as1[String].headOption
     })
   }
   def search(pattern : String) : List[(String, Entry)] = withSession(conn) { implicit session =>
@@ -227,19 +226,59 @@ class DB(db : File) {
     //entry.senses.map({sense => sense.definition}).mkString(";;;")
   }
 
-  def update(id : String, entry : Entry) : Unit = withSession(conn) { implicit session =>
-    sql"""UPDATE entries SET content=${entry.toJson.prettyPrint},
-                             definition=${definitions(entry)} WHERE id=${id}""".execute
+  def update(username : String, id : String, entry : Entry) : Unit = withSession(conn) { implicit session =>
+    sql"""UPDATE entries SET content=${entry.toJson.toString},
+                             lemma=${entry.lemma},
+                             annotator=${username}
+                             WHERE lemma=${id}""".execute
   }   
 
-  def insert(entry : Entry, user : String) : String = withSession(conn) { implicit session =>
-    throw new RuntimeException("TODO")
-//    val n : Int = sql"""SELECT max(num) FROM entries WHERE pwn=0""".as1[Int].head
-//    val idNew = Entrys.CWN_ENTRY + (n+2)
-//    sql"""INSERT INTO entries (id, word, definition, content, annotator, pwn) VALUES ($idNew, 
-//      ${entry.lemma}, ${entry.senses.map(_.definition).mkString(";;;")}, ${entry.toJson.toString},
-//      ${user}, 0)""".execute
-//    idNew
+  def updateSynset(id : String, synset : Synset) : String = withSession(conn) { implicit sesion =>
+    if(synset.id.matches("n\\d+")) {
+      val _synset  = synset.copy(id = getNextCSynset)
+      sql"""INSERT INTO synsets (ili, definition, content, pos, pwn) VALUES (
+        ${_synset.id}, ${_synset.definition}, ${_synset.toJson.toString}, ${_synset.pos}, 0)""".execute
+      _synset.id
+    } else {
+      sql"""UPDATE synsets SET definition=${synset.definition},
+                               content=${synset.toJson.toString},
+                               pos=${synset.pos},
+                               ili=${synset.id}
+                           WHERE ili=${id}""".execute
+      synset.id
+    }
+  }
+
+  def updateEntrySynset(eid : String, entry : Entry, 
+    synsets : Seq[Synset]) = withSession(conn) { implicit session =>
+      sql"""DELETE FROM entry_synset WHERE entry in (
+        SELECT id FROM entries WHERE lemma=${eid})""".execute
+      for(synset <- synsets){
+        sql"""INSERT INTO entry_synset SELECT entries.id, synsets.id FROM
+        entries JOIN synsets WHERE lemma=${entry.lemma} AND ili=${synset.id}""".execute
+      }
+
+  }
+
+  def addEntry(lemma : String, examples : List[String]) : Unit = withSession(conn) { implicit session =>
+    sql"""INSERT INTO entries (lemma, content, annotator, pwn) VALUES 
+      (${lemma}, ${Entry(lemma, "", examples.map(Example), "", Nil).toJson.toString},
+        "", 0)""".execute
+  }
+
+  private var maxCSynset : Option[Int] = None
+
+  private def getNextCSynset : String = this.synchronized {
+    val c = maxCSynset match {
+      case Some(i) =>
+        i
+      case None =>
+        withSession(conn) { implicit session =>
+          sql"""SELECT ili FROM synsets WHERE ili LIKE 'c%'""".as1[String].map(id => id.drop(1).toInt).max
+        }
+    }
+    maxCSynset = Some(c + 1)
+    s"c${c+1}"
   }
 
   def find(s : String) : List[WordNetEntry] = withSession(conn) { implicit session =>
@@ -290,6 +329,19 @@ class DB(db : File) {
 
   def remove(user : String, id : Int) = withSession(conn) { implicit session =>
     sql"""DELETE FROM queue WHERE user=$user AND id=$id""".execute
+  }
+
+  def removeOrReview(user : String, id : Int) = withSession(conn) { implicit session =>
+    val reviewer = sql"""SELECT reviewer FROM users WHERE name=$user""".as1[String].headOption.flatMap({
+      case "" => None
+      case user => Some(user)
+    })
+    reviewer match {
+      case Some(r) if r != user =>
+        sql"""UPDATE queue SET user=$r WHERE user=$user AND id=$id""".execute
+      case _ =>
+        sql"""DELETE FROM queue WHERE user=$user AND id=$id""".execute
+    }
   }
 
   private val PBKDF2_ITERATIONS = 1000
@@ -372,11 +424,11 @@ class DB(db : File) {
       }
     }
 
-  def addUser(username : String, password : String, email : String) =
+  def addUser(username : String, password : String, email : String, reviewer : String) =
     withSession(conn) { implicit session =>
       val h = hash(password)
       try {
-        sql"""INSERT INTO users (name, hash, email) VALUES (${username}, ${h}, ${email})""".execute
+        sql"""INSERT INTO users (name, hash, email, reviewer) VALUES (${username}, ${h}, ${email}, ${reviewer})""".execute
         true
       } catch {
         case x : java.sql.SQLException => false

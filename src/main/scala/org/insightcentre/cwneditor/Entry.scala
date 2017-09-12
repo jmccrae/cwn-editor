@@ -27,6 +27,8 @@ case class Entry(val lemma : String,
   }
 
   def abbrevOrMisspell = status == "abbrev" || status == "misspell"
+  def updateIds(map : Map[String, String]) : Entry = this.copy(
+      senses = senses.map(s => Sense(s.relations, map.getOrElse(s.synset, s.synset))))
 }
 
 object Entrys {

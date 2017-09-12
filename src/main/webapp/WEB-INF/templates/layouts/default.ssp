@@ -16,7 +16,7 @@
 
             <title>${title}</title>
 
-            <link rel="icon" href="/favicon.ico">
+            <link rel="icon" href="${contextUrl}/assets/favicon.ico">
             <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 
             <!-- Bootstrap core CSS -->

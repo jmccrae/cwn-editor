@@ -12,7 +12,15 @@
 
 <div class="container" ng-app="app">
     <div class="row" ng-controller="EntryController">
-        <h1 ng-bind="entry.lemma"></h1>
+    <h1><img ng-src="${contextUrl}/assets/{{entry.status}}.png"
+                             class="status-icon"
+                             ng-title="{{entry.status}}"/>
+    <span ng-bind="entry.lemma"></span>
+    <a class="pull-right edit-icon"
+    ng-href="${contextUrl}/edit/{{entry.lemma}}">
+    <i class="fa fa-pencil" aria-hidden="true"></i>
+    </a>
+    </h1>
         <hr>
         <span ng-show="has_examples">
             <h3>Examples</h3>
@@ -22,7 +30,7 @@
         </span>
         <p><b>Confidence:</b> <span ng-bind="entry.confidence"/></p>
         <p><b>Status:</b> <span ng-bind="entry.status"/></p>
-        <span ng-repeat="sense in entry.senses">
+        <span ng-repeat="sense in entry.senses" ng-show="entry.status && (entry.status == 'general' || entry.status == 'novel' || entry.status == 'vulgar')">
             <div class="panel panel-info">
                 <div class="panel-heading" ng-controller="ExtSynsetHeader">
                     <a ng-href="${contextUrl}/synset/{{id}}">
@@ -55,6 +63,15 @@
                 </div>
             </div>
         </span>
+        <ul ng-repeat="sense in entry.senses" ng-show="entry.status && entry.status=='abbrev'">
+            <li><b>Short for:</b> <span ng-bind="sense.synset"/></li>
+        </ul>
+        <ul ng-repeat="sense in entry.senses" ng-show="entry.status && entry.status=='misspell'">
+            <li><b>Misspelling of:</b> <span ng-bind="sense.synset"/></li>
+        </ul>
+        <ul ng-repeat="sense in entry.senses" ng-show="entry.status && entry.status=='inflected'">
+            <li><b>Inflected form:</b> <span ng-bind="sense.synset"/></li>
+        </ul>
     </div>
 </div>
 <script>

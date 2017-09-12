@@ -226,6 +226,20 @@ object FromGWN {
         }
       }
 
+      if(new java.io.File("users.csv").exists) {
+        for(line <- io.Source.fromFile("users.csv").getLines) {
+          line.split(",") match {
+            case Array(i,u,h,e,r) if i != "id" =>
+              loader.insertUser(u,h,e,r)
+            case Array(i,u,h,e) if i != "id" =>
+              loader.insertUser(u,h,e,"jmccrae")
+            case _ =>
+              println("Skipped user line: " + line)
+          }
+        }
+      }
+
+
       loadQueue(loader)
     } finally {
       loader.close

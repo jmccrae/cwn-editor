@@ -2,8 +2,8 @@
 <% import spray.json._ %>
 <% import CWNEditorJsonProtocol._ %>
 <%@ var contextUrl:String %>
-<%@ var error:Option[String] %>
 <%@ var entry:Entry %>
+<%@ var next: Option[String] %>
 <%@ var synsets : Map[String, SynsetWithMembers] %> 
 <%@ var loggedin: Boolean %>
 <% attributes("loggedin") = loggedin %>
@@ -16,19 +16,14 @@
                 <h1>Edit Entry</h1>
             </div>
             <div class="row">
-                #match(error)
-                #case(Some(err))
-                <div class="alert alert-danger">Error: ${err}</div>
-                #otherwise
-                #end
-                <form ng-action="${contextUrl}/update/{{entry.lemma}}" ng-controller="CWNEditController">
+                <form ng-submit="submitEntry()" ng-controller="CWNEditController">
+                   <div class="alert alert-danger" ng-show="error" ng-bind="error">Angular Load Error</div>
                    <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"
                                id="lemma" name="lemma" ng-model="entry.lemma" readonly/>
 <!--value="{if(entry.lemma.startsWith("*")) entry.lemma.drop(1) else entry.lemma }" readonly/>-->
                     </div>
-                    <div class="alert alert-info" ng-show="entry.lemma.startsWith('*')">This term already appears in WordNet but may be a new sense</div>
                     <div class="form-group">
                         <label>Example
                         <a href="#" onclick="$('#examples-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label>
@@ -69,7 +64,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="form-group" ng-show="entry.confidence != 'skip'">
+                    <div class="form-group" ng-show="entry.confidence == 'vstrong' || entry.confidence == 'strong' || entry.confidence == 'medium' || entry.confidence == 'weak'">
                         <label for="status">Status
                         <a href="#" onclick="$('#status-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label><br/>
                         <label class="radio-inline">
@@ -369,6 +364,7 @@
                             See this <a  target="_blank" href="https://en.wikipedia.org/wiki/Inflection#Examples_in_English">Wikipedia article</a> on inflected forms.</p>
                         </div>
                     </div>
+                    <div class="alert alert-danger" ng-show="error" ng-bind="error"></div>
                     <div>
                         <button class="btn btn-success cwn-sense" type="button" 
                          ng-click="addSense()" style="margin:10px;">Add sense</button>
@@ -382,11 +378,22 @@ var synsets = ${unescape(synsets.toJson.toString)};
 
 angular.module('app', ['ngMaterial']);
 
-angular.module('app').controller('CWNEditController', function($scope) {
+angular.module('app').controller('CWNEditController', function($scope, $http) {
     $scope.entry = ${unescape(entry.toJson.toString)};
     $scope.entry.abbrevs=[{"text": ""}];
     $scope.entry.misspells=[{"text": ""}];
     $scope.entry.inflecteds=[{"text": ""}];
+    if($scope.entry.senses.length == 0) {
+        $scope.entry.senses.push({
+            "synonym": "",
+                "synset": {
+                "pos": "",
+                "definition": ""
+            },
+            relations: [],
+            id: 1
+        });
+    }
     if($scope.entry.status === 'general' ||
             $scope.entry.status === 'novel' ||
             $scope.entry.status === 'vulgar') {
@@ -397,6 +404,7 @@ angular.module('app').controller('CWNEditController', function($scope) {
                 var relation = synsets[ss].relations[r];
                 $scope.entry.senses[sense].relations.push(relation);
             }
+            delete $scope.entry.senses[sense].synset.relations;
             if(ss.match("[ip]\\d+")) {
                 $scope.entry.senses[sense].external = true;
             }
@@ -514,6 +522,20 @@ angular.module('app').controller('CWNEditController', function($scope) {
                 return;
             }
         }
+    };
+    $scope.submitEntry = function() {
+        var data = $scope.entry;
+        $http.post("${contextUrl}/update/${entry.lemma}${next.map(s => "?next=" + s).getOrElse("")}", data).then(function() {
+#match(next)
+#case(Some(_))
+            window.location = "${contextUrl}/next_queue";
+#case(None)
+            window.history.back();
+#end
+        }, function(response) {
+            $scope.error = response.data;
+        });
+        
     };
 });
 

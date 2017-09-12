@@ -41,6 +41,13 @@
                             <input type="password" class="form-control" id="password" placeholder="Password" autocomplete="off" name="password2">
                         </div>
                     </div>
+                    <div class="form-group">
+                        <label for="reviewer"  class="col-lg-2 control-label">Reviewer</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="reviewer" value="jmccrae" autocomplete="off" name="reviewer" readonly>
+                        </div>
+                    </div>
+
                      <input type="text" value="${redirect}" name="redirect" style="display:none;">
                     <div class="form-group">
                         <div class="col-lg-10 col-lg-offset-2">

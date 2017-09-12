@@ -75,38 +75,150 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     }
 
     get("/entry/:name") {
-      store.getEntry(params("name")) match {
-        case Some(entry) =>
-          val synsets = getSynsets(entry.senses.map(_.synset) ++
-            entry.senses.flatMap(_.relations.map(_.trgSynset)) ++
-            entry.senses.flatMap(s => store.getSynset(s.synset).toSeq.flatMap(ss =>
-                ss.relations.map(_.trgSynset))))
-          contentType = "text/html"
-          ssp("/entry",
-              "contextUrl" -> context,
-              "entry" -> entry,
-              "synsets" -> synsets,
-              "loggedin" -> loggedin)
-          case None =>
-            // TODO: Add to queue
-            pass
+       store.getEntry(params("name")) match {
+          case Some(entry) =>
+            val synsets = getSynsets(entry.senses.map(_.synset) ++
+              entry.senses.flatMap(_.relations.map(_.trgSynset)) ++
+              entry.senses.flatMap(s => store.getSynset(s.synset).toSeq.flatMap(ss =>
+                  ss.relations.map(_.trgSynset))))
+            contentType = "text/html"
+            ssp("/entry",
+                "contextUrl" -> context,
+                "entry" -> entry,
+                "synsets" -> synsets,
+                "loggedin" -> loggedin)
+            case None =>
+              // TODO: Add to queue
+              pass
+        }
+   }
+
+    get("/edit/:name") {
+      username match {
+        case Some(username) => {
+          store.getEntry(params("name")) match {
+           case Some(entry) =>
+             val synsets = getSynsets(entry.senses.map(_.synset))
+             contentType = "text/html"
+             ssp("/edit",
+               "next" -> params.get("next"),
+               "contextUrl" -> context,
+               "entry" -> entry,
+               "synsets" -> synsets,
+               "loggedin" -> loggedin)
+           case None =>
+             // TODO: Add to queue
+             pass
+          }
+        }
+        case None =>
+          TemporaryRedirect(s"$context/login?redirect=/edit/${params("name")}")
       }
     }
 
-    get("/edit/:name") {
-      store.getEntry(params("name")) match {
-        case Some(entry) =>
-          val synsets = getSynsets(entry.senses.map(_.synset))
-          contentType = "text/html"
-          ssp("/edit",
-            "error" -> None,
-            "contextUrl" -> context,
-            "entry" -> entry,
-            "synsets" -> synsets,
-            "loggedin" -> loggedin)
+
+    get("/wn/:key") {
+      val k = urldecode(params("key"))
+      if(k.length >= 1) {
+        val results = store.find(k)
+        contentType = "application/javascript"
+        "[" + results.map({ result =>
+          s""""${result.word}: ${result.definition.replaceAll("\\\"","'")} <${result.ili}>""""
+        }).mkString(",") + "]"
+      } else {
+        ""
+      }
+
+    }
+
+    val DISPLAY_STATUSES = Set("general", "novel", "vulgar", "abbrev", 
+                        "misspell", "inflected")
+
+    get("/summary/:page") {
+      val page = params("page").toInt
+      val recency = params.contains("recent")
+      val annotator = params.get("annotator") match {
+        case Some(a) => Some(a)
+        case None => if(params.contains("annotator_me")) {
+          username
+        } else {
+          None
+        }
+      }
+          
+      val files = store.listRange(page * 100, 100, recency, annotator).map({
+        f => 
+          (store.get(f).get, f)
+      }).filter(x => DISPLAY_STATUSES contains x)
+      val syns = files.map(_._1).flatMap({ e =>
+        if(e.validEntry) { e.senses.map(_.synset) } else { Nil }
+      }).toSet.flatMap((s:String) => store.getSynset(s).map(x => s -> x)).toMap
+      contentType = "text/html"
+      ssp("/summary",
+        "files" -> files,
+        "synsets" -> syns,
+        "next" -> (page + 1).toString,
+        "contextUrl" -> context,
+        "loggedin" -> loggedin)
+    }
+
+    def acceptUpdate(username : String, next : Option[String]) = {
+      next match {
+        case Some(s) =>
+          store.removeOrReview(username, s.toInt)
         case None =>
-          // TODO: Add to queue
-          pass
+      }
+      Ok("ok")
+    }
+
+    post("/update/:lemma") {
+      import client.CWNClientEditorProtocol._
+      username match {
+        case Some(username) => {
+          try {
+            Try(request.body.parseJson.convertTo[client.Entry]) match {
+              case Success(clientEntry) => {
+                clientEntry.confidence match {
+                  case "skip" => 
+                    acceptUpdate(username, params.get("next"))
+                  case s if Set("vstrong", "strong", "medium", "weak") contains s => {
+                    clientEntry.status match {
+                      case s if Set("general", "novel", "vulgar", "abbrev", 
+                        "misspell", "inflected", "name", "nonlex", "error") contains s => {
+                        clientEntry.toDBEntry match {
+                          case Success((_entry, synsets)) => {
+                            val smap = synsets.map({ synset =>
+                              synset.id -> store.updateSynset(synset.id, synset)
+                            }).toMap
+                            val entry = _entry.updateIds(smap)
+                            store.update(username, params("lemma"), entry)
+                            store.updateEntrySynset(params("lemma"), entry, synsets.map(ss =>
+                                ss.copy(id = smap(ss.id))))
+                            acceptUpdate(username, params.get("next"))
+                          }
+                          case Failure(reason) =>
+                            BadRequest(reason.getMessage)
+                        }
+                      }
+                      case _ => BadRequest("Status is not set")
+                    }
+                  }
+                  case _ =>
+                    BadRequest("Confidence is not set")
+                }
+              }
+              case Failure(reason) => {
+                BadRequest(reason.getMessage)
+              }
+            }
+          } catch {
+            case x : Exception => 
+              x.printStackTrace()
+              InternalServerError(x.getMessage())
+          }
+        }
+        case None =>
+          BadRequest("Session expired")
       }
     }
 
@@ -136,77 +248,6 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       }
     }
 
-
-    get("/wn/:key") {
-      val k = urldecode(params("key"))
-      if(k.length >= 1) {
-        val results = store.find(k)
-        contentType = "application/javascript"
-        "[" + results.map({ result =>
-          s""""${result.word}: ${result.definition.replaceAll("\\\"","'")} <${result.ili}>""""
-        }).mkString(",") + "]"
-      } else {
-        ""
-      }
-
-    }
-
-    get("/summary/:page") {
-      val page = params("page").toInt
-      val recency = params.contains("recent")
-      val annotator = params.get("annotator") match {
-        case Some(a) => Some(a)
-        case None => if(params.contains("annotator_me")) {
-          username
-        } else {
-          None
-        }
-      }
-          
-      val files = store.listRange(page * 100, 100, recency, annotator).map({
-        f => 
-          (store.get(f).get, f)
-      }).filter(x => x._1.status != "nonlex" && x._1.status != "skip" && x._1.status != "name" && x._1.status != "error")
-      val syns = files.map(_._1).flatMap({ e =>
-        if(e.validEntry) { e.senses.map(_.synset) } else { Nil }
-      }).toSet.flatMap((s:String) => store.getSynset(s).map(x => s -> x)).toMap
-      contentType = "text/html"
-      ssp("/summary",
-        "files" -> files,
-        "synsets" -> syns,
-        "next" -> (page + 1).toString,
-        "contextUrl" -> context,
-        "loggedin" -> loggedin)
-    }
-
-    get("/edit/:id") {
-      try {
-        username match {
-          case Some(userName) =>
-            val id = params("id")
-            store.get(id) match {
-              case Some(data) =>
-                contentType = "text/html"
-                ssp("/edit", 
-                  "error" -> params.get("error"),
-                  "entryId" -> params("id"),
-                  "entry" -> data,
-                  "contextUrl" -> context,
-                  "loggedin" -> true)
-              case None =>
-                pass()
-            }
-          case None =>
-            TemporaryRedirect(context + "/login?redirect=/edit/"+params("id"))
-        }
-      } catch {
-        case EditorServletException(msg) =>
-          BadRequest(msg)
-      }
-    }
-
-    def findNext(id : String) = store.next(id)
-
     get("/logout") {
       session.get("login").map({ login =>
         activeUsers.remove(login.toString)
@@ -215,7 +256,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     }
 
     get("/next/:id") {
-      findNext(params("id")) match {
+      store.next(params("id")) match {
         case Some(id) => TemporaryRedirect(context + "/edit/" + id)
         case None => {
           contentType = "text/plain"
@@ -224,165 +265,6 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       }
     }
 
-
-    get("/update/:id") {
-      val id = params("id")
-      if(params("id").startsWith(Entrys.CWN_NEW))
-        updateNew(id)
-      else
-        updateExisting(id)
-    }
-
-    def updateExisting(id : String) : Any = {
-      val entry = Try(store.get(id).getOrElse(throw new EditorServletException("ID invalid")))
-      username match {
-        case Some(userName) =>
-          entryFromParams(id, entry) match {
-            case Success(e) =>
-              store.update(id, e)
-              findNext(id) match {
-                case Some(id) => TemporaryRedirect(s"$context/edit/$id")
-                case None => TemporaryRedirect(s"$context/")
-              }
-            case Failure(Skip) => 
-              findNext(id) match {
-                case Some(id) => TemporaryRedirect(s"$context/edit/$id")
-                case None => TemporaryRedirect(s"$context/")
-              }
-            case Failure(EntryValidityException(msg, e)) =>
-              store.update(id, e)
-              TemporaryRedirect(s"$context/edit/$id?error=$msg")
-            case Failure(e) =>
-              TemporaryRedirect(s"$context/edit/$id?error=${e.getMessage}")
-          }
-        case None =>
-          TemporaryRedirect(s"$context/login?redirect=/update/$id")
-      }
-    }
-
-    def updateNew(id : String) : Any = {
-      Try(id.drop(Entrys.CWN_NEW.length).toInt) match {
-        case Success(annoId) => {
-          val entry = Try(annoQueue.get(annoId).
-            getOrElse(throw new EditorServletException("ID not in queue")).toEntry)
-          username match {
-            case Some(userName) =>
-              entryFromParams("NEW_ENTRY", entry) match {
-                case Success(e) => 
-                  store.insert(e, userName)
-                  annoQueue.remove(userName, annoId)
-                  annoQueue.getQueue(userName).headOption match {
-                    case Some(aqe) =>
-                      TemporaryRedirect(s"$context/add/${aqe.id}")
-                    case None =>
-                      TemporaryRedirect(s"$context/")
-                  }
-                case Failure(Skip) =>
-                  annoQueue.remove(userName, annoId)
-                  annoQueue.getQueue(userName).headOption match {
-                    case Some(aqe) =>
-                      TemporaryRedirect(s"$context/add/${aqe.id}")
-                    case None =>
-                      TemporaryRedirect(s"$context/")
-                  }
-                case Failure(EntryValidityException(msg, e)) =>
-                  val newId = store.insert(e, userName)
-                  annoQueue.remove(userName, annoId)
-                  TemporaryRedirect(s"$context/edit/${newId}?error=$msg")
-                case Failure(e) =>
-                  TemporaryRedirect(s"$context/add/$annoId?error=${e.getMessage()}")
-              }
-            case None =>
-              TemporaryRedirect(s"$context/login?redirect=/add/$annoId")
-          }
-        }
-        case Failure(_) =>
-          contentType = "text/html"
-          ssp("/error",
-            "contextUrl" -> context,
-            "loggedin" -> loggedin,
-            "message" -> "ID is invalid")
-        }
-    }
-
-    def reduceTries[A](s : Seq[Try[A]]) : Try[Seq[A]] = s.foldLeft(Try(Seq[A]())) { (s, x) =>
-      s.flatMap { s =>
-        x.flatMap { x =>
-          Success(s :+ x)
-        }
-      }
-    }
-
-    def entryFromParams(editorId : String, entry : Try[Entry]) : Try[Entry] = {
-      entry flatMap { entry =>
-        Try(params.getOrElse("confidence", 
-          throw new EntryValidityException("Confidence is required", entry)
-        )) flatMap { confidence =>
-          if(confidence == "skip") {
-            Failure(Skip)
-          } else {
-            Try(params("lemma")) flatMap { lemma =>
-              Try(params.getOrElse("status", 
-                throw new EntryValidityException("Status is required", entry.copy(confidence=confidence))
-              )) flatMap { status =>
-                if(status == "general" || status == "novel" || status == "vulgar") {
-                  val senseIds = params.keys.filter(_.matches("definition\\d+")).map({ 
-                    s => s.drop("definition".length).toInt
-                  }).toSeq
-                  val senses = senseIds.map({ id =>
-                    Try(params.getOrElse("pos"+id, 
-                        throw new EntryValidityException("Part of speech is required", entry.copy(confidence=confidence,status=status))
-                    )) flatMap { pos =>
-                      val defnOpt = params.get("definition" + id)
-                      Try(defnOpt.getOrElse(throw new EditorServletException("Definition missing"))) flatMap { defn =>
-                        Try(params("synonym"+id)) flatMap { synonym =>
-                          if((defn != "" && synonym != "") || (defn == "" && synonym == "")) {
-                            Failure(new EntryValidityException("Please set either definition or synonym, not both", entry.copy(confidence,status=status)))
-                          } else {
-                            val relIds = params.keys.filter(_.matches("relType" + id + "-\\d+")).map({
-                              s => s.drop("relType".length + id.toString.length + 1).toInt
-                            }).toSeq
-                            val rels = relIds.map({ rid  =>
-                              Try(params(s"relType$id-$rid")) flatMap { relType =>
-                                Try(params(s"relTarget$id-$rid")) flatMap { relTarget =>
-                                  Success(Relation(relType, "TODO", relTarget))
-                                }
-                              }
-                            }).filter(_.map(_.`type` != "none").getOrElse(true))
-                            reduceTries(rels) flatMap { rels =>
-                              //Success(Sense(pos, defn, synonym, rels.toList, id))
-                              // TODO
-                              Success(Sense(rels.toList, synonym))
-                            }
-                          }
-                        }
-                      }
-                    }
-                  })
-                  reduceTries(senses) flatMap { senses =>
-                    Success(Entry(lemma, confidence, entry.examples, status, senses.toList))
-                  }
-                } else if(status == "abbrev") {
-                  val abbrevs = params.keys.filter(_.matches("abbrev\\d+")).map(k => params(k))
-                  Success(Entry(lemma, confidence, entry.examples, status, 
-                    abbrevs.map(a => Sense(Nil, a)).toList))
-                } else if(status == "misspell") {
-                  val abbrevs = params.keys.filter(_.matches("misspell\\d+")).map(k => params(k))
-                  Success(Entry(lemma, confidence, entry.examples, status, 
-                    abbrevs.map(a => Sense(Nil, a)).toList))
-                } else if(status == "inflected") {
-                  val abbrevs = params.keys.filter(_.matches("inflected\\d+")).map(k => params(k))
-                  Success(Entry(lemma, confidence, entry.examples, status, 
-                    abbrevs.map(a => Sense(Nil, a)).toList))
-                } else {
-                  Success(Entry(lemma, confidence, entry.examples, status, Nil))
-                }
-              }
-            }
-          }
-        }
-      }
-    }
 
     post("/login/login") {
       try {
@@ -431,7 +313,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         val password = params.getOrElse("password", throw new EditorServletException("Password is required"))
         val password2 = params.getOrElse("password2", throw new EditorServletException("Password2 is required"))
         val email = params.getOrElse("email", throw new EditorServletException("Email is required"))
-        if(password == password2 && login.addUser(username, password, email)) {
+        val reviewer = params.getOrElse("reviewer", "")
+        if(password == password2 && login.addUser(username, password, email, reviewer)) {
           val key = login.login(username, password).get
           activeUsers.put(key, username)
           session("login") = key
@@ -488,13 +371,17 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
           case Some(username) =>
             annoQueue.get(id) match {
               case Some(data) =>
-                contentType = "text/html"
-                ssp("/edit", 
-                  "error" -> params.get("error"),
-                  "entryId" -> (Entrys.CWN_NEW + params("id")),
-                  "entry" -> data.toEntry,
-                  "contextUrl" -> context,
-                  "loggedin" -> true)
+                val lemma = if(data.lemma.startsWith("*")) { 
+                  data.lemma.drop(1)
+                } else {
+                  data.lemma
+                }
+                store.getEntry(lemma) match {
+                  case Some(entry) =>
+                  case None =>
+                    store.addEntry(lemma, data.examples)
+                }
+                TemporaryRedirect(s"$context/edit/${lemma}?next=$id")
               case None =>
                 pass()
               }
@@ -502,6 +389,20 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
             TemporaryRedirect(s"$context/login?redirect=$context/add/$id")
         }
       })
+    }
+
+    get("/next_queue") {
+      username match {
+        case Some(username) =>
+          store.getQueue(username).headOption match {
+            case Some(aqe) =>
+              TemporaryRedirect(s"$context/add/${aqe.id}")
+            case None =>
+              TemporaryRedirect(s"$context/queue/")
+          }
+        case None =>
+          TemporaryRedirect(s"$context/login?redirect=$context/next_queue")
+      }
     }
 
     get("/dequeue/:id") {
@@ -554,7 +455,6 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       }
     }
 
-          
     get("/") {
       username match {
         case Some(username) =>

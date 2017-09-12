@@ -149,7 +149,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       val files = store.listRange(page * 100, 100, recency, annotator).map({
         f => 
           (store.get(f).get, f)
-      }).filter(x => DISPLAY_STATUSES contains x)
+      }).filter(x => !(DISPLAY_STATUSES contains x))
       val syns = files.map(_._1).flatMap({ e =>
         if(e.validEntry) { e.senses.map(_.synset) } else { Nil }
       }).toSet.flatMap((s:String) => store.getSynset(s).map(x => s -> x)).toMap

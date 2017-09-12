@@ -30,7 +30,7 @@
         </span>
         <p><b>Confidence:</b> <span ng-bind="entry.confidence"/></p>
         <p><b>Status:</b> <span ng-bind="entry.status"/></p>
-        <span ng-repeat="sense in entry.senses" ng-show="entry.status && (entry.status == 'general' || entry.status == 'novel' || entry.status == 'vulgar')">
+        <span ng-repeat="sense in entry.senses" ng-show="entry.status && (entry.status == 'general' || entry.status == 'novel' || entry.status == 'vulgar' || entry.status == 'aux')">
             <div class="panel panel-info">
                 <div class="panel-heading" ng-controller="ExtSynsetHeader">
                     <a ng-href="${contextUrl}/synset/{{id}}">

@@ -159,6 +159,7 @@
                             <div ng-controller="SynAutoComplete as ctrl" layout="column" ng-cloak="">
                               <md-content class="md-padding">
                                 <md-autocomplete 
+                                    md-dropdown-items="20"
                                     md-selected-item="ctrl.selectedItem" 
                                     md-selected-item-change="ctrl.selectedItemChange(item)"
                                     md-search-text="ctrl.searchText" 
@@ -243,6 +244,7 @@
                             <div ng-controller="SynAutoComplete2 as ctrl" layout="column" ng-cloak="">
                               <md-content class="md-padding">
                                 <md-autocomplete 
+                                    md-dropdown-items="20"
                                     md-selected-item="ctrl.selectedItem" 
                                     md-selected-item-change="ctrl.selectedItemChange(item)"
                                     md-search-text="ctrl.searchText" 
@@ -394,6 +396,10 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
             id: 1
         });
     }
+    if($scope.entry.status === 'aux') {
+        $scope.entry.status = 'general';
+    }
+
     if($scope.entry.status === 'general' ||
             $scope.entry.status === 'novel' ||
             $scope.entry.status === 'vulgar') {
@@ -414,14 +420,17 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
         $scope.entry.abbrevs = $scope.entry.senses.map(function(s) {
             return {"text": s.synset};
         });
+        $scope.entry.senses = [];
     } else if($scope.entry.status === 'misspell') {
         $scope.entry.misspells = $scope.entry.senses.map(function(s) {
             return {"text": s.synset};
         });
+        $scope.entry.senses = [];
     } else if($scope.entry.status === 'inflected') {
         $scope.entry.inflecteds = $scope.entry.senses.map(function(s) {
             return {"text": s.synset};
         });
+        $scope.entry.senses = [];
     } 
 
     $scope.toggleSynonymHelp = function(id) {
@@ -526,12 +535,7 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
     $scope.submitEntry = function() {
         var data = $scope.entry;
         $http.post("${contextUrl}/update/${entry.lemma}${next.map(s => "?next=" + s).getOrElse("")}", data).then(function() {
-#match(next)
-#case(Some(_))
             window.location = "${contextUrl}/next_queue";
-#case(None)
-            window.history.back();
-#end
         }, function(response) {
             $scope.error = response.data;
         });
@@ -542,12 +546,15 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
 angular.module('app').controller('SynAutoComplete2', function($http,$scope) {
         var self = this;
         self.querySearch   = querySearch;
-        self.selectedItem = {
-            "ili": $scope.$parent.relation.trgSynset,
-            "word": $scope.$parent.relation.trgWord,
-            "display": $scope.$parent.relation.trgWord + ": <" +
-                $scope.$parent.relation.trgSynset + ">"
-        };
+        var display = "";
+        if($scope.$parent.relation.trgWord !== "") {
+            self.selectedItem = {
+                "ili": $scope.$parent.relation.trgSynset,
+                "word": $scope.$parent.relation.trgWord,
+                "display": $scope.$parent.relation.trgWord + ": <" +
+                    $scope.$parent.relation.trgSynset + ">"
+            };
+        }
 
         function querySearch (query) {
             return $http.get("${contextUrl}/wn/" + query)
@@ -597,7 +604,10 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
         self.selectedItemChange = function(item) {
             if(item) {
                $scope.$parent.sense.synset = {
-                "id": item.ili
+                "id": item.ili,
+                "pos": "",
+                "relations": [],
+                "definition": ""
                 };
                 $scope.$parent.sense.external = true;
             } else {

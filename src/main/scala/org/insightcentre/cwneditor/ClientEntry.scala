@@ -61,13 +61,13 @@ case class Sense(
       }
       def toSynset : SSynset = synset.id match {
         case None =>
-          SSynset("n" + id, synset.pos, synset.definition, 
+          SSynset("n" + id, synset.getPos, synset.definition, 
             relations.flatMap(_.toDBSynRel))
         case Some("") =>
-          SSynset("n" + id, synset.pos, synset.definition, 
+          SSynset("n" + id, synset.getPos, synset.definition, 
             relations.flatMap(_.toDBSynRel))
         case Some(s) =>
-          SSynset(s, synset.pos, synset.definition, 
+          SSynset(s, synset.getPos, synset.definition, 
             relations.flatMap(_.toDBSynRel))
       }
 
@@ -75,9 +75,11 @@ case class Sense(
 
 case class Synset(
   id : Option[String],
-  pos : String,
+  pos : Option[String],
   definition : String
-) 
+) {
+  def getPos = pos.getOrElse(throw new RuntimeException("Part of Speech is required"))
+}
 
 case class Alternative(text : String) {
   def toDBSense = SSense(Nil, text)

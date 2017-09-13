@@ -81,7 +81,6 @@ struct Config {
     pub bigrams_file : String,
     pub corpus_file : String,
     pub wordnet_file : String,
-    pub colloq_wordnet_file : String,
     pub cwn_data_file : String,
     pub out_file : String,
     pub freq_min : f64,
@@ -96,7 +95,6 @@ impl Config {
         let bigram = matches.value_of("bigrams").unwrap_or("count_2w.txt");
         let corpus = matches.value_of("corpus").unwrap_or("twitter.txt.gz");
         let wordnet = matches.value_of("wordnet").unwrap_or("wn31.xml");
-        let colloq_wordnet = matches.value_of("colloq_wordnet").unwrap_or("colloqwn-1.0.xml");
         let cwn_data = matches.value_of("cwn_data").unwrap_or("data.csv.gz");
         let out = matches.value_of("out").unwrap_or("queue.csv.gz");
         let freq_min = matches.value_of("freq_min").unwrap_or("5")
@@ -109,30 +107,25 @@ impl Config {
                 if file_exists(&bigram) {
                     if file_exists(&corpus) {
                         if file_exists(&wordnet) {
-                            if file_exists(&colloq_wordnet) {
-                                if file_exists(&cwn_data) {
-                                    if stopwords.is_none() || file_exists(stopwords.unwrap()) {
-                                        Ok(Config {
-                                            terms_file: terms.to_string(),
-                                            stopwords_file: stopwords.map(|x| x.to_string()),
-                                            unigrams_file: unigram.to_string(),
-                                            bigrams_file: bigram.to_string(),
-                                            corpus_file: corpus.to_string(),
-                                            wordnet_file: wordnet.to_string(),
-                                            colloq_wordnet_file: colloq_wordnet.to_string(),
-                                            cwn_data_file: cwn_data.to_string(),
-                                            out_file: out.to_string(),
-                                            freq_min: freq_min,
-                                            field_no: field_no
-                                        })
-                                    } else {
-                                        Err("Stopwords file does not exist")
-                                    }
+                            if file_exists(&cwn_data) {
+                                if stopwords.is_none() || file_exists(stopwords.unwrap()) {
+                                    Ok(Config {
+                                        terms_file: terms.to_string(),
+                                        stopwords_file: stopwords.map(|x| x.to_string()),
+                                        unigrams_file: unigram.to_string(),
+                                        bigrams_file: bigram.to_string(),
+                                        corpus_file: corpus.to_string(),
+                                        wordnet_file: wordnet.to_string(),
+                                        cwn_data_file: cwn_data.to_string(),
+                                        out_file: out.to_string(),
+                                        freq_min: freq_min,
+                                        field_no: field_no
+                                    })
                                 } else {
-                                    Err("CWN Data file does not exist")
+                                    Err("Stopwords file does not exist")
                                 }
                             } else {
-                                Err("Colloquial Wordnet file does not exist")
+                                Err("CWN Data file does not exist")
                             }
                         } else {
                             Err("Wordnet file does not exist")
@@ -198,10 +191,6 @@ fn main() {
         .arg(Arg::with_name("wordnet")
              .long("wordnet")
              .help("The wordnet file, e.g., http://john.mccr.ae/wn31.xml")
-             .takes_value(true))
-        .arg(Arg::with_name("colloq_wordnet")
-             .long("cwn")
-             .help("The colloquial wordnet file")
              .takes_value(true));
     let matches = app.clone().get_matches();
     match Config::new(&matches) {
@@ -281,7 +270,11 @@ fn load_cwn_data(file : &str) -> Result<HashSet<String>,String> {
         let term = elems.nth(2).ok_or(format!("Bad line in CWN file (1): {}", line))?;
         let is_pwn = elems.nth(2).ok_or(format!("Bad line in CWN file (2): {}", line))?;
         if is_pwn == "0" {
-            data.insert(term.to_lowercase());
+            if term.starts_with("*") {
+                data.insert(term.chars().skip(1).collect::<String>().to_lowercase());
+            } else {
+                data.insert(term.to_lowercase());
+            }
         } else if is_pwn != "1" {
             return Err(format!("Bad line in CWN file (3): {}", line))
         } 
@@ -340,7 +333,9 @@ static BAD_SUFFIXES : [&'static str;9] = ["ing", "s", " that", " me",
 
 fn false_postive(word : &str, wordnet_words : &HashSet<String>,
                  stopwords : &HashSet<String>) -> FalsePositive {
-    if wordnet_words.contains(word) || stopwords.contains(word) {
+    if stopwords.contains(word) {
+        Inflection
+    } else if wordnet_words.contains(word) {
         InWordNet
     } else {
         for bp in BAD_PREFIXES.iter() {
@@ -373,6 +368,37 @@ fn clean_line(line : &str) -> String {
     }
     USER.replace_all(line, "").to_string()
 }
+
+
+fn phrase_normalize(phrase : &str) -> String {
+    lazy_static! {
+        static ref ALL_UPPER : Regex = Regex::new("^[A-Z\\.\\- ]+$").expect("Bad Regex");
+    }
+    if ALL_UPPER.is_match(phrase) {
+        phrase.to_string()
+    } else {
+        phrase.to_lowercase()
+    }
+}
+
+fn mostly_lowercase(phrase : &str, freqs : &HashMap<String, f64>,
+                    freqs_lc : &HashMap<String, f64>) -> bool {
+    let phrase_lc = phrase_normalize(phrase);
+    if phrase_lc == phrase { // phrase is lowercase
+        match freqs_lc.get(&phrase_lc) {
+            Some(f_lc) => {
+                match freqs.get(phrase) {
+                    Some(f) => f / f_lc > 0.5,
+                    None => false
+                }
+            },
+            None => false
+        }
+    } else {
+        false
+    }
+}
+
 
 fn get_examples(mut contexts : Vec<String>, top_words : &HashSet<String>) -> Vec<String> {
     contexts.truncate(200); // There will be good examples in the top 200, right?
@@ -422,10 +448,6 @@ fn frequency(config : Config) -> Result<(),String> {
     let wordnet_words = load_wordnet_words(&config.wordnet_file)?;
     eprintln!("Loaded {} WordNet words", wordnet_words.len());
 
-    eprintln!("Loading Colloquial WordNet");
-    let colloq_wordnet_words = load_wordnet_words(&config.colloq_wordnet_file)?;
-    eprintln!("Loaded {} WordNet words", colloq_wordnet_words.len());
-
     eprintln!("Loading Unigrams");
     let unigram_counts = load_counts(&config.unigrams_file)?;
     eprintln!("Loaded {} unigrams", unigram_counts.len());
@@ -443,6 +465,7 @@ fn frequency(config : Config) -> Result<(),String> {
                              .map_err(|e| format!("Cannot open out for writing: {}", e))?, flate2::Compression::Default));
 
     let mut freqs : HashMap<String, f64> = HashMap::new();
+    let mut freqs_lc : HashMap<String, f64> = HashMap::new();
     let mut contexts : HashMap<String, Vec<String>> = HashMap::new();
 
     let base_freq = 1e6f64;
@@ -488,23 +511,27 @@ fn frequency(config : Config) -> Result<(),String> {
             for i in 0..(tokens.len()-1) {
                 for j in (i+1)..min(i+3,tokens.len()) {
                     let phrase = tokens[i..j].join(" ");
-                    if words.contains(&phrase) {
+                    let phrase_norm = phrase_normalize(&phrase);
+                    let phrase_lc = phrase.to_lowercase();
+                    if words.contains(&phrase_lc) {
                         let zero = 0.0f64;
                         let f = *freqs.get(&phrase).unwrap_or(&zero);
+                        let f_lc = *freqs.get(&phrase_norm).unwrap_or(&zero);
                         let u = if (j - i) == 1 {
-                            unigram_counts.get(&phrase).unwrap_or(&base_freq) / n2 
+                            unigram_counts.get(&phrase_lc).unwrap_or(&base_freq) / n2 
                         } else if (j - i) == 2 {
-                            bigram_counts.get(&phrase).unwrap_or(&base_freq) / n2 
+                            bigram_counts.get(&phrase_lc).unwrap_or(&base_freq) / n2 
                         } else {
-                            bigram_counts.get(&tokens[i..(i+2)].join(" "))
+                            bigram_counts.get(&tokens[i..(i+2)].join(" ").to_lowercase())
                                 .unwrap_or(&base_freq) / n2
                         };
                         freqs.insert(phrase.clone(), f + 1.0 / u);
-                        if !contexted.contains(&phrase) {
+                        freqs_lc.insert(phrase_norm.clone(), f_lc + 1.0/u);
+                        if !contexted.contains(&phrase_norm) {
 
-                            contexts.entry(phrase.clone()).or_insert(Vec::new())
+                            contexts.entry(phrase_norm.clone()).or_insert(Vec::new())
                                 .push(context(&tokens, i, j));
-                            contexted.insert(phrase);
+                            contexted.insert(phrase_norm);
                         }
                     }
                 }
@@ -525,25 +552,24 @@ fn frequency(config : Config) -> Result<(),String> {
         if freq_n % 1000 == 0 {
            eprint!("\rWriting results [{:3}%]", (((freq_n * 100) as f32) / (n_freqs as f32)) as usize);
         }
-        if *freq > config.freq_min && !cwn_words.contains(phrase) {
+        if *freq > config.freq_min && !cwn_words.contains(phrase)
+                && mostly_lowercase(phrase, &freqs, &freqs_lc) {
             match contexts.get(phrase) {
                 Some(c) => {
                     match false_postive(phrase, &wordnet_words, &stopwords) {
                         TruePositive =>  {
-                            if !colloq_wordnet_words.contains(phrase) {
-                                write!(out,"{}|||{}", freq / n, phrase)
-                                    .map_err(|e| format!("Error writing: {}", e))?;
-                                let mut first = true;
-                                for content in get_examples(c.clone(), &top_words) {
-                                    if first {
-                                        write!(out,"|||{}", content).map_err(|e| format!("Error writing: {}", e))?;
-                                        first = false;
-                                    } else {
-                                        write!(out,";;;{}", content).map_err(|e| format!("Error writing: {}", e))?;
-                                    }
+                            write!(out,"{}|||{}", freq / n, phrase)
+                                .map_err(|e| format!("Error writing: {}", e))?;
+                            let mut first = true;
+                            for content in get_examples(c.clone(), &top_words) {
+                                if first {
+                                    write!(out,"|||{}", content).map_err(|e| format!("Error writing: {}", e))?;
+                                    first = false;
+                                } else {
+                                    write!(out,";;;{}", content).map_err(|e| format!("Error writing: {}", e))?;
                                 }
-                                writeln!(out,"").map_err(|e| format!("Error writing: {}", e))?;
                             }
+                            writeln!(out,"").map_err(|e| format!("Error writing: {}", e))?;
                         },
                         InWordNet => {
                             write!(out,"{}|||*{}", freq / n, phrase)

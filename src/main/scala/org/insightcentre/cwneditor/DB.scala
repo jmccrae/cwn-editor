@@ -318,6 +318,24 @@ class DB(db : File) {
     }
   }
 
+  def assign(user : String, lemma : String, examples : Seq[String]) = withSession(conn) { implicit session =>
+    sql"""SELECT id, user FROM queue WHERE lemma=$lemma LIMIT 1""".as2[Int,String].headOption match {
+      case Some((id, "")) => 
+        val now = (java.time.LocalDate.now().toEpochDay()) * 86400000l 
+        val newExpiry = (java.time.LocalDate.now().toEpochDay() + HOLD_LENGTH_DAYS) * 86400000l
+        sql"""UPDATE queue SET user=$user, expiry=$newExpiry WHERE lemma=$lemma""".execute
+      case Some((id, otheruser)) =>
+        println(s"$lemma is in another users queue")
+      case None =>
+        val now = (java.time.LocalDate.now().toEpochDay()) * 86400000l 
+        val newExpiry = (java.time.LocalDate.now().toEpochDay() + HOLD_LENGTH_DAYS) * 86400000l
+        sql"""INSERT INTO queue (expiry, lemma, user, examples) VALUES (
+          $newExpiry, $lemma, $user, ${examples.mkString(";;;")})""".execute
+    }
+  }
+
+
+
   def dequeue(user : String, id : Int) = withSession(conn) { implicit session =>
     sql"""UPDATE queue SET user="" WHERE user=$user AND id=$id""".execute
   }

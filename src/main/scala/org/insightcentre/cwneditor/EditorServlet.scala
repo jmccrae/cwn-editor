@@ -195,6 +195,16 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                             store.updateEntrySynset(params("lemma"), entry, synsets.map(ss =>
                                 ss.copy(id = smap(ss.id))))
                             acceptUpdate(username, params.get("next"))
+                            if(clientEntry.status == "inflected") {
+                              for(alt <- clientEntry.inflecteds) {
+                                if(store.getEntry(alt.text) == None) {
+                                  store.assign(username,
+                                    alt.text,
+                                    clientEntry.examples.map(_.text))
+
+                                }
+                              }
+                            }
                           }
                           case Failure(reason) =>
                             BadRequest(reason.getMessage)
@@ -366,6 +376,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
 
     get("/add/:id") {
+      println("add" + username)
       id2int(id => {
         username match {
           case Some(username) =>

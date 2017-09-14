@@ -320,7 +320,7 @@ class DB(db : File) {
 
   def assign(user : String, lemma : String, examples : Seq[String]) = withSession(conn) { implicit session =>
     sql"""SELECT id, user FROM queue WHERE lemma=$lemma LIMIT 1""".as2[Int,String].headOption match {
-      case Some((id, "")) => 
+      case Some((id, u)) if u == "" || u == user => 
         val now = (java.time.LocalDate.now().toEpochDay()) * 86400000l 
         val newExpiry = (java.time.LocalDate.now().toEpochDay() + HOLD_LENGTH_DAYS) * 86400000l
         sql"""UPDATE queue SET user=$user, expiry=$newExpiry WHERE lemma=$lemma""".execute

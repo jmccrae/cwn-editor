@@ -36,24 +36,33 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="confidence">Confidence
+                        <label>Confidence</label>
                         <a href="#" onclick="$('#confidence-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label><br/>
-                        <label class="radio-inline">
-                        <input type="radio" 
-                            name="confidence" id="confidence-vstrong"
-                            value="vstrong" ng-model="entry.confidence"/>Very strong</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="confidence" id="confidence-strong"
-                            value="strong" ng-model="entry.confidence"/>Strong</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="confidence" id="confidence-medium"
-                            value="medium" ng-model="entry.confidence"/>Medium</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="confidence" id="confidence-weak"
-                            value="weak" ng-model="entry.confidence"/>Weak</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="confidence" id="confidence-skip"
-                            value="skip" ng-model="entry.confidence"/>Skip</label>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.confidence !== 'vstrong', 'btn-primary': entry.confidence == 'vstrong'}"
+                          type="button"
+                          ng-click="entry.confidence = 'vstrong'"
+                        >Very Strong</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.confidence !== 'strong', 'btn-primary': entry.confidence == 'strong'}"
+                          type="button"
+                          ng-click="entry.confidence = 'strong'"
+                        >Strong</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.confidence !== 'medium', 'btn-primary': entry.confidence == 'medium'}"
+                          type="button"
+                          ng-click="entry.confidence = 'medium'"
+                        >Medium</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.confidence !== 'weak', 'btn-primary': entry.confidence == 'weak'}"
+                          type="button"
+                          ng-click="entry.confidence = 'weak'"
+                        >Weak</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.confidence !== 'skip', 'btn-primary': entry.confidence == 'skip'}"
+                          type="button"
+                          ng-click="entry.confidence = 'skip'"
+                        >Skip</button>
                         <div id="confidence-help" class="cwn-help">
                             <p>The confidence indicates how strongly you understand the term in question</p>
                             <ul>
@@ -68,33 +77,43 @@
                     <div class="form-group" ng-show="entry.confidence == 'vstrong' || entry.confidence == 'strong' || entry.confidence == 'medium' || entry.confidence == 'weak'">
                         <label for="status">Status
                         <a href="#" onclick="$('#status-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label><br/>
-                        <label class="radio-inline">
-                        <input type="radio" name="status" id="status-general"
-                            value="general" ng-model="entry.status"/>General</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="status" id="status-novel"
-                            value="novel" ng-model="entry.status"/>Novel</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="status" id="status-vulgar"
-                            value="vulgar" ng-model="entry.status"/>Vulgar</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="status" id="status-abbrev"
-                            value="abbrev" ng-model="entry.status"/>Abbreviation</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="status" id="status-misspell"
-                            value="misspell" ng-model="entry.status"/>Misspelling</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="status" id="status-inflected"
-                            value="inflected" ng-model="entry.status"/>Inflected Form</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="status" id="status-name"
-                            value="name" ng-model="entry.status"/>Name</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="status" id="status-nonlex"
-                            value="nonlex" ng-model="entry.status"/>Not Lexical</label>
-                        <label class="radio-inline">
-                        <input type="radio" name="status" id="status-error"
-                            value="error" ng-model="entry.status"/>Error</label>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.status !== 'general', 'btn-primary': entry.status == 'general'}"
+                          type="button"
+                          ng-click="entry.status = 'general'">General</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.status !== 'novel', 'btn-primary': entry.status == 'novel'}"
+                          type="button"
+                          ng-click="entry.status = 'novel'">Novel</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.status !== 'vulgar', 'btn-primary': entry.status == 'vulgar'}"
+                          type="button"
+                          ng-click="entry.status = 'vulgar'">Vulgar</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.status !== 'abbrev', 'btn-primary': entry.status == 'abbrev'}"
+                          type="button"
+                          ng-click="entry.status = 'abbrev'">Abbreviation</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.status !== 'misspell', 'btn-primary': entry.status == 'misspell'}"
+                          type="button"
+                          ng-click="entry.status = 'misspell'">Misspelling</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.status !== 'inflected', 'btn-primary': entry.status == 'inflected'}"
+                          type="button"
+                          ng-click="entry.status = 'inflected'">Inflected Form</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.status !== 'name', 'btn-primary': entry.status == 'name'}"
+                          type="button"
+                          ng-click="entry.status = 'name'">Name</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.status !== 'nonlex', 'btn-primary': entry.status == 'nonlex'}"
+                          type="button"
+                          ng-click="entry.status = 'nonlex'">Not Lexical</button>
+                        <button class="btn" 
+                          ng-class="{'btn-default': entry.status !== 'error', 'btn-primary': entry.status == 'error'}"
+                          type="button"
+                          ng-click="entry.status = 'error'">Error</button>
+
                         <div id="status-help" class="cwn-help">
                             <p>The status indicates what kind of term this term is, note that "General", "Novel" and "Vulgar" are used for true terms, and "Abbreviation", "Misspelling", "Name", "Not Lexical" and "Error" for terms that will only be included in the ancillary data for Colloquial WordNet</p>
                             <ul>
@@ -126,27 +145,31 @@
                                 <a href="" ng-click="togglePosHelp(sense.id)"
                                 tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
                             </label><br/>
-                            <label class="radio-inline">
-                                <input type="radio" value="n" 
-                                 readonly
+                            <button class="btn" 
+                              ng-class="{'btn-default': sense.synset.pos !== 'n', 'btn-primary': sense.synset.pos == 'n'}"
+                              type="button"
                                  ng-disabled="sense.external"
-                                 ng-model="sense.synset.pos"/>Noun</label>
-                            <label class="radio-inline">
-                                <input type="radio" value="v" 
+                              ng-click="sense.synset.pos = 'n'">Noun</button>
+                            <button class="btn" 
+                              ng-class="{'btn-default': sense.synset.pos !== 'v', 'btn-primary': sense.synset.pos == 'v'}"
+                              type="button"
                                  ng-disabled="sense.external"
-                                 ng-model="sense.synset.pos"/>Verb</label>
-                            <label class="radio-inline">
-                                <input type="radio" value="a" 
+                              ng-click="sense.synset.pos = 'v'">Verb</button>
+                            <button class="btn" 
+                              ng-class="{'btn-default': sense.synset.pos !== 'a', 'btn-primary': sense.synset.pos == 'a'}"
+                              type="button"
                                  ng-disabled="sense.external"
-                                 ng-model="sense.synset.pos"/>Adjective</label>
-                            <label class="radio-inline">
-                                <input type="radio" value="r" 
+                              ng-click="sense.synset.pos = 'a'">Adjective</button>
+                            <button class="btn" 
+                              ng-class="{'btn-default': sense.synset.pos !== 'r', 'btn-primary': sense.synset.pos == 'r'}"
+                              type="button"
                                  ng-disabled="sense.external"
-                                 ng-model="sense.synset.pos"/>Adverb</label>
-                            <label class="radio-inline">
-                                <input type="radio" value="x" 
+                              ng-click="sense.synset.pos = 'r'">Adverb</button>
+                            <button class="btn" 
+                              ng-class="{'btn-default': sense.synset.pos !== 'x', 'btn-primary': sense.synset.pos == 'x'}"
+                              type="button"
                                  ng-disabled="sense.external"
-                                 ng-model="sense.synset.pos"/>Other</label>
+                              ng-click="sense.synset.pos = 'x'">Other</button>
                             <div ng-attr-id="pos{{sense.id}}-help" class="cwn-help">
                                 <p>Please give the part-of-speech associated with this sense of the term or phrase. 
                                 "Other" is used for interjections such as "wow!" or "gosh!".</p>
@@ -435,7 +458,7 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
         $scope.entry.senses = [];
     } else if($scope.entry.status === 'inflected') {
         $scope.entry.inflecteds = $scope.entry.senses.map(function(s) {
-            return {"text": s.synset, "new": false};
+            return {"text": s.synset, "new": true};
         });
         $scope.entry.senses = [];
     } 

@@ -197,8 +197,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                             acceptUpdate(username, params.get("next"))
                             if(clientEntry.status == "inflected") {
                               for(alt <- clientEntry.inflecteds) {
-                                if(store.getEntry(alt.text) == None || 
-                                  alt.`new` == Some(true)) {
+                                if(alt.`new` == Some(true)) {
                                   store.assign(username,
                                     alt.text,
                                     clientEntry.examples.map(_.text))

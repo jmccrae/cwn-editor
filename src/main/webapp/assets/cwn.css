@@ -202,3 +202,7 @@ a {
     line-height: normal;
     padding-bottom: 5px;
 }
+
+.form-control-inline input[radio] {
+    height:50px;
+}

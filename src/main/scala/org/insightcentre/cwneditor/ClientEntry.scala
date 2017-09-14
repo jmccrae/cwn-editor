@@ -9,7 +9,7 @@ import scala.util.{Try,Success,Failure}
 object CWNClientEditorProtocol extends DefaultJsonProtocol {
   implicit val relationFormat = jsonFormat3(Relation)
   implicit val synsetFormat = jsonFormat3(Synset)
-  implicit val alternativeFormat = jsonFormat1(Alternative)
+  implicit val alternativeFormat = jsonFormat2(Alternative)
   implicit val exampleFormat = jsonFormat1(Example)
   implicit val senseFormat = jsonFormat3(Sense)
   implicit val entryFormat = jsonFormat8(Entry)
@@ -81,7 +81,7 @@ case class Synset(
   def getPos = pos.getOrElse(throw new RuntimeException("Part of Speech is required"))
 }
 
-case class Alternative(text : String) {
+case class Alternative(text : String, `new` : Option[Boolean]) {
   def toDBSense = SSense(Nil, text)
 }
 

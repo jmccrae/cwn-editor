@@ -39,7 +39,8 @@
                         <label for="confidence">Confidence
                         <a href="#" onclick="$('#confidence-help').toggle();return false" tabindex="-1"><i class="fa fa-question-circle" aria-hidden="true"></i></a></label><br/>
                         <label class="radio-inline">
-                        <input type="radio" name="confidence" id="confidence-vstrong"
+                        <input type="radio" 
+                            name="confidence" id="confidence-vstrong"
                             value="vstrong" ng-model="entry.confidence"/>Very strong</label>
                         <label class="radio-inline">
                         <input type="radio" name="confidence" id="confidence-strong"
@@ -159,7 +160,7 @@
                             <div ng-controller="SynAutoComplete as ctrl" layout="column" ng-cloak="">
                               <md-content class="md-padding">
                                 <md-autocomplete 
-                                    md-dropdown-items="20"
+                                    md-dropdown-items="10"
                                     md-selected-item="ctrl.selectedItem" 
                                     md-selected-item-change="ctrl.selectedItemChange(item)"
                                     md-search-text="ctrl.searchText" 
@@ -237,6 +238,7 @@
                                   <option value="holo_portion">Holonym portion (divides into)</option>
                                   <option value="holo_substance">Holonym substance (substance of)</option>
                                   <option value="pejorative">Pejorative for</option>
+                                  <option value="examplifies">Exemplifies</option>
                               </select>
                             </td>
                             <td>
@@ -244,7 +246,7 @@
                             <div ng-controller="SynAutoComplete2 as ctrl" layout="column" ng-cloak="">
                               <md-content class="md-padding">
                                 <md-autocomplete 
-                                    md-dropdown-items="20"
+                                    md-dropdown-items="10"
                                     md-selected-item="ctrl.selectedItem" 
                                     md-selected-item-change="ctrl.selectedItemChange(item)"
                                     md-search-text="ctrl.searchText" 
@@ -351,13 +353,18 @@
                             ng-click="addInflected()">Add</button></label>
                         <table id="inflecteds">
                             <tr ng-repeat="inflected in entry.inflecteds">
-                                <td>
+                                <td width="75%">
                                     <div class="input-group">
                                       <input type='text' class='form-control'
                                        ng-model="inflected.text"/>
                                       <div class="input-group-addon btn-danger"
                                        ng-click="removeInflected(inflected)">&times;</div>
                                     </div>
+                                </td>
+                                <td>
+                                <label>
+                                <input type='checkbox'
+                                ng-model="inflected.new"/>Add to my queue</label>
                                 </td>
                             </tr>
                         </table>
@@ -418,17 +425,17 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
         }
     } else if($scope.entry.status === 'abbrev') {
         $scope.entry.abbrevs = $scope.entry.senses.map(function(s) {
-            return {"text": s.synset};
+            return {"text": s.synset, "new": false};
         });
         $scope.entry.senses = [];
     } else if($scope.entry.status === 'misspell') {
         $scope.entry.misspells = $scope.entry.senses.map(function(s) {
-            return {"text": s.synset};
+            return {"text": s.synset, "new": false};
         });
         $scope.entry.senses = [];
     } else if($scope.entry.status === 'inflected') {
         $scope.entry.inflecteds = $scope.entry.senses.map(function(s) {
-            return {"text": s.synset};
+            return {"text": s.synset, "new": false};
         });
         $scope.entry.senses = [];
     } 
@@ -547,13 +554,22 @@ angular.module('app').controller('SynAutoComplete2', function($http,$scope) {
         var self = this;
         self.querySearch   = querySearch;
         var display = "";
-        if($scope.$parent.relation.trgWord !== "") {
-            self.selectedItem = {
-                "ili": $scope.$parent.relation.trgSynset,
-                "word": $scope.$parent.relation.trgWord,
-                "display": $scope.$parent.relation.trgWord + ": <" +
-                    $scope.$parent.relation.trgSynset + ">"
-            };
+        if($scope.$parent.relation.trgSynset !== "") {
+            if($scope.$parent.relation.trgWord !== "") {
+                self.selectedItem = {
+                    "ili": $scope.$parent.relation.trgSynset,
+                    "word": $scope.$parent.relation.trgWord,
+                    "display": "<" + $scope.$parent.relation.trgSynset + ">"
+                };
+
+            } else {
+                self.selectedItem = {
+                    "ili": $scope.$parent.relation.trgSynset,
+                    "word": $scope.$parent.relation.trgWord,
+                    "display": $scope.$parent.relation.trgWord + ": <" +
+                        $scope.$parent.relation.trgSynset + ">"
+                };
+            }
         }
 
         function querySearch (query) {

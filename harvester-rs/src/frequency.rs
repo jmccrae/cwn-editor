@@ -424,11 +424,20 @@ fn get_examples(mut contexts : Vec<String>, top_words : &HashSet<String>) -> Vec
 
 fn is_distinct(c: &str, examples : &Vec<String>) -> bool {
     let c_words : HashSet<&str> = c.split(" ").collect();
+    if c_words.contains("NOW") {
+        eprintln!("{:?} {:?}", c_words, examples);
+    }
     for s in examples {
         let example_words = s.split(" ").collect();
         if c_words.intersection(&example_words).count() > 5 {
+            if c_words.contains("NOW") {
+                eprintln!("false");
+            }
             return false;
         }
+    }
+    if c_words.contains("NOW") {
+        eprintln!("true");
     }
     return true;
 }
@@ -553,10 +562,11 @@ fn frequency(config : Config) -> Result<(),String> {
            eprint!("\rWriting results [{:3}%]", (((freq_n * 100) as f32) / (n_freqs as f32)) as usize);
         }
         if *freq > config.freq_min && !cwn_words.contains(phrase)
+                && !cwn_words.contains(&phrase.to_lowercase())
                 && mostly_lowercase(phrase, &freqs, &freqs_lc) {
             match contexts.get(phrase) {
                 Some(c) => {
-                    match false_postive(phrase, &wordnet_words, &stopwords) {
+                    match false_postive(&phrase.to_lowercase(), &wordnet_words, &stopwords) {
                         TruePositive =>  {
                             write!(out,"{}|||{}", freq / n, phrase)
                                 .map_err(|e| format!("Error writing: {}", e))?;

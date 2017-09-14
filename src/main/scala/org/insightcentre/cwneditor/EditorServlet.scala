@@ -197,11 +197,28 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                             acceptUpdate(username, params.get("next"))
                             if(clientEntry.status == "inflected") {
                               for(alt <- clientEntry.inflecteds) {
-                                if(store.getEntry(alt.text) == None) {
+                                if(store.getEntry(alt.text) == None || 
+                                  alt.`new` == Some(true)) {
                                   store.assign(username,
                                     alt.text,
                                     clientEntry.examples.map(_.text))
 
+                                }
+                              }
+                            }
+                            if(clientEntry.status == "misspell") {
+                              for(alt <- clientEntry.misspells) {
+                                if(alt.`new` == Some(true)) {
+                                  store.assign(username, alt.text,
+                                    clientEntry.examples.map(_.text))
+                                }
+                              }
+                            }
+                            if(clientEntry.status == "abbrev") {
+                              for(alt <- clientEntry.abbrevs) {
+                                if(alt.`new` == Some(true)) {
+                                  store.assign(username, alt.text,
+                                    clientEntry.examples.map(_.text))
                                 }
                               }
                             }
@@ -389,6 +406,8 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                 }
                 store.getEntry(lemma) match {
                   case Some(entry) =>
+                    store.update(username, lemma, 
+                      entry.copy(examples=data.examples.map(Example)))
                   case None =>
                     store.addEntry(lemma, data.examples)
                 }

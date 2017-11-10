@@ -59,11 +59,12 @@ object FromGWN {
         confidence="vstrong",
         examples=examples.getOrElse(lemma, Nil),
         status=fail2aux((e \ "@note").text),
-        senses=(e \ "Sense").map({ s =>
-          val synset = synsets((s \ "@synset").text)
-          Sense(
-            relations=makeSenseRelations(s, synsets),
-            synset=synset.id)
+        senses=(e \ "Sense").flatMap({ s =>
+          synsets.get((s \ "@synset").text).map({ synset =>
+              Sense(
+                relations=makeSenseRelations(s, synsets),
+                synset=synset.id)
+            })
         }).toList)
     }) ++ corrections
     val es2 : Map[String, Seq[Entry]] = es1.groupBy(_.lemma)
@@ -125,7 +126,7 @@ object FromGWN {
       args(4)
     }
 
-    val examples = io.Source.fromFile(examplesFile).getLines.map({ line =>
+    val examples = io.Source.fromFile(examplesFile, "UTF-8").getLines.map({ line =>
       val e = line.split("\t")
       if(e.size == 1) {
         e(0) -> Nil
@@ -139,6 +140,7 @@ object FromGWN {
     var cwns = 0
 
     val cwnSynsets = (gwn \\ "Synset")
+    .filter(s => (s \ "@note").text != "aux")
     .map({ s =>
       cwns += 1
       val id = s"c$cwns"

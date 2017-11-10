@@ -50,6 +50,7 @@ case class Synset(
   definition : String,
   relations : List[SynsetRelation]
 ) {
+    if(pos == "") throw new IllegalArgumentException()
   def partOfSpeech = pos match {
     case "n" => "noun"
     case "v" => "verb"

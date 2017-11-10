@@ -41,7 +41,7 @@
                         <a ng-href="${contextUrl}/synset/{{sense.synset}}">&lt;<span ng-bind="sense.synset"></span>&gt;</a></p>
                         <p ng-repeat="relation in sense.relations">
                             <span ng-bind="relation.type"></span> &#8594; <a 
-                            ng-href="${contextUrl}/entry/{{relation.trgWord}}"
+                            ng-href="${contextUrl}/entry/{{relation.trgWord | encodeURIComponent}}"
                             ng-bind="relation.trgWord">
                         </a></p>
                     </span>
@@ -49,19 +49,19 @@
                 <div class="summary-body"
                     ng-if="entry.status === 'abbrev'">
                     <p>Short for &ldquo;<a 
-                        ng-href="${contextUrl}/entry/{{entry.senses[0].synset}}"
+                        ng-href="${contextUrl}/entry/{{entry.senses[0].synset | encodeURIComponent}}"
                         ng-bind="entry.senses[0].synset"></a>&rdquo;</p>
                 </div>
                 <div class="summary-body"
                     ng-if="entry.status === 'misspell'">
                     <p>Misspelling of &ldquo;<a
-                        ng-href="${contextUrl}/entry/{{entry.senses[0].synset}}"
+                        ng-href="${contextUrl}/entry/{{entry.senses[0].synset | encodeURIComponent}}"
                         ng-bind="entry.senses[0].synset"></a>&rdquo;</p>
                 </div>
                 <div class="summary-body"
                     ng-if="entry.status === 'inflected'">
                     <p>Inflected form of &ldquo;<a
-                        ng-href="${contextUrl}/entry/{{entry.senses[0].synset}}"
+                        ng-href="${contextUrl}/entry/{{entry.senses[0].synset | encodeURIComponent}}"
                         ng-bind="entry.senses[0].synset"></a>&rdquo;</p>
                 </div>
             </div>

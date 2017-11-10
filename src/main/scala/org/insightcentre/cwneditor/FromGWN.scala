@@ -40,7 +40,7 @@ object FromGWN {
   }
 
   def srType(sr : Node) = (sr \ "@relType").text match {
-    case "other" => (sr \ "@dc:type").text
+    case "other" => (sr \ "@{http://purl.org/dc/elements/1.1/}type").text
     case notOther => notOther
   }
 

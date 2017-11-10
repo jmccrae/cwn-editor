@@ -67,6 +67,8 @@ case class SynsetWithMembers(
   relations : List[SynsetRelation],
   lemmas : List[String])
 
-case class Relation(`type` : String, trgWord : String, trgSynset : String)
+case class Relation(`type` : String, trgWord : String, trgSynset : String) {
+  if(`type` == "") throw new IllegalArgumentException();
+}
 
 case class SynsetRelation(`type` : String, trgSynset : String) 

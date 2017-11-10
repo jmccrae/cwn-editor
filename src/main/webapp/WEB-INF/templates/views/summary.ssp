@@ -37,8 +37,13 @@
                    ng-if="entry.status === 'general' || entry.status === 'novel' || entry.status === 'vulgar'">
                     <span ng-repeat="sense in entry.senses">
                         <hr>
-                        <p><span ng-controller="SynsetController">(<span ng-bind="partOfSpeech"></span>) <span ng-bind="definition"></span></span>
+                        <span ng-controller="SynsetController"><p>(<span ng-bind="partOfSpeech"></span>) <span ng-bind="definition"></span>
                         <a ng-href="${contextUrl}/synset/{{sense.synset}}">&lt;<span ng-bind="sense.synset"></span>&gt;</a></p>
+                        <p ng-repeat="relation in relations">
+                            <span ng-bind="relation.type"></span> &#8594; <a
+                            ng-href="${contextUrl}/synset/{{relation.trgSynset}}"
+                            ng-bind="relation.trgSynset"></a></p></p></span>
+                            
                         <p ng-repeat="relation in sense.relations">
                             <span ng-bind="relation.type"></span> &#8594; <a 
                             ng-href="${contextUrl}/entry/{{relation.trgWord | encodeURIComponent}}"
@@ -106,6 +111,11 @@ angular.module('app').controller('SynsetController', function($scope,$http) {
     if(ss) {
         $scope.definition = ss.definition;
         $scope.partOfSpeech = ss.pos;
+    }
+    if(ss.id.startsWith("c")) {
+        $scope.relations = ss.relations;
+    } else {
+        $scope.relations = [];
     }
 });
 

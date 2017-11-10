@@ -229,6 +229,8 @@
                              type="button">Add</button>
                                     </th>
                                     <th>Target</th>
+                                    <th>Word</th>
+                                    <th>Synset</th>
                                     <th width="12%"></th>
                                 </tr>
                             <thead>
@@ -287,6 +289,8 @@
                               </md-content>
                             </div>
                             </td>
+                            <td>{{relation.trgWord}}</td>
+                            <td>{{relation.trgSynset}}</td>
                             <td>
                               <button type="button" class="btn btn-danger pull-right"
                                 ng-click="removeRel(sense,relation)"
@@ -578,7 +582,8 @@ angular.module('app').controller('SynAutoComplete2', function($http,$scope) {
         self.querySearch   = querySearch;
         var display = "";
         if($scope.$parent.relation.trgSynset !== "") {
-            if($scope.$parent.relation.trgWord !== "") {
+            if($scope.$parent.relation.trgWord === "" ||
+                $scope.$parent.relation.trgWord === undefined) {
                 self.selectedItem = {
                     "ili": $scope.$parent.relation.trgSynset,
                     "word": $scope.$parent.relation.trgWord,

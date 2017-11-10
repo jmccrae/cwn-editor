@@ -28,7 +28,7 @@
                              ng-title="{{entry.status}}"/>
                         <span ng-bind="entry.lemma"></span>
                         <a class="pull-right edit-icon"
-                           ng-href="${contextUrl}/edit/{{entry.lemma}}">
+                           ng-href="${contextUrl}/edit/{{entry.lemma | encodeURIComponent}}">
                             <i class="fa fa-pencil" aria-hidden="true"></i>
                         </a>
                     </h3>
@@ -107,5 +107,9 @@ angular.module('app').controller('SynsetController', function($scope,$http) {
         $scope.definition = ss.definition;
         $scope.partOfSpeech = ss.pos;
     }
+});
+
+angular.module('app').filter('encodeURIComponent', function() {
+    return window.encodeURIComponent;
 });
 </script>

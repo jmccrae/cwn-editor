@@ -28,3 +28,5 @@ cwn-old.db
 queue-all.csv.gz
 wn31.xml
 users.csv
+*.sublime-project
+*.sublime-workspace

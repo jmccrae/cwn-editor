@@ -173,78 +173,85 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
     post("/update/:lemma") {
       import client.CWNClientEditorProtocol._
-      username match {
-        case Some(username) => {
-          try {
-            Try(request.body.parseJson.convertTo[client.Entry]) match {
-              case Success(clientEntry) => {
-                clientEntry.confidence match {
-                  case "skip" => 
-                    acceptUpdate(username, params.get("next"))
-                  case s if Set("vstrong", "strong", "medium", "weak") contains s => {
-                    clientEntry.status match {
-                      case s if Set("general", "novel", "vulgar", "abbrev", 
-                        "misspell", "inflected", "name", "nonlex", "error") contains s => {
-                        clientEntry.toDBEntry match {
-                          case Success((_entry, synsets)) => {
-                            val smap = synsets.map({ synset =>
-                              synset.id -> store.updateSynset(synset.id, synset)
-                            }).toMap
-                            val entry = _entry.updateIds(smap)
-                            store.update(username, params("lemma"), entry)
-                            store.updateEntrySynset(params("lemma"), entry, synsets.map(ss =>
-                                ss.copy(id = smap(ss.id))))
-                            acceptUpdate(username, params.get("next"))
-                            if(clientEntry.status == "inflected") {
-                              for(alt <- clientEntry.inflecteds) {
-                                if(alt.`new` == Some(true)) {
-                                  store.assign(username,
-                                    alt.text,
-                                    clientEntry.examples.map(_.text))
+      try {
+        username match {
+          case Some(username) => {
+            try {
+              Try(request.body.parseJson.convertTo[client.Entry]) match {
+                case Success(clientEntry) => {
+                  clientEntry.confidence match {
+                    case "skip" => 
+                      acceptUpdate(username, params.get("next"))
+                    case s if Set("vstrong", "strong", "medium", "weak") contains s => {
+                      clientEntry.status match {
+                        case s if Set("general", "novel", "vulgar", "abbrev", 
+                          "misspell", "inflected", "name", "nonlex", "error") contains s => {
+                          clientEntry.toDBEntry match {
+                            case Success((_entry, synsets)) => {
+                              val smap = synsets.map({ synset =>
+                                synset.id -> store.updateSynset(synset.id, synset)
+                              }).toMap
+                              val entry = _entry.updateIds(smap)
+                              store.update(username, params("lemma"), entry)
+                              store.updateEntrySynset(params("lemma"), entry, synsets.map(ss =>
+                                  ss.copy(id = smap(ss.id))))
+                              acceptUpdate(username, params.get("next"))
+                              if(clientEntry.status == "inflected") {
+                                for(alt <- clientEntry.inflecteds) {
+                                  if(alt.`new` == Some(true)) {
+                                    store.assign(username,
+                                      alt.text,
+                                      clientEntry.examples.map(_.text))
 
+                                  }
+                                }
+                              }
+                              if(clientEntry.status == "misspell") {
+                                for(alt <- clientEntry.misspells) {
+                                  if(alt.`new` == Some(true)) {
+                                    store.assign(username, alt.text,
+                                      clientEntry.examples.map(_.text))
+                                  }
+                                }
+                              }
+                              if(clientEntry.status == "abbrev") {
+                                for(alt <- clientEntry.abbrevs) {
+                                  if(alt.`new` == Some(true)) {
+                                    store.assign(username, alt.text,
+                                      clientEntry.examples.map(_.text))
+                                  }
                                 }
                               }
                             }
-                            if(clientEntry.status == "misspell") {
-                              for(alt <- clientEntry.misspells) {
-                                if(alt.`new` == Some(true)) {
-                                  store.assign(username, alt.text,
-                                    clientEntry.examples.map(_.text))
-                                }
-                              }
-                            }
-                            if(clientEntry.status == "abbrev") {
-                              for(alt <- clientEntry.abbrevs) {
-                                if(alt.`new` == Some(true)) {
-                                  store.assign(username, alt.text,
-                                    clientEntry.examples.map(_.text))
-                                }
-                              }
-                            }
+                            case Failure(reason) =>
+                              BadRequest(reason.getMessage)
                           }
-                          case Failure(reason) =>
-                            BadRequest(reason.getMessage)
                         }
+                        case _ => BadRequest("Status is not set")
                       }
-                      case _ => BadRequest("Status is not set")
                     }
+                    case _ =>
+                      BadRequest("Confidence is not set")
                   }
-                  case _ =>
-                    BadRequest("Confidence is not set")
+                }
+                case Failure(reason) => {
+                  System.err.println("Could not convert object")
+                  BadRequest(reason.getMessage)
                 }
               }
-              case Failure(reason) => {
-                BadRequest(reason.getMessage)
-              }
+            } catch {
+              case x : Exception => 
+                x.printStackTrace()
+                InternalServerError(x.getMessage())
             }
-          } catch {
-            case x : Exception => 
-              x.printStackTrace()
-              InternalServerError(x.getMessage())
           }
+          case None =>
+            BadRequest("Session expired")
         }
-        case None =>
-          BadRequest("Session expired")
+      } catch {
+        case x : Exception =>
+          x.printStackTrace()
+          InternalServerError(x.getMessage())
       }
     }
 

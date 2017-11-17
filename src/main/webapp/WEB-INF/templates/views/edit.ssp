@@ -568,9 +568,11 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
     };
     $scope.submitEntry = function() {
         var data = $scope.entry;
+        console.log(data);
         $http.post("${contextUrl}/update/${entry.lemma}${next.map(s => "?next=" + s).getOrElse("")}", data).then(function() {
             window.location = "${contextUrl}/next_queue";
         }, function(response) {
+            alert(response.data);
             $scope.error = response.data;
         });
         
@@ -649,7 +651,7 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
             if(item) {
                $scope.$parent.sense.synset = {
                 "id": item.ili,
-                "pos": "",
+                "pos": $parent.sense.synset.pos,
                 "relations": [],
                 "definition": ""
                 };
@@ -657,7 +659,7 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
             } else {
                 $scope.$parent.sense.synset = {
                     "id": "",
-                    "pos": "",
+                    "pos": $parent.sense.synset.pos,
                     "relations": [],
                     "definition": ""
                 };

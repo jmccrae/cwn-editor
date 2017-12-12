@@ -18,7 +18,6 @@
             <div class="row">
                 <form ng-submit="submitEntry()" ng-controller="CWNEditController">
                    <div class="alert alert-danger" ng-show="error" ng-bind="error">Angular Load Error</div>
-{{entry}}
                    <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"

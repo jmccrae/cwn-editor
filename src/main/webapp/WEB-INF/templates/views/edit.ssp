@@ -18,6 +18,7 @@
             <div class="row">
                 <form ng-submit="submitEntry()" ng-controller="CWNEditController">
                    <div class="alert alert-danger" ng-show="error" ng-bind="error">Angular Load Error</div>
+{{entry}}
                    <div class="form-group">
                         <label for="lemma">Lemma</label>
                         <input type="text" class="form-control"
@@ -568,7 +569,6 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
     };
     $scope.submitEntry = function() {
         var data = $scope.entry;
-        console.log(data);
         $http.post("${contextUrl}/update/${entry.lemma}${next.map(s => "?next=" + s).getOrElse("")}", data).then(function() {
             window.location = "${contextUrl}/next_queue";
         }, function(response) {
@@ -632,6 +632,7 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
             self.selectedItem = {
                 "display": (ss.lemmas.join(",") + ": " + 
                     ss.definition + " <" + ss.id + ">"),
+                "definition": ss.definition,
                 "ili": ss.id
             };
         }
@@ -642,25 +643,21 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
                 .then(function(result) {
                     return result.data.map(function(s) {
                         var ili = s.match(".* <([icp]\\d+)>")[1];
-                        return {"display": s, "ili": ili};
+                        var defn = s.match(".*: (.*) <.*>")[1];
+                        return {"display": s, "ili": ili, "definition": defn};
                     });
                 });
         }
 
         self.selectedItemChange = function(item) {
             if(item) {
-               $scope.$parent.sense.synset = {
-                "id": item.ili,
-                "pos": $parent.sense.synset.pos,
-                "relations": [],
-                "definition": ""
-                };
+                $scope.$parent.sense.synset.id = item.ili;
+                $scope.$parent.sense.synset.definition = item.definition;
                 $scope.$parent.sense.external = true;
             } else {
                 $scope.$parent.sense.synset = {
                     "id": "",
                     "pos": $parent.sense.synset.pos,
-                    "relations": [],
                     "definition": ""
                 };
                 $scope.$parent.sense.external = false;

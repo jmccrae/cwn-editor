@@ -30,9 +30,9 @@
                             ${aqe.expiryString}
                         </td>
                         <td>
-                            <a class="btn btn-xs btn-success" href="${contextUrl}/add/${aqe.id}">Annotate</a><br>
-                            <a class="btn btn-xs btn-warning" href="${contextUrl}/extend/${aqe.id}">Renew Hold</a><br>
-                            <a class="btn btn-xs btn-danger" href="${contextUrl}/dequeue/${aqe.id}">Remove</a>
+                            <a class="btn btn-xs btn-success" href="${contextUrl}/add/${aqe.id.toString}">Annotate</a><br>
+                            <a class="btn btn-xs btn-warning" href="${contextUrl}/extend/${aqe.id.toString}">Renew Hold</a><br>
+                            <a class="btn btn-xs btn-danger" href="${contextUrl}/dequeue/${aqe.id.toString}">Remove</a>
                         </td>
                     #end
                 </table>

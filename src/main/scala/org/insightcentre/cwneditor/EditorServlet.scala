@@ -222,9 +222,10 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                                   }
                                 }
                               }
+                              "OK"
                             }
                             case Failure(reason) =>
-                              BadRequest(reason.getMessage)
+                              BadRequest("Failed to convert to DB:" + reason.getMessage)
                           }
                         }
                         case _ => BadRequest("Status is not set")

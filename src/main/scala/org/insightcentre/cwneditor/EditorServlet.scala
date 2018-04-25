@@ -195,7 +195,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                               store.update(username, params("lemma"), entry)
                               store.updateEntrySynset(params("lemma"), entry, synsets.map(ss =>
                                   ss.copy(id = smap(ss.id))))
-                              acceptUpdate(username, params.get("next"))
+                              val resp = acceptUpdate(username, params.get("next"))
                               if(clientEntry.status == "inflected") {
                                 for(alt <- clientEntry.inflecteds) {
                                   if(alt.`new` == Some(true)) {
@@ -222,7 +222,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                                   }
                                 }
                               }
-                              "OK"
+                              resp
                             }
                             case Failure(reason) =>
                               BadRequest("Failed to convert to DB:" + reason.getMessage)

@@ -123,7 +123,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
         val results = store.find(k)
         contentType = "application/javascript"
         "[" + results.map({ result =>
-          s""""${result.word}: ${result.definition.replaceAll("\\\"","'")} <${result.ili}>""""
+          s""""${result.word} (${result.pos}): ${result.definition.replaceAll("\\\"","'")} <${result.ili}>""""
         }).mkString(",") + "]"
       } else {
         ""
@@ -379,9 +379,16 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
     }
 
     get("/update_user") {
-        val redirect = params.getOrElse("redirect","/")
-        contentType = "text/html"
-        ssp("/update_user", "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
+      username match {
+        case Some(username) => {
+          val redirect = params.getOrElse("redirect","/")
+          contentType = "text/html"
+          ssp("/update_user", "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
+        }
+        case None => {
+          TemporaryRedirect(s"$context/login?redirect=/update_user")
+        }
+      }
     }
 
     def id2int(f : Int => Any) = {
@@ -399,7 +406,6 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
 
 
     get("/add/:id") {
-      println("add" + username)
       id2int(id => {
         username match {
           case Some(username) =>

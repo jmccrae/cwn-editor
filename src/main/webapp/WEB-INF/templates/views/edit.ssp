@@ -235,9 +235,9 @@
                                 </tr>
                             <thead>
                             <tr ng-repeat="relation in sense.relations">
-                              <td>                     
+                              <td>
                                 <select ng-model="relation.type"
-                                 ng-disabled="sense.external">
+                                 class="form-control">
                                   <option value="hypernym">Hypernym (broader)</option>
                                   <option value="hyponym">Hyponym (narrower)</option>
                                   <option value="instance_hypernym">Instance of (hypernym)</option>
@@ -276,6 +276,7 @@
                                     md-selected-item-change="ctrl.selectedItemChange(item)"
                                     md-search-text="ctrl.searchText" 
                                     md-items="item in ctrl.querySearch(ctrl.searchText)" 
+                                    md-menu-class="rel-synset-dropdown"
                                     md-item-text="item.display" 
                                     md-min-length="2" 
                                     placeholder="Synset">
@@ -289,9 +290,9 @@
                               </md-content>
                             </div>
                             </td>
-                            <td>{{relation.trgWord}}</td>
-                            <td>{{relation.trgSynset}}</td>
-                            <td>
+                            <td class="sense-rel">{{relation.trgWord}}</td>
+                            <td class="sense-rel">{{relation.trgSynset}}</td>
+                            <td class="sense-rel2">
                               <button type="button" class="btn btn-danger pull-right"
                                 ng-click="removeRel(sense,relation)"
                                >Remove</button>
@@ -389,12 +390,33 @@
                                     </div>
                                 </td>
                                 <td>
-                                <label>
+                                <label class="add-to-my-queue">
                                 <input type='checkbox'
                                 ng-model="inflected.new"/>Add to my queue</label>
                                 </td>
                             </tr>
                         </table>
+                        <div ng-controller="SynAutoComplete3 as ctrl" layout="column" ng-cloak="">
+                          <md-content class="md-padding">
+                            <md-autocomplete 
+                                md-dropdown-items="10"
+                                md-selected-item="ctrl.selectedItem" 
+                                md-selected-item-change="ctrl.selectedItemChange(item)"
+                                md-search-text="ctrl.searchText" 
+                                md-items="item in ctrl.querySearch(ctrl.searchText)" 
+                                md-item-text="item.display" 
+                                md-min-length="2" 
+                                placeholder="Synset">
+                               <md-item-template>
+                                 <span md-highlight-text="ctrl.searchText" md-highlight-flags="^i">{{item.display}}</span>
+                               </md-item-template>
+                               <md-not-found>
+                                 Not in dictionary
+                               </md-not-found>
+                            </md-autocomplete>
+                          </md-content>
+                        </div>
+ 
                         <div id="inflected1-help" class="cwn-help">
                             <p>Please give the lemma form of this word. This is the "base" form for inclected words. For verbs, it is the infinitive form (eg: for "going" or "went" you would enter "go"). For noun plurals, it's the singular (eg: for "dogs" you would enter "dog"). 
                             See this <a  target="_blank" href="https://en.wikipedia.org/wiki/Inflection#Examples_in_English">Wikipedia article</a> on inflected forms.</p>
@@ -402,9 +424,10 @@
                     </div>
                     <div class="alert alert-danger" ng-show="error" ng-bind="error"></div>
                     <div>
-                        <button class="btn btn-success cwn-sense" type="button" 
+                        <button class="btn btn-secondary cwn-sense" type="button" 
+                        ng-show="entry.status && (entry.status == 'general' || entry.status == 'novel' || entry.status == 'vulgar')"
                          ng-click="addSense()" style="margin:10px;">Add sense</button>
-                        <input type="submit" class="btn btn-default" value="Submit" style="margin:10px;"/>
+                        <input type="submit" class="btn btn-success" value="Submit" style="margin:10px;"/>
                     </div>
 
 
@@ -578,6 +601,36 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
     };
 });
 
+angular.module('app').controller('SynAutoComplete3', function($http,$scope) {
+        var self = this;
+        self.querySearch   = querySearch;
+        var display = "";
+        var synset = "";
+        var word = "";
+
+        function querySearch (query) {
+            return $http.get("${contextUrl}/wn/" + query)
+                .then(function(result) {
+                    return result.data.map(function(s) {
+                        var ili = s.match(".* <([icp]\\d+)>")[1];
+                        var word = s.match("(.*) \\(.*\\):.*")[1];
+                        return {"display": s, "ili": ili, "word": word};
+                    });
+                });
+        }
+
+        self.selectedItemChange = function(item) {
+            if(item) {
+               synset = item.ili;
+               word = item.word;
+            } else {
+                synset = "";
+                word = "";
+            }
+        };
+    });
+
+
 angular.module('app').controller('SynAutoComplete2', function($http,$scope) {
         var self = this;
         self.querySearch   = querySearch;
@@ -606,7 +659,7 @@ angular.module('app').controller('SynAutoComplete2', function($http,$scope) {
                 .then(function(result) {
                     return result.data.map(function(s) {
                         var ili = s.match(".* <([icp]\\d+)>")[1];
-                        var word = s.match("(.*):.*")[1];
+                        var word = s.match("(.*) \\(.*\\):.*")[1];
                         return {"display": s, "ili": ili, "word": word};
                     });
                 });

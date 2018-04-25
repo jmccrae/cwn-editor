@@ -14,7 +14,7 @@ import scala.collection.JavaConversions._
 import scala.math.min
 import spray.json._
 
-case class WordNetEntry(word : String, ili : String, definition : String)
+case class WordNetEntry(word : String, ili : String, definition : String, pos : String)
 
 case class AnnotationQueueEntry(id : Int, expiry : Long, lemma : String, user : String, examples : List[String]) {
   def expiryString = AnnotationQueueEntry.dateFormat.format(new java.util.Date(expiry))
@@ -282,13 +282,13 @@ class DB(db : File) {
   }
 
   def find(s : String) : List[WordNetEntry] = withSession(conn) { implicit session =>
-    sql"""SELECT synsets.ili, entries.lemma, synsets.definition FROM entries 
+    sql"""SELECT synsets.ili, entries.lemma, synsets.definition, synsets.pos FROM entries 
           JOIN entry_synset ON entries.id == entry_synset.entry
           JOIN synsets ON synsets.id == entry_synset.synset
           WHERE definition != "" AND lemma LIKE ${s + "%"} 
-          ORDER BY length(lemma) LIMIT 50""".as3[String, String, String].flatMap({
-            case (id, word, defn) => defn.split(";;;").map({ defn =>
-              WordNetEntry(word, id, defn)
+          ORDER BY length(lemma) LIMIT 50""".as4[String, String, String, String].flatMap({
+            case (id, word, defn, pos) => defn.split(";;;").map({ defn =>
+              WordNetEntry(word, id, defn, pos)
             })
           }).toList
   }

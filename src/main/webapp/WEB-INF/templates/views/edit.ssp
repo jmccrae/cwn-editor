@@ -594,7 +594,7 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
         $http.post("${contextUrl}/update/${entry.lemma}${next.map(s => "?next=" + s).getOrElse("")}", data).then(function() {
             window.location = "${contextUrl}/next_queue";
         }, function(response) {
-            alert("submitEntry failed:" + response.data + " (" + response.status + ")");
+            Console.log("submitEntry failed:" + response.data + " (" + response.status + ")");
             $scope.error = response.data;
         });
         

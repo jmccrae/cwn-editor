@@ -685,7 +685,8 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
                 "display": (ss.lemmas.join(",") + ": " + 
                     ss.definition + " <" + ss.id + ">"),
                 "definition": ss.definition,
-                "ili": ss.id
+                "ili": ss.id,
+                "pos": ss.pos
             };
         }
             
@@ -696,7 +697,8 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
                     return result.data.map(function(s) {
                         var ili = s.match(".* <([icp]\\d+)>")[1];
                         var defn = s.match(".*: (.*) <.*>")[1];
-                        return {"display": s, "ili": ili, "definition": defn};
+                        var pos = s.match(".* \\((.)\\):.*")[1];
+                        return {"display": s, "ili": ili, "definition": defn, "pos": pos};
                     });
                 });
         }
@@ -706,6 +708,7 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
                 $scope.$parent.sense.synset.id = item.ili;
                 $scope.$parent.sense.synset.definition = item.definition;
                 $scope.$parent.sense.external = true;
+                $scope.$parent.sense.synset.pos = item.pos;
             } else {
                 $scope.$parent.sense.synset = {
                     "id": "",

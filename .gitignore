@@ -30,3 +30,6 @@ wn31.xml
 users.csv
 *.sublime-project
 *.sublime-workspace
+harvester-rs/out
+harvester-rs/tweets-small.txt.gz
+harvester-rs/words.txt

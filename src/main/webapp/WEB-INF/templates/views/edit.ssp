@@ -348,7 +348,7 @@
                                 <td>
                                     <div class="input-group">
                                       <input type='text' class='form-control'
-                                       ng-model="abbrev.text"/>
+                                       ng-model="abbrev.text" autocorrect="off" autocapitalize="none"/>
                                       <div class="input-group-addon btn-danger"
                                        ng-click="removeAbbrev(abbrev)">&times;</div>
                                     </div>
@@ -369,7 +369,7 @@
                                 <td>
                                     <div class="input-group">
                                       <input type='text' class='form-control'
-                                       ng-model="misspell.text"/>
+                                       ng-model="misspell.text" autocorrect="off" autocapitalize="none"/>
                                       <div class="input-group-addon btn-danger"
                                        ng-click="removeMisspell(misspell)">&times;</div>
                                     </div>
@@ -391,7 +391,7 @@
                                     <div class="input-group">
                                       <input type='text' class='form-control'
                                        ng-model="inflected.text"
-                                       ng-change="changeInflected(inflected,$index)"/>
+                                       ng-change="changeInflected(inflected,$index)" autocorrect="off" autocapitalize="none"/>
                                       <div class="input-group-addon btn-danger"
                                        ng-click="removeInflected(inflected)">&times;</div>
                                     </div>
@@ -590,7 +590,7 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
                             var word = s.match("(.*) \\(.*\\):.*")[1];
                             return {"display": s, "ili": ili, "word": word};
                             }).filter(function(s) {
-                                return s.word == inflected.text;
+                                return s.word == inflected.text.lower();
                             })
                     });
  

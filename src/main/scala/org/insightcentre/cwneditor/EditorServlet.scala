@@ -112,7 +112,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
           }
         }
         case None =>
-          TemporaryRedirect(s"$context/login?redirect=/edit/${params("name")}")
+          TemporaryRedirect(s"$context/login?redirect=$context/edit/${params("name")}")
       }
     }
 
@@ -309,7 +309,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
           case Some(key) =>
             activeUsers.put(key, username)
             session("login") = key
-            SeeOther(context + redirect)
+            SeeOther(redirect)
           case None =>
             SeeOther(context + "/login?auth_failure=1&redirect=" + redirect)
         }
@@ -387,7 +387,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
           ssp("/update_user", "redirect" ->  redirect, "contextUrl" -> context, "loggedin" -> loggedin)
         }
         case None => {
-          TemporaryRedirect(s"$context/login?redirect=/update_user")
+          TemporaryRedirect(s"$context/login?redirect=$context/update_user")
         }
       }
     }

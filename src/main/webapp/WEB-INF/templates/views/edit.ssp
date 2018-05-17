@@ -590,7 +590,7 @@ angular.module('app').controller('CWNEditController', function($scope, $http) {
                             var word = s.match("(.*) \\(.*\\):.*")[1];
                             return {"display": s, "ili": ili, "word": word};
                             }).filter(function(s) {
-                                return s.word == inflected.text.lower();
+                                return s.word == inflected.text.toLowerCase();
                             })
                     });
  

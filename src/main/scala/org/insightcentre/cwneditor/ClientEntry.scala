@@ -81,8 +81,13 @@ case class Synset(
   def getPos = pos.getOrElse(throw new RuntimeException("Part of Speech is required"))
 }
 
-case class Alternative(text : String, `new` : Option[Boolean]) {
+case class Alternative(text : String, `new` : Option[String]) {
   def toDBSense = SSense(Nil, text)
+  def isNew = `new` match {
+    case Some("") => false
+    case None => false
+    case _ => true
+  }
 }
 
 object Relations {

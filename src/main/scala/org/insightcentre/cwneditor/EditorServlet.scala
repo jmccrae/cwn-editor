@@ -198,7 +198,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                               val resp = acceptUpdate(username, params.get("next"))
                               if(clientEntry.status == "inflected") {
                                 for(alt <- clientEntry.inflecteds) {
-                                  if(alt.`new` == Some(true)) {
+                                  if(alt.isNew) {
                                     store.assign(username,
                                       alt.text,
                                       clientEntry.examples.map(_.text))
@@ -208,7 +208,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                               }
                               if(clientEntry.status == "misspell") {
                                 for(alt <- clientEntry.misspells) {
-                                  if(alt.`new` == Some(true)) {
+                                  if(alt.isNew) {
                                     store.assign(username, alt.text,
                                       clientEntry.examples.map(_.text))
                                   }
@@ -216,7 +216,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
                               }
                               if(clientEntry.status == "abbrev") {
                                 for(alt <- clientEntry.abbrevs) {
-                                  if(alt.`new` == Some(true)) {
+                                  if(alt.isNew) {
                                     store.assign(username, alt.text,
                                       clientEntry.examples.map(_.text))
                                   }

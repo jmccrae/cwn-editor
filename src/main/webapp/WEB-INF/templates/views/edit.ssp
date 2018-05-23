@@ -402,7 +402,7 @@
                                         <td>{{isyn.display}}</td>
                                     </tr>
                                     <tr>
-                                        <td> <div class="radio"><label><input type='radio' class='form-control' ng-model="inflected.new"/name="inflected_synonyms_{{inflected_index}}"></label></div> </td>
+                                        <td> <div class="radio"><label><input type='radio' class='form-control' ng-model="inflected.new" value="true" name="inflected_synonyms_{{inflected_index}}"></label></div> </td>
                                         <td>Lemma is not yet in dictionary (adds to my queue)</td>
                                     </tr>
                                     </table>

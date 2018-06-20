@@ -95,6 +95,13 @@ object FromGWN {
     es3.values.toSeq
   }
 
+  def readDefinition(s : Node) : String = {
+    (s \ "Definition").text + 
+      (s \ "@{http://purl.org/dc/elements/1.1/}source").headOption.map(x => {
+        s" [${x.text}]"
+      }).getOrElse("")
+  }
+
   def main(args : Array[String]) {
     val xmlFile = if(args.length < 1) {
       "colloqwn-1.0.xml"
@@ -147,7 +154,7 @@ object FromGWN {
       (s \ "@id").text -> Synset(
         id=id,
         pos=(s \ "@partOfSpeech").text,
-        definition=(s \ "Definition").text,
+        definition=readDefinition(s),
         relations=(s \ "SynsetRelation").map(sr =>
             SynsetRelation(srType(sr), (sr \ "@target").text)).toList)
     }).toMap
@@ -165,7 +172,7 @@ object FromGWN {
         (s \ "@id").text -> Synset(
           id=(s \ "@ili").text,
           pos=(s \ "@partOfSpeech").text,
-          definition=(s \ "Definition").text,
+          definition=readDefinition(s),
           relations=(s \ "SynsetRelation").map(sr =>
               SynsetRelation(srType(sr), (sr \ "@target").text)).toList)
       } else {
@@ -173,7 +180,7 @@ object FromGWN {
         val id = s"p$nonILIpwn"
         (s \ "@id").text -> Synset(id=id, 
           pos=(s \ "@partOfSpeech").text,
-          definition=(s \ "Definition").text,
+          definition=readDefinition(s),
           relations=(s \ "SynsetRelation").map(sr =>
               SynsetRelation(srType(sr), (sr \ "@target").text)).toList)
       }

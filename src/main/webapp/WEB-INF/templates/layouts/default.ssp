@@ -90,10 +90,6 @@
 
             <!-- Bootstrap core JavaScript
             ================================================== -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <!--<script src="../../dist/js/bootstrap.min.js"></script>-->
-            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-            <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
 
             <script src="${contextUrl}/assets/jquery-1.12.0.min.js"></script>
             <script src="${contextUrl}/assets/jquery-ui.min.js"></script>
@@ -101,7 +97,19 @@
             <script src="${contextUrl}/assets/bootstrap.min.js"></script>
             <script src="${contextUrl}/assets/masonry.pkgd.min.js"></script>
             <script src="${contextUrl}/assets/imagesloaded.pkgd.min.js"></script>
-            <script src="${contextUrl}/assets/cwnedit.js"></script>
             <script src="${contextUrl}/assets/wncomplete.js"></script>
+            <script>
+            $(document).ready(function() {
+                    var $container = $(".entries-row").masonry({
+                        itemSelector: '.summary-entry',
+                        columnWidth: '.col-md-5',
+                        percentPosition: true
+                    });
+
+                    $container.imagesLoaded( function() {
+                         $container.masonry();
+                    });
+            });
+            </script>
         </body>
     </html>

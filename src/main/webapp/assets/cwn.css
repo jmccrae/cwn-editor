@@ -235,3 +235,47 @@ td.sense-rel2 {
     height: 20px;
 }
 
+.synselect .list-group {
+    max-height:200px;
+    overflow-y:auto;
+    width:100%;
+}
+
+.synselect .clear-icon {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    bottom: 0;
+    height: 30px;
+    margin: auto;
+    font-size: 25px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.synrelselect {
+    margin-top:20px;
+    max-width: 500px;
+}
+
+.synselect input {
+    width: 100%;
+}
+
+th.relation {
+    margin-right:10px;
+}
+
+button.add-sense {
+    margin:10px;
+}
+
+input.edit-submit {
+    margin:10px;
+}
+
+div.edit-bottom {
+    height: 90vh;
+    width: 25vw
+}
+

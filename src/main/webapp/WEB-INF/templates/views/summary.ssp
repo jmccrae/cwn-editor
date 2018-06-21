@@ -122,4 +122,6 @@ angular.module('app').controller('SynsetController', function($scope,$http) {
 angular.module('app').filter('encodeURIComponent', function() {
     return window.encodeURIComponent;
 });
+
+
 </script>

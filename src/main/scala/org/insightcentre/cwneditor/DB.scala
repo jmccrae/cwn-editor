@@ -215,7 +215,7 @@ class DB(db : File) {
     })
   }
   def search(pattern : String) : List[(String, Entry)] = withSession(conn) { implicit session =>
-    sql"""SELECT id, content FROM entries WHERE word LIKE ${pattern.replaceAll("\\*", "%")} AND pwn=0""".
+    sql"""SELECT id, content FROM entries WHERE lemma LIKE ${pattern.replaceAll("\\*", "%")} AND pwn=0""".
       as2[String, String].map({ 
         case (id, content) => (id, content.parseJson.convertTo[Entry])
       }).toList

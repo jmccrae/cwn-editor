@@ -498,6 +498,11 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       }
     }
 
+    get("/colloqwn.xml") {
+      response.setContentType("application/xml")
+      ToGWN.toGWN(store, response.getWriter())
+    }
+
     get("/") {
       username match {
         case Some(username) =>
@@ -506,6 +511,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
           TemporaryRedirect(s"$context/summary/0")
       }
     }
+
 }
 
 case class EditorServletException(msg : String) extends RuntimeException(msg)

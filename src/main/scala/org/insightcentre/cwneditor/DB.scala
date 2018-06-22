@@ -181,7 +181,6 @@ class DB(db : File) {
     sql"""SELECT content FROM entries WHERE lemma=${id}""".as1[String].headOption.map(_.parseJson.convertTo[Entry])
   }
 
-
   def getSynset(id : String) : Option[Synset] = withSession(conn) { implicit session =>
     sql"""SELECT content FROM synsets WHERE ili=${id}""".as1[String].headOption.
     map(_.parseJson.convertTo[Synset])

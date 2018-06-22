@@ -33,3 +33,4 @@ users.csv
 harvester-rs/out
 harvester-rs/tweets-small.txt.gz
 harvester-rs/words.txt
+tmp.xml

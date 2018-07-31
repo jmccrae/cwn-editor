@@ -366,7 +366,15 @@ fn clean_line(line : &str) -> String {
     lazy_static! {
         static ref USER : Regex = Regex::new("@\\S+").expect("Bad Regex");
     }
-    USER.replace_all(line, "").to_string()
+    let s = USER.replace_all(line, "");
+    if s.ends_with("…") {
+        s[..s.rfind(" ").unwrap_or(s.len())].to_string()
+    } else if s.ends_with("… ") {
+        let t2 = s[..(s.len() - 1)].to_string();
+        t2[..t2.rfind(" ").unwrap_or(t2.len())].to_string()
+    } else{
+        s.to_string()
+    }
 }
 
 

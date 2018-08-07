@@ -304,7 +304,7 @@ class CWNEditorServlet extends ScalatraServlet with ScalateSupport {
       try {
         val username = params.getOrElse("username", throw new EditorServletException("Username is required"))
         val password = params.getOrElse("password", throw new EditorServletException("Password is required"))
-        val redirect = params.getOrElse("redirect", "/")
+        val redirect = params.getOrElse("redirect", context + "/")
         login.login(username, password) match {
           case Some(key) =>
             activeUsers.put(key, username)

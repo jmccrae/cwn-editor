@@ -264,7 +264,58 @@
                                   <option value="holo_portion">Holonym portion (divides into)</option>
                                   <option value="holo_substance">Holonym substance (substance of)</option>
                                   <option value="pejorative">Pejorative for</option>
-                                  <option value="examplifies">Exemplifies</option>
+                                  <option value="agent">Agent</option>
+                                  <option value="antonym">Antonym</option>
+                                  <option value="attribute">Attribute</option>
+                                  <option value="be_in_state">Be in state</option>
+                                  <option value="classified_by">Classified by</option>
+                                  <option value="classifies">Classifies</option>
+                                  <option value="co_agent_instrument">Co agent instrument</option>
+                                  <option value="co_agent_patient">Co agent patient</option>
+                                  <option value="co_agent_result">Co agent result</option>
+                                  <option value="co_instrument_agent">Co instrument agent</option>
+                                  <option value="co_instrument_patient">Co instrument patient</option>
+                                  <option value="co_instrument_result">Co instrument result</option>
+                                  <option value="co_patient_agent">Co patient agent</option>
+                                  <option value="co_patient_instrument">Co patient instrument</option>
+                                  <option value="co_result_agent">Co result agent</option>
+                                  <option value="co_result_instrument">Co result instrument</option>
+                                  <option value="co_role">Co role</option>
+                                  <option value="direction">Direction</option>
+                                  <option value="entails">Entails</option>
+                                  <option value="eq_synonym">Eq synonym</option>
+                                  <option value="exemplifies">Exemplifies</option>
+                                  <option value="has_domain_region">Has domain region</option>
+                                  <option value="has_domain_topic">Has domain topic</option>
+                                  <option value="holonym">Holonym</option>
+                                  <option value="in_manner">In manner</option>
+                                  <option value="involved">Involved</option>
+                                  <option value="involved_agent">Involved agent</option>
+                                  <option value="involved_direction">Involved direction</option>
+                                  <option value="involved_instrument">Involved instrument</option>
+                                  <option value="involved_location">Involved location</option>
+                                  <option value="involved_patient">Involved patient</option>
+                                  <option value="involved_result">Involved result</option>
+                                  <option value="involved_source_direction">Involved source direction</option>
+                                  <option value="involved_target_direction">Involved target direction</option>
+                                  <option value="is_caused_by">Is caused by</option>
+                                  <option value="is_entailed_by">Is entailed by</option>
+                                  <option value="is_exemplified_by">Is exemplified by</option>
+                                  <option value="is_subevent_of">Is subevent of</option>
+                                  <option value="location">Location</option>
+                                  <option value="manner_of">Manner of</option>
+                                  <option value="meronym">Meronym</option>
+                                  <option value="other">Other</option>
+                                  <option value="patient">Patient</option>
+                                  <option value="restricted_by">Restricted by</option>
+                                  <option value="restricts">Restricts</option>
+                                  <option value="result">Result</option>
+                                  <option value="role">Role</option>
+                                  <option value="source_direction">Source direction</option>
+                                  <option value="state_of">State of</option>
+                                  <option value="subevent">Subevent</option>
+                                  <option value="target_direction">Target direction</option>
+
                               </select>
                             </td>
                             <td>
@@ -285,7 +336,8 @@
                                     </div>
                             </div>
                             </td>
-                            <td class="sense-rel">{{relation.trgWord}}</td>
+                            <td class="sense-rel" ng-if="relation.trgWord">{{relation.trgWord}}</td>
+                            <td class="sense-rel" ng-if="!relation.trgWord"><i>No Word</i></td>
                             <td class="sense-rel">{{relation.trgSynset}}</td>
                             <td class="sense-rel2">
                               <button type="button" class="btn btn-danger pull-right"

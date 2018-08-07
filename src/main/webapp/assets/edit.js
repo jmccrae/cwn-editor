@@ -219,6 +219,7 @@ angular.module('app').controller('SynRelAutoComplete', function($http,$scope) {
                         $scope.$parent.relation.trgSynset + ">"
                 };
             }
+            self.searchText = self.selectedItem.display;
         }
 
         function querySearch () {
@@ -246,6 +247,8 @@ angular.module('app').controller('SynRelAutoComplete', function($http,$scope) {
         self.clearItem = function() {
                 $scope.$parent.relation.trgSynset = "";
                 $scope.$parent.relation.trgWord = "";
+                self.searchText = "";
+                self.items = [];
         };
     });
 
@@ -300,6 +303,7 @@ angular.module('app').controller('SynAutoComplete', function($http,$scope) {
             };
             $scope.$parent.sense.external = false;
             self.searchText = "";
+            self.items = [];
         }
 });
 
